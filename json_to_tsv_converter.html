@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JSON → TSV 変換ツール（ローカル専用）</title>
+  <style>
+    :root { --fg:#111; --bg:#fafafa; --muted:#6b7280; --brand:#2563eb; }
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic UI',sans-serif;color:var(--fg);background:var(--bg)}
+    header{padding:24px 16px;border-bottom:1px solid #e5e7eb;background:white;position:sticky;top:0;z-index:10}
+    h1{margin:0 0 6px;font-size:20px}
+    .desc{color:var(--muted);font-size:13px}
+    main{max-width:1040px;margin:0 auto;padding:24px 16px 48px}
+    .panel{background:white;border:1px solid #e5e7eb;border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:18px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .btn{appearance:none;border:1px solid #d1d5db;background:white;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600}
+    .btn.primary{background:var(--brand);border-color:var(--brand);color:white}
+    .btn:disabled{opacity:.5;cursor:not-allowed}
+    .drop{border:2px dashed #cbd5e1;border-radius:14px;padding:22px;text-align:center;color:#475569;background:#f8fafc}
+    .drop.dragover{border-color:var(--brand);background:#eef2ff}
+    input[type=file]{display:none}
+    .files{margin-top:12px;font-size:14px}
+    .small{font-size:12px;color:var(--muted)}
+    .log{margin-top:18px;white-space:pre-wrap;background:#0b1020;color:#d1e4ff;border-radius:10px;padding:12px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;max-height:260px;overflow:auto}
+    table{border-collapse:collapse;width:100%;font-size:13px;margin-top:16px}
+    th,td{border-bottom:1px solid #e5e7eb;padding:8px 10px;text-align:left}
+    th{background:#f3f4f6}
+    .success{color:#065f46;background:#ecfdf5;padding:6px 10px;border-radius:8px;display:inline-block}
+    footer{margin-top:24px;color:var(--muted);font-size:12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+    .badge{display:inline-block;background:#e5e7eb;border-radius:999px;padding:2px 8px;font-size:12px;margin-right:6px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JSON → TSV 変換ツール</h1>
+    <div class="desc">ローカルで動作します。ファイルを選択またはドロップして、4つのTSV（events / genres / eraSettings / metadata）を書き出します。</div>
+  </header>
+  <main>
+    <section class="panel">
+      <div class="grid">
+        <div>
+          <label for="fileInput" class="btn">JSONを選択…</label>
+          <input id="fileInput" type="file" accept="application/json,.json" multiple />
+        </div>
+        <div>
+          <button id="convertBtn" class="btn primary" disabled>変換して保存（選択分）</button>
+        </div>
+        <div>
+          <label class="small">※ ブラウザ上のみで処理（外部送信なし）／ 文字コード: UTF-8（BOM付）</label>
+        </div>
+      </div>
+
+      <div id="drop" class="drop" tabindex="0" aria-label="ここにJSONファイルをドロップ">
+        ここに JSON ファイルをドラッグ＆ドロップしてもOK
+      </div>
+
+      <div id="fileList" class="files small">ファイル未選択</div>
+
+      <div class="grid" style="margin-top:10px">
+        <div><span class="badge">events</span>label / label_en / startYear / <b>endYear</b> / genre / imp / url / url_en / note / note_en</div>
+        <div><span class="badge">genres</span>code / label / label_en / conjunction</div>
+        <div><span class="badge">eraSettings</span>name / startYear / endYear / color / opacity / enabled / fillEnabled</div>
+        <div><span class="badge">metadata</span>title_ja / title_en / description_ja / description_en / initialCreator / contributors / contact_admin_* / createdAt / version / language / copyright / license / licenseUrl / notes</div>
+      </div>
+
+      <div id="result" class="log" hidden></div>
+
+      <table id="summary" hidden>
+        <thead>
+          <tr><th>入力ファイル</th><th>出力（ダウンロード）</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <footer>
+        仕様: eventsの<code>genre</code>は複数値を <code>|</code> で連結。
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    // ---------- Helpers ----------
+    const byId = (id) => document.getElementById(id);
+    const $fileInput = byId('fileInput');
+    const $convertBtn = byId('convertBtn');
+    const $drop = byId('drop');
+    const $fileList = byId('fileList');
+    const $result = byId('result');
+    const $summary = byId('summary');
+
+    /** Normalize arrays to pipe-joined string */
+    function listToPipe(v) {
+      if (v == null) return '';
+      if (Array.isArray(v)) return v.map(x => x ?? '').join('|');
+      return String(v ?? '');
+    }
+
+    /** Safe cell: strip tabs/newlines to keep TSV clean */
+    function cell(v) {
+      const s = (v ?? '').toString();
+      return s.replace(/[\t\r\n]+/g, ' ').trim();
+    }
+
+    /** Build TSV string with BOM for Excel friendliness */
+    function toTSV(rows, headers) {
+      const lines = [];
+      lines.push(headers.join('\t'));
+      for (const r of rows) {
+        lines.push(headers.map(h => cell(r[h])).join('\t'));
+      }
+      const tsv = lines.join('\n');
+      const bom = '\uFEFF';
+      return bom + tsv;
+    }
+
+    /** Read a File as text */
+    function readFileAsText(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsText(file, 'utf-8');
+      });
+    }
+
+    function get(obj, path, def='') {
+      let cur = obj;
+      for (const p of path) {
+        if (cur && typeof cur === 'object' && p in cur) {
+          cur = cur[p];
+        } else {
+          return def;
+        }
+      }
+      return cur ?? def;
+    }
+
+    /** Build 4 datasets according to the requested schemas */
+    function buildDatasets(data) {
+      // ---- events ----
+      const eventsHeaders = [
+        'label','label_en','startYear','endYear','genre','imp','url','url_en','note','note_en'
+      ];
+      const eventsRows = [];
+      const ev = data?.events ?? {};
+      if (ev && typeof ev === 'object') {
+        for (const [yearKey, items] of Object.entries(ev)) {
+          if (!Array.isArray(items)) continue;
+          for (const it of items) {
+            eventsRows.push({
+              'label': it?.label ?? '',
+              'label_en': it?.label_en ?? '',
+              'startYear': it?.startYear ?? yearKey,
+              'endYear': it?.endYear ?? '',
+              'genre': listToPipe(it?.genre ?? []),
+              'imp': it?.imp ?? '',
+              'url': it?.url ?? '',
+              'url_en': it?.url_en ?? '',
+              'note': it?.note ?? '',
+              'note_en': it?.note_en ?? '',
+            });
+          }
+        }
+      }
+
+      // ---- genres ----
+      const genresHeaders = ['code','label','label_en','conjunction'];
+      const genresRows = [];
+      const genres = data?.genres ?? [];
+      if (Array.isArray(genres)) {
+        for (const g of genres) {
+          genresRows.push({
+            code: g?.code ?? '',
+            label: g?.label ?? '',
+            label_en: g?.label_en ?? g?.labelEn ?? '',
+            conjunction: g?.conjunction ?? g?.conj ?? '',
+          });
+        }
+      }
+
+      // ---- eraSettings ----
+      const eraHeaders = ['name','startYear','endYear','color','opacity','enabled','fillEnabled'];
+      const eraRows = [];
+      const eras = data?.eraSettings ?? [];
+      if (Array.isArray(eras)) {
+        for (const e of eras) {
+          eraRows.push({
+            name: e?.name ?? '',
+            startYear: e?.startYear ?? '',
+            endYear: e?.endYear ?? '',
+            color: e?.color ?? '',
+            opacity: e?.opacity ?? '',
+            enabled: e?.enabled ?? '',
+            fillEnabled: e?.fillEnabled ?? '',
+          });
+        }
+      }
+
+      // ---- metadata ----
+      const metaHeaders = [
+        'title_ja','title_en','description_ja','description_en','initialCreator','contributors',
+        'contact_admin_name','contact_admin_email','contact_admin_x','contact_admin_org',
+        'createdAt','version','language','copyright','license','licenseUrl','notes'
+      ];
+      const m = data?.metadata ?? {};
+      const metaRow = {
+        title_ja: get(m, ['title','ja']),
+        title_en: get(m, ['title','en']),
+        description_ja: get(m, ['description','ja']),
+        description_en: get(m, ['description','en']),
+        initialCreator: m?.initialCreator ?? '',
+        contributors: listToPipe(m?.contributors ?? []),
+        contact_admin_name: get(m, ['contact','administrator','name']),
+        contact_admin_email: get(m, ['contact','administrator','email']),
+        contact_admin_x: get(m, ['contact','administrator','x']),
+        contact_admin_org: get(m, ['contact','administrator','organization']),
+        createdAt: m?.createdAt ?? '',
+        version: m?.version ?? '',
+        language: listToPipe(m?.language ?? ''),
+        copyright: m?.copyright ?? '',
+        license: m?.license ?? '',
+        licenseUrl: m?.licenseUrl ?? '',
+        notes: m?.notes ?? '',
+      };
+
+      return {
+        events: { headers: eventsHeaders, rows: eventsRows },
+        genres: { headers: genresHeaders, rows: genresRows },
+        era: { headers: eraHeaders, rows: eraRows },
+        meta: { headers: metaHeaders, rows: [metaRow] },
+      };
+    }
+
+    function downloadTSV(name, tsvString) {
+      const blob = new Blob([tsvString], { type: 'text/tab-separated-values;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = name;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
+    }
+
+    function baseName(fileName) {
+      // remove extension(s)
+      const idx = fileName.lastIndexOf('.');
+      return idx > 0 ? fileName.slice(0, idx) : fileName;
+    }
+
+    function formatOutNames(base) {
+      return {
+        events: `${base}_events.tsv`,
+        genres: `${base}_genres.tsv`,
+        era: `${base}_eraSettings.tsv`,
+        meta: `${base}_metadata.tsv`,
+      };
+    }
+
+    function showFiles(list) {
+      if (!list.length) { $fileList.textContent = 'ファイル未選択'; return; }
+      const names = Array.from(list).map(f => `• ${f.name} (${(f.size/1024).toFixed(1)} KB)`).join('\n');
+      $fileList.textContent = names;
+    }
+
+    async function handleFiles(fileList) {
+      $result.hidden = false; $result.textContent = '変換開始…\n';
+      $summary.hidden = false; $summary.querySelector('tbody').innerHTML = '';
+      for (const file of fileList) {
+        try {
+          $result.textContent += `\n▶ ${file.name} を読込中…`;
+          const text = await readFileAsText(file);
+          const json = JSON.parse(text);
+          const ds = buildDatasets(json);
+          const base = baseName(file.name);
+          const outs = formatOutNames(base);
+
+          const tsvEvents = toTSV(ds.events.rows, ds.events.headers);
+          const tsvGenres = toTSV(ds.genres.rows, ds.genres.headers);
+          const tsvEra = toTSV(ds.era.rows, ds.era.headers);
+          const tsvMeta = toTSV(ds.meta.rows, ds.meta.headers);
+
+          downloadTSV(outs.events, tsvEvents);
+          downloadTSV(outs.genres, tsvGenres);
+          downloadTSV(outs.era, tsvEra);
+          downloadTSV(outs.meta, tsvMeta);
+
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${file.name}</td>
+            <td>
+              <span class="success">保存完了</span>
+              <div class="small">${outs.events}, ${outs.genres}, ${outs.era}, ${outs.meta}</div>
+            </td>`;
+          $summary.querySelector('tbody').appendChild(tr);
+          $result.textContent += `\n   → 書き出し: ${outs.events}, ${outs.genres}, ${outs.era}, ${outs.meta}`;
+        } catch (err) {
+          console.error(err);
+          $result.textContent += `\n✖ エラー: ${file.name} — ${err.message || err}`;
+        }
+      }
+      $result.textContent += `\n\n完了。`;
+    }
+
+    // ---------- UI Events ----------
+    let currentFiles = [];
+
+    $fileInput.addEventListener('change', (e) => {
+      currentFiles = Array.from(e.target.files || []);
+      showFiles(currentFiles);
+      $convertBtn.disabled = currentFiles.length === 0;
+    });
+
+    $convertBtn.addEventListener('click', async () => {
+      if (!currentFiles.length) return;
+      await handleFiles(currentFiles);
+    });
+
+    // Drag & Drop
+    ['dragenter','dragover'].forEach(evt => $drop.addEventListener(evt, (e) => {
+      e.preventDefault(); e.stopPropagation();
+      $drop.classList.add('dragover');
+    }));
+    ['dragleave','drop'].forEach(evt => $drop.addEventListener(evt, (e) => {
+      e.preventDefault(); e.stopPropagation();
+      if (evt === 'drop') {
+        const files = Array.from(e.dataTransfer.files || [])
+          .filter(f => /\.json$/i.test(f.name));
+        if (files.length) {
+          currentFiles = files; showFiles(currentFiles);
+          $convertBtn.disabled = false;
+        }
+      }
+      $drop.classList.remove('dragover');
+    }));
+  </script>
+</body>
+</html>
