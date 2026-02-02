@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Google Sheets → JSON 変換ツール</title>
+  <style>
+    :root { --fg:#111; --bg:#fafafa; --muted:#6b7280; --brand:#2563eb; }
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic UI',sans-serif;color:var(--fg);background:var(--bg)}
+    header{padding:24px 16px;border-bottom:1px solid #e5e7eb;background:white;position:sticky;top:0;z-index:10}
+    h1{margin:0 0 6px;font-size:20px}
+    .desc{color:var(--muted);font-size:13px}
+    main{max-width:1040px;margin:0 auto;padding:24px 16px 48px}
+    .panel{background:white;border:1px solid #e5e7eb;border-radius:12px;box-shadow:0 1px 2px rgba(0,0,0,.04);padding:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+    .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    label{font-size:13px;font-weight:600;display:block;margin-bottom:4px}
+    input[type=text]{width:100%;box-sizing:border-box;border:1px solid #d1d5db;border-radius:8px;padding:8px 10px;font-size:13px}
+    .small{font-size:12px;color:var(--muted)}
+    .btn{appearance:none;border:1px solid #d1d5db;background:white;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600;font-size:14px}
+    .btn.primary{background:var(--brand);border-color:var(--brand);color:white}
+    .btn:disabled{opacity:.5;cursor:not-allowed}
+    .log{margin-top:18px;white-space:pre-wrap;background:#0b1020;color:#d1e4ff;border-radius:10px;padding:12px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;max-height:260px;overflow:auto}
+    footer{margin-top:24px;color:var(--muted);font-size:12px}
+    .badge{display:inline-block;background:#e5e7eb;border-radius:999px;padding:2px 8px;font-size:12px;margin-right:6px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Google Sheets → JSON 変換ツール</h1>
+    <div class="desc">
+      Google Sheets 上の4つのシート（events / genres / eraSettings / metadata）から JSON を生成してローカルに保存します。
+      シートは公開またはリンク共有でアクセス可能である必要があります。
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <div class="grid" style="margin-bottom:12px">
+        <div style="grid-column:1/-1">
+          <label for="gasApiUrl">GAS API URL（推奨）</label>
+          <input id="gasApiUrl" type="text" placeholder="https://script.google.com/macros/s/....../exec" />
+          <div class="small">Google Apps Script の Web App URL。CORS 問題を回避できます。空欄の場合は直接取得を試みます（CORS エラーになる可能性があります）。</div>
+        </div>
+        <div style="grid-column:1/-1">
+          <label for="sheetUrl">Google Sheets のURL</label>
+          <input id="sheetUrl" type="text" placeholder="https://docs.google.com/spreadsheets/d/....../edit" />
+          <div class="small">全体のスプレッドシートURL（/d/〜/edit の形式）を貼り付けてください。</div>
+        </div>
+
+        <div>
+          <label for="sheetEvents">events シート名</label>
+          <input id="sheetEvents" type="text" placeholder="events" />
+        </div>
+        <div>
+          <label for="sheetGenres">genres シート名</label>
+          <input id="sheetGenres" type="text" placeholder="genres" />
+        </div>
+        <div>
+          <label for="sheetEra">eraSettings シート名</label>
+          <input id="sheetEra" type="text" placeholder="eraSettings" />
+        </div>
+        <div>
+          <label for="sheetMeta">metadata シート名</label>
+          <input id="sheetMeta" type="text" placeholder="metadata" />
+        </div>
+
+        <div>
+          <label for="outFileName">出力 JSON ファイル名</label>
+          <input id="outFileName" type="text" placeholder="nativemap_data.json" />
+          <div class="small">空の場合は <code>nativemap_data.json</code> になります。</div>
+        </div>
+
+        <div style="display:flex;align-items:flex-end">
+          <button id="convertBtn" class="btn primary">変換してダウンロード</button>
+        </div>
+      </div>
+
+      <div class="small">
+        シートの列仕様（TSVヘッダ）は以下の前提です。
+        <div><span class="badge">events</span>label / label_en / startYear / <b>endYear</b> / genre / imp / url / url_en / note / note_en</div>
+        <div><span class="badge">genres</span>code / label / label_en / conjunction</div>
+        <div><span class="badge">eraSettings</span>name / startYear / <b>endYear</b> / color / opacity / enabled / fillEnabled</div>
+        <div><span class="badge">metadata</span>title_ja / title_en / description_ja / description_en / initialCreator / contributors / contact_admin_* / createdAt / version / language / copyright / license / licenseUrl / notes</div>
+      </div>
+
+      <div id="log" class="log" hidden></div>
+
+      <footer>
+        仕様: GAS API URL を指定した場合は、GAS 経由で JSON を直接取得します（推奨）。GAS API URL が空の場合は、Google Sheets の URL からスプレッドシートIDを抽出し、各シートを TSV として取得してから JSON 構造（events / genres / eraSettings / metadata）に組み立てます（CORS エラーになる可能性があります）。
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    const byId = (id) => document.getElementById(id);
+    const $gasApiUrl = byId('gasApiUrl');
+    const $sheetUrl = byId('sheetUrl');
+    const $sheetEvents = byId('sheetEvents');
+    const $sheetGenres = byId('sheetGenres');
+    const $sheetEra = byId('sheetEra');
+    const $sheetMeta = byId('sheetMeta');
+    const $outFileName = byId('outFileName');
+    const $convertBtn = byId('convertBtn');
+    const $log = byId('log');
+
+    function logLine(msg) {
+      $log.hidden = false;
+      const now = new Date().toLocaleTimeString();
+      $log.textContent += `[${now}] ${msg}\n`;
+      $log.scrollTop = $log.scrollHeight;
+    }
+
+    function parseSpreadsheetId(url) {
+      const m = url.match(/\/spreadsheets\/d\/([a-zA-Z0-9-_]+)/);
+      return m ? m[1] : null;
+    }
+
+    function extractSpreadsheetId(urlOrId) {
+      const id = parseSpreadsheetId(urlOrId);
+      return id || urlOrId.trim();
+    }
+
+    async function fetchViaGAS(gasApiUrl, spreadsheetId, sheetNames) {
+      const u = new URL(gasApiUrl);
+      u.searchParams.set('sheetId', spreadsheetId);
+      if (sheetNames.events) u.searchParams.set('ev', sheetNames.events);
+      if (sheetNames.genres) u.searchParams.set('gn', sheetNames.genres);
+      if (sheetNames.eraSettings) u.searchParams.set('er', sheetNames.eraSettings);
+      if (sheetNames.metadata) u.searchParams.set('md', sheetNames.metadata);
+      logLine(`GAS API から取得中: ${u.toString()}`);
+      const res = await fetch(u.toString(), { cache: 'no-store' });
+      if (!res.ok) {
+        throw new Error(`GAS fetch failed: ${res.status} ${res.statusText}`);
+      }
+      return await res.json();
+    }
+
+    function buildExportUrl(spreadsheetId, sheetName) {
+      const base = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/export`;
+      const params = new URLSearchParams({
+        format: 'tsv',
+        sheet: sheetName
+      });
+      return `${base}?${params.toString()}`;
+    }
+
+    async function fetchTSV(spreadsheetId, sheetName) {
+      const url = buildExportUrl(spreadsheetId, sheetName);
+      logLine(`シート "${sheetName}" を取得中: ${url}`);
+      const res = await fetch(url);
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} (${sheetName})`);
+      }
+      return await res.text();
+    }
+
+    function parseTSV(tsvText) {
+      const lines = tsvText.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
+      const headerLine = lines.shift();
+      if (!headerLine) return [];
+      const headers = headerLine.split('\t').map(h => h.trim());
+      const rows = [];
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        const cols = line.split('\t');
+        const row = {};
+        headers.forEach((h, i) => {
+          row[h] = (cols[i] ?? '').trim();
+        });
+        rows.push(row);
+      }
+      return rows;
+    }
+
+    function splitPipe(str) {
+      if (!str) return [];
+      return str.split('|').map(s => s.trim()).filter(Boolean);
+    }
+
+    function buildEventsFromRows(rows) {
+      const events = {};
+      for (const r of rows) {
+        const label = (r['label'] || '').trim();
+        const startYear = (r['startYear'] || '').trim();
+        const endYear = (r['endYear'] || '').trim();
+        if (!label && !startYear && !endYear) continue;
+        const yearKey = startYear || '';
+        const item = {
+          label: label,
+          label_en: r['label_en'] || '',
+          startYear: startYear || '',
+          endYear: endYear || '',
+          genre: splitPipe(r['genre'] || ''),
+          imp: r['imp'] || '',
+          url: r['url'] || '',
+          url_en: r['url_en'] || '',
+          note: r['note'] || '',
+          note_en: r['note_en'] || '',
+        };
+        if (!events[yearKey]) events[yearKey] = [];
+        events[yearKey].push(item);
+      }
+      return events;
+    }
+
+    function buildGenresFromRows(rows) {
+      const genres = [];
+      for (const r of rows) {
+        const code = (r['code'] || '').trim();
+        const label = (r['label'] || '').trim();
+        const label_en = (r['label_en'] || '').trim();
+        const conjunction = (r['conjunction'] || '').trim();
+        if (!code && !label && !label_en && !conjunction) continue;
+        genres.push({
+          code,
+          label,
+          label_en,
+          conjunction,
+        });
+      }
+      return genres;
+    }
+
+    function buildEraFromRows(rows) {
+      const eraSettings = [];
+      for (const r of rows) {
+        const name = (r['name'] || '').trim();
+        const startYear = (r['startYear'] || '').trim();
+        const endYear = (r['endYear'] || '').trim();
+        const color = (r['color'] || '').trim();
+        const opacity = (r['opacity'] || '').trim();
+        const enabled = (r['enabled'] || '').trim();
+        const fillEnabled = (r['fillEnabled'] || '').trim();
+        if (!name && !startYear && !endYear && !color && !opacity && !enabled && !fillEnabled) continue;
+        eraSettings.push({
+          name,
+          startYear,
+          endYear,
+          color,
+          opacity,
+          enabled,
+          fillEnabled,
+        });
+      }
+      return eraSettings;
+    }
+
+    function buildMetadataFromRows(rows) {
+      if (!rows.length) return {};
+      const r = rows[0];
+      const metadata = {
+        title: {
+          ja: r['title_ja'] || '',
+          en: r['title_en'] || '',
+        },
+        description: {
+          ja: r['description_ja'] || '',
+          en: r['description_en'] || '',
+        },
+        initialCreator: r['initialCreator'] || '',
+        contributors: splitPipe(r['contributors'] || ''),
+        contact: {
+          administrator: {
+            name: r['contact_admin_name'] || '',
+            email: r['contact_admin_email'] || '',
+            x: r['contact_admin_x'] || '',
+            organization: r['contact_admin_org'] || '',
+          },
+        },
+        createdAt: r['createdAt'] || '',
+        version: r['version'] || '',
+        language: splitPipe(r['language'] || ''),
+        copyright: r['copyright'] || '',
+        license: r['license'] || '',
+        licenseUrl: r['licenseUrl'] || '',
+        notes: r['notes'] || '',
+      };
+      return metadata;
+    }
+
+    function downloadJSON(filename, obj) {
+      const json = JSON.stringify(obj, null, 2);
+      const blob = new Blob([json], { type: 'application/json;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
+    }
+
+    async function handleConvert() {
+      $log.textContent = '';
+      $log.hidden = true;
+
+      const gasApiUrl = $gasApiUrl.value.trim();
+      const url = $sheetUrl.value.trim();
+      const sheetEvents = ($sheetEvents.value.trim() || 'events');
+      const sheetGenres = ($sheetGenres.value.trim() || 'genres');
+      const sheetEra = ($sheetEra.value.trim() || 'eraSettings');
+      const sheetMeta = ($sheetMeta.value.trim() || 'metadata');
+      const outName = ($outFileName.value.trim() || 'nativemap_data.json');
+
+      if (!gasApiUrl && !url) {
+        alert('GAS API URL または Google Sheets の URL を入力してください。');
+        return;
+      }
+
+      $convertBtn.disabled = true;
+      try {
+        let result;
+        
+        // GAS 経由で取得（推奨）
+        if (gasApiUrl) {
+          const spreadsheetId = url ? extractSpreadsheetId(url) : '';
+          if (!spreadsheetId) {
+            throw new Error('Google Sheets の URL または Spreadsheet ID を入力してください。');
+          }
+          logLine(`スプレッドシートID: ${spreadsheetId}`);
+          logLine(`シート名: events="${sheetEvents}", genres="${sheetGenres}", eraSettings="${sheetEra}", metadata="${sheetMeta}"`);
+          
+          const ds = await fetchViaGAS(gasApiUrl, spreadsheetId, {
+            events: sheetEvents,
+            genres: sheetGenres,
+            eraSettings: sheetEra,
+            metadata: sheetMeta
+          });
+          
+          // GAS から返された JSON をそのまま使用（順番を指定）
+          result = {
+            metadata: ds.metadata || {},
+            genres: ds.genres || [],
+            events: ds.events || {},
+            eraSettings: ds.eraSettings || []
+          };
+          logLine('GAS API から JSON を取得しました。');
+        } else {
+          // 直接取得（CORS エラーの可能性あり）
+          if (!url) {
+            throw new Error('Google Sheets の URL を入力してください。');
+          }
+          const spreadsheetId = parseSpreadsheetId(url);
+          if (!spreadsheetId) {
+            throw new Error('URL からスプレッドシートIDを取得できませんでした。/spreadsheets/d/〜/edit の形式を確認してください。');
+          }
+
+          logLine(`スプレッドシートID: ${spreadsheetId}`);
+          logLine(`シート名: events="${sheetEvents}", genres="${sheetGenres}", eraSettings="${sheetEra}", metadata="${sheetMeta}"`);
+
+          const [tsvEv, tsvGenres, tsvEra, tsvMeta] = await Promise.all([
+            fetchTSV(spreadsheetId, sheetEvents),
+            fetchTSV(spreadsheetId, sheetGenres),
+            fetchTSV(spreadsheetId, sheetEra),
+            fetchTSV(spreadsheetId, sheetMeta),
+          ]);
+
+          logLine('TSV をパース中…');
+          const rowsEv = parseTSV(tsvEv);
+          const rowsGenres = parseTSV(tsvGenres);
+          const rowsEra = parseTSV(tsvEra);
+          const rowsMeta = parseTSV(tsvMeta);
+
+          logLine(`events 行数: ${rowsEv.length}`);
+          logLine(`genres 行数: ${rowsGenres.length}`);
+          logLine(`eraSettings 行数: ${rowsEra.length}`);
+          logLine(`metadata 行数: ${rowsMeta.length}`);
+
+          const events = buildEventsFromRows(rowsEv);
+          const genres = buildGenresFromRows(rowsGenres);
+          const eraSettings = buildEraFromRows(rowsEra);
+          const metadata = buildMetadataFromRows(rowsMeta);
+
+          result = { metadata, genres, events, eraSettings };
+          logLine('JSON を生成しました。');
+        }
+
+        logLine('ダウンロードを開始します。');
+        downloadJSON(outName, result);
+        logLine(`完了: ${outName} を保存しました。`);
+      } catch (err) {
+        console.error(err);
+        logLine(`エラー: ${err.message || err}`);
+        alert('変換中にエラーが発生しました。詳細はログを確認してください。');
+      } finally {
+        $convertBtn.disabled = false;
+      }
+    }
+
+    $convertBtn.addEventListener('click', () => {
+      handleConvert();
+    });
+
+    $sheetUrl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleConvert();
+      }
+    });
+  </script>
+</body>
+</html>
+
+
