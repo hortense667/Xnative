@@ -1770,21 +1770,6 @@
         "label_en": "Film: Brief Encounter (prod.)",
         "note_en": "Production of the British classic intensified, releasing the next year.",
         "url_en": "https://en.wikipedia.org/wiki/Brief_Encounter"
-      },
-      {
-        "label": "ディズニー『三人の騎士』制作",
-        "startYear": 1944,
-        "genre": [
-          "CONTENT",
-          "COMPANY",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/三人の騎士",
-        "note": "ラテン文化を題材とした音楽・アニメ融合作の制作が進む。",
-        "label_en": "Disney: The Three Caballeros (prod.)",
-        "note_en": "Production advanced on a Latin‑themed musical‑animation feature.",
-        "url_en": "https://en.wikipedia.org/wiki/The_Three_Caballeros"
       }
     ],
     "1945": [
