@@ -41,7 +41,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/独裁者_(1940年の映画)",
-        "note": "チャップリンの反独裁風刺を主張した映画。",
+        "note": "チャップリンの反独裁風刺映画。ヒトラーを模した独裁者を痛烈に批判した。",
         "label_en": "Film: The Great Dictator",
         "url_en": "https://en.wikipedia.org/wiki/The_Great_Dictator",
         "note_en": "Chaplin’s anti-dictatorship satire sharply mocked a leader resembling Hitler."
@@ -276,20 +276,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
       },
       {
-        "label": "独ソ戦開始（バルバロッサ作戦）",
-        "startYear": 1941,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/バルバロッサ作戦",
-        "note": "ドイツがソ連に侵攻。史上最大規模の陸戦が始まる。",
-        "label_en": "Operation Barbarossa",
-        "note_en": "Germany invaded the Soviet Union, launching history’s largest land campaign.",
-        "url_en": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
-      },
-      {
         "label": "レニングラード包囲開始",
         "startYear": 1941,
         "genre": [
@@ -302,6 +288,20 @@
         "label_en": "Siege of Leningrad begins",
         "note_en": "Axis forces encircled Leningrad, beginning a prolonged and deadly siege.",
         "url_en": "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+      },
+      {
+        "label": "独ソ戦開始（バルバロッサ作戦）",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バルバロッサ作戦",
+        "note": "ドイツがソ連に侵攻。史上最大規模の陸戦が始まる。",
+        "label_en": "Operation Barbarossa",
+        "note_en": "Germany invaded the Soviet Union, launching history’s largest land campaign.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
       },
       {
         "label": "モスクワ攻防戦",
@@ -400,6 +400,20 @@
         "label_en": "Invasion of Yugoslavia",
         "note_en": "Axis forces invaded and rapidly occupied Yugoslavia.",
         "url_en": "https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia"
+      },
+      {
+        "label": "ギリシャの戦い（独軍侵攻）",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ギリシャの戦い_(1941年)",
+        "note": "ドイツがギリシャへ侵攻し連合軍は撤退。",
+        "label_en": "Battle of Greece",
+        "note_en": "\"Germany invaded Greece: Allied troops were forced to withdraw.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Greece"
       },
       {
         "label": "ビスマルク撃沈",
