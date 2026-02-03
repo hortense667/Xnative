@@ -31,6 +31,17 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "551": [
+      {
+        "label": "テスト",
+        "startYear": 551,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "label_en": "test"
+      }
+    ],
     "1940": [
       {
         "label": "映画『独裁者』公開",
