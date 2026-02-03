@@ -616,10 +616,10 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ミッドウェー海戦",
-        "note": "日米の空母決戦で米軍が勝利し太平洋戦争の転機となる",
+        "note": "日米の空母決戦で米軍が勝利し太平洋戦争の転機となった。",
         "label_en": "Battle of Midway",
-        "note_en": "\"Decisive carrier battle: US victory turned the tide in the Pacific War.\"",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Midway"
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Midway",
+        "note_en": "\"Decisive carrier battle: US victory turned the tide in the Pacific War.\""
       },
       {
         "label": "第二次エル・アラメインの戦い",
