@@ -1281,15 +1281,15 @@
         "startYear": 1943,
         "genre": [
           "PRODUCT",
-          "COMPANY",
-          "WORLD"
+          "WORLD",
+          "COMPANY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Colossus",
+        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
         "note": "独軍暗号解析用の電子計算機コロッサスの組立が始まる。",
         "label_en": "Colossus construction begins",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
-        "note_en": "Construction began on Colossus for codebreaking German ciphers."
+        "note_en": "Construction began on Colossus for codebreaking German ciphers.",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
       },
       {
         "label": "ウラン濃縮・原爆研究の進展",
