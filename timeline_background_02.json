@@ -47,20 +47,6 @@
         "note_en": "Chaplin’s anti-dictatorship satire sharply mocked a leader resembling Hitler."
       },
       {
-        "label": "バトル・オブ・ブリテン",
-        "startYear": 1940,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/バトル・オブ・ブリテン",
-        "note": "RAFが独空軍を撃退し英本土の制空権を保持した防空戦。",
-        "label_en": "Battle of Britain",
-        "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
-      },
-      {
         "label": "零式艦上戦闘機の運用開始",
         "startYear": 1940,
         "genre": [
@@ -73,6 +59,20 @@
         "label_en": "Mitsubishi A6M enters service",
         "note_en": "\"Japan’s A6M Zero entered service: its range and agility stunned opponents early.\"",
         "url_en": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+      },
+      {
+        "label": "バトル・オブ・ブリテン",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バトル・オブ・ブリテン",
+        "note": "RAFが独空軍を撃退し英本土の制空権を保持した防空戦。",
+        "label_en": "Battle of Britain",
+        "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
       },
       {
         "label": "プルトニウムの発見",
