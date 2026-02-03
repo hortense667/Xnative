@@ -1198,11 +1198,11 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A7%BF%E4%B8%89%E5%9B%9B%E9%83%8E_(1943%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url": "https://ja.wikipedia.org/wiki/姿三四郎",
         "note": "黒澤明の監督デビュー作が公開。以後の映画史に大きな影響。",
         "label_en": "Kurosawa’s debut: Sanshiro Sugata",
-        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata",
-        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema."
+        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema.",
+        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata"
       },
       {
         "label": "映画『空軍力の勝利』公開",
@@ -1281,15 +1281,15 @@
         "startYear": 1943,
         "genre": [
           "PRODUCT",
-          "WORLD",
-          "COMPANY"
+          "COMPANY",
+          "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
+        "url": "https://ja.wikipedia.org/wiki/Colossus",
         "note": "独軍暗号解析用の電子計算機コロッサスの組立が始まる。",
         "label_en": "Colossus construction begins",
-        "note_en": "Construction began on Colossus for codebreaking German ciphers.",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
+        "note_en": "Construction began on Colossus for codebreaking German ciphers."
       },
       {
         "label": "ウラン濃縮・原爆研究の進展",
