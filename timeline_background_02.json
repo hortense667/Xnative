@@ -1660,15 +1660,15 @@
         "startYear": 1944,
         "genre": [
           "EVENT",
-          "WORLD",
-          "CONTENT"
+          "CONTENT",
+          "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/GIビル",
+        "url": "https://ja.wikipedia.org/wiki/1944%E5%B9%B4%E5%BE%A9%E5%93%A1%E5%85%B5%E6%8F%B4%E8%AD%B7%E6%B3%95",
         "note": "退役軍人の教育・住宅支援を拡充し米中産層拡大に寄与。",
         "label_en": "G.I. Bill enacted",
-        "note_en": "Expanded veterans’ benefits, fueling US higher education and middle class.",
-        "url_en": "https://en.wikipedia.org/wiki/G.I._Bill"
+        "url_en": "https://en.wikipedia.org/wiki/G.I._Bill",
+        "note_en": "Expanded veterans’ benefits, fueling US higher education and middle class."
       },
       {
         "label": "ダンバートン・オークス会議",
