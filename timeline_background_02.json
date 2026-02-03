@@ -265,29 +265,15 @@
         "startYear": 1941,
         "genre": [
           "EVENT",
-          "WORLD",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/真珠湾攻撃",
-        "note": "日本海軍が米ハワイ真珠湾を奇襲。米国が参戦し太平洋戦争が本格化。",
-        "label_en": "Attack on Pearl Harbor",
-        "note_en": "Imperial Japan’s surprise attack on Pearl Harbor brought the US into WWII.",
-        "url_en": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
-      },
-      {
-        "label": "米英の対日宣戦",
-        "startYear": 1941,
-        "genre": [
-          "EVENT",
+          "JAPAN",
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/太平洋戦争",
-        "note": "真珠湾攻撃を受け、米英などが日本に宣戦布告。",
-        "label_en": "US and UK declare war on Japan",
-        "note_en": "Following Pearl Harbor, the US, UK and others declared war on Japan.",
-        "url_en": "https://en.wikipedia.org/wiki/Declarations_of_war_during_World_War_II#United_States"
+        "url": "https://ja.wikipedia.org/wiki/真珠湾攻撃",
+        "note": "日本海軍が米ハワイ真珠湾を奇襲。",
+        "label_en": "Attack on Pearl Harbor",
+        "url_en": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+        "note_en": "Imperial Japan’s surprise attack on Pearl Harbor brought the US into WWII."
       },
       {
         "label": "独ソ戦開始（バルバロッサ作戦）",
@@ -330,6 +316,20 @@
         "label_en": "Battle of Moscow",
         "note_en": "German advance on Moscow was halted by Soviet resistance and winter.",
         "url_en": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+      },
+      {
+        "label": "米英の対日宣戦",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/太平洋戦争",
+        "note": "真珠湾攻撃を受け、米英などが日本に宣戦布告。",
+        "label_en": "US and UK declare war on Japan",
+        "note_en": "Following Pearl Harbor, the US, UK and others declared war on Japan.",
+        "url_en": "https://en.wikipedia.org/wiki/Declarations_of_war_during_World_War_II#United_States"
       },
       {
         "label": "独伊の対米宣戦",
@@ -400,20 +400,6 @@
         "label_en": "Invasion of Yugoslavia",
         "note_en": "Axis forces invaded and rapidly occupied Yugoslavia.",
         "url_en": "https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia"
-      },
-      {
-        "label": "ギリシャの戦い（独軍侵攻）",
-        "startYear": 1941,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ギリシャの戦い_(1941年)",
-        "note": "ドイツがギリシャへ侵攻し連合軍は撤退。",
-        "label_en": "Battle of Greece",
-        "note_en": "\"Germany invaded Greece: Allied troops were forced to withdraw.\"",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Greece"
       },
       {
         "label": "ビスマルク撃沈",
