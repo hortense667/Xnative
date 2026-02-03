@@ -138,11 +138,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2",
+        "url": "https://ja.wikipedia.org/wiki/ファンタジア_(1940年の映画)",
         "note": "音楽とアニメーションを融合した革新的長編。ステレオ音響の先駆も。",
         "label_en": "Film: Fantasia",
-        "url_en": "https://en.wikipedia.org/wiki/Fantasia",
-        "note_en": "\"Innovative feature blending classical music and animation: early stereo sound use.\""
+        "note_en": "\"Innovative feature blending classical music and animation: early stereo sound use.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Fantasia"
       },
       {
         "label": "ナイロン・ストッキング発売",
@@ -257,21 +257,6 @@
         "label_en": "Discovery of Carbon-14",
         "note_en": "Radioisotope C‑14 discovered, enabling radiocarbon dating later.",
         "url_en": "https://en.wikipedia.org/wiki/Carbon-14"
-      },
-      {
-        "label": "American Bantamの4x4試作契約",
-        "startYear": 1940,
-        "genre": [
-          "COMPANY",
-          "PRODUCT",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car",
-        "note": "米陸軍の偵察車要件にBantamが試作で応札。ジープ量産へ繋がる。",
-        "label_en": "American Bantam early 4x4 contract",
-        "note_en": "Bantam built the pilot 4x4 for US Army specs, leading toward Jeep mass production.",
-        "url_en": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car"
       }
     ],
     "1941": [
