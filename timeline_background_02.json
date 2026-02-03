@@ -31,6 +31,17 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1210": [
+      {
+        "label": "テスト２",
+        "startYear": 1210,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "label_en": "test2"
+      }
+    ],
     "1570": [
       {
         "label": "テスト",
