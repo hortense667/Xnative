@@ -1650,11 +1650,10 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ブレトン・ウッズ協定",
         "note": "戦後の国際通貨体制を設計しIMF・世界銀行の創設を決定。",
         "label_en": "Bretton Woods Conference",
-        "note_en": "Designed the postwar monetary order, creating the IMF and World Bank.",
-        "url_en": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference"
+        "url_en": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference",
+        "note_en": "Designed the postwar monetary order, creating the IMF and World Bank."
       },
       {
         "label": "G.I.ビル成立",
