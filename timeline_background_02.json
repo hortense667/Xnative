@@ -598,11 +598,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Z3_(コンピュータ)",
+        "url": "https://ja.wikipedia.org/wiki/Zuse_Z3",
         "note": "コンラート・ツーゼがZ3を完成。世界初の動作するプログラム制御式コンピュータの一つ。",
         "label_en": "Zuse Z3 completed",
-        "note_en": "Konrad Zuse completed Z3, among the first working program‑controlled computers.",
-        "url_en": "https://en.wikipedia.org/wiki/Z3_(computer)"
+        "url_en": "https://en.wikipedia.org/wiki/Z3_(computer)",
+        "note_en": "Konrad Zuse completed Z3, among the first working program‑controlled computers."
       }
     ],
     "1942": [
