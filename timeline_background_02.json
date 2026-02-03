@@ -47,20 +47,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Great_Dictator"
       },
       {
-        "label": "バトル・オブ・ブリテン",
-        "startYear": 1940,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/バトル・オブ・ブリテン",
-        "note": "RAFが独空軍を撃退し英本土の制空権を保持した防空戦。",
-        "label_en": "Battle of Britain",
-        "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
-      },
-      {
         "label": "零式艦上戦闘機の運用開始",
         "startYear": 1940,
         "genre": [
@@ -73,6 +59,20 @@
         "label_en": "Mitsubishi A6M enters service",
         "note_en": "\"Japan’s A6M Zero entered service: its range and agility stunned opponents early.\"",
         "url_en": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+      },
+      {
+        "label": "バトル・オブ・ブリテン",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バトル・オブ・ブリテン",
+        "note": "RAFが独空軍を撃退し英本土の制空権を保持した防空戦。",
+        "label_en": "Battle of Britain",
+        "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
       },
       {
         "label": "プルトニウムの発見",
@@ -276,20 +276,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
       },
       {
-        "label": "レニングラード包囲開始",
-        "startYear": 1941,
-        "genre": [
-          "EVENT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/レニングラード包囲戦",
-        "note": "独軍と同盟軍がレニングラードを包囲。長期の市民苦難が始まる。",
-        "label_en": "Siege of Leningrad begins",
-        "note_en": "Axis forces encircled Leningrad, beginning a prolonged and deadly siege.",
-        "url_en": "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
-      },
-      {
         "label": "独ソ戦開始（バルバロッサ作戦）",
         "startYear": 1941,
         "genre": [
@@ -302,6 +288,20 @@
         "label_en": "Operation Barbarossa",
         "note_en": "Germany invaded the Soviet Union, launching history’s largest land campaign.",
         "url_en": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+      },
+      {
+        "label": "レニングラード包囲開始",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レニングラード包囲戦",
+        "note": "独軍と同盟軍がレニングラードを包囲。長期の市民苦難が始まる。",
+        "label_en": "Siege of Leningrad begins",
+        "note_en": "Axis forces encircled Leningrad, beginning a prolonged and deadly siege.",
+        "url_en": "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
       },
       {
         "label": "モスクワ攻防戦",
