@@ -929,11 +929,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%B3%E3%83%93_(%E6%98%A0%E7%94%BB)",
+        "url": "https://ja.wikipedia.org/wiki/バンビ",
         "note": "ディズニー長編アニメ『バンビ』が公開。自然描写と技術で高評価。",
         "label_en": "Film: Bambi",
-        "url_en": "https://en.wikipedia.org/wiki/Bambi",
-        "note_en": "Disney’s feature ‘Bambi’ released, noted for nature depiction and craft."
+        "note_en": "Disney’s feature ‘Bambi’ released, noted for nature depiction and craft.",
+        "url_en": "https://en.wikipedia.org/wiki/Bambi"
       },
       {
         "label": "映画『奥様は顔が二つ』公開",
@@ -957,11 +957,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/異邦人_(小説)",
+        "url": "https://ja.wikipedia.org/wiki/%E7%95%B0%E9%82%A6%E4%BA%BA_(%E3%82%AB%E3%83%9F%E3%83%A5)",
         "note": "カミュの代表作『異邦人』が刊行。不条理文学の象徴。",
         "label_en": "Novel: The Stranger (Camus)",
-        "note_en": "Albert Camus published ‘The Stranger,’ emblematic of absurdist literature.",
-        "url_en": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)"
+        "url_en": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)",
+        "note_en": "Albert Camus published ‘The Stranger,’ emblematic of absurdist literature."
       },
       {
         "label": "随筆『シーシュポスの神話』刊",
