@@ -1367,31 +1367,31 @@
         "label": "日本映画会社への戦時統制強化",
         "startYear": 1943,
         "genre": [
-          "CONTENT",
           "COMPANY",
+          "CONTENT",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E6%98%A0%E7%94%BB",
+        "url": "https://ja.wikipedia.org/wiki/日本映画#戦時体制",
         "note": "配給統合や検閲強化で映画会社の編成・作品が大きく制約。",
         "label_en": "Wartime control of Japanese studios",
-        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan",
-        "note_en": "Distribution consolidation and censorship constrained studio output."
+        "note_en": "Distribution consolidation and censorship constrained studio output.",
+        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan"
       },
       {
         "label": "ロッキードのP-38量産拡大",
         "startYear": 1943,
         "genre": [
-          "COMPANY",
           "PRODUCT",
+          "COMPANY",
           "WORLD"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/P-38_(戦闘機)",
+        "url": "https://ja.wikipedia.org/wiki/P-38_(%E8%88%AA%E7%A9%BA%E6%A9%9F)",
         "note": "双発戦闘機P-38の量産・配備が拡大。太平洋・欧州で活躍。",
         "label_en": "Lockheed expands P-38 production",
-        "note_en": "Production and deployment of the twin‑engine P‑38 grew in both theaters.",
-        "url_en": "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning"
+        "url_en": "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning",
+        "note_en": "Production and deployment of the twin‑engine P‑38 grew in both theaters."
       }
     ],
     "1944": [
