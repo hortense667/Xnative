@@ -138,11 +138,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%82%A2",
+        "url": "https://ja.wikipedia.org/wiki/ファンタジア_(1940年の映画)",
         "note": "音楽とアニメーションを融合した革新的長編。ステレオ音響の先駆も。",
         "label_en": "Film: Fantasia",
-        "url_en": "https://en.wikipedia.org/wiki/Fantasia",
-        "note_en": "\"Innovative feature blending classical music and animation: early stereo sound use.\""
+        "note_en": "\"Innovative feature blending classical music and animation: early stereo sound use.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Fantasia"
       },
       {
         "label": "ナイロン・ストッキング発売",
@@ -257,6 +257,21 @@
         "label_en": "Discovery of Carbon-14",
         "note_en": "Radioisotope C‑14 discovered, enabling radiocarbon dating later.",
         "url_en": "https://en.wikipedia.org/wiki/Carbon-14"
+      },
+      {
+        "label": "American Bantamの4x4試作契約",
+        "startYear": 1940,
+        "genre": [
+          "COMPANY",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car",
+        "note": "米陸軍の偵察車要件にBantamが試作で応札。ジープ量産へ繋がる。",
+        "label_en": "American Bantam early 4x4 contract",
+        "note_en": "Bantam built the pilot 4x4 for US Army specs, leading toward Jeep mass production.",
+        "url_en": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car"
       }
     ],
     "1941": [
@@ -619,6 +634,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin"
       },
       {
+        "label": "Zuse社設立",
+        "startYear": 1941,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Konrad_Zuse",
+        "note": "コンラート・ツーゼが会社を設立。Z3など計算機の開発基盤となる。",
+        "label_en": "Zuse Apparatebau founded",
+        "note_en": "Konrad Zuse established a company, underpinning his computer work like the Z3.",
+        "url_en": "https://en.wikipedia.org/wiki/Konrad_Zuse"
+      },
+      {
         "label": "Z3（ドイツのツーゼによるコンピューター）完成",
         "startYear": 1941,
         "genre": [
@@ -929,11 +958,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%B3%E3%83%93_(%E6%98%A0%E7%94%BB)",
+        "url": "https://ja.wikipedia.org/wiki/バンビ",
         "note": "ディズニー長編アニメ『バンビ』が公開。自然描写と技術で高評価。",
         "label_en": "Film: Bambi",
-        "url_en": "https://en.wikipedia.org/wiki/Bambi",
-        "note_en": "Disney’s feature ‘Bambi’ released, noted for nature depiction and craft."
+        "note_en": "Disney’s feature ‘Bambi’ released, noted for nature depiction and craft.",
+        "url_en": "https://en.wikipedia.org/wiki/Bambi"
       },
       {
         "label": "映画『奥様は顔が二つ』公開",
@@ -1198,11 +1227,11 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A7%BF%E4%B8%89%E5%9B%9B%E9%83%8E_(1943%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url": "https://ja.wikipedia.org/wiki/姿三四郎",
         "note": "黒澤明の監督デビュー作が公開。以後の映画史に大きな影響。",
         "label_en": "Kurosawa’s debut: Sanshiro Sugata",
-        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata",
-        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema."
+        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema.",
+        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata"
       },
       {
         "label": "映画『空軍力の勝利』公開",
@@ -1281,15 +1310,15 @@
         "startYear": 1943,
         "genre": [
           "PRODUCT",
-          "COMPANY",
-          "WORLD"
+          "WORLD",
+          "COMPANY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Colossus",
+        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
         "note": "独軍暗号解析用の電子計算機コロッサスの組立が始まる。",
         "label_en": "Colossus construction begins",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
-        "note_en": "Construction began on Colossus for codebreaking German ciphers."
+        "note_en": "Construction began on Colossus for codebreaking German ciphers.",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
       },
       {
         "label": "ウラン濃縮・原爆研究の進展",
