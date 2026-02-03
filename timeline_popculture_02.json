@@ -4275,20 +4275,6 @@
     ],
     "1982": [
       {
-        "label": "ColecoVision",
-        "label_en": "ColecoVision",
-        "startYear": 1982,
-        "genre": [
-          "GAM",
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ColecoVision",
-        "url_en": "https://en.wikipedia.org/wiki/ColecoVision",
-        "note": "アーケード移植で人気の据置機。",
-        "note_en": "Home console noted for arcade ports."
-      },
-      {
         "label": "コンパクトディスク",
         "label_en": "Compact Disc",
         "startYear": 1982,
@@ -4591,6 +4577,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Fujitsu_FM-7",
         "note": "教育・ホビー向け国産PC。",
         "note_en": "Japanese 8-bit computer for hobby/education."
+      },
+      {
+        "label": "ColecoVision",
+        "startYear": "1982",
+        "genre": [
+          "GAM",
+          "HAR",
+          "TOY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ColecoVision",
+        "note": "アーケード移植で人気の据置機。",
+        "label_en": "ColecoVision",
+        "url_en": "https://en.wikipedia.org/wiki/ColecoVision",
+        "note_en": "Home console noted for arcade ports."
       }
     ],
     "1983": [
