@@ -1563,11 +1563,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ハーバード・マークI",
+        "url": "https://ja.wikipedia.org/wiki/Harvard_Mark_I",
         "note": "IBM協力の大型電動計算機が稼働。計算自動化の画期。",
         "label_en": "Harvard Mark I operational",
-        "note_en": "IBM‑backed large electromechanical computer went into operation.",
-        "url_en": "https://en.wikipedia.org/wiki/Harvard_Mark_I"
+        "url_en": "https://en.wikipedia.org/wiki/Harvard_Mark_I",
+        "note_en": "IBM‑backed large electromechanical computer went into operation."
       },
       {
         "label": "コロッサス稼働開始",
