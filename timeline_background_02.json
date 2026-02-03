@@ -1114,11 +1114,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%BB%E3%83%AA%E3%83%BC%E3%83%8C%E5%B3%A0%E3%81%AE%E6%88%A6%E3%81%84",
+        "url": "https://ja.wikipedia.org/wiki/カッセリーヌ峠の戦い",
         "note": "北アフリカで米軍が初の本格地上戦で苦戦、教訓を得る。",
         "label_en": "Battle of Kasserine Pass",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass",
-        "note_en": "US forces suffered setbacks in North Africa, learning hard lessons."
+        "note_en": "US forces suffered setbacks in North Africa, learning hard lessons.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass"
       },
       {
         "label": "アヴァランチ作戦（サレルノ上陸）",
@@ -1156,11 +1156,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/大西洋の戦い",
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E3%81%AE%E6%88%A6%E3%81%84_(%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%A6)",
         "note": "対潜戦力強化と暗号解読で連合軍がUボートに優位を確立。",
         "label_en": "Turning point in the Battle of the Atlantic",
-        "note_en": "ASW advances and codebreaking gave the Allies the upper hand over U‑boats.",
-        "url_en": "https://en.wikipedia.org/wiki/Battle_of_the_Atlantic"
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_the_Atlantic",
+        "note_en": "ASW advances and codebreaking gave the Allies the upper hand over U‑boats."
       },
       {
         "label": "『星の王子さま』刊",
