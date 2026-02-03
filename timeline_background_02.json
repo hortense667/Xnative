@@ -619,20 +619,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin"
       },
       {
-        "label": "Zuse社設立",
-        "startYear": 1941,
-        "genre": [
-          "COMPANY",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Konrad_Zuse",
-        "note": "コンラート・ツーゼが会社を設立。Z3など計算機の開発基盤となる。",
-        "label_en": "Zuse Apparatebau founded",
-        "note_en": "Konrad Zuse established a company, underpinning his computer work like the Z3.",
-        "url_en": "https://en.wikipedia.org/wiki/Konrad_Zuse"
-      },
-      {
         "label": "Z3（ドイツのツーゼによるコンピューター）完成",
         "startYear": 1941,
         "genre": [
@@ -641,11 +627,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Zuse_Z3",
+        "url": "https://ja.wikipedia.org/wiki/Z3_(コンピュータ)",
         "note": "コンラート・ツーゼがZ3を完成。世界初の動作するプログラム制御式コンピュータの一つ。",
         "label_en": "Zuse Z3 completed",
-        "url_en": "https://en.wikipedia.org/wiki/Z3_(computer)",
-        "note_en": "Konrad Zuse completed Z3, among the first working program‑controlled computers."
+        "note_en": "Konrad Zuse completed Z3, among the first working program‑controlled computers.",
+        "url_en": "https://en.wikipedia.org/wiki/Z3_(computer)"
       }
     ],
     "1942": [
