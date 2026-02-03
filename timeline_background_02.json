@@ -1578,11 +1578,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
+        "url": "https://ja.wikipedia.org/wiki/Colossus",
         "note": "ブレッチリー・パークでドイツ暗号解読用コンピュータが稼働。",
         "label_en": "Colossus operational",
-        "note_en": "Codebreaking computer began operation at Bletchley Park.",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
+        "note_en": "Codebreaking computer began operation at Bletchley Park."
       },
       {
         "label": "ペニシリンの量産・普及",
