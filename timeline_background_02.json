@@ -830,11 +830,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%AB%E3%82%B4%E3%83%BB%E3%83%91%E3%82%A4%E3%83%AB1%E5%8F%B7",
+        "url": "https://ja.wikipedia.org/wiki/シカゴ・パイル1",
         "note": "世界初の原子炉が臨界に到達。原子力の実証的出発点。",
         "label_en": "Chicago Pile‑1 criticality",
-        "url_en": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
-        "note_en": "World’s first nuclear reactor achieved criticality, proving controlled fission."
+        "note_en": "World’s first nuclear reactor achieved criticality, proving controlled fission.",
+        "url_en": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
       },
       {
         "label": "V-2ロケット初の成功飛行",
@@ -887,11 +887,11 @@
           "WORLD"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/アタナソフ＝ベリー・コンピュータ",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%BF%E3%83%8A%E3%82%BD%E3%83%95%26%E3%83%99%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF",
         "note": "電子計算機ABCの開発が大詰めを迎え、初期デジタル計算の礎に。",
         "label_en": "Atanasoff–Berry Computer advanced",
-        "note_en": "Development of the ABC neared completion, laying groundwork for digital computing.",
-        "url_en": "https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer"
+        "url_en": "https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer",
+        "note_en": "Development of the ABC neared completion, laying groundwork for digital computing."
       },
       {
         "label": "ペニシリン臨床応用が拡大",
