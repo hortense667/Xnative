@@ -730,11 +730,11 @@
           "WORLD"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%BC%E3%83%AA%E3%83%83%E3%83%88%E3%83%AB%E7%A9%BA%E8%A5%B2",
+        "url": "https://ja.wikipedia.org/wiki/ドゥーリットル空襲",
         "note": "米陸軍航空軍が日本本土を初空襲し士気を高めた。",
         "label_en": "Doolittle Raid",
-        "url_en": "https://en.wikipedia.org/wiki/Doolittle_Raid",
-        "note_en": "USAAF conducted the first air raid on Japan, boosting Allied morale."
+        "note_en": "USAAF conducted the first air raid on Japan, boosting Allied morale.",
+        "url_en": "https://en.wikipedia.org/wiki/Doolittle_Raid"
       },
       {
         "label": "珊瑚海海戦",
@@ -788,11 +788,11 @@
           "WORLD"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/トゥーロンにおけるフランス艦隊自沈",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%AD%E3%83%B3%E6%B8%AF%E8%87%AA%E6%B2%88",
         "note": "仏艦隊が独の接収を防ぐため自沈。地中海の勢力図に影響。",
         "label_en": "Scuttling of the French fleet at Toulon",
-        "note_en": "French fleet scuttled itself to avoid German capture, affecting Mediterranean power.",
-        "url_en": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_in_Toulon"
+        "url_en": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_in_Toulon",
+        "note_en": "French fleet scuttled itself to avoid German capture, affecting Mediterranean power."
       },
       {
         "label": "O.S.S.創設",
