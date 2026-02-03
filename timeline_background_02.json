@@ -1198,11 +1198,11 @@
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/姿三四郎",
+        "url": "https://ja.wikipedia.org/wiki/%E5%A7%BF%E4%B8%89%E5%9B%9B%E9%83%8E_(1943%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
         "note": "黒澤明の監督デビュー作が公開。以後の映画史に大きな影響。",
         "label_en": "Kurosawa’s debut: Sanshiro Sugata",
-        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema.",
-        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata"
+        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata",
+        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema."
       },
       {
         "label": "映画『空軍力の勝利』公開",
@@ -1281,15 +1281,15 @@
         "startYear": 1943,
         "genre": [
           "PRODUCT",
-          "COMPANY",
-          "WORLD"
+          "WORLD",
+          "COMPANY"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Colossus",
+        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
         "note": "独軍暗号解析用の電子計算機コロッサスの組立が始まる。",
         "label_en": "Colossus construction begins",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
-        "note_en": "Construction began on Colossus for codebreaking German ciphers."
+        "note_en": "Construction began on Colossus for codebreaking German ciphers.",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
       },
       {
         "label": "ウラン濃縮・原爆研究の進展",
@@ -1367,16 +1367,16 @@
         "label": "日本映画会社への戦時統制強化",
         "startYear": 1943,
         "genre": [
-          "COMPANY",
           "CONTENT",
+          "COMPANY",
           "JAPAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/日本映画#戦時体制",
+        "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E6%98%A0%E7%94%BB",
         "note": "配給統合や検閲強化で映画会社の編成・作品が大きく制約。",
         "label_en": "Wartime control of Japanese studios",
-        "note_en": "Distribution consolidation and censorship constrained studio output.",
-        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan"
+        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan",
+        "note_en": "Distribution consolidation and censorship constrained studio output."
       },
       {
         "label": "ロッキードのP-38量産拡大",
