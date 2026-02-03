@@ -590,21 +590,6 @@
         "url_en": "https://en.wikipedia.org/wiki/East_African_campaign_(World_War_II)"
       },
       {
-        "label": "Packard社のマーリン量産開始",
-        "startYear": 1941,
-        "genre": [
-          "COMPANY",
-          "PRODUCT",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin",
-        "note": "米パッカードが英ロールス・ロイスのマーリンエンジン量産を開始。",
-        "label_en": "Packard begins Merlin production",
-        "note_en": "US Packard began licensed mass production of the Rolls‑Royce Merlin engine.",
-        "url_en": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin"
-      },
-      {
         "label": "Z3（ドイツのツーゼによるコンピューター）完成",
         "startYear": 1941,
         "genre": [
