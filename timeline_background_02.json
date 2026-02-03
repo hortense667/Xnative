@@ -47,20 +47,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Great_Dictator"
       },
       {
-        "label": "零式艦上戦闘機の運用開始",
-        "startYear": 1940,
-        "genre": [
-          "PRODUCT",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/零式艦上戦闘機",
-        "note": "日本海軍の零戦が実戦配備。長航続・高機動で当初無敵と評された。",
-        "label_en": "Mitsubishi A6M enters service",
-        "note_en": "\"Japan’s A6M Zero entered service: its range and agility stunned opponents early.\"",
-        "url_en": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
-      },
-      {
         "label": "バトル・オブ・ブリテン",
         "startYear": 1940,
         "genre": [
@@ -73,6 +59,20 @@
         "label_en": "Battle of Britain",
         "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
         "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
+      },
+      {
+        "label": "零式艦上戦闘機の運用開始",
+        "startYear": 1940,
+        "genre": [
+          "PRODUCT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/零式艦上戦闘機",
+        "note": "日本海軍の零戦が実戦配備。長航続・高機動で当初無敵と評された。",
+        "label_en": "Mitsubishi A6M enters service",
+        "note_en": "\"Japan’s A6M Zero entered service: its range and agility stunned opponents early.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
       },
       {
         "label": "プルトニウムの発見",
