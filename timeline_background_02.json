@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": {
-      "ja": "時代背景 0.1",
-      "en": "Historical background Timeline 0.1"
+      "ja": "時代背景 0.2",
+      "en": "Historical background Timeline 0.2"
     },
     "description": {
       "ja": "この年表は参照年表として時代背景が分かるように項目を選んだものです。現状、試験公開中であり内容を精査している段階です。",
@@ -36347,7 +36347,7 @@
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": true
+      "fillEnabled": false
     }
   ],
   "genres": [
