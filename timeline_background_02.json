@@ -31,6 +31,1747 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1940": [
+      {
+        "label": "バトル・オブ・ブリテン",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バトル・オブ・ブリテン",
+        "note": "RAFが独空軍を撃退し英本土の制空権を保持した防空戦。",
+        "label_en": "Battle of Britain",
+        "note_en": "RAF repelled the Luftwaffe and retained air superiority over Britain.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Britain"
+      },
+      {
+        "label": "映画『独裁者』公開",
+        "startYear": 1940,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/独裁者_(1940年の映画)",
+        "note": "チャップリンの反独裁風刺映画。ヒトラーを模した独裁者を痛烈に批判。",
+        "label_en": "Film: The Great Dictator",
+        "note_en": "Chaplin’s anti-dictatorship satire sharply mocked a leader resembling Hitler.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "label": "零式艦上戦闘機の運用開始",
+        "startYear": 1940,
+        "genre": [
+          "PRODUCT",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/零式艦上戦闘機",
+        "note": "日本海軍の零戦が実戦配備。長航続・高機動で当初無敵と評された。",
+        "label_en": "Mitsubishi A6M enters service",
+        "note_en": "\"Japan’s A6M Zero entered service: its range and agility stunned opponents early.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero"
+      },
+      {
+        "label": "プルトニウムの発見",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/プルトニウム",
+        "note": "元素94が合成・発見。核兵器・原子力で中心的役割を担うことになる。",
+        "label_en": "Discovery of Plutonium",
+        "note_en": "Element 94 was synthesized, later central to nuclear weapons and power.",
+        "url_en": "https://en.wikipedia.org/wiki/Plutonium"
+      },
+      {
+        "label": "マクドナルド創業",
+        "startYear": 1940,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マクドナルド",
+        "note": "マクドナルド兄弟がカリフォルニアでドライブインを開業。後の巨大外食企業へ。",
+        "label_en": "Founding of McDonald's",
+        "note_en": "The McDonald brothers opened a drive‑in in California, seed of a global chain.",
+        "url_en": "https://en.wikipedia.org/wiki/McDonald%27s"
+      },
+      {
+        "label": "ダイナモ作戦（ダンケルク撤退）",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダイナモ作戦",
+        "note": "英仏軍がダンケルクから小型船も動員し大規模撤退を実施。",
+        "label_en": "Dunkirk evacuation",
+        "note_en": "Allied troops were evacuated from Dunkirk using a vast flotilla of vessels.",
+        "url_en": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+      },
+      {
+        "label": "ザ・ブリッツ開始",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ザ・ブリッツ",
+        "note": "ドイツが英都市への長期空襲を開始。民間に甚大な被害。",
+        "label_en": "The Blitz begins",
+        "note_en": "Germany began sustained bombing of British cities, causing heavy civilian damage.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Blitz"
+      },
+      {
+        "label": "映画『ファンタジア』公開",
+        "startYear": 1940,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ファンタジア_(1940年の映画)",
+        "note": "音楽とアニメーションを融合した革新的長編。ステレオ音響の先駆も。",
+        "label_en": "Film: Fantasia",
+        "note_en": "\"Innovative feature blending classical music and animation: early stereo sound use.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Fantasia"
+      },
+      {
+        "label": "ナイロン・ストッキング発売",
+        "startYear": 1940,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ナイロン",
+        "note": "合成繊維ナイロン製ストッキングが米国で本格販売。消費文化を象徴。",
+        "label_en": "Nylon stockings go on sale",
+        "note_en": "Nylon stockings went on sale in the US, becoming an icon of consumer culture.",
+        "url_en": "https://en.wikipedia.org/wiki/Nylon"
+      },
+      {
+        "label": "ジープの試作",
+        "startYear": 1940,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ジープ",
+        "note": "軍用4x4の原型が各社で試作。のちの汎用オフロード車の起点。",
+        "label_en": "Prototype Jeep",
+        "note_en": "Prototypes of the 4x4 military Jeep were built, precursor to utility off‑roaders.",
+        "url_en": "https://en.wikipedia.org/wiki/Jeep"
+      },
+      {
+        "label": "共同通信社発足",
+        "startYear": 1940,
+        "genre": [
+          "COMPANY",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/共同通信社",
+        "note": "日本の通信社・共同通信が発足。国内外ニュース配信の基盤に。",
+        "label_en": "Kyodo News founded",
+        "note_en": "Japanese news agency Kyodo News was founded, a key wire service.",
+        "url_en": "https://en.wikipedia.org/wiki/Kyodo_News"
+      },
+      {
+        "label": "日独伊三国同盟",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日独伊三国同盟",
+        "note": "日本・ドイツ・イタリアが軍事同盟を締結し枢軸体制を明確化。",
+        "label_en": "Tripartite Pact",
+        "note_en": "Japan, Germany and Italy signed a military alliance, consolidating the Axis.",
+        "url_en": "https://en.wikipedia.org/wiki/Tripartite_Pact"
+      },
+      {
+        "label": "北部仏印進駐",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/北部仏印進駐",
+        "note": "日本軍が北部仏印へ進駐し資源確保と南方進出の足場を固めた。",
+        "label_en": "Japanese invasion of French Indochina (1940)",
+        "note_en": "Japan moved into northern French Indochina, securing resources and a southern foothold.",
+        "url_en": "https://en.wikipedia.org/wiki/Japanese_invasion_of_French_Indochina"
+      },
+      {
+        "label": "バッグス・バニー初登場",
+        "startYear": 1940,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/バッグス・バニー",
+        "note": "短編『A Wild Hare』でキャラクターが確立。後の人気アイコンに。",
+        "label_en": "Bugs Bunny debut",
+        "note_en": "Character solidified in ‘A Wild Hare,’ becoming an enduring icon.",
+        "url_en": "https://en.wikipedia.org/wiki/Bugs_Bunny"
+      },
+      {
+        "label": "トムとジェリー初登場",
+        "startYear": 1940,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/トムとジェリー",
+        "note": "短編『Puss Gets the Boot』でコンビが初登場。長寿シリーズの出発点。",
+        "label_en": "Tom and Jerry debut",
+        "note_en": "The duo first appeared in ‘Puss Gets the Boot,’ launching a long‑running series.",
+        "url_en": "https://en.wikipedia.org/wiki/Tom_and_Jerry"
+      },
+      {
+        "label": "炭素14の発見",
+        "startYear": 1940,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/炭素14",
+        "note": "放射性同位体C-14が発見。のちの放射性炭素年代測定の基盤となる。",
+        "label_en": "Discovery of Carbon-14",
+        "note_en": "Radioisotope C‑14 discovered, enabling radiocarbon dating later.",
+        "url_en": "https://en.wikipedia.org/wiki/Carbon-14"
+      },
+      {
+        "label": "American Bantamの4x4試作契約",
+        "startYear": 1940,
+        "genre": [
+          "COMPANY",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car",
+        "note": "米陸軍の偵察車要件にBantamが試作で応札。ジープ量産へ繋がる。",
+        "label_en": "American Bantam early 4x4 contract",
+        "note_en": "Bantam built the pilot 4x4 for US Army specs, leading toward Jeep mass production.",
+        "url_en": "https://en.wikipedia.org/wiki/Bantam_Reconnaissance_Car"
+      }
+    ],
+    "1941": [
+      {
+        "label": "真珠湾攻撃",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/真珠湾攻撃",
+        "note": "日本海軍が米ハワイ真珠湾を奇襲。米国が参戦し太平洋戦争が本格化。",
+        "label_en": "Attack on Pearl Harbor",
+        "note_en": "Imperial Japan’s surprise attack on Pearl Harbor brought the US into WWII.",
+        "url_en": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+      },
+      {
+        "label": "独ソ戦開始（バルバロッサ作戦）",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バルバロッサ作戦",
+        "note": "ドイツがソ連に侵攻。史上最大規模の陸戦が始まる。",
+        "label_en": "Operation Barbarossa",
+        "note_en": "Germany invaded the Soviet Union, launching history’s largest land campaign.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+      },
+      {
+        "label": "レニングラード包囲開始",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レニングラード包囲戦",
+        "note": "独軍と同盟軍がレニングラードを包囲。長期の市民苦難が始まる。",
+        "label_en": "Siege of Leningrad begins",
+        "note_en": "Axis forces encircled Leningrad, beginning a prolonged and deadly siege.",
+        "url_en": "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+      },
+      {
+        "label": "モスクワ攻防戦",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/モスクワの戦い",
+        "note": "独軍がモスクワへ進撃するも冬と抵抗で阻止される。",
+        "label_en": "Battle of Moscow",
+        "note_en": "German advance on Moscow was halted by Soviet resistance and winter.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Moscow"
+      },
+      {
+        "label": "米英の対日宣戦",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/太平洋戦争",
+        "note": "真珠湾攻撃を受け、米英などが日本に宣戦布告。",
+        "label_en": "US and UK declare war on Japan",
+        "note_en": "Following Pearl Harbor, the US, UK and others declared war on Japan.",
+        "url_en": "https://en.wikipedia.org/wiki/Declarations_of_war_during_World_War_II#United_States"
+      },
+      {
+        "label": "独伊の対米宣戦",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Declarations_of_war_during_World_War_II#Axis",
+        "note": "独伊が米国に宣戦。戦争が完全な世界規模に拡大。",
+        "label_en": "Germany and Italy declare war on the US",
+        "note_en": "Germany and Italy declared war on the United States, globalizing the conflict.",
+        "url_en": "https://en.wikipedia.org/wiki/United_States_declaration_of_war_on_Germany_(1941)"
+      },
+      {
+        "label": "映画『市民ケーン』公開",
+        "startYear": 1941,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/市民ケーン",
+        "note": "オーソン・ウェルズの革新的映画。映像表現・語りの手法が後世に影響。",
+        "label_en": "Film: Citizen Kane",
+        "note_en": "Orson Welles’s innovative film reshaped narrative and visual techniques.",
+        "url_en": "https://en.wikipedia.org/wiki/Citizen_Kane"
+      },
+      {
+        "label": "大西洋憲章",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/大西洋憲章",
+        "note": "米英が戦後世界の原則を共同宣言。国際秩序の構想を提示。",
+        "label_en": "Atlantic Charter",
+        "note_en": "US and UK set out shared principles for the postwar world.",
+        "url_en": "https://en.wikipedia.org/wiki/Atlantic_Charter"
+      },
+      {
+        "label": "武器貸与法成立",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/武器貸与法",
+        "note": "米が同盟国に軍需支援を供与する枠組みを確立。",
+        "label_en": "Lend-Lease Act",
+        "note_en": "US established a framework to supply Allied nations with war materiel.",
+        "url_en": "https://en.wikipedia.org/wiki/Lend-Lease"
+      },
+      {
+        "label": "ユーゴスラビア侵攻",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ユーゴスラビア侵攻",
+        "note": "枢軸軍がユーゴスラビアを短期で占領。",
+        "label_en": "Invasion of Yugoslavia",
+        "note_en": "Axis forces invaded and rapidly occupied Yugoslavia.",
+        "url_en": "https://en.wikipedia.org/wiki/Invasion_of_Yugoslavia"
+      },
+      {
+        "label": "ギリシャの戦い（独軍侵攻）",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ギリシャの戦い_(1941年)",
+        "note": "ドイツがギリシャへ侵攻し連合軍は撤退。",
+        "label_en": "Battle of Greece",
+        "note_en": "\"Germany invaded Greece: Allied troops were forced to withdraw.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Greece"
+      },
+      {
+        "label": "ビスマルク撃沈",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ビスマルク_(戦艦)",
+        "note": "英海軍が独戦艦ビスマルクを撃沈。大西洋の制海に影響。",
+        "label_en": "Sinking of the Bismarck",
+        "note_en": "Royal Navy sank the German battleship Bismarck, affecting Atlantic control.",
+        "url_en": "https://en.wikipedia.org/wiki/German_battleship_Bismarck"
+      },
+      {
+        "label": "香港の戦い・香港陥落",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/香港の戦い",
+        "note": "日本軍が英領香港を攻撃し陥落させた。",
+        "label_en": "Battle and Fall of Hong Kong",
+        "note_en": "Japanese forces attacked and captured British Hong Kong.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Hong_Kong"
+      },
+      {
+        "label": "マレー作戦開始",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マレー作戦",
+        "note": "日本軍が英領マラヤへ進攻。シンガポール攻略の前段階。",
+        "label_en": "Malayan Campaign begins",
+        "note_en": "Japan advanced into British Malaya, a prelude to Singapore’s fall.",
+        "url_en": "https://en.wikipedia.org/wiki/Malayan_campaign"
+      },
+      {
+        "label": "フィリピン侵攻開始",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/フィリピンの戦い_(1941-1942年)",
+        "note": "日本軍が米領フィリピンへ侵攻。バターン半島の戦いへ続く。",
+        "label_en": "Invasion of the Philippines begins",
+        "note_en": "Japan invaded the US‑controlled Philippines, leading to the Bataan battles.",
+        "url_en": "https://en.wikipedia.org/wiki/Philippines_campaign_(1941%E2%80%931942)"
+      },
+      {
+        "label": "蘭印作戦の開始",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/蘭印作戦",
+        "note": "日本軍が資源豊富な蘭印へ進攻を開始。",
+        "label_en": "Dutch East Indies campaign begins",
+        "note_en": "Japan began its drive into resource‑rich Dutch East Indies.",
+        "url_en": "https://en.wikipedia.org/wiki/Dutch_East_Indies_campaign"
+      },
+      {
+        "label": "映画『マルタの鷹』公開",
+        "startYear": 1941,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マルタの鷹_(映画)",
+        "note": "ジョン・ヒューストン監督の古典的フィルム・ノワール。",
+        "label_en": "Film: The Maltese Falcon",
+        "note_en": "John Huston’s classic film noir debuted.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(1941_film)"
+      },
+      {
+        "label": "映画『ダンボ』公開",
+        "startYear": 1941,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダンボ",
+        "note": "ディズニーの短尺長編。戦時下の制作事情の中で高評価を得る。",
+        "label_en": "Film: Dumbo",
+        "note_en": "Disney’s short feature earned acclaim despite wartime constraints.",
+        "url_en": "https://en.wikipedia.org/wiki/Dumbo"
+      },
+      {
+        "label": "Willys MB 採用決定",
+        "startYear": 1941,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Willys_MB",
+        "note": "米陸軍がWillys MBを標準小型4x4として採用。",
+        "label_en": "Willys MB Jeep standardized",
+        "note_en": "US Army standardized the Willys MB as its light 4x4 vehicle.",
+        "url_en": "https://en.wikipedia.org/wiki/Willys_MB"
+      },
+      {
+        "label": "T-34の本格投入",
+        "startYear": 1941,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/T-34",
+        "note": "ソ連のT-34戦車が前線へ大量投入され独軍に衝撃を与える。",
+        "label_en": "T-34 tank widely deployed",
+        "note_en": "The Soviet T‑34 was fielded in numbers, shocking German forces.",
+        "url_en": "https://en.wikipedia.org/wiki/T-34"
+      },
+      {
+        "label": "『キャプテン・アメリカ』創刊",
+        "startYear": 1941,
+        "genre": [
+          "CONTENT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/キャプテン・アメリカ",
+        "note": "ナチ打倒を掲げるヒーローが登場。出版社タイムリー・コミックスの看板作に。",
+        "label_en": "Captain America Comics #1",
+        "note_en": "\"Hero debuted battling Nazis: a flagship for Timely Comics (Marvel’s precursor).\"",
+        "url_en": "https://en.wikipedia.org/wiki/Captain_America_Comics"
+      },
+      {
+        "label": "ワンダーウーマン初登場",
+        "startYear": 1941,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ワンダーウーマン",
+        "note": "『オールスター・コミックス』#8で初登場。女性ヒーローの象徴に。",
+        "label_en": "Wonder Woman debut",
+        "note_en": "Debuted in All Star Comics #8, becoming an icon of female superheroes.",
+        "url_en": "https://en.wikipedia.org/wiki/Wonder_Woman"
+      },
+      {
+        "label": "四つの自由 演説",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/四つの自由",
+        "note": "F・ローズベルトが信教・言論・欠乏からの自由・恐怖からの自由を提唱。",
+        "label_en": "Four Freedoms speech",
+        "note_en": "FDR outlined freedom of speech, worship, from want, and from fear.",
+        "url_en": "https://en.wikipedia.org/wiki/Four_Freedoms"
+      },
+      {
+        "label": "東アフリカ戦線の終結",
+        "startYear": 1941,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/東アフリカ戦線_(第二次世界大戦)",
+        "note": "英連邦軍がイタリア軍を各地で撃破し植民地を奪回。",
+        "label_en": "East African campaign ends",
+        "note_en": "Commonwealth forces defeated Italy and retook colonies in East Africa.",
+        "url_en": "https://en.wikipedia.org/wiki/East_African_campaign_(World_War_II)"
+      },
+      {
+        "label": "Packard社のマーリン量産開始",
+        "startYear": 1941,
+        "genre": [
+          "COMPANY",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin",
+        "note": "米パッカードが英ロールス・ロイスのマーリンエンジン量産を開始。",
+        "label_en": "Packard begins Merlin production",
+        "note_en": "US Packard began licensed mass production of the Rolls‑Royce Merlin engine.",
+        "url_en": "https://en.wikipedia.org/wiki/Packard_V-1650_Merlin"
+      },
+      {
+        "label": "Zuse社設立",
+        "startYear": 1941,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Konrad_Zuse",
+        "note": "コンラート・ツーゼが会社を設立。Z3など計算機の開発基盤となる。",
+        "label_en": "Zuse Apparatebau founded",
+        "note_en": "Konrad Zuse established a company, underpinning his computer work like the Z3.",
+        "url_en": "https://en.wikipedia.org/wiki/Konrad_Zuse"
+      },
+      {
+        "label": "Z3（ドイツのツーゼによるコンピューター）完成",
+        "startYear": 1941,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Z3_(コンピュータ)",
+        "note": "コンラート・ツーゼがZ3を完成。世界初の動作するプログラム制御式コンピュータの一つ。",
+        "label_en": "Zuse Z3 completed",
+        "note_en": "Konrad Zuse completed Z3, among the first working program‑controlled computers.",
+        "url_en": "https://en.wikipedia.org/wiki/Z3_(computer)"
+      }
+    ],
+    "1942": [
+      {
+        "label": "ミッドウェー海戦",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ミッドウェー海戦",
+        "note": "日米の空母決戦で米軍が勝利し太平洋戦争の転機となる",
+        "label_en": "Battle of Midway",
+        "note_en": "\"Decisive carrier battle: US victory turned the tide in the Pacific War.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Midway"
+      },
+      {
+        "label": "第二次エル・アラメインの戦い",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/第二次エル・アラメインの戦い",
+        "note": "英第8軍がロンメル軍を撃破し北アフリカ戦線の流れを変えた。",
+        "label_en": "Second Battle of El Alamein",
+        "note_en": "British Eighth Army defeated Rommel, shifting North Africa’s campaign.",
+        "url_en": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+      },
+      {
+        "label": "ガダルカナル島の戦い開始",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ガダルカナル島の戦い",
+        "note": "連合軍がソロモン諸島に上陸し航空優勢を争う激戦が始まる。",
+        "label_en": "Guadalcanal Campaign begins",
+        "note_en": "Allies landed in the Solomons, beginning a brutal fight for air superiority.",
+        "url_en": "https://en.wikipedia.org/wiki/Guadalcanal_campaign"
+      },
+      {
+        "label": "スターリングラード攻防戦開始",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/スターリングラード攻防戦",
+        "note": "独軍の夏季攻勢でスターリングラード市街戦が始まる。",
+        "label_en": "Battle of Stalingrad begins",
+        "note_en": "German summer offensive triggered urban warfare in Stalingrad.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+      },
+      {
+        "label": "シンガポール陥落",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/シンガポールの戦い",
+        "note": "日本軍が英領シンガポールを降伏させ、東南アジア情勢が一変。",
+        "label_en": "Fall of Singapore",
+        "note_en": "Japan forced the surrender of Singapore, reshaping Southeast Asia.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Singapore"
+      },
+      {
+        "label": "トーチ作戦",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トーチ作戦",
+        "note": "連合軍が北西アフリカに上陸し枢軸勢力を挟撃。",
+        "label_en": "Operation Torch",
+        "note_en": "Allied landings in North Africa opened a western front against Axis forces.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Torch"
+      },
+      {
+        "label": "ドゥーリットル空襲",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ドゥーリットル空襲",
+        "note": "米陸軍航空軍が日本本土を初空襲し士気を高めた。",
+        "label_en": "Doolittle Raid",
+        "note_en": "USAAF conducted the first air raid on Japan, boosting Allied morale.",
+        "url_en": "https://en.wikipedia.org/wiki/Doolittle_Raid"
+      },
+      {
+        "label": "珊瑚海海戦",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/珊瑚海海戦",
+        "note": "史上初の空母同士の海戦。日本のポートモレスビー攻略を阻止。",
+        "label_en": "Battle of the Coral Sea",
+        "note_en": "\"First carrier-versus-carrier battle: halted Japan’s Port Moresby plans.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea"
+      },
+      {
+        "label": "バターン死の行進",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バターン死の行進",
+        "note": "フィリピンで連合軍捕虜が過酷な強制行軍を強いられ多くが死亡。",
+        "label_en": "Bataan Death March",
+        "note_en": "\"Allied POWs were forced on a brutal march in the Philippines: many died.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Bataan_Death_March"
+      },
+      {
+        "label": "ワンゼー会議",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ヴァンゼー会議",
+        "note": "ナチスがユダヤ人絶滅政策の具体化を協議した会議。",
+        "label_en": "Wannsee Conference",
+        "note_en": "Nazi officials coordinated the ‘Final Solution’ at a Berlin‑area meeting.",
+        "url_en": "https://en.wikipedia.org/wiki/Wannsee_Conference"
+      },
+      {
+        "label": "トゥーロンでのフランス艦隊自沈",
+        "startYear": 1942,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/トゥーロンにおけるフランス艦隊自沈",
+        "note": "仏艦隊が独の接収を防ぐため自沈。地中海の勢力図に影響。",
+        "label_en": "Scuttling of the French fleet at Toulon",
+        "note_en": "French fleet scuttled itself to avoid German capture, affecting Mediterranean power.",
+        "url_en": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_in_Toulon"
+      },
+      {
+        "label": "O.S.S.創設",
+        "startYear": 1942,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/戦略諜報局",
+        "note": "米国の情報・特殊作戦機関OSSが発足。CIAの前身。",
+        "label_en": "Office of Strategic Services established",
+        "note_en": "US created the OSS for intelligence and special operations, precursor to the CIA.",
+        "url_en": "https://en.wikipedia.org/wiki/Office_of_Strategic_Services"
+      },
+      {
+        "label": "マンハッタン計画本格始動",
+        "startYear": 1942,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マンハッタン計画",
+        "note": "米英加の原爆開発計画が本格稼働。シカゴ・パイル1の臨界へ繋がる。",
+        "label_en": "Manhattan Project organized",
+        "note_en": "US‑UK‑Canada atomic bomb program ramped up, leading to Chicago Pile‑1.",
+        "url_en": "https://en.wikipedia.org/wiki/Manhattan_Project"
+      },
+      {
+        "label": "シカゴ・パイル1の臨界達成",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/シカゴ・パイル1",
+        "note": "世界初の原子炉が臨界に到達。原子力の実証的出発点。",
+        "label_en": "Chicago Pile‑1 criticality",
+        "note_en": "World’s first nuclear reactor achieved criticality, proving controlled fission.",
+        "url_en": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+      },
+      {
+        "label": "V-2ロケット初の成功飛行",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/V2ロケット",
+        "note": "弾道ロケットV-2が成功裏に打ち上げ。ロケット技術の画期。",
+        "label_en": "V-2 first successful launch",
+        "note_en": "Ballistic rocket V‑2 launched successfully, a milestone in rocketry.",
+        "url_en": "https://en.wikipedia.org/wiki/V-2_rocket"
+      },
+      {
+        "label": "メッサーシュミットMe 262初のジェット飛行",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メッサーシュミットMe262",
+        "note": "Me 262がジェット推進で初飛行。ジェット時代の幕開けを示す。",
+        "label_en": "Me 262 first jet-powered flight",
+        "note_en": "Me 262 made its first jet‑powered flight, heralding the jet age.",
+        "url_en": "https://en.wikipedia.org/wiki/Messerschmitt_Me_262"
+      },
+      {
+        "label": "B-29初飛行",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/B-29_(航空機)",
+        "note": "長距離重爆撃機B-29が初飛行。のちに戦略爆撃の主力に。",
+        "label_en": "B-29 Superfortress first flight",
+        "note_en": "Long‑range bomber B‑29 flew for the first time, later a strategic mainstay.",
+        "url_en": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+      },
+      {
+        "label": "アタナソフ＝ベリー・コンピュータ完成段階",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/アタナソフ＝ベリー・コンピュータ",
+        "note": "電子計算機ABCの開発が大詰めを迎え、初期デジタル計算の礎に。",
+        "label_en": "Atanasoff–Berry Computer advanced",
+        "note_en": "Development of the ABC neared completion, laying groundwork for digital computing.",
+        "url_en": "https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer"
+      },
+      {
+        "label": "ペニシリン臨床応用が拡大",
+        "startYear": 1942,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ペニシリン",
+        "note": "ペニシリンの臨床使用が広がり感染症治療に転機。",
+        "label_en": "Penicillin clinical use expands",
+        "note_en": "Clinical use of penicillin expanded, transforming infection treatment.",
+        "url_en": "https://en.wikipedia.org/wiki/Penicillin"
+      },
+      {
+        "label": "映画『カサブランカ』公開（初公開）",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カサブランカ_(映画)",
+        "note": "映画『カサブランカ』が初公開。のちに映画史上の名作とされる。",
+        "label_en": "Film: Casablanca premieres",
+        "note_en": "‘Casablanca’ premiered, later hailed as a classic of cinema.",
+        "url_en": "https://en.wikipedia.org/wiki/Casablanca_(film)"
+      },
+      {
+        "label": "映画『バンビ』公開",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バンビ",
+        "note": "ディズニー長編アニメ『バンビ』が公開。自然描写と技術で高評価。",
+        "label_en": "Film: Bambi",
+        "note_en": "Disney’s feature ‘Bambi’ released, noted for nature depiction and craft.",
+        "url_en": "https://en.wikipedia.org/wiki/Bambi"
+      },
+      {
+        "label": "映画『奥様は顔が二つ』公開",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ミニヴァー夫人",
+        "note": "英本土空襲下の市民を描いたドラマ。戦意高揚に影響。",
+        "label_en": "Film: Mrs. Miniver",
+        "note_en": "Drama portrayed civilians under the Blitz, influential for wartime morale.",
+        "url_en": "https://en.wikipedia.org/wiki/Mrs._Miniver"
+      },
+      {
+        "label": "小説『異邦人』刊",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/異邦人_(小説)",
+        "note": "カミュの代表作『異邦人』が刊行。不条理文学の象徴。",
+        "label_en": "Novel: The Stranger (Camus)",
+        "note_en": "Albert Camus published ‘The Stranger,’ emblematic of absurdist literature.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)"
+      },
+      {
+        "label": "随筆『シーシュポスの神話』刊",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シーシュポスの神話",
+        "note": "カミュが不条理と反抗を論じた哲学的随筆を発表。",
+        "label_en": "The Myth of Sisyphus published",
+        "note_en": "Camus’s essay explored absurdity and revolt.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus"
+      }
+    ],
+    "1943": [
+      {
+        "label": "カサブランカ会談",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カサブランカ会談",
+        "note": "ローズベルトとチャーチルが開催し、枢軸国への無条件降伏方針を確認。",
+        "label_en": "Casablanca Conference",
+        "note_en": "Roosevelt and Churchill met and affirmed the policy of unconditional surrender.",
+        "url_en": "https://en.wikipedia.org/wiki/Casablanca_Conference"
+      },
+      {
+        "label": "ワルシャワ・ゲットー蜂起",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ワルシャワ・ゲットー蜂起",
+        "note": "ナチ支配下でユダヤ人が武装蜂起。ホロコースト抵抗の象徴。",
+        "label_en": "Warsaw Ghetto Uprising",
+        "note_en": "Jews rose in armed revolt against Nazi deportations, a symbol of Holocaust resistance.",
+        "url_en": "https://en.wikipedia.org/wiki/Warsaw_Ghetto_Uprising"
+      },
+      {
+        "label": "クルスクの戦い",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/クルスクの戦い",
+        "note": "史上最大級の戦車戦。独軍の攻勢は頓挫し東部戦線の転換点に。",
+        "label_en": "Battle of Kursk",
+        "note_en": "\"The largest tank battle: German offensive failed, turning the Eastern Front.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Kursk"
+      },
+      {
+        "label": "ハスキー作戦（シチリア島上陸）",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハスキー作戦",
+        "note": "連合軍がシチリアに上陸しイタリア本土侵攻の道を開く。",
+        "label_en": "Allied invasion of Sicily (Operation Husky)",
+        "note_en": "Allied landings in Sicily opened the path to invading mainland Italy.",
+        "url_en": "https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily"
+      },
+      {
+        "label": "イタリア休戦（カッシビレ休戦）",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/イタリアの降伏",
+        "note": "イタリア王国が連合国と休戦し、枢軸側から離脱。",
+        "label_en": "Armistice of Cassibile",
+        "note_en": "Italy signed an armistice with the Allies, exiting the Axis.",
+        "url_en": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile"
+      },
+      {
+        "label": "テヘラン会談",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/テヘラン会談",
+        "note": "米英ソ首脳が初めて会談し、対独戦略と戦後構想を協議。",
+        "label_en": "Tehran Conference",
+        "note_en": "US‑UK‑USSR leaders met to coordinate strategy and discuss the postwar order.",
+        "url_en": "https://en.wikipedia.org/wiki/Tehran_Conference"
+      },
+      {
+        "label": "ハンブルク空襲（ゴモラ作戦）",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハンブルク空襲",
+        "note": "大規模空襲で火災旋風が発生し甚大な被害。戦略爆撃の転機。",
+        "label_en": "Operation Gomorrah (Bombing of Hamburg)",
+        "note_en": "Mass bombing created a firestorm, marking a grim turning point in strategic bombing.",
+        "url_en": "https://en.wikipedia.org/wiki/Bombing_of_Hamburg_in_World_War_II"
+      },
+      {
+        "label": "タラワの戦い",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/タラワの戦い",
+        "note": "米海兵隊が環礁で激戦。太平洋島嶼戦の苛烈さを象徴。",
+        "label_en": "Battle of Tarawa",
+        "note_en": "US Marines fought a brutal atoll battle, emblematic of Pacific island warfare.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Tarawa"
+      },
+      {
+        "label": "ガダルカナル島の戦い終結",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ガダルカナル島の戦い",
+        "note": "連合軍が勝利し南太平洋で主導権を確立。",
+        "label_en": "Guadalcanal Campaign ends",
+        "note_en": "Allied victory secured initiative in the South Pacific.",
+        "url_en": "https://en.wikipedia.org/wiki/Guadalcanal_campaign"
+      },
+      {
+        "label": "カッセリーヌ峠の戦い",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カッセリーヌ峠の戦い",
+        "note": "北アフリカで米軍が初の本格地上戦で苦戦、教訓を得る。",
+        "label_en": "Battle of Kasserine Pass",
+        "note_en": "US forces suffered setbacks in North Africa, learning hard lessons.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass"
+      },
+      {
+        "label": "アヴァランチ作戦（サレルノ上陸）",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アヴァランチ作戦",
+        "note": "連合軍がイタリア本土へ上陸し半島戦が本格化。",
+        "label_en": "Operation Avalanche (Salerno landings)",
+        "note_en": "Allies landed at Salerno, intensifying the Italian Campaign.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Avalanche"
+      },
+      {
+        "label": "カイロ会談",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カイロ会談",
+        "note": "米英中（蒋介石）が対日戦略と戦後処理の原則を協議。",
+        "label_en": "Cairo Conference",
+        "note_en": "US‑UK‑China discussed strategy against Japan and postwar principles.",
+        "url_en": "https://en.wikipedia.org/wiki/Cairo_Conference"
+      },
+      {
+        "label": "大西洋の戦いの転機",
+        "startYear": 1943,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/大西洋の戦い",
+        "note": "対潜戦力強化と暗号解読で連合軍がUボートに優位を確立。",
+        "label_en": "Turning point in the Battle of the Atlantic",
+        "note_en": "ASW advances and codebreaking gave the Allies the upper hand over U‑boats.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_the_Atlantic"
+      },
+      {
+        "label": "『星の王子さま』刊",
+        "startYear": 1943,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/星の王子さま",
+        "note": "サン＝テグジュペリの名作童話が刊行。時代を超えて読まれる寓話。",
+        "label_en": "The Little Prince published",
+        "note_en": "Antoine de Saint‑Exupéry’s timeless novella was published.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Little_Prince"
+      },
+      {
+        "label": "映画『疑惑の影』公開",
+        "startYear": 1943,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/疑惑の影",
+        "note": "ヒッチコックのサスペンス。郊外に潜む悪意を描く代表作。",
+        "label_en": "Film: Shadow of a Doubt",
+        "note_en": "Hitchcock’s suspense classic about evil lurking in suburbia.",
+        "url_en": "https://en.wikipedia.org/wiki/Shadow_of_a_Doubt"
+      },
+      {
+        "label": "黒澤明デビュー作『姿三四郎』公開",
+        "startYear": 1943,
+        "genre": [
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/姿三四郎",
+        "note": "黒澤明の監督デビュー作が公開。以後の映画史に大きな影響。",
+        "label_en": "Kurosawa’s debut: Sanshiro Sugata",
+        "note_en": "Akira Kurosawa’s directorial debut premiered, foreshadowing his impact on cinema.",
+        "url_en": "https://en.wikipedia.org/wiki/Sanshiro_Sugata"
+      },
+      {
+        "label": "映画『空軍力の勝利』公開",
+        "startYear": 1943,
+        "genre": [
+          "CONTENT",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/空軍力の勝利",
+        "note": "ディズニー制作の戦略空軍提唱映画。世論と政策に影響。",
+        "label_en": "Film: Victory Through Air Power",
+        "note_en": "Disney’s film advocated strategic air power, influencing opinion and policy.",
+        "url_en": "https://en.wikipedia.org/wiki/Victory_Through_Air_Power_(film)"
+      },
+      {
+        "label": "映画『肉体』(Ossessione) 公開",
+        "startYear": 1943,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/無防備都市",
+        "note": "ヴィスコンティの長編。イタリア新写実主義の先駆。",
+        "label_en": "Film: Ossessione",
+        "note_en": "Luchino Visconti’s feature, a forerunner of Italian neorealism.",
+        "url_en": "https://en.wikipedia.org/wiki/Ossessione"
+      },
+      {
+        "label": "ペニシリン量産の進展",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ペニシリン",
+        "note": "連合国で量産体制が整い、感染症治療を大きく変革。",
+        "label_en": "Penicillin mass production advances",
+        "note_en": "Allied nations scaled up production, transforming infection treatment.",
+        "url_en": "https://en.wikipedia.org/wiki/Penicillin"
+      },
+      {
+        "label": "VT近接信管の実戦投入",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/近接信管",
+        "note": "対空砲の命中率を飛躍させ戦局に影響。電子工学の躍進。",
+        "label_en": "Proximity fuze (VT) deployment",
+        "note_en": "\"Dramatically improved AA accuracy, impacting battles: a leap in electronics.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Proximity_fuze"
+      },
+      {
+        "label": "ENIAC開発が本格化",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ENIAC",
+        "note": "米で電子式汎用計算機の開発が本格化。のちに科学・軍事計算を刷新。",
+        "label_en": "ENIAC development ramps up",
+        "note_en": "US development of an electronic general‑purpose computer accelerated.",
+        "url_en": "https://en.wikipedia.org/wiki/ENIAC"
+      },
+      {
+        "label": "コロッサスの構築開始",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
+        "note": "独軍暗号解析用の電子計算機コロッサスの組立が始まる。",
+        "label_en": "Colossus construction begins",
+        "note_en": "Construction began on Colossus for codebreaking German ciphers.",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
+      },
+      {
+        "label": "ウラン濃縮・原爆研究の進展",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD",
+          "COMPANY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マンハッタン計画",
+        "note": "電磁分離・ガス拡散などの工場建設が進み、臨界実験が加速。",
+        "label_en": "Uranium enrichment advances",
+        "note_en": "\"EM separation and diffusion plants advanced: critical experiments accelerated.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Manhattan_Project"
+      },
+      {
+        "label": "B-29の生産体制整備",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/B-29_(航空機)",
+        "note": "ボーイングなどで量産体制が本格化。長距離爆撃の主力へ準備。",
+        "label_en": "B-29 production scales up",
+        "note_en": "Boeing and partners ramped production, preparing a strategic mainstay.",
+        "url_en": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+      },
+      {
+        "label": "T-34/85の改良開発",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/T-34",
+        "note": "ソ連戦車T-34の85mm砲搭載型が開発され火力強化。",
+        "label_en": "T-34/85 development",
+        "note_en": "The 85mm‑armed T‑34 variant was developed, boosting firepower.",
+        "url_en": "https://en.wikipedia.org/wiki/T-34"
+      },
+      {
+        "label": "IKEA創業",
+        "startYear": 1943,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/IKEA",
+        "note": "スウェーデンでイケアが創業。のちに世界的家具小売企業へ。",
+        "label_en": "IKEA founded",
+        "note_en": "Ingvar Kamprad founded IKEA in Sweden, later a global furniture retailer.",
+        "url_en": "https://en.wikipedia.org/wiki/IKEA"
+      },
+      {
+        "label": "ボーイングの大型爆撃機体制拡大",
+        "startYear": 1943,
+        "genre": [
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Boeing",
+        "note": "ボーイング社が大型爆撃機計画で工場・協力会社網を拡大。",
+        "label_en": "Boeing wartime program expands",
+        "note_en": "Boeing expanded factories and partners for the heavy bomber program.",
+        "url_en": "https://en.wikipedia.org/wiki/Boeing"
+      },
+      {
+        "label": "日本映画会社への戦時統制強化",
+        "startYear": 1943,
+        "genre": [
+          "COMPANY",
+          "CONTENT",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日本映画#戦時体制",
+        "note": "配給統合や検閲強化で映画会社の編成・作品が大きく制約。",
+        "label_en": "Wartime control of Japanese studios",
+        "note_en": "Distribution consolidation and censorship constrained studio output.",
+        "url_en": "https://en.wikipedia.org/wiki/Cinema_of_Japan"
+      },
+      {
+        "label": "ロッキードのP-38量産拡大",
+        "startYear": 1943,
+        "genre": [
+          "COMPANY",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/P-38_(戦闘機)",
+        "note": "双発戦闘機P-38の量産・配備が拡大。太平洋・欧州で活躍。",
+        "label_en": "Lockheed expands P-38 production",
+        "note_en": "Production and deployment of the twin‑engine P‑38 grew in both theaters.",
+        "url_en": "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning"
+      }
+    ],
+    "1944": [
+      {
+        "label": "ノルマンディー上陸作戦（D-Day）",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ノルマンディー上陸作戦",
+        "note": "連合軍がフランス・ノルマンディーに上陸し西部戦線を開いた。",
+        "label_en": "Normandy landings (D-Day)",
+        "note_en": "Allied forces landed in Normandy, opening the Western Front in Europe.",
+        "url_en": "https://en.wikipedia.org/wiki/Normandy_landings"
+      },
+      {
+        "label": "バグラチオン作戦",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/バグラチオン作戦",
+        "note": "ソ連軍が独中央軍集団を壊滅させ東部戦線の主導権を奪回。",
+        "label_en": "Operation Bagration",
+        "note_en": "The Red Army shattered Army Group Centre, seizing the Eastern Front initiative.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Bagration"
+      },
+      {
+        "label": "レイテ沖海戦",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/レイテ沖海戦",
+        "note": "史上最大級の海戦。日本海軍は主力を喪失しフィリピン奪還へ。",
+        "label_en": "Battle of Leyte Gulf",
+        "note_en": "\"One of history’s largest naval battles: Japan’s fleet was crippled.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf"
+      },
+      {
+        "label": "パリ解放",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パリの解放",
+        "note": "フランス国内抵抗と連合軍によりパリが解放された。",
+        "label_en": "Liberation of Paris",
+        "note_en": "Paris was liberated by Resistance and Allied forces.",
+        "url_en": "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+      },
+      {
+        "label": "ワルシャワ蜂起",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ワルシャワ蜂起",
+        "note": "ポーランド国内軍が独占領に蜂起するも鎮圧され甚大な犠牲。",
+        "label_en": "Warsaw Uprising",
+        "note_en": "\"The Polish Home Army rose against German rule: the revolt was crushed.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Warsaw_Uprising"
+      },
+      {
+        "label": "マーケット・ガーデン作戦",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マーケット・ガーデン作戦",
+        "note": "連合軍の空挺・地上連携攻勢。アルンヘムで橋確保に失敗。",
+        "label_en": "Operation Market Garden",
+        "note_en": "Allied airborne‑ground offensive failed to hold the Arnhem bridge.",
+        "url_en": "https://en.wikipedia.org/wiki/Operation_Market_Garden"
+      },
+      {
+        "label": "アンツィオ～ローマ解放",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アンツィオの戦い",
+        "note": "上陸攻勢が膠着後に突破し、ローマは6月に解放。",
+        "label_en": "Anzio to Liberation of Rome",
+        "note_en": "\"After a stalled beachhead, Allies broke through: Rome was liberated in June.\"",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Anzio"
+      },
+      {
+        "label": "モンテ・カッシーノの戦い",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モンテ・カッシーノの戦い",
+        "note": "要塞化された修道院周辺で連続攻勢。イタリア戦線の要所を突破。",
+        "label_en": "Battle of Monte Cassino",
+        "note_en": "Repeated assaults took the stronghold, opening the road to Rome.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Monte_Cassino"
+      },
+      {
+        "label": "フィリピン海海戦",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マリアナ沖海戦",
+        "note": "マリアナ沖で空母機動部隊決戦。日本航空兵力が壊滅的損耗。",
+        "label_en": "Battle of the Philippine Sea",
+        "note_en": "Carrier duel in the Marianas decimated Japan’s naval air power.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_the_Philippine_Sea"
+      },
+      {
+        "label": "サイパン・テニアン・グアムの戦い",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サイパンの戦い",
+        "note": "米軍がマリアナ諸島を制圧し本土空襲の基地を確保。",
+        "label_en": "Battles of Saipan, Tinian, Guam",
+        "note_en": "US seized the Marianas, securing bases for bombing Japan.",
+        "url_en": "https://en.wikipedia.org/wiki/Mariana_and_Palau_Islands_campaign"
+      },
+      {
+        "label": "ペリリューの戦い",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ペリリューの戦い",
+        "note": "過酷な島嶼戦で甚大な損害。戦略価値を巡る議論を呼ぶ。",
+        "label_en": "Battle of Peleliu",
+        "note_en": "Brutal island battle with heavy losses, sparking debate over its necessity.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Peleliu"
+      },
+      {
+        "label": "インパール/コヒマの戦い",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/インパール作戦",
+        "note": "日本軍が英印軍に敗退。南アジア戦線の転機。",
+        "label_en": "Battle of Imphal/Kohima",
+        "note_en": "Japanese offensive failed against British‑Indian forces, a turning point in Burma.",
+        "url_en": "https://en.wikipedia.org/wiki/Battle_of_Imphal"
+      },
+      {
+        "label": "V1・V2による英本土攻撃",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/V1ロケット",
+        "note": "ドイツの報復兵器がロンドン等を攻撃。ミサイル時代の序章。",
+        "label_en": "V-1 and V-2 attacks on Britain",
+        "note_en": "Germany’s V‑weapons struck cities like London, foreshadowing the missile age.",
+        "url_en": "https://en.wikipedia.org/wiki/V-weapons"
+      },
+      {
+        "label": "ハーヴァード・マークI稼働",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハーバード・マークI",
+        "note": "IBM協力の大型電動計算機が稼働。計算自動化の画期。",
+        "label_en": "Harvard Mark I operational",
+        "note_en": "IBM‑backed large electromechanical computer went into operation.",
+        "url_en": "https://en.wikipedia.org/wiki/Harvard_Mark_I"
+      },
+      {
+        "label": "コロッサス稼働開始",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/コロッサス計算機",
+        "note": "ブレッチリー・パークでドイツ暗号解読用コンピュータが稼働。",
+        "label_en": "Colossus operational",
+        "note_en": "Codebreaking computer began operation at Bletchley Park.",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer"
+      },
+      {
+        "label": "ペニシリンの量産・普及",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ペニシリン",
+        "note": "大量生産と前線配布が本格化し感染症死亡率を大幅低下。",
+        "label_en": "Penicillin scaled and deployed",
+        "note_en": "Mass production and distribution cut infection mortality dramatically.",
+        "url_en": "https://en.wikipedia.org/wiki/Penicillin"
+      },
+      {
+        "label": "Me 262実戦投入",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メッサーシュミットMe262",
+        "note": "世界初の実用ジェット戦闘機が実戦参加。航空戦術に衝撃。",
+        "label_en": "Me 262 enters combat",
+        "note_en": "The first operational jet fighter saw combat, shocking air warfare tactics.",
+        "url_en": "https://en.wikipedia.org/wiki/Messerschmitt_Me_262"
+      },
+      {
+        "label": "B-29の本格運用",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/B-29_(航空機)",
+        "note": "遠距離戦略爆撃の主力として配備拡大。",
+        "label_en": "B-29 operational use grows",
+        "note_en": "Deployed widely as the main platform for long‑range strategic bombing.",
+        "url_en": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress"
+      },
+      {
+        "label": "合成ゴム・レーダー等の量産",
+        "startYear": 1944,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/合成ゴム",
+        "note": "合成素材・電子機器の量産が進み技術基盤を形成。",
+        "label_en": "War production: rubber/radar scale‑up",
+        "note_en": "Mass production of synthetics and electronics built a postwar tech base.",
+        "url_en": "https://en.wikipedia.org/wiki/Radar_in_World_War_II"
+      },
+      {
+        "label": "ブレトン・ウッズ会議",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ブレトン・ウッズ協定",
+        "note": "戦後の国際通貨体制を設計しIMF・世界銀行の創設を決定。",
+        "label_en": "Bretton Woods Conference",
+        "note_en": "Designed the postwar monetary order, creating the IMF and World Bank.",
+        "url_en": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference"
+      },
+      {
+        "label": "G.I.ビル成立",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD",
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/GIビル",
+        "note": "退役軍人の教育・住宅支援を拡充し米中産層拡大に寄与。",
+        "label_en": "G.I. Bill enacted",
+        "note_en": "Expanded veterans’ benefits, fueling US higher education and middle class.",
+        "url_en": "https://en.wikipedia.org/wiki/G.I._Bill"
+      },
+      {
+        "label": "ダンバートン・オークス会議",
+        "startYear": 1944,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダンバートン・オークス会議",
+        "note": "国連設立の枠組みを協議。国際連合憲章案の基礎に。",
+        "label_en": "Dumbarton Oaks Conference",
+        "note_en": "Outlined the framework that led to the United Nations Charter.",
+        "url_en": "https://en.wikipedia.org/wiki/Dumbarton_Oaks_Conference"
+      },
+      {
+        "label": "映画『二重生活』(Double Indemnity)",
+        "startYear": 1944,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/深夜の告白",
+        "note": "ビリー・ワイルダーのノワール古典。犯罪劇の様式を確立。",
+        "label_en": "Film: Double Indemnity",
+        "note_en": "Noir classic by Billy Wilder, defining the genre’s style.",
+        "url_en": "https://en.wikipedia.org/wiki/Double_Indemnity"
+      },
+      {
+        "label": "映画『逢びき』制作期",
+        "startYear": 1944,
+        "genre": [
+          "CONTENT",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/逢びき",
+        "note": "英国名作メロドラマの制作が本格化。翌年公開へ。",
+        "label_en": "Film: Brief Encounter (prod.)",
+        "note_en": "Production of the British classic intensified, releasing the next year.",
+        "url_en": "https://en.wikipedia.org/wiki/Brief_Encounter"
+      }
+    ],
     "1945": [
       {
         "label": "ヤルタ会談",
