@@ -1363,6 +1363,21 @@
         "label_en": "Lockheed expands P-38 production",
         "url_en": "https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning",
         "note_en": "Production and deployment of the twin‑engine P‑38 grew in both theaters."
+      },
+      {
+        "label": "コロッサス稼働開始",
+        "startYear": 1943,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Colossus",
+        "note": "ブレッチリー・パークでドイツ暗号解読用コンピュータが稼働。",
+        "label_en": "Colossus operational",
+        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
+        "note_en": "Codebreaking computer began operation at Bletchley Park."
       }
     ],
     "1944": [
@@ -1568,21 +1583,6 @@
         "label_en": "Harvard Mark I operational",
         "url_en": "https://en.wikipedia.org/wiki/Harvard_Mark_I",
         "note_en": "IBM‑backed large electromechanical computer went into operation."
-      },
-      {
-        "label": "コロッサス稼働開始",
-        "startYear": 1944,
-        "genre": [
-          "PRODUCT",
-          "COMPANY",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Colossus",
-        "note": "ブレッチリー・パークでドイツ暗号解読用コンピュータが稼働。",
-        "label_en": "Colossus operational",
-        "url_en": "https://en.wikipedia.org/wiki/Colossus_computer",
-        "note_en": "Codebreaking computer began operation at Bletchley Park."
       },
       {
         "label": "ペニシリンの量産・普及",
