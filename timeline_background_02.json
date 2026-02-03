@@ -788,11 +788,11 @@
           "WORLD"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%AD%E3%83%B3%E6%B8%AF%E8%87%AA%E6%B2%88",
+        "url": "https://ja.wikipedia.org/wiki/トゥーロンにおけるフランス艦隊自沈",
         "note": "仏艦隊が独の接収を防ぐため自沈。地中海の勢力図に影響。",
         "label_en": "Scuttling of the French fleet at Toulon",
-        "url_en": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_in_Toulon",
-        "note_en": "French fleet scuttled itself to avoid German capture, affecting Mediterranean power."
+        "note_en": "French fleet scuttled itself to avoid German capture, affecting Mediterranean power.",
+        "url_en": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_in_Toulon"
       },
       {
         "label": "O.S.S.創設",
@@ -830,11 +830,11 @@
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/シカゴ・パイル1",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%AB%E3%82%B4%E3%83%BB%E3%83%91%E3%82%A4%E3%83%AB1%E5%8F%B7",
         "note": "世界初の原子炉が臨界に到達。原子力の実証的出発点。",
         "label_en": "Chicago Pile‑1 criticality",
-        "note_en": "World’s first nuclear reactor achieved criticality, proving controlled fission.",
-        "url_en": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
+        "url_en": "https://en.wikipedia.org/wiki/Chicago_Pile-1",
+        "note_en": "World’s first nuclear reactor achieved criticality, proving controlled fission."
       },
       {
         "label": "V-2ロケット初の成功飛行",
