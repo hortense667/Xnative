@@ -34264,22 +34264,6 @@
         "note_en": "New UI and hardware requirements drew attention."
       },
       {
-        "label": "Apple M1 Pro / Max",
-        "label_en": "Apple M1 Pro/Max",
-        "startYear": 2021,
-        "genre": [
-          "COMPANY",
-          "CONTENT",
-          "PRODUCT",
-          "WORLD"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Apple%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3",
-        "url_en": "https://en.wikipedia.org/wiki/Apple_silicon",
-        "note": "ノートPCで高性能化を牽引。",
-        "note_en": "Pushed laptop performance to new levels."
-      },
-      {
         "label": "モンスターハンターライズ",
         "label_en": "Monster Hunter Rise",
         "startYear": 2021,
@@ -34531,6 +34515,21 @@
         "imp": 2,
         "note": "対面とオンラインの併用が一般化。",
         "note_en": "Hybrid models combining in‑person and remote became common."
+      },
+      {
+        "label": "Apple M1 Pro / Max",
+        "startYear": 2021,
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Apple%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3",
+        "note": "ノートPCで高性能化を牽引。",
+        "label_en": "Apple M1 Pro/Max",
+        "url_en": "https://en.wikipedia.org/wiki/Apple_silicon",
+        "note_en": "Pushed laptop performance to new levels."
       }
     ],
     "2022": [
