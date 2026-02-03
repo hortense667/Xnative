@@ -13547,6 +13547,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Private_label",
         "note": "低価格戦略として自社ブランドが芽生える。",
         "note_en": "Retailers began deploying own brands as a low‑price strategy."
+      },
+      {
+        "label": "Tools for Conviviality（イヴァン・イリイチ著）",
+        "label_en": "Tools for Conviviality (Ivan Illich)",
+        "startYear": "1973/6",
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "note": "技術を「人間の自律と共生を支える道具」として再定義し、巨大システムへの依存を批判する。テクノロジー思想の古典。",
+        "note_en": "Classic critique of industrial/large-scale systems, arguing for 'convivial tools' that support human autonomy and mutuality."
       }
     ],
     "1974": [
