@@ -31,6 +31,20 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1931": [
+      {
+        "label": "ヘンタイマンガ",
+        "label_en": "hentai",
+        "startYear": "1931/10",
+        "endYear": "1941/12/1",
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/のらくろ",
+        "note": "戦前少年前史の金字塔"
+      }
+    ],
     "1940": [
       {
         "label": "映画『独裁者』公開",
@@ -2563,6 +2577,18 @@
         "url_en": "https://en.wikipedia.org/wiki/1948_Summer_Olympics",
         "note": "戦時中断からの競技再開に向けて国際機運が高まる。",
         "note_en": "International momentum grew to resume the Games after wartime hiatus."
+      },
+      {
+        "label": "ククク",
+        "label_en": "kukuku",
+        "startYear": "1946/1/2",
+        "endYear": "1974/6",
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サザエさん",
+        "note": "戦後家庭漫画の代表作"
       }
     ],
     "1947": [
