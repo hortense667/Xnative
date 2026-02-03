@@ -263,6 +263,7 @@
       {
         "label": "真珠湾攻撃",
         "startYear": "1941/12/8",
+        "endYear": "1941/12/9",
         "genre": [
           "EVENT",
           "JAPAN",
