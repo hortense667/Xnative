@@ -31,18 +31,6 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
-    "800": [
-      {
-        "label": "テスト４",
-        "startYear": 800,
-        "genre": [
-          "PRODUCT"
-        ],
-        "imp": 3,
-        "note": "日本",
-        "label_en": "test4"
-      }
-    ],
     "1940": [
       {
         "label": "映画『独裁者』公開",
