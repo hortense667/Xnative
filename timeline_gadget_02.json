@@ -2403,20 +2403,6 @@
         "url_en": "https://en.wikipedia.org/wiki/R360"
       },
       {
-        "label": "Handycam TR55",
-        "startYear": 1990,
-        "genre": [
-          "CAMERA",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ハンディカム",
-        "note": "“パスポートサイズ”を掲げた小型ビデオカメラ。",
-        "label_en": "Handycam TR55",
-        "note_en": "A compact “passport-size” camcorder from Sony.",
-        "url_en": "https://en.wikipedia.org/wiki/Sony_Handycam"
-      },
-      {
         "label": "DataHand",
         "startYear": 1990,
         "genre": [
