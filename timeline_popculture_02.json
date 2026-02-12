@@ -4752,6 +4752,38 @@
         "label_en": "Famicom",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note_en": "Home video games go mass-market."
+      },
+      {
+        "label": "ファミコンブーム",
+        "label_en": "Famicom boom",
+        "startYear": 1983,
+        "genre": [
+          "GAM",
+          "PHE",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note": "家庭用ゲームの大衆化を牽引。",
+        "note_en": "Home video games go mass-market."
+      },
+      {
+        "label": "ファミコン",
+        "startYear": "1983",
+        "genre": [
+          "GAM",
+          "HAR",
+          "PHE",
+          "TOY",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "note": "家庭用ゲームの大衆化を牽引。",
+        "label_en": "Famicom",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note_en": "Home video games go mass-market."
       }
     ],
     "1984": [
@@ -12696,17 +12728,16 @@
       },
       {
         "label": "氷菓",
-        "label_en": "Hyouka",
-        "startYear": 2012,
-        "endYear": 2012,
+        "startYear": "2012",
+        "endYear": "2012",
         "genre": [
           "ANI",
           "JAPAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/氷菓",
-        "url_en": "https://en.wikipedia.org/wiki/Hyouka",
+        "url": "https://ja.wikipedia.org/wiki/%E6%B0%B7%E8%8F%93_(%E5%B0%8F%E8%AA%AC)#%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1",
         "note": "省エネ男子の学園ミステリ。",
+        "label_en": "Hyouka",
         "note_en": "School mystery with “energy-saving” sleuth."
       },
       {
