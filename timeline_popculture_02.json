@@ -1,4 +1,5 @@
 {
+  "metadata": {},
   "events": {
     "1945": [
       {
@@ -4750,21 +4751,6 @@
         "note": "家庭用ゲームの大衆化を牽引。",
         "label_en": "Famicom",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note_en": "Home video games go mass-market."
-      },
-      {
-        "label": "ファミコンブーム",
-        "label_en": "Famicom boom",
-        "startYear": 1983,
-        "genre": [
-          "GAM",
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note": "家庭用ゲームの大衆化を牽引。",
         "note_en": "Home video games go mass-market."
       },
       {
@@ -14616,103 +14602,128 @@
   "genres": [
     {
       "code": "ANI",
-      "label": "アニメ"
+      "label": "アニメ",
+      "conjunction": false
     },
     {
       "code": "MAN",
-      "label": "マンガ"
+      "label": "マンガ",
+      "conjunction": false
     },
     {
       "code": "GAM",
-      "label": "ゲーム"
+      "label": "ゲーム",
+      "conjunction": false
     },
     {
       "code": "TVP",
-      "label": "テレビ番組"
+      "label": "テレビ番組",
+      "conjunction": false
     },
     {
       "code": "MOV",
-      "label": "映画"
+      "label": "映画",
+      "conjunction": false
     },
     {
       "code": "NET",
-      "label": "インターネット"
+      "label": "インターネット",
+      "conjunction": false
     },
     {
       "code": "HAR",
-      "label": "ハードウェア"
+      "label": "ハードウェア",
+      "conjunction": false
     },
     {
       "code": "PHE",
-      "label": "現象・流行"
+      "label": "現象・流行",
+      "conjunction": false
     },
     {
       "code": "SOF",
-      "label": "ソフトウェア"
+      "label": "ソフトウェア",
+      "conjunction": false
     },
     {
       "code": "TOY",
-      "label": "おもちゃ"
+      "label": "おもちゃ",
+      "conjunction": false
     },
     {
       "code": "FAS",
-      "label": "ファッション"
+      "label": "ファッション",
+      "conjunction": false
     },
     {
       "code": "BOO",
-      "label": "書籍"
+      "label": "書籍",
+      "conjunction": false
     },
     {
       "code": "MAG",
-      "label": "雑誌"
+      "label": "雑誌",
+      "conjunction": false
     },
     {
       "code": "NOV",
-      "label": "小説"
+      "label": "小説",
+      "conjunction": false
     },
     {
       "code": "MUS",
-      "label": "音楽"
+      "label": "音楽",
+      "conjunction": false
     },
     {
       "code": "IDL",
-      "label": "アイドル"
+      "label": "アイドル",
+      "conjunction": false
     },
     {
       "code": "RDO",
-      "label": "ラジオ"
+      "label": "ラジオ",
+      "conjunction": false
     },
     {
       "code": "EVT",
-      "label": "イベント"
+      "label": "イベント",
+      "conjunction": false
     },
     {
       "code": "FMT",
-      "label": "フォーマット"
+      "label": "フォーマット",
+      "conjunction": false
     },
     {
       "code": "SPW",
-      "label": "スポーツ"
+      "label": "スポーツ",
+      "conjunction": false
     },
     {
       "code": "RDE",
-      "label": "乗り物"
+      "label": "乗り物",
+      "conjunction": false
     },
     {
       "code": "FOO",
-      "label": "食"
+      "label": "食",
+      "conjunction": false
     },
     {
       "code": "UNC",
-      "label": "その他"
+      "label": "その他",
+      "conjunction": false
     },
     {
       "code": "JAPAN",
-      "label": "日本"
+      "label": "日本",
+      "conjunction": true
     },
     {
       "code": "WORK",
-      "label": "作業用（仮）"
+      "label": "作業用（仮）",
+      "conjunction": false
     }
   ]
 }
