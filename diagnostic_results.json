@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2026-02-12T04:48:45.158Z",
+    "gender": "女",
+    "birthYear": 1985,
+    "owner": "hortense667",
+    "repo": "xnative",
+    "filePath": "timeline_popculture_02.json",
+    "selections": [
+      {
+        "year": 1996,
+        "label": "Pippin Atmark",
+        "genre": [
+          "GAM",
+          "HAR",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "天空のエスカフローネ",
+        "genre": [
+          "ANI",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "名探偵コナン (アニメ)",
+        "genre": [
+          "ANI",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "ピンポン",
+        "genre": [
+          "MAN",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "東京ゲームショウ",
+        "genre": [
+          "EVT",
+          "GAM",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "遊☆戯☆王",
+        "genre": [
+          "MAN",
+          "GAM",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "カードキャプターさくら",
+        "genre": [
+          "MAN",
+          "ANI",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "スーパーマリオ64",
+        "genre": [
+          "GAM",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1996,
+        "label": "ポケットモンスター 赤・緑",
+        "genre": [
+          "GAM",
+          "JAPAN"
+        ]
+      },
+      {
+        "year": 1997,
+        "label": "South Park",
+        "genre": [
+          "TVP",
+          "ANI"
+        ]
+      },
+      {
+        "year": 1997,
+        "label": "からくりサーカス",
+        "genre": [
+          "MAN",
+          "JAPAN"
+        ]
+      }
+    ]
+  }
+]
