@@ -1,37 +1,4 @@
 {
-  "metadata": {
-    "title": {
-      "ja": "ポップカルチャー年表 0.2",
-      "en": "POP Culture Timeline 0.2"
-    },
-    "description": {
-      "ja": "この年表は日本におけるポップカルチャー分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows major products and events in the field of pop culture in Japan. Currently, it is in a trial release stage and the content is being reviewed."
-    },
-    "initialCreator": "Satoshi Endo",
-    "contributors": [
-      "Satoshi Endo",
-      "Hortense Endo"
-    ],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
-      }
-    },
-    "createdAt": "2025-10-01",
-    "version": "0.2",
-    "language": [
-      "ja",
-      "en"
-    ],
-    "copyright": "© 2025 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
-  },
   "events": {
     "1945": [
       {
@@ -4767,6 +4734,38 @@
         "url_en": "https://en.wikipedia.org/wiki/MSX",
         "note": "統一仕様を目指した8ビット規格。",
         "note_en": "8-bit home computer standard initiative."
+      },
+      {
+        "label": "ファミコン",
+        "startYear": "1983",
+        "genre": [
+          "GAM",
+          "HAR",
+          "PHE",
+          "TOY",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "note": "家庭用ゲームの大衆化を牽引。",
+        "label_en": "Famicom",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note_en": "Home video games go mass-market."
+      },
+      {
+        "label": "ファミコンブーム",
+        "label_en": "Famicom boom",
+        "startYear": 1983,
+        "genre": [
+          "GAM",
+          "PHE",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note": "家庭用ゲームの大衆化を牽引。",
+        "note_en": "Home video games go mass-market."
       },
       {
         "label": "ファミコン",
@@ -14617,153 +14616,103 @@
   "genres": [
     {
       "code": "ANI",
-      "label": "アニメ",
-      "label_en": "Animation",
-      "conjunction": false
+      "label": "アニメ"
     },
     {
       "code": "MAN",
-      "label": "マンガ",
-      "label_en": "Manga",
-      "conjunction": false
+      "label": "マンガ"
     },
     {
       "code": "GAM",
-      "label": "ゲーム",
-      "label_en": "Games",
-      "conjunction": false
+      "label": "ゲーム"
     },
     {
       "code": "TVP",
-      "label": "テレビ番組",
-      "label_en": "TV Shows",
-      "conjunction": false
+      "label": "テレビ番組"
     },
     {
       "code": "MOV",
-      "label": "映画",
-      "label_en": "Film",
-      "conjunction": false
+      "label": "映画"
     },
     {
       "code": "NET",
-      "label": "インターネット",
-      "label_en": "Internet",
-      "conjunction": false
+      "label": "インターネット"
     },
     {
       "code": "HAR",
-      "label": "ハードウェア",
-      "label_en": "Hardware",
-      "conjunction": false
+      "label": "ハードウェア"
     },
     {
       "code": "PHE",
-      "label": "現象・流行",
-      "label_en": "Phenomena & Trends",
-      "conjunction": false
+      "label": "現象・流行"
     },
     {
       "code": "SOF",
-      "label": "ソフトウェア",
-      "label_en": "Software",
-      "conjunction": false
+      "label": "ソフトウェア"
     },
     {
       "code": "TOY",
-      "label": "おもちゃ",
-      "label_en": "Toys",
-      "conjunction": false
+      "label": "おもちゃ"
     },
     {
       "code": "FAS",
-      "label": "ファッション",
-      "label_en": "Fashion",
-      "conjunction": false
+      "label": "ファッション"
     },
     {
       "code": "BOO",
-      "label": "書籍",
-      "label_en": "Books",
-      "conjunction": false
+      "label": "書籍"
     },
     {
       "code": "MAG",
-      "label": "雑誌",
-      "label_en": "Magazines",
-      "conjunction": false
+      "label": "雑誌"
     },
     {
       "code": "NOV",
-      "label": "小説",
-      "label_en": "Novels",
-      "conjunction": false
+      "label": "小説"
     },
     {
       "code": "MUS",
-      "label": "音楽",
-      "label_en": "Music",
-      "conjunction": false
+      "label": "音楽"
     },
     {
       "code": "IDL",
-      "label": "アイドル",
-      "label_en": "Idols",
-      "conjunction": false
+      "label": "アイドル"
     },
     {
       "code": "RDO",
-      "label": "ラジオ",
-      "label_en": "Radio",
-      "conjunction": false
+      "label": "ラジオ"
     },
     {
       "code": "EVT",
-      "label": "イベント",
-      "label_en": "Events",
-      "conjunction": false
+      "label": "イベント"
     },
     {
       "code": "FMT",
-      "label": "フォーマット",
-      "label_en": "Formats",
-      "conjunction": false
+      "label": "フォーマット"
     },
     {
       "code": "SPW",
-      "label": "スポーツ",
-      "label_en": "Sports",
-      "conjunction": false
+      "label": "スポーツ"
     },
     {
       "code": "RDE",
-      "label": "乗り物",
-      "label_en": "Vehicles",
-      "conjunction": false
+      "label": "乗り物"
     },
     {
       "code": "FOO",
-      "label": "食",
-      "label_en": "Food",
-      "conjunction": false
+      "label": "食"
     },
     {
       "code": "UNC",
-      "label": "その他",
-      "label_en": "Other",
-      "conjunction": false
+      "label": "その他"
     },
     {
       "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
+      "label": "日本"
     },
     {
       "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "For Work",
-      "conjunction": true
+      "label": "作業用（仮）"
     }
   ]
 }
