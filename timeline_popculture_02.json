@@ -4687,21 +4687,6 @@
         "note_en": "Iconic post-apocalyptic action series."
       },
       {
-        "label": "ファミコンブーム",
-        "label_en": "Famicom boom",
-        "startYear": 1983,
-        "genre": [
-          "GAM",
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note": "家庭用ゲームの大衆化を牽引。",
-        "note_en": "Home video games go mass-market."
-      },
-      {
         "label": "山下達郎「クリスマス・イブ」",
         "label_en": "Tatsuro Yamashita “Christmas Eve”",
         "startYear": 1983,
@@ -4782,6 +4767,23 @@
         "url_en": "https://en.wikipedia.org/wiki/MSX",
         "note": "統一仕様を目指した8ビット規格。",
         "note_en": "8-bit home computer standard initiative."
+      },
+      {
+        "label": "ファミコン",
+        "startYear": "1983",
+        "genre": [
+          "GAM",
+          "HAR",
+          "PHE",
+          "TOY",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
+        "note": "家庭用ゲームの大衆化を牽引。",
+        "label_en": "Famicom",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+        "note_en": "Home video games go mass-market."
       }
     ],
     "1984": [
