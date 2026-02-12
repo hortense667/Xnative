@@ -4752,38 +4752,6 @@
         "label_en": "Famicom",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
         "note_en": "Home video games go mass-market."
-      },
-      {
-        "label": "ファミコンブーム",
-        "label_en": "Famicom boom",
-        "startYear": 1983,
-        "genre": [
-          "GAM",
-          "PHE",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note": "家庭用ゲームの大衆化を牽引。",
-        "note_en": "Home video games go mass-market."
-      },
-      {
-        "label": "ファミコン",
-        "startYear": "1983",
-        "genre": [
-          "GAM",
-          "HAR",
-          "PHE",
-          "TOY",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ファミリーコンピュータ",
-        "note": "家庭用ゲームの大衆化を牽引。",
-        "label_en": "Famicom",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
-        "note_en": "Home video games go mass-market."
       }
     ],
     "1984": [
