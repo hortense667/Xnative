@@ -3272,7 +3272,7 @@
       },
       {
         "label": "ドラえホン（パルディオ316S）",
-        "startYear": 1998,
+        "startYear": "1998",
         "genre": [
           "MOBILE"
         ],
@@ -3280,8 +3280,7 @@
         "url": "https://ascii.jp/elem/000/000/301/301777/",
         "note": "ドラえもん意匠の子供向けPHS端末。",
         "label_en": "Dorae-hon (Paldio 316S)",
-        "note_en": "A kid-focused PHS handset shaped like Doraemon.",
-        "url_en": "https://ascii.jp/elem/000/000/301/301777/"
+        "note_en": "A kid-focused PHS handset shaped like Doraemon."
       },
       {
         "label": "ドラえホン",
