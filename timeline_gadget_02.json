@@ -3283,20 +3283,6 @@
         "note_en": "A kid-focused PHS handset shaped like Doraemon."
       },
       {
-        "label": "ドラえホン",
-        "startYear": 1998,
-        "genre": [
-          "MOBILE",
-          "ROBOTOY"
-        ],
-        "imp": 3,
-        "url": "https://history-s.nttdocomo.co.jp/list_phs.html",
-        "note": "ドラえもん形のPHS端末。キャラクター携帯の先駆。",
-        "label_en": "Dorae-phone (PALDiO 316S)",
-        "note_en": "https://history-s.nttdocomo.co.jp/list_phs.html",
-        "url_en": "https://en.wikipedia.org/wiki/Personal_Handy-phone_System"
-      },
-      {
         "label": "LEGO Mindstorms",
         "startYear": 1998,
         "genre": [
