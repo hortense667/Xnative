@@ -14647,7 +14647,8 @@
       "label": "ソフトウェア",
       "label_en": "Software",
       "conjunction": false
-    } /* ,                                     ここコメントアウト
+    }
+    /* ,                                     ここコメントアウト
     {
       "code": "TVP",
       "label": "テレビ番組",
