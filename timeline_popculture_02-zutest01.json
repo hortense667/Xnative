@@ -14583,18 +14583,28 @@
   ],
   "genres": [
     {
-      "code": "ANI",
-      "label": "アニメ",
-      "conjunction": false
-    },
-    {
       "code": "MAN",
       "label": "マンガ",
       "conjunction": false
     },
     {
+      "code": "ANI",
+      "label": "アニメ",
+      "conjunction": false
+    },
+    {
       "code": "GAM",
       "label": "ゲーム",
+      "conjunction": false
+    },
+    {
+      "code": "TVP",
+      "label": "テレビ番組",
+      "conjunction": false
+    },
+    {
+      "code": "MOV",
+      "label": "映画",
       "conjunction": false
     },
     {
