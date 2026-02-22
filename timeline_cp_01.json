@@ -93,6 +93,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Tabulating_machine",
         "note": "ホレリスの集計機。国勢調査のデータ化・管理の始まり。",
         "note_en": "Hollerith's tabulator"
+      },
+      {
+        "label": "コスミズム",
+        "label_en": "Russian cosmism",
+        "startYear": "1890",
+        "genre": [
+          "THEORY",
+          "EVOL"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=Russian+cosmism",
+        "url_en": "https://en.wikipedia.org/wiki/Russian_cosmism",
+        "note": "ロシア発の宇宙的使命・不死/復活などを含む思想運動。後の未来思想へ波及。",
+        "note_en": "A](https://ja.wikipedia.org/w/index.php?search=Russian+cosmism"
       }
     ],
     "1920": [
@@ -233,10 +247,10 @@
           "EVOL"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/トランスヒューマニズム",
+        "url": "[https://ja.wikipedia.org/wiki/トランスヒューマニズム",
         "url_en": "https://en.wikipedia.org/wiki/Transhumanism",
         "note": "J.ハクスリー。科学による人間性の超越。後のテック右派の進化観へ。",
-        "note_en": "Julian Huxley. Transcending humanity through science"
+        "note_en": "Julian](https://ja.wikipedia.org/wiki/トランスヒューマニズム"
       }
     ],
     "1958": [
@@ -519,10 +533,10 @@
           "ETHI"
         ],
         "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Extropianism",
+        "url": "[https://ja.wikipedia.org/w/index.php?search=エクストロピアニズム",
         "url_en": "https://en.wikipedia.org/wiki/Extropianism",
         "note": "マックス・モア。エントロピーに抗う知能の拡大。加速主義の前史。",
-        "note_en": "Max More. Expansion of intelligence against entropy"
+        "note_en": "Max](https://ja.wikipedia.org/w/index.php?search=エクストロピアニズム"
       }
     ],
     "1989": [
@@ -556,6 +570,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
         "note": "マーク・ワイザー。遍在するコンピュータ。見えないアーキテクチャによる管理。",
         "note_en": "Mark Weiser. Omnipresent computing"
+      },
+      {
+        "label": "シンギュラリティアニズム",
+        "label_en": "Singularitarianism",
+        "startYear": "1991",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=Singularitarianism",
+        "url_en": "https://en.wikipedia.org/wiki/Singularitarianism",
+        "note": "技術的特異点の到来を信じ、その実現や備えを志向する立場（語は1991に定義）。",
+        "note_en": "A](https://ja.wikipedia.org/w/index.php?search=Singularitarianism"
       }
     ],
     "1992": [
@@ -861,6 +890,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Capitalist_Realism",
         "note": "マーク・フィッシャー。資本主義以外の出口を想像できない精神の閉塞。",
         "note_en": "Mark Fisher on the inability to imagine an exit from capitalism."
+      },
+      {
+        "label": "理性主義 (ネット合理主義コミュニティ)",
+        "label_en": "Rationalist community",
+        "startYear": "2009",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=Rationalist+community",
+        "url_en": "https://en.wikipedia.org/wiki/Rationalist_community",
+        "note": "LessWrong等を核に、合理性・バイアス低減・推論訓練を重視するネット共同体。",
+        "note_en": "Online](https://ja.wikipedia.org/w/index.php?search=Rationalist+community"
       }
     ],
     "2010": [
@@ -890,10 +934,10 @@
           "ETHI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/実効的利他主義",
+        "url": "[https://ja.wikipedia.org/wiki/実効的利他主義",
         "url_en": "https://en.wikipedia.org/wiki/Effective_altruism",
         "note": "マッカスキル。データで「善」を最大化する。テック富豪の倫理。",
-        "note_en": "MacAskill. Maximizing \"good\" via data"
+        "note_en": "MacAskill](https://ja.wikipedia.org/wiki/実効的利他主義"
       },
       {
         "label": "停滞の時代",
@@ -923,10 +967,10 @@
           "POLI"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
+        "url": "[https://ja.wikipedia.org/wiki/暗黒啓蒙",
         "url_en": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
         "note": "ニック・ランド。民主主義を破棄し、技術加速による脱人間化を説く。",
-        "note_en": "Nick Land's call to discard democracy and embrace dehumanization via tech acceleration."
+        "note_en": "Nick](https://ja.wikipedia.org/wiki/暗黒啓蒙"
       }
     ],
     "2013": [
@@ -1021,10 +1065,10 @@
           "POLI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポスト真実",
+        "url": "[https://ja.wikipedia.org/wiki/ポスト真実",
         "url_en": "https://en.wikipedia.org/wiki/Post-truth_politics",
         "note": "感情や信念が事実を凌駕する社会。アルゴリズムによる世論操作の結実。",
-        "note_en": "Society where emotion trumps fact"
+        "note_en": "Society](https://ja.wikipedia.org/wiki/ポスト真実"
       }
     ],
     "2017": [
@@ -1041,6 +1085,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Attention_economy",
         "note": "「注目」を資源とする経済。人間の認知がハックされ、システムに奉仕する。",
         "note_en": "Economy fueled by \"attention\""
+      },
+      {
+        "label": "インテレクチュアル・ダークウェブ",
+        "label_en": "Intellectual dark web",
+        "startYear": "2017",
+        "genre": [
+          "THEORY",
+          "POLI",
+          "MEDIA"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=Intellectual+dark+web",
+        "url_en": "https://en.wikipedia.org/wiki/Intellectual_dark_web",
+        "note": "反PC/反主流の論者群を束ねたメディア的ラベル。Eric](https://ja.wikipedia.org/w/index.php?search=Intellectual+dark+web",
+        "note_en": "https://en.wikipedia.org/wiki/Intellectual_dark_web"
       }
     ],
     "2018": [
@@ -1119,10 +1178,10 @@
           "ETHI"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/Longtermism",
+        "url": "[https://ja.wikipedia.org/w/index.php?search=Longtermism",
         "url_en": "https://en.wikipedia.org/wiki/Longtermism",
         "note": "マッカスキル。数万年後の未来の人類の利益を最大化する冷徹な計算。",
-        "note_en": "MacAskill's cold calculation to maximize interests of trillions of future humans."
+        "note_en": "MacAskill's](https://ja.wikipedia.org/w/index.php?search=Longtermism"
       },
       {
         "label": "プロ・ナタリズム (出生主義)",
@@ -1138,6 +1197,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Pronatalism",
         "note": "テックエリートによる選民的な人口増殖思想。高知能な子孫の確保。",
         "note_en": "Tech elite's elitist pro-population thought"
+      },
+      {
+        "label": "ChatGPT",
+        "label_en": "ChatGPT",
+        "startYear": "2022",
+        "genre": [
+          "SOFTWARE",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "[https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
+        "note": "OpenAIの対話型生成AI。2022-11-30公開、以後生成AIブームの代表的参照点に。",
+        "note_en": "OpenAI’s](https://ja.wikipedia.org/wiki/ChatGPT"
       }
     ],
     "2023": [
@@ -1151,10 +1224,10 @@
           "ETHI"
         ],
         "imp": 5,
-        "url": "https://en.wikipedia.org/wiki/TESCREAL",
+        "url": "[https://ja.wikipedia.org/w/index.php?search=TESCREAL",
         "url_en": "https://en.wikipedia.org/wiki/TESCREAL",
         "note": "T.ゲブル。テック右派の危険な思想群（トランスヒューマニズム等）を批判する総称。",
-        "note_en": "Timnit Gebru's term criticizing the cluster of dangerous tech ideologies (Transhumanism, etc.)."
+        "note_en": "Timnit](https://ja.wikipedia.org/w/index.php?search=TESCREAL"
       },
       {
         "label": "d/acc (脱加速主義)",
@@ -1170,6 +1243,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Decelerationism",
         "note": "ヴィタリック。加速を認めつつ、防御的・分散的な技術進化を模索。",
         "note_en": "Vitalik Buterin's path: admitting acceleration while seeking defensive/decentralized evolution."
+      },
+      {
+        "label": "TESCREAList（テスクリアリスト）",
+        "label_en": "TESCREAList",
+        "startYear": "2023",
+        "genre": [
+          "THEORY",
+          "POLI",
+          "ETHI"
+        ],
+        "imp": 3,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=TESCREAList",
+        "url_en": "https://en.wikipedia.org/wiki/TESCREAL",
+        "note": "TESCREALに含まれる思想群を支持/肯定すると見なされる人々を指す呼称として用いられる。",
+        "note_en": "A](https://ja.wikipedia.org/w/index.php?search=TESCREAList"
       }
     ],
     "2024": [
@@ -1187,6 +1275,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
         "note": "世界初の包括的AI規制。加速主義に対する「法の壁」。",
         "note_en": "The world's first comprehensive AI regulation"
+      },
+      {
+        "label": "エミール・P・トレス",
+        "label_en": "Émile P. Torres",
+        "startYear": "2024",
+        "genre": [
+          "PEOPLE",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "[https://ja.wikipedia.org/w/index.php?search=エミール・P・トレス",
+        "url_en": "https://en.wikipedia.org/wiki/%C3%89mile_P._Torres",
+        "note": "哲学者/知性史家。TESCREAL提唱者の一人として、未来思想やAI倫理を批判的に扱う。",
+        "note_en": "Philosopher](https://ja.wikipedia.org/w/index.php?search=エミール・P・トレス"
       }
     ]
   },
