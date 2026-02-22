@@ -96,7 +96,6 @@
     }
   ],
   "genres": [
-    // 基本属性
     {
       "code": "THEORY",
       "label": "理論",
@@ -140,7 +139,6 @@
       "conjunction": false
     },
 
-    // ４つの潮流
     {
       "code": "LIB-PLAT",
       "label": "解放からプラットフォーム支配へ",
@@ -166,7 +164,6 @@
       "conjunction": false
     },
 
-    // ３つの現代的視点
     {
       "code": "POLI",
       "label": "政治思想",
