@@ -554,7 +554,7 @@
     ],
     "1983": [
       {
-        "label": "オタク (初出)",
+        "label": "おたく (初出)",
         "label_en": "Otaku",
         "startYear": "1983",
         "genre": [
@@ -565,7 +565,7 @@
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/おたく",
         "url_en": "https://en.wikipedia.org/wiki/Otaku",
-        "note": "中森明夫。情報収集・解析への偏愛。ネット社会の住人の先駆け。",
+        "note": "東京おとなクラブ。情報収集・解析への偏愛。ネット社会の住人の先駆け。",
         "note_en": "Akio Nakamori. Devotion to info-gathering"
       }
     ],
@@ -1398,7 +1398,53 @@
     ],
     "2025": []
   },
-  "eraSettings": [],
+  "eraSettings": [
+    {
+      "name": "明治",
+      "startYear": 1868,
+      "endYear": 1912,
+      "color": "#00CED1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    },
+    {
+      "name": "大正",
+      "startYear": 1912,
+      "endYear": 1926,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    },
+    {
+      "name": "昭和",
+      "startYear": 1926,
+      "endYear": 1989,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    },
+    {
+      "name": "平成",
+      "startYear": 1989,
+      "endYear": 2019,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    },
+    {
+      "name": "令和",
+      "startYear": 2019,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    }   
+  ],
   "genres": [
     {
       "code": "THEORY",
