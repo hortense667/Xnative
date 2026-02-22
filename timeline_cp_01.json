@@ -1230,21 +1230,6 @@
         "note_en": "Timnit](https://ja.wikipedia.org/w/index.php?search=TESCREAL"
       },
       {
-        "label": "d/acc (脱加速主義)",
-        "label_en": "Decelerationism / d/acc",
-        "startYear": "2023",
-        "genre": [
-          "THEORY",
-          "RAT-ACC",
-          "ETHI"
-        ],
-        "imp": 4,
-        "url": "https://en.wikipedia.org/wiki/Decelerationism",
-        "url_en": "https://en.wikipedia.org/wiki/Decelerationism",
-        "note": "ヴィタリック。加速を認めつつ、防御的・分散的な技術進化を模索。",
-        "note_en": "Vitalik Buterin's path: admitting acceleration while seeking defensive/decentralized evolution."
-      },
-      {
         "label": "TESCREAList（テスクリアリスト）",
         "label_en": "TESCREAList",
         "startYear": "2023",
@@ -1258,6 +1243,21 @@
         "url_en": "https://en.wikipedia.org/wiki/TESCREAL",
         "note": "TESCREALに含まれる思想群を支持/肯定すると見なされる人々を指す呼称として用いられる。",
         "note_en": "A](https://ja.wikipedia.org/w/index.php?search=TESCREAList"
+      },
+      {
+        "label": "d/acc (脱加速主義)",
+        "label_en": "Decelerationism / d/acc",
+        "startYear": "2023",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Decelerationism",
+        "url_en": "https://en.wikipedia.org/wiki/Decelerationism",
+        "note": "ヴィタリック。加速を認めつつ、防御的・分散的な技術進化を模索。",
+        "note_en": "Vitalik Buterin's path: admitting acceleration while seeking defensive/decentralized evolution."
       }
     ],
     "2024": [
