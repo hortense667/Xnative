@@ -31,6 +31,198 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1791": [
+      {
+        "label": "パノプティコン",
+        "label_en": "Panopticon",
+        "startYear": "1791",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パノプティコン",
+        "url_en": "https://en.wikipedia.org/wiki/Panopticon",
+        "note": "ベンサムによる一望監視システム。現代のデータ監視社会の理論的源流。",
+        "note_en": "Bentham's surveillance system, a theoretical precursor to the modern data surveillance society."
+      }
+    ],
+    "1811": [
+      {
+        "label": "ラッダイト運動",
+        "label_en": "Luddite movement",
+        "startYear": "1811",
+        "genre": [
+          "EVENT",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ラッダイト運動",
+        "url_en": "https://en.wikipedia.org/wiki/Luddite_movement",
+        "note": "産業革命期の機械打ちこわし運動。技術による労働代替への最初の組織的抵抗。",
+        "note_en": "Machine-breaking during the Industrial Revolution"
+      }
+    ],
+    "1843": [
+      {
+        "label": "詩的科学",
+        "label_en": "Poetic Science",
+        "startYear": "1843",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エイダ・ラブレス",
+        "url_en": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "note": "エイダ・ラブレス。計算機が数学だけでなく芸術も扱えると予見した思想。",
+        "note_en": "Ada Lovelace's vision that computers could handle art, not just mathematics."
+      }
+    ],
+    "1890": [
+      {
+        "label": "タビュレーティングマシン",
+        "label_en": "Tabulating machine",
+        "startYear": "1890",
+        "genre": [
+          "HARDWARE",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/タビュレーティングマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Tabulating_machine",
+        "note": "ホレリスの集計機。国勢調査のデータ化・管理の始まり。",
+        "note_en": "Hollerith's tabulator"
+      }
+    ],
+    "1920": [
+      {
+        "label": "ロボット",
+        "label_en": "R.U.R.",
+        "startYear": "1920",
+        "genre": [
+          "CONTENT",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ロボット_(戯曲)",
+        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
+        "note": "カレル・チャペック。労働と人造人間の対立。ロボットの語源。",
+        "note_en": "Karel Čapek's play. Coined \"robot,\" depicting the conflict between labor and artificial beings."
+      }
+    ],
+    "1932": [
+      {
+        "label": "すばらしい新世界",
+        "label_en": "Brave New World",
+        "startYear": "1932",
+        "genre": [
+          "CONTENT",
+          "SURV-ARCH"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/すばらしい新世界",
+        "url_en": "https://en.wikipedia.org/wiki/Brave_New_World",
+        "note": "ハクスリー。快楽と生物学的管理によるディストピア。",
+        "note_en": "Huxley's dystopia of pleasure-based biological management."
+      }
+    ],
+    "1936": [
+      {
+        "label": "複製技術時代の芸術",
+        "label_en": "The Work of Art in the Age of Mechanical Reproduction",
+        "startYear": "1936",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/複製技術時代の芸術",
+        "url_en": "https://en.wikipedia.org/wiki/The_Work_of_Art_in_the_Age_of_Mechanical_Reproduction",
+        "note": "ベンヤミン。技術による一回性（アウラ）の喪失と情報の民主化。",
+        "note_en": "Benjamin on the loss of aura (uniqueness) due to technology and the democratization of information."
+      },
+      {
+        "label": "チューリングマシン",
+        "label_en": "Turing machine",
+        "startYear": "1936",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリングマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_machine",
+        "note": "アラン・チューリング。計算可能性の定義。知能の機械化の基礎。",
+        "note_en": "Alan Turing's model defining computability"
+      }
+    ],
+    "1942": [
+      {
+        "label": "ロボット工学三原則",
+        "label_en": "Three Laws of Robotics",
+        "startYear": "1942",
+        "genre": [
+          "CONTENT",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ロボット工学三原則",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+        "note": "アシモフ。機械倫理をプログラムで制御しようとする最初の試み。",
+        "note_en": "Asimov's laws"
+      }
+    ],
+    "1948": [
+      {
+        "label": "サイバネティックス",
+        "label_en": "Cybernetics",
+        "startYear": "1948",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "ウィーナー。通信と制御の統一理論。システムによる社会統治の端緒。",
+        "note_en": "Wiener's theory of control and communication"
+      }
+    ],
+    "1949": [
+      {
+        "label": "1984年 (ビッグブラザー)",
+        "label_en": "Nineteen Eighty-Four",
+        "startYear": "1949",
+        "genre": [
+          "CONTENT",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/1984年_(小説)",
+        "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+        "note": "オーウェル。監視と情報統制による全体主義。テック右派が嫌悪する「管理」の象徴。",
+        "note_en": "Orwell's totalitarianism via surveillance"
+      }
+    ],
+    "1950": [
+      {
+        "label": "チューリング・テスト",
+        "label_en": "Turing test",
+        "startYear": "1950",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械に知能が宿るかの判定。人間と非人間の境界の曖昧化。",
+        "note_en": "Test for machine intelligence"
+      }
+    ],
     "1956": [
       {
         "label": "遠藤諭誕生",
@@ -45,6 +237,972 @@
         "label_en": "",
         "note_en": "",
         "url_en": ""
+      }
+    ],
+    "1957": [
+      {
+        "label": "トランスヒューマニズム (初出)",
+        "label_en": "Transhumanism",
+        "startYear": "1957",
+        "genre": [
+          "THEORY",
+          "EVOL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/トランスヒューマニズム",
+        "url_en": "https://en.wikipedia.org/wiki/Transhumanism",
+        "note": "J.ハクスリー。科学による人間性の超越。後のテック右派の進化観へ。",
+        "note_en": "Julian Huxley. Transcending humanity through science"
+      }
+    ],
+    "1958": [
+      {
+        "label": "メリトクラシー",
+        "label_en": "Meritocracy",
+        "startYear": "1958",
+        "genre": [
+          "THEORY",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/能力主義",
+        "url_en": "https://en.wikipedia.org/wiki/Meritocracy",
+        "note": "マイケル・ヤング。能力主義が新たな階級社会を生むという皮肉。テック右派の基本原理。",
+        "note_en": "Michael Young's irony on meritocracy creating a new class"
+      }
+    ],
+    "1960": [
+      {
+        "label": "マン・コンピュータ・シンバイオシス",
+        "label_en": "Man-Computer Symbiosis",
+        "startYear": "1960",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/J・C・リックライダー",
+        "url_en": "https://en.wikipedia.org/wiki/J._C._R._Licklider",
+        "note": "リックライダー。人間と計算機の共生。PCの解放的側面の源流。",
+        "note_en": "Licklider's vision of human-computer symbiosis"
+      }
+    ],
+    "1962": [
+      {
+        "label": "メディア論 (グローバル・ヴィレッジ)",
+        "label_en": "Understanding Media",
+        "startYear": "1962",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メディア論_(マクルーハン)",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
+        "note": "マクルーハン。メディアによる身体拡張と世界の縮小。",
+        "note_en": "McLuhan. Media as body extensions and the creation of the Global Village."
+      }
+    ],
+    "1965": [
+      {
+        "label": "ハイパーテキスト",
+        "label_en": "Hypertext",
+        "startYear": "1965",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハイパーテキスト",
+        "url_en": "https://en.wikipedia.org/wiki/Hypertext",
+        "note": "テッド・ネルソン。情報の非線形な接続。自由な情報の海への憧憬。",
+        "note_en": "Ted Nelson. Non-linear information connection"
+      },
+      {
+        "label": "ムーアの法則",
+        "label_en": "Moore's Law",
+        "startYear": "1965",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ムーアの法則",
+        "url_en": "https://en.wikipedia.org/wiki/Moore's_law",
+        "note": "ゴードン・ムーア。指数関数的な加速の信仰。加速主義の物理的根拠。",
+        "note_en": "Gordon Moore. Faith in exponential acceleration"
+      }
+    ],
+    "1968": [
+      {
+        "label": "全地球カタログ",
+        "label_en": "Whole Earth Catalog",
+        "startYear": "1968",
+        "genre": [
+          "CONTENT",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/全地球カタログ",
+        "url_en": "https://en.wikipedia.org/wiki/Whole_Earth_Catalog",
+        "note": "スチュアート・ブランド。個人が自立するための道具。シリコンバレーの原点。",
+        "note_en": "Stuart Brand. Tools for self-reliance"
+      },
+      {
+        "label": "ダイナブック",
+        "label_en": "Dynabook",
+        "startYear": "1968",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダイナブック",
+        "url_en": "https://en.wikipedia.org/wiki/Dynabook",
+        "note": "アラン・ケイ。個人のための動的メディア。ヒューマン・インターフェースの理想。",
+        "note_en": "Alan Kay. Dynamic media for individuals"
+      }
+    ],
+    "1973": [
+      {
+        "label": "コンヴィヴィアリティのための道具",
+        "label_en": "Tools for Conviviality",
+        "startYear": "1973",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/イヴァン・イリイチ",
+        "url_en": "https://en.wikipedia.org/wiki/Tools_for_Conviviality",
+        "note": "イリイチ。人間が自律的に使いこなせる道具の思想。",
+        "note_en": "Illich's idea of tools that humans can use autonomously and convivially."
+      }
+    ],
+    "1974": [
+      {
+        "label": "コンピュータ・リブ",
+        "label_en": "Computer Lib",
+        "startYear": "1974",
+        "genre": [
+          "CONTENT",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ザナドゥ計画",
+        "url_en": "https://en.wikipedia.org/wiki/Computer_Lib/Dream_Machines",
+        "note": "テッド・ネルソン。コンピュータを民衆に解放せよというマニフェスト。",
+        "note_en": "Ted Nelson's manifesto urging the liberation of computers to the people."
+      }
+    ],
+    "1976": [
+      {
+        "label": "利己的な遺伝子 (ミーム)",
+        "label_en": "The Selfish Gene",
+        "startYear": "1976",
+        "genre": [
+          "THEORY",
+          "EVOL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/利己的な遺伝子",
+        "url_en": "https://en.wikipedia.org/wiki/The_Selfish_Gene",
+        "note": "ドーキンス。情報の進化単位「ミーム」の提唱。加速主義的情報観へ。",
+        "note_en": "Dawkins. Coined \"Meme\" as an information unit"
+      }
+    ],
+    "1982": [
+      {
+        "label": "AKIRA",
+        "label_en": "AKIRA",
+        "startYear": "1982",
+        "genre": [
+          "CONTENT",
+          "JAPAN",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AKIRA_(漫画)",
+        "url_en": "https://en.wikipedia.org/wiki/Akira_(1988_film)",
+        "note": "大友克洋。過剰な力の暴走と都市の崩壊。加速する技術への畏怖。",
+        "note_en": "Katsuhiro Otomo. Rampaging power and urban collapse"
+      },
+      {
+        "label": "ブレードランナー",
+        "label_en": "Blade Runner",
+        "startYear": "1982",
+        "genre": [
+          "CONTENT",
+          "EVOL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブレードランナー",
+        "url_en": "https://en.wikipedia.org/wiki/Blade_Runner",
+        "note": "リドリー・スコット。人間とレプリカントの境界。後のポストヒューマン論へ。",
+        "note_en": "Ridley Scott. Boundary between human and replicant"
+      }
+    ],
+    "1983": [
+      {
+        "label": "オタク (初出)",
+        "label_en": "Otaku",
+        "startYear": "1983",
+        "genre": [
+          "CONTENT",
+          "JAPAN",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/おたく",
+        "url_en": "https://en.wikipedia.org/wiki/Otaku",
+        "note": "中森明夫。情報収集・解析への偏愛。ネット社会の住人の先駆け。",
+        "note_en": "Akio Nakamori. Devotion to info-gathering"
+      }
+    ],
+    "1984": [
+      {
+        "label": "サイバースペース / ニューロマンサー",
+        "label_en": "Cyberspace",
+        "startYear": "1984",
+        "genre": [
+          "CONTENT",
+          "LIB-PLAT",
+          "EXIT-TR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニューロマンサー",
+        "url_en": "https://en.wikipedia.org/wiki/Neuromancer",
+        "note": "ギブスン。電脳空間の視覚化。肉体からの脱出。",
+        "note_en": "William Gibson. Visualization of cyberspace"
+      },
+      {
+        "label": "Apple広告「1984」",
+        "label_en": "Apple 1984 commercial",
+        "startYear": "1984",
+        "genre": [
+          "EVENT",
+          "LIB-PLAT",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/1984_(広告)",
+        "url_en": "https://en.wikipedia.org/wiki/1984_(advertisement)",
+        "note": "ジョブズ。IBM（ビッグブラザー）を破壊する個人。リベラル・テックの絶頂。",
+        "note_en": "Jobs. The individual smashing Big Brother (IBM)"
+      }
+    ],
+    "1985": [
+      {
+        "label": "サイボーグ宣言",
+        "label_en": "A Cyborg Manifesto",
+        "startYear": "1985",
+        "genre": [
+          "THEORY",
+          "EVOL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダナ・ハラウェイ",
+        "url_en": "https://en.wikipedia.org/wiki/A_Cyborg_Manifesto",
+        "note": "ドナ・ハラウェイ。性別や境界を無効化する技術的アイデンティティ。",
+        "note_en": "Donna Haraway. Technical identity that nullifies gender and boundaries."
+      }
+    ],
+    "1986": [
+      {
+        "label": "ナノテクノロジー (創造のエンジン)",
+        "label_en": "Engines of Creation",
+        "startYear": "1986",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エリック・ドレクスラー",
+        "url_en": "https://en.wikipedia.org/wiki/Engines_of_Creation",
+        "note": "ドレクスラー。分子レベルの操作。トランスヒューマニズムの物理的基盤。",
+        "note_en": "Drexler. Molecular-level control"
+      }
+    ],
+    "1988": [
+      {
+        "label": "エクストロピアニズム",
+        "label_en": "Extropianism",
+        "startYear": "1988",
+        "genre": [
+          "THEORY",
+          "EVOL",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Extropianism",
+        "url_en": "https://en.wikipedia.org/wiki/Extropianism",
+        "note": "マックス・モア。エントロピーに抗う知能の拡大。加速主義の前史。",
+        "note_en": "Max More. Expansion of intelligence against entropy"
+      }
+    ],
+    "1989": [
+      {
+        "label": "攻殻機動隊 (ゴーストの概念)",
+        "label_en": "Ghost in the Shell",
+        "startYear": "1989",
+        "genre": [
+          "CONTENT",
+          "JAPAN",
+          "EVOL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/攻殻機動隊",
+        "url_en": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell",
+        "note": "士郎正宗。ネットに溶ける魂（ゴースト）。ポスト・ヒューマンの東洋的提示。",
+        "note_en": "Shirow Masamune. The soul (Ghost) dissolving in the net"
+      }
+    ],
+    "1991": [
+      {
+        "label": "ユビキタス・コンピューティング",
+        "label_en": "Ubiquitous Computing",
+        "startYear": "1991",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ユビキタスコンピューティング",
+        "url_en": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
+        "note": "マーク・ワイザー。遍在するコンピュータ。見えないアーキテクチャによる管理。",
+        "note_en": "Mark Weiser. Omnipresent computing"
+      }
+    ],
+    "1992": [
+      {
+        "label": "暗号アナーキスト宣言",
+        "label_en": "The Crypto Anarchist Manifesto",
+        "startYear": "1992",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Timothy_C._May",
+        "url_en": "https://en.wikipedia.org/wiki/The_Crypto_Anarchist_Manifesto",
+        "note": "ティモシー・メイ。暗号による国家からの「退出」。テック右派の教典。",
+        "note_en": "Timothy C. May. \"Exit\" from the state via cryptography"
+      },
+      {
+        "label": "メタバース (スノウ・クラッシュ)",
+        "label_en": "Metaverse",
+        "startYear": "1992",
+        "genre": [
+          "CONTENT",
+          "EXIT-TR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/メタバース",
+        "url_en": "https://en.wikipedia.org/wiki/Metaverse",
+        "note": "ニール・スティーヴンスン。仮想空間への逃避と新たな社会。",
+        "note_en": "Neal Stephenson. Escape to virtual space and the birth of a new society."
+      }
+    ],
+    "1993": [
+      {
+        "label": "カリフォルニアン・イデオロギー",
+        "label_en": "The Californian Ideology",
+        "startYear": "1993",
+        "genre": [
+          "THEORY",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Californian_Ideology",
+        "url_en": "https://en.wikipedia.org/wiki/The_Californian_Ideology",
+        "note": "R.バーブルック。ヒッピー文化と新自由主義の矛盾した融合への批判。",
+        "note_en": "Richard Barbrook's critique of the contradictory fusion of hippy culture and neoliberalism."
+      }
+    ],
+    "1995": [
+      {
+        "label": "産業社会とその未来",
+        "label_en": "Industrial Society and Its Future",
+        "startYear": "1995",
+        "genre": [
+          "CONTENT",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/テッド・カジンスキー",
+        "url_en": "https://en.wikipedia.org/wiki/Industrial_Society_and_Its_Future",
+        "note": "ユナバマー。技術社会への根源的拒絶。加速の果ての破滅への警告。",
+        "note_en": "Unabomber. Radical rejection of technical society"
+      },
+      {
+        "label": "ゼネラルマジックIPO",
+        "label_en": "General Magic IPO",
+        "startYear": "1995",
+        "genre": [
+          "EVENT",
+          "LIB-PLAT"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/General_Magic",
+        "url_en": "https://en.wikipedia.org/wiki/General_Magic",
+        "note": "コンセプトのみで上場。理想が金融商品に飲み込まれた象徴。",
+        "note_en": "IPO based on concept alone"
+      }
+    ],
+    "1996": [
+      {
+        "label": "サイバースペース独立宣言",
+        "label_en": "Declaration of Independence of Cyberspace",
+        "startYear": "1996",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サイバースペース独立宣言",
+        "url_en": "https://en.wikipedia.org/wiki/A_Declaration_of_the_Independence_of_Cyberspace",
+        "note": "ジョン・ペリー・バーロウ。政府の介入を拒絶。リベラル・アナーキズム。",
+        "note_en": "John Perry Barlow. Rejection of government intervention"
+      }
+    ],
+    "1997": [
+      {
+        "label": "主権的個人",
+        "label_en": "The Sovereign Individual",
+        "startYear": "1997",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
+        "url_en": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
+        "note": "J.D.デビッドソン。国家を越えるデジタル貴族の出現を予見。",
+        "note_en": "Davidson & Rees-Mogg. Foreseeing the rise of digital aristocrats transcending nations."
+      },
+      {
+        "label": "伽藍とバザール",
+        "label_en": "The Cathedral and the Bazaar",
+        "startYear": "1997",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/伽藍とバザール",
+        "url_en": "https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar",
+        "note": "エリック・レイモンド。オープンソースの効率性と解放性。",
+        "note_en": "Eric Raymond. The efficiency and openness of open-source development."
+      }
+    ],
+    "1998": [
+      {
+        "label": "ひきこもり (初出)",
+        "label_en": "Hikikomori",
+        "startYear": "1998",
+        "genre": [
+          "THEORY",
+          "JAPAN",
+          "EXIT-TR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ひきこもり",
+        "url_en": "https://en.wikipedia.org/wiki/Hikikomori",
+        "note": "斎藤環。社会からの精神的「退出」。日本独自の抵抗・逃避形態。",
+        "note_en": "Tamaki Saito. Mental \"exit\" from society"
+      }
+    ],
+    "1999": [
+      {
+        "label": "CODE: コードこそが法",
+        "label_en": "Code is Law",
+        "startYear": "1999",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ローレンス・レッシグ",
+        "url_en": "https://en.wikipedia.org/wiki/Lawrence_Lessig",
+        "note": "レッシグ。アーキテクチャによる行動規制の指摘。",
+        "note_en": "Lessig's observation that architecture (code) regulates human behavior."
+      },
+      {
+        "label": "マトリックス",
+        "label_en": "The Matrix",
+        "startYear": "1999",
+        "genre": [
+          "CONTENT",
+          "SURV-ARCH",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/マトリックス_(映画)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Matrix",
+        "note": "ウォシャウスキー姉妹。支配される現実と目醒め。加速主義的視覚。",
+        "note_en": "The Wachowskis. Controlled reality vs. awakening"
+      }
+    ],
+    "2000": [
+      {
+        "label": "未来はわれわれを必要としない",
+        "label_en": "Why the Future Doesn't Need Us",
+        "startYear": "2000",
+        "genre": [
+          "THEORY",
+          "EVOL",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Why_The_Future_Doesn%27t_Need_Us",
+        "url_en": "https://en.wikipedia.org/wiki/Why_The_Future_Doesn%27t_Need_Us",
+        "note": "ビル・ジョイ。技術の暴走による人類絶滅への警告。",
+        "note_en": "Bill Joy's warning of human extinction due to runaway technology."
+      }
+    ],
+    "2003": [
+      {
+        "label": "アノニマス (誕生)",
+        "label_en": "Anonymous",
+        "startYear": "2003",
+        "genre": [
+          "EVENT",
+          "LIB-PLAT",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/アノニマス_(集団)",
+        "url_en": "https://en.wikipedia.org/wiki/Anonymous_(hacker_group)",
+        "note": "4chan発の匿名集団。情報の非対称性への攻撃。",
+        "note_en": "Anonymous group from 4chan"
+      }
+    ],
+    "2004": [
+      {
+        "label": "Web 2.0",
+        "label_en": "Web 2.0",
+        "startYear": "2004",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Web_2.0",
+        "url_en": "https://en.wikipedia.org/wiki/Web_2.0",
+        "note": "ティム・オライリー。ユーザー参加。後に監視資本主義の基盤へ。",
+        "note_en": "Tim O'Reilly. User participation"
+      }
+    ],
+    "2005": [
+      {
+        "label": "シンギュラリティは近い",
+        "label_en": "The Singularity Is Near",
+        "startYear": "2005",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/技術的特異点",
+        "url_en": "https://en.wikipedia.org/wiki/The_Singularity_Is_Near",
+        "note": "カーツワイル。AIが人間を超える特異点の宗教的・技術的予言。",
+        "note_en": "Kurzweil's religious/technical prophecy of the point when AI exceeds humans."
+      }
+    ],
+    "2007": [
+      {
+        "label": "ネオリアクション (NRx)",
+        "label_en": "Neoreaction (NRx)",
+        "startYear": "2007",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Mencius_Moldbug",
+        "url_en": "https://en.wikipedia.org/wiki/Neoreactionary_movement",
+        "note": "ヤーヴィン（モールドバグ）。民主主義の否定とCEO独裁の肯定。",
+        "note_en": "Mencius Moldbug. Denial of democracy and affirmation of CEO dictatorship."
+      }
+    ],
+    "2008": [
+      {
+        "label": "ビットコイン・マニフェスト",
+        "label_en": "Bitcoin whitepaper",
+        "startYear": "2008",
+        "genre": [
+          "SOFTWARE",
+          "EXIT-TR",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ビットコイン",
+        "url_en": "https://en.wikipedia.org/wiki/Bitcoin",
+        "note": "サトシ・ナカモト。中央集権なき信頼。国家からの通貨奪還。",
+        "note_en": "Satoshi Nakamoto. Trust without centralization"
+      }
+    ],
+    "2009": [
+      {
+        "label": "LessWrong (LessWrong.com)",
+        "label_en": "LessWrong",
+        "startYear": "2009",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/LessWrong",
+        "url_en": "https://en.wikipedia.org/wiki/LessWrong",
+        "note": "ユドコウスキー。バイアスを排した合理主義の追求。AIアライメントの源流。",
+        "note_en": "Yudkowsky's pursuit of debiased rationalism"
+      },
+      {
+        "label": "資本主義リアリズム",
+        "label_en": "Capitalist Realism",
+        "startYear": "2009",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/マーク・フィッシャー",
+        "url_en": "https://en.wikipedia.org/wiki/Capitalist_Realism",
+        "note": "マーク・フィッシャー。資本主義以外の出口を想像できない精神の閉塞。",
+        "note_en": "Mark Fisher on the inability to imagine an exit from capitalism."
+      }
+    ],
+    "2010": [
+      {
+        "label": "ロコのバジリスク",
+        "label_en": "Roko's Basilisk",
+        "startYear": "2010",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 3,
+        "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
+        "url_en": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
+        "note": "未来のAIによる遡及的処罰の思考実験。合理的思考の果ての怪談。",
+        "note_en": "Thought experiment on retroactive punishment by future AI"
+      }
+    ],
+    "2011": [
+      {
+        "label": "実効的利他主義 (EA)",
+        "label_en": "Effective Altruism (EA)",
+        "startYear": "2011",
+        "genre": [
+          "THEORY",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/実効的利他主義",
+        "url_en": "https://en.wikipedia.org/wiki/Effective_altruism",
+        "note": "マッカスキル。データで「善」を最大化する。テック富豪の倫理。",
+        "note_en": "MacAskill. Maximizing \"good\" via data"
+      },
+      {
+        "label": "停滞の時代",
+        "label_en": "The Great Stagnation",
+        "startYear": "2011",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/The_Great_Stagnation",
+        "url_en": "https://en.wikipedia.org/wiki/The_Great_Stagnation",
+        "note": "タイラー・コーエン。技術の「低い果実」が尽きた後の停滞。加速への飢餓感。",
+        "note_en": "Tyler Cowen on stagnation after low-hanging tech fruits"
+      }
+    ],
+    "2012": [
+      {
+        "label": "暗黒啓蒙",
+        "label_en": "The Dark Enlightenment",
+        "startYear": "2012",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "RAT-ACC",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
+        "url_en": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
+        "note": "ニック・ランド。民主主義を破棄し、技術加速による脱人間化を説く。",
+        "note_en": "Nick Land's call to discard democracy and embrace dehumanization via tech acceleration."
+      }
+    ],
+    "2013": [
+      {
+        "label": "加速主義宣言",
+        "label_en": "#ACCELERATE Manifesto",
+        "startYear": "2013",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Accelerationism",
+        "url_en": "https://en.wikipedia.org/wiki/Accelerationism",
+        "note": "ウィリアムズ＆スニチェック。資本主義の技術を左派的に転用・加速する試み。",
+        "note_en": "Williams & Srnicek. Attempt to re-purpose and accelerate capitalist tech for the left."
+      }
+    ],
+    "2014": [
+      {
+        "label": "監視資本主義",
+        "label_en": "Surveillance Capitalism",
+        "startYear": "2014",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ショシャナ・ズボフ",
+        "url_en": "https://en.wikipedia.org/wiki/Surveillance_capitalism",
+        "note": "ズボフ。個人の体験を略奪し、利益に変える新たな支配形式。",
+        "note_en": "Zuboff's new form of dominance: looting personal experience for profit."
+      },
+      {
+        "label": "ゼロ・トゥ・ワン",
+        "label_en": "Zero to One",
+        "startYear": "2014",
+        "genre": [
+          "CONTENT",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼロ・トゥ・ワン",
+        "url_en": "https://en.wikipedia.org/wiki/Zero_to_One",
+        "note": "ティール。競争を避け、独占による新たな秩序形成を説く。",
+        "note_en": "Thiel's business bible advocating for monopoly and new order over competition."
+      },
+      {
+        "label": "スーパーインテリジェンス",
+        "label_en": "Superintelligence",
+        "startYear": "2014",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニック・ボストロム",
+        "url_en": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
+        "note": "ボストロム。AIの爆発的知能上昇による人類滅亡リスクの精緻な分析。",
+        "note_en": "Bostrom's detailed analysis of human extinction risks from AI's intelligence explosion."
+      }
+    ],
+    "2015": [
+      {
+        "label": "AIアライメント問題",
+        "label_en": "AI Alignment",
+        "startYear": "2015",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/AI_alignment",
+        "url_en": "https://en.wikipedia.org/wiki/AI_alignment",
+        "note": "AIの目的を人間の価値観に一致させる技術的・倫理的課題の一般化。",
+        "note_en": "The generalization of technical/ethical issues in aligning AI goals with human values."
+      }
+    ],
+    "2016": [
+      {
+        "label": "ポスト真実 (Post-truth)",
+        "label_en": "Post-truth",
+        "startYear": "2016",
+        "genre": [
+          "EVENT",
+          "SURV-ARCH",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポスト真実",
+        "url_en": "https://en.wikipedia.org/wiki/Post-truth_politics",
+        "note": "感情や信念が事実を凌駕する社会。アルゴリズムによる世論操作の結実。",
+        "note_en": "Society where emotion trumps fact"
+      }
+    ],
+    "2017": [
+      {
+        "label": "アテンション・エコノミー",
+        "label_en": "Attention Economy",
+        "startYear": "2017",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/関心経済",
+        "url_en": "https://en.wikipedia.org/wiki/Attention_economy",
+        "note": "「注目」を資源とする経済。人間の認知がハックされ、システムに奉仕する。",
+        "note_en": "Economy fueled by \"attention\""
+      }
+    ],
+    "2018": [
+      {
+        "label": "ブルシット・ジョブ",
+        "label_en": "Bullshit Jobs",
+        "startYear": "2018",
+        "genre": [
+          "THEORY",
+          "LIB-PLAT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ブルシット・ジョブ",
+        "url_en": "https://en.wikipedia.org/wiki/Bullshit_Jobs",
+        "note": "グレーバー。技術が進んでも消えない無意味な仕事への告発。",
+        "note_en": "Graeber's indictment of meaningless jobs that persist despite technological progress."
+      }
+    ],
+    "2019": [
+      {
+        "label": "デジタル・ヒューマニズム",
+        "label_en": "Digital Humanism",
+        "startYear": "2019",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Digital_humanism",
+        "url_en": "https://en.wikipedia.org/wiki/Digital_humanism",
+        "note": "技術を人間の尊厳の下に置こうとする欧州的な抵抗。",
+        "note_en": "European resistance seeking to subordinate technology to human dignity."
+      }
+    ],
+    "2021": [
+      {
+        "label": "ネットワーク・ステート",
+        "label_en": "The Network State",
+        "startYear": "2021",
+        "genre": [
+          "THEORY",
+          "EXIT-TR",
+          "POLI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/The_Network_State",
+        "url_en": "https://en.wikipedia.org/wiki/The_Network_State",
+        "note": "バラジ。ネット上の同志による新国家建設。物理的な国境の無効化。",
+        "note_en": "Balaji Srinivasan. Building new states via the net"
+      }
+    ],
+    "2022": [
+      {
+        "label": "e/acc (実効的加速主義)",
+        "label_en": "Effective Accelerationism",
+        "startYear": "2022",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "EVOL"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Effective_accelerationism",
+        "url_en": "https://en.wikipedia.org/wiki/Effective_accelerationism",
+        "note": "Beff Jezos。AI進化を宇宙の物理法則として全肯定。人間中心主義の放棄。",
+        "note_en": "AI evolution as a physical law"
+      },
+      {
+        "label": "長期主義 (Longtermism)",
+        "label_en": "Longtermism",
+        "startYear": "2022",
+        "genre": [
+          "THEORY",
+          "EVOL",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/Longtermism",
+        "url_en": "https://en.wikipedia.org/wiki/Longtermism",
+        "note": "マッカスキル。数万年後の未来の人類の利益を最大化する冷徹な計算。",
+        "note_en": "MacAskill's cold calculation to maximize interests of trillions of future humans."
+      },
+      {
+        "label": "プロ・ナタリズム (出生主義)",
+        "label_en": "Pro-natalism",
+        "startYear": "2022",
+        "genre": [
+          "THEORY",
+          "EVOL",
+          "POLI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Pronatalism",
+        "url_en": "https://en.wikipedia.org/wiki/Pronatalism",
+        "note": "テックエリートによる選民的な人口増殖思想。高知能な子孫の確保。",
+        "note_en": "Tech elite's elitist pro-population thought"
+      }
+    ],
+    "2023": [
+      {
+        "label": "TESCREAL",
+        "label_en": "TESCREAL",
+        "startYear": "2023",
+        "genre": [
+          "THEORY",
+          "POLI",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://en.wikipedia.org/wiki/TESCREAL",
+        "url_en": "https://en.wikipedia.org/wiki/TESCREAL",
+        "note": "T.ゲブル。テック右派の危険な思想群（トランスヒューマニズム等）を批判する総称。",
+        "note_en": "Timnit Gebru's term criticizing the cluster of dangerous tech ideologies (Transhumanism, etc.)."
+      },
+      {
+        "label": "d/acc (脱加速主義)",
+        "label_en": "Decelerationism / d/acc",
+        "startYear": "2023",
+        "genre": [
+          "THEORY",
+          "RAT-ACC",
+          "ETHI"
+        ],
+        "imp": 4,
+        "url": "https://en.wikipedia.org/wiki/Decelerationism",
+        "url_en": "https://en.wikipedia.org/wiki/Decelerationism",
+        "note": "ヴィタリック。加速を認めつつ、防御的・分散的な技術進化を模索。",
+        "note_en": "Vitalik Buterin's path: admitting acceleration while seeking defensive/decentralized evolution."
+      }
+    ],
+    "2024": [
+      {
+        "label": "欧州AI法 (AI Act)",
+        "label_en": "AI Act",
+        "startYear": "2024",
+        "genre": [
+          "EVENT",
+          "SURV-ARCH",
+          "ETHI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/人工知能法",
+        "url_en": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "note": "世界初の包括的AI規制。加速主義に対する「法の壁」。",
+        "note_en": "The world's first comprehensive AI regulation"
       }
     ]
   },
@@ -136,9 +1294,8 @@
       "code": "JAPAN",
       "label": "日本",
       "label_en": "Japan",
-      "conjunction": false
+      "conjunction": true
     },
-
     {
       "code": "LIB-PLAT",
       "label": "解放からプラットフォーム支配へ",
@@ -163,7 +1320,6 @@
       "label_en": "Rationality to Acceleration",
       "conjunction": false
     },
-
     {
       "code": "POLI",
       "label": "政治思想",
