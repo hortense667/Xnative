@@ -45,7 +45,8 @@
         "note": "チャップリンの反独裁風刺映画。ヒトラーを模した独裁者を痛烈に批判した。",
         "label_en": "Film: The Great Dictator",
         "url_en": "https://en.wikipedia.org/wiki/The_Great_Dictator",
-        "note_en": "Chaplin’s anti-dictatorship satire sharply mocked a leader resembling Hitler."
+        "note_en": "Chaplin’s anti-dictatorship satire sharply mocked a leader resembling Hitler.",
+        "yearApproximate": true
       },
       {
         "label": "零式艦上戦闘機の運用開始",
