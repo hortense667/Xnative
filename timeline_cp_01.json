@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "title": {
+      "ja": "コンピュータ思想史 0.1",
+      "en": "Timeline of Computer Philosophy 0.1"
+    },
+    "description": {
+      "ja": "この年表はコンピューターとそれを取り巻く諸状況についてのものです。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline is about computers and the surrounding circumstances. Currently, it is in a trial phase and the content is being reviewed."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
+  "events": {
+    "1956": [
+      {
+        "label": "遠藤諭誕生",
+        "startYear": 1956,
+        "genre": [
+          "EVENT",
+          "WORLD"
+        ],
+        "imp": 1,
+        "url": "",
+        "note": "",
+        "label_en": "",
+        "note_en": "",
+        "url_en": ""
+      }
+    ]
+  },
+  "eraSettings": [
+    {
+      "name": "明治",
+      "startYear": 1868,
+      "endYear": 1912,
+      "color": "#00CED1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "大正",
+      "startYear": 1912,
+      "endYear": 1926,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "昭和",
+      "startYear": 1926,
+      "endYear": 1989,
+      "color": "#32CD32",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "平成",
+      "startYear": 1989,
+      "endYear": 2019,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "令和",
+      "startYear": 2019,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": true
+    }
+  ],
+  "genres": [
+    // 基本属性
+    {
+      "code": "THEORY",
+      "label": "理論",
+      "label_en": "Theory",
+      "conjunction": false
+    },
+    {
+      "code": "EVENT",
+      "label": "出来事",
+      "label_en": "Event",
+      "conjunction": false
+    },
+    {
+      "code": "HARDWARE",
+      "label": "ハード",
+      "label_en": "Hardware",
+      "conjunction": false
+    },
+    {
+      "code": "SOFTWARE",
+      "label": "ソフト",
+      "label_en": "Software",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "文化・作品",
+      "label_en": "Content",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "組織",
+      "label_en": "Organization",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": false
+    },
+
+    // ４つの潮流
+    {
+      "code": "LIB-PLAT",
+      "label": "解放からプラットフォーム支配へ",
+      "label_en": "Liberation to Platform",
+      "conjunction": false
+    },
+    {
+      "code": "SURV-ARCH",
+      "label": "監視からアーキテクチャ支配へ",
+      "label_en": "Surveillance to Architecture",
+      "conjunction": false
+    },
+    {
+      "code": "EXIT-TR",
+      "label": "国家からの脱出とテック右派",
+      "label_en": "Exit to Tech Right",
+      "conjunction": false
+    },
+    {
+      "code": "RAT-ACC",
+      "label": "機械論的理性から加速主義へ",
+      "label_en": "Rationality to Acceleration",
+      "conjunction": false
+    },
+
+    // ３つの現代的視点
+    {
+      "code": "POLI",
+      "label": "政治思想",
+      "label_en": "Political Thought",
+      "conjunction": false
+    },
+    {
+      "code": "EVOL",
+      "label": "進化観",
+      "label_en": "Evolution View",
+      "conjunction": false
+    },
+    {
+      "code": "ETHI",
+      "label": "倫理観",
+      "label_en": "Ethical View",
+      "conjunction": false
+    }
+  ]
+}
