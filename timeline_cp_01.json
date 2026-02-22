@@ -1198,7 +1198,7 @@
       "color": "#00CED1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "大正",
@@ -1207,7 +1207,7 @@
       "color": "#4169E1",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "昭和",
@@ -1216,7 +1216,7 @@
       "color": "#32CD32",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "平成",
@@ -1225,7 +1225,7 @@
       "color": "#FF8C00",
       "opacity": "0.3",
       "enabled": true,
-      "fillEnabled": false
+      "fillEnabled": true
     },
     {
       "name": "令和",
