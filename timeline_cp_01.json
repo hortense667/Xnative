@@ -958,7 +958,6 @@
     "2012": [
       {
         "label": "暗黒啓蒙",
-        "label_en": "The Dark Enlightenment",
         "startYear": "2012",
         "genre": [
           "THEORY",
@@ -967,9 +966,10 @@
           "POLI"
         ],
         "imp": 5,
-        "url": "[https://ja.wikipedia.org/wiki/暗黒啓蒙",
-        "url_en": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
+        "url": "https://ja.wikipedia.org/wiki/%E6%9A%97%E9%BB%92%E5%95%93%E8%92%99",
         "note": "ニック・ランド。民主主義を破棄し、技術加速による脱人間化を説く。",
+        "label_en": "The Dark Enlightenment",
+        "url_en": "https://en.wikipedia.org/wiki/The_Dark_Enlightenment",
         "note_en": "Nick](https://ja.wikipedia.org/wiki/暗黒啓蒙"
       }
     ],
