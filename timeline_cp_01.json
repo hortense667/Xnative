@@ -285,19 +285,18 @@
         "note_en": "Licklider's vision of human-computer symbiosis"
       }
     ],
-    "1962": [
+    "1964": [
       {
         "label": "メディア論 (グローバル・ヴィレッジ)",
-        "label_en": "Understanding Media",
-        "startYear": "1962",
+        "startYear": "1964",
         "genre": [
           "THEORY",
           "LIB-PLAT"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/メディア論_(マクルーハン)",
-        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
         "note": "マクルーハン。メディアによる身体拡張と世界の縮小。",
+        "label_en": "Understanding Media",
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
         "note_en": "McLuhan. Media as body extensions and the creation of the Global Village."
       }
     ],
