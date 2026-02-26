@@ -112,16 +112,16 @@
     "1920": [
       {
         "label": "ロボット",
-        "label_en": "R.U.R.",
         "startYear": "1920",
         "genre": [
           "CONTENT",
           "RAT-ACC"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ロボット_(戯曲)",
-        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
+        "url": "https://ja.wikipedia.org/wiki/R.U.R.",
         "note": "カレル・チャペック。労働と人造人間の対立。ロボットの語源。",
+        "label_en": "R.U.R.",
+        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
         "note_en": "Karel Čapek's play. Coined \"robot,\" depicting the conflict between labor and artificial beings."
       }
     ],
