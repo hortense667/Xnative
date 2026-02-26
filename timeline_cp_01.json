@@ -310,21 +310,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
         "note": "ウィーナー。通信と制御の統一理論。システムによる社会統治の端緒。",
         "note_en": "Wiener's theory of control and communication"
-      },
-      {
-        "label": "サイバネティクス",
-        "label_en": "Cybernetics",
-        "startYear": "1948",
-        "genre": [
-          "THEORY",
-          "SURV-ARCH",
-          "RAT-ACC"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9",
-        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
-        "note": "制御・通信・フィードバックを一般理論化。認知/行動を“システム”として扱う回路(制御)の発想を確立。",
-        "note_en": "Wiener) General theory of control/communication/feedback—treats cognition and behavior as systems."
       }
     ],
     "1949": [
