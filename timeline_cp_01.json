@@ -129,16 +129,15 @@
     "1854": [
       {
         "label": "思考の法則",
-        "label_en": "The Laws of Thought",
         "startYear": "1854",
         "genre": [
           "THEORY",
           "RAT-ACC"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%80%9D%E8%80%83%E3%81%AE%E6%B3%95%E5%89%87",
-        "url_en": "https://en.wikipedia.org/wiki/The_Laws_of_Thought",
         "note": "論理を代数として扱い、真偽・推論を演算へ落とす“ブール代数”的枠組みを提示。",
+        "label_en": "The Laws of Thought",
+        "url_en": "https://en.wikipedia.org/wiki/The_Laws_of_Thought",
         "note_en": "Boole) Algebraizes logic—turning truth and inference into operations (the seed of Boolean logic)."
       }
     ],
