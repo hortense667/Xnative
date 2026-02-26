@@ -31,6 +31,53 @@
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
   "events": {
+    "1637": [
+      {
+        "label": "方法序説",
+        "label_en": "Discourse on the Method",
+        "startYear": "1637",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B9%E6%B3%95%E5%BA%8F%E8%AA%AC",
+        "url_en": "https://en.wikipedia.org/wiki/Discourse_on_the_Method",
+        "note": "「方法」(手順)とコギトを軸に、表象・主体・確実性を“手続き”として組み直す。後の形式化/計算的態度の前提。",
+        "note_en": "Descartes) Establishes method, representation, and the thinking subject as procedural grounds for certainty—prefiguring a “computational attitude.”"
+      }
+    ],
+    "1666": [
+      {
+        "label": "組合せ術",
+        "startYear": "1666",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "note": "普遍記号(characteristica universalis)へ向かう萌芽。概念を記号化し、組合せと推論を計算として扱う発想。",
+        "label_en": "De Arte Combinatoria",
+        "url_en": "https://en.wikipedia.org/wiki/De_Arte_Combinatoria",
+        "note_en": "Leibniz) Early program for symbolic reasoning: encode concepts and treat inference as combinatorial calculation."
+      }
+    ],
+    "1703": [
+      {
+        "label": "二進法の説明",
+        "label_en": "Explication of Binary Arithmetic",
+        "startYear": "1703",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BA%8C%E9%80%B2%E6%B3%95",
+        "url_en": "https://en.wikipedia.org/wiki/Binary_number",
+        "note": "0/1による表現を体系化し、後のデジタル計算の象徴となる“二値化”を提示。",
+        "note_en": "Leibniz) Formalizes representation with 0/1—an emblematic precursor to digital computation."
+      }
+    ],
     "1791": [
       {
         "label": "パノプティコン",
@@ -79,6 +126,38 @@
         "note_en": "Ada Lovelace's vision that computers could handle art, not just mathematics."
       }
     ],
+    "1854": [
+      {
+        "label": "思考の法則",
+        "label_en": "The Laws of Thought",
+        "startYear": "1854",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%9D%E8%80%83%E3%81%AE%E6%B3%95%E5%89%87",
+        "url_en": "https://en.wikipedia.org/wiki/The_Laws_of_Thought",
+        "note": "論理を代数として扱い、真偽・推論を演算へ落とす“ブール代数”的枠組みを提示。",
+        "note_en": "Boole) Algebraizes logic—turning truth and inference into operations (the seed of Boolean logic)."
+      }
+    ],
+    "1879": [
+      {
+        "label": "概念記法",
+        "label_en": "Begriffsschrift",
+        "startYear": "1879",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A6%82%E5%BF%B5%E8%A8%98%E6%B3%95",
+        "url_en": "https://en.wikipedia.org/wiki/Begriffsschrift",
+        "note": "量化と推論規則を備えた近代論理を提示。形式言語としての論理の出発点級。",
+        "note_en": "Frege) Introduces modern predicate logic with quantification and rules—logic as a formal language."
+      }
+    ],
     "1890": [
       {
         "label": "タビュレーティングマシン",
@@ -107,6 +186,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Russian_cosmism",
         "note": "ロシア発の宇宙的使命・不死/復活などを含む思想運動。後の未来思想へ波及。",
         "note_en": "A](https://ja.wikipedia.org/w/index.php?search=Russian+cosmism"
+      }
+    ],
+    "1910": [
+      {
+        "label": "プリンキピア・マテマティカ（第1巻）",
+        "label_en": "Principia Mathematica (Vol. 1)",
+        "startYear": "1910",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%B3%E3%82%AD%E3%83%94%E3%82%A2%E3%83%BB%E3%83%9E%E3%83%86%E3%83%9E%E3%83%86%E3%82%A3%E3%82%AB",
+        "url_en": "https://en.wikipedia.org/wiki/Principia_Mathematica",
+        "note": "数学を論理から再構成する巨大な形式体系(論理主義)の実装例。形式化のスケール感を決定づける。",
+        "note_en": "Russell) A monumental logicist formal system—sets the ambition and scale for formalization."
       }
     ],
     "1920": [
@@ -169,6 +264,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Turing_machine",
         "note": "アラン・チューリング。計算可能性の定義。知能の機械化の基礎。",
         "note_en": "Alan Turing's model defining computability"
+      },
+      {
+        "label": "計算可能数と決定問題",
+        "label_en": "On Computable Numbers (Entscheidungsproblem)",
+        "startYear": "1936",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%A8%88%E7%AE%97%E5%8F%AF%E8%83%BD%E6%80%A7%E7%90%86%E8%AB%96",
+        "url_en": "https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem",
+        "note": "「計算できる」とは何かを機械モデル(チューリング機械)で定義し、計算可能性の地平を確定。",
+        "note_en": "Turing) Defines computability via a machine model (Turing machine), anchoring what “can be computed.”"
       }
     ],
     "1942": [
@@ -202,6 +311,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
         "note": "ウィーナー。通信と制御の統一理論。システムによる社会統治の端緒。",
         "note_en": "Wiener's theory of control and communication"
+      },
+      {
+        "label": "サイバネティクス",
+        "label_en": "Cybernetics",
+        "startYear": "1948",
+        "genre": [
+          "THEORY",
+          "SURV-ARCH",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%8D%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "制御・通信・フィードバックを一般理論化。認知/行動を“システム”として扱う回路(制御)の発想を確立。",
+        "note_en": "Wiener) General theory of control/communication/feedback—treats cognition and behavior as systems."
       }
     ],
     "1949": [
@@ -235,6 +359,36 @@
         "url_en": "https://en.wikipedia.org/wiki/Turing_test",
         "note": "機械に知能が宿るかの判定。人間と非人間の境界の曖昧化。",
         "note_en": "Test for machine intelligence"
+      },
+      {
+        "label": "計算する機械と知性",
+        "label_en": "Computing Machinery and Intelligence",
+        "startYear": "1950",
+        "genre": [
+          "THEORY",
+          "RAT-ACC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%86%E3%82%B9%E3%83%88",
+        "url_en": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
+        "note": "「機械は考えるか」を“振る舞い”として判定する枠組み(チューリング・テスト)を提示。AI議論の観測点を作る。",
+        "note_en": "Turing) Reframes “Can machines think?” as an observable behavioral test—an anchor point for AI discourse."
+      }
+    ],
+    "1956": [
+      {
+        "label": "ダートマス会議",
+        "label_en": "Dartmouth Workshop",
+        "startYear": "1956",
+        "genre": [
+          "EVENT",
+          "RAT-ACC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E4%BC%9A%E8%AD%B0",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "note": "「人工知能(AI)」を研究課題として掲げたワークショップ。以後のAI研究の制度的起点として語られる。",
+        "note_en": "Dartmouth) Workshop that positioned “Artificial Intelligence” as a research program—often cited as the institutional starting point of AI."
       }
     ],
     "1957": [
