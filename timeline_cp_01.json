@@ -508,7 +508,6 @@
     "1986": [
       {
         "label": "ナノテクノロジー (創造のエンジン)",
-        "label_en": "Engines of Creation",
         "startYear": "1986",
         "genre": [
           "THEORY",
@@ -516,9 +515,9 @@
           "EVOL"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エリック・ドレクスラー",
-        "url_en": "https://en.wikipedia.org/wiki/Engines_of_Creation",
         "note": "ドレクスラー。分子レベルの操作。トランスヒューマニズムの物理的基盤。",
+        "label_en": "Engines of Creation",
+        "url_en": "https://en.wikipedia.org/wiki/Engines_of_Creation",
         "note_en": "Drexler. Molecular-level control"
       }
     ],
