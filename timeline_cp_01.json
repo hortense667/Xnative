@@ -879,16 +879,16 @@
       },
       {
         "label": "資本主義リアリズム",
-        "label_en": "Capitalist Realism",
         "startYear": "2009",
         "genre": [
           "THEORY",
           "RAT-ACC"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/マーク・フィッシャー",
-        "url_en": "https://en.wikipedia.org/wiki/Capitalist_Realism",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC_(%E7%90%86%E8%AB%96%E5%AE%B6)",
         "note": "マーク・フィッシャー。資本主義以外の出口を想像できない精神の閉塞。",
+        "label_en": "Capitalist Realism",
+        "url_en": "https://en.wikipedia.org/wiki/Capitalist_Realism",
         "note_en": "Mark Fisher on the inability to imagine an exit from capitalism."
       },
       {
