@@ -343,20 +343,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Turing_test",
         "note": "機械に知能が宿るかの判定。人間と非人間の境界の曖昧化。",
         "note_en": "Test for machine intelligence"
-      },
-      {
-        "label": "計算する機械と知性",
-        "label_en": "Computing Machinery and Intelligence",
-        "startYear": "1950",
-        "genre": [
-          "THEORY",
-          "RAT-ACC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%86%E3%82%B9%E3%83%88",
-        "url_en": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
-        "note": "「機械は考えるか」を“振る舞い”として判定する枠組み(チューリング・テスト)を提示。AI議論の観測点を作る。",
-        "note_en": "Turing) Reframes “Can machines think?” as an observable behavioral test—an anchor point for AI discourse."
       }
     ],
     "1956": [
