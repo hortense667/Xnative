@@ -272,16 +272,16 @@
     "1960": [
       {
         "label": "マン・コンピュータ・シンバイオシス",
-        "label_en": "Man-Computer Symbiosis",
         "startYear": "1960",
         "genre": [
           "THEORY",
           "LIB-PLAT"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/J・C・リックライダー",
-        "url_en": "https://en.wikipedia.org/wiki/J._C._R._Licklider",
+        "url": "https://ja.wikipedia.org/wiki/J%E3%83%BBC%E3%83%BBR%E3%83%BB%E3%83%AA%E3%83%83%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC",
         "note": "リックライダー。人間と計算機の共生。PCの解放的側面の源流。",
+        "label_en": "Man-Computer Symbiosis",
+        "url_en": "https://en.wikipedia.org/wiki/J._C._R._Licklider",
         "note_en": "Licklider's vision of human-computer symbiosis"
       }
     ],
