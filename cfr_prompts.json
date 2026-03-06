@@ -70,7 +70,7 @@
   "default": {
     "aiProvider": "gemini",
     "temperature": 0.9,
-    "topTitle": "Xnative/Timeline \\n「あなたの“otaku”属性は？」診断テスト\\n（how to measure your \"otaku\" feature）",
+    "topTitle": " Xnative/Timeline 「あなたの“otaku”属性は？」診断テスト （how to measure your \"otaku\" feature）",
     "topTitle_en": "Xnative/Timeline how to measure your \"otaku\" feature",
     "topDescription": "あなたが特に好きだった、影響を受けたコンテンツ（マンガ・アニメ・ゲーム、本、音楽、映画など）、愛するほど使い込んだ、衝撃を受けたハードウェアやソフトウェア（楽器、カメラ、コンピューター、ウェブサイトなど）、体に染み込んだライスタイルや文化（食、イベントなど）を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
     "topDescription_en": "Choose the content you loved and were influenced by (manga, anime, games, books, music, films, etc.), the hardware/software you used deeply (instruments, cameras, computers, websites, etc.), and the lifestyle/culture that became part of you to diagnose your native sensibility.",
