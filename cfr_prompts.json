@@ -84,9 +84,9 @@
     "overallDescription_en": "This screen shows a dummy overall result. In production, this will show multi-user trends and aggregated results.",
     "secondPromptHead": "",
     "secondPromptHead_en": "",
-    "usageTitle": "使いかた映像（ダミー）",
-    "usageTitle_en": "How To Use (Demo)",
-    "usageDescription": "ここでは「HARC の紹介」と「Xnative Timeline の紹介」の映像が流れます（ダミー画面）。しばらくご覧いただいたあと、下の「スタート」ボタンで最初の画面に戻ります。",
-    "usageDescription_en": "This screen plays intro videos for HARC and Xnative Timeline (demo). After watching, press Start to return to the first screen."
+    "usageTitle": "最終画面（ダミー）",
+    "usageTitle_en": "Final Screen (Demo)",
+    "usageDescription": "ここでは「HARC の紹介」と「Xnative Timeline の紹介」の映像となる予定です。下の「スタート」ボタンで最初の画面に戻ります。",
+    "usageDescription_en": "This screen plays introduction videos for HARC and Xnative Timeline. Press the Start button to return to the beginning."
   }
 }
