@@ -3,6 +3,8 @@
     "timeline_popculture_02.json": {
       "aiProvider": "gemini",
       "temperature": 1.2,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
       "topTitle": "Xnative/Timeline \\n「あなたの“otaku”属性は？」診断テスト\\n（how to measure your \"otaku\" feature）",
       "topTitle_en": "Xnative/Timeline how to measure your \"otaku\" feature",
       "topDescription": "あなたが特に好きだった、影響を受けたコンテンツ（マンガ・本・映画など）、愛するほど使い込んだ、衝撃を受けたハードやソフト（コンピューター、ウェブサイトなど）、ほか体に染み込んだライスタイルや文化を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
@@ -25,6 +27,8 @@
     "timeline_popculture_02-zutest01.json": {
       "aiProvider": "gemini",
       "temperature": 1.2,
+      "initialBirthYear": 2000,
+      "initialEventYear": 2006,
       "topTitle": " Xnative/Timeline \\n「あなたの“otaku”属性は？」診断テスト \\n（how to measure your \"otaku\" feature）",
       "topTitle_en": "Xnative/Timeline\\n how to measure your \"otaku\" feature",
       "topDescription": "あなたが特に好きだった、影響を受けたコンテンツ（マンガ・アニメ・映画など）、愛するほど使い込んだ、衝撃を受けたハードやソフト（コンピューター、ウェブサイトなど）、ほか体に染み込んだライスタイルや文化を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
@@ -47,6 +51,8 @@
     "timeline_gadget_02.json": {
       "aiProvider": "gemini",
       "temperature": 1.1,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
       "topTitle": "Xnative/Timeline 大好きガジェット分析・クロノロジー診断テスト",
       "topTitle_en": "Xnative/Timeline how to measure your \"gadget otaku\" feature",
       "topDescription": "あなたが特に好きだった、愛するほど使い込んだ、衝撃を受けたハードウェア（楽器、カメラ、コンピューター、PDA、スマートフォンなど）を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
@@ -70,6 +76,8 @@
   "default": {
     "aiProvider": "gemini",
     "temperature": 0.9,
+    "initialBirthYear": 1990,
+    "initialEventYear": 2010,
     "topTitle": "Xnative/Timeline \\n「あなたの“otaku”属性は？」診断テスト\\n（how to measure your \"otaku\" feature）",
     "topTitle_en": "Xnative/Timeline \\nhow to measure your \"otaku\" feature",
     "topDescription": "あなたが特に好きだった、影響を受けたコンテンツ（マンガ・アニメ・ゲーム、本、音楽、映画など）、愛するほど使い込んだ、衝撃を受けたハードウェアやソフトウェア（楽器、カメラ、コンピューター、ウェブサイトなど）、体に染み込んだライスタイルや文化（食、イベントなど）を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
