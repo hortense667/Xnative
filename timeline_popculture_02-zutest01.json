@@ -11904,16 +11904,16 @@
       },
       {
         "label": "Canon EOS 5D Mark II",
-        "label_en": "Canon EOS 5D Mark II",
-        "startYear": 2008,
+        "startYear": "2008",
         "genre": [
-          "HAR",
-          "MOV"
+          "MOV",
+          "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/キヤノン_EOS_5D#EOS_5D_Mark_II",
-        "url_en": "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_II",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3_EOS_5D_Mark_II",
         "note": "DSLR動画時代を拓いた名機。",
+        "label_en": "Canon EOS 5D Mark II",
+        "url_en": "https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_II",
         "note_en": "DSLR that kicked off the video era."
       },
       {
