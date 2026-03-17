@@ -207,20 +207,6 @@
     ],
     "1950": [
       {
-        "label": "羅生門",
-        "label_en": "Rashomon",
-        "startYear": 1950,
-        "genre": [
-          "JAPAN",
-          "MOV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
-        "url_en": "https://en.wikipedia.org/wiki/Rashomon",
-        "note": "黒澤明監督。複数視点で真実を問う名作。",
-        "note_en": "Kurosawa’s classic probing truth via multiple viewpoints."
-      },
-      {
         "label": "ニュー・オーリンズR&B",
         "label_en": "New Orleans R&B",
         "startYear": 1950,
@@ -231,6 +217,21 @@
         "url_en": "https://en.wikipedia.org/wiki/New_Orleans_rhythm_and_blues",
         "note": "ピアノ中心のグルーヴが後のロックへ影響。",
         "note_en": "Piano-driven grooves influencing rock."
+      },
+      {
+        "label": "羅生門",
+        "startYear": "1950",
+        "genre": [
+          "MOV",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/羅生門_(映画)",
+        "note": "黒澤明監督。複数視点で真実を問う名作。大映労組の上映会で見ました。",
+        "label_en": "Rashomon",
+        "url_en": "https://en.wikipedia.org/wiki/Rashomon",
+        "note_en": "Kurosawa’s classic probing truth via multiple viewpoints.",
+        "_rev": "1773768731183-27z1mwqf"
       }
     ],
     "1951": [
