@@ -296,6 +296,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
         "note_en": "手塚治虫の代表作。日本SFとアニメの基盤。",
         "_rev": "1773768320257-2628c55e"
+      },
+      {
+        "label": "老人と海",
+        "startYear": "1952",
+        "genre": [
+          "BOO",
+          "NOV"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/老人と海",
+        "note": "ヘミングウェイ晩年の名作中編なのだよね。",
+        "label_en": "The Old Man and the Sea",
+        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+        "note_en": "Hemingway’s late-career classic novella.",
+        "_rev": "1773769403320-ec97iunt"
       }
     ],
     "1953": [
