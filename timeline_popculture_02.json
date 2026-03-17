@@ -163,19 +163,6 @@
         "note_en": "Dazai’s seminal novel with autobiographical elements."
       },
       {
-        "label": "エド・サリヴァン・ショー",
-        "label_en": "The Ed Sullivan Show",
-        "startYear": 1948,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/エド・サリヴァン・ショー",
-        "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
-        "note": "米人気バラエティ。音楽と芸能の登竜門。",
-        "note_en": "Iconic U.S. variety show that launched acts."
-      },
-      {
         "label": "自転車泥棒",
         "label_en": "Bicycle Thieves",
         "startYear": 1948,
