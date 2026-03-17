@@ -6801,22 +6801,6 @@
         "note_en": "Popular martial arts manga."
       },
       {
-        "label": "美少女戦士セーラームーン",
-        "label_en": "Sailor Moon (manga)",
-        "startYear": 1991,
-        "endYear": 1997,
-        "genre": [
-          "MAN",
-          "ANI",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン",
-        "url_en": "https://en.wikipedia.org/wiki/Sailor_Moon",
-        "note": "少女漫画/アニメの世界的ヒット。",
-        "note_en": "Globally successful shōjo manga/anime."
-      },
-      {
         "label": "バブル崩壊",
         "label_en": "Collapse of the Japanese asset bubble",
         "startYear": 1991,
@@ -14705,7 +14689,7 @@
     {
       "code": "WORK",
       "label": "作業用（仮）",
-      "conjunction": false
+      "conjunction": true
     }
   ]
 }
