@@ -192,17 +192,18 @@
     "1949": [
       {
         "label": "1984年 (小説)",
-        "label_en": "Nineteen Eighty-Four",
-        "startYear": 1949,
+        "startYear": "1949",
         "genre": [
           "BOO",
           "NOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/一九八四年",
+        "note": "全体主義を描くオーウェルのディストピア小説です。",
+        "label_en": "Nineteen Eighty-Four",
         "url_en": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
-        "note": "全体主義を描くオーウェルのディストピア小説。",
-        "note_en": "Orwell’s dystopia critiquing totalitarianism."
+        "note_en": "Orwell’s dystopia critiquing totalitarianism.",
+        "_rev": "1773769139003-4q3qs417"
       }
     ],
     "1950": [
