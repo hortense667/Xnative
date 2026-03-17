@@ -951,6 +951,20 @@
     ],
     "1962": [
       {
+        "label": "Spacewar!",
+        "label_en": "Spacewar!",
+        "startYear": 1962,
+        "genre": [
+          "GAM",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%A6%E3%82%A9%E3%83%BC!",
+        "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
+        "note": "初期のコンピュータゲームの古典。",
+        "note_en": "One of the earliest digital games."
+      },
+      {
         "label": "週刊現代",
         "label_en": "Shūkan Gendai",
         "startYear": 1962,
@@ -988,20 +1002,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Lawrence_of_Arabia",
         "note": "叙事詩的スケールの名作。",
         "note_en": "Epic-scale film masterpiece."
-      },
-      {
-        "label": "Spacewar!",
-        "label_en": "Spacewar!",
-        "startYear": 1962,
-        "genre": [
-          "GAM",
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%A6%E3%82%A9%E3%83%BC!",
-        "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
-        "note": "初期のコンピュータゲームの古典。",
-        "note_en": "One of the earliest digital games."
       }
     ],
     "1963": [
