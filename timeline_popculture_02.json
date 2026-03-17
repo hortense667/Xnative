@@ -256,20 +256,6 @@
     ],
     "1952": [
       {
-        "label": "老人と海",
-        "label_en": "The Old Man and the Sea",
-        "startYear": 1952,
-        "genre": [
-          "BOO",
-          "NOV"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/老人と海",
-        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
-        "note": "ヘミングウェイ晩年の名作中編。",
-        "note_en": "Hemingway’s late-career classic novella."
-      },
-      {
         "label": "禁じられた遊び",
         "label_en": "Forbidden Games",
         "startYear": 1952,
@@ -384,6 +370,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Tokyo_Story",
         "note": "家族の絆と老いを静かに描いた小津の名作。",
         "note_en": "Ozu’s masterpiece on aging and family bonds."
+      },
+      {
+        "label": "老人と海",
+        "startYear": "1953",
+        "genre": [
+          "BOO",
+          "NOV"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/老人と海",
+        "note": "ヘミングウェイ晩年の名作中編。",
+        "label_en": "The Old Man and the Sea",
+        "url_en": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+        "note_en": "Hemingway’s late-career classic novella.",
+        "_rev": "1773769354103-omqu0fiw"
       }
     ],
     "1954": [
