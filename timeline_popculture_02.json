@@ -252,21 +252,6 @@
     ],
     "1952": [
       {
-        "label": "鉄腕アトム",
-        "label_en": "Astro Boy (manga)",
-        "startYear": 1952,
-        "endYear": 1968,
-        "genre": [
-          "JAPAN",
-          "MAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
-        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
-        "note": "手塚治虫の代表作。日本SFとアニメの基盤。",
-        "note_en": "手塚治虫の代表作。日本SFとアニメの基盤。"
-      },
-      {
         "label": "老人と海",
         "label_en": "The Old Man and the Sea",
         "startYear": 1952,
@@ -320,6 +305,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
         "note": "映画黄金期のミュージカル代表作。",
         "note_en": "Definitive Golden Age film musical."
+      },
+      {
+        "label": "鉄腕アトム",
+        "startYear": "1952",
+        "endYear": "1968",
+        "genre": [
+          "MAN",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "note": "手塚治虫の代表作。日本SFとアニメの基盤。SF以前にテレビアニメとして金字塔ですね。",
+        "label_en": "Astro Boy (manga)",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
+        "note_en": "手塚治虫の代表作。日本SFとアニメの基盤。",
+        "_rev": "1773768320257-2628c55e"
       }
     ],
     "1953": [
