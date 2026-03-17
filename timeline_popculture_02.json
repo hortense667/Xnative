@@ -398,19 +398,6 @@
     ],
     "1954": [
       {
-        "label": "ザ・トゥナイト・ショー",
-        "label_en": "The Tonight Show",
-        "startYear": 1954,
-        "genre": [
-          "TVP"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ザ・トゥナイト・ショー",
-        "url_en": "https://en.wikipedia.org/wiki/The_Tonight_Show",
-        "note": "米深夜トーク番組の代名詞。",
-        "note_en": "The flagship American late-night talk show."
-      },
-      {
         "label": "火の鳥",
         "label_en": "Phoenix (Hi no Tori)",
         "startYear": 1954,
