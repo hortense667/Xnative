@@ -7062,22 +7062,6 @@
         "note_en": "Urban theme park by Namco."
       },
       {
-        "label": "美少女戦士セーラームーン",
-        "label_en": "Sailor Moon (anime franchise)",
-        "startYear": 1992,
-        "endYear": "ongoing",
-        "genre": [
-          "ANI",
-          "MAN",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン",
-        "url_en": "https://en.wikipedia.org/wiki/Sailor_Moon",
-        "note": "アニメ/舞台等に広がるIP。",
-        "note_en": "Franchise spanning anime, stage, more."
-      },
-      {
         "label": "進め!電波少年",
         "label_en": "Susume! Denpa Shōnen",
         "startYear": 1992,
@@ -7120,6 +7104,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Intelligent_dance_music",
         "note": "知的志向の電子音楽潮流。",
         "note_en": "Experimental), cerebral electronic music."
+      },
+      {
+        "label": "美少女戦士セーラームーン",
+        "startYear": "1992",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN",
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン&https://upload.wikimedia.org/wikipedia/en/e/e5/SMVolume1.jpg",
+        "note": "アニメ/舞台等に広がるIP。",
+        "label_en": "Sailor Moon (anime franchise)",
+        "url_en": "https://en.wikipedia.org/wiki/Sailor_Moon",
+        "note_en": "Franchise spanning anime, stage, more."
       }
     ],
     "1993": [
