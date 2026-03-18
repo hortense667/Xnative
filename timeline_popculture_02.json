@@ -1943,18 +1943,17 @@
       },
       {
         "label": "San Diego Comic-Con",
-        "label_en": "San Diego Comic-Con",
-        "startYear": 1970,
+        "startYear": "1970",
         "genre": [
           "ANI",
-          "EVT",
+          "MAN",
           "GAM",
-          "MAN"
+          "EVT"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/サンディエゴ・コミックコン",
-        "url_en": "https://en.wikipedia.org/wiki/San_Diego_Comic-Con",
         "note": "ポップカルチャーの巨大祭典。",
+        "label_en": "San Diego Comic-Con",
+        "url_en": "https://en.wikipedia.org/wiki/San_Diego_Comic-Con",
         "note_en": "Major pop culture convention."
       },
       {
