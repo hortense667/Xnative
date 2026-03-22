@@ -9966,6 +9966,36 @@
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_2",
         "note": "世界累計最多販売の家庭用ゲーム機。",
         "note_en": "Best-selling home console worldwide."
+      },
+      {
+        "label": "きみはペット",
+        "startYear": "2000",
+        "endYear": "2005",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%BF%E3%81%AF%E3%83%9A%E3%83%83%E3%83%88"
+      },
+      {
+        "label": "相棒",
+        "startYear": "2000",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A3%92"
+      },
+      {
+        "label": "Audacity",
+        "startYear": "2000",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Audacity"
       }
     ],
     "2001": [
@@ -10303,16 +10333,13 @@
       },
       {
         "label": "ロード・オブ・ザ・リング",
-        "label_en": "The Lord of the Rings: The Fellowship of the Ring",
-        "startYear": 2001,
+        "startYear": "2001",
+        "endYear": "2003",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ロード・オブ・ザ・リング",
-        "url_en": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)",
-        "note": "映画三部作の開幕作公開。",
-        "note_en": "Film trilogy kicked off with Part 1."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%AA%E3%83%B3%E3%82%B0"
       },
       {
         "label": "アメリ",
@@ -10438,6 +10465,92 @@
         "url_en": "https://en.wikipedia.org/wiki/IPod",
         "note": "デジタル音楽プレイヤーの代名詞。",
         "note_en": "Iconic portable digital music player."
+      },
+      {
+        "label": "逆転裁判",
+        "startYear": "2001",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4"
+      },
+      {
+        "label": "M-1グランプリ",
+        "startYear": "2001",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA"
+      },
+      {
+        "label": "ちゅらさん",
+        "startYear": "2001",
+        "endYear": "2001",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%85%E3%82%89%E3%81%95%E3%82%93"
+      },
+      {
+        "label": "ハリー・ポッターと賢者の石",
+        "startYear": "2001",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%83%E3%82%BF%E3%83%BC%E3%81%A8%E8%B3%A2%E8%80%85%E3%81%AE%E7%9F%B3"
+      },
+      {
+        "label": "千と千尋の神隠し",
+        "startYear": "2001",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97"
+      },
+      {
+        "label": "Wikipedia",
+        "startYear": "2001",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wikipedia"
+      },
+      {
+        "label": "iPod",
+        "startYear": "2001",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iPod"
+      },
+      {
+        "label": "Mac OS X",
+        "startYear": "2001",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Mac%20OS%20X"
+      },
+      {
+        "label": "Windows XP",
+        "startYear": "2001",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Windows%20XP"
       }
     ],
     "2002": [
@@ -10713,6 +10826,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Education_in_Japan#Yutori_education",
         "note": "学習指導要領緩和の教育方針。",
         "note_en": "Relaxed curriculum policy in Japan."
+      },
+      {
+        "label": "機動戦士ガンダムSEED",
+        "startYear": "2002",
+        "endYear": "2003",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0SEED"
+      },
+      {
+        "label": "シカゴ",
+        "startYear": "2002",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%AB%E3%82%B4"
       }
     ],
     "2003": [
@@ -10888,6 +11020,64 @@
         "url_en": "https://en.wikipedia.org/wiki/ITunes_Store",
         "note": "音楽配信を主流に押し上げた店。",
         "note_en": "Storefront that mainstreamed digital music."
+      },
+      {
+        "label": "岳",
+        "startYear": "2003",
+        "endYear": "2012",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B2%B3"
+      },
+      {
+        "label": "ロスト・イン・トランスレーション",
+        "startYear": "2003",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B9%E3%83%88%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+      },
+      {
+        "label": "Steam",
+        "startYear": "2003",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Steam"
+      },
+      {
+        "label": "キヤノンEOS Kiss Digital",
+        "startYear": "2003",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3EOS%20Kiss%20Digital"
+      },
+      {
+        "label": "Adobe Premiere Pro",
+        "startYear": "2003",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe%20Premiere%20Pro"
+      },
+      {
+        "label": "Notepad++",
+        "startYear": "2003",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Notepad%2B%2B"
       }
     ],
     "2004": [
@@ -11156,16 +11346,13 @@
       },
       {
         "label": "World of Warcraft",
-        "label_en": "World of Warcraft",
-        "startYear": 2004,
+        "startYear": "2004",
+        "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/World_of_Warcraft",
-        "url_en": "https://en.wikipedia.org/wiki/World_of_Warcraft",
-        "note": "MMORPGの巨大ヒット作。",
-        "note_en": "Record-breaking MMORPG."
+        "url": "https://ja.wikipedia.org/wiki/World%20of%20Warcraft"
       },
       {
         "label": "モンスターハンター",
@@ -11210,6 +11397,73 @@
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_Portable",
         "note": "携帯ゲームとマルチメディア端末。",
         "note_en": "Sony’s multimedia handheld console."
+      },
+      {
+        "label": "逃走中",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD"
+      },
+      {
+        "label": "エターナル・サンシャイン",
+        "startYear": "2004",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3"
+      },
+      {
+        "label": "誰も知らない",
+        "startYear": "2004",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%AA%B0%E3%82%82%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84"
+      },
+      {
+        "label": "OpenStreetMap",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/OpenStreetMap"
+      },
+      {
+        "label": "mixi",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/mixi"
+      },
+      {
+        "label": "ニンテンドーDS",
+        "startYear": "2004",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS"
+      },
+      {
+        "label": "Logic Pro",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Logic%20Pro"
       }
     ],
     "2005": [
@@ -11414,6 +11668,132 @@
         "url_en": "https://en.wikipedia.org/wiki/Arduino",
         "note": "Maker文化を支えたマイコン基板。",
         "note_en": "Open-source electronics prototyping platform."
+      },
+      {
+        "label": "へうげもの",
+        "startYear": "2005",
+        "endYear": "2017",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%B8%E3%81%86%E3%81%92%E3%82%82%E3%81%AE"
+      },
+      {
+        "label": "君に届け",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91"
+      },
+      {
+        "label": "nintendogs",
+        "startYear": "2005",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/nintendogs"
+      },
+      {
+        "label": "脳を鍛える大人のDSトレーニング",
+        "startYear": "2005",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0"
+      },
+      {
+        "label": "龍が如く",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F"
+      },
+      {
+        "label": "リンダ リンダ リンダ",
+        "startYear": "2005",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80"
+      },
+      {
+        "label": "Reddit",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Reddit"
+      },
+      {
+        "label": "食べログ",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0"
+      },
+      {
+        "label": "Xbox 360",
+        "startYear": "2005",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Xbox%20360"
+      },
+      {
+        "label": "iPod nano",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/iPod%20nano"
+      },
+      {
+        "label": "Google Earth",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Google%20Earth"
+      },
+      {
+        "label": "Google マップ",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Google%20%E3%83%9E%E3%83%83%E3%83%97"
+      },
+      {
+        "label": "Unity",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Unity"
       }
     ],
     "2006": [
@@ -11650,6 +12030,113 @@
         "url_en": "https://en.wikipedia.org/wiki/Wii",
         "note": "直感操作で世界的ヒット。",
         "note_en": "Global hit with intuitive motion controls."
+      },
+      {
+        "label": "海街diary",
+        "startYear": "2006",
+        "endYear": "2018",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%A1%97diary"
+      },
+      {
+        "label": "聖☆おにいさん",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%81%96%E2%98%86%E3%81%8A%E3%81%AB%E3%81%84%E3%81%95%E3%82%93"
+      },
+      {
+        "label": "Roblox",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Roblox"
+      },
+      {
+        "label": "Wii Sports",
+        "startYear": "2006",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wii%20Sports"
+      },
+      {
+        "label": "大神",
+        "startYear": "2006",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%9E"
+      },
+      {
+        "label": "デスノート",
+        "startYear": "2006",
+        "endYear": "2006",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88"
+      },
+      {
+        "label": "X",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/X"
+      },
+      {
+        "label": "ニコニコ動画",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB"
+      },
+      {
+        "label": "Wii",
+        "startYear": "2006",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wii"
+      },
+      {
+        "label": "1Password",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/1Password"
+      },
+      {
+        "label": "Google 翻訳",
+        "startYear": "2006",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Google%20%E7%BF%BB%E8%A8%B3"
       }
     ],
     "2007": [
@@ -11853,6 +12340,164 @@
         "url_en": "https://en.wikipedia.org/wiki/Amazon_Kindle",
         "note": "電子書籍端末を大衆化。",
         "note_en": "Mainstreamed e-readers and ebooks."
+      },
+      {
+        "label": "3月のライオン",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/3%E6%9C%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3"
+      },
+      {
+        "label": "きのう何食べた?",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F"
+      },
+      {
+        "label": "ちはやふる",
+        "startYear": "2007",
+        "endYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B"
+      },
+      {
+        "label": "坂道のアポロン",
+        "startYear": "2007",
+        "endYear": "2012",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3"
+      },
+      {
+        "label": "機動戦士ガンダム00",
+        "startYear": "2007",
+        "endYear": "2009",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A000"
+      },
+      {
+        "label": "精霊の守り人",
+        "startYear": "2007",
+        "endYear": "2007",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B2%BE%E9%9C%8A%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA"
+      },
+      {
+        "label": "電脳コイル",
+        "startYear": "2007",
+        "endYear": "2007",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%84%B3%E3%82%B3%E3%82%A4%E3%83%AB"
+      },
+      {
+        "label": "Portal",
+        "startYear": "2007",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Portal"
+      },
+      {
+        "label": "レイトン教授と不思議な町",
+        "startYear": "2007",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E7%94%BA"
+      },
+      {
+        "label": "世界の果てまでイッテQ!",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%BE%E3%81%A7%E3%82%A4%E3%83%83%E3%83%86Q!"
+      },
+      {
+        "label": "Netflix",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Netflix"
+      },
+      {
+        "label": "pixiv",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/pixiv"
+      },
+      {
+        "label": "iPhone",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iPhone"
+      },
+      {
+        "label": "Dropbox (ソフトウェア)",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Dropbox%20(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)"
+      },
+      {
+        "label": "Scratch",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Scratch"
+      },
+      {
+        "label": "iOS",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iOS"
       }
     ],
     "2008": [
@@ -12061,16 +12706,111 @@
       },
       {
         "label": "ダークナイト",
-        "label_en": "The Dark Knight",
-        "startYear": 2008,
+        "startYear": "2008",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ダークナイト",
-        "url_en": "https://en.wikipedia.org/wiki/The_Dark_Knight",
-        "note": "ヒーロー映画の評価を更新。",
-        "note_en": "Redefined the comic-book film."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%88"
+      },
+      {
+        "label": "テルマエ・ロマエ",
+        "startYear": "2008",
+        "endYear": "2013",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AB%E3%83%9E%E3%82%A8%E3%83%BB%E3%83%AD%E3%83%9E%E3%82%A8"
+      },
+      {
+        "label": "ペルソナ4",
+        "startYear": "2008",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A4"
+      },
+      {
+        "label": "ROOKIES",
+        "startYear": "2008",
+        "endYear": "2008",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ROOKIES"
+      },
+      {
+        "label": "Dropbox",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dropbox"
+      },
+      {
+        "label": "GitHub",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GitHub"
+      },
+      {
+        "label": "Spotify",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Spotify"
+      },
+      {
+        "label": "ニコニコ生放送",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E7%94%9F%E6%94%BE%E9%80%81"
+      },
+      {
+        "label": "MacBook Air",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MacBook%20Air"
+      },
+      {
+        "label": "Android",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Android"
+      },
+      {
+        "label": "Google Chrome",
+        "startYear": "2008",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Google%20Chrome"
       }
     ],
     "2009": [
@@ -12197,16 +12937,13 @@
       },
       {
         "label": "アバター",
-        "label_en": "Avatar",
-        "startYear": 2009,
+        "startYear": "2009",
+        "endYear": "ongoing",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/アバター_(2009年の映画)",
-        "url_en": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
-        "note": "3D映画ブームの牽引作。",
-        "note_en": "3D blockbuster with record box office."
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC"
       },
       {
         "label": "Angry Birds",
@@ -12234,6 +12971,74 @@
         "url_en": "https://en.wikipedia.org/wiki/League_of_Legends",
         "note": "eスポーツ時代の旗艦タイトル。",
         "note_en": "Flagship title of the esports era."
+      },
+      {
+        "label": "山賊ダイアリー",
+        "startYear": "2009",
+        "endYear": "2016",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E8%B3%8A%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC"
+      },
+      {
+        "label": "惡の華",
+        "startYear": "2009",
+        "endYear": "2014",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%83%A1%E3%81%AE%E8%8F%AF"
+      },
+      {
+        "label": "青の祓魔師",
+        "startYear": "2009",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E3%81%AE%E7%A5%93%E9%AD%94%E5%B8%AB"
+      },
+      {
+        "label": "東京マグニチュード8.0",
+        "startYear": "2009",
+        "endYear": "2009",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%9E%E3%82%B0%E3%83%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%898.0"
+      },
+      {
+        "label": "ドラゴンクエストIX 星空の守り人",
+        "startYear": "2009",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88IX%20%E6%98%9F%E7%A9%BA%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA"
+      },
+      {
+        "label": "IPPONグランプリ",
+        "startYear": "2009",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IPPON%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA"
+      },
+      {
+        "label": "Windows 7",
+        "startYear": "2009",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Windows%207"
       }
     ],
     "2010": [
@@ -12312,16 +13117,12 @@
       },
       {
         "label": "インセプション",
-        "label_en": "Inception",
-        "startYear": 2010,
+        "startYear": "2010",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/インセプション",
-        "url_en": "https://en.wikipedia.org/wiki/Inception",
-        "note": "夢と現実を巡るSF大作。",
-        "note_en": "Mind-bending sci-fi heist epic."
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3"
       },
       {
         "label": "iPad",
@@ -12336,6 +13137,66 @@
         "url_en": "https://en.wikipedia.org/wiki/IPad",
         "note": "タブレット市場を創出/拡大。",
         "note_en": "Catalyzed the modern tablet market."
+      },
+      {
+        "label": "RAINBOW-二舎六房の七人-",
+        "startYear": "2010",
+        "endYear": "2010",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/RAINBOW-%E4%BA%8C%E8%88%8E%E5%85%AD%E6%88%BF%E3%81%AE%E4%B8%83%E4%BA%BA-"
+      },
+      {
+        "label": "ゼノブレイド",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%8E%E3%83%96%E3%83%AC%E3%82%A4%E3%83%89"
+      },
+      {
+        "label": "ファイナルファンタジーXIV",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXIV"
+      },
+      {
+        "label": "Instagram",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Instagram"
+      },
+      {
+        "label": "iPad",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iPad"
+      },
+      {
+        "label": "Instagram",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Instagram"
       }
     ],
     "2011": [
@@ -12615,6 +13476,163 @@
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_Vita",
         "note": "高解像度携帯機/リモート機能。",
         "note_en": "Hi-res handheld with Remote Play."
+      },
+      {
+        "label": "アシガール",
+        "startYear": "2011",
+        "endYear": "2018",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B7%E3%82%AC%E3%83%BC%E3%83%AB"
+      },
+      {
+        "label": "月刊少女野崎くん",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E5%B0%91%E5%A5%B3%E9%87%8E%E5%B4%8E%E3%81%8F%E3%82%93"
+      },
+      {
+        "label": "TIGER & BUNNY",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TIGER%20%26%20BUNNY"
+      },
+      {
+        "label": "花咲くいろは",
+        "startYear": "2011",
+        "endYear": "2011",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E5%92%B2%E3%81%8F%E3%81%84%E3%82%8D%E3%81%AF"
+      },
+      {
+        "label": "Dark Souls",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Dark%20Souls"
+      },
+      {
+        "label": "Portal 2",
+        "startYear": "2011",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Portal%202"
+      },
+      {
+        "label": "Terraria",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Terraria"
+      },
+      {
+        "label": "家政婦のミタ",
+        "startYear": "2011",
+        "endYear": "2011",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF"
+      },
+      {
+        "label": "ブラック・スワン",
+        "startYear": "2011",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AF%E3%83%B3"
+      },
+      {
+        "label": "Twitch",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Twitch"
+      },
+      {
+        "label": "Zoom",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Zoom"
+      },
+      {
+        "label": "はてなブログ",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0"
+      },
+      {
+        "label": "ニンテンドー3DS",
+        "startYear": "2011",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS"
+      },
+      {
+        "label": "Final Cut Pro X",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Final%20Cut%20Pro%20X"
+      },
+      {
+        "label": "Procreate",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Procreate"
+      },
+      {
+        "label": "Zoom",
+        "startYear": "2011",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Zoom"
       }
     ],
     "2012": [
@@ -12839,23 +13857,157 @@
         "url_en": "https://en.wikipedia.org/wiki/GoPro",
         "note": "アクションカメラ普及を加速。",
         "note_en": "Accelerated action-camera popularity."
-      }
-    ],
-    "2013": [
+      },
       {
-        "label": "DJI Phantom",
-        "label_en": "DJI Phantom",
-        "startYear": 2013,
+        "label": "かくかくしかじか",
+        "startYear": "2012",
+        "endYear": "2015",
         "genre": [
-          "HAR",
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B"
+      },
+      {
+        "label": "かげきしょうじょ!!",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%92%E3%81%8D%E3%81%97%E3%82%87%E3%81%86%E3%81%98%E3%82%87!!"
+      },
+      {
+        "label": "メイドインアビス",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9"
+      },
+      {
+        "label": "宝石の国",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%9D%E7%9F%B3%E3%81%AE%E5%9B%BD"
+      },
+      {
+        "label": "暗殺教室",
+        "startYear": "2012",
+        "endYear": "2016",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9A%97%E6%AE%BA%E6%95%99%E5%AE%A4"
+      },
+      {
+        "label": "アイカツ!",
+        "startYear": "2012",
+        "endYear": "2016",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84!"
+      },
+      {
+        "label": "新世界より",
+        "startYear": "2012",
+        "endYear": "2013",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%95%8C%E3%82%88%E3%82%8A"
+      },
+      {
+        "label": "パズル&ドラゴンズ",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BA%E3%83%AB%26%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA"
+      },
+      {
+        "label": "リーガル・ハイ",
+        "startYear": "2012",
+        "endYear": "2013",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%AB%E3%83%BB%E3%83%8F%E3%82%A4"
+      },
+      {
+        "label": "孤独のグルメ",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1"
+      },
+      {
+        "label": "桐島、部活やめるってよ",
+        "startYear": "2012",
+        "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ドローン",
-        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
-        "note": "空撮ドローン普及の立役者。",
-        "note_en": "Mainstreamed consumer aerial drones."
+        "url": "https://ja.wikipedia.org/wiki/%E6%A1%90%E5%B3%B6%E3%80%81%E9%83%A8%E6%B4%BB%E3%82%84%E3%82%81%E3%82%8B%E3%81%A3%E3%81%A6%E3%82%88"
       },
+      {
+        "label": "BASE",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/BASE"
+      },
+      {
+        "label": "Tinder",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Tinder"
+      },
+      {
+        "label": "Raspberry Pi",
+        "startYear": "2012",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry%20Pi"
+      },
+      {
+        "label": "Wii U",
+        "startYear": "2012",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Wii%20U"
+      }
+    ],
+    "2013": [
       {
         "label": "Google Glass",
         "label_en": "Google Glass",
@@ -13009,16 +14161,12 @@
       },
       {
         "label": "ゼロ・グラビティ",
-        "label_en": "Gravity",
-        "startYear": 2013,
+        "startYear": "2013",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ゼロ・グラビティ",
-        "url_en": "https://en.wikipedia.org/wiki/Gravity_(2013_film)",
-        "note": "宇宙サバイバルの映像革新。",
-        "note_en": "Visual breakthrough space survival film."
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AD%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%93%E3%83%86%E3%82%A3"
       },
       {
         "label": "アナと雪の女王",
@@ -13035,16 +14183,12 @@
       },
       {
         "label": "The Last of Us",
-        "label_en": "The Last of Us",
-        "startYear": 2013,
+        "startYear": "2013",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/The_Last_of_Us",
-        "url_en": "https://en.wikipedia.org/wiki/The_Last_of_Us",
-        "note": "叙情的サバイバルアクション。",
-        "note_en": "Critically acclaimed narrative action game."
+        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us"
       },
       {
         "label": "Dota 2",
@@ -13087,6 +14231,169 @@
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_4",
         "note": "第8世代機の主力ハード。",
         "note_en": "Mainstream eighth-gen home console."
+      },
+      {
+        "label": "BLUE GIANT",
+        "startYear": "2013",
+        "endYear": "2020",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT"
+      },
+      {
+        "label": "ワールドトリガー",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC"
+      },
+      {
+        "label": "応天の門",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%BF%9C%E5%A4%A9%E3%81%AE%E9%96%80"
+      },
+      {
+        "label": "Free!",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Free!"
+      },
+      {
+        "label": "キルラキル",
+        "startYear": "2013",
+        "endYear": "2014",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%AB%E3%83%A9%E3%82%AD%E3%83%AB"
+      },
+      {
+        "label": "モンスターストライク",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF"
+      },
+      {
+        "label": "半沢直樹",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%B2%A2%E7%9B%B4%E6%A8%B9"
+      },
+      {
+        "label": "Canva",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Canva"
+      },
+      {
+        "label": "Slack",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Slack"
+      },
+      {
+        "label": "メルカリ",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA"
+      },
+      {
+        "label": "Pebble",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Pebble"
+      },
+      {
+        "label": "Surface Pro",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Surface%20Pro"
+      },
+      {
+        "label": "ソニー α7",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%20%CE%B17"
+      },
+      {
+        "label": "Canva",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Canva"
+      },
+      {
+        "label": "Slack",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Slack"
+      },
+      {
+        "label": "DJI Phantom",
+        "startYear": "2013",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ドローン",
+        "note": "空撮ドローン普及の立役者。",
+        "label_en": "DJI Phantom",
+        "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
+        "note_en": "Mainstreamed consumer aerial drones."
       }
     ],
     "2014": [
@@ -13252,6 +14559,115 @@
         "url_en": "https://en.wikipedia.org/wiki/Kubernetes",
         "note": "コンテナオーケストレーション基盤。",
         "note_en": "Container orchestration platform standard."
+      },
+      {
+        "label": "ザ・ファブル",
+        "startYear": "2014",
+        "endYear": "2019",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB"
+      },
+      {
+        "label": "ダンジョン飯",
+        "startYear": "2014",
+        "endYear": "2023",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF"
+      },
+      {
+        "label": "プリパラ",
+        "startYear": "2014",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%91%E3%83%A9"
+      },
+      {
+        "label": "残響のテロル",
+        "startYear": "2014",
+        "endYear": "2014",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%AE%8B%E9%9F%BF%E3%81%AE%E3%83%86%E3%83%AD%E3%83%AB"
+      },
+      {
+        "label": "VALORANT",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VALORANT"
+      },
+      {
+        "label": "家、ついて行ってイイですか?",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E3%80%81%E3%81%A4%E3%81%84%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%A6%E3%82%A4%E3%82%A4%E3%81%A7%E3%81%99%E3%81%8B%3F"
+      },
+      {
+        "label": "水曜日のダウンタウン",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3"
+      },
+      {
+        "label": "アナと雪の女王",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%81%A8%E9%9B%AA%E3%81%AE%E5%A5%B3%E7%8E%8B"
+      },
+      {
+        "label": "インターステラー",
+        "startYear": "2014",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BC"
+      },
+      {
+        "label": "note",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/note"
+      },
+      {
+        "label": "Apple Watch",
+        "startYear": "2014",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Watch"
       }
     ],
     "2015": [
@@ -13331,29 +14747,22 @@
       },
       {
         "label": "TensorFlow",
-        "label_en": "TensorFlow",
-        "startYear": 2015,
+        "startYear": "2015",
+        "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/TensorFlow",
-        "url_en": "https://en.wikipedia.org/wiki/TensorFlow",
-        "note": "機械学習の業界標準基盤。",
-        "note_en": "Industry-standard ML framework."
+        "url": "https://ja.wikipedia.org/wiki/TensorFlow"
       },
       {
         "label": "マッドマックス 怒りのデス・ロード",
-        "label_en": "Mad Max: Fury Road",
-        "startYear": 2015,
+        "startYear": "2015",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/マッドマックス_怒りのデス・ロード",
-        "url_en": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road",
-        "note": "アクション演出の新基準。",
-        "note_en": "New benchmark for action cinema."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%83%89%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%20%E6%80%92%E3%82%8A%E3%81%AE%E3%83%87%E3%82%B9%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%89"
       },
       {
         "label": "スプラトゥーン",
@@ -13368,6 +14777,116 @@
         "url_en": "https://en.wikipedia.org/wiki/Splatoon",
         "note": "インクで陣取りする対戦シューター。",
         "note_en": "Ink-based territorial shooter from Nintendo."
+      },
+      {
+        "label": "アオアシ",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%82%A2%E3%82%B7"
+      },
+      {
+        "label": "響け!ユーフォニアム",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9F%BF%E3%81%91!%E3%83%A6%E3%83%BC%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A2%E3%83%A0"
+      },
+      {
+        "label": "Fate/Grand Order",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Fate%2FGrand%20Order"
+      },
+      {
+        "label": "UNDERTALE",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/UNDERTALE"
+      },
+      {
+        "label": "スプラトゥーン",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3"
+      },
+      {
+        "label": "ドラゴンクエストビルダーズ",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%BA"
+      },
+      {
+        "label": "シッツ・クリーク",
+        "startYear": "2015",
+        "endYear": "2020",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%83%E3%83%84%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%BC%E3%82%AF"
+      },
+      {
+        "label": "Discord",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Discord"
+      },
+      {
+        "label": "Oculus Rift",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Oculus%20Rift"
+      },
+      {
+        "label": "Discord",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Discord"
+      },
+      {
+        "label": "Visual Studio Code",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Visual%20Studio%20Code"
       }
     ],
     "2016": [
@@ -13538,16 +15057,12 @@
       },
       {
         "label": "ラ・ラ・ランド",
-        "label_en": "La La Land",
-        "startYear": 2016,
+        "startYear": "2016",
         "genre": [
           "MOV"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ラ・ラ・ランド",
-        "url_en": "https://en.wikipedia.org/wiki/La_La_Land",
-        "note": "現代に蘇るミュージカル映画。",
-        "note_en": "Modern revival of the movie musical."
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%B3%E3%83%89"
       },
       {
         "label": "ポケモンGO",
@@ -13575,6 +15090,243 @@
         "url_en": "https://en.wikipedia.org/wiki/Overwatch",
         "note": "チームシューターの新潮流確立。",
         "note_en": "Defined a hero-based team shooter trend."
+      },
+      {
+        "label": "映像研には手を出すな!",
+        "startYear": "2016",
+        "endYear": "2021",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E5%83%8F%E7%A0%94%E3%81%AB%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AA!"
+      },
+      {
+        "label": "ユーリ!!! on ICE",
+        "startYear": "2016",
+        "endYear": "2016",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%AA!!!%20on%20ICE"
+      },
+      {
+        "label": "昭和元禄落語心中",
+        "startYear": "2016",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E5%85%83%E7%A6%84%E8%90%BD%E8%AA%9E%E5%BF%83%E4%B8%AD"
+      },
+      {
+        "label": "Detroit: Become Human",
+        "startYear": "2016",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Detroit%3A%20Become%20Human"
+      },
+      {
+        "label": "Pokémon GO",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO"
+      },
+      {
+        "label": "Stardew Valley",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Stardew%20Valley"
+      },
+      {
+        "label": "ペルソナ5",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A5"
+      },
+      {
+        "label": "ザ・クラウン",
+        "startYear": "2016",
+        "endYear": "2023",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
+      },
+      {
+        "label": "ストレンジャー・シングス 未知の世界",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%82%B9%20%E6%9C%AA%E7%9F%A5%E3%81%AE%E4%B8%96%E7%95%8C"
+      },
+      {
+        "label": "真田丸",
+        "startYear": "2016",
+        "endYear": "2016",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E7%94%B0%E4%B8%B8"
+      },
+      {
+        "label": "逃げるは恥だが役に立つ",
+        "startYear": "2016",
+        "endYear": "2016",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E3%81%92%E3%82%8B%E3%81%AF%E6%81%A5%E3%81%A0%E3%81%8C%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4"
+      },
+      {
+        "label": "シン・ゴジラ",
+        "startYear": "2016",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9"
+      },
+      {
+        "label": "君の名は。",
+        "startYear": "2016",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82"
+      },
+      {
+        "label": "AbemaTV",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AbemaTV"
+      },
+      {
+        "label": "OnlyFans",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/OnlyFans"
+      },
+      {
+        "label": "Pokémon GO",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO"
+      },
+      {
+        "label": "TikTok",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/TikTok"
+      },
+      {
+        "label": "AirPods",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AirPods"
+      },
+      {
+        "label": "Google Pixel",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Google%20Pixel"
+      },
+      {
+        "label": "Mavic Pro",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mavic%20Pro"
+      },
+      {
+        "label": "Figma",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Figma"
+      },
+      {
+        "label": "Notion",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Notion"
+      },
+      {
+        "label": "PyTorch",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PyTorch"
+      },
+      {
+        "label": "TikTok",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TikTok"
       }
     ],
     "2017": [
@@ -13766,6 +15518,193 @@
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_Switch",
         "note": "携帯/据置のハイブリッド機。",
         "note_en": "Hybrid handheld/home game console."
+      },
+      {
+        "label": "サマータイムレンダ",
+        "startYear": "2017",
+        "endYear": "2021",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80"
+      },
+      {
+        "label": "ミギとダリ",
+        "startYear": "2017",
+        "endYear": "2021",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%AE%E3%81%A8%E3%83%80%E3%83%AA"
+      },
+      {
+        "label": "ミステリと言う勿れ",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%81%A8%E8%A8%80%E3%81%86%E5%8B%BF%E3%82%8C"
+      },
+      {
+        "label": "薬屋のひとりごと",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8"
+      },
+      {
+        "label": "風都探偵",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E9%83%BD%E6%8E%A2%E5%81%B5"
+      },
+      {
+        "label": "ACCA13区監察課",
+        "startYear": "2017",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ACCA13%E5%8C%BA%E7%9B%A3%E5%AF%9F%E8%AA%B2"
+      },
+      {
+        "label": "ガヴリールドロップアウト",
+        "startYear": "2017",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88"
+      },
+      {
+        "label": "サクラクエスト",
+        "startYear": "2017",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88"
+      },
+      {
+        "label": "リトルウィッチアカデミア",
+        "startYear": "2017",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%88%E3%83%AB%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2"
+      },
+      {
+        "label": "夜は短し歩けよ乙女",
+        "startYear": "2017",
+        "endYear": "2017",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AF%E7%9F%AD%E3%81%97%E6%AD%A9%E3%81%91%E3%82%88%E4%B9%99%E5%A5%B3"
+      },
+      {
+        "label": "魔法使いの嫁",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%AB%81"
+      },
+      {
+        "label": "スーパーマリオ オデッセイ",
+        "startYear": "2017",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA%20%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4"
+      },
+      {
+        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+        "startYear": "2017",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%96%E3%83%AC%E3%82%B9%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89"
+      },
+      {
+        "label": "カメラを止めるな!",
+        "startYear": "2017",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E6%AD%A2%E3%82%81%E3%82%8B%E3%81%AA!"
+      },
+      {
+        "label": "5ちゃんねる",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/5%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"
+      },
+      {
+        "label": "Substack",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Substack"
+      },
+      {
+        "label": "M5Stack",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/M5Stack"
+      },
+      {
+        "label": "Nintendo Switch",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch"
+      },
+      {
+        "label": "DeepL",
+        "startYear": "2017",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DeepL"
       }
     ],
     "2018": [
@@ -13976,6 +15915,184 @@
         "url_en": "https://en.wikipedia.org/wiki/Among_Us",
         "note": "“人狼系”が世界的オンライン化。",
         "note_en": "Social-deduction hit went global online."
+      },
+      {
+        "label": "その着せ替え人形は恋をする",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%AE%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E4%BA%BA%E5%BD%A2%E3%81%AF%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B"
+      },
+      {
+        "label": "スキップとローファー",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC"
+      },
+      {
+        "label": "極主夫道",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A5%B5%E4%B8%BB%E5%A4%AB%E9%81%93"
+      },
+      {
+        "label": "ゆるキャン△",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3"
+      },
+      {
+        "label": "ウマ娘 プリティーダービー",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC"
+      },
+      {
+        "label": "ツルネ -風舞高校弓道部-",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AB%E3%83%8D%20-%E9%A2%A8%E8%88%9E%E9%AB%98%E6%A0%A1%E5%BC%93%E9%81%93%E9%83%A8-"
+      },
+      {
+        "label": "メガロボクス",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%AD%E3%83%9C%E3%82%AF%E3%82%B9"
+      },
+      {
+        "label": "宇宙よりも遠い場所",
+        "startYear": "2018",
+        "endYear": "2018",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80"
+      },
+      {
+        "label": "Fit Boxing",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Fit%20Boxing"
+      },
+      {
+        "label": "Marvel’s Spider-Man",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Marvel%E2%80%99s%20Spider-Man"
+      },
+      {
+        "label": "大乱闘スマッシュブラザーズ SPECIAL",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%B1%E9%97%98%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA%20SPECIAL"
+      },
+      {
+        "label": "雀魂",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%80%E9%AD%82"
+      },
+      {
+        "label": "スパイダーマン:スパイダーバース",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3%3A%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B9"
+      },
+      {
+        "label": "ブラックパンサー",
+        "startYear": "2018",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC"
+      },
+      {
+        "label": "万引き家族",
+        "startYear": "2018",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BC%95%E3%81%8D%E5%AE%B6%E6%97%8F"
+      },
+      {
+        "label": "Google Nest Hub",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Google%20Nest%20Hub"
+      },
+      {
+        "label": "Xbox Series X/S",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Xbox%20Series%20X%2FS"
+      },
+      {
+        "label": "Google Colaboratory",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Google%20Colaboratory"
       }
     ],
     "2019": [
@@ -14083,16 +16200,12 @@
       },
       {
         "label": "パラサイト 半地下の家族",
-        "label_en": "Parasite",
-        "startYear": 2019,
+        "startYear": "2019",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/パラサイト_半地下の家族",
-        "url_en": "https://en.wikipedia.org/wiki/Parasite_(2019_film)",
-        "note": "韓国映画初のアカデミー作品賞。",
-        "note_en": "First non-English Best Picture Oscar."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%82%B5%E3%82%A4%E3%83%88%20%E5%8D%8A%E5%9C%B0%E4%B8%8B%E3%81%AE%E5%AE%B6%E6%97%8F"
       },
       {
         "label": "Apex Legends",
@@ -14107,6 +16220,132 @@
         "url_en": "https://en.wikipedia.org/wiki/Apex_Legends",
         "note": "基本無料バトロワの人気作。",
         "note_en": "Hit free-to-play battle royale."
+      },
+      {
+        "label": "乙女椿は笑わない",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B9%99%E5%A5%B3%E6%A4%BF%E3%81%AF%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84"
+      },
+      {
+        "label": "BEASTARS",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BEASTARS"
+      },
+      {
+        "label": "約束のネバーランド",
+        "startYear": "2019",
+        "endYear": "2021",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E7%B4%84%E6%9D%9F%E3%81%AE%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89"
+      },
+      {
+        "label": "DEATH STRANDING",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DEATH%20STRANDING"
+      },
+      {
+        "label": "SEKIRO: SHADOWS DIE TWICE",
+        "startYear": "2019",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SEKIRO%3A%20SHADOWS%20DIE%20TWICE"
+      },
+      {
+        "label": "ドラゴンクエストウォーク",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF"
+      },
+      {
+        "label": "リングフィット アドベンチャー",
+        "startYear": "2019",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC"
+      },
+      {
+        "label": "サ道",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E9%81%93"
+      },
+      {
+        "label": "テレビ千鳥",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%83%93%E5%8D%83%E9%B3%A5"
+      },
+      {
+        "label": "ジョーカー",
+        "startYear": "2019",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC"
+      },
+      {
+        "label": "ミッドサマー",
+        "startYear": "2019",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%83%E3%83%89%E3%82%B5%E3%83%9E%E3%83%BC"
+      },
+      {
+        "label": "DualSense",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DualSense"
+      },
+      {
+        "label": "Blender 2.8",
+        "startYear": "2019",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Blender%202.8"
       }
     ],
     "2020": [
@@ -14170,16 +16409,13 @@
       },
       {
         "label": "原神",
-        "label_en": "Genshin Impact",
-        "startYear": 2020,
+        "startYear": "2020",
+        "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/原神",
-        "url_en": "https://en.wikipedia.org/wiki/Genshin_Impact",
-        "note": "基本無料ガチャ型ARPGの世界的人気。",
-        "note_en": "Global hit gacha-style open-world ARPG."
+        "url": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%A5%9E"
       },
       {
         "label": "あつまれ どうぶつの森",
@@ -14209,6 +16445,205 @@
         "url_en": "https://en.wikipedia.org/wiki/PlayStation_5",
         "note": "第9世代据置機の主力。",
         "note_en": "Flagship ninth-gen home console."
+      },
+      {
+        "label": "【推しの子】",
+        "startYear": "2020",
+        "endYear": "2024",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91"
+      },
+      {
+        "label": "チ。-地球の運動について-",
+        "startYear": "2020",
+        "endYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-"
+      },
+      {
+        "label": "メダリスト",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88"
+      },
+      {
+        "label": "女の園の星",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E3%81%AE%E5%9C%92%E3%81%AE%E6%98%9F"
+      },
+      {
+        "label": "葬送のフリーレン",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3"
+      },
+      {
+        "label": "BNA ビー・エヌ・エー",
+        "startYear": "2020",
+        "endYear": "2020",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/BNA%20%E3%83%93%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%8C%E3%83%BB%E3%82%A8%E3%83%BC"
+      },
+      {
+        "label": "デカダンス",
+        "startYear": "2020",
+        "endYear": "2020",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%AB%E3%83%80%E3%83%B3%E3%82%B9"
+      },
+      {
+        "label": "ハイキュー!! TO THE TOP",
+        "startYear": "2020",
+        "endYear": "2020",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC!!%20TO%20THE%20TOP"
+      },
+      {
+        "label": "Ghost of Tsushima",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Ghost%20of%20Tsushima"
+      },
+      {
+        "label": "Hades",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Hades"
+      },
+      {
+        "label": "The Last of Us Part II",
+        "startYear": "2020",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us%20Part%20II"
+      },
+      {
+        "label": "あつまれ どうぶつの森",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%20%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE"
+      },
+      {
+        "label": "サクナヒメ",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1"
+      },
+      {
+        "label": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E%E9%9B%BB%E9%89%84%20%E3%80%9C%E6%98%AD%E5%92%8C%20%E5%B9%B3%E6%88%90%20%E4%BB%A4%E5%92%8C%E3%82%82%E5%AE%9A%E7%95%AA!%E3%80%9C"
+      },
+      {
+        "label": "MIU404",
+        "startYear": "2020",
+        "endYear": "2020",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MIU404"
+      },
+      {
+        "label": "有吉の壁",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%89%E5%90%89%E3%81%AE%E5%A3%81"
+      },
+      {
+        "label": "BeReal",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/BeReal"
+      },
+      {
+        "label": "Clubhouse",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Clubhouse"
+      },
+      {
+        "label": "AirTag",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AirTag"
+      },
+      {
+        "label": "LM Studio",
+        "startYear": "2020",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/LM%20Studio"
       }
     ],
     "2021": [
@@ -14256,6 +16691,232 @@
         "url_en": "https://en.wikipedia.org/wiki/2020_Summer_Olympics",
         "note": "延期開催の異例の五輪。",
         "note_en": "Unprecedented postponed Summer Olympics."
+      },
+      {
+        "label": "タコピーの原罪",
+        "startYear": "2021",
+        "endYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA"
+      },
+      {
+        "label": "ダンダダン",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3"
+      },
+      {
+        "label": "ルックバック",
+        "startYear": "2021",
+        "endYear": "2021",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF"
+      },
+      {
+        "label": "税金で買った本",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E7%A8%8E%E9%87%91%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%9F%E6%9C%AC"
+      },
+      {
+        "label": "86―エイティシックス―",
+        "startYear": "2021",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/86%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95"
+      },
+      {
+        "label": "PUI PUI モルカー",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PUI%20PUI%20%E3%83%A2%E3%83%AB%E3%82%AB%E3%83%BC"
+      },
+      {
+        "label": "SSSS.DYNAZENON",
+        "startYear": "2021",
+        "endYear": "2021",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SSSS.DYNAZENON"
+      },
+      {
+        "label": "Sonny Boy",
+        "startYear": "2021",
+        "endYear": "2021",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sonny%20Boy"
+      },
+      {
+        "label": "ワンダーエッグ・プライオリティ",
+        "startYear": "2021",
+        "endYear": "2021",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%86%E3%82%A3"
+      },
+      {
+        "label": "平家物語",
+        "startYear": "2021",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E"
+      },
+      {
+        "label": "映画大好きポンポさん",
+        "startYear": "2021",
+        "endYear": "2021",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E7%94%BB%E5%A4%A7%E5%A5%BD%E3%81%8D%E3%83%9D%E3%83%B3%E3%83%9D%E3%81%95%E3%82%93"
+      },
+      {
+        "label": "It Takes Two",
+        "startYear": "2021",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/It%20Takes%20Two"
+      },
+      {
+        "label": "ウマ娘 プリティーダービー",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC"
+      },
+      {
+        "label": "モンスターハンターライズ",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%82%BA"
+      },
+      {
+        "label": "イカゲーム",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0"
+      },
+      {
+        "label": "すばらしき世界",
+        "startYear": "2021",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%99%E3%81%B0%E3%82%89%E3%81%97%E3%81%8D%E4%B8%96%E7%95%8C"
+      },
+      {
+        "label": "ドライブ・マイ・カー",
+        "startYear": "2021",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%AB%E3%83%BC"
+      },
+      {
+        "label": "花束みたいな恋をした",
+        "startYear": "2021",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E6%9D%9F%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E6%81%8B%E3%82%92%E3%81%97%E3%81%9F"
+      },
+      {
+        "label": "Civitai",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Civitai"
+      },
+      {
+        "label": "Analogue Pocket",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Analogue%20Pocket"
+      },
+      {
+        "label": "Playdate",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Playdate"
+      },
+      {
+        "label": "instax mini Evo",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/instax%20mini%20Evo"
+      },
+      {
+        "label": "GitHub Copilot",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot"
       }
     ],
     "2022": [
@@ -14369,16 +17030,12 @@
       },
       {
         "label": "トップガン マーヴェリック",
-        "label_en": "Top Gun: Maverick",
-        "startYear": 2022,
+        "startYear": "2022",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/トップガン_マーヴェリック",
-        "url_en": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
-        "note": "空撮と物語で世界的大ヒット。",
-        "note_en": "Aerial spectacle and legacy sequel smash."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%83%E3%83%97%E3%82%AC%E3%83%B3%20%E3%83%9E%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF"
       },
       {
         "label": "エブリシング・エブリウェア・オール・アット・ワンス",
@@ -14406,6 +17063,234 @@
         "url_en": "https://en.wikipedia.org/wiki/Elden_Ring",
         "note": "探索自由度で新境地のアクションRPG。",
         "note_en": "Open-world evolution of the Soulslike."
+      },
+      {
+        "label": "Do It Yourself!!",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Do%20It%20Yourself!!"
+      },
+      {
+        "label": "サイバーパンク エッジランナーズ",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF%20%E3%82%A8%E3%83%83%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%82%BA"
+      },
+      {
+        "label": "サマータイムレンダ",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80"
+      },
+      {
+        "label": "パリピ孔明",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E"
+      },
+      {
+        "label": "ブルーロック",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF"
+      },
+      {
+        "label": "地球外少年少女",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%83%E5%A4%96%E5%B0%91%E5%B9%B4%E5%B0%91%E5%A5%B3"
+      },
+      {
+        "label": "犬王",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E7%8E%8B"
+      },
+      {
+        "label": "ELDEN RING SHADOW OF THE ERDTREE",
+        "startYear": "2022",
+        "endYear": "2024",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE"
+      },
+      {
+        "label": "スプラトゥーン3",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B33"
+      },
+      {
+        "label": "THE BEAR",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/THE%20BEAR"
+      },
+      {
+        "label": "一橋桐子の犯罪日記",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%80%E6%A9%8B%E6%A1%90%E5%AD%90%E3%81%AE%E7%8A%AF%E7%BD%AA%E6%97%A5%E8%A8%98"
+      },
+      {
+        "label": "鎌倉殿の13人",
+        "startYear": "2022",
+        "endYear": "2022",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E6%AE%BF%E3%81%AE13%E4%BA%BA"
+      },
+      {
+        "label": "Everything Everywhere All at Once",
+        "startYear": "2022",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Everything%20Everywhere%20All%20at%20Once"
+      },
+      {
+        "label": "RRR",
+        "startYear": "2022",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/RRR"
+      },
+      {
+        "label": "ChatGPT",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "label": "Temu",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Temu"
+      },
+      {
+        "label": "Meta Quest Pro",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%20Pro"
+      },
+      {
+        "label": "Nothing Phone (1)",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Nothing%20Phone%20(1)"
+      },
+      {
+        "label": "Steam Deck",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Steam%20Deck"
+      },
+      {
+        "label": "Character.AI",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Character.AI"
+      },
+      {
+        "label": "ChatGPT",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "label": "Midjourney",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Midjourney"
+      },
+      {
+        "label": "Stable Diffusion",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion"
       }
     ],
     "2023": [
@@ -14471,29 +17356,21 @@
       },
       {
         "label": "オッペンハイマー",
-        "label_en": "Oppenheimer",
-        "startYear": 2023,
+        "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/オッペンハイマー_(映画)",
-        "url_en": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
-        "note": "原爆開発者の伝記的大作。",
-        "note_en": "Epic biopic of the atomic bomb’s architect."
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC"
       },
       {
         "label": "バービー",
-        "label_en": "Barbie",
-        "startYear": 2023,
+        "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/バービー_(映画)",
-        "url_en": "https://en.wikipedia.org/wiki/Barbie_(film)",
-        "note": "ドールIPを再解釈した社会風刺。",
-        "note_en": "Satirical reinvention of the doll IP."
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%93%E3%83%BC"
       },
       {
         "label": "バルダーズ・ゲート3",
@@ -14507,6 +17384,441 @@
         "url_en": "https://en.wikipedia.org/wiki/Baldur%27s_Gate_3",
         "note": "TRPG的自由度で高評価RPG。",
         "note_en": "Critically acclaimed, choice-rich CRPG."
+      },
+      {
+        "label": "BLUE GIANT",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT"
+      },
+      {
+        "label": "BanG Dream! It's MyGO!!!!!",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BanG%20Dream!%20It%27s%20MyGO!!!!!"
+      },
+      {
+        "label": "Dr.STONE NEW WORLD",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Dr.STONE%20NEW%20WORLD"
+      },
+      {
+        "label": "TRIGUN STAMPEDE",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/TRIGUN%20STAMPEDE"
+      },
+      {
+        "label": "グリッドマン ユニバース",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89%E3%83%9E%E3%83%B3%20%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9"
+      },
+      {
+        "label": "シャングリラ・フロンティア",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9%E3%83%BB%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2"
+      },
+      {
+        "label": "スキップとローファー",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC"
+      },
+      {
+        "label": "ブルーピリオド",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89"
+      },
+      {
+        "label": "君たちはどう生きるか",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B"
+      },
+      {
+        "label": "地獄楽",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A5%BD"
+      },
+      {
+        "label": "天国大魔境",
+        "startYear": "2023",
+        "endYear": "2023",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83"
+      },
+      {
+        "label": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+        "startYear": "2023",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%86%E3%82%A3%E3%82%A2%E3%83%BC%E3%82%BA%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0"
+      },
+      {
+        "label": "THE LAST OF US",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/THE%20LAST%20OF%20US"
+      },
+      {
+        "label": "PERFECT DAYS",
+        "startYear": "2023",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PERFECT%20DAYS"
+      },
+      {
+        "label": "ゴジラ-1.0",
+        "startYear": "2023",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%B8%E3%83%A9-1.0"
+      },
+      {
+        "label": "怪物",
+        "startYear": "2023",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%89%A9"
+      },
+      {
+        "label": "Bluesky",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Bluesky"
+      },
+      {
+        "label": "Threads",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Threads"
+      },
+      {
+        "label": "ASUS ROG Ally",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ASUS%20ROG%20Ally"
+      },
+      {
+        "label": "Meta Quest 3",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%203"
+      },
+      {
+        "label": "Claude",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Claude"
+      },
+      {
+        "label": "Cursor",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Cursor"
+      },
+      {
+        "label": "v0",
+        "startYear": "2023",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/v0"
+      }
+    ],
+    "2024": [
+      {
+        "label": "らんま1/2 (2024年のアニメ)",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1%2F2%20(2024%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+      },
+      {
+        "label": "ダンジョン飯",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF"
+      },
+      {
+        "label": "ダンダダン",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3"
+      },
+      {
+        "label": "チ。-地球の運動について-",
+        "startYear": "2024",
+        "endYear": "2025",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-"
+      },
+      {
+        "label": "ルックバック",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF"
+      },
+      {
+        "label": "先輩はおとこのこ",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%88%E8%BC%A9%E3%81%AF%E3%81%8A%E3%81%A8%E3%81%93%E3%81%AE%E3%81%93"
+      },
+      {
+        "label": "夜のクラゲは泳げない",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%B2%E3%81%AF%E6%B3%B3%E3%81%92%E3%81%AA%E3%81%84"
+      },
+      {
+        "label": "怪獣8号",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%8D%A38%E5%8F%B7"
+      },
+      {
+        "label": "Balatro",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Balatro"
+      },
+      {
+        "label": "黒神話:悟空",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%BB%92%E7%A5%9E%E8%A9%B1%3A%E6%82%9F%E7%A9%BA"
+      },
+      {
+        "label": "不適切にもほどがある!",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B!"
+      },
+      {
+        "label": "地面師たち",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E9%9D%A2%E5%B8%AB%E3%81%9F%E3%81%A1"
+      },
+      {
+        "label": "虎に翼",
+        "startYear": "2024",
+        "endYear": "2024",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%99%8E%E3%81%AB%E7%BF%BC"
+      },
+      {
+        "label": "ウィキッド ふたりの魔女",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%83%E3%83%89%20%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E9%AD%94%E5%A5%B3"
+      },
+      {
+        "label": "デューン 砂の惑星 PART2",
+        "startYear": "2024",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A5%E3%83%BC%E3%83%B3%20%E7%A0%82%E3%81%AE%E6%83%91%E6%98%9F%20PART2"
+      },
+      {
+        "label": "ロボット・ドリームズ",
+        "startYear": "2024",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%83%BB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%BA"
+      },
+      {
+        "label": "侍タイムスリッパー",
+        "startYear": "2024",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BE%8D%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC"
+      },
+      {
+        "label": "Apple Vision Pro",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Vision%20Pro"
+      },
+      {
+        "label": "Rabbit r1",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Rabbit%20r1"
+      },
+      {
+        "label": "Apple Intelligence",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Intelligence"
+      },
+      {
+        "label": "Sora",
+        "startYear": "2024",
+        "endYear": "ongoing",
+        "genre": [
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Sora"
       }
     ],
     "2025": [
@@ -14523,6 +17835,95 @@
         "url_en": "https://en.wikipedia.org/wiki/Expo_2025",
         "note": "「いのち輝く未来社会のデザイン」を掲げる万博。",
         "note_en": "World Expo themed “Designing Future Society for Our Lives.”"
+      },
+      {
+        "label": "SAKAMOTO DAYS",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SAKAMOTO%20DAYS"
+      },
+      {
+        "label": "メダリスト",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88"
+      },
+      {
+        "label": "機動戦士Gundam GQuuuuuuX",
+        "startYear": "2025",
+        "endYear": "2025",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%ABGundam%20GQuuuuuuX"
+      },
+      {
+        "label": "DELTARUNE",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/DELTARUNE"
+      },
+      {
+        "label": "モンスターハンターワイルズ",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "GAM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AF%E3%82%A4%E3%83%AB%E3%82%BA"
+      },
+      {
+        "label": "べらぼう〜蔦重栄華乃夢噺〜",
+        "startYear": "2025",
+        "endYear": "2025",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%82%89%E3%81%BC%E3%81%86%E3%80%9C%E8%94%A6%E9%87%8D%E6%A0%84%E8%8F%AF%E4%B9%83%E5%A4%A2%E5%99%BA%E3%80%9C"
+      },
+      {
+        "label": "アドレセンス",
+        "startYear": "2025",
+        "endYear": "2025",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AC%E3%82%BB%E3%83%B3%E3%82%B9"
+      },
+      {
+        "label": "マインクラフト/ザ・ムービー",
+        "startYear": "2025",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%2F%E3%82%B6%E3%83%BB%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC"
+      },
+      {
+        "label": "Nintendo Switch 2",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch%202"
       }
     ]
   },
