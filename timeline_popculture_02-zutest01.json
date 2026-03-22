@@ -17478,8 +17478,8 @@
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Character.AI",
-        "note": "https://en.wikipedia.org/wiki/Character.AI"
+        "note": "https://en.wikipedia.org/wiki/Character.AI",
+        "url_en": "https://en.wikipedia.org/wiki/Character.ai"
       },
       {
         "label": "Stable Diffusion",
