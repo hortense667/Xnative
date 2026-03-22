@@ -11455,6 +11455,15 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Logic%20Pro"
+      },
+      {
+        "label": "ニンテンドーDS",
+        "startYear": "2004",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS"
       }
     ],
     "2005": [
@@ -12119,6 +12128,15 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Google%20%E7%BF%BB%E8%A8%B3"
+      },
+      {
+        "label": "Wii",
+        "startYear": "2006",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Wii"
       }
     ],
     "2007": [
@@ -13169,6 +13187,16 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Instagram"
+      },
+      {
+        "label": "iPad",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iPad"
       }
     ],
     "2011": [
@@ -17478,8 +17506,8 @@
           "SOF"
         ],
         "imp": 4,
-        "note": "https://en.wikipedia.org/wiki/Character.AI",
-        "url_en": "https://en.wikipedia.org/wiki/Character.ai"
+        "url": "https://ja.wikipedia.org/wiki/Character.AI",
+        "note": "https://en.wikipedia.org/wiki/Character.AI"
       },
       {
         "label": "Stable Diffusion",
@@ -17491,6 +17519,16 @@
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
         "note": "https://en.wikipedia.org/wiki/Stable_Diffusion"
+      },
+      {
+        "label": "ChatGPT",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
       }
     ],
     "2023": [
@@ -18310,7 +18348,8 @@
           "SOF"
         ],
         "imp": 4,
-        "url_en": "https://en.wikipedia.org/wiki/Manus_(AI)"
+        "url": "https://ja.wikipedia.org/wiki/Manus_(AI)",
+        "note": "https://en.wikipedia.org/wiki/Manus_(AI)"
       },
       {
         "label": "Operator",
