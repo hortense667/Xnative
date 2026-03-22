@@ -12101,15 +12101,6 @@
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB"
       },
       {
-        "label": "Wii",
-        "startYear": "2006",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Wii"
-      },
-      {
         "label": "1Password",
         "startYear": "2006",
         "endYear": "ongoing",
