@@ -18308,6 +18308,7 @@
       },
       {
         "label": "エンバーズ",
+        "label_en": "Embers",
         "startYear": "2025",
         "endYear": "2025",
         "genre": [
@@ -18320,6 +18321,7 @@
       },
       {
         "label": "Bの星線",
+        "label_en": "B no Seisen",
         "startYear": "2025",
         "endYear": "2025",
         "genre": [
@@ -18332,6 +18334,7 @@
       },
       {
         "label": "ハルカゼマウンド",
+        "label_en": "Harukaze Mound",
         "startYear": "2025",
         "endYear": "2026",
         "genre": [
@@ -18344,6 +18347,7 @@
       },
       {
         "label": "BanG Dream! Ave Mujica -manuscriptus-",
+        "label_en": "BanG Dream! Ave Mujica -manuscriptus-",
         "startYear": "2025",
         "endYear": "ongoing",
         "genre": [
@@ -18357,6 +18361,7 @@
       },
       {
         "label": "DeepSeek",
+        "label_en": "DeepSeek",
         "startYear": "2025",
         "genre": [
           "NET",
@@ -18370,6 +18375,7 @@
       },
       {
         "label": "Manus",
+        "label_en": "Manus",
         "startYear": "2025",
         "genre": [
           "NET",
@@ -18383,6 +18389,7 @@
       },
       {
         "label": "Operator",
+        "label_en": "Operator",
         "startYear": "2025",
         "genre": [
           "NET",
