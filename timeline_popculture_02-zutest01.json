@@ -18207,7 +18207,9 @@
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/SAKAMOTO%20DAYS"
+        "url": "https://ja.wikipedia.org/wiki/SAKAMOTO%20DAYS",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "メダリスト",
@@ -18217,7 +18219,9 @@
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "機動戦士Gundam GQuuuuuuX",
@@ -18227,7 +18231,9 @@
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%ABGundam%20GQuuuuuuX"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%ABGundam%20GQuuuuuuX",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "DELTARUNE",
@@ -18237,7 +18243,9 @@
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/DELTARUNE"
+        "url": "https://ja.wikipedia.org/wiki/DELTARUNE",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "モンスターハンターワイルズ",
@@ -18247,7 +18255,9 @@
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AF%E3%82%A4%E3%83%AB%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AF%E3%82%A4%E3%83%AB%E3%82%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "べらぼう〜蔦重栄華乃夢噺〜",
@@ -18257,7 +18267,9 @@
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%82%89%E3%81%BC%E3%81%86%E3%80%9C%E8%94%A6%E9%87%8D%E6%A0%84%E8%8F%AF%E4%B9%83%E5%A4%A2%E5%99%BA%E3%80%9C"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%82%89%E3%81%BC%E3%81%86%E3%80%9C%E8%94%A6%E9%87%8D%E6%A0%84%E8%8F%AF%E4%B9%83%E5%A4%A2%E5%99%BA%E3%80%9C",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "アドレセンス",
@@ -18267,7 +18279,9 @@
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AC%E3%82%BB%E3%83%B3%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AC%E3%82%BB%E3%83%B3%E3%82%B9",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "マインクラフト/ザ・ムービー",
@@ -18276,7 +18290,9 @@
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%2F%E3%82%B6%E3%83%BB%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%2F%E3%82%B6%E3%83%BB%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Nintendo Switch 2",
@@ -18286,7 +18302,9 @@
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch%202"
+        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch%202",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "エンバーズ",
@@ -18296,7 +18314,9 @@
           "MAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/エンバーズ"
+        "url": "https://ja.wikipedia.org/wiki/エンバーズ",
+        "note": "短期連載のサッカーマンガ",
+        "note_en": "Short-run soccer manga from Weekly Shonen Jump"
       },
       {
         "label": "Bの星線",
@@ -18306,7 +18326,9 @@
           "MAN"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Bの星線"
+        "url": "https://ja.wikipedia.org/wiki/Bの星線",
+        "note": "転生と音楽を組み合わせた意欲作",
+        "note_en": "Ambitious manga blending reincarnation and music"
       },
       {
         "label": "ハルカゼマウンド",
@@ -18316,7 +18338,9 @@
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ハルカゼマウンド"
+        "url": "https://ja.wikipedia.org/wiki/ハルカゼマウンド",
+        "note": "高校野球を正面から描く連載",
+        "note_en": "High-school baseball manga launched in 2025"
       },
       {
         "label": "BanG Dream! Ave Mujica -manuscriptus-",
@@ -18327,7 +18351,9 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/BanG_Dream!_Ave_Mujica",
-        "note": "https://en.wikipedia.org/wiki/BanG_Dream!_Ave_Mujica"
+        "url_en": "https://en.wikipedia.org/wiki/BanG_Dream!_Ave_Mujica",
+        "note": "人気バンド企画のコミカライズ",
+        "note_en": "Manga adaptation from the popular band franchise"
       },
       {
         "label": "DeepSeek",
@@ -18338,7 +18364,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DeepSeek",
-        "note": "https://en.wikipedia.org/wiki/DeepSeek"
+        "url_en": "https://en.wikipedia.org/wiki/DeepSeek",
+        "note": "低コスト高性能で注目されたAI",
+        "note_en": "AI service noted for strong performance at lower cost"
       },
       {
         "label": "Manus",
@@ -18349,7 +18377,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Manus_(AI)",
-        "note": "https://en.wikipedia.org/wiki/Manus_(AI)"
+        "url_en": "https://en.wikipedia.org/wiki/Manus_(AI)",
+        "note": "自律型AIエージェントとして話題",
+        "note_en": "AI agent service that drew attention in 2025"
       },
       {
         "label": "Operator",
@@ -18360,7 +18390,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Operator_(OpenAI)",
-        "note": "https://en.wikipedia.org/wiki/Operator_(OpenAI)"
+        "url_en": "https://en.wikipedia.org/wiki/Operator_(OpenAI)",
+        "note": "ブラウザ操作型AIの象徴例",
+        "note_en": "Representative browser-operating AI agent"
       }
     ]
   },
