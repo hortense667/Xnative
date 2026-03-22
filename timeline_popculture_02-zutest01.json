@@ -7168,9 +7168,9 @@
       },
       {
         "label": "きみはペット",
-        "label_en": "きみはペット",
-        "startYear": "2000",
-        "endYear": "2005",
+        "label_en": "Tramps Like Us",
+        "startYear": 2000,
+        "endYear": 2005,
         "genre": [
           "MAN"
         ],
@@ -7181,9 +7181,8 @@
       },
       {
         "label": "相棒",
-        "label_en": "相棒",
-        "startYear": "2000",
-        "endYear": "ongoing",
+        "label_en": "AIBOU: Tokyo Detective Duo",
+        "startYear": 2000,
         "genre": [
           "TVP"
         ],
@@ -7484,7 +7483,7 @@
       },
       {
         "label": "ロード・オブ・ザ・リング",
-        "label_en": "ロード・オブ・ザ・リング",
+        "label_en": "The Lord of the Rings (film series)",
         "startYear": 2001,
         "endYear": 2003,
         "genre": [
@@ -7622,8 +7621,8 @@
       },
       {
         "label": "逆転裁判",
-        "label_en": "逆転裁判",
-        "startYear": "2001",
+        "label_en": "Ace Attorney",
+        "startYear": 2001,
         "genre": [
           "GAM"
         ],
@@ -7634,9 +7633,8 @@
       },
       {
         "label": "M-1グランプリ",
-        "label_en": "M-1グランプリ",
-        "startYear": "2001",
-        "endYear": "ongoing",
+        "label_en": "M-1 Grand Prix",
+        "startYear": 2001,
         "genre": [
           "TVP"
         ],
@@ -7647,9 +7645,9 @@
       },
       {
         "label": "ちゅらさん",
-        "label_en": "ちゅらさん",
-        "startYear": "2001",
-        "endYear": "2001",
+        "label_en": "Churasan",
+        "startYear": 2001,
+        "endYear": 2001,
         "genre": [
           "TVP"
         ],
@@ -7660,7 +7658,7 @@
       },
       {
         "label": "ハリー・ポッターと賢者の石",
-        "label_en": "ハリー・ポッターと賢者の石",
+        "label_en": "Harry Potter and the Philosopher's Stone (film)",
         "startYear": 2001,
         "genre": [
           "MOV"
@@ -7672,7 +7670,7 @@
       },
       {
         "label": "千と千尋の神隠し",
-        "label_en": "千と千尋の神隠し",
+        "label_en": "Spirited Away",
         "startYear": 2001,
         "genre": [
           "MOV"
@@ -8141,7 +8139,7 @@
       },
       {
         "label": "岳",
-        "label_en": "岳",
+        "label_en": "Gaku: Minna no Yama",
         "startYear": 2003,
         "endYear": 2012,
         "genre": [
@@ -8155,8 +8153,8 @@
       },
       {
         "label": "ロスト・イン・トランスレーション",
-        "label_en": "ロスト・イン・トランスレーション",
-        "startYear": "2003",
+        "label_en": "Lost in Translation (film)",
+        "startYear": 2003,
         "genre": [
           "MOV"
         ],
@@ -8180,7 +8178,7 @@
       },
       {
         "label": "キヤノンEOS Kiss Digital",
-        "label_en": "キヤノンEOS Kiss Digital",
+        "label_en": "Canon EOS 300D",
         "startYear": 2003,
         "genre": [
           "HAR"
@@ -8539,10 +8537,9 @@
         "note_en": "Sony’s multimedia handheld console."
       },
       {
-        "label": "逃走中",
-        "label_en": "逃走中",
-        "startYear": "2004",
-        "endYear": "ongoing",
+        "label": "run for money 逃走中",
+        "label_en": "run for money",
+        "startYear": 2004,
         "genre": [
           "TVP"
         ],
@@ -8553,8 +8550,8 @@
       },
       {
         "label": "エターナル・サンシャイン",
-        "label_en": "エターナル・サンシャイン",
-        "startYear": "2004",
+        "label_en": "Eternal Sunshine of the Spotless Mind",
+        "startYear": 2004,
         "genre": [
           "MOV"
         ],
@@ -8565,8 +8562,8 @@
       },
       {
         "label": "誰も知らない",
-        "label_en": "誰も知らない",
-        "startYear": "2004",
+        "label_en": "Nobody Knows (2004 film)",
+        "startYear": 2004,
         "genre": [
           "MOV"
         ],
@@ -8616,8 +8613,8 @@
       },
       {
         "label": "ニンテンドーDS",
-        "label_en": "ニンテンドーDS",
-        "startYear": "2004",
+        "label_en": "Nintendo DS",
+        "startYear": 2004,
         "genre": [
           "HAR"
         ],
@@ -8772,9 +8769,9 @@
       },
       {
         "label": "へうげもの",
-        "label_en": "へうげもの",
-        "startYear": "2005",
-        "endYear": "2017",
+        "label_en": "Hyouge Mono",
+        "startYear": 2005,
+        "endYear": 2017,
         "genre": [
           "MAN"
         ],
@@ -8785,9 +8782,8 @@
       },
       {
         "label": "君に届け",
-        "label_en": "君に届け",
-        "startYear": "2005",
-        "endYear": "ongoing",
+        "label_en": "Kimi ni Todoke",
+        "startYear": 2005,
         "genre": [
           "MAN"
         ],
@@ -8810,8 +8806,8 @@
       },
       {
         "label": "脳を鍛える大人のDSトレーニング",
-        "label_en": "脳を鍛える大人のDSトレーニング",
-        "startYear": "2005",
+        "label_en": "Brain Age: Train Your Brain in Minutes a Day!",
+        "startYear": 2005,
         "genre": [
           "GAM"
         ],
@@ -8822,9 +8818,8 @@
       },
       {
         "label": "龍が如く",
-        "label_en": "龍が如く",
-        "startYear": "2005",
-        "endYear": "ongoing",
+        "label_en": "Yakuza (video game)",
+        "startYear": 2005,
         "genre": [
           "GAM"
         ],
@@ -8835,8 +8830,8 @@
       },
       {
         "label": "リンダ リンダ リンダ",
-        "label_en": "リンダ リンダ リンダ",
-        "startYear": "2005",
+        "label_en": "Linda Linda Linda",
+        "startYear": 2005,
         "genre": [
           "MOV"
         ],
@@ -8860,9 +8855,8 @@
       },
       {
         "label": "食べログ",
-        "label_en": "食べログ",
-        "startYear": "2005",
-        "endYear": "ongoing",
+        "label_en": "Tabelog",
+        "startYear": 2005,
         "genre": [
           "NET"
         ],
@@ -8911,9 +8905,8 @@
       },
       {
         "label": "Google マップ",
-        "label_en": "Google マップ",
-        "startYear": "2005",
-        "endYear": "ongoing",
+        "label_en": "Google Map",
+        "startYear": 2005,
         "genre": [
           "SOF"
         ],
@@ -9146,9 +9139,9 @@
       },
       {
         "label": "海街diary",
-        "label_en": "海街diary",
-        "startYear": "2006",
-        "endYear": "2018",
+        "label_en": "Umimachi Diary",
+        "startYear": 2006,
+        "endYear": 2018,
         "genre": [
           "MAN"
         ],
@@ -9159,9 +9152,8 @@
       },
       {
         "label": "聖☆おにいさん",
-        "label_en": "聖☆おにいさん",
-        "startYear": "2006",
-        "endYear": "ongoing",
+        "label_en": "Saint Young Men",
+        "startYear": 2006,
         "genre": [
           "MAN"
         ],
@@ -9197,7 +9189,7 @@
       },
       {
         "label": "大神",
-        "label_en": "大神",
+        "label_en": "Ōkami",
         "startYear": 2006,
         "genre": [
           "GAM"
@@ -9209,7 +9201,7 @@
       },
       {
         "label": "デスノート",
-        "label_en": "デスノート",
+        "label_en": "Death Note (2006 film)",
         "startYear": 2006,
         "endYear": 2006,
         "genre": [
@@ -9234,9 +9226,8 @@
       },
       {
         "label": "ニコニコ動画",
-        "label_en": "ニコニコ動画",
-        "startYear": "2006",
-        "endYear": "ongoing",
+        "label_en": "Niconico",
+        "startYear": 2006,
         "genre": [
           "NET"
         ],
@@ -9260,9 +9251,8 @@
       },
       {
         "label": "Google 翻訳",
-        "label_en": "Google 翻訳",
-        "startYear": "2006",
-        "endYear": "ongoing",
+        "label_en": "Google Translate",
+        "startYear": 2006,
         "genre": [
           "SOF"
         ],
@@ -9488,9 +9478,8 @@
       },
       {
         "label": "3月のライオン",
-        "label_en": "3月のライオン",
-        "startYear": "2007",
-        "endYear": "ongoing",
+        "label_en": "March Comes In like a Lion",
+        "startYear": 2007,
         "genre": [
           "MAN"
         ],
@@ -9501,9 +9490,8 @@
       },
       {
         "label": "きのう何食べた?",
-        "label_en": "きのう何食べた?",
-        "startYear": "2007",
-        "endYear": "ongoing",
+        "label_en": "What Did You Eat Yesterday?",
+        "startYear": 2007,
         "genre": [
           "MAN"
         ],
@@ -9514,9 +9502,9 @@
       },
       {
         "label": "ちはやふる",
-        "label_en": "ちはやふる",
-        "startYear": "2007",
-        "endYear": "2022",
+        "label_en": "Chihayafuru",
+        "startYear": 2007,
+        "endYear": 2022,
         "genre": [
           "MAN"
         ],
@@ -9527,9 +9515,9 @@
       },
       {
         "label": "坂道のアポロン",
-        "label_en": "坂道のアポロン",
-        "startYear": "2007",
-        "endYear": "2012",
+        "label_en": "Kids on the Slope",
+        "startYear": 2007,
+        "endYear": 2012,
         "genre": [
           "MAN"
         ],
@@ -9540,9 +9528,9 @@
       },
       {
         "label": "機動戦士ガンダム00",
-        "label_en": "機動戦士ガンダム00",
-        "startYear": "2007",
-        "endYear": "2009",
+        "label_en": "Mobile Suit Gundam 00",
+        "startYear": 2007,
+        "endYear": 2009,
         "genre": [
           "ANI"
         ],
@@ -9553,9 +9541,9 @@
       },
       {
         "label": "精霊の守り人",
-        "label_en": "精霊の守り人",
-        "startYear": "2007",
-        "endYear": "2007",
+        "label_en": "Moribito series",
+        "startYear": 2007,
+        "endYear": 2007,
         "genre": [
           "ANI"
         ],
@@ -9566,9 +9554,9 @@
       },
       {
         "label": "電脳コイル",
-        "label_en": "電脳コイル",
-        "startYear": "2007",
-        "endYear": "2007",
+        "label_en": "Den-noh Coil",
+        "startYear": 2007,
+        "endYear": 2007,
         "genre": [
           "ANI"
         ],
@@ -9579,7 +9567,7 @@
       },
       {
         "label": "Portal",
-        "label_en": "Portal",
+        "label_en": "Portal (video game)",
         "startYear": 2007,
         "genre": [
           "GAM"
@@ -9591,8 +9579,8 @@
       },
       {
         "label": "レイトン教授と不思議な町",
-        "label_en": "レイトン教授と不思議な町",
-        "startYear": "2007",
+        "label_en": "Professor Layton and the Curious Village",
+        "startYear": 2007,
         "genre": [
           "GAM"
         ],
@@ -9603,9 +9591,8 @@
       },
       {
         "label": "世界の果てまでイッテQ!",
-        "label_en": "世界の果てまでイッテQ!",
-        "startYear": "2007",
-        "endYear": "ongoing",
+        "label_en": "Let's Challenge at the Ends of the Earth!",
+        "startYear": 2007,
         "genre": [
           "TVP"
         ],
@@ -9655,7 +9642,7 @@
       },
       {
         "label": "Dropbox (ソフトウェア)",
-        "label_en": "Dropbox (ソフトウェア)",
+        "label_en": "Dropbox",
         "startYear": 2007,
         "genre": [
           "SOF"
@@ -9869,8 +9856,8 @@
       },
       {
         "label": "ダークナイト",
-        "label_en": "ダークナイト",
-        "startYear": "2008",
+        "label_en": "The Dark Knight",
+        "startYear": 2008,
         "genre": [
           "MOV"
         ],
@@ -9881,9 +9868,9 @@
       },
       {
         "label": "テルマエ・ロマエ",
-        "label_en": "テルマエ・ロマエ",
-        "startYear": "2008",
-        "endYear": "2013",
+        "label_en": "Thermae Romae",
+        "startYear": 2008,
+        "endYear": 2013,
         "genre": [
           "MAN"
         ],
@@ -9894,8 +9881,8 @@
       },
       {
         "label": "ペルソナ4",
-        "label_en": "ペルソナ4",
-        "startYear": "2008",
+        "label_en": "Persona 4",
+        "startYear": 2008,
         "genre": [
           "GAM"
         ],
@@ -9958,9 +9945,8 @@
       },
       {
         "label": "ニコニコ生放送",
-        "label_en": "ニコニコ生放送",
-        "startYear": "2008",
-        "endYear": "ongoing",
+        "label_en": "NicoNico Live Broadcast",
+        "startYear": 2008,
         "genre": [
           "NET"
         ],
@@ -10132,7 +10118,7 @@
       },
       {
         "label": "アバター",
-        "label_en": "アバター",
+        "label_en": "Avatar (2009 film)",
         "startYear": 2009,
         "genre": [
           "MOV"
@@ -10171,9 +10157,9 @@
       },
       {
         "label": "山賊ダイアリー",
-        "label_en": "山賊ダイアリー",
-        "startYear": "2009",
-        "endYear": "2016",
+        "label_en": "Sanzoku Diary",
+        "startYear": 2009,
+        "endYear": 2016,
         "genre": [
           "MAN"
         ],
@@ -10184,9 +10170,9 @@
       },
       {
         "label": "惡の華",
-        "label_en": "惡の華",
-        "startYear": "2009",
-        "endYear": "2014",
+        "label_en": "The Flowers of Evil (manga)",
+        "startYear": 2009,
+        "endYear": 2014,
         "genre": [
           "MAN"
         ],
@@ -10197,9 +10183,8 @@
       },
       {
         "label": "青の祓魔師",
-        "label_en": "青の祓魔師",
-        "startYear": "2009",
-        "endYear": "ongoing",
+        "label_en": "Blue Exorcist",
+        "startYear": 2009,
         "genre": [
           "MAN"
         ],
@@ -10210,9 +10195,9 @@
       },
       {
         "label": "東京マグニチュード8.0",
-        "label_en": "東京マグニチュード8.0",
-        "startYear": "2009",
-        "endYear": "2009",
+        "label_en": "Tokyo Magnitude 8.0",
+        "startYear": 2009,
+        "endYear": 2009,
         "genre": [
           "ANI"
         ],
@@ -10223,8 +10208,8 @@
       },
       {
         "label": "ドラゴンクエストIX 星空の守り人",
-        "label_en": "ドラゴンクエストIX 星空の守り人",
-        "startYear": "2009",
+        "label_en": "Dragon Quest IX",
+        "startYear": 2009,
         "genre": [
           "GAM"
         ],
@@ -10235,9 +10220,8 @@
       },
       {
         "label": "IPPONグランプリ",
-        "label_en": "IPPONグランプリ",
-        "startYear": "2009",
-        "endYear": "ongoing",
+        "label_en": "IPPON Grand Prix",
+        "startYear": 2009,
         "genre": [
           "TVP"
         ],
@@ -10320,8 +10304,8 @@
       },
       {
         "label": "インセプション",
-        "label_en": "インセプション",
-        "startYear": "2010",
+        "label_en": "Inception",
+        "startYear": 2010,
         "genre": [
           "MOV"
         ],
@@ -10346,9 +10330,9 @@
       },
       {
         "label": "RAINBOW-二舎六房の七人-",
-        "label_en": "RAINBOW-二舎六房の七人-",
-        "startYear": "2010",
-        "endYear": "2010",
+        "label_en": "Rainbow: Nisha Rokubō no Shichinin",
+        "startYear": 2010,
+        "endYear": 2010,
         "genre": [
           "ANI"
         ],
@@ -10359,9 +10343,8 @@
       },
       {
         "label": "ゼノブレイド",
-        "label_en": "ゼノブレイド",
-        "startYear": "2010",
-        "endYear": "ongoing",
+        "label_en": "Xenoblade Chronicles (video game)",
+        "startYear": 2010,
         "genre": [
           "GAM"
         ],
@@ -10372,9 +10355,8 @@
       },
       {
         "label": "ファイナルファンタジーXIV",
-        "label_en": "ファイナルファンタジーXIV",
-        "startYear": "2010",
-        "endYear": "ongoing",
+        "label_en": "Final Fantasy XIV (2010 video game)",
+        "startYear": 2010,
         "genre": [
           "GAM"
         ],
@@ -10631,9 +10613,9 @@
       },
       {
         "label": "アシガール",
-        "label_en": "アシガール",
-        "startYear": "2011",
-        "endYear": "2018",
+        "label_en": "Ashi-Girl",
+        "startYear": 2011,
+        "endYear": 2018,
         "genre": [
           "MAN"
         ],
@@ -10644,9 +10626,8 @@
       },
       {
         "label": "月刊少女野崎くん",
-        "label_en": "月刊少女野崎くん",
-        "startYear": "2011",
-        "endYear": "ongoing",
+        "label_en": "Monthly Girls' Nozaki-kun",
+        "startYear": 2011,
         "genre": [
           "MAN"
         ],
@@ -10670,9 +10651,9 @@
       },
       {
         "label": "花咲くいろは",
-        "label_en": "花咲くいろは",
-        "startYear": "2011",
-        "endYear": "2011",
+        "label_en": "Hanasaku Iroha",
+        "startYear": 2011,
+        "endYear": 2011,
         "genre": [
           "ANI"
         ],
@@ -10721,9 +10702,9 @@
       },
       {
         "label": "家政婦のミタ",
-        "label_en": "家政婦のミタ",
-        "startYear": "2011",
-        "endYear": "2011",
+        "label_en": "I'm Mita, Your Housekeeper.",
+        "startYear": 2011,
+        "endYear": 2011,
         "genre": [
           "TVP"
         ],
@@ -10734,7 +10715,7 @@
       },
       {
         "label": "ブラック・スワン",
-        "label_en": "ブラック・スワン",
+        "label_en": "Black Swan (film)",
         "startYear": 2011,
         "genre": [
           "MOV"
@@ -10771,9 +10752,8 @@
       },
       {
         "label": "はてなブログ",
-        "label_en": "はてなブログ",
-        "startYear": "2011",
-        "endYear": "ongoing",
+        "label_en": "Hatena Blog",
+        "startYear": 2011,
         "genre": [
           "NET"
         ],
@@ -10784,8 +10764,8 @@
       },
       {
         "label": "ニンテンドー3DS",
-        "label_en": "ニンテンドー3DS",
-        "startYear": "2011",
+        "label_en": "Nintendo 3DS",
+        "startYear": 2011,
         "genre": [
           "HAR"
         ],
@@ -11032,9 +11012,9 @@
       },
       {
         "label": "かくかくしかじか",
-        "label_en": "かくかくしかじか",
-        "startYear": "2012",
-        "endYear": "2015",
+        "label_en": "Blank Canvas: My So-Called Artist's Journey",
+        "startYear": 2012,
+        "endYear": 2015,
         "genre": [
           "MAN"
         ],
@@ -11045,9 +11025,8 @@
       },
       {
         "label": "かげきしょうじょ!!",
-        "label_en": "かげきしょうじょ!!",
-        "startYear": "2012",
-        "endYear": "ongoing",
+        "label_en": "Kageki Shojo!!",
+        "startYear": 2012,
         "genre": [
           "MAN"
         ],
@@ -11058,9 +11037,8 @@
       },
       {
         "label": "メイドインアビス",
-        "label_en": "メイドインアビス",
-        "startYear": "2012",
-        "endYear": "ongoing",
+        "label_en": "Made in Abyss",
+        "startYear": 2012,
         "genre": [
           "MAN"
         ],
@@ -11071,9 +11049,8 @@
       },
       {
         "label": "宝石の国",
-        "label_en": "宝石の国",
-        "startYear": "2012",
-        "endYear": "ongoing",
+        "label_en": "Land of the Lustrous",
+        "startYear": 2012,
         "genre": [
           "MAN"
         ],
@@ -11084,9 +11061,9 @@
       },
       {
         "label": "暗殺教室",
-        "label_en": "暗殺教室",
-        "startYear": "2012",
-        "endYear": "2016",
+        "label_en": "Assassination Classroom",
+        "startYear": 2012,
+        "endYear": 2016,
         "genre": [
           "MAN"
         ],
@@ -11097,9 +11074,9 @@
       },
       {
         "label": "アイカツ!",
-        "label_en": "アイカツ!",
-        "startYear": "2012",
-        "endYear": "2016",
+        "label_en": "Aikatsu!",
+        "startYear": 2012,
+        "endYear": 2016,
         "genre": [
           "ANI"
         ],
@@ -11110,7 +11087,7 @@
       },
       {
         "label": "新世界より",
-        "label_en": "新世界より",
+        "label_en": "From the New World (novel)",
         "startYear": 2012,
         "endYear": 2013,
         "genre": [
@@ -11123,9 +11100,8 @@
       },
       {
         "label": "パズル&ドラゴンズ",
-        "label_en": "パズル&ドラゴンズ",
-        "startYear": "2012",
-        "endYear": "ongoing",
+        "label_en": "Puzzle & Dragons",
+        "startYear": 2012,
         "genre": [
           "GAM"
         ],
@@ -11136,9 +11112,9 @@
       },
       {
         "label": "リーガル・ハイ",
-        "label_en": "リーガル・ハイ",
-        "startYear": "2012",
-        "endYear": "2013",
+        "label_en": "Legal High (Japanese TV series)",
+        "startYear": 2012,
+        "endYear": 2013,
         "genre": [
           "TVP"
         ],
@@ -11149,9 +11125,8 @@
       },
       {
         "label": "孤独のグルメ",
-        "label_en": "孤独のグルメ",
-        "startYear": "2012",
-        "endYear": "ongoing",
+        "label_en": "The Solitary Gourmet",
+        "startYear": 2012,
         "genre": [
           "TVP"
         ],
@@ -11162,8 +11137,8 @@
       },
       {
         "label": "桐島、部活やめるってよ",
-        "label_en": "桐島、部活やめるってよ",
-        "startYear": "2012",
+        "label_en": "Kirishima is quitting the club.",
+        "startYear": 2012,
         "genre": [
           "MOV"
         ],
@@ -11377,7 +11352,7 @@
       },
       {
         "label": "ゼロ・グラビティ",
-        "label_en": "ゼロ・グラビティ",
+        "label_en": "Gravity (2013 film)",
         "startYear": 2013,
         "genre": [
           "MOV"
@@ -11469,9 +11444,8 @@
       },
       {
         "label": "ワールドトリガー",
-        "label_en": "ワールドトリガー",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "World Trigger",
+        "startYear": 2013,
         "genre": [
           "MAN"
         ],
@@ -11482,9 +11456,8 @@
       },
       {
         "label": "応天の門",
-        "label_en": "応天の門",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "Ōten no Mon",
+        "startYear": 2013,
         "genre": [
           "MAN"
         ],
@@ -11507,9 +11480,9 @@
       },
       {
         "label": "キルラキル",
-        "label_en": "キルラキル",
-        "startYear": "2013",
-        "endYear": "2014",
+        "label_en": "Kill la Kill",
+        "startYear": 2013,
+        "endYear": 2014,
         "genre": [
           "ANI"
         ],
@@ -11520,9 +11493,8 @@
       },
       {
         "label": "モンスターストライク",
-        "label_en": "モンスターストライク",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "Monster Strike",
+        "startYear": 2013,
         "genre": [
           "GAM"
         ],
@@ -11533,9 +11505,8 @@
       },
       {
         "label": "半沢直樹",
-        "label_en": "半沢直樹",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "Hanzawa Naoki",
+        "startYear": 2013,
         "genre": [
           "TVP"
         ],
@@ -11572,9 +11543,8 @@
       },
       {
         "label": "メルカリ",
-        "label_en": "メルカリ",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "mercari",
+        "startYear": 2013,
         "genre": [
           "NET"
         ],
@@ -11611,7 +11581,7 @@
       },
       {
         "label": "ソニー α7",
-        "label_en": "ソニー α7",
+        "label_en": "sony α7",
         "startYear": 2013,
         "genre": [
           "HAR"
@@ -11813,9 +11783,9 @@
       },
       {
         "label": "ザ・ファブル",
-        "label_en": "ザ・ファブル",
-        "startYear": "2014",
-        "endYear": "2019",
+        "label_en": "The Fable",
+        "startYear": 2014,
+        "endYear": 2019,
         "genre": [
           "MAN"
         ],
@@ -11826,9 +11796,9 @@
       },
       {
         "label": "ダンジョン飯",
-        "label_en": "ダンジョン飯",
-        "startYear": "2014",
-        "endYear": "2023",
+        "label_en": "Delicious in Dungeon",
+        "startYear": 2014,
+        "endYear": 2023,
         "genre": [
           "MAN"
         ],
@@ -11839,9 +11809,9 @@
       },
       {
         "label": "プリパラ",
-        "label_en": "プリパラ",
-        "startYear": "2014",
-        "endYear": "2017",
+        "label_en": "PriPara",
+        "startYear": 2014,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -11852,9 +11822,9 @@
       },
       {
         "label": "残響のテロル",
-        "label_en": "残響のテロル",
-        "startYear": "2014",
-        "endYear": "2014",
+        "label_en": "Terror in Resonance",
+        "startYear": 2014,
+        "endYear": 2014,
         "genre": [
           "ANI"
         ],
@@ -11878,9 +11848,8 @@
       },
       {
         "label": "家、ついて行ってイイですか?",
-        "label_en": "家、ついて行ってイイですか?",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "label_en": "Can I follow you to your house?",
+        "startYear": 2014,
         "genre": [
           "TVP"
         ],
@@ -11891,9 +11860,8 @@
       },
       {
         "label": "水曜日のダウンタウン",
-        "label_en": "水曜日のダウンタウン",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "label_en": "Wednesday's Downtown",
+        "startYear": 2014,
         "genre": [
           "TVP"
         ],
@@ -11904,9 +11872,8 @@
       },
       {
         "label": "アナと雪の女王",
-        "label_en": "アナと雪の女王",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "label_en": "Frozen (film)",
+        "startYear": 2014,
         "genre": [
           "MOV"
         ],
@@ -11917,7 +11884,7 @@
       },
       {
         "label": "インターステラー",
-        "label_en": "インターステラー",
+        "label_en": "Interstellar (film)",
         "startYear": 2014,
         "genre": [
           "MOV"
@@ -12015,8 +11982,8 @@
       },
       {
         "label": "マッドマックス 怒りのデス・ロード",
-        "label_en": "マッドマックス 怒りのデス・ロード",
-        "startYear": "2015",
+        "label_en": "Mad Max: Fury Road",
+        "startYear": 2015,
         "genre": [
           "MOV"
         ],
@@ -12041,9 +12008,8 @@
       },
       {
         "label": "アオアシ",
-        "label_en": "アオアシ",
-        "startYear": "2015",
-        "endYear": "ongoing",
+        "label_en": "Aoashi",
+        "startYear": 2015,
         "genre": [
           "MAN"
         ],
@@ -12054,9 +12020,8 @@
       },
       {
         "label": "響け!ユーフォニアム",
-        "label_en": "響け!ユーフォニアム",
-        "startYear": "2015",
-        "endYear": "ongoing",
+        "label_en": "Sound! Euphonium",
+        "startYear": 2015,
         "genre": [
           "ANI"
         ],
@@ -12093,9 +12058,8 @@
       },
       {
         "label": "スプラトゥーン",
-        "label_en": "スプラトゥーン",
-        "startYear": "2015",
-        "endYear": "ongoing",
+        "label_en": "Splatoon (video game)",
+        "startYear": 2015,
         "genre": [
           "GAM"
         ],
@@ -12106,9 +12070,8 @@
       },
       {
         "label": "ドラゴンクエストビルダーズ",
-        "label_en": "ドラゴンクエストビルダーズ",
-        "startYear": "2015",
-        "endYear": "ongoing",
+        "label_en": "Dragon Quest Builders",
+        "startYear": 2015,
         "genre": [
           "GAM"
         ],
@@ -12119,9 +12082,9 @@
       },
       {
         "label": "シッツ・クリーク",
-        "label_en": "シッツ・クリーク",
-        "startYear": "2015",
-        "endYear": "2020",
+        "label_en": "Schitt's Creek",
+        "startYear": 2015,
+        "endYear": 2020,
         "genre": [
           "TVP"
         ],
@@ -12363,8 +12326,8 @@
       },
       {
         "label": "ラ・ラ・ランド",
-        "label_en": "ラ・ラ・ランド",
-        "startYear": "2016",
+        "label_en": "La La Land",
+        "startYear": 2016,
         "genre": [
           "MOV"
         ],
@@ -12402,9 +12365,9 @@
       },
       {
         "label": "映像研には手を出すな!",
-        "label_en": "映像研には手を出すな!",
-        "startYear": "2016",
-        "endYear": "2021",
+        "label_en": "Keep Your Hands Off Eizouken!",
+        "startYear": 2016,
+        "endYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -12415,9 +12378,9 @@
       },
       {
         "label": "ユーリ!!! on ICE",
-        "label_en": "ユーリ!!! on ICE",
-        "startYear": "2016",
-        "endYear": "2016",
+        "label_en": "Yuri on Ice",
+        "startYear": 2016,
+        "endYear": 2016,
         "genre": [
           "ANI"
         ],
@@ -12428,9 +12391,9 @@
       },
       {
         "label": "昭和元禄落語心中",
-        "label_en": "昭和元禄落語心中",
-        "startYear": "2016",
-        "endYear": "2017",
+        "label_en": "Descending Stories: Showa Genroku Rakugo Shinju",
+        "startYear": 2016,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -12479,9 +12442,8 @@
       },
       {
         "label": "ペルソナ5",
-        "label_en": "ペルソナ5",
-        "startYear": "2016",
-        "endYear": "ongoing",
+        "label_en": "Persona 5",
+        "startYear": 2016,
         "genre": [
           "GAM"
         ],
@@ -12492,7 +12454,7 @@
       },
       {
         "label": "ザ・クラウン",
-        "label_en": "ザ・クラウン",
+        "label_en": "The Crown (TV series)",
         "startYear": 2016,
         "endYear": 2023,
         "genre": [
@@ -12505,9 +12467,8 @@
       },
       {
         "label": "ストレンジャー・シングス 未知の世界",
-        "label_en": "ストレンジャー・シングス 未知の世界",
-        "startYear": "2016",
-        "endYear": "ongoing",
+        "label_en": "Stranger Things",
+        "startYear": 2016,
         "genre": [
           "TVP"
         ],
@@ -12518,9 +12479,9 @@
       },
       {
         "label": "真田丸",
-        "label_en": "真田丸",
-        "startYear": "2016",
-        "endYear": "2016",
+        "label_en": "Sanada Maru",
+        "startYear": 2016,
+        "endYear": 2016,
         "genre": [
           "TVP"
         ],
@@ -12531,9 +12492,9 @@
       },
       {
         "label": "逃げるは恥だが役に立つ",
-        "label_en": "逃げるは恥だが役に立つ",
-        "startYear": "2016",
-        "endYear": "2016",
+        "label_en": "The Full-Time Wife Escapist",
+        "startYear": 2016,
+        "endYear": 2016,
         "genre": [
           "TVP"
         ],
@@ -12544,8 +12505,8 @@
       },
       {
         "label": "シン・ゴジラ",
-        "label_en": "シン・ゴジラ",
-        "startYear": "2016",
+        "label_en": "Shin Godzilla",
+        "startYear": 2016,
         "genre": [
           "MOV"
         ],
@@ -12556,8 +12517,8 @@
       },
       {
         "label": "君の名は。",
-        "label_en": "君の名は。",
-        "startYear": "2016",
+        "label_en": "Your Name",
+        "startYear": 2016,
         "genre": [
           "MOV"
         ],
@@ -12914,9 +12875,9 @@
       },
       {
         "label": "サマータイムレンダ",
-        "label_en": "サマータイムレンダ",
-        "startYear": "2017",
-        "endYear": "2021",
+        "label_en": "Summer Time Rendering",
+        "startYear": 2017,
+        "endYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -12927,9 +12888,9 @@
       },
       {
         "label": "ミギとダリ",
-        "label_en": "ミギとダリ",
-        "startYear": "2017",
-        "endYear": "2021",
+        "label_en": "Migi & Dali",
+        "startYear": 2017,
+        "endYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -12940,9 +12901,8 @@
       },
       {
         "label": "ミステリと言う勿れ",
-        "label_en": "ミステリと言う勿れ",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "label_en": "Don't Call It Mystery",
+        "startYear": 2017,
         "genre": [
           "MAN"
         ],
@@ -12953,9 +12913,8 @@
       },
       {
         "label": "薬屋のひとりごと",
-        "label_en": "薬屋のひとりごと",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "label_en": "The Apothecary Diaries",
+        "startYear": 2017,
         "genre": [
           "MAN"
         ],
@@ -12966,9 +12925,8 @@
       },
       {
         "label": "風都探偵",
-        "label_en": "風都探偵",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "label_en": "Fuuto PI",
+        "startYear": 2017,
         "genre": [
           "MAN"
         ],
@@ -12979,9 +12937,9 @@
       },
       {
         "label": "ACCA13区監察課",
-        "label_en": "ACCA13区監察課",
-        "startYear": "2017",
-        "endYear": "2017",
+        "label_en": "ACCA: 13-Territory Inspection Dept.",
+        "startYear": 2017,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -12992,9 +12950,9 @@
       },
       {
         "label": "ガヴリールドロップアウト",
-        "label_en": "ガヴリールドロップアウト",
-        "startYear": "2017",
-        "endYear": "2017",
+        "label_en": "Gabriel DropOut",
+        "startYear": 2017,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -13005,9 +12963,9 @@
       },
       {
         "label": "サクラクエスト",
-        "label_en": "サクラクエスト",
-        "startYear": "2017",
-        "endYear": "2017",
+        "label_en": "Sakura Quest",
+        "startYear": 2017,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -13018,9 +12976,9 @@
       },
       {
         "label": "リトルウィッチアカデミア",
-        "label_en": "リトルウィッチアカデミア",
-        "startYear": "2017",
-        "endYear": "2017",
+        "label_en": "Little Witch Academia",
+        "startYear": 2017,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -13031,9 +12989,9 @@
       },
       {
         "label": "夜は短し歩けよ乙女",
-        "label_en": "夜は短し歩けよ乙女",
-        "startYear": "2017",
-        "endYear": "2017",
+        "label_en": "The Night Is Short, Walk on Girl",
+        "startYear": 2017,
+        "endYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -13044,9 +13002,8 @@
       },
       {
         "label": "魔法使いの嫁",
-        "label_en": "魔法使いの嫁",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "label_en": "The Ancient Magus' Bride",
+        "startYear": 2017,
         "genre": [
           "ANI"
         ],
@@ -13057,8 +13014,8 @@
       },
       {
         "label": "スーパーマリオ オデッセイ",
-        "label_en": "スーパーマリオ オデッセイ",
-        "startYear": "2017",
+        "label_en": "Super Mario Odyssey",
+        "startYear": 2017,
         "genre": [
           "GAM"
         ],
@@ -13069,8 +13026,8 @@
       },
       {
         "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
-        "label_en": "ゼルダの伝説 ブレス オブ ザ ワイルド",
-        "startYear": "2017",
+        "label_en": "The Legend of Zelda: Breath of the Wild",
+        "startYear": 2017,
         "genre": [
           "GAM"
         ],
@@ -13081,8 +13038,8 @@
       },
       {
         "label": "カメラを止めるな!",
-        "label_en": "カメラを止めるな!",
-        "startYear": "2017",
+        "label_en": "One Cut of the Dead",
+        "startYear": 2017,
         "genre": [
           "MOV"
         ],
@@ -13093,9 +13050,8 @@
       },
       {
         "label": "5ちゃんねる",
-        "label_en": "5ちゃんねる",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "label_en": "5channel",
+        "startYear": 2017,
         "genre": [
           "NET"
         ],
@@ -13366,9 +13322,8 @@
       },
       {
         "label": "その着せ替え人形は恋をする",
-        "label_en": "その着せ替え人形は恋をする",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "My Dress-Up Darling",
+        "startYear": 2018,
         "genre": [
           "MAN"
         ],
@@ -13379,9 +13334,8 @@
       },
       {
         "label": "スキップとローファー",
-        "label_en": "スキップとローファー",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Skip and Loafer",
+        "startYear": 2018,
         "genre": [
           "MAN"
         ],
@@ -13392,9 +13346,8 @@
       },
       {
         "label": "極主夫道",
-        "label_en": "極主夫道",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "The Way of the Househusband",
+        "startYear": 2018,
         "genre": [
           "MAN"
         ],
@@ -13405,9 +13358,8 @@
       },
       {
         "label": "ゆるキャン△",
-        "label_en": "ゆるキャン△",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Laid-Back Camp",
+        "startYear": 2018,
         "genre": [
           "ANI"
         ],
@@ -13418,9 +13370,8 @@
       },
       {
         "label": "ウマ娘 プリティーダービー",
-        "label_en": "ウマ娘 プリティーダービー",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Umamusume: Pretty Derby",
+        "startYear": 2018,
         "genre": [
           "ANI"
         ],
@@ -13431,9 +13382,8 @@
       },
       {
         "label": "ツルネ -風舞高校弓道部-",
-        "label_en": "ツルネ -風舞高校弓道部-",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Tsurune",
+        "startYear": 2018,
         "genre": [
           "ANI"
         ],
@@ -13444,9 +13394,8 @@
       },
       {
         "label": "メガロボクス",
-        "label_en": "メガロボクス",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Megalobox",
+        "startYear": 2018,
         "genre": [
           "ANI"
         ],
@@ -13457,9 +13406,9 @@
       },
       {
         "label": "宇宙よりも遠い場所",
-        "label_en": "宇宙よりも遠い場所",
-        "startYear": "2018",
-        "endYear": "2018",
+        "label_en": "A Place Further than the Universe",
+        "startYear": 2018,
+        "endYear": 2018,
         "genre": [
           "ANI"
         ],
@@ -13508,9 +13457,8 @@
       },
       {
         "label": "雀魂",
-        "label_en": "雀魂",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Mahjong Soul",
+        "startYear": 2018,
         "genre": [
           "GAM"
         ],
@@ -13521,9 +13469,8 @@
       },
       {
         "label": "スパイダーマン:スパイダーバース",
-        "label_en": "スパイダーマン:スパイダーバース",
-        "startYear": "2018",
-        "endYear": "ongoing",
+        "label_en": "Spider-Man: Into the Spider-Verse",
+        "startYear": 2018,
         "genre": [
           "MOV"
         ],
@@ -13534,7 +13481,7 @@
       },
       {
         "label": "ブラックパンサー",
-        "label_en": "ブラックパンサー",
+        "label_en": "Black Panther (film)",
         "startYear": 2018,
         "genre": [
           "MOV"
@@ -13546,8 +13493,8 @@
       },
       {
         "label": "万引き家族",
-        "label_en": "万引き家族",
-        "startYear": "2018",
+        "label_en": "Shoplifters (film)",
+        "startYear": 2018,
         "genre": [
           "MOV"
         ],
@@ -13558,7 +13505,7 @@
       },
       {
         "label": "Google Nest Hub",
-        "label_en": "Google Nest Hub",
+        "label_en": "Google Nest (smart speakers)",
         "startYear": 2018,
         "genre": [
           "HAR"
@@ -13681,8 +13628,8 @@
       },
       {
         "label": "パラサイト 半地下の家族",
-        "label_en": "パラサイト 半地下の家族",
-        "startYear": "2019",
+        "label_en": "Parasite (2019 film)",
+        "startYear": 2019,
         "genre": [
           "MOV"
         ],
@@ -13707,7 +13654,7 @@
       },
       {
         "label": "乙女椿は笑わない",
-        "label_en": "乙女椿は笑わない",
+        "label_en": "The camellia does not laugh.",
         "startYear": 2019,
         "genre": [
           "MAN"
@@ -13732,9 +13679,9 @@
       },
       {
         "label": "約束のネバーランド",
-        "label_en": "約束のネバーランド",
-        "startYear": "2019",
-        "endYear": "2021",
+        "label_en": "The Promised Neverland",
+        "startYear": 2019,
+        "endYear": 2021,
         "genre": [
           "ANI"
         ],
@@ -13770,9 +13717,8 @@
       },
       {
         "label": "ドラゴンクエストウォーク",
-        "label_en": "ドラゴンクエストウォーク",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "label_en": "Dragon Quest Walk",
+        "startYear": 2019,
         "genre": [
           "GAM"
         ],
@@ -13783,8 +13729,8 @@
       },
       {
         "label": "リングフィット アドベンチャー",
-        "label_en": "リングフィット アドベンチャー",
-        "startYear": "2019",
+        "label_en": "Ring Fit Adventure",
+        "startYear": 2019,
         "genre": [
           "GAM"
         ],
@@ -13795,9 +13741,8 @@
       },
       {
         "label": "サ道",
-        "label_en": "サ道",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "label_en": "Sado",
+        "startYear": 2019,
         "genre": [
           "TVP"
         ],
@@ -13808,9 +13753,8 @@
       },
       {
         "label": "テレビ千鳥",
-        "label_en": "テレビ千鳥",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "label_en": "TV Chidori",
+        "startYear": 2019,
         "genre": [
           "TVP"
         ],
@@ -13821,7 +13765,7 @@
       },
       {
         "label": "ジョーカー",
-        "label_en": "ジョーカー",
+        "label_en": "Joker (2019 film)",
         "startYear": 2019,
         "genre": [
           "MOV"
@@ -13833,7 +13777,7 @@
       },
       {
         "label": "ミッドサマー",
-        "label_en": "ミッドサマー",
+        "label_en": "Midsommar",
         "startYear": 2019,
         "genre": [
           "MOV"
@@ -13959,9 +13903,8 @@
       },
       {
         "label": "原神",
-        "label_en": "原神",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Genshin Impact",
+        "startYear": 2020,
         "genre": [
           "GAM"
         ],
@@ -14001,9 +13944,9 @@
       },
       {
         "label": "【推しの子】",
-        "label_en": "【推しの子】",
-        "startYear": "2020",
-        "endYear": "2024",
+        "label_en": "Oshi no Ko",
+        "startYear": 2020,
+        "endYear": 2024,
         "genre": [
           "MAN"
         ],
@@ -14014,9 +13957,9 @@
       },
       {
         "label": "チ。-地球の運動について-",
-        "label_en": "チ。-地球の運動について-",
-        "startYear": "2020",
-        "endYear": "2022",
+        "label_en": "Orb: On the Movements of the Earth",
+        "startYear": 2020,
+        "endYear": 2022,
         "genre": [
           "MAN"
         ],
@@ -14027,7 +13970,7 @@
       },
       {
         "label": "メダリスト",
-        "label_en": "メダリスト",
+        "label_en": "Medalist (manga)",
         "startYear": 2020,
         "genre": [
           "MAN"
@@ -14039,9 +13982,8 @@
       },
       {
         "label": "女の園の星",
-        "label_en": "女の園の星",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Onna no Sono no Hoshi",
+        "startYear": 2020,
         "genre": [
           "MAN"
         ],
@@ -14052,9 +13994,8 @@
       },
       {
         "label": "葬送のフリーレン",
-        "label_en": "葬送のフリーレン",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Frieren",
+        "startYear": 2020,
         "genre": [
           "MAN"
         ],
@@ -14065,9 +14006,9 @@
       },
       {
         "label": "BNA ビー・エヌ・エー",
-        "label_en": "BNA ビー・エヌ・エー",
-        "startYear": "2020",
-        "endYear": "2020",
+        "label_en": "BNA: Brand New Animal",
+        "startYear": 2020,
+        "endYear": 2020,
         "genre": [
           "ANI"
         ],
@@ -14078,7 +14019,7 @@
       },
       {
         "label": "デカダンス",
-        "label_en": "デカダンス",
+        "label_en": "Deca-Dence",
         "startYear": 2020,
         "endYear": 2020,
         "genre": [
@@ -14091,9 +14032,9 @@
       },
       {
         "label": "ハイキュー!! TO THE TOP",
-        "label_en": "ハイキュー!! TO THE TOP",
-        "startYear": "2020",
-        "endYear": "2020",
+        "label_en": "Haikyu!!",
+        "startYear": 2020,
+        "endYear": 2020,
         "genre": [
           "ANI"
         ],
@@ -14141,9 +14082,8 @@
       },
       {
         "label": "あつまれ どうぶつの森",
-        "label_en": "あつまれ どうぶつの森",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Animal Crossing: New Horizons",
+        "startYear": 2020,
         "genre": [
           "GAM"
         ],
@@ -14167,9 +14107,8 @@
       },
       {
         "label": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-        "label_en": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Momotaro Dentetsu",
+        "startYear": 2020,
         "genre": [
           "GAM"
         ],
@@ -14193,9 +14132,8 @@
       },
       {
         "label": "有吉の壁",
-        "label_en": "有吉の壁",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "Ariyoshi's Wall",
+        "startYear": 2020,
         "genre": [
           "TVP"
         ],
@@ -14300,9 +14238,9 @@
       },
       {
         "label": "タコピーの原罪",
-        "label_en": "タコピーの原罪",
-        "startYear": "2021",
-        "endYear": "2022",
+        "label_en": "Takopi's Original Sin",
+        "startYear": 2021,
+        "endYear": 2022,
         "genre": [
           "MAN"
         ],
@@ -14313,9 +14251,8 @@
       },
       {
         "label": "ダンダダン",
-        "label_en": "ダンダダン",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Dandadan",
+        "startYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -14326,9 +14263,9 @@
       },
       {
         "label": "ルックバック",
-        "label_en": "ルックバック",
-        "startYear": "2021",
-        "endYear": "2021",
+        "label_en": "Look Back",
+        "startYear": 2021,
+        "endYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -14339,9 +14276,8 @@
       },
       {
         "label": "税金で買った本",
-        "label_en": "税金で買った本",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Zeikin de Katta Hon",
+        "startYear": 2021,
         "genre": [
           "MAN"
         ],
@@ -14352,7 +14288,7 @@
       },
       {
         "label": "86―エイティシックス―",
-        "label_en": "86―エイティシックス―",
+        "label_en": "86",
         "startYear": 2021,
         "endYear": 2022,
         "genre": [
@@ -14365,9 +14301,8 @@
       },
       {
         "label": "PUI PUI モルカー",
-        "label_en": "PUI PUI モルカー",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Pui Pui Molcar",
+        "startYear": 2021,
         "genre": [
           "ANI"
         ],
@@ -14404,9 +14339,9 @@
       },
       {
         "label": "ワンダーエッグ・プライオリティ",
-        "label_en": "ワンダーエッグ・プライオリティ",
-        "startYear": "2021",
-        "endYear": "2021",
+        "label_en": "Wonder Egg Priority",
+        "startYear": 2021,
+        "endYear": 2021,
         "genre": [
           "ANI"
         ],
@@ -14417,7 +14352,7 @@
       },
       {
         "label": "平家物語",
-        "label_en": "平家物語",
+        "label_en": "The Heike Story (anime)",
         "startYear": 2021,
         "endYear": 2022,
         "genre": [
@@ -14430,9 +14365,9 @@
       },
       {
         "label": "映画大好きポンポさん",
-        "label_en": "映画大好きポンポさん",
-        "startYear": "2021",
-        "endYear": "2021",
+        "label_en": "Pompo: The Cinéphile",
+        "startYear": 2021,
+        "endYear": 2021,
         "genre": [
           "ANI"
         ],
@@ -14455,7 +14390,7 @@
       },
       {
         "label": "ウマ娘 プリティーダービー",
-        "label_en": "ウマ娘 プリティーダービー",
+        "label_en": "Umamusume: Pretty Derby",
         "startYear": 2021,
         "genre": [
           "GAM"
@@ -14467,9 +14402,8 @@
       },
       {
         "label": "モンスターハンターライズ",
-        "label_en": "モンスターハンターライズ",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Monster Hunter Rise",
+        "startYear": 2021,
         "genre": [
           "GAM"
         ],
@@ -14480,9 +14414,8 @@
       },
       {
         "label": "イカゲーム",
-        "label_en": "イカゲーム",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Squid Game",
+        "startYear": 2021,
         "genre": [
           "TVP"
         ],
@@ -14493,8 +14426,8 @@
       },
       {
         "label": "すばらしき世界",
-        "label_en": "すばらしき世界",
-        "startYear": "2021",
+        "label_en": "Wonderful World",
+        "startYear": 2021,
         "genre": [
           "MOV"
         ],
@@ -14505,7 +14438,7 @@
       },
       {
         "label": "ドライブ・マイ・カー",
-        "label_en": "ドライブ・マイ・カー",
+        "label_en": "Drive My Car (film)",
         "startYear": 2021,
         "genre": [
           "MOV"
@@ -14517,8 +14450,8 @@
       },
       {
         "label": "花束みたいな恋をした",
-        "label_en": "花束みたいな恋をした",
-        "startYear": "2021",
+        "label_en": "I had a love like a bouquet.",
+        "startYear": 2021,
         "genre": [
           "MOV"
         ],
@@ -14741,8 +14674,8 @@
       },
       {
         "label": "トップガン マーヴェリック",
-        "label_en": "トップガン マーヴェリック",
-        "startYear": "2022",
+        "label_en": "Top Gun: Maverick",
+        "startYear": 2022,
         "genre": [
           "MOV"
         ],
@@ -14793,9 +14726,9 @@
       },
       {
         "label": "サイバーパンク エッジランナーズ",
-        "label_en": "サイバーパンク エッジランナーズ",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "Cyberpunk 2077",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
@@ -14806,9 +14739,9 @@
       },
       {
         "label": "サマータイムレンダ",
-        "label_en": "サマータイムレンダ",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "Summer Time Rendering",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
@@ -14819,9 +14752,9 @@
       },
       {
         "label": "パリピ孔明",
-        "label_en": "パリピ孔明",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "Ya Boy Kongming!",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
@@ -14832,9 +14765,8 @@
       },
       {
         "label": "ブルーロック",
-        "label_en": "ブルーロック",
-        "startYear": "2022",
-        "endYear": "ongoing",
+        "label_en": "Blue Lock",
+        "startYear": 2022,
         "genre": [
           "ANI"
         ],
@@ -14845,9 +14777,9 @@
       },
       {
         "label": "地球外少年少女",
-        "label_en": "地球外少年少女",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "The Orbital Children",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
@@ -14858,7 +14790,7 @@
       },
       {
         "label": "犬王",
-        "label_en": "犬王",
+        "label_en": "Inu-Oh",
         "startYear": 2022,
         "endYear": 2022,
         "genre": [
@@ -14884,9 +14816,8 @@
       },
       {
         "label": "スプラトゥーン3",
-        "label_en": "スプラトゥーン3",
-        "startYear": "2022",
-        "endYear": "ongoing",
+        "label_en": "Splatoon 3",
+        "startYear": 2022,
         "genre": [
           "GAM"
         ],
@@ -14917,13 +14848,14 @@
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%80%E6%A9%8B%E6%A1%90%E5%AD%90%E3%81%AE%E7%8A%AF%E7%BD%AA%E6%97%A5%E8%A8%98",
         "note": "ドラマ・バラエティ・配信作を含む代表番組。",
-        "note_en": "A representative TV or streaming program across formats."
+        "note_en": "A representative TV or streaming program across formats.",
+        "label_en": "The Crime Diary of Kiriko Hitotsubashi"
       },
       {
         "label": "鎌倉殿の13人",
-        "label_en": "鎌倉殿の13人",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "The 13 Lords of the Shogun",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "TVP"
         ],
@@ -15288,9 +15220,9 @@
       },
       {
         "label": "グリッドマン ユニバース",
-        "label_en": "グリッドマン ユニバース",
-        "startYear": "2023",
-        "endYear": "2023",
+        "label_en": "Gridman Universe",
+        "startYear": 2023,
+        "endYear": 2023,
         "genre": [
           "ANI"
         ],
@@ -15314,9 +15246,9 @@
       },
       {
         "label": "スキップとローファー",
-        "label_en": "スキップとローファー",
-        "startYear": "2023",
-        "endYear": "2023",
+        "label_en": "Skip and Loafer",
+        "startYear": 2023,
+        "endYear": 2023,
         "genre": [
           "ANI"
         ],
@@ -15327,7 +15259,7 @@
       },
       {
         "label": "ブルーピリオド",
-        "label_en": "ブルーピリオド",
+        "label_en": "Blue Period (manga)",
         "startYear": 2023,
         "endYear": 2023,
         "genre": [
@@ -15355,9 +15287,8 @@
       },
       {
         "label": "地獄楽",
-        "label_en": "地獄楽",
-        "startYear": "2023",
-        "endYear": "ongoing",
+        "label_en": "Hell's Paradise: Jigokuraku",
+        "startYear": 2023,
         "genre": [
           "ANI"
         ],
@@ -15368,9 +15299,9 @@
       },
       {
         "label": "天国大魔境",
-        "label_en": "天国大魔境",
-        "startYear": "2023",
-        "endYear": "2023",
+        "label_en": "Heavenly Delusion",
+        "startYear": 2023,
+        "endYear": 2023,
         "genre": [
           "ANI"
         ],
@@ -15381,8 +15312,8 @@
       },
       {
         "label": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
-        "label_en": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
-        "startYear": "2023",
+        "label_en": "The Legend of Zelda: Tears of the Kingdom",
+        "startYear": 2023,
         "genre": [
           "GAM"
         ],
@@ -15418,8 +15349,8 @@
       },
       {
         "label": "ゴジラ-1.0",
-        "label_en": "ゴジラ-1.0",
-        "startYear": "2023",
+        "label_en": "Godzilla Minus One",
+        "startYear": 2023,
         "genre": [
           "MOV"
         ],
