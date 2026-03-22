@@ -14850,13 +14850,16 @@
       },
       {
         "label": "Discord",
+        "label_en": "Discord",
         "startYear": "2015",
         "genre": [
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Discord",
-        "note": "https://en.wikipedia.org/wiki/Discord"
+        "url_en": "https://en.wikipedia.org/wiki/Discord",
+        "note": "通話とコミュニティを結ぶ定番基盤",
+        "note_en": "Voice-and-community platform that became a default hangout"
       },
       {
         "label": "Oculus Rift",
@@ -14890,23 +14893,29 @@
       },
       {
         "label": "Periscope",
+        "label_en": "Periscope",
         "startYear": "2015",
         "endYear": "2016",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Periscope"
+        "url": "https://ja.wikipedia.org/wiki/Periscope",
+        "note": "スマホ時代のライブ配信を象徴",
+        "note_en": "A symbol of smartphone-era live streaming"
       },
       {
         "label": "Let's Encrypt",
+        "label_en": "Let's Encrypt",
         "startYear": "2015",
         "genre": [
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Let%27s_Encrypt",
-        "note": "https://en.wikipedia.org/wiki/Let%27s_Encrypt"
+        "url_en": "https://en.wikipedia.org/wiki/Let%27s_Encrypt",
+        "note": "HTTPS普及を後押しした認証基盤",
+        "note_en": "Certificate authority that accelerated HTTPS adoption"
       }
     ],
     "2016": [
@@ -15270,13 +15279,16 @@
       },
       {
         "label": "TikTok",
+        "label_en": "TikTok",
         "startYear": "2016",
         "genre": [
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TikTok",
-        "note": "https://en.wikipedia.org/wiki/TikTok"
+        "url_en": "https://en.wikipedia.org/wiki/TikTok",
+        "note": "短尺動画文化を世界化したSNS",
+        "note_en": "Short-video platform that reshaped global internet culture"
       },
       {
         "label": "AirPods",
@@ -15350,16 +15362,20 @@
       },
       {
         "label": "Mastodon",
+        "label_en": "Mastodon",
         "startYear": "2016",
         "genre": [
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Mastodon_(ソフトウェア)",
-        "note": "https://en.wikipedia.org/wiki/Mastodon_(social_network)"
+        "url_en": "https://en.wikipedia.org/wiki/Mastodon_(social_network)",
+        "note": "分散型SNSの代表例",
+        "note_en": "Flagship decentralized social network"
       },
       {
         "label": "Pokémon GO",
+        "label_en": "Pokémon GO",
         "startYear": "2016",
         "genre": [
           "GAM",
@@ -15367,7 +15383,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Pokémon_GO",
-        "note": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO"
+        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
+        "note": "位置情報とSNS拡散で社会現象に",
+        "note_en": "AR mobile game that spread through networked play"
       }
     ],
     "2017": [
@@ -15709,13 +15727,16 @@
       },
       {
         "label": "Substack",
+        "label_en": "Substack",
         "startYear": "2017",
         "genre": [
           "NET"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Substack",
-        "note": "https://en.wikipedia.org/wiki/Substack"
+        "url_en": "https://en.wikipedia.org/wiki/Substack",
+        "note": "個人ニュースレター時代を加速",
+        "note_en": "Newsletter platform empowering independent publishing"
       },
       {
         "label": "M5Stack",
@@ -15749,6 +15770,7 @@
       },
       {
         "label": "VRChat",
+        "label_en": "VRChat",
         "startYear": "2017",
         "genre": [
           "NET",
@@ -15756,10 +15778,13 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/VRChat",
-        "note": "https://en.wikipedia.org/wiki/VRChat"
+        "url_en": "https://en.wikipedia.org/wiki/VRChat",
+        "note": "アバター交流を広げた仮想空間",
+        "note_en": "Virtual social space built around avatars and user worlds"
       },
       {
         "label": "PUBG: Battlegrounds",
+        "label_en": "PUBG: Battlegrounds",
         "startYear": "2017",
         "genre": [
           "GAM",
@@ -15767,7 +15792,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/PUBG:_BATTLEGROUNDS",
-        "note": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds"
+        "url_en": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds",
+        "note": "バトロワ普及の決定打",
+        "note_en": "Battle royale hit that mainstreamed the genre online"
       }
     ],
     "2018": [
@@ -16159,24 +16186,31 @@
       },
       {
         "label": "REALITY",
+        "label_en": "REALITY",
         "startYear": "2018",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/REALITY"
+        "url": "https://ja.wikipedia.org/wiki/REALITY",
+        "note": "スマホVTuber配信を広げた国産基盤",
+        "note_en": "Japanese platform that broadened smartphone VTuber streaming"
       },
       {
         "label": "pixivFANBOX",
+        "label_en": "pixivFANBOX",
         "startYear": "2018",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/PixivFANBOX"
+        "url": "https://ja.wikipedia.org/wiki/PixivFANBOX",
+        "note": "クリエイター支援型の定額プラットフォーム",
+        "note_en": "Subscription platform for supporting creators"
       },
       {
         "label": "Identity V",
+        "label_en": "Identity V",
         "startYear": "2018",
         "genre": [
           "GAM",
@@ -16184,7 +16218,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Identity_V",
-        "note": "https://en.wikipedia.org/wiki/Identity_V"
+        "url_en": "https://en.wikipedia.org/wiki/Identity_V",
+        "note": "非対称対戦の配信映えタイトル",
+        "note_en": "Asymmetric online game popular with streamers"
       }
     ],
     "2019": [
@@ -16441,16 +16477,20 @@
       },
       {
         "label": "Bluesky",
+        "label_en": "Bluesky",
         "startYear": "2019",
         "genre": [
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Bluesky",
-        "note": "https://en.wikipedia.org/wiki/Bluesky"
+        "url_en": "https://en.wikipedia.org/wiki/Bluesky",
+        "note": "分散SNSの有力新興サービス",
+        "note_en": "Prominent new decentralized social platform"
       },
       {
         "label": "Apple TV+",
+        "label_en": "Apple TV+",
         "startYear": "2019",
         "genre": [
           "NET",
@@ -16459,10 +16499,13 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Apple_TV%2B",
-        "note": "https://en.wikipedia.org/wiki/Apple_TV%2B"
+        "url_en": "https://en.wikipedia.org/wiki/Apple_TV%2B",
+        "note": "大手ITによる動画配信競争の一角",
+        "note_en": "Major tech-backed streaming service"
       },
       {
         "label": "Disney+",
+        "label_en": "Disney+",
         "startYear": "2019",
         "genre": [
           "NET",
@@ -16471,7 +16514,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Disney%2B",
-        "note": "https://en.wikipedia.org/wiki/Disney%2B"
+        "url_en": "https://en.wikipedia.org/wiki/Disney%2B",
+        "note": "IPの強さで伸びた定額配信",
+        "note_en": "Streaming service powered by major entertainment IP"
       }
     ],
     "2020": [
@@ -16733,23 +16778,29 @@
       },
       {
         "label": "BeReal",
+        "label_en": "BeReal",
         "startYear": "2020",
         "genre": [
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/BeReal",
-        "note": "https://en.wikipedia.org/wiki/BeReal"
+        "url_en": "https://en.wikipedia.org/wiki/BeReal",
+        "note": "盛らない共有を打ち出したSNS",
+        "note_en": "Social app built around unfiltered daily sharing"
       },
       {
         "label": "Clubhouse",
+        "label_en": "Clubhouse",
         "startYear": "2020",
         "genre": [
           "NET"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Clubhouse_(アプリ)",
-        "note": "https://en.wikipedia.org/wiki/Clubhouse_(app)"
+        "url_en": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
+        "note": "音声SNSブームを起こしたアプリ",
+        "note_en": "App that sparked the social-audio boom"
       },
       {
         "label": "AirTag",
@@ -16773,12 +16824,15 @@
       },
       {
         "label": "Twitter Spaces",
+        "label_en": "Twitter Spaces",
         "startYear": "2020",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Twitter#Spaces"
+        "url": "https://ja.wikipedia.org/wiki/Twitter#Spaces",
+        "note": "X前史の音声会話機能",
+        "note_en": "Live audio conversation feature added to Twitter"
       }
     ],
     "2021": [
@@ -17461,43 +17515,56 @@
       },
       {
         "label": "あかね噺",
+        "label_en": "Akane-banashi",
         "startYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/あかね噺",
-        "note": "https://en.wikipedia.org/wiki/Akane-banashi"
+        "url_en": "https://en.wikipedia.org/wiki/Akane-banashi",
+        "note": "落語を現代少年マンガとして刷新",
+        "note_en": "Modern rakugo manga with sharp character drama"
       },
       {
         "label": "スーパーの裏でヤニ吸うふたり",
+        "label_en": "Smoking Behind the Supermarket with You",
         "startYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/スーパーの裏でヤニ吸うふたり"
+        "url": "https://ja.wikipedia.org/wiki/スーパーの裏でヤニ吸うふたり",
+        "note": "仕事帰りの一服から始まる大人の関係",
+        "note_en": "Adult slice-of-life sparked by smoking behind a supermarket"
       },
       {
         "label": "平和の国の島崎へ",
+        "label_en": "Shimasaki in the Land of Peace",
         "startYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/平和の国の島崎へ"
+        "url": "https://ja.wikipedia.org/wiki/平和の国の島崎へ",
+        "note": "元少年兵の再出発を描く社会派",
+        "note_en": "A social drama about a former child soldier rebuilding life"
       },
       {
         "label": "さよなら絵梨",
+        "label_en": "Goodbye, Eri",
         "startYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/さよなら絵梨"
+        "url": "https://ja.wikipedia.org/wiki/さよなら絵梨",
+        "note": "映像感覚の強い読切マンガの話題作",
+        "note_en": "A buzzy one-shot manga with a strong cinematic feel"
       },
       {
         "label": "ChatGPT",
+        "label_en": "ChatGPT",
         "startYear": "2022",
         "genre": [
           "NET",
@@ -17505,10 +17572,13 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ChatGPT",
-        "note": "https://en.wikipedia.org/wiki/ChatGPT"
+        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
+        "note": "対話型生成AIを一般化",
+        "note_en": "Chatbot that brought generative AI to the mainstream"
       },
       {
         "label": "Character.AI",
+        "label_en": "Character.AI",
         "startYear": "2022",
         "genre": [
           "NET",
@@ -17516,10 +17586,13 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Character.AI",
-        "note": "https://en.wikipedia.org/wiki/Character.AI"
+        "url_en": "https://en.wikipedia.org/wiki/Character.AI",
+        "note": "人格チャットの代表格",
+        "note_en": "Leading platform for character-based chatbots"
       },
       {
         "label": "Stable Diffusion",
+        "label_en": "Stable Diffusion",
         "startYear": "2022",
         "genre": [
           "NET",
@@ -17527,7 +17600,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
-        "note": "https://en.wikipedia.org/wiki/Stable_Diffusion"
+        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "note": "画像生成を一気に民主化",
+        "note_en": "Image model that rapidly democratized AI art creation"
       },
       {
         "label": "ChatGPT",
@@ -17800,13 +17875,16 @@
       },
       {
         "label": "Threads",
+        "label_en": "Threads",
         "startYear": "2023",
         "genre": [
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Threads_(ソーシャルネットワーキングサービス)",
-        "note": "https://en.wikipedia.org/wiki/Threads_(social_network)"
+        "url_en": "https://en.wikipedia.org/wiki/Threads_(social_network)",
+        "note": "X対抗として立ち上がったSNS",
+        "note_en": "Meta's social network launched as an X rival"
       },
       {
         "label": "ASUS ROG Ally",
@@ -17860,43 +17938,56 @@
       },
       {
         "label": "カグラバチ",
+        "label_en": "Kagurabachi",
         "startYear": "2023",
         "genre": [
           "MAN"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/カグラバチ",
-        "note": "https://en.wikipedia.org/wiki/Kagurabachi"
+        "url_en": "https://en.wikipedia.org/wiki/Kagurabachi",
+        "note": "海外でも話題化した刀剣バトル",
+        "note_en": "Sword-action manga that quickly gained global buzz"
       },
       {
         "label": "ダイヤモンドの功罪",
+        "label_en": "The Crimes of Diamond",
         "startYear": "2023",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ダイヤモンドの功罪"
+        "url": "https://ja.wikipedia.org/wiki/ダイヤモンドの功罪",
+        "note": "才能の重さを描く野球マンガ",
+        "note_en": "Baseball manga about talent, pressure, and isolation"
       },
       {
         "label": "雷雷雷",
+        "label_en": "Raiden Triple",
         "startYear": "2023",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/雷雷雷"
+        "url": "https://ja.wikipedia.org/wiki/雷雷雷",
+        "note": "怪獣と労働感覚を混ぜた異色作",
+        "note_en": "Offbeat manga mixing kaiju action with labor-life humor"
       },
       {
         "label": "君と宇宙を歩くために",
+        "label_en": "To Walk in Space with You",
         "startYear": "2023",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/君と宇宙を歩くために"
+        "url": "https://ja.wikipedia.org/wiki/君と宇宙を歩くために",
+        "note": "生きづらさと友情を描く成長譚",
+        "note_en": "Coming-of-age manga about neurodiversity and friendship"
       },
       {
         "label": "Bing Chat",
+        "label_en": "Bing Chat",
         "startYear": "2023",
         "genre": [
           "NET",
@@ -17904,17 +17995,22 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Bing_Chat",
-        "note": "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+        "url_en": "https://en.wikipedia.org/wiki/Microsoft_Copilot",
+        "note": "検索と対話AIの接続を示した",
+        "note_en": "Showed how search and chat AI could be merged"
       },
       {
         "label": "MONOPOLY GO!",
+        "label_en": "MONOPOLY GO!",
         "startYear": "2023",
         "genre": [
           "GAM",
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/MONOPOLY_GO!"
+        "url": "https://ja.wikipedia.org/wiki/MONOPOLY_GO!",
+        "note": "古典ボードゲームIPのモバイルSNS化",
+        "note_en": "Mobile social hit built from a classic board-game IP"
       }
     ],
     "2024": [
