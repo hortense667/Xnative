@@ -18118,51 +18118,67 @@
       },
       {
         "label": "ふつうの軽音部",
+        "label_en": "The Ordinary Light Music Club",
         "startYear": "2024",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ふつうの軽音部"
+        "url": "https://ja.wikipedia.org/wiki/ふつうの軽音部",
+        "note": "軽音部の日常を等身大で描く青春作",
+        "note_en": "A grounded youth manga about an ordinary school band"
       },
       {
         "label": "ドカ食いダイスキ! もちづきさん",
+        "label_en": "Mochizuki Loves Binge Eating!",
         "startYear": "2024",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ドカ食いダイスキ!_もちづきさん"
+        "url": "https://ja.wikipedia.org/wiki/ドカ食いダイスキ!_もちづきさん",
+        "note": "食欲とストレス解放を誇張した怪作",
+        "note_en": "Cult manga exaggerating binge eating and stress relief"
       },
       {
         "label": "しのびごと",
+        "label_en": "Shinobigoto",
         "startYear": "2024",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/しのびごと"
+        "url": "https://ja.wikipedia.org/wiki/しのびごと",
+        "note": "忍者設定をラブコメに繋ぐ新連載",
+        "note_en": "New manga mixing ninja action with romantic comedy"
       },
       {
         "label": "ドラマクイン",
+        "label_en": "Drama Queen",
         "startYear": "2024",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ドラマクイン"
+        "url": "https://ja.wikipedia.org/wiki/ドラマクイン",
+        "note": "ジャンプ+発のサスペンス系新作",
+        "note_en": "Suspense manga from Shonen Jump+"
       },
       {
         "label": "mixi2",
+        "label_en": "mixi2",
         "startYear": "2024",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Mixi2"
+        "url": "https://ja.wikipedia.org/wiki/Mixi2",
+        "note": "国産SNS再挑戦として話題化",
+        "note_en": "New Japanese social network framed as a revival attempt"
       },
       {
         "label": "Palworld",
+        "label_en": "Palworld",
         "startYear": "2024",
         "genre": [
           "GAM",
@@ -18170,10 +18186,13 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Palworld",
-        "note": "https://en.wikipedia.org/wiki/Palworld"
+        "url_en": "https://en.wikipedia.org/wiki/Palworld",
+        "note": "配信とマルチプレイで拡散した話題作",
+        "note_en": "Viral multiplayer survival game boosted by streaming"
       },
       {
         "label": "ゼンレスゾーンゼロ",
+        "label_en": "Zenless Zone Zero",
         "startYear": "2024",
         "genre": [
           "GAM",
@@ -18181,7 +18200,9 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ゼンレスゾーンゼロ",
-        "note": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero"
+        "url_en": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+        "note": "ライブ運営型アクションRPG",
+        "note_en": "Live-service action RPG with strong online fandom"
       }
     ],
     "2025": [
