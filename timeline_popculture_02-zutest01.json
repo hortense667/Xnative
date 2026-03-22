@@ -14823,12 +14823,12 @@
       {
         "label": "Discord",
         "startYear": "2015",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Discord"
+        "url": "https://ja.wikipedia.org/wiki/Discord",
+        "note": "https://en.wikipedia.org/wiki/Discord"
       },
       {
         "label": "Oculus Rift",
@@ -14859,6 +14859,26 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Visual%20Studio%20Code"
+      },
+      {
+        "label": "Periscope",
+        "startYear": "2015",
+        "endYear": "2016",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Periscope"
+      },
+      {
+        "label": "Let's Encrypt",
+        "startYear": "2015",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Let%27s_Encrypt",
+        "note": "https://en.wikipedia.org/wiki/Let%27s_Encrypt"
       }
     ],
     "2016": [
@@ -15223,12 +15243,12 @@
       {
         "label": "TikTok",
         "startYear": "2016",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/TikTok"
+        "url": "https://ja.wikipedia.org/wiki/TikTok",
+        "note": "https://en.wikipedia.org/wiki/TikTok"
       },
       {
         "label": "AirPods",
@@ -15299,6 +15319,27 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/TikTok"
+      },
+      {
+        "label": "Mastodon",
+        "startYear": "2016",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mastodon_(ソフトウェア)",
+        "note": "https://en.wikipedia.org/wiki/Mastodon_(social_network)"
+      },
+      {
+        "label": "Pokémon GO",
+        "startYear": "2016",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Pokémon_GO",
+        "note": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO"
       }
     ],
     "2017": [
@@ -15641,12 +15682,12 @@
       {
         "label": "Substack",
         "startYear": "2017",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Substack"
+        "url": "https://ja.wikipedia.org/wiki/Substack",
+        "note": "https://en.wikipedia.org/wiki/Substack"
       },
       {
         "label": "M5Stack",
@@ -15677,6 +15718,28 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/DeepL"
+      },
+      {
+        "label": "VRChat",
+        "startYear": "2017",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/VRChat",
+        "note": "https://en.wikipedia.org/wiki/VRChat"
+      },
+      {
+        "label": "PUBG: Battlegrounds",
+        "startYear": "2017",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PUBG:_BATTLEGROUNDS",
+        "note": "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds"
       }
     ],
     "2018": [
@@ -16065,6 +16128,35 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Google%20Colaboratory"
+      },
+      {
+        "label": "REALITY",
+        "startYear": "2018",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/REALITY"
+      },
+      {
+        "label": "pixivFANBOX",
+        "startYear": "2018",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/PixivFANBOX"
+      },
+      {
+        "label": "Identity V",
+        "startYear": "2018",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Identity_V",
+        "note": "https://en.wikipedia.org/wiki/Identity_V"
       }
     ],
     "2019": [
@@ -16318,6 +16410,40 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Blender%202.8"
+      },
+      {
+        "label": "Bluesky",
+        "startYear": "2019",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Bluesky",
+        "note": "https://en.wikipedia.org/wiki/Bluesky"
+      },
+      {
+        "label": "Apple TV+",
+        "startYear": "2019",
+        "genre": [
+          "NET",
+          "TVP",
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Apple_TV%2B",
+        "note": "https://en.wikipedia.org/wiki/Apple_TV%2B"
+      },
+      {
+        "label": "Disney+",
+        "startYear": "2019",
+        "genre": [
+          "NET",
+          "TVP",
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Disney%2B",
+        "note": "https://en.wikipedia.org/wiki/Disney%2B"
       }
     ],
     "2020": [
@@ -16580,22 +16706,22 @@
       {
         "label": "BeReal",
         "startYear": "2020",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BeReal"
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BeReal",
+        "note": "https://en.wikipedia.org/wiki/BeReal"
       },
       {
         "label": "Clubhouse",
         "startYear": "2020",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Clubhouse"
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Clubhouse_(アプリ)",
+        "note": "https://en.wikipedia.org/wiki/Clubhouse_(app)"
       },
       {
         "label": "AirTag",
@@ -16616,6 +16742,15 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/LM%20Studio"
+      },
+      {
+        "label": "Twitter Spaces",
+        "startYear": "2020",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Twitter#Spaces"
       }
     ],
     "2021": [
@@ -16889,6 +17024,39 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot"
+      },
+      {
+        "label": "GitHub Copilot",
+        "startYear": "2021",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GitHub_Copilot",
+        "note": "https://en.wikipedia.org/wiki/GitHub_Copilot"
+      },
+      {
+        "label": "Horizon Worlds",
+        "startYear": "2021",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Horizon_Worlds",
+        "note": "https://en.wikipedia.org/wiki/Horizon_Worlds"
+      },
+      {
+        "label": "ウマ娘 プリティーダービー",
+        "startYear": "2021",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ウマ娘_プリティーダービー",
+        "note": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby"
       }
     ],
     "2022": [
@@ -17175,16 +17343,6 @@
         "url": "https://ja.wikipedia.org/wiki/RRR"
       },
       {
-        "label": "ChatGPT",
-        "startYear": "2022",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
-      },
-      {
         "label": "Temu",
         "startYear": "2022",
         "endYear": "ongoing",
@@ -17263,6 +17421,76 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion"
+      },
+      {
+        "label": "あかね噺",
+        "startYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/あかね噺",
+        "note": "https://en.wikipedia.org/wiki/Akane-banashi"
+      },
+      {
+        "label": "スーパーの裏でヤニ吸うふたり",
+        "startYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スーパーの裏でヤニ吸うふたり"
+      },
+      {
+        "label": "平和の国の島崎へ",
+        "startYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/平和の国の島崎へ"
+      },
+      {
+        "label": "さよなら絵梨",
+        "startYear": "2022",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/さよなら絵梨"
+      },
+      {
+        "label": "ChatGPT",
+        "startYear": "2022",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "note": "https://en.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "label": "Character.AI",
+        "startYear": "2022",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Character.AI",
+        "note": "https://en.wikipedia.org/wiki/Character.AI"
+      },
+      {
+        "label": "Stable Diffusion",
+        "startYear": "2022",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
+        "note": "https://en.wikipedia.org/wiki/Stable_Diffusion"
       }
     ],
     "2023": [
@@ -17526,12 +17754,12 @@
       {
         "label": "Threads",
         "startYear": "2023",
-        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Threads"
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Threads_(ソーシャルネットワーキングサービス)",
+        "note": "https://en.wikipedia.org/wiki/Threads_(social_network)"
       },
       {
         "label": "ASUS ROG Ally",
@@ -17582,6 +17810,64 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/v0"
+      },
+      {
+        "label": "カグラバチ",
+        "startYear": "2023",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カグラバチ",
+        "note": "https://en.wikipedia.org/wiki/Kagurabachi"
+      },
+      {
+        "label": "ダイヤモンドの功罪",
+        "startYear": "2023",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ダイヤモンドの功罪"
+      },
+      {
+        "label": "雷雷雷",
+        "startYear": "2023",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/雷雷雷"
+      },
+      {
+        "label": "君と宇宙を歩くために",
+        "startYear": "2023",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/君と宇宙を歩くために"
+      },
+      {
+        "label": "Bing Chat",
+        "startYear": "2023",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Bing_Chat",
+        "note": "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+      },
+      {
+        "label": "MONOPOLY GO!",
+        "startYear": "2023",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/MONOPOLY_GO!"
       }
     ],
     "2024": [
@@ -17791,6 +18077,73 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/Sora"
+      },
+      {
+        "label": "ふつうの軽音部",
+        "startYear": "2024",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ふつうの軽音部"
+      },
+      {
+        "label": "ドカ食いダイスキ! もちづきさん",
+        "startYear": "2024",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ドカ食いダイスキ!_もちづきさん"
+      },
+      {
+        "label": "しのびごと",
+        "startYear": "2024",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/しのびごと"
+      },
+      {
+        "label": "ドラマクイン",
+        "startYear": "2024",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ドラマクイン"
+      },
+      {
+        "label": "mixi2",
+        "startYear": "2024",
+        "genre": [
+          "NET"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Mixi2"
+      },
+      {
+        "label": "Palworld",
+        "startYear": "2024",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Palworld",
+        "note": "https://en.wikipedia.org/wiki/Palworld"
+      },
+      {
+        "label": "ゼンレスゾーンゼロ",
+        "startYear": "2024",
+        "genre": [
+          "GAM",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ゼンレスゾーンゼロ",
+        "note": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero"
       }
     ],
     "2025": [
@@ -17896,6 +18249,80 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch%202"
+      },
+      {
+        "label": "エンバーズ",
+        "startYear": "2025",
+        "endYear": "2025",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/エンバーズ"
+      },
+      {
+        "label": "Bの星線",
+        "startYear": "2025",
+        "endYear": "2025",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Bの星線"
+      },
+      {
+        "label": "ハルカゼマウンド",
+        "startYear": "2025",
+        "endYear": "2026",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ハルカゼマウンド"
+      },
+      {
+        "label": "BanG Dream! Ave Mujica -manuscriptus-",
+        "startYear": "2025",
+        "endYear": "ongoing",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/BanG_Dream!_Ave_Mujica",
+        "note": "https://en.wikipedia.org/wiki/BanG_Dream!_Ave_Mujica"
+      },
+      {
+        "label": "DeepSeek",
+        "startYear": "2025",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/DeepSeek",
+        "note": "https://en.wikipedia.org/wiki/DeepSeek"
+      },
+      {
+        "label": "Manus",
+        "startYear": "2025",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Manus_(AI)",
+        "note": "https://en.wikipedia.org/wiki/Manus_(AI)"
+      },
+      {
+        "label": "Operator",
+        "startYear": "2025",
+        "genre": [
+          "NET",
+          "SOF"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Operator_(OpenAI)",
+        "note": "https://en.wikipedia.org/wiki/Operator_(OpenAI)"
       }
     ]
   },
