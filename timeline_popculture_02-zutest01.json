@@ -17055,6 +17055,7 @@
       },
       {
         "label": "GitHub Copilot",
+        "label_en": "GitHub Copilot",
         "startYear": "2021",
         "genre": [
           "NET",
@@ -17062,10 +17063,13 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/GitHub_Copilot",
-        "note": "https://en.wikipedia.org/wiki/GitHub_Copilot"
+        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
+        "note": "生成AI時代の開発支援を代表",
+        "note_en": "Representative coding assistant of the generative-AI era"
       },
       {
         "label": "Horizon Worlds",
+        "label_en": "Horizon Worlds",
         "startYear": "2021",
         "genre": [
           "NET",
@@ -17073,10 +17077,13 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Horizon_Worlds",
-        "note": "https://en.wikipedia.org/wiki/Horizon_Worlds"
+        "url_en": "https://en.wikipedia.org/wiki/Horizon_Worlds",
+        "note": "メタバース期待を象徴した仮想空間",
+        "note_en": "Virtual world emblematic of metaverse ambitions"
       },
       {
         "label": "ウマ娘 プリティーダービー",
+        "label_en": "Umamusume Pretty Derby",
         "startYear": "2021",
         "genre": [
           "GAM",
@@ -17084,8 +17091,9 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/ウマ娘_プリティーダービー",
-        "note": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
-        "_rev": "1774194367107-npmw19vx"
+        "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
+        "note": "SNS拡散も大きかった育成ゲーム",
+        "note_en": "Network-amplified training game that became a social hit"
       }
     ],
     "2022": [
