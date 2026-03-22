@@ -9969,33 +9969,42 @@
       },
       {
         "label": "きみはペット",
+        "label_en": "きみはペット",
         "startYear": "2000",
         "endYear": "2005",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%BF%E3%81%AF%E3%83%9A%E3%83%83%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%BF%E3%81%AF%E3%83%9A%E3%83%83%E3%83%88",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "相棒",
+        "label_en": "相棒",
         "startYear": "2000",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A3%92"
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E6%A3%92",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Audacity",
+        "label_en": "Audacity",
         "startYear": "2000",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Audacity"
+        "url": "https://ja.wikipedia.org/wiki/Audacity",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2001": [
@@ -10333,13 +10342,16 @@
       },
       {
         "label": "ロード・オブ・ザ・リング",
+        "label_en": "ロード・オブ・ザ・リング",
         "startYear": "2001",
         "endYear": "2003",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%AA%E3%83%B3%E3%82%B0"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%AA%E3%83%B3%E3%82%B0",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "アメリ",
@@ -10468,89 +10480,116 @@
       },
       {
         "label": "逆転裁判",
+        "label_en": "逆転裁判",
         "startYear": "2001",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4"
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "M-1グランプリ",
+        "label_en": "M-1グランプリ",
         "startYear": "2001",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA"
+        "url": "https://ja.wikipedia.org/wiki/M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ちゅらさん",
+        "label_en": "ちゅらさん",
         "startYear": "2001",
         "endYear": "2001",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%85%E3%82%89%E3%81%95%E3%82%93"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%85%E3%82%89%E3%81%95%E3%82%93",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ハリー・ポッターと賢者の石",
+        "label_en": "ハリー・ポッターと賢者の石",
         "startYear": "2001",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%83%E3%82%BF%E3%83%BC%E3%81%A8%E8%B3%A2%E8%80%85%E3%81%AE%E7%9F%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%83%E3%82%BF%E3%83%BC%E3%81%A8%E8%B3%A2%E8%80%85%E3%81%AE%E7%9F%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "千と千尋の神隠し",
+        "label_en": "千と千尋の神隠し",
         "startYear": "2001",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97"
+        "url": "https://ja.wikipedia.org/wiki/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Wikipedia",
+        "label_en": "Wikipedia",
         "startYear": "2001",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Wikipedia"
+        "url": "https://ja.wikipedia.org/wiki/Wikipedia",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "iPod",
+        "label_en": "iPod",
         "startYear": "2001",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPod"
+        "url": "https://ja.wikipedia.org/wiki/iPod",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Mac OS X",
+        "label_en": "Mac OS X",
         "startYear": "2001",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Mac%20OS%20X"
+        "url": "https://ja.wikipedia.org/wiki/Mac%20OS%20X",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Windows XP",
+        "label_en": "Windows XP",
         "startYear": "2001",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Windows%20XP"
+        "url": "https://ja.wikipedia.org/wiki/Windows%20XP",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2002": [
@@ -10829,22 +10868,28 @@
       },
       {
         "label": "機動戦士ガンダムSEED",
+        "label_en": "機動戦士ガンダムSEED",
         "startYear": "2002",
         "endYear": "2003",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0SEED"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0SEED",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "シカゴ",
+        "label_en": "シカゴ",
         "startYear": "2002",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%AB%E3%82%B4"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%AB%E3%82%B4",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       }
     ],
     "2003": [
@@ -11023,61 +11068,79 @@
       },
       {
         "label": "岳",
+        "label_en": "岳",
         "startYear": "2003",
         "endYear": "2012",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B2%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E5%B2%B3",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ロスト・イン・トランスレーション",
+        "label_en": "ロスト・イン・トランスレーション",
         "startYear": "2003",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B9%E3%83%88%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B9%E3%83%88%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B9%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Steam",
+        "label_en": "Steam",
         "startYear": "2003",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Steam"
+        "url": "https://ja.wikipedia.org/wiki/Steam",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "キヤノンEOS Kiss Digital",
+        "label_en": "キヤノンEOS Kiss Digital",
         "startYear": "2003",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3EOS%20Kiss%20Digital"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3EOS%20Kiss%20Digital",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Adobe Premiere Pro",
+        "label_en": "Adobe Premiere Pro",
         "startYear": "2003",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Adobe%20Premiere%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Adobe%20Premiere%20Pro",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Notepad++",
+        "label_en": "Notepad++",
         "startYear": "2003",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Notepad%2B%2B"
+        "url": "https://ja.wikipedia.org/wiki/Notepad%2B%2B",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2004": [
@@ -11346,13 +11409,16 @@
       },
       {
         "label": "World of Warcraft",
+        "label_en": "World of Warcraft",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/World%20of%20Warcraft"
+        "url": "https://ja.wikipedia.org/wiki/World%20of%20Warcraft",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "モンスターハンター",
@@ -11400,70 +11466,91 @@
       },
       {
         "label": "逃走中",
+        "label_en": "逃走中",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD"
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "エターナル・サンシャイン",
+        "label_en": "エターナル・サンシャイン",
         "startYear": "2004",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%BF%E3%83%BC%E3%83%8A%E3%83%AB%E3%83%BB%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "誰も知らない",
+        "label_en": "誰も知らない",
         "startYear": "2004",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%AA%B0%E3%82%82%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84"
+        "url": "https://ja.wikipedia.org/wiki/%E8%AA%B0%E3%82%82%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "OpenStreetMap",
+        "label_en": "OpenStreetMap",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/OpenStreetMap"
+        "url": "https://ja.wikipedia.org/wiki/OpenStreetMap",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "mixi",
+        "label_en": "mixi",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/mixi"
+        "url": "https://ja.wikipedia.org/wiki/mixi",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Logic Pro",
+        "label_en": "Logic Pro",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Logic%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Logic%20Pro",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "ニンテンドーDS",
+        "label_en": "ニンテンドーDS",
         "startYear": "2004",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       }
     ],
     "2005": [
@@ -11671,129 +11758,168 @@
       },
       {
         "label": "へうげもの",
+        "label_en": "へうげもの",
         "startYear": "2005",
         "endYear": "2017",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%B8%E3%81%86%E3%81%92%E3%82%82%E3%81%AE"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%B8%E3%81%86%E3%81%92%E3%82%82%E3%81%AE",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "君に届け",
+        "label_en": "君に届け",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91"
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AB%E5%B1%8A%E3%81%91",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "nintendogs",
+        "label_en": "nintendogs",
         "startYear": "2005",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/nintendogs"
+        "url": "https://ja.wikipedia.org/wiki/nintendogs",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "脳を鍛える大人のDSトレーニング",
+        "label_en": "脳を鍛える大人のDSトレーニング",
         "startYear": "2005",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0"
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "龍が如く",
+        "label_en": "龍が如く",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F"
+        "url": "https://ja.wikipedia.org/wiki/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "リンダ リンダ リンダ",
+        "label_en": "リンダ リンダ リンダ",
         "startYear": "2005",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Reddit",
+        "label_en": "Reddit",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Reddit"
+        "url": "https://ja.wikipedia.org/wiki/Reddit",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "食べログ",
+        "label_en": "食べログ",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0"
+        "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Xbox 360",
+        "label_en": "Xbox 360",
         "startYear": "2005",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Xbox%20360"
+        "url": "https://ja.wikipedia.org/wiki/Xbox%20360",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "iPod nano",
+        "label_en": "iPod nano",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/iPod%20nano"
+        "url": "https://ja.wikipedia.org/wiki/iPod%20nano",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Google Earth",
+        "label_en": "Google Earth",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Earth"
+        "url": "https://ja.wikipedia.org/wiki/Google%20Earth",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Google マップ",
+        "label_en": "Google マップ",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Google%20%E3%83%9E%E3%83%83%E3%83%97"
+        "url": "https://ja.wikipedia.org/wiki/Google%20%E3%83%9E%E3%83%83%E3%83%97",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Unity",
+        "label_en": "Unity",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Unity"
+        "url": "https://ja.wikipedia.org/wiki/Unity",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2006": [
@@ -12033,110 +12159,143 @@
       },
       {
         "label": "海街diary",
+        "label_en": "海街diary",
         "startYear": "2006",
         "endYear": "2018",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%A1%97diary"
+        "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%A1%97diary",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "聖☆おにいさん",
+        "label_en": "聖☆おにいさん",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%81%96%E2%98%86%E3%81%8A%E3%81%AB%E3%81%84%E3%81%95%E3%82%93"
+        "url": "https://ja.wikipedia.org/wiki/%E8%81%96%E2%98%86%E3%81%8A%E3%81%AB%E3%81%84%E3%81%95%E3%82%93",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "Roblox",
+        "label_en": "Roblox",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Roblox"
+        "url": "https://ja.wikipedia.org/wiki/Roblox",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Wii Sports",
+        "label_en": "Wii Sports",
         "startYear": "2006",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Wii%20Sports"
+        "url": "https://ja.wikipedia.org/wiki/Wii%20Sports",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "大神",
+        "label_en": "大神",
         "startYear": "2006",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%9E"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%9E",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "デスノート",
+        "label_en": "デスノート",
         "startYear": "2006",
         "endYear": "2006",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "X",
+        "label_en": "X",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X"
+        "url": "https://ja.wikipedia.org/wiki/X",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "ニコニコ動画",
+        "label_en": "ニコニコ動画",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "1Password",
+        "label_en": "1Password",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/1Password"
+        "url": "https://ja.wikipedia.org/wiki/1Password",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Google 翻訳",
+        "label_en": "Google 翻訳",
         "startYear": "2006",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Google%20%E7%BF%BB%E8%A8%B3"
+        "url": "https://ja.wikipedia.org/wiki/Google%20%E7%BF%BB%E8%A8%B3",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Wii",
+        "label_en": "Wii",
         "startYear": "2006",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Wii"
+        "url": "https://ja.wikipedia.org/wiki/Wii",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       }
     ],
     "2007": [
@@ -12343,161 +12502,209 @@
       },
       {
         "label": "3月のライオン",
+        "label_en": "3月のライオン",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/3%E6%9C%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/3%E6%9C%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "きのう何食べた?",
+        "label_en": "きのう何食べた?",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ちはやふる",
+        "label_en": "ちはやふる",
         "startYear": "2007",
         "endYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%AF%E3%82%84%E3%81%B5%E3%82%8B",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "坂道のアポロン",
+        "label_en": "坂道のアポロン",
         "startYear": "2007",
         "endYear": "2012",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E5%9D%82%E9%81%93%E3%81%AE%E3%82%A2%E3%83%9D%E3%83%AD%E3%83%B3",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "機動戦士ガンダム00",
+        "label_en": "機動戦士ガンダム00",
         "startYear": "2007",
         "endYear": "2009",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A000"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A000",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "精霊の守り人",
+        "label_en": "精霊の守り人",
         "startYear": "2007",
         "endYear": "2007",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E7%B2%BE%E9%9C%8A%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E7%B2%BE%E9%9C%8A%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "電脳コイル",
+        "label_en": "電脳コイル",
         "startYear": "2007",
         "endYear": "2007",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%84%B3%E3%82%B3%E3%82%A4%E3%83%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%84%B3%E3%82%B3%E3%82%A4%E3%83%AB",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Portal",
+        "label_en": "Portal",
         "startYear": "2007",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Portal"
+        "url": "https://ja.wikipedia.org/wiki/Portal",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "レイトン教授と不思議な町",
+        "label_en": "レイトン教授と不思議な町",
         "startYear": "2007",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E7%94%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%B3%E6%95%99%E6%8E%88%E3%81%A8%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E7%94%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "世界の果てまでイッテQ!",
+        "label_en": "世界の果てまでイッテQ!",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%BE%E3%81%A7%E3%82%A4%E3%83%83%E3%83%86Q!"
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%BE%E3%81%A7%E3%82%A4%E3%83%83%E3%83%86Q!",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Netflix",
+        "label_en": "Netflix",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Netflix"
+        "url": "https://ja.wikipedia.org/wiki/Netflix",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "pixiv",
+        "label_en": "pixiv",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/pixiv"
+        "url": "https://ja.wikipedia.org/wiki/pixiv",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "iPhone",
+        "label_en": "iPhone",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPhone"
+        "url": "https://ja.wikipedia.org/wiki/iPhone",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Dropbox (ソフトウェア)",
+        "label_en": "Dropbox (ソフトウェア)",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Dropbox%20(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)"
+        "url": "https://ja.wikipedia.org/wiki/Dropbox%20(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Scratch",
+        "label_en": "Scratch",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Scratch"
+        "url": "https://ja.wikipedia.org/wiki/Scratch",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "iOS",
+        "label_en": "iOS",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iOS"
+        "url": "https://ja.wikipedia.org/wiki/iOS",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2008": [
@@ -12706,111 +12913,144 @@
       },
       {
         "label": "ダークナイト",
+        "label_en": "ダークナイト",
         "startYear": "2008",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%88",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "テルマエ・ロマエ",
+        "label_en": "テルマエ・ロマエ",
         "startYear": "2008",
         "endYear": "2013",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AB%E3%83%9E%E3%82%A8%E3%83%BB%E3%83%AD%E3%83%9E%E3%82%A8"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AB%E3%83%9E%E3%82%A8%E3%83%BB%E3%83%AD%E3%83%9E%E3%82%A8",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ペルソナ4",
+        "label_en": "ペルソナ4",
         "startYear": "2008",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A4"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A4",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ROOKIES",
+        "label_en": "ROOKIES",
         "startYear": "2008",
         "endYear": "2008",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ROOKIES"
+        "url": "https://ja.wikipedia.org/wiki/ROOKIES",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Dropbox",
+        "label_en": "Dropbox",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Dropbox"
+        "url": "https://ja.wikipedia.org/wiki/Dropbox",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "GitHub",
+        "label_en": "GitHub",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/GitHub"
+        "url": "https://ja.wikipedia.org/wiki/GitHub",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Spotify",
+        "label_en": "Spotify",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Spotify"
+        "url": "https://ja.wikipedia.org/wiki/Spotify",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "ニコニコ生放送",
+        "label_en": "ニコニコ生放送",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E7%94%9F%E6%94%BE%E9%80%81"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E7%94%9F%E6%94%BE%E9%80%81",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "MacBook Air",
+        "label_en": "MacBook Air",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/MacBook%20Air"
+        "url": "https://ja.wikipedia.org/wiki/MacBook%20Air",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Android",
+        "label_en": "Android",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Android"
+        "url": "https://ja.wikipedia.org/wiki/Android",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Google Chrome",
+        "label_en": "Google Chrome",
         "startYear": "2008",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Chrome"
+        "url": "https://ja.wikipedia.org/wiki/Google%20Chrome",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2009": [
@@ -12937,13 +13177,16 @@
       },
       {
         "label": "アバター",
+        "label_en": "アバター",
         "startYear": "2009",
         "endYear": "ongoing",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Angry Birds",
@@ -12974,71 +13217,92 @@
       },
       {
         "label": "山賊ダイアリー",
+        "label_en": "山賊ダイアリー",
         "startYear": "2009",
         "endYear": "2016",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E8%B3%8A%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E8%B3%8A%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "惡の華",
+        "label_en": "惡の華",
         "startYear": "2009",
         "endYear": "2014",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%83%A1%E3%81%AE%E8%8F%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E6%83%A1%E3%81%AE%E8%8F%AF",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "青の祓魔師",
+        "label_en": "青の祓魔師",
         "startYear": "2009",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E3%81%AE%E7%A5%93%E9%AD%94%E5%B8%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E3%81%AE%E7%A5%93%E9%AD%94%E5%B8%AB",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "東京マグニチュード8.0",
+        "label_en": "東京マグニチュード8.0",
         "startYear": "2009",
         "endYear": "2009",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%9E%E3%82%B0%E3%83%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%898.0"
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%9E%E3%82%B0%E3%83%8B%E3%83%81%E3%83%A5%E3%83%BC%E3%83%898.0",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ドラゴンクエストIX 星空の守り人",
+        "label_en": "ドラゴンクエストIX 星空の守り人",
         "startYear": "2009",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88IX%20%E6%98%9F%E7%A9%BA%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88IX%20%E6%98%9F%E7%A9%BA%E3%81%AE%E5%AE%88%E3%82%8A%E4%BA%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "IPPONグランプリ",
+        "label_en": "IPPONグランプリ",
         "startYear": "2009",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IPPON%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA"
+        "url": "https://ja.wikipedia.org/wiki/IPPON%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Windows 7",
+        "label_en": "Windows 7",
         "startYear": "2009",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Windows%207"
+        "url": "https://ja.wikipedia.org/wiki/Windows%207",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2010": [
@@ -13117,12 +13381,15 @@
       },
       {
         "label": "インセプション",
+        "label_en": "インセプション",
         "startYear": "2010",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BB%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "iPad",
@@ -13140,63 +13407,81 @@
       },
       {
         "label": "RAINBOW-二舎六房の七人-",
+        "label_en": "RAINBOW-二舎六房の七人-",
         "startYear": "2010",
         "endYear": "2010",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/RAINBOW-%E4%BA%8C%E8%88%8E%E5%85%AD%E6%88%BF%E3%81%AE%E4%B8%83%E4%BA%BA-"
+        "url": "https://ja.wikipedia.org/wiki/RAINBOW-%E4%BA%8C%E8%88%8E%E5%85%AD%E6%88%BF%E3%81%AE%E4%B8%83%E4%BA%BA-",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ゼノブレイド",
+        "label_en": "ゼノブレイド",
         "startYear": "2010",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%8E%E3%83%96%E3%83%AC%E3%82%A4%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%8E%E3%83%96%E3%83%AC%E3%82%A4%E3%83%89",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ファイナルファンタジーXIV",
+        "label_en": "ファイナルファンタジーXIV",
         "startYear": "2010",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXIV"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BCXIV",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Instagram",
+        "label_en": "Instagram",
         "startYear": "2010",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Instagram"
+        "url": "https://ja.wikipedia.org/wiki/Instagram",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Instagram",
+        "label_en": "Instagram",
         "startYear": "2010",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Instagram"
+        "url": "https://ja.wikipedia.org/wiki/Instagram",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "iPad",
+        "label_en": "iPad",
         "startYear": "2010",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPad"
+        "url": "https://ja.wikipedia.org/wiki/iPad",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       }
     ],
     "2011": [
@@ -13479,160 +13764,208 @@
       },
       {
         "label": "アシガール",
+        "label_en": "アシガール",
         "startYear": "2011",
         "endYear": "2018",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B7%E3%82%AC%E3%83%BC%E3%83%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B7%E3%82%AC%E3%83%BC%E3%83%AB",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "月刊少女野崎くん",
+        "label_en": "月刊少女野崎くん",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E5%B0%91%E5%A5%B3%E9%87%8E%E5%B4%8E%E3%81%8F%E3%82%93"
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E5%B0%91%E5%A5%B3%E9%87%8E%E5%B4%8E%E3%81%8F%E3%82%93",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "TIGER & BUNNY",
+        "label_en": "TIGER & BUNNY",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/TIGER%20%26%20BUNNY"
+        "url": "https://ja.wikipedia.org/wiki/TIGER%20%26%20BUNNY",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "花咲くいろは",
+        "label_en": "花咲くいろは",
         "startYear": "2011",
         "endYear": "2011",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E5%92%B2%E3%81%8F%E3%81%84%E3%82%8D%E3%81%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E5%92%B2%E3%81%8F%E3%81%84%E3%82%8D%E3%81%AF",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Dark Souls",
+        "label_en": "Dark Souls",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Dark%20Souls"
+        "url": "https://ja.wikipedia.org/wiki/Dark%20Souls",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Portal 2",
+        "label_en": "Portal 2",
         "startYear": "2011",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Portal%202"
+        "url": "https://ja.wikipedia.org/wiki/Portal%202",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Terraria",
+        "label_en": "Terraria",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Terraria"
+        "url": "https://ja.wikipedia.org/wiki/Terraria",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "家政婦のミタ",
+        "label_en": "家政婦のミタ",
         "startYear": "2011",
         "endYear": "2011",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF"
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ブラック・スワン",
+        "label_en": "ブラック・スワン",
         "startYear": "2011",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AF%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%AF%E3%83%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Twitch",
+        "label_en": "Twitch",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Twitch"
+        "url": "https://ja.wikipedia.org/wiki/Twitch",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Zoom",
+        "label_en": "Zoom",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Zoom"
+        "url": "https://ja.wikipedia.org/wiki/Zoom",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "はてなブログ",
+        "label_en": "はてなブログ",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "ニンテンドー3DS",
+        "label_en": "ニンテンドー3DS",
         "startYear": "2011",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Final Cut Pro X",
+        "label_en": "Final Cut Pro X",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Final%20Cut%20Pro%20X"
+        "url": "https://ja.wikipedia.org/wiki/Final%20Cut%20Pro%20X",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Procreate",
+        "label_en": "Procreate",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Procreate"
+        "url": "https://ja.wikipedia.org/wiki/Procreate",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Zoom",
+        "label_en": "Zoom",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Zoom"
+        "url": "https://ja.wikipedia.org/wiki/Zoom",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       }
     ],
     "2012": [
@@ -13860,151 +14193,196 @@
       },
       {
         "label": "かくかくしかじか",
+        "label_en": "かくかくしかじか",
         "startYear": "2012",
         "endYear": "2015",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "かげきしょうじょ!!",
+        "label_en": "かげきしょうじょ!!",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%92%E3%81%8D%E3%81%97%E3%82%87%E3%81%86%E3%81%98%E3%82%87!!"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%92%E3%81%8D%E3%81%97%E3%82%87%E3%81%86%E3%81%98%E3%82%87!!",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "メイドインアビス",
+        "label_en": "メイドインアビス",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%89%E3%82%A4%E3%83%B3%E3%82%A2%E3%83%93%E3%82%B9",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "宝石の国",
+        "label_en": "宝石の国",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AE%9D%E7%9F%B3%E3%81%AE%E5%9B%BD"
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%9D%E7%9F%B3%E3%81%AE%E5%9B%BD",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "暗殺教室",
+        "label_en": "暗殺教室",
         "startYear": "2012",
         "endYear": "2016",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9A%97%E6%AE%BA%E6%95%99%E5%AE%A4"
+        "url": "https://ja.wikipedia.org/wiki/%E6%9A%97%E6%AE%BA%E6%95%99%E5%AE%A4",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "アイカツ!",
+        "label_en": "アイカツ!",
         "startYear": "2012",
         "endYear": "2016",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84!"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84!",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "新世界より",
+        "label_en": "新世界より",
         "startYear": "2012",
         "endYear": "2013",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%95%8C%E3%82%88%E3%82%8A"
+        "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%95%8C%E3%82%88%E3%82%8A",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "パズル&ドラゴンズ",
+        "label_en": "パズル&ドラゴンズ",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BA%E3%83%AB%26%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BA%E3%83%AB%26%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "リーガル・ハイ",
+        "label_en": "リーガル・ハイ",
         "startYear": "2012",
         "endYear": "2013",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%AB%E3%83%BB%E3%83%8F%E3%82%A4"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%AB%E3%83%BB%E3%83%8F%E3%82%A4",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "孤独のグルメ",
+        "label_en": "孤独のグルメ",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1"
+        "url": "https://ja.wikipedia.org/wiki/%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "桐島、部活やめるってよ",
+        "label_en": "桐島、部活やめるってよ",
         "startYear": "2012",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A1%90%E5%B3%B6%E3%80%81%E9%83%A8%E6%B4%BB%E3%82%84%E3%82%81%E3%82%8B%E3%81%A3%E3%81%A6%E3%82%88"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A1%90%E5%B3%B6%E3%80%81%E9%83%A8%E6%B4%BB%E3%82%84%E3%82%81%E3%82%8B%E3%81%A3%E3%81%A6%E3%82%88",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "BASE",
+        "label_en": "BASE",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BASE"
+        "url": "https://ja.wikipedia.org/wiki/BASE",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Tinder",
+        "label_en": "Tinder",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Tinder"
+        "url": "https://ja.wikipedia.org/wiki/Tinder",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Raspberry Pi",
+        "label_en": "Raspberry Pi",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry%20Pi"
+        "url": "https://ja.wikipedia.org/wiki/Raspberry%20Pi",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Wii U",
+        "label_en": "Wii U",
         "startYear": "2012",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Wii%20U"
+        "url": "https://ja.wikipedia.org/wiki/Wii%20U",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       }
     ],
     "2013": [
@@ -14161,12 +14539,15 @@
       },
       {
         "label": "ゼロ・グラビティ",
+        "label_en": "ゼロ・グラビティ",
         "startYear": "2013",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AD%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%93%E3%83%86%E3%82%A3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AD%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%93%E3%83%86%E3%82%A3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "アナと雪の女王",
@@ -14183,12 +14564,15 @@
       },
       {
         "label": "The Last of Us",
+        "label_en": "The Last of Us",
         "startYear": "2013",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us"
+        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Dota 2",
@@ -14234,153 +14618,198 @@
       },
       {
         "label": "BLUE GIANT",
+        "label_en": "BLUE GIANT",
         "startYear": "2013",
         "endYear": "2020",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT"
+        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ワールドトリガー",
+        "label_en": "ワールドトリガー",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%88%E3%83%AA%E3%82%AC%E3%83%BC",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "応天の門",
+        "label_en": "応天の門",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%BF%9C%E5%A4%A9%E3%81%AE%E9%96%80"
+        "url": "https://ja.wikipedia.org/wiki/%E5%BF%9C%E5%A4%A9%E3%81%AE%E9%96%80",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "Free!",
+        "label_en": "Free!",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Free!"
+        "url": "https://ja.wikipedia.org/wiki/Free!",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "キルラキル",
+        "label_en": "キルラキル",
         "startYear": "2013",
         "endYear": "2014",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%AB%E3%83%A9%E3%82%AD%E3%83%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%AB%E3%83%A9%E3%82%AD%E3%83%AB",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "モンスターストライク",
+        "label_en": "モンスターストライク",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "半沢直樹",
+        "label_en": "半沢直樹",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%B2%A2%E7%9B%B4%E6%A8%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%B2%A2%E7%9B%B4%E6%A8%B9",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Canva",
+        "label_en": "Canva",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Canva"
+        "url": "https://ja.wikipedia.org/wiki/Canva",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Slack",
+        "label_en": "Slack",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Slack"
+        "url": "https://ja.wikipedia.org/wiki/Slack",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "メルカリ",
+        "label_en": "メルカリ",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Pebble",
+        "label_en": "Pebble",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Pebble"
+        "url": "https://ja.wikipedia.org/wiki/Pebble",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Surface Pro",
+        "label_en": "Surface Pro",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Surface%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Surface%20Pro",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "ソニー α7",
+        "label_en": "ソニー α7",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%20%CE%B17"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%20%CE%B17",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Canva",
+        "label_en": "Canva",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Canva"
+        "url": "https://ja.wikipedia.org/wiki/Canva",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Slack",
+        "label_en": "Slack",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Slack"
+        "url": "https://ja.wikipedia.org/wiki/Slack",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "DJI Phantom",
@@ -14562,112 +14991,145 @@
       },
       {
         "label": "ザ・ファブル",
+        "label_en": "ザ・ファブル",
         "startYear": "2014",
         "endYear": "2019",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A1%E3%83%96%E3%83%AB",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ダンジョン飯",
+        "label_en": "ダンジョン飯",
         "startYear": "2014",
         "endYear": "2023",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "プリパラ",
+        "label_en": "プリパラ",
         "startYear": "2014",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%91%E3%83%A9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%91%E3%83%A9",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "残響のテロル",
+        "label_en": "残響のテロル",
         "startYear": "2014",
         "endYear": "2014",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E6%AE%8B%E9%9F%BF%E3%81%AE%E3%83%86%E3%83%AD%E3%83%AB"
+        "url": "https://ja.wikipedia.org/wiki/%E6%AE%8B%E9%9F%BF%E3%81%AE%E3%83%86%E3%83%AD%E3%83%AB",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "VALORANT",
+        "label_en": "VALORANT",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VALORANT"
+        "url": "https://ja.wikipedia.org/wiki/VALORANT",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "家、ついて行ってイイですか?",
+        "label_en": "家、ついて行ってイイですか?",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E3%80%81%E3%81%A4%E3%81%84%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%A6%E3%82%A4%E3%82%A4%E3%81%A7%E3%81%99%E3%81%8B%3F"
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E3%80%81%E3%81%A4%E3%81%84%E3%81%A6%E8%A1%8C%E3%81%A3%E3%81%A6%E3%82%A4%E3%82%A4%E3%81%A7%E3%81%99%E3%81%8B%3F",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "水曜日のダウンタウン",
+        "label_en": "水曜日のダウンタウン",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "アナと雪の女王",
+        "label_en": "アナと雪の女王",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%81%A8%E9%9B%AA%E3%81%AE%E5%A5%B3%E7%8E%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%81%A8%E9%9B%AA%E3%81%AE%E5%A5%B3%E7%8E%8B",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "インターステラー",
+        "label_en": "インターステラー",
         "startYear": "2014",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "note",
+        "label_en": "note",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/note"
+        "url": "https://ja.wikipedia.org/wiki/note",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Apple Watch",
+        "label_en": "Apple Watch",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple%20Watch"
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Watch",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       }
     ],
     "2015": [
@@ -14747,22 +15209,28 @@
       },
       {
         "label": "TensorFlow",
+        "label_en": "TensorFlow",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/TensorFlow"
+        "url": "https://ja.wikipedia.org/wiki/TensorFlow",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "マッドマックス 怒りのデス・ロード",
+        "label_en": "マッドマックス 怒りのデス・ロード",
         "startYear": "2015",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%83%89%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%20%E6%80%92%E3%82%8A%E3%81%AE%E3%83%87%E3%82%B9%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%83%89%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%20%E6%80%92%E3%82%8A%E3%81%AE%E3%83%87%E3%82%B9%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%89",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "スプラトゥーン",
@@ -14780,116 +15248,146 @@
       },
       {
         "label": "アオアシ",
+        "label_en": "アオアシ",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%82%A2%E3%82%B7"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%82%A2%E3%82%B7",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "響け!ユーフォニアム",
+        "label_en": "響け!ユーフォニアム",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%9F%BF%E3%81%91!%E3%83%A6%E3%83%BC%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A2%E3%83%A0"
+        "url": "https://ja.wikipedia.org/wiki/%E9%9F%BF%E3%81%91!%E3%83%A6%E3%83%BC%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A2%E3%83%A0",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Fate/Grand Order",
+        "label_en": "Fate/Grand Order",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Fate%2FGrand%20Order"
+        "url": "https://ja.wikipedia.org/wiki/Fate%2FGrand%20Order",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "UNDERTALE",
+        "label_en": "UNDERTALE",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/UNDERTALE"
+        "url": "https://ja.wikipedia.org/wiki/UNDERTALE",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "スプラトゥーン",
+        "label_en": "スプラトゥーン",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ドラゴンクエストビルダーズ",
+        "label_en": "ドラゴンクエストビルダーズ",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "シッツ・クリーク",
+        "label_en": "シッツ・クリーク",
         "startYear": "2015",
         "endYear": "2020",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%83%E3%83%84%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%BC%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%83%E3%83%84%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%BC%E3%82%AF",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Discord",
         "label_en": "Discord",
         "startYear": "2015",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/Discord",
-        "url_en": "https://en.wikipedia.org/wiki/Discord",
-        "note": "通話とコミュニティを結ぶ定番基盤",
-        "note_en": "Voice-and-community platform that became a default hangout"
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Oculus Rift",
+        "label_en": "Oculus Rift",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Oculus%20Rift"
+        "url": "https://ja.wikipedia.org/wiki/Oculus%20Rift",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Discord",
+        "label_en": "Discord",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Discord"
+        "url": "https://ja.wikipedia.org/wiki/Discord",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Visual Studio Code",
+        "label_en": "Visual Studio Code",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Visual%20Studio%20Code"
+        "url": "https://ja.wikipedia.org/wiki/Visual%20Studio%20Code",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Periscope",
@@ -15086,12 +15584,15 @@
       },
       {
         "label": "ラ・ラ・ランド",
+        "label_en": "ラ・ラ・ランド",
         "startYear": "2016",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%B3%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ポケモンGO",
@@ -15122,243 +15623,312 @@
       },
       {
         "label": "映像研には手を出すな!",
+        "label_en": "映像研には手を出すな!",
         "startYear": "2016",
         "endYear": "2021",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E5%83%8F%E7%A0%94%E3%81%AB%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AA!"
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E5%83%8F%E7%A0%94%E3%81%AB%E3%81%AF%E6%89%8B%E3%82%92%E5%87%BA%E3%81%99%E3%81%AA!",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ユーリ!!! on ICE",
+        "label_en": "ユーリ!!! on ICE",
         "startYear": "2016",
         "endYear": "2016",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%AA!!!%20on%20ICE"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%AA!!!%20on%20ICE",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "昭和元禄落語心中",
+        "label_en": "昭和元禄落語心中",
         "startYear": "2016",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E5%85%83%E7%A6%84%E8%90%BD%E8%AA%9E%E5%BF%83%E4%B8%AD"
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E5%85%83%E7%A6%84%E8%90%BD%E8%AA%9E%E5%BF%83%E4%B8%AD",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Detroit: Become Human",
+        "label_en": "Detroit: Become Human",
         "startYear": "2016",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Detroit%3A%20Become%20Human"
+        "url": "https://ja.wikipedia.org/wiki/Detroit%3A%20Become%20Human",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Pokémon GO",
+        "label_en": "Pokémon GO",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO"
+        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Stardew Valley",
+        "label_en": "Stardew Valley",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Stardew%20Valley"
+        "url": "https://ja.wikipedia.org/wiki/Stardew%20Valley",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ペルソナ5",
+        "label_en": "ペルソナ5",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A5"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A5",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ザ・クラウン",
+        "label_en": "ザ・クラウン",
         "startYear": "2016",
         "endYear": "2023",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ストレンジャー・シングス 未知の世界",
+        "label_en": "ストレンジャー・シングス 未知の世界",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%82%B9%20%E6%9C%AA%E7%9F%A5%E3%81%AE%E4%B8%96%E7%95%8C"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%82%B9%20%E6%9C%AA%E7%9F%A5%E3%81%AE%E4%B8%96%E7%95%8C",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "真田丸",
+        "label_en": "真田丸",
         "startYear": "2016",
         "endYear": "2016",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E7%94%B0%E4%B8%B8"
+        "url": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E7%94%B0%E4%B8%B8",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "逃げるは恥だが役に立つ",
+        "label_en": "逃げるは恥だが役に立つ",
         "startYear": "2016",
         "endYear": "2016",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E3%81%92%E3%82%8B%E3%81%AF%E6%81%A5%E3%81%A0%E3%81%8C%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4"
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E3%81%92%E3%82%8B%E3%81%AF%E6%81%A5%E3%81%A0%E3%81%8C%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "シン・ゴジラ",
+        "label_en": "シン・ゴジラ",
         "startYear": "2016",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "君の名は。",
+        "label_en": "君の名は。",
         "startYear": "2016",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82"
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "AbemaTV",
+        "label_en": "AbemaTV",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/AbemaTV"
+        "url": "https://ja.wikipedia.org/wiki/AbemaTV",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "OnlyFans",
+        "label_en": "OnlyFans",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/OnlyFans"
+        "url": "https://ja.wikipedia.org/wiki/OnlyFans",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Pokémon GO",
+        "label_en": "Pokémon GO",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO"
+        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
+        "note": "ゲームと位置情報を結んだネットサービス的存在。",
+        "note_en": "A networked service linking games and geolocation."
       },
       {
         "label": "TikTok",
         "label_en": "TikTok",
         "startYear": "2016",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/TikTok",
-        "url_en": "https://en.wikipedia.org/wiki/TikTok",
-        "note": "短尺動画文化を世界化したSNS",
-        "note_en": "Short-video platform that reshaped global internet culture"
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "AirPods",
+        "label_en": "AirPods",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/AirPods"
+        "url": "https://ja.wikipedia.org/wiki/AirPods",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Google Pixel",
+        "label_en": "Google Pixel",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Pixel"
+        "url": "https://ja.wikipedia.org/wiki/Google%20Pixel",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Mavic Pro",
+        "label_en": "Mavic Pro",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Mavic%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Mavic%20Pro",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Figma",
+        "label_en": "Figma",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Figma"
+        "url": "https://ja.wikipedia.org/wiki/Figma",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Notion",
+        "label_en": "Notion",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Notion"
+        "url": "https://ja.wikipedia.org/wiki/Notion",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "PyTorch",
+        "label_en": "PyTorch",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/PyTorch"
+        "url": "https://ja.wikipedia.org/wiki/PyTorch",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "TikTok",
+        "label_en": "TikTok",
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/TikTok"
+        "url": "https://ja.wikipedia.org/wiki/TikTok",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Mastodon",
@@ -15580,193 +16150,247 @@
       },
       {
         "label": "サマータイムレンダ",
+        "label_en": "サマータイムレンダ",
         "startYear": "2017",
         "endYear": "2021",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ミギとダリ",
+        "label_en": "ミギとダリ",
         "startYear": "2017",
         "endYear": "2021",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%AE%E3%81%A8%E3%83%80%E3%83%AA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%AE%E3%81%A8%E3%83%80%E3%83%AA",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ミステリと言う勿れ",
+        "label_en": "ミステリと言う勿れ",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%81%A8%E8%A8%80%E3%81%86%E5%8B%BF%E3%82%8C"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%81%A8%E8%A8%80%E3%81%86%E5%8B%BF%E3%82%8C",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "薬屋のひとりごと",
+        "label_en": "薬屋のひとりごと",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8"
+        "url": "https://ja.wikipedia.org/wiki/%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "風都探偵",
+        "label_en": "風都探偵",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E9%83%BD%E6%8E%A2%E5%81%B5"
+        "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E9%83%BD%E6%8E%A2%E5%81%B5",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ACCA13区監察課",
+        "label_en": "ACCA13区監察課",
         "startYear": "2017",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ACCA13%E5%8C%BA%E7%9B%A3%E5%AF%9F%E8%AA%B2"
+        "url": "https://ja.wikipedia.org/wiki/ACCA13%E5%8C%BA%E7%9B%A3%E5%AF%9F%E8%AA%B2",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ガヴリールドロップアウト",
+        "label_en": "ガヴリールドロップアウト",
         "startYear": "2017",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%B4%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "サクラクエスト",
+        "label_en": "サクラクエスト",
         "startYear": "2017",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "リトルウィッチアカデミア",
+        "label_en": "リトルウィッチアカデミア",
         "startYear": "2017",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%88%E3%83%AB%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%88%E3%83%AB%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "夜は短し歩けよ乙女",
+        "label_en": "夜は短し歩けよ乙女",
         "startYear": "2017",
         "endYear": "2017",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AF%E7%9F%AD%E3%81%97%E6%AD%A9%E3%81%91%E3%82%88%E4%B9%99%E5%A5%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AF%E7%9F%AD%E3%81%97%E6%AD%A9%E3%81%91%E3%82%88%E4%B9%99%E5%A5%B3",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "魔法使いの嫁",
+        "label_en": "魔法使いの嫁",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%AB%81"
+        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%AB%81",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "スーパーマリオ オデッセイ",
+        "label_en": "スーパーマリオ オデッセイ",
         "startYear": "2017",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA%20%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%82%AA%20%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+        "label_en": "ゼルダの伝説 ブレス オブ ザ ワイルド",
         "startYear": "2017",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%96%E3%83%AC%E3%82%B9%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%96%E3%83%AC%E3%82%B9%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "カメラを止めるな!",
+        "label_en": "カメラを止めるな!",
         "startYear": "2017",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E6%AD%A2%E3%82%81%E3%82%8B%E3%81%AA!"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E6%AD%A2%E3%82%81%E3%82%8B%E3%81%AA!",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "5ちゃんねる",
+        "label_en": "5ちゃんねる",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/5%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B"
+        "url": "https://ja.wikipedia.org/wiki/5%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Substack",
         "label_en": "Substack",
         "startYear": "2017",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/Substack",
-        "url_en": "https://en.wikipedia.org/wiki/Substack",
-        "note": "個人ニュースレター時代を加速",
-        "note_en": "Newsletter platform empowering independent publishing"
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "M5Stack",
+        "label_en": "M5Stack",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/M5Stack"
+        "url": "https://ja.wikipedia.org/wiki/M5Stack",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Nintendo Switch",
+        "label_en": "Nintendo Switch",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch"
+        "url": "https://ja.wikipedia.org/wiki/Nintendo%20Switch",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "DeepL",
+        "label_en": "DeepL",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/DeepL"
+        "url": "https://ja.wikipedia.org/wiki/DeepL",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "VRChat",
@@ -16008,181 +16632,235 @@
       },
       {
         "label": "その着せ替え人形は恋をする",
+        "label_en": "その着せ替え人形は恋をする",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%AE%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E4%BA%BA%E5%BD%A2%E3%81%AF%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%AE%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E4%BA%BA%E5%BD%A2%E3%81%AF%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "スキップとローファー",
+        "label_en": "スキップとローファー",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "極主夫道",
+        "label_en": "極主夫道",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A5%B5%E4%B8%BB%E5%A4%AB%E9%81%93"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A5%B5%E4%B8%BB%E5%A4%AB%E9%81%93",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ゆるキャン△",
+        "label_en": "ゆるキャン△",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ウマ娘 プリティーダービー",
+        "label_en": "ウマ娘 プリティーダービー",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ツルネ -風舞高校弓道部-",
+        "label_en": "ツルネ -風舞高校弓道部-",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AB%E3%83%8D%20-%E9%A2%A8%E8%88%9E%E9%AB%98%E6%A0%A1%E5%BC%93%E9%81%93%E9%83%A8-"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AB%E3%83%8D%20-%E9%A2%A8%E8%88%9E%E9%AB%98%E6%A0%A1%E5%BC%93%E9%81%93%E9%83%A8-",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "メガロボクス",
+        "label_en": "メガロボクス",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%AD%E3%83%9C%E3%82%AF%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%AC%E3%83%AD%E3%83%9C%E3%82%AF%E3%82%B9",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "宇宙よりも遠い場所",
+        "label_en": "宇宙よりも遠い場所",
         "startYear": "2018",
         "endYear": "2018",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80"
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Fit Boxing",
+        "label_en": "Fit Boxing",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Fit%20Boxing"
+        "url": "https://ja.wikipedia.org/wiki/Fit%20Boxing",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Marvel’s Spider-Man",
+        "label_en": "Marvel’s Spider-Man",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Marvel%E2%80%99s%20Spider-Man"
+        "url": "https://ja.wikipedia.org/wiki/Marvel%E2%80%99s%20Spider-Man",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "大乱闘スマッシュブラザーズ SPECIAL",
+        "label_en": "大乱闘スマッシュブラザーズ SPECIAL",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%B1%E9%97%98%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA%20SPECIAL"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%B1%E9%97%98%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA%20SPECIAL",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "雀魂",
+        "label_en": "雀魂",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%9B%80%E9%AD%82"
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%80%E9%AD%82",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "スパイダーマン:スパイダーバース",
+        "label_en": "スパイダーマン:スパイダーバース",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3%3A%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3%3A%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B9",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ブラックパンサー",
+        "label_en": "ブラックパンサー",
         "startYear": "2018",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%91%E3%83%B3%E3%82%B5%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "万引き家族",
+        "label_en": "万引き家族",
         "startYear": "2018",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BC%95%E3%81%8D%E5%AE%B6%E6%97%8F"
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BC%95%E3%81%8D%E5%AE%B6%E6%97%8F",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Google Nest Hub",
+        "label_en": "Google Nest Hub",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Nest%20Hub"
+        "url": "https://ja.wikipedia.org/wiki/Google%20Nest%20Hub",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Xbox Series X/S",
+        "label_en": "Xbox Series X/S",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Xbox%20Series%20X%2FS"
+        "url": "https://ja.wikipedia.org/wiki/Xbox%20Series%20X%2FS",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Google Colaboratory",
+        "label_en": "Google Colaboratory",
         "startYear": "2018",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Colaboratory"
+        "url": "https://ja.wikipedia.org/wiki/Google%20Colaboratory",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "REALITY",
@@ -16328,12 +17006,15 @@
       },
       {
         "label": "パラサイト 半地下の家族",
+        "label_en": "パラサイト 半地下の家族",
         "startYear": "2019",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%82%B5%E3%82%A4%E3%83%88%20%E5%8D%8A%E5%9C%B0%E4%B8%8B%E3%81%AE%E5%AE%B6%E6%97%8F"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%82%B5%E3%82%A4%E3%83%88%20%E5%8D%8A%E5%9C%B0%E4%B8%8B%E3%81%AE%E5%AE%B6%E6%97%8F",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Apex Legends",
@@ -16351,129 +17032,168 @@
       },
       {
         "label": "乙女椿は笑わない",
+        "label_en": "乙女椿は笑わない",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B9%99%E5%A5%B3%E6%A4%BF%E3%81%AF%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84"
+        "url": "https://ja.wikipedia.org/wiki/%E4%B9%99%E5%A5%B3%E6%A4%BF%E3%81%AF%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "BEASTARS",
+        "label_en": "BEASTARS",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/BEASTARS"
+        "url": "https://ja.wikipedia.org/wiki/BEASTARS",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "約束のネバーランド",
+        "label_en": "約束のネバーランド",
         "startYear": "2019",
         "endYear": "2021",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E7%B4%84%E6%9D%9F%E3%81%AE%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E7%B4%84%E6%9D%9F%E3%81%AE%E3%83%8D%E3%83%90%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "DEATH STRANDING",
+        "label_en": "DEATH STRANDING",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/DEATH%20STRANDING"
+        "url": "https://ja.wikipedia.org/wiki/DEATH%20STRANDING",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "SEKIRO: SHADOWS DIE TWICE",
+        "label_en": "SEKIRO: SHADOWS DIE TWICE",
         "startYear": "2019",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/SEKIRO%3A%20SHADOWS%20DIE%20TWICE"
+        "url": "https://ja.wikipedia.org/wiki/SEKIRO%3A%20SHADOWS%20DIE%20TWICE",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ドラゴンクエストウォーク",
+        "label_en": "ドラゴンクエストウォーク",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "リングフィット アドベンチャー",
+        "label_en": "リングフィット アドベンチャー",
         "startYear": "2019",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "サ道",
+        "label_en": "サ道",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E9%81%93"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E9%81%93",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "テレビ千鳥",
+        "label_en": "テレビ千鳥",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%83%93%E5%8D%83%E9%B3%A5"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%AC%E3%83%93%E5%8D%83%E9%B3%A5",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ジョーカー",
+        "label_en": "ジョーカー",
         "startYear": "2019",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ミッドサマー",
+        "label_en": "ミッドサマー",
         "startYear": "2019",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%83%E3%83%89%E3%82%B5%E3%83%9E%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%83%E3%83%89%E3%82%B5%E3%83%9E%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "DualSense",
+        "label_en": "DualSense",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/DualSense"
+        "url": "https://ja.wikipedia.org/wiki/DualSense",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Blender 2.8",
+        "label_en": "Blender 2.8",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Blender%202.8"
+        "url": "https://ja.wikipedia.org/wiki/Blender%202.8",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Bluesky",
@@ -16580,13 +17300,16 @@
       },
       {
         "label": "原神",
+        "label_en": "原神",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%A5%9E"
+        "url": "https://ja.wikipedia.org/wiki/%E5%8E%9F%E7%A5%9E",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "あつまれ どうぶつの森",
@@ -16619,208 +17342,262 @@
       },
       {
         "label": "【推しの子】",
+        "label_en": "【推しの子】",
         "startYear": "2020",
         "endYear": "2024",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91"
+        "url": "https://ja.wikipedia.org/wiki/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "チ。-地球の運動について-",
+        "label_en": "チ。-地球の運動について-",
         "startYear": "2020",
         "endYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "メダリスト",
+        "label_en": "メダリスト",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "女の園の星",
+        "label_en": "女の園の星",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E3%81%AE%E5%9C%92%E3%81%AE%E6%98%9F"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E3%81%AE%E5%9C%92%E3%81%AE%E6%98%9F",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "葬送のフリーレン",
+        "label_en": "葬送のフリーレン",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "BNA ビー・エヌ・エー",
+        "label_en": "BNA ビー・エヌ・エー",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BNA%20%E3%83%93%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%8C%E3%83%BB%E3%82%A8%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/BNA%20%E3%83%93%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%8C%E3%83%BB%E3%82%A8%E3%83%BC",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "デカダンス",
+        "label_en": "デカダンス",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%AB%E3%83%80%E3%83%B3%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%AB%E3%83%80%E3%83%B3%E3%82%B9",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ハイキュー!! TO THE TOP",
+        "label_en": "ハイキュー!! TO THE TOP",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC!!%20TO%20THE%20TOP"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC!!%20TO%20THE%20TOP",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Ghost of Tsushima",
+        "label_en": "Ghost of Tsushima",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Ghost%20of%20Tsushima"
+        "url": "https://ja.wikipedia.org/wiki/Ghost%20of%20Tsushima",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "Hades",
+        "label_en": "Hades",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Hades"
+        "url": "https://ja.wikipedia.org/wiki/Hades",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "The Last of Us Part II",
+        "label_en": "The Last of Us Part II",
         "startYear": "2020",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us%20Part%20II"
+        "url": "https://ja.wikipedia.org/wiki/The%20Last%20of%20Us%20Part%20II",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "あつまれ どうぶつの森",
+        "label_en": "あつまれ どうぶつの森",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%20%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%20%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "サクナヒメ",
+        "label_en": "サクナヒメ",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%AF%E3%83%8A%E3%83%92%E3%83%A1",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
+        "label_en": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E%E9%9B%BB%E9%89%84%20%E3%80%9C%E6%98%AD%E5%92%8C%20%E5%B9%B3%E6%88%90%20%E4%BB%A4%E5%92%8C%E3%82%82%E5%AE%9A%E7%95%AA!%E3%80%9C"
+        "url": "https://ja.wikipedia.org/wiki/%E6%A1%83%E5%A4%AA%E9%83%8E%E9%9B%BB%E9%89%84%20%E3%80%9C%E6%98%AD%E5%92%8C%20%E5%B9%B3%E6%88%90%20%E4%BB%A4%E5%92%8C%E3%82%82%E5%AE%9A%E7%95%AA!%E3%80%9C",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "MIU404",
+        "label_en": "MIU404",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/MIU404"
+        "url": "https://ja.wikipedia.org/wiki/MIU404",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "有吉の壁",
+        "label_en": "有吉の壁",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9C%89%E5%90%89%E3%81%AE%E5%A3%81"
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%89%E5%90%89%E3%81%AE%E5%A3%81",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "BeReal",
         "label_en": "BeReal",
         "startYear": "2020",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 4,
+        "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/BeReal",
-        "url_en": "https://en.wikipedia.org/wiki/BeReal",
-        "note": "盛らない共有を打ち出したSNS",
-        "note_en": "Social app built around unfiltered daily sharing"
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Clubhouse",
         "label_en": "Clubhouse",
         "startYear": "2020",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Clubhouse_(アプリ)",
-        "url_en": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
-        "note": "音声SNSブームを起こしたアプリ",
-        "note_en": "App that sparked the social-audio boom"
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/Clubhouse",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "AirTag",
+        "label_en": "AirTag",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/AirTag"
+        "url": "https://ja.wikipedia.org/wiki/AirTag",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "LM Studio",
+        "label_en": "LM Studio",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/LM%20Studio"
+        "url": "https://ja.wikipedia.org/wiki/LM%20Studio",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Twitter Spaces",
@@ -16883,229 +17660,298 @@
       },
       {
         "label": "タコピーの原罪",
+        "label_en": "タコピーの原罪",
         "startYear": "2021",
         "endYear": "2022",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E5%8E%9F%E7%BD%AA",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ダンダダン",
+        "label_en": "ダンダダン",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "ルックバック",
+        "label_en": "ルックバック",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "税金で買った本",
+        "label_en": "税金で買った本",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E7%A8%8E%E9%87%91%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%9F%E6%9C%AC"
+        "url": "https://ja.wikipedia.org/wiki/%E7%A8%8E%E9%87%91%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%9F%E6%9C%AC",
+        "note": "異なる読者層に届いた代表的マンガ。",
+        "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "86―エイティシックス―",
+        "label_en": "86―エイティシックス―",
         "startYear": "2021",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/86%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95"
+        "url": "https://ja.wikipedia.org/wiki/86%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "PUI PUI モルカー",
+        "label_en": "PUI PUI モルカー",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PUI%20PUI%20%E3%83%A2%E3%83%AB%E3%82%AB%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/PUI%20PUI%20%E3%83%A2%E3%83%AB%E3%82%AB%E3%83%BC",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "SSSS.DYNAZENON",
+        "label_en": "SSSS.DYNAZENON",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SSSS.DYNAZENON"
+        "url": "https://ja.wikipedia.org/wiki/SSSS.DYNAZENON",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Sonny Boy",
+        "label_en": "Sonny Boy",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Sonny%20Boy"
+        "url": "https://ja.wikipedia.org/wiki/Sonny%20Boy",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ワンダーエッグ・プライオリティ",
+        "label_en": "ワンダーエッグ・プライオリティ",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%86%E3%82%A3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%86%E3%82%A3",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "平家物語",
+        "label_en": "平家物語",
         "startYear": "2021",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E"
+        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "映画大好きポンポさん",
+        "label_en": "映画大好きポンポさん",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E7%94%BB%E5%A4%A7%E5%A5%BD%E3%81%8D%E3%83%9D%E3%83%B3%E3%83%9D%E3%81%95%E3%82%93"
+        "url": "https://ja.wikipedia.org/wiki/%E6%98%A0%E7%94%BB%E5%A4%A7%E5%A5%BD%E3%81%8D%E3%83%9D%E3%83%B3%E3%83%9D%E3%81%95%E3%82%93",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "It Takes Two",
+        "label_en": "It Takes Two",
         "startYear": "2021",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/It%20Takes%20Two"
+        "url": "https://ja.wikipedia.org/wiki/It%20Takes%20Two",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "ウマ娘 プリティーダービー",
+        "label_en": "ウマ娘 プリティーダービー",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "モンスターハンターライズ",
+        "label_en": "モンスターハンターライズ",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%82%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "イカゲーム",
+        "label_en": "イカゲーム",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "すばらしき世界",
+        "label_en": "すばらしき世界",
         "startYear": "2021",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%99%E3%81%B0%E3%82%89%E3%81%97%E3%81%8D%E4%B8%96%E7%95%8C"
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%99%E3%81%B0%E3%82%89%E3%81%97%E3%81%8D%E4%B8%96%E7%95%8C",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ドライブ・マイ・カー",
+        "label_en": "ドライブ・マイ・カー",
         "startYear": "2021",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%AB%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%AB%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "花束みたいな恋をした",
+        "label_en": "花束みたいな恋をした",
         "startYear": "2021",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E6%9D%9F%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E6%81%8B%E3%82%92%E3%81%97%E3%81%9F"
+        "url": "https://ja.wikipedia.org/wiki/%E8%8A%B1%E6%9D%9F%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E6%81%8B%E3%82%92%E3%81%97%E3%81%9F",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Civitai",
+        "label_en": "Civitai",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Civitai"
+        "url": "https://ja.wikipedia.org/wiki/Civitai",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Analogue Pocket",
+        "label_en": "Analogue Pocket",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Analogue%20Pocket"
+        "url": "https://ja.wikipedia.org/wiki/Analogue%20Pocket",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Playdate",
+        "label_en": "Playdate",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Playdate"
+        "url": "https://ja.wikipedia.org/wiki/Playdate",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "instax mini Evo",
+        "label_en": "instax mini Evo",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/instax%20mini%20Evo"
+        "url": "https://ja.wikipedia.org/wiki/instax%20mini%20Evo",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "GitHub Copilot",
+        "label_en": "GitHub Copilot",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot"
+        "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "GitHub Copilot",
@@ -17261,12 +18107,15 @@
       },
       {
         "label": "トップガン マーヴェリック",
+        "label_en": "トップガン マーヴェリック",
         "startYear": "2022",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%83%E3%83%97%E3%82%AC%E3%83%B3%20%E3%83%9E%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%83%E3%83%97%E3%82%AC%E3%83%B3%20%E3%83%9E%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "エブリシング・エブリウェア・オール・アット・ワンス",
@@ -17297,221 +18146,287 @@
       },
       {
         "label": "Do It Yourself!!",
+        "label_en": "Do It Yourself!!",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Do%20It%20Yourself!!"
+        "url": "https://ja.wikipedia.org/wiki/Do%20It%20Yourself!!",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "サイバーパンク エッジランナーズ",
+        "label_en": "サイバーパンク エッジランナーズ",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF%20%E3%82%A8%E3%83%83%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF%20%E3%82%A8%E3%83%83%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%82%BA",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "サマータイムレンダ",
+        "label_en": "サマータイムレンダ",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9E%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AC%E3%83%B3%E3%83%80",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "パリピ孔明",
+        "label_en": "パリピ孔明",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%94%E5%AD%94%E6%98%8E",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ブルーロック",
+        "label_en": "ブルーロック",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "地球外少年少女",
+        "label_en": "地球外少年少女",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%83%E5%A4%96%E5%B0%91%E5%B9%B4%E5%B0%91%E5%A5%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%90%83%E5%A4%96%E5%B0%91%E5%B9%B4%E5%B0%91%E5%A5%B3",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "犬王",
+        "label_en": "犬王",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E7%8E%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E7%8E%8B",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ELDEN RING SHADOW OF THE ERDTREE",
+        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
         "startYear": "2022",
         "endYear": "2024",
         "genre": [
           "GAM"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE"
+        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "スプラトゥーン3",
+        "label_en": "スプラトゥーン3",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B33"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B33",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "THE BEAR",
+        "label_en": "THE BEAR",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/THE%20BEAR"
+        "url": "https://ja.wikipedia.org/wiki/THE%20BEAR",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "一橋桐子の犯罪日記",
+        "label_en": "一橋桐子の犯罪日記",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "TVP"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%80%E6%A9%8B%E6%A1%90%E5%AD%90%E3%81%AE%E7%8A%AF%E7%BD%AA%E6%97%A5%E8%A8%98"
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%80%E6%A9%8B%E6%A1%90%E5%AD%90%E3%81%AE%E7%8A%AF%E7%BD%AA%E6%97%A5%E8%A8%98",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "鎌倉殿の13人",
+        "label_en": "鎌倉殿の13人",
         "startYear": "2022",
         "endYear": "2022",
         "genre": [
           "TVP"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E6%AE%BF%E3%81%AE13%E4%BA%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E6%AE%BF%E3%81%AE13%E4%BA%BA",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "Everything Everywhere All at Once",
+        "label_en": "Everything Everywhere All at Once",
         "startYear": "2022",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Everything%20Everywhere%20All%20at%20Once"
+        "url": "https://ja.wikipedia.org/wiki/Everything%20Everywhere%20All%20at%20Once",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "RRR",
+        "label_en": "RRR",
         "startYear": "2022",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/RRR"
+        "url": "https://ja.wikipedia.org/wiki/RRR",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Temu",
+        "label_en": "Temu",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Temu"
+        "url": "https://ja.wikipedia.org/wiki/Temu",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Meta Quest Pro",
+        "label_en": "Meta Quest Pro",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%20Pro",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Nothing Phone (1)",
+        "label_en": "Nothing Phone (1)",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Nothing%20Phone%20(1)"
+        "url": "https://ja.wikipedia.org/wiki/Nothing%20Phone%20(1)",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Steam Deck",
+        "label_en": "Steam Deck",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Steam%20Deck"
+        "url": "https://ja.wikipedia.org/wiki/Steam%20Deck",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Character.AI",
+        "label_en": "Character.AI",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Character.AI"
+        "url": "https://ja.wikipedia.org/wiki/Character.AI",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "ChatGPT",
+        "label_en": "ChatGPT",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Midjourney",
+        "label_en": "Midjourney",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Midjourney"
+        "url": "https://ja.wikipedia.org/wiki/Midjourney",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Stable Diffusion",
+        "label_en": "Stable Diffusion",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion"
+        "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "あかね噺",
@@ -17606,13 +18521,16 @@
       },
       {
         "label": "ChatGPT",
+        "label_en": "ChatGPT",
         "startYear": "2022",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT"
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       }
     ],
     "2023": [
@@ -17678,21 +18596,27 @@
       },
       {
         "label": "オッペンハイマー",
+        "label_en": "オッペンハイマー",
         "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "バービー",
+        "label_en": "バービー",
         "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%93%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%93%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "バルダーズ・ゲート3",
@@ -17709,232 +18633,298 @@
       },
       {
         "label": "BLUE GIANT",
+        "label_en": "BLUE GIANT",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT"
+        "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "BanG Dream! It's MyGO!!!!!",
+        "label_en": "BanG Dream! It's MyGO!!!!!",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/BanG%20Dream!%20It%27s%20MyGO!!!!!"
+        "url": "https://ja.wikipedia.org/wiki/BanG%20Dream!%20It%27s%20MyGO!!!!!",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Dr.STONE NEW WORLD",
+        "label_en": "Dr.STONE NEW WORLD",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Dr.STONE%20NEW%20WORLD"
+        "url": "https://ja.wikipedia.org/wiki/Dr.STONE%20NEW%20WORLD",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "TRIGUN STAMPEDE",
+        "label_en": "TRIGUN STAMPEDE",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/TRIGUN%20STAMPEDE"
+        "url": "https://ja.wikipedia.org/wiki/TRIGUN%20STAMPEDE",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "グリッドマン ユニバース",
+        "label_en": "グリッドマン ユニバース",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89%E3%83%9E%E3%83%B3%20%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89%E3%83%9E%E3%83%B3%20%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "シャングリラ・フロンティア",
+        "label_en": "シャングリラ・フロンティア",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9%E3%83%BB%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%A9%E3%83%BB%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "スキップとローファー",
+        "label_en": "スキップとローファー",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%81%A8%E3%83%AD%E3%83%BC%E3%83%95%E3%82%A1%E3%83%BC",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ブルーピリオド",
+        "label_en": "ブルーピリオド",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%94%E3%83%AA%E3%82%AA%E3%83%89",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "君たちはどう生きるか",
+        "label_en": "君たちはどう生きるか",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B"
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "地獄楽",
+        "label_en": "地獄楽",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A5%BD"
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A5%BD",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "天国大魔境",
+        "label_en": "天国大魔境",
         "startYear": "2023",
         "endYear": "2023",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E5%9B%BD%E5%A4%A7%E9%AD%94%E5%A2%83",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+        "label_en": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
         "startYear": "2023",
         "genre": [
           "GAM"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%86%E3%82%A3%E3%82%A2%E3%83%BC%E3%82%BA%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%86%E3%82%A3%E3%82%A2%E3%83%BC%E3%82%BA%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "THE LAST OF US",
+        "label_en": "THE LAST OF US",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/THE%20LAST%20OF%20US"
+        "url": "https://ja.wikipedia.org/wiki/THE%20LAST%20OF%20US",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "PERFECT DAYS",
+        "label_en": "PERFECT DAYS",
         "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PERFECT%20DAYS"
+        "url": "https://ja.wikipedia.org/wiki/PERFECT%20DAYS",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ゴジラ-1.0",
+        "label_en": "ゴジラ-1.0",
         "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%B8%E3%83%A9-1.0"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%B8%E3%83%A9-1.0",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "怪物",
+        "label_en": "怪物",
         "startYear": "2023",
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%89%A9"
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%89%A9",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Bluesky",
+        "label_en": "Bluesky",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Bluesky"
+        "url": "https://ja.wikipedia.org/wiki/Bluesky",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Threads",
         "label_en": "Threads",
         "startYear": "2023",
+        "endYear": "ongoing",
         "genre": [
           "NET"
         ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Threads_(ソーシャルネットワーキングサービス)",
-        "url_en": "https://en.wikipedia.org/wiki/Threads_(social_network)",
-        "note": "X対抗として立ち上がったSNS",
-        "note_en": "Meta's social network launched as an X rival"
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Threads",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "ASUS ROG Ally",
+        "label_en": "ASUS ROG Ally",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ASUS%20ROG%20Ally"
+        "url": "https://ja.wikipedia.org/wiki/ASUS%20ROG%20Ally",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Meta Quest 3",
+        "label_en": "Meta Quest 3",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%203"
+        "url": "https://ja.wikipedia.org/wiki/Meta%20Quest%203",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Claude",
+        "label_en": "Claude",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Claude"
+        "url": "https://ja.wikipedia.org/wiki/Claude",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Cursor",
+        "label_en": "Cursor",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Cursor"
+        "url": "https://ja.wikipedia.org/wiki/Cursor",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "v0",
+        "label_en": "v0",
         "startYear": "2023",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/v0"
+        "url": "https://ja.wikipedia.org/wiki/v0",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "カグラバチ",
@@ -18016,210 +19006,273 @@
     "2024": [
       {
         "label": "らんま1/2 (2024年のアニメ)",
+        "label_en": "らんま1/2 (2024年のアニメ)",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1%2F2%20(2024%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1%2F2%20(2024%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ダンジョン飯",
+        "label_en": "ダンジョン飯",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%E9%A3%AF",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ダンダダン",
+        "label_en": "ダンダダン",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%80%E3%83%80%E3%83%B3",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "チ。-地球の運動について-",
+        "label_en": "チ。-地球の運動について-",
         "startYear": "2024",
         "endYear": "2025",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%80%82-%E5%9C%B0%E7%90%83%E3%81%AE%E9%81%8B%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "ルックバック",
+        "label_en": "ルックバック",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "先輩はおとこのこ",
+        "label_en": "先輩はおとこのこ",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%85%88%E8%BC%A9%E3%81%AF%E3%81%8A%E3%81%A8%E3%81%93%E3%81%AE%E3%81%93"
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%88%E8%BC%A9%E3%81%AF%E3%81%8A%E3%81%A8%E3%81%93%E3%81%AE%E3%81%93",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "夜のクラゲは泳げない",
+        "label_en": "夜のクラゲは泳げない",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "ANI"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%B2%E3%81%AF%E6%B3%B3%E3%81%92%E3%81%AA%E3%81%84"
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%B2%E3%81%AF%E6%B3%B3%E3%81%92%E3%81%AA%E3%81%84",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "怪獣8号",
+        "label_en": "怪獣8号",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%8D%A38%E5%8F%B7"
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%8D%A38%E5%8F%B7",
+        "note": "傾向の異なる話題作・代表作のアニメ。",
+        "note_en": "A notable anime representing a distinct style or audience."
       },
       {
         "label": "Balatro",
+        "label_en": "Balatro",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Balatro"
+        "url": "https://ja.wikipedia.org/wiki/Balatro",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "黒神話:悟空",
+        "label_en": "黒神話:悟空",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%BB%92%E7%A5%9E%E8%A9%B1%3A%E6%82%9F%E7%A9%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E9%BB%92%E7%A5%9E%E8%A9%B1%3A%E6%82%9F%E7%A9%BA",
+        "note": "遊び方や市場の幅を広げた代表的ゲーム。",
+        "note_en": "A game that broadened play styles or market reach."
       },
       {
         "label": "不適切にもほどがある!",
+        "label_en": "不適切にもほどがある!",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B!"
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B!",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "地面師たち",
+        "label_en": "地面師たち",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E9%9D%A2%E5%B8%AB%E3%81%9F%E3%81%A1"
+        "url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E9%9D%A2%E5%B8%AB%E3%81%9F%E3%81%A1",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "虎に翼",
+        "label_en": "虎に翼",
         "startYear": "2024",
         "endYear": "2024",
         "genre": [
           "TVP"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E8%99%8E%E3%81%AB%E7%BF%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E8%99%8E%E3%81%AB%E7%BF%BC",
+        "note": "ドラマ・バラエティ・配信作を含む代表番組。",
+        "note_en": "A representative TV or streaming program across formats."
       },
       {
         "label": "ウィキッド ふたりの魔女",
+        "label_en": "ウィキッド ふたりの魔女",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%83%E3%83%89%20%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E9%AD%94%E5%A5%B3"
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%83%E3%83%89%20%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E9%AD%94%E5%A5%B3",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "デューン 砂の惑星 PART2",
+        "label_en": "デューン 砂の惑星 PART2",
         "startYear": "2024",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A5%E3%83%BC%E3%83%B3%20%E7%A0%82%E3%81%AE%E6%83%91%E6%98%9F%20PART2"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A5%E3%83%BC%E3%83%B3%20%E7%A0%82%E3%81%AE%E6%83%91%E6%98%9F%20PART2",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "ロボット・ドリームズ",
+        "label_en": "ロボット・ドリームズ",
         "startYear": "2024",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%83%BB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%BA"
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%83%BB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%BA",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "侍タイムスリッパー",
+        "label_en": "侍タイムスリッパー",
         "startYear": "2024",
         "genre": [
           "MOV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E4%BE%8D%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC"
+        "url": "https://ja.wikipedia.org/wiki/%E4%BE%8D%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC",
+        "note": "実写・アニメ・国内外を混ぜた代表映画。",
+        "note_en": "A notable film across live-action, animation, and regions."
       },
       {
         "label": "Apple Vision Pro",
+        "label_en": "Apple Vision Pro",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Apple%20Vision%20Pro"
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Vision%20Pro",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Rabbit r1",
+        "label_en": "Rabbit r1",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Rabbit%20r1"
+        "url": "https://ja.wikipedia.org/wiki/Rabbit%20r1",
+        "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
+        "note_en": "A representative hardware product chosen across varied device categories."
       },
       {
         "label": "Apple Intelligence",
+        "label_en": "Apple Intelligence",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Apple%20Intelligence"
+        "url": "https://ja.wikipedia.org/wiki/Apple%20Intelligence",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "Sora",
+        "label_en": "Sora",
         "startYear": "2024",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Sora"
+        "url": "https://ja.wikipedia.org/wiki/Sora",
+        "note": "制作・開発・日常利用まで含む代表的ソフト。",
+        "note_en": "A representative software product across creation, development, and everyday use."
       },
       {
         "label": "ふつうの軽音部",
