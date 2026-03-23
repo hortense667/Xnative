@@ -1,5 +1,85 @@
 {
   "metadata": {},
+  "eraSettings": [
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2005,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "モバイルとネットの時代",
+      "startYear": 1995,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "MAN",
+      "label": "マンガ",
+      "conjunction": false
+    },
+    {
+      "code": "ANI",
+      "label": "アニメ",
+      "conjunction": false
+    },
+    {
+      "code": "GAM",
+      "label": "ゲーム",
+      "conjunction": false
+    },
+    {
+      "code": "TVP",
+      "label": "テレビ番組",
+      "conjunction": false
+    },
+    {
+      "code": "MOV",
+      "label": "映画",
+      "conjunction": false
+    },
+    {
+      "code": "NET",
+      "label": "インターネット",
+      "conjunction": false
+    },
+    {
+      "code": "HAR",
+      "label": "ハードウェア",
+      "conjunction": false
+    },
+    {
+      "code": "SOF",
+      "label": "ソフトウェア",
+      "conjunction": false
+    }
+  ],
   "events": {
     "1946": [
       {
@@ -9105,16 +9185,17 @@
       },
       {
         "label": "海街diary",
-        "label_en": "★海街diary",
-        "startYear": "2006",
-        "endYear": "2018",
+        "label_en": "Umimachi Diary",
+        "startYear": 2006,
+        "endYear": 2018,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%A1%97diary",
         "note": "鎌倉で暮らす姉妹の日常を静かに描いた、余韻の深い家族マンガ。",
-        "note_en": "Quiet family manga about sisters living in Kamakura, rich in atmosphere and aftertaste."
+        "note_en": "Quiet family manga about sisters living in Kamakura, rich in atmosphere and aftertaste.",
+        "url_en": "https://en.wikipedia.org/wiki/Umimachi_Diary"
       },
       {
         "label": "聖☆おにいさん",
@@ -9582,9 +9663,7 @@
       },
       {
         "label": "世界の果てまでイッテQ!",
-        "label_en": "★世界の果てまでイッテQ!",
-        "startYear": "2007",
-        "endYear": "ongoing",
+        "startYear": 2007,
         "genre": [
           "TVP"
         ],
@@ -10173,29 +10252,31 @@
       },
       {
         "label": "山賊ダイアリー",
-        "label_en": "★山賊ダイアリー",
-        "startYear": "2009",
-        "endYear": "2016",
+        "label_en": "Sanzoku Diary",
+        "startYear": 2009,
+        "endYear": 2016,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E8%B3%8A%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC",
         "note": "実体験をもとに狩猟生活を描き、現代では珍しい山暮らしを伝えたマンガ。",
-        "note_en": "Manga based on real hunting life, portraying a rare modern connection to the mountains."
+        "note_en": "Manga based on real hunting life, portraying a rare modern connection to the mountains.",
+        "url_en": "https://en.wikipedia.org/wiki/Sanzoku_Diary"
       },
       {
         "label": "惡の華",
-        "label_en": "★惡の華",
-        "startYear": "2009",
-        "endYear": "2014",
+        "label_en": "The Flowers of Evil (manga)",
+        "startYear": 2009,
+        "endYear": 2014,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%83%A1%E3%81%AE%E8%8F%AF",
         "note": "思春期の倒錯や自己嫌悪を不穏に描いた、異色の青春心理マンガ。",
-        "note_en": "Disturbing psychological youth manga about adolescent shame, obsession, and self-loathing."
+        "note_en": "Disturbing psychological youth manga about adolescent shame, obsession, and self-loathing.",
+        "url_en": "https://en.wikipedia.org/wiki/The_Flowers_of_Evil_(manga)"
       },
       {
         "label": "青の祓魔師",
@@ -10240,16 +10321,16 @@
       },
       {
         "label": "IPPONグランプリ",
-        "label_en": "★IPPONグランプリ",
-        "startYear": "2009",
-        "endYear": "ongoing",
+        "label_en": "IPPON Grand Prix",
+        "startYear": 2009,
         "genre": [
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IPPON%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA",
         "note": "大喜利の瞬発力を競う、芸人の実力が見えるお笑い番組。",
-        "note_en": "Comedy show showcasing quick wit through competitive o-giri prompts."
+        "note_en": "Comedy show showcasing quick wit through competitive o-giri prompts.",
+        "url_en": "https://en.wikipedia.org/wiki/IPPON_Grand_Prix"
       },
       {
         "label": "Windows 7",
@@ -10353,16 +10434,17 @@
       },
       {
         "label": "RAINBOW-二舎六房の七人-",
-        "label_en": "★RAINBOW-二舎六房の七人-",
-        "startYear": "2010",
-        "endYear": "2010",
+        "label_en": "Rainbow: Nisha Rokubō no Shichinin",
+        "startYear": 2010,
+        "endYear": 2010,
         "genre": [
           "ANI"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/RAINBOW-%E4%BA%8C%E8%88%8E%E5%85%AD%E6%88%BF%E3%81%AE%E4%B8%83%E4%BA%BA-",
         "note": "戦後の少年院を舞台に、過酷な環境で生き抜く若者たちを描く作品。",
-        "note_en": "Anime about youths enduring brutality and forging bonds in a postwar reform school."
+        "note_en": "Anime about youths enduring brutality and forging bonds in a postwar reform school.",
+        "url_en": "https://en.wikipedia.org/wiki/Rainbow:_Nisha_Rokub%C5%8D_no_Shichinin"
       },
       {
         "label": "ゼノブレイド",
@@ -10740,16 +10822,17 @@
       },
       {
         "label": "家政婦のミタ",
-        "label_en": "★家政婦のミタ",
-        "startYear": "2011",
-        "endYear": "2011",
+        "label_en": "I'm Mita, Your Housekeeper.",
+        "startYear": 2011,
+        "endYear": 2011,
         "genre": [
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF",
         "note": "感情を見せない家政婦が家族を変えていく高視聴率ドラマ。",
-        "note_en": "High-rating drama about an emotionless housekeeper transforming a family."
+        "note_en": "High-rating drama about an emotionless housekeeper transforming a family.",
+        "url_en": "https://en.wikipedia.org/wiki/I%27m_Mita,_Your_Housekeeper."
       },
       {
         "label": "ブラック・スワン",
@@ -10794,9 +10877,7 @@
       },
       {
         "label": "はてなブログ",
-        "label_en": "★はてなブログ",
-        "startYear": "2011",
-        "endYear": "ongoing",
+        "startYear": 2011,
         "genre": [
           "NET"
         ],
@@ -11087,16 +11168,17 @@
       },
       {
         "label": "かくかくしかじか",
-        "label_en": "★かくかくしかじか",
-        "startYear": "2012",
-        "endYear": "2015",
+        "label_en": "Blank Canvas: My So-Called Artist's Journey",
+        "startYear": 2012,
+        "endYear": 2015,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B",
         "note": "漫画家志望の青春と恩師との記憶を率直に綴った自伝的マンガ。",
-        "note_en": "Autobiographical manga candidly recounting youth, art school, and a formative mentor."
+        "note_en": "Autobiographical manga candidly recounting youth, art school, and a formative mentor.",
+        "url_en": "https://en.wikipedia.org/wiki/Blank_Canvas:_My_So-Called_Artist%27s_Journey"
       },
       {
         "label": "かげきしょうじょ!!",
@@ -11198,16 +11280,17 @@
       },
       {
         "label": "リーガル・ハイ",
-        "label_en": "★リーガル・ハイ",
-        "startYear": "2012",
-        "endYear": "2013",
+        "label_en": "Legal High (Japanese TV series)",
+        "startYear": 2012,
+        "endYear": 2013,
         "genre": [
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%AB%E3%83%BB%E3%83%8F%E3%82%A4",
         "note": "毒舌弁護士の奔放な弁論で人気を集めた法廷コメディドラマ。",
-        "note_en": "Legal comedy drama starring a sharp-tongued lawyer and flamboyant courtroom speeches."
+        "note_en": "Legal comedy drama starring a sharp-tongued lawyer and flamboyant courtroom speeches.",
+        "url_en": "https://en.wikipedia.org/wiki/Legal_High_(Japanese_TV_series)"
       },
       {
         "label": "孤独のグルメ",
@@ -11225,8 +11308,7 @@
       },
       {
         "label": "桐島、部活やめるってよ",
-        "label_en": "★桐島、部活やめるってよ",
-        "startYear": "2012",
+        "startYear": 2012,
         "genre": [
           "MOV"
         ],
@@ -11234,19 +11316,6 @@
         "url": "https://ja.wikipedia.org/wiki/%E6%A1%90%E5%B3%B6%E3%80%81%E9%83%A8%E6%B4%BB%E3%82%84%E3%82%81%E3%82%8B%E3%81%A3%E3%81%A6%E3%82%88",
         "note": "学校内の視点のずれから青春の空気を浮かび上がらせた群像劇。",
         "note_en": "Ensemble youth film revealing school life through shifting perspectives."
-      },
-      {
-        "label": "BASE",
-        "label_en": "★BASE",
-        "startYear": "2012",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BASE",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Tinder",
@@ -11553,16 +11622,16 @@
       },
       {
         "label": "応天の門",
-        "label_en": "★応天の門",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "label_en": "Ōten no Mon",
+        "startYear": 2013,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%BF%9C%E5%A4%A9%E3%81%AE%E9%96%80",
         "note": "在原業平や菅原道真の時代を背景に、平安の謎を描く歴史ミステリマンガ。",
-        "note_en": "Historical mystery manga set in the Heian era around figures like Sugawara no Michizane."
+        "note_en": "Historical mystery manga set in the Heian era around figures like Sugawara no Michizane.",
+        "url_en": "https://en.wikipedia.org/wiki/%C5%8Cten_no_Mon"
       },
       {
         "label": "Free!",
@@ -11692,14 +11761,12 @@
       },
       {
         "label": "ソニー α7",
-        "label_en": "★ソニー α7",
-        "startYear": "2013",
-        "endYear": "ongoing",
+        "startYear": 2013,
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%20%CE%B17",
+        "url": "https://ja.wikipedia.org/wiki/%CE%91_(%E3%82%AB%E3%83%A1%E3%83%A9)",
         "note": "フルサイズミラーレス普及を加速させたデジタルカメラ。",
         "note_en": "Camera line that accelerated mainstream adoption of full-frame mirrorless."
       },
@@ -11968,9 +12035,7 @@
       },
       {
         "label": "家、ついて行ってイイですか?",
-        "label_en": "★家、ついて行ってイイですか?",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "startYear": 2014,
         "genre": [
           "TVP"
         ],
@@ -11981,16 +12046,16 @@
       },
       {
         "label": "水曜日のダウンタウン",
-        "label_en": "★水曜日のダウンタウン",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "label_en": "Wednesday's Downtown",
+        "startYear": 2014,
         "genre": [
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3",
         "note": "検証企画の過激さとメタ視点で話題を呼ぶバラエティ番組。",
-        "note_en": "Variety show famous for provocative premise-testing and meta humor."
+        "note_en": "Variety show famous for provocative premise-testing and meta humor.",
+        "url_en": "https://en.wikipedia.org/wiki/Wednesday%27s_Downtown"
       },
       {
         "label": "アナと雪の女王",
@@ -12021,17 +12086,14 @@
       },
       {
         "label": "note",
-        "label_en": "note",
-        "startYear": "2014",
-        "endYear": "ongoing",
+        "startYear": 2014,
         "genre": [
           "NET"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/note",
+        "url": "https://ja.wikipedia.org/wiki/Note_(%E9%85%8D%E4%BF%A1%E3%82%B5%E3%82%A4%E3%83%88)",
         "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role.",
-        "url_en": "https://en.wikipedia.org/wiki/Note_(Japanese_company)"
+        "note_en": "A representative internet service with a distinct role."
       },
       {
         "label": "Apple Watch",
@@ -13243,9 +13305,7 @@
       },
       {
         "label": "5ちゃんねる",
-        "label_en": "★5ちゃんねる",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "startYear": 2017,
         "genre": [
           "NET"
         ],
@@ -13270,9 +13330,7 @@
       },
       {
         "label": "M5Stack",
-        "label_en": "★M5Stack",
-        "startYear": "2017",
-        "endYear": "ongoing",
+        "startYear": 2017,
         "genre": [
           "HAR"
         ],
@@ -13770,8 +13828,7 @@
       },
       {
         "label": "REALITY",
-        "label_en": "★REALITY",
-        "startYear": "2018",
+        "startYear": 2018,
         "genre": [
           "NET"
         ],
@@ -13779,18 +13836,6 @@
         "url": "https://ja.wikipedia.org/wiki/REALITY",
         "note": "スマホVTuber配信を広げた国産基盤",
         "note_en": "Japanese platform that broadened smartphone VTuber streaming"
-      },
-      {
-        "label": "pixivFANBOX",
-        "label_en": "★pixivFANBOX",
-        "startYear": "2018",
-        "genre": [
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/PixivFANBOX",
-        "note": "クリエイター支援型の定額プラットフォーム",
-        "note_en": "Subscription platform for supporting creators"
       },
       {
         "label": "Identity V",
@@ -13883,14 +13928,12 @@
       },
       {
         "label": "乙女椿は笑わない",
-        "label_en": "★乙女椿は笑わない",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "startYear": 2019,
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B9%99%E5%A5%B3%E6%A4%BF%E3%81%AF%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84",
+        "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A2%A8%E3%81%BF%E3%81%A4%E3%81%B0",
         "note": "複雑な家庭環境を抱える少女の恋と再生を描く少女マンガ。",
         "note_en": "Shojo manga about a girl from a complicated family finding love and recovery."
       },
@@ -13978,9 +14021,7 @@
       },
       {
         "label": "サ道",
-        "label_en": "★サ道",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "startYear": 2019,
         "genre": [
           "TVP"
         ],
@@ -13991,9 +14032,7 @@
       },
       {
         "label": "テレビ千鳥",
-        "label_en": "★テレビ千鳥",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "startYear": 2019,
         "genre": [
           "TVP"
         ],
@@ -14045,13 +14084,12 @@
       {
         "label": "Blender 2.8",
         "label_en": "Blender 2.8",
-        "startYear": "2019",
-        "endYear": "ongoing",
+        "startYear": 2019,
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Blender%202.8",
+        "url": "https://ja.wikipedia.org/wiki/Blender",
         "note": "UI刷新で利用者層を広げた3DCG制作ソフトの重要版。",
         "note_en": "Important Blender release that broadened its user base through a major UI overhaul.",
         "url_en": "https://en.wikipedia.org/wiki/Blender_(software)"
@@ -14219,13 +14257,12 @@
       {
         "label": "メダリスト",
         "label_en": "Medalist (manga)",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "startYear": 2020,
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88_(%E6%BC%AB%E7%94%BB)",
         "note": "フィギュアスケートに懸ける執念を熱く映像化したスポーツアニメ。",
         "note_en": "Sports anime vividly portraying the obsession and effort behind figure skating.",
         "url_en": "https://en.wikipedia.org/wiki/Medalist_(manga)"
@@ -14288,9 +14325,8 @@
       },
       {
         "label": "ハイキュー!! TO THE TOP",
-        "label_en": "★ハイキュー!! TO THE TOP",
-        "startYear": "2020",
-        "endYear": "2020",
+        "startYear": 2020,
+        "endYear": 2020,
         "genre": [
           "ANI"
         ],
@@ -14370,9 +14406,7 @@
       },
       {
         "label": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-        "label_en": "★桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "startYear": 2020,
         "genre": [
           "GAM"
         ],
@@ -14383,9 +14417,8 @@
       },
       {
         "label": "MIU404",
-        "label_en": "★MIU404",
-        "startYear": "2020",
-        "endYear": "2020",
+        "startYear": 2020,
+        "endYear": 2020,
         "genre": [
           "TVP"
         ],
@@ -14396,9 +14429,7 @@
       },
       {
         "label": "有吉の壁",
-        "label_en": "★有吉の壁",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "startYear": 2020,
         "genre": [
           "TVP"
         ],
@@ -14424,13 +14455,12 @@
       {
         "label": "Clubhouse",
         "label_en": "Clubhouse",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "startYear": 2020,
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Clubhouse",
+        "url": "https://ja.wikipedia.org/wiki/Clubhouse_(%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)",
         "note": "サービスの性格が異なる代表的インターネット項目。",
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Clubhouse_(app)"
@@ -14451,21 +14481,18 @@
       },
       {
         "label": "LM Studio",
-        "label_en": "★LM Studio",
-        "startYear": "2020",
-        "endYear": "ongoing",
+        "label_en": "LM Studio",
+        "startYear": 2020,
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/LM%20Studio",
         "note": "ローカル環境で大規模言語モデルを扱いやすくする実行ツール。",
         "note_en": "Runtime tool that makes it easier to run large language models locally."
       },
       {
         "label": "Twitter Spaces",
-        "label_en": "★Twitter Spaces",
-        "startYear": "2020",
+        "startYear": 2020,
         "genre": [
           "NET"
         ],
@@ -14550,27 +14577,27 @@
       },
       {
         "label": "税金で買った本",
-        "label_en": "★税金で買った本",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Zeikin de Katta Hon",
+        "startYear": 2021,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E7%A8%8E%E9%87%91%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%9F%E6%9C%AC",
         "note": "図書館を舞台に、本と公共サービスの役割を軽妙に伝えるマンガ。",
-        "note_en": "Library manga that lightly but clearly conveys books and the value of public services."
+        "note_en": "Library manga that lightly but clearly conveys books and the value of public services.",
+        "url_en": "https://en.wikipedia.org/wiki/Zeikin_de_Katta_Hon"
       },
       {
         "label": "86―エイティシックス―",
         "label_en": "86 (novel series)",
-        "startYear": "2021",
-        "endYear": "2022",
+        "startYear": 2021,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/86%E2%80%95%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E2%80%95",
+        "url": "https://ja.wikipedia.org/wiki/86-%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9-",
         "note": "差別構造と戦場の現実を重ねて描いた近未来戦争アニメ。",
         "note_en": "Near-future war anime intertwining discrimination with battlefield reality.",
         "url_en": "https://en.wikipedia.org/wiki/86_(novel_series)"
@@ -14619,30 +14646,31 @@
       },
       {
         "label": "ワンダーエッグ・プライオリティ",
-        "label_en": "★ワンダーエッグ・プライオリティ",
-        "startYear": "2021",
-        "endYear": "2021",
+        "label_en": "Wonder Egg Priority",
+        "startYear": 2021,
+        "endYear": 2021,
         "genre": [
           "ANI"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%86%E3%82%A3",
         "note": "少女たちの心の傷を幻想世界で扱った意欲的オリジナル作品。",
-        "note_en": "Ambitious original anime exploring girls’ trauma through a dreamlike world."
+        "note_en": "Ambitious original anime exploring girls’ trauma through a dreamlike world.",
+        "url_en": "https://en.wikipedia.org/wiki/Wonder_Egg_Priority"
       },
       {
         "label": "平家物語",
-        "label_en": "The Heike Story",
-        "startYear": "2021",
-        "endYear": "2022",
+        "label_en": "The Heike Story (anime)",
+        "startYear": 2021,
+        "endYear": 2022,
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E",
+        "url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%AE%B6%E7%89%A9%E8%AA%9E_(%E3%82%A2%E3%83%8B%E3%83%A1)",
         "note": "古典をもとに無常観を現代的感性で映像化した歴史アニメ。",
         "note_en": "Historical anime adapting a classic tale of impermanence with modern sensitivity.",
-        "url_en": "https://en.wikipedia.org/wiki/The_Heike_Story"
+        "url_en": "https://en.wikipedia.org/wiki/The_Heike_Story_(anime)"
       },
       {
         "label": "映画大好きポンポさん",
@@ -14661,12 +14689,12 @@
       {
         "label": "It Takes Two",
         "label_en": "It Takes Two",
-        "startYear": "2021",
+        "startYear": 2021,
         "genre": [
           "GAM"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/It%20Takes%20Two",
+        "url": "https://ja.wikipedia.org/wiki/It_Takes_Two_(%E3%82%B2%E3%83%BC%E3%83%A0)",
         "note": "二人協力を徹底前提にした構成で高く評価されたアクションアドベンチャー。",
         "note_en": "Acclaimed action adventure built entirely around two-player cooperation.",
         "url_en": "https://en.wikipedia.org/wiki/It_Takes_Two_(2021_video_game)"
@@ -14715,8 +14743,7 @@
       },
       {
         "label": "すばらしき世界",
-        "label_en": "★すばらしき世界",
-        "startYear": "2021",
+        "startYear": 2021,
         "genre": [
           "MOV"
         ],
@@ -14728,20 +14755,19 @@
       {
         "label": "ドライブ・マイ・カー",
         "label_en": "Drive My Car (film)",
-        "startYear": "2021",
+        "startYear": 2021,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%AB%E3%83%BC",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%AB%E3%83%BC_(%E6%98%A0%E7%94%BB)",
         "note": "喪失を抱えた男の対話と移動を通じて心の再生を描く作品。",
         "note_en": "Film about grief and emotional recovery unfolding through conversations and travel.",
         "url_en": "https://en.wikipedia.org/wiki/Drive_My_Car_(film)"
       },
       {
         "label": "花束みたいな恋をした",
-        "label_en": "★花束みたいな恋をした",
-        "startYear": "2021",
+        "startYear": 2021,
         "genre": [
           "MOV"
         ],
@@ -14752,27 +14778,24 @@
       },
       {
         "label": "Civitai",
-        "label_en": "★Civitai",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "label_en": "Civitai",
+        "startYear": 2021,
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Civitai",
         "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role."
+        "note_en": "A representative internet service with a distinct role.",
+        "url_en": "https://en.wikipedia.org/wiki/Civitai"
       },
       {
         "label": "Analogue Pocket",
         "label_en": "Analogue Pocket",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "startYear": 2021,
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Analogue%20Pocket",
         "note": "携帯型でレトロゲーム実機互換を追求したFPGA機。",
         "note_en": "FPGA handheld focused on accurate compatibility with classic game cartridges.",
         "url_en": "https://en.wikipedia.org/wiki/Analogue_Pocket"
@@ -14780,27 +14803,24 @@
       {
         "label": "Playdate",
         "label_en": "Playdate",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "startYear": 2021,
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Playdate",
+        "url": "https://ja.wikipedia.org/wiki/Playdate_(%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F)",
         "note": "クランク操作で個性を打ち出した小型携帯ゲーム機。",
         "note_en": "Compact handheld distinguished by its crank-based control.",
         "url_en": "https://en.wikipedia.org/wiki/Playdate_(console)"
       },
       {
         "label": "instax mini Evo",
-        "label_en": "★instax mini Evo",
-        "startYear": "2021",
-        "endYear": "ongoing",
+        "startYear": 2021,
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/instax%20mini%20Evo",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%BB%E3%83%81%E3%82%A7%E3%82%AD",
         "note": "撮影とプリントを融合したハイブリッドインスタントカメラ。",
         "note_en": "Hybrid instant camera combining digital shooting with on-demand printing."
       },
@@ -14835,13 +14855,12 @@
       {
         "label": "Horizon Worlds",
         "label_en": "Horizon Worlds",
-        "startYear": "2021",
+        "startYear": 2021,
         "genre": [
           "NET",
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Horizon_Worlds",
         "url_en": "https://en.wikipedia.org/wiki/Horizon_Worlds",
         "note": "メタバース期待を象徴した仮想空間",
         "note_en": "Virtual world emblematic of metaverse ambitions"
@@ -15152,9 +15171,8 @@
       },
       {
         "label": "一橋桐子の犯罪日記",
-        "label_en": "★一橋桐子の犯罪日記",
-        "startYear": "2022",
-        "endYear": "2022",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "TVP"
         ],
@@ -15165,26 +15183,27 @@
       },
       {
         "label": "鎌倉殿の13人",
-        "label_en": "★鎌倉殿の13人",
-        "startYear": "2022",
-        "endYear": "2022",
+        "label_en": "The 13 Lords of the Shogun",
+        "startYear": 2022,
+        "endYear": 2022,
         "genre": [
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E9%8E%8C%E5%80%89%E6%AE%BF%E3%81%AE13%E4%BA%BA",
         "note": "鎌倉幕府成立期の権力闘争を群像劇として描いた大河ドラマ。",
-        "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate."
+        "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate.",
+        "url_en": "https://en.wikipedia.org/wiki/The_13_Lords_of_the_Shogun"
       },
       {
         "label": "Everything Everywhere All at Once",
         "label_en": "Everything Everywhere All at Once",
-        "startYear": "2022",
+        "startYear": 2022,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Everything%20Everywhere%20All%20at%20Once",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%96%E3%83%AA%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%A8%E3%83%96%E3%83%AA%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%83%E3%83%88%E3%83%BB%E3%83%AF%E3%83%B3%E3%82%B9",
         "note": "多元宇宙と家族ドラマを奔放な発想で結びつけた映画。",
         "note_en": "Film that wildly fuses multiverse chaos with intimate family drama.",
         "url_en": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
@@ -15192,12 +15211,12 @@
       {
         "label": "RRR",
         "label_en": "RRR",
-        "startYear": "2022",
+        "startYear": 2022,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/RRR",
+        "url": "https://ja.wikipedia.org/wiki/RRR_(%E6%98%A0%E7%94%BB)",
         "note": "過剰なアクションと友情の熱量で国際的支持を集めたインド映画。",
         "note_en": "Indian blockbuster that won international fans through maximal action and friendship.",
         "url_en": "https://en.wikipedia.org/wiki/RRR"
@@ -15233,13 +15252,11 @@
       {
         "label": "Nothing Phone (1)",
         "label_en": "Nothing Phone (1)",
-        "startYear": "2022",
-        "endYear": "ongoing",
+        "startYear": 2022,
         "genre": [
           "HAR"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Nothing%20Phone%20(1)",
         "note": "透明感ある筐体デザインで注目を集めたスマートフォン。",
         "note_en": "Smartphone noted for its transparent-inspired industrial design.",
         "url_en": "https://en.wikipedia.org/wiki/Nothing_Phone_1"
@@ -15261,13 +15278,11 @@
       {
         "label": "Character.AI",
         "label_en": "Character.AI",
-        "startYear": "2022",
-        "endYear": "ongoing",
+        "startYear": 2022,
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Character.AI",
         "note": "キャラクターとの対話体験を前面に出した会話AIサービス。",
         "note_en": "Conversational AI service centered on chatting with fictional or styled characters.",
         "url_en": "https://en.wikipedia.org/wiki/Character.AI"
@@ -15342,25 +15357,24 @@
       },
       {
         "label": "平和の国の島崎へ",
-        "label_en": "★Shimasaki in the Land of Peace",
-        "startYear": "2022",
+        "label_en": "Shimazaki in the Land of Peace",
+        "startYear": 2022,
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/平和の国の島崎へ",
         "note": "元少年兵の再出発を描く社会派",
-        "note_en": "A social drama about a former child soldier rebuilding life"
+        "note_en": "A social drama about a former child soldier rebuilding life",
+        "url_en": "https://en.wikipedia.org/wiki/Shimazaki_in_the_Land_of_Peace"
       },
       {
         "label": "さよなら絵梨",
         "label_en": "Goodbye, Eri",
-        "startYear": "2022",
+        "startYear": 2022,
         "genre": [
           "MAN"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/さよなら絵梨",
         "note": "映像感覚の強い読切マンガの話題作",
         "note_en": "A buzzy one-shot manga with a strong cinematic feel",
         "url_en": "https://en.wikipedia.org/wiki/Goodbye,_Eri"
@@ -15378,20 +15392,6 @@
         "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
         "note": "対話型生成AIを一般化",
         "note_en": "Chatbot that brought generative AI to the mainstream"
-      },
-      {
-        "label": "Character.AI",
-        "label_en": "Character.AI",
-        "startYear": "2022",
-        "genre": [
-          "NET",
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Character.AI",
-        "url_en": "https://en.wikipedia.org/wiki/Character.AI",
-        "note": "人格チャットの代表格",
-        "note_en": "Leading platform for character-based chatbots"
       },
       {
         "label": "Stable Diffusion",
@@ -15448,7 +15448,7 @@
           "JAPAN"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/【推しの子】",
+        "url": "https://ja.wikipedia.org/wiki/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91_(%E3%82%A2%E3%83%8B%E3%83%A1)",
         "url_en": "https://en.wikipedia.org/wiki/Oshi_no_Ko",
         "note": "芸能界の光と影を描く話題作。",
         "note_en": "Hit anime exposing the idol industry’s dark/light."
@@ -15486,12 +15486,12 @@
       {
         "label": "オッペンハイマー",
         "label_en": "Oppenheimer (film)",
-        "startYear": "2023",
+        "startYear": 2023,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC_(%E6%98%A0%E7%94%BB)",
         "note": "原爆開発の中心人物を通じて科学と責任を問う伝記映画。",
         "note_en": "Biographical film examining science and responsibility through the atomic bomb project leader.",
         "url_en": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
@@ -15499,12 +15499,12 @@
       {
         "label": "バービー",
         "label_en": "Barbie (film)",
-        "startYear": "2023",
+        "startYear": 2023,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%93%E3%83%BC",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%93%E3%83%BC_(%E6%98%A0%E7%94%BB)",
         "note": "人形の世界を借りてジェンダーや自己像をポップに問い直した映画。",
         "note_en": "Pop film using Barbie’s world to rethink gender and self-image.",
         "url_en": "https://en.wikipedia.org/wiki/Barbie_(film)"
@@ -15524,9 +15524,9 @@
       },
       {
         "label": "BLUE GIANT",
-        "label_en": "BLUE GIANT",
-        "startYear": "2023",
-        "endYear": "2023",
+        "label_en": "Blue Giant (manga)",
+        "startYear": 2023,
+        "endYear": 2023,
         "genre": [
           "ANI"
         ],
@@ -15534,7 +15534,7 @@
         "url": "https://ja.wikipedia.org/wiki/BLUE%20GIANT",
         "note": "ジャズに人生を賭ける青年の熱意を正面から描いた音楽マンガ。",
         "note_en": "Music manga about a young man throwing everything into jazz.",
-        "url_en": "https://en.wikipedia.org/wiki/Blue_Giant"
+        "url_en": "https://en.wikipedia.org/wiki/Blue_Giant_(manga)"
       },
       {
         "label": "BanG Dream! It's MyGO!!!!!",
@@ -15637,13 +15637,13 @@
       {
         "label": "君たちはどう生きるか",
         "label_en": "The Boy and the Heron",
-        "startYear": "2023",
-        "endYear": "2023",
+        "startYear": 2023,
+        "endYear": 2023,
         "genre": [
           "ANI"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B",
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%8B_(%E6%98%A0%E7%94%BB)",
         "note": "喪失と世界の再構築を大きな寓意で描いた宮崎駿監督作品。",
         "note_en": "Hayao Miyazaki film using grand allegory to explore loss and rebuilding a world.",
         "url_en": "https://en.wikipedia.org/wiki/The_Boy_and_the_Heron"
@@ -15732,15 +15732,15 @@
       {
         "label": "怪物",
         "label_en": "Monster (2023 film)",
-        "startYear": "2023",
+        "startYear": 2023,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%89%A9",
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%89%A9_(2023%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
         "note": "子どもと大人の視点差から真実が変わって見える人間ドラマ。",
         "note_en": "Human drama where shifting viewpoints between children and adults alter the apparent truth.",
-        "url_en": "https://en.wikipedia.org/wiki/Monster_(2023_film)"
+        "url_en": "https://en.wikipedia.org/wiki/Monster_(2023_Japanese_film)"
       },
       {
         "label": "Bluesky",
@@ -15814,29 +15814,16 @@
       },
       {
         "label": "Cursor",
-        "label_en": "★Cursor",
-        "startYear": "2023",
-        "endYear": "ongoing",
+        "label_en": "Cursor (code editor)",
+        "startYear": 2023,
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Cursor",
+        "url": "https://ja.wikipedia.org/wiki/Cursor_(%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%83%BC)",
         "note": "AI支援を前面に出したコードエディタとして注目された開発環境。",
-        "note_en": "Development environment that drew attention as an AI-first code editor."
-      },
-      {
-        "label": "v0",
-        "label_en": "★v0",
-        "startYear": "2023",
-        "endYear": "ongoing",
-        "genre": [
-          "SOF"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/v0",
-        "note": "UIコード生成を素早く試せる生成AIツール。",
-        "note_en": "Generative AI tool for quickly prototyping UI code."
+        "note_en": "Development environment that drew attention as an AI-first code editor.",
+        "url_en": "https://en.wikipedia.org/wiki/Cursor_(code_editor)"
       },
       {
         "label": "カグラバチ",
@@ -15853,39 +15840,42 @@
       },
       {
         "label": "ダイヤモンドの功罪",
-        "label_en": "★The Crimes of Diamond",
-        "startYear": "2023",
+        "label_en": "The Days of Diamond",
+        "startYear": 2023,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ダイヤモンドの功罪",
         "note": "才能の重さを描く野球マンガ",
-        "note_en": "Baseball manga about talent, pressure, and isolation"
+        "note_en": "Baseball manga about talent, pressure, and isolation",
+        "url_en": "https://en.wikipedia.org/wiki/The_Days_of_Diamond"
       },
       {
         "label": "雷雷雷",
-        "label_en": "★Raiden Triple",
-        "startYear": "2023",
+        "label_en": "Rai Rai Rai",
+        "startYear": 2023,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/雷雷雷",
         "note": "怪獣と労働感覚を混ぜた異色作",
-        "note_en": "Offbeat manga mixing kaiju action with labor-life humor"
+        "note_en": "Offbeat manga mixing kaiju action with labor-life humor",
+        "url_en": "https://en.wikipedia.org/wiki/Rai_Rai_Rai"
       },
       {
         "label": "君と宇宙を歩くために",
-        "label_en": "★To Walk in Space with You",
-        "startYear": "2023",
+        "label_en": "Spacewalking with You",
+        "startYear": 2023,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/君と宇宙を歩くために",
         "note": "生きづらさと友情を描く成長譚",
-        "note_en": "Coming-of-age manga about neurodiversity and friendship"
+        "note_en": "Coming-of-age manga about neurodiversity and friendship",
+        "url_en": "https://en.wikipedia.org/wiki/Spacewalking_with_You"
       },
       {
         "label": "Bing Chat",
@@ -15904,13 +15894,12 @@
       {
         "label": "MONOPOLY GO!",
         "label_en": "MONOPOLY GO!",
-        "startYear": "2023",
+        "startYear": 2023,
         "genre": [
           "GAM",
           "NET"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/MONOPOLY_GO!",
         "note": "古典ボードゲームIPのモバイルSNS化",
         "note_en": "Mobile social hit built from a classic board-game IP",
         "url_en": "https://en.wikipedia.org/wiki/Monopoly_Go!"
@@ -15920,16 +15909,14 @@
       {
         "label": "らんま1/2 (2024年のアニメ)",
         "label_en": "Ranma ½",
-        "startYear": "2024",
-        "endYear": "ongoing",
+        "startYear": 2024,
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1%2F2%20(2024%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1/2#%E3%82%A2%E3%83%8B%E3%83%A1%EF%BC%882024%E5%B9%B4%E7%89%88%EF%BC%89",
         "note": "高橋留美子作品を現代的な映像で再アニメ化した新シリーズ。",
-        "note_en": "New anime adaptation of Rumiko Takahashi’s comedy with updated visuals.",
-        "url_en": "https://en.wikipedia.org/wiki/Ranma_%C2%BD#2024_anime_series"
+        "note_en": "New anime adaptation of Rumiko Takahashi’s comedy with updated visuals."
       },
       {
         "label": "ダンジョン飯",
@@ -16059,16 +16046,17 @@
       },
       {
         "label": "不適切にもほどがある!",
-        "label_en": "★不適切にもほどがある!",
-        "startYear": "2024",
-        "endYear": "2024",
+        "label_en": "Extremely Inappropriate!",
+        "startYear": 2024,
+        "endYear": 2024,
         "genre": [
           "TVP"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B!",
         "note": "昭和的価値観と現代の衝突をコメディ化した話題作。",
-        "note_en": "Talked-about comedy about collisions between Showa-era values and the present day."
+        "note_en": "Talked-about comedy about collisions between Showa-era values and the present day.",
+        "url_en": "https://en.wikipedia.org/wiki/Extremely_Inappropriate!"
       },
       {
         "label": "地面師たち",
@@ -16166,20 +16154,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Apple_Vision_Pro"
       },
       {
-        "label": "Rabbit r1",
-        "label_en": "Rabbit r1",
-        "startYear": "2024",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Rabbit%20r1",
-        "note": "AIエージェント体験を前面に出した小型携帯デバイス。",
-        "note_en": "Compact device built around AI-agent interactions.",
-        "url_en": "https://en.wikipedia.org/wiki/Rabbit_Inc."
-      },
-      {
         "label": "Apple Intelligence",
         "label_en": "Apple Intelligence",
         "startYear": "2024",
@@ -16196,57 +16170,58 @@
       {
         "label": "Sora",
         "label_en": "Sora",
-        "startYear": "2024",
-        "endYear": "ongoing",
+        "startYear": 2024,
         "genre": [
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Sora",
+        "url": "https://ja.wikipedia.org/wiki/Sora_(%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%A2%E3%83%87%E3%83%AB)",
         "note": "テキストから動画を生成する能力で話題になった映像生成AI。",
         "note_en": "Video-generation AI that drew attention for creating clips from text prompts.",
         "url_en": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)"
       },
       {
         "label": "ふつうの軽音部",
-        "label_en": "★The Ordinary Light Music Club",
-        "startYear": "2024",
+        "label_en": "Girl Meets Rock!",
+        "startYear": 2024,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ふつうの軽音部",
         "note": "軽音部の日常を等身大で描く青春作",
-        "note_en": "A grounded youth manga about an ordinary school band"
+        "note_en": "A grounded youth manga about an ordinary school band",
+        "url_en": "https://en.wikipedia.org/wiki/Girl_Meets_Rock!"
       },
       {
         "label": "ドカ食いダイスキ! もちづきさん",
-        "label_en": "★Mochizuki Loves Binge Eating!",
-        "startYear": "2024",
+        "label_en": "Dokagui Daisuki! Mochizuki-san",
+        "startYear": 2024,
         "genre": [
           "MAN"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/ドカ食いダイスキ!_もちづきさん",
         "note": "食欲とストレス解放を誇張した怪作",
-        "note_en": "Cult manga exaggerating binge eating and stress relief"
+        "note_en": "Cult manga exaggerating binge eating and stress relief",
+        "url_en": "https://en.wikipedia.org/wiki/Dokagui_Daisuki!_Mochizuki-san"
       },
       {
         "label": "しのびごと",
-        "label_en": "★Shinobigoto",
-        "startYear": "2024",
+        "label_en": "Shinobi Undercover",
+        "startYear": 2024,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/しのびごと",
         "note": "忍者設定をラブコメに繋ぐ新連載",
-        "note_en": "New manga mixing ninja action with romantic comedy"
+        "note_en": "New manga mixing ninja action with romantic comedy",
+        "url_en": "https://en.wikipedia.org/wiki/Shinobi_Undercover"
       },
       {
         "label": "ドラマクイン",
-        "label_en": "★Drama Queen",
-        "startYear": "2024",
+        "startYear": 2024,
         "genre": [
           "MAN"
         ],
@@ -16257,8 +16232,7 @@
       },
       {
         "label": "mixi2",
-        "label_en": "★mixi2",
-        "startYear": "2024",
+        "startYear": 2024,
         "genre": [
           "NET"
         ],
@@ -16314,13 +16288,12 @@
       {
         "label": "メダリスト",
         "label_en": "Medalist (manga)",
-        "startYear": "2025",
-        "endYear": "ongoing",
+        "startYear": 2025,
         "genre": [
           "ANI"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88_(%E6%BC%AB%E7%94%BB)",
         "note": "フィギュアスケートに懸ける執念を熱く映像化したスポーツアニメ。",
         "note_en": "Sports anime vividly portraying the obsession and effort behind figure skating.",
         "url_en": "https://en.wikipedia.org/wiki/Medalist_(manga)"
@@ -16369,16 +16342,17 @@
       },
       {
         "label": "べらぼう〜蔦重栄華乃夢噺〜",
-        "label_en": "★べらぼう〜蔦重栄華乃夢噺〜",
-        "startYear": "2025",
-        "endYear": "2025",
+        "label_en": "Unbound (TV series)",
+        "startYear": 2025,
+        "endYear": 2025,
         "genre": [
           "TVP"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%82%89%E3%81%BC%E3%81%86%E3%80%9C%E8%94%A6%E9%87%8D%E6%A0%84%E8%8F%AF%E4%B9%83%E5%A4%A2%E5%99%BA%E3%80%9C",
         "note": "江戸の出版文化を支えた蔦屋重三郎を描く大河ドラマ。",
-        "note_en": "Taiga drama about Tsutaya Juzaburo and the rise of Edo publishing culture."
+        "note_en": "Taiga drama about Tsutaya Juzaburo and the rise of Edo publishing culture.",
+        "url_en": "https://en.wikipedia.org/wiki/Unbound_(TV_series)"
       },
       {
         "label": "アドレセンス",
@@ -16423,9 +16397,8 @@
       },
       {
         "label": "エンバーズ",
-        "label_en": "★Embers",
-        "startYear": "2025",
-        "endYear": "2025",
+        "startYear": 2025,
+        "endYear": 2025,
         "genre": [
           "MAN"
         ],
@@ -16436,9 +16409,8 @@
       },
       {
         "label": "Bの星線",
-        "label_en": "★B no Seisen",
-        "startYear": "2025",
-        "endYear": "2025",
+        "startYear": 2025,
+        "endYear": 2025,
         "genre": [
           "MAN"
         ],
@@ -16449,16 +16421,17 @@
       },
       {
         "label": "ハルカゼマウンド",
-        "label_en": "★Harukaze Mound",
-        "startYear": "2025",
-        "endYear": "2026",
+        "label_en": "Harukaze Mound",
+        "startYear": 2025,
+        "endYear": 2026,
         "genre": [
           "MAN"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ハルカゼマウンド",
         "note": "高校野球を正面から描く連載",
-        "note_en": "High-school baseball manga launched in 2025"
+        "note_en": "High-school baseball manga launched in 2025",
+        "url_en": "https://en.wikipedia.org/wiki/Harukaze_Mound"
       },
       {
         "label": "BanG Dream! Ave Mujica -manuscriptus-",
@@ -16491,111 +16464,30 @@
       {
         "label": "Manus",
         "label_en": "Manus",
-        "startYear": "2025",
+        "startYear": 2025,
         "genre": [
           "NET",
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Manus_(AI)",
-        "url_en": "https://en.wikipedia.org/wiki/Manus_(AI)",
+        "url": "https://ja.wikipedia.org/wiki/Manus",
+        "url_en": "https://en.wikipedia.org/wiki/Manus_(AI_agent)",
         "note": "自律型AIエージェントとして話題",
         "note_en": "AI agent service that drew attention in 2025"
       },
       {
         "label": "Operator",
         "label_en": "Operator",
-        "startYear": "2025",
+        "startYear": 2025,
         "genre": [
           "NET",
           "SOF"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Operator_(OpenAI)",
-        "url_en": "https://en.wikipedia.org/wiki/Operator_(OpenAI)",
+        "url_en": "https://en.wikipedia.org/wiki/OpenAI_Operator",
         "note": "ブラウザ操作型AIの象徴例",
         "note_en": "Representative browser-operating AI agent"
       }
     ]
-  },
-  "eraSettings": [
-    {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "ビデオとゲームの時代",
-      "startYear": 1983,
-      "endYear": 2005,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "モバイルとネットの時代",
-      "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2022,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "MAN",
-      "label": "マンガ",
-      "conjunction": false
-    },
-    {
-      "code": "ANI",
-      "label": "アニメ",
-      "conjunction": false
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム",
-      "conjunction": false
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組",
-      "conjunction": false
-    },
-    {
-      "code": "MOV",
-      "label": "映画",
-      "conjunction": false
-    },
-    {
-      "code": "NET",
-      "label": "インターネット",
-      "conjunction": false
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア",
-      "conjunction": false
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア",
-      "conjunction": false
-    }
-  ]
+  }
 }
