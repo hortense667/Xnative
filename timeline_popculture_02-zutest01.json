@@ -12783,20 +12783,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Mastodon_(social_network)",
         "note": "分散型SNSの代表例",
         "note_en": "Flagship decentralized social network"
-      },
-      {
-        "label": "Pokémon GO",
-        "label_en": "Pokémon GO",
-        "startYear": "2016",
-        "genre": [
-          "GAM",
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pokémon_GO",
-        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
-        "note": "位置情報とSNS拡散で社会現象に",
-        "note_en": "AR mobile game that spread through networked play"
       }
     ],
     "2017": [
