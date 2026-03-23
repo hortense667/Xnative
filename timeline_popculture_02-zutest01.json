@@ -7767,7 +7767,7 @@
       },
       {
         "label": "ガイアの夜明け",
-        "label_en": "★Gaia no Yoake",
+        "label_en": "",
         "startYear": 2002,
         "genre": [
           "JAPAN",
@@ -8116,13 +8116,14 @@
       },
       {
         "label": "キヤノンEOS Kiss Digital",
-        "label_en": "★キヤノンEOS Kiss Digital",
+        "label_en": "Canon EOS 300D",
         "startYear": "2003",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3EOS%20Kiss%20Digital",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A4%E3%83%8E%E3%83%B3_EOS_Kiss_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB",
+        "url_en": "https://en.wikipedia.org/wiki/Canon_EOS_300D"
         "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
         "note_en": "A representative hardware product chosen across varied device categories."
       },
@@ -8478,8 +8479,8 @@
         "note_en": "Sony’s multimedia handheld console."
       },
       {
-        "label": "逃走中",
-        "label_en": "★逃走中",
+        "label": "run for money 逃走中",
+        "label_en": "",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
@@ -8785,13 +8786,14 @@
       },
       {
         "label": "リンダ リンダ リンダ",
-        "label_en": "★リンダ リンダ リンダ",
+        "label_en": "Linda Linda Linda",
         "startYear": "2005",
         "genre": [
           "MOV"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80%20%E3%83%AA%E3%83%B3%E3%83%80",
+        "url_en": "https://en.wikipedia.org/wiki/Linda_Linda_Linda"
         "note": "実写・アニメ・国内外を混ぜた代表映画。",
         "note_en": "A notable film across live-action, animation, and regions."
       },
@@ -8811,7 +8813,7 @@
       },
       {
         "label": "食べログ",
-        "label_en": "★食べログ",
+        "label_en": "Tabelog",
         "startYear": "2005",
         "endYear": "ongoing",
         "genre": [
@@ -8819,6 +8821,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0",
+        "url_en": "https://en.wikipedia.org/wiki/Tabelog"
         "note": "サービスの性格が異なる代表的インターネット項目。",
         "note_en": "A representative internet service with a distinct role."
       },
@@ -9102,7 +9105,7 @@
       },
       {
         "label": "海街diary",
-        "label_en": "★海街diary",
+        "label_en": "Umimachi Diary",
         "startYear": "2006",
         "endYear": "2018",
         "genre": [
@@ -9110,6 +9113,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%A1%97diary",
+        "url_en": "https://en.wikipedia.org/wiki/Umimachi_Diary",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -9579,7 +9583,7 @@
       },
       {
         "label": "世界の果てまでイッテQ!",
-        "label_en": "★世界の果てまでイッテQ!",
+        "label_en": "",
         "startYear": "2007",
         "endYear": "ongoing",
         "genre": [
@@ -10170,7 +10174,7 @@
       },
       {
         "label": "山賊ダイアリー",
-        "label_en": "★山賊ダイアリー",
+        "label_en": "Sanzoku Diary",
         "startYear": "2009",
         "endYear": "2016",
         "genre": [
@@ -10178,12 +10182,13 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E8%B3%8A%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC",
+        "url_en": "https://en.wikipedia.org/wiki/Sanzoku_Diary",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
       {
         "label": "惡の華",
-        "label_en": "★惡の華",
+        "label_en": "https://en.wikipedia.org/wiki/The_Flowers_of_Evil_(manga)",
         "startYear": "2009",
         "endYear": "2014",
         "genre": [
@@ -10191,6 +10196,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E6%83%A1%E3%81%AE%E8%8F%AF",
+        "url_en": "https://en.wikipedia.org/wiki/The_Flowers_of_Evil_(manga)",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -10237,7 +10243,7 @@
       },
       {
         "label": "IPPONグランプリ",
-        "label_en": "★IPPONグランプリ",
+        "label_en": "https://en.wikipedia.org/wiki/IPPON_Grand_Prix",
         "startYear": "2009",
         "endYear": "ongoing",
         "genre": [
@@ -10245,6 +10251,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/IPPON%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA",
+        "url_en": "https://en.wikipedia.org/wiki/IPPON_Grand_Prix",
         "note": "ドラマ・バラエティ・配信作を含む代表番組。",
         "note_en": "A representative TV or streaming program across formats."
       },
@@ -10350,7 +10357,7 @@
       },
       {
         "label": "RAINBOW-二舎六房の七人-",
-        "label_en": "★RAINBOW-二舎六房の七人-",
+        "label_en": "Rainbow: Nisha Rokubō no Shichinin",
         "startYear": "2010",
         "endYear": "2010",
         "genre": [
@@ -10358,6 +10365,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/RAINBOW-%E4%BA%8C%E8%88%8E%E5%85%AD%E6%88%BF%E3%81%AE%E4%B8%83%E4%BA%BA-",
+        "url_en": "https://en.wikipedia.org/wiki/Rainbow:_Nisha_Rokub%C5%8D_no_Shichinin",
         "note": "傾向の異なる話題作・代表作のアニメ。",
         "note_en": "A notable anime representing a distinct style or audience."
       },
@@ -10737,7 +10745,7 @@
       },
       {
         "label": "家政婦のミタ",
-        "label_en": "★家政婦のミタ",
+        "label_en": "I'm Mita, Your Housekeeper.",
         "startYear": "2011",
         "endYear": "2011",
         "genre": [
@@ -10745,6 +10753,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF",
+        "url_en": "https://en.wikipedia.org/wiki/I%27m_Mita,_Your_Housekeeper.",
         "note": "ドラマ・バラエティ・配信作を含む代表番組。",
         "note_en": "A representative TV or streaming program across formats."
       },
@@ -10791,7 +10800,7 @@
       },
       {
         "label": "はてなブログ",
-        "label_en": "★はてなブログ",
+        "label_en": "",
         "startYear": "2011",
         "endYear": "ongoing",
         "genre": [
@@ -11084,7 +11093,7 @@
       },
       {
         "label": "かくかくしかじか",
-        "label_en": "★かくかくしかじか",
+        "label_en": "Blank Canvas: My So-Called Artist's Journey",
         "startYear": "2012",
         "endYear": "2015",
         "genre": [
@@ -11092,6 +11101,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%8F%E3%81%8B%E3%81%8F%E3%81%97%E3%81%8B%E3%81%98%E3%81%8B",
+        "url_en": "https://en.wikipedia.org/wiki/Blank_Canvas:_My_So-Called_Artist%27s_Journey",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -11195,7 +11205,7 @@
       },
       {
         "label": "リーガル・ハイ",
-        "label_en": "★リーガル・ハイ",
+        "label_en": "Legal High (Japanese TV series)",
         "startYear": "2012",
         "endYear": "2013",
         "genre": [
@@ -11203,6 +11213,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%AB%E3%83%BB%E3%83%8F%E3%82%A4",
+        "url_en": "https://en.wikipedia.org/wiki/Legal_High_(Japanese_TV_series)",
         "note": "ドラマ・バラエティ・配信作を含む代表番組。",
         "note_en": "A representative TV or streaming program across formats."
       },
@@ -11222,7 +11233,7 @@
       },
       {
         "label": "桐島、部活やめるってよ",
-        "label_en": "★桐島、部活やめるってよ",
+        "label_en": "",
         "startYear": "2012",
         "genre": [
           "MOV"
@@ -11234,14 +11245,14 @@
       },
       {
         "label": "BASE",
-        "label_en": "★BASE",
+        "label_en": "",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BASE",
+        "url": "https://ja.wikipedia.org/wiki/%E9%B6%B4%E5%B2%A1%E8%A3%95%E5%A4%AA",
         "note": "サービスの性格が異なる代表的インターネット項目。",
         "note_en": "A representative internet service with a distinct role."
       },
@@ -11550,7 +11561,7 @@
       },
       {
         "label": "応天の門",
-        "label_en": "★応天の門",
+        "label_en": "Ōten no Mon",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
@@ -11558,6 +11569,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E5%BF%9C%E5%A4%A9%E3%81%AE%E9%96%80",
+        "url_en": "https://en.wikipedia.org/wiki/%C5%8Cten_no_Mon",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -11689,14 +11701,14 @@
       },
       {
         "label": "ソニー α7",
-        "label_en": "★ソニー α7",
+        "label_en": "Sony α7",
         "startYear": "2013",
         "endYear": "ongoing",
         "genre": [
           "HAR"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%20%CE%B17",
+        "url": "https://ja.wikipedia.org/wiki/%CE%91_(%E3%82%AB%E3%83%A1%E3%83%A9)",
         "note": "機器カテゴリが偏らないよう選んだ代表ハード。",
         "note_en": "A representative hardware product chosen across varied device categories."
       },
@@ -11965,7 +11977,7 @@
       },
       {
         "label": "家、ついて行ってイイですか?",
-        "label_en": "★家、ついて行ってイイですか?",
+        "label_en": "",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
@@ -11978,7 +11990,7 @@
       },
       {
         "label": "水曜日のダウンタウン",
-        "label_en": "★水曜日のダウンタウン",
+        "label_en": "Wednesday's Downtown",
         "startYear": "2014",
         "endYear": "ongoing",
         "genre": [
@@ -11986,6 +11998,7 @@
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Wednesday%27s_Downtown",
         "note": "ドラマ・バラエティ・配信作を含む代表番組。",
         "note_en": "A representative TV or streaming program across formats."
       },
@@ -13240,7 +13253,7 @@
       },
       {
         "label": "5ちゃんねる",
-        "label_en": "★5ちゃんねる",
+        "label_en": "",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
@@ -13267,7 +13280,7 @@
       },
       {
         "label": "M5Stack",
-        "label_en": "★M5Stack",
+        "label_en": "",
         "startYear": "2017",
         "endYear": "ongoing",
         "genre": [
@@ -13338,7 +13351,7 @@
     "2018": [
       {
         "label": "FANZA",
-        "label_en": "★FANZA",
+        "label_en": "",
         "startYear": 2018,
         "endYear": "ongoing",
         "genre": [
@@ -13767,7 +13780,7 @@
       },
       {
         "label": "REALITY",
-        "label_en": "★REALITY",
+        "label_en": "",
         "startYear": "2018",
         "genre": [
           "NET"
@@ -13779,13 +13792,13 @@
       },
       {
         "label": "pixivFANBOX",
-        "label_en": "★pixivFANBOX",
+        "label_en": "",
         "startYear": "2018",
         "genre": [
           "NET"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/PixivFANBOX",
+        "url": "https://ja.wikipedia.org/wiki/Pixiv",
         "note": "クリエイター支援型の定額プラットフォーム",
         "note_en": "Subscription platform for supporting creators"
       },
@@ -13880,14 +13893,14 @@
       },
       {
         "label": "乙女椿は笑わない",
-        "label_en": "★乙女椿は笑わない",
+        "label_en": "",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
           "MAN"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B9%99%E5%A5%B3%E6%A4%BF%E3%81%AF%E7%AC%91%E3%82%8F%E3%81%AA%E3%81%84",
+        "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A2%A8%E3%81%BF%E3%81%A4%E3%81%B0",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -13975,7 +13988,7 @@
       },
       {
         "label": "サ道",
-        "label_en": "★サ道",
+        "label_en": "",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
@@ -13988,7 +14001,7 @@
       },
       {
         "label": "テレビ千鳥",
-        "label_en": "★テレビ千鳥",
+        "label_en": "",
         "startYear": "2019",
         "endYear": "ongoing",
         "genre": [
@@ -14285,7 +14298,7 @@
       },
       {
         "label": "ハイキュー!! TO THE TOP",
-        "label_en": "★ハイキュー!! TO THE TOP",
+        "label_en": "Haikyu!!",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
@@ -14293,6 +14306,7 @@
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC!!%20TO%20THE%20TOP",
+        "url_en": "https://en.wikipedia.org/wiki/Haikyu!!#Anime",
         "note": "傾向の異なる話題作・代表作のアニメ。",
         "note_en": "A notable anime representing a distinct style or audience."
       },
@@ -14367,7 +14381,7 @@
       },
       {
         "label": "桃太郎電鉄 〜昭和 平成 令和も定番!〜",
-        "label_en": "★桃太郎電鉄 〜昭和 平成 令和も定番!〜",
+        "label_en": "",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
@@ -14380,7 +14394,7 @@
       },
       {
         "label": "MIU404",
-        "label_en": "★MIU404",
+        "label_en": "",
         "startYear": "2020",
         "endYear": "2020",
         "genre": [
@@ -14393,7 +14407,7 @@
       },
       {
         "label": "有吉の壁",
-        "label_en": "★有吉の壁",
+        "label_en": "",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
@@ -14448,20 +14462,20 @@
       },
       {
         "label": "LM Studio",
-        "label_en": "★LM Studio",
+        "label_en": "",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
           "SOF"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/LM%20Studio",
-        "note": "制作・開発・日常利用まで含む代表的ソフト。",
-        "note_en": "A representative software product across creation, development, and everyday use."
+        "url": "",
+        "note": "ローカルPCで大規模言語モデル（LLM）を安全に動かせるアプリ",
+        "note_en": "An application that allows you to safely run large language models (LLM) on a local PC."
       },
       {
         "label": "Twitter Spaces",
-        "label_en": "★Twitter Spaces",
+        "label_en": "Twitter Spaces",
         "startYear": "2020",
         "genre": [
           "NET"
@@ -14547,7 +14561,7 @@
       },
       {
         "label": "税金で買った本",
-        "label_en": "★税金で買った本",
+        "label_en": "https://en.wikipedia.org/wiki/Zeikin_de_Katta_Hon",
         "startYear": "2021",
         "endYear": "ongoing",
         "genre": [
@@ -14555,6 +14569,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E7%A8%8E%E9%87%91%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%9F%E6%9C%AC",
+        "url_en": "https://en.wikipedia.org/wiki/Zeikin_de_Katta_Hon",
         "note": "異なる読者層に届いた代表的マンガ。",
         "note_en": "A representative manga with a distinct tone and audience."
       },
@@ -14616,7 +14631,7 @@
       },
       {
         "label": "ワンダーエッグ・プライオリティ",
-        "label_en": "★ワンダーエッグ・プライオリティ",
+        "label_en": "Wonder Egg Priority",
         "startYear": "2021",
         "endYear": "2021",
         "genre": [
@@ -14624,6 +14639,7 @@
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%82%A8%E3%83%83%E3%82%B0%E3%83%BB%E3%83%97%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%AA%E3%83%86%E3%82%A3",
+        "url_en": "https://en.wikipedia.org/wiki/Wonder_Egg_Priority",
         "note": "傾向の異なる話題作・代表作のアニメ。",
         "note_en": "A notable anime representing a distinct style or audience."
       },
