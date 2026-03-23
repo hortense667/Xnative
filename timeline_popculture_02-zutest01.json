@@ -9897,20 +9897,6 @@
         "url_en": "https://en.wikipedia.org/wiki/GitHub"
       },
       {
-        "label": "Spotify",
-        "label_en": "Spotify",
-        "startYear": "2008",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Spotify",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role.",
-        "url_en": "https://en.wikipedia.org/wiki/Spotify"
-      },
-      {
         "label": "ニコニコ生放送",
         "label_en": "Niconico",
         "startYear": "2008",
