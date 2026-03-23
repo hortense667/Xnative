@@ -10698,19 +10698,6 @@
         "note_en": "A representative internet service with a distinct role."
       },
       {
-        "label": "ニンテンドー3DS",
-        "label_en": "Nintendo 3DS",
-        "startYear": "2011",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC3DS",
-        "note": "裸眼3D表示と携帯性を両立した任天堂の携帯ゲーム機。",
-        "note_en": "Nintendo handheld combining portable gaming with glasses-free 3D.",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_3DS"
-      },
-      {
         "label": "Final Cut Pro X",
         "label_en": "Final Cut Pro X",
         "startYear": "2011",
