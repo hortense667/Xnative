@@ -7766,19 +7766,6 @@
         "note_en": "Pioneered consumer robot vacuums."
       },
       {
-        "label": "ガイアの夜明け",
-        "label_en": "★Gaia no Yoake",
-        "startYear": 2002,
-        "genre": [
-          "JAPAN",
-          "TVP"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ガイアの夜明け",
-        "note": "経済・企業を深掘りする報道番組。",
-        "note_en": "Japanese business and economy docuseries."
-      },
-      {
         "label": "相棒",
         "label_en": "Aibō (Partners)",
         "startYear": 2002,
@@ -7924,6 +7911,18 @@
         "note": "ショービジネスと犯罪を華やかに描いたミュージカル映画。",
         "note_en": "Musical film mixing crime and show business with dazzling style.",
         "url_en": "https://en.wikipedia.org/wiki/Chicago_(2002_film)"
+      },
+      {
+        "label": "ガイアの夜明け",
+        "startYear": "2002",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ガイアの夜明け",
+        "note": "経済・企業を深掘りする報道番組。",
+        "note_en": "Japanese business and economy docuseries.",
+        "_rev": "1774245971451-tzna1wf2"
       }
     ],
     "2003": [
