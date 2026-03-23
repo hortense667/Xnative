@@ -1,6 +1,25 @@
 {
   "metadata": {},
   "events": {
+    "1945": [
+      {
+        "label": "終戦",
+        "startYear": "1945",
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/降伏文書",
+        "note": "連合国との降伏文書に調印し第二次世界大戦が終結。",
+        "label_en": "Japan’s surrender",
+        "note_en": "Japan signed the Instrument of Surrender, ending World War II.",
+        "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
+        "_source": "ref",
+        "_refGroupId": "timeline_background_02.json"
+      }
+    ],
     "1946": [
       {
         "label": "サザエさん",
@@ -33,6 +52,23 @@
         "url_en": "https://en.wikipedia.org/wiki/New_Treasure_Island",
         "note": "手塚治虫の初期長編で漫画表現を革新。",
         "note_en": "Osamu Tezuka’s early long-form work that innovated manga."
+      },
+      {
+        "label": "ベル研究所でトランジスタ発明",
+        "startYear": "1947",
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
+        "note": "バーディーン、ブラッテン、ショックレーが点接触型を実証。",
+        "label_en": "Transistor invented at Bell Labs",
+        "note_en": "Bardeen, Brattain and Shockley demonstrated the point‑contact transistor.",
+        "url_en": "https://en.wikipedia.org/wiki/Transistor",
+        "_source": "ref",
+        "_refGroupId": "timeline_background_02.json"
       }
     ],
     "1948": [
@@ -61,6 +97,59 @@
         "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves",
         "note": "ネオリアリズモの傑作として名高い映画。",
         "note_en": "Landmark of Italian neorealism."
+      },
+      {
+        "label": "LPレコード（33⅓rpm）発売",
+        "startYear": "1948",
+        "genre": [
+          "PRODUCT",
+          "COMPANY",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/LP%E7%9B%A4",
+        "note": "コロムビアがLPを発売し音楽再生の標準を刷新。",
+        "label_en": "LP record (33⅓ rpm) launched",
+        "note_en": "Columbia introduced the LP, redefining recorded music playback.",
+        "url_en": "https://en.wikipedia.org/wiki/LP_record",
+        "_source": "ref",
+        "_refGroupId": "timeline_background_02.json"
+      },
+      {
+        "label": "ベル研究所 情報理論論文",
+        "startYear": "1948",
+        "genre": [
+          "CONTENT",
+          "PRODUCT",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%9A%E4%BF%A1%E3%81%AE%E6%95%B0%E5%AD%A6%E7%9A%84%E7%90%86%E8%AB%96",
+        "note": "クロード・シャノンが通信の基礎理論を確立。",
+        "label_en": "Shannon’s Information Theory paper",
+        "note_en": "Claude Shannon established the mathematical foundations of communication.",
+        "url_en": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
+        "_source": "ref",
+        "_refGroupId": "timeline_background_02.json"
+      }
+    ],
+    "1949": [
+      {
+        "label": "湯川秀樹 ノーベル物理学賞",
+        "startYear": "1949",
+        "genre": [
+          "EVENT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E5%B7%9D%E7%A7%80%E6%A8%B9",
+        "note": "日本人初のノーベル賞受賞（中間子理論）。",
+        "label_en": "Hideki Yukawa wins Nobel Prize",
+        "note_en": "First Japanese Nobel laureate for meson theory.",
+        "url_en": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
+        "_source": "ref",
+        "_refGroupId": "timeline_background_02.json"
       }
     ],
     "1950": [
@@ -79,6 +168,7 @@
         "note_en": "Kurosawa’s classic probing truth via multiple viewpoints."
       }
     ],
+    "1951": [],
     "1952": [
       {
         "label": "鉄腕アトム",
@@ -8519,19 +8609,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Logic_Pro"
       },
       {
-        "label": "ニンテンドーDS",
-        "label_en": "Nintendo DS",
-        "startYear": "2004",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
-        "note": "二画面とタッチ操作で携帯ゲームの裾野を広げた携帯機。",
-        "note_en": "Dual-screen handheld that expanded gaming with touch controls.",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS"
-      },
-      {
         "label": "逃走中",
         "startYear": "2004",
         "endYear": "ongoing",
@@ -8543,6 +8620,19 @@
         "note": "制限時間内の逃走劇をゲーム感覚で見せるサバイバル系バラエティ。",
         "note_en": "Survival-style variety show turning escape under time limits into game-like entertainment.",
         "_rev": "1774246158384-0fvmoebp"
+      },
+      {
+        "label": "ニンテンドーDS",
+        "label_en": "Nintendo DS",
+        "startYear": "2004",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
+        "note": "二画面とタッチ操作で携帯ゲームの裾野を広げた携帯機。",
+        "note_en": "Dual-screen handheld that expanded gaming with touch controls.",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS"
       }
     ],
     "2005": [
@@ -9554,20 +9644,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Pixiv"
       },
       {
-        "label": "iPhone",
-        "label_en": "iPhone",
-        "startYear": "2007",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPhone",
-        "note": "スマートフォン時代を決定づけたマルチタッチ携帯端末。",
-        "note_en": "Multitouch smartphone that defined the modern smartphone era.",
-        "url_en": "https://en.wikipedia.org/wiki/IPhone"
-      },
-      {
         "label": "Dropbox (ソフトウェア)",
         "label_en": "Dropbox",
         "startYear": "2007",
@@ -9608,6 +9684,20 @@
         "note": "iPhoneの基盤としてモバイルアプリ文化を牽引したOS。",
         "note_en": "Operating system that powered the iPhone and led mobile app culture.",
         "url_en": "https://en.wikipedia.org/wiki/IOS"
+      },
+      {
+        "label": "iPhone",
+        "label_en": "iPhone",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/iPhone",
+        "note": "スマートフォン時代を決定づけたマルチタッチ携帯端末。",
+        "note_en": "Multitouch smartphone that defined the modern smartphone era.",
+        "url_en": "https://en.wikipedia.org/wiki/IPhone"
       }
     ],
     "2008": [
@@ -14827,17 +14917,17 @@
         "url_en": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick"
       },
       {
-        "label": "エブリシング・エブリウェア・オール・アット・ワンス",
+        "label": "Everything Everywhere All at Once",
         "label_en": "Everything Everywhere All at Once",
         "startYear": 2022,
         "genre": [
           "MOV"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/エブリシング・エブリウェア・オール・アット・ワンス",
-        "url_en": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once",
-        "note": "マルチバース家庭劇が賞レース席巻。",
-        "note_en": "Multiverse family dramedy swept awards."
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%96%E3%83%AA%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%A8%E3%83%96%E3%83%AA%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%83%E3%83%88%E3%83%BB%E3%83%AF%E3%83%B3%E3%82%B9",
+        "note": "多元宇宙と家族ドラマを奔放な発想で結びつけた映画。",
+        "note_en": "Film that wildly fuses multiverse chaos with intimate family drama.",
+        "url_en": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
       },
       {
         "label": "ELDEN RING",
@@ -15018,19 +15108,6 @@
         "note": "鎌倉幕府成立期の権力闘争を群像劇として描いた大河ドラマ。",
         "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate.",
         "url_en": "https://en.wikipedia.org/wiki/The_13_Lords_of_the_Shogun"
-      },
-      {
-        "label": "Everything Everywhere All at Once",
-        "label_en": "Everything Everywhere All at Once",
-        "startYear": 2022,
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%96%E3%83%AA%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%A8%E3%83%96%E3%83%AA%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%83%E3%83%88%E3%83%BB%E3%83%AF%E3%83%B3%E3%82%B9",
-        "note": "多元宇宙と家族ドラマを奔放な発想で結びつけた映画。",
-        "note_en": "Film that wildly fuses multiverse chaos with intimate family drama.",
-        "url_en": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
       },
       {
         "label": "RRR",
@@ -16300,44 +16377,7 @@
       }
     ]
   },
-  "eraSettings": [
-    {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "ビデオとゲームの時代",
-      "startYear": 1983,
-      "endYear": 2005,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "モバイルとネットの時代",
-      "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2022,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
+  "eraSettings": [],
   "genres": [
     {
       "code": "MAN",
