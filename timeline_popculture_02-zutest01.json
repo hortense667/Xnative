@@ -8519,20 +8519,6 @@
         "url_en": "https://en.wikipedia.org/wiki/OpenStreetMap"
       },
       {
-        "label": "mixi",
-        "label_en": "mixi",
-        "startYear": "2004",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/mixi",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role.",
-        "url_en": "https://en.wikipedia.org/wiki/Mixi"
-      },
-      {
         "label": "Logic Pro",
         "label_en": "Logic Pro",
         "startYear": "2004",
