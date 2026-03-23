@@ -9174,20 +9174,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Death_Note"
       },
       {
-        "label": "X",
-        "label_en": "X",
-        "startYear": "2006",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/X",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role.",
-        "url_en": "https://en.wikipedia.org/wiki/X_(social_network)"
-      },
-      {
         "label": "1Password",
         "label_en": "1Password",
         "startYear": "2006",
