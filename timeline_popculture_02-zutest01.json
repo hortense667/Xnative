@@ -9213,21 +9213,6 @@
         "note": "体感操作で家庭向けゲーム体験を広げた任天堂の据置機。",
         "note_en": "Nintendo console that broadened gaming through motion controls.",
         "url_en": "https://en.wikipedia.org/wiki/Wii"
-      },
-      {
-        "label": "ニコニコ動画",
-        "startYear": "2006",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%8B%95%E7%94%BB",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "label_en": "Niconico",
-        "url_en": "https://en.wikipedia.org/wiki/Niconico",
-        "note_en": "A representative internet service with a distinct role.",
-        "_rev": "1774251337152-o1i0e35o"
       }
     ],
     "2007": [
