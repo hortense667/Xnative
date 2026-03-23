@@ -7626,20 +7626,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Wikipedia"
       },
       {
-        "label": "iPod",
-        "label_en": "iPod",
-        "startYear": "2001",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPod",
-        "note": "携帯音楽プレーヤー市場を再定義したデジタル音楽端末。",
-        "note_en": "Digital music player that redefined the portable audio market.",
-        "url_en": "https://en.wikipedia.org/wiki/IPod"
-      },
-      {
         "label": "Mac OS X",
         "label_en": "Mac OS X",
         "startYear": "2001",
