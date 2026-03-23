@@ -8479,19 +8479,6 @@
         "note_en": "Sony’s multimedia handheld console."
       },
       {
-        "label": "逃走中",
-        "label_en": "★逃走中",
-        "startYear": "2004",
-        "endYear": "ongoing",
-        "genre": [
-          "TVP"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD",
-        "note": "制限時間内の逃走劇をゲーム感覚で見せるサバイバル系バラエティ。",
-        "note_en": "Survival-style variety show turning escape under time limits into game-like entertainment."
-      },
-      {
         "label": "エターナル・サンシャイン",
         "label_en": "Eternal Sunshine of the Spotless Mind",
         "startYear": "2004",
@@ -8571,6 +8558,19 @@
         "note": "二画面とタッチ操作で携帯ゲームの裾野を広げた携帯機。",
         "note_en": "Dual-screen handheld that expanded gaming with touch controls.",
         "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS"
+      },
+      {
+        "label": "逃走中",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD",
+        "note": "制限時間内の逃走劇をゲーム感覚で見せるサバイバル系バラエティ。",
+        "note_en": "Survival-style variety show turning escape under time limits into game-like entertainment.",
+        "_rev": "1774246158384-0fvmoebp"
       }
     ],
     "2005": [
