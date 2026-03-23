@@ -1,25 +1,6 @@
 {
   "metadata": {},
   "events": {
-    "1945": [
-      {
-        "label": "終戦",
-        "startYear": "1945",
-        "genre": [
-          "EVENT",
-          "JAPAN",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/降伏文書",
-        "note": "連合国との降伏文書に調印し第二次世界大戦が終結。",
-        "label_en": "Japan’s surrender",
-        "note_en": "Japan signed the Instrument of Surrender, ending World War II.",
-        "url_en": "https://en.wikipedia.org/wiki/Surrender_of_Japan",
-        "_source": "ref",
-        "_refGroupId": "timeline_background_02.json"
-      }
-    ],
     "1946": [
       {
         "label": "サザエさん",
@@ -52,23 +33,6 @@
         "url_en": "https://en.wikipedia.org/wiki/New_Treasure_Island",
         "note": "手塚治虫の初期長編で漫画表現を革新。",
         "note_en": "Osamu Tezuka’s early long-form work that innovated manga."
-      },
-      {
-        "label": "ベル研究所でトランジスタ発明",
-        "startYear": "1947",
-        "genre": [
-          "PRODUCT",
-          "COMPANY",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%B9%E3%82%BF",
-        "note": "バーディーン、ブラッテン、ショックレーが点接触型を実証。",
-        "label_en": "Transistor invented at Bell Labs",
-        "note_en": "Bardeen, Brattain and Shockley demonstrated the point‑contact transistor.",
-        "url_en": "https://en.wikipedia.org/wiki/Transistor",
-        "_source": "ref",
-        "_refGroupId": "timeline_background_02.json"
       }
     ],
     "1948": [
@@ -97,59 +61,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Bicycle_Thieves",
         "note": "ネオリアリズモの傑作として名高い映画。",
         "note_en": "Landmark of Italian neorealism."
-      },
-      {
-        "label": "LPレコード（33⅓rpm）発売",
-        "startYear": "1948",
-        "genre": [
-          "PRODUCT",
-          "COMPANY",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/LP%E7%9B%A4",
-        "note": "コロムビアがLPを発売し音楽再生の標準を刷新。",
-        "label_en": "LP record (33⅓ rpm) launched",
-        "note_en": "Columbia introduced the LP, redefining recorded music playback.",
-        "url_en": "https://en.wikipedia.org/wiki/LP_record",
-        "_source": "ref",
-        "_refGroupId": "timeline_background_02.json"
-      },
-      {
-        "label": "ベル研究所 情報理論論文",
-        "startYear": "1948",
-        "genre": [
-          "CONTENT",
-          "PRODUCT",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%9A%E4%BF%A1%E3%81%AE%E6%95%B0%E5%AD%A6%E7%9A%84%E7%90%86%E8%AB%96",
-        "note": "クロード・シャノンが通信の基礎理論を確立。",
-        "label_en": "Shannon’s Information Theory paper",
-        "note_en": "Claude Shannon established the mathematical foundations of communication.",
-        "url_en": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-        "_source": "ref",
-        "_refGroupId": "timeline_background_02.json"
-      }
-    ],
-    "1949": [
-      {
-        "label": "湯川秀樹 ノーベル物理学賞",
-        "startYear": "1949",
-        "genre": [
-          "EVENT",
-          "JAPAN",
-          "WORLD"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E5%B7%9D%E7%A7%80%E6%A8%B9",
-        "note": "日本人初のノーベル賞受賞（中間子理論）。",
-        "label_en": "Hideki Yukawa wins Nobel Prize",
-        "note_en": "First Japanese Nobel laureate for meson theory.",
-        "url_en": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
-        "_source": "ref",
-        "_refGroupId": "timeline_background_02.json"
       }
     ],
     "1950": [
@@ -168,7 +79,6 @@
         "note_en": "Kurosawa’s classic probing truth via multiple viewpoints."
       }
     ],
-    "1951": [],
     "1952": [
       {
         "label": "鉄腕アトム",
@@ -9684,20 +9594,6 @@
         "note": "iPhoneの基盤としてモバイルアプリ文化を牽引したOS。",
         "note_en": "Operating system that powered the iPhone and led mobile app culture.",
         "url_en": "https://en.wikipedia.org/wiki/IOS"
-      },
-      {
-        "label": "iPhone",
-        "label_en": "iPhone",
-        "startYear": "2007",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPhone",
-        "note": "スマートフォン時代を決定づけたマルチタッチ携帯端末。",
-        "note_en": "Multitouch smartphone that defined the modern smartphone era.",
-        "url_en": "https://en.wikipedia.org/wiki/IPhone"
       }
     ],
     "2008": [
