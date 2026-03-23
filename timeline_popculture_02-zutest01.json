@@ -1,85 +1,5 @@
 {
   "metadata": {},
-  "eraSettings": [
-    {
-      "name": "テレビ・マンガ・週刊誌の時代",
-      "startYear": 1959,
-      "endYear": 1999,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "ビデオとゲームの時代",
-      "startYear": 1983,
-      "endYear": 2005,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "モバイルとネットの時代",
-      "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2022,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "MAN",
-      "label": "マンガ",
-      "conjunction": false
-    },
-    {
-      "code": "ANI",
-      "label": "アニメ",
-      "conjunction": false
-    },
-    {
-      "code": "GAM",
-      "label": "ゲーム",
-      "conjunction": false
-    },
-    {
-      "code": "TVP",
-      "label": "テレビ番組",
-      "conjunction": false
-    },
-    {
-      "code": "MOV",
-      "label": "映画",
-      "conjunction": false
-    },
-    {
-      "code": "NET",
-      "label": "インターネット",
-      "conjunction": false
-    },
-    {
-      "code": "HAR",
-      "label": "ハードウェア",
-      "conjunction": false
-    },
-    {
-      "code": "SOF",
-      "label": "ソフトウェア",
-      "conjunction": false
-    }
-  ],
   "events": {
     "1946": [
       {
@@ -8879,19 +8799,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Reddit"
       },
       {
-        "label": "食べログ",
-        "label_en": "★食べログ",
-        "startYear": "2005",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role."
-      },
-      {
         "label": "Xbox 360",
         "label_en": "Xbox 360",
         "startYear": "2005",
@@ -8973,6 +8880,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Linda_Linda_Linda",
         "note_en": "Fresh youth film about a high-school girls’ band just before the school festival.",
         "_rev": "1774246219351-xn33s2an"
+      },
+      {
+        "label": "食べログ",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%A3%9F%E3%81%B9%E3%83%AD%E3%82%B0",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "label_en": "Tabelog",
+        "url_en": "https://en.wikipedia.org/wiki/Tabelog",
+        "note_en": "A representative internet service with a distinct role.",
+        "_rev": "1774250966920-bp0637g6"
       }
     ],
     "2006": [
@@ -16489,5 +16411,85 @@
         "note_en": "Representative browser-operating AI agent"
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "テレビ・マンガ・週刊誌の時代",
+      "startYear": 1959,
+      "endYear": 1999,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ビデオとゲームの時代",
+      "startYear": 1983,
+      "endYear": 2005,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "モバイルとネットの時代",
+      "startYear": 1995,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "MAN",
+      "label": "マンガ",
+      "conjunction": false
+    },
+    {
+      "code": "ANI",
+      "label": "アニメ",
+      "conjunction": false
+    },
+    {
+      "code": "GAM",
+      "label": "ゲーム",
+      "conjunction": false
+    },
+    {
+      "code": "TVP",
+      "label": "テレビ番組",
+      "conjunction": false
+    },
+    {
+      "code": "MOV",
+      "label": "映画",
+      "conjunction": false
+    },
+    {
+      "code": "NET",
+      "label": "インターネット",
+      "conjunction": false
+    },
+    {
+      "code": "HAR",
+      "label": "ハードウェア",
+      "conjunction": false
+    },
+    {
+      "code": "SOF",
+      "label": "ソフトウェア",
+      "conjunction": false
+    }
+  ]
 }
