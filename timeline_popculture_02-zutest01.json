@@ -10326,20 +10326,6 @@
         "note": "写真共有を中心に成長し、SNS表現の定番となったアプリ。",
         "note_en": "App that grew around photo sharing and became a standard form of social expression.",
         "url_en": "https://en.wikipedia.org/wiki/Instagram"
-      },
-      {
-        "label": "iPad",
-        "label_en": "iPad",
-        "startYear": "2010",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/iPad",
-        "note": "タブレット市場を本格的に開いたマルチタッチ端末。",
-        "note_en": "Multitouch tablet that established the mainstream tablet market.",
-        "url_en": "https://en.wikipedia.org/wiki/IPad"
       }
     ],
     "2011": [
