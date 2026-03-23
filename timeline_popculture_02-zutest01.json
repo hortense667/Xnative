@@ -9186,19 +9186,6 @@
         "note": "機械翻訳を日常利用レベルへ広げた代表的翻訳サービス。",
         "note_en": "Translation service that brought machine translation into everyday use.",
         "url_en": "https://en.wikipedia.org/wiki/Google_Translate"
-      },
-      {
-        "label": "Wii",
-        "label_en": "Wii",
-        "startYear": "2006",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Wii",
-        "note": "体感操作で家庭向けゲーム体験を広げた任天堂の据置機。",
-        "note_en": "Nintendo console that broadened gaming through motion controls.",
-        "url_en": "https://en.wikipedia.org/wiki/Wii"
       }
     ],
     "2007": [
