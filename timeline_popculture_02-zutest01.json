@@ -13320,20 +13320,6 @@
     ],
     "2018": [
       {
-        "label": "FANZA",
-        "label_en": "★FANZA",
-        "startYear": 2018,
-        "endYear": "ongoing",
-        "genre": [
-          "NET",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/FANZA",
-        "note": "DMMの成人向け配信ブランド。",
-        "note_en": "Adult-content brand from DMM."
-      },
-      {
         "label": "アンナチュラル",
         "label_en": "Unnatural",
         "startYear": 2018,
@@ -13772,6 +13758,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Identity_V",
         "note": "非対称対戦の配信映えタイトル",
         "note_en": "Asymmetric online game popular with streamers"
+      },
+      {
+        "label": "FANZA",
+        "startYear": "2018",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/FANZA",
+        "note": "DMMの成人向け配信ブランド。",
+        "note_en": "Adult-content brand from DMM.",
+        "_rev": "1774250994178-ne8txk5i"
       }
     ],
     "2019": [
