@@ -3965,6 +3965,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Sega_Genesis",
         "note": "16ビット家庭用機の代表格。",
         "note_en": "Seminal 16-bit home console."
+      },
+      {
+        "label": "西遊妖猿伝",
+        "startYear": "1988",
+        "endYear": "1997",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E9%81%8A%E5%A6%96%E7%8C%BF%E4%BC%9D",
+        "note": "諸星大二郎による西遊記をモチーフにした漫画作品",
+        "label_en": "Saiyu Yoen-den",
+        "_rev": "1774362548344-wtogcsuq"
       }
     ],
     "1989": [
