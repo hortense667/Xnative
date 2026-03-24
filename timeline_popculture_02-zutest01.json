@@ -478,6 +478,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Spacewar!",
         "note": "初期のコンピュータゲームの古典。",
         "note_en": "One of the earliest digital games."
+      },
+      {
+        "label": "コンバット！",
+        "startYear": "1962",
+        "endYear": "1967",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%90%E3%83%83%E3%83%88!#%E6%97%A5%E6%9C%AC%E3%81%A7%E3%81%AE%E6%94%BE%E6%98%A0",
+        "label_en": "Combat!",
+        "url_en": "https://en.wikipedia.org/wiki/Combat!",
+        "_rev": "1774363535048-qtzzmxgw"
       }
     ],
     "1963": [
