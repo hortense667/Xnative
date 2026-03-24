@@ -8967,6 +8967,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Tabelog",
         "note_en": "A representative internet service with a distinct role.",
         "_rev": "1774250966920-bp0637g6"
+      },
+      {
+        "label": "ソラニン",
+        "startYear": "2005",
+        "endYear": "2006",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%A9%E3%83%8B%E3%83%B3_(%E6%BC%AB%E7%94%BB)",
+        "note": "浅野いにおによる日本の青年漫画作品。映画化もされた。",
+        "label_en": "Solanin",
+        "url_en": "https://en.wikipedia.org/wiki/Solanin",
+        "note_en": "A Japanese seinen manga series by Inio Asano, which was also made into a film.",
+        "_rev": "1774361670707-tkxbldgb"
       }
     ],
     "2006": [
