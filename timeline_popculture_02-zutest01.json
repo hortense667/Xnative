@@ -748,6 +748,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Ultra_Q",
         "note_en": "A monumental tokusatsu television program by Tsuburaya Productions.",
         "_rev": "1774359974862-zbce0mvh"
+      },
+      {
+        "label": "サンダーバード",
+        "startYear": "1966",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%80%E3%83%BC%E3%83%90%E3%83%BC%E3%83%89_(%E3%83%86%E3%83%AC%E3%83%93%E7%95%AA%E7%B5%84)",
+        "note": "イギリス製の特撮人形劇",
+        "label_en": "Thunderbirds",
+        "url_en": "https://en.wikipedia.org/wiki/Thunderbirds_(TV_series)",
+        "note_en": "British-made special effects puppet show",
+        "_rev": "1774360143694-ilypa6aj"
       }
     ],
     "1967": [
