@@ -4103,18 +4103,18 @@
         "url_en": "https://en.wikipedia.org/wiki/Linear_Tape-Open"
       },
       {
-        "label": "VAIO C1",
+        "label": "PCG-C1VJ",
         "startYear": "2000",
         "genre": [
           "COMPUTER",
           "MOBILE"
         ],
         "imp": 4,
-        "note": "カメラ搭載、Crusoe搭載、チャレンジングなマシンでした。",
-        "label_en": "VAIO C1",
+        "note": "Crusoe搭載、チャレンジングなマシンでした。",
+        "label_en": "PCG-C1VJ",
         "url_en": "https://en.wikipedia.org/wiki/Sony_Vaio_C1_series",
-        "note_en": "It was a challenging machine equipped with a camera and Crusoe.",
-        "_rev": "1774335636767-5czdaxkh"
+        "note_en": "It was a challenging machine equipped with Crusoe processor.",
+        "_rev": "1774343007329-qobd3i6f"
       }
     ],
     "2001": [
