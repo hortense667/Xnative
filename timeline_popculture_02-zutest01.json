@@ -1300,6 +1300,20 @@
         "url": "https://ja.wikipedia.org/wiki/カシオミニ",
         "note": "個人向け電卓普及の原動力。",
         "note_en": "Drove mass adoption of personal calculators."
+      },
+      {
+        "label": "NHK少年ドラマシリーズ",
+        "startYear": "1972",
+        "endYear": "1983",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%91%E5%B9%B4%E3%83%89%E3%83%A9%E3%83%9E%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "note": "NHK総合テレビジョンで放送された主に小中学生向けのテレビドラマシリーズ。1972年の『タイム・トラベラー』が第一作。",
+        "label_en": "NHK Youth Drama Series",
+        "note_en": "A television drama series primarily for elementary and junior high school students, broadcast on NHK General TV. The first work was \"Time Traveler\" in 1972.",
+        "_rev": "1774363451166-8djm5gqh"
       }
     ],
     "1973": [
