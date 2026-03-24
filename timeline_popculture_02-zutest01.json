@@ -9328,6 +9328,20 @@
         "note": "機械翻訳を日常利用レベルへ広げた代表的翻訳サービス。",
         "note_en": "Translation service that brought machine translation into everyday use.",
         "url_en": "https://en.wikipedia.org/wiki/Google_Translate"
+      },
+      {
+        "label": "ライチ☆光クラブ",
+        "startYear": "2006",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%81%E2%98%86%E5%85%89%E3%82%AF%E3%83%A9%E3%83%96",
+        "note": "古屋兎丸による日本の漫画作品で東京グランギニョルの演劇『ライチ光クラブ』(1985年、1986年)を原作とする。",
+        "label_en": "Lychee Light Club",
+        "url_en": "https://en.wikipedia.org/wiki/Lychee_Light_Club",
+        "note_en": "It is a Japanese manga work by Usamaru Furuya based on the Tokyo Grand Guignol plays \"Lychee Light Club\" (1985, 1986).",
+        "_rev": "1774363005637-2zpi6hby"
       }
     ],
     "2007": [
