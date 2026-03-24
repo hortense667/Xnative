@@ -2814,6 +2814,21 @@
         "label_en": "ColecoVision",
         "url_en": "https://en.wikipedia.org/wiki/ColecoVision",
         "note_en": "Home console noted for arcade ports."
+      },
+      {
+        "label": "魔法のプリンセス ミンキーモモ",
+        "startYear": "1982",
+        "genre": [
+          "ANI",
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9_%E3%83%9F%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%A2%E3%83%A2",
+        "note": "夢の国からきた少女ミンキーモモが、魔法の力で大人に変身し、人々の夢を守るために活躍するというストーリー",
+        "label_en": "Magical Princess Minky Momo",
+        "url_en": "https://en.wikipedia.org/wiki/Magical_Princess_Minky_Momo",
+        "note_en": "The story is about Minky Momo, a girl who came from the Land of Dreams, who transforms into an adult using her magical powers and works to protect people's dreams.",
+        "_rev": "1774360395072-r3elmg0t"
       }
     ],
     "1983": [
