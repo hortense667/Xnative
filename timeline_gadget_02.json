@@ -2952,6 +2952,20 @@
         "label_en": "Twiddler",
         "note_en": "https://en.wikipedia.org/wiki/Twiddler",
         "url_en": "https://en.wikipedia.org/wiki/Twiddler"
+      },
+      {
+        "label": "CE300",
+        "startYear": "1995",
+        "genre": [
+          "CAMERA",
+          "PERIPHERAL"
+        ],
+        "imp": 3,
+        "url": "https://global.canon/ja/c-museum/product/dcc450.html",
+        "note": "PCカードに装着して使うカメラ。IBM PC110とともに登場。",
+        "label_en": "CE300",
+        "note_en": "A camera that is used by attaching it to a PC card. It was introduced alongside the IBM PC110.",
+        "_rev": "1774342769901-s4ibxebo"
       }
     ],
     "1996": [
