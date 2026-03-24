@@ -2204,6 +2204,19 @@
         "url": "https://ja.wikipedia.org/wiki/PC-8001",
         "note": "国産パソコン普及の嚆矢。",
         "note_en": "Pioneer of Japanese home PCs."
+      },
+      {
+        "label": "Mr.Boo!ミスター・ブー",
+        "startYear": "1979",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Mr.Boo!%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%96%E3%83%BC",
+        "note": "香港喜劇映画の代表作",
+        "label_en": "The Private Eyes (1976 film)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Private_Eyes_(1976_film)",
+        "_rev": "1774364483188-i4ffwp5q"
       }
     ],
     "1980": [
