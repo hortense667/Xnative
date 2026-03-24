@@ -2563,6 +2563,21 @@
         "url_en": "https://en.wikipedia.org/wiki/PC-6001",
         "note": "入門機として普及した8ビット機。",
         "note_en": "Affordable 8-bit entry-level home computer."
+      },
+      {
+        "label": "少女椿",
+        "startYear": "1981",
+        "endYear": "1984",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%A4%BF",
+        "note": "丸尾末広による漫画作品。紙芝居の同名作をベースとしている。",
+        "label_en": "Shōjo Tsubaki",
+        "url_en": "https://en.wikipedia.org/wiki/Sh%C5%8Djo_Tsubaki",
+        "note_en": "Please provide the Japanese sentence.",
+        "_rev": "1774361128866-62gdb2z9"
       }
     ],
     "1982": [
