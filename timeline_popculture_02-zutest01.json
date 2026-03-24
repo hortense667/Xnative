@@ -734,6 +734,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Star_of_the_Giants",
         "note": "スポ根ものの代表作。",
         "note_en": "Defining sports drama anime/manga."
+      },
+      {
+        "label": "ウルトラQ",
+        "startYear": "1966",
+        "genre": [
+          "TVP"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9Q",
+        "note": "円谷プロによる特撮テレビ番組の金字塔。",
+        "label_en": "Ultra Q",
+        "url_en": "https://en.wikipedia.org/wiki/Ultra_Q",
+        "note_en": "A monumental tokusatsu television program by Tsuburaya Productions.",
+        "_rev": "1774359974862-zbce0mvh"
       }
     ],
     "1967": [
