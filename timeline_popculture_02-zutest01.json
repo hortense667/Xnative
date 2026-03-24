@@ -752,6 +752,7 @@
       {
         "label": "サンダーバード",
         "startYear": "1966",
+        "endYear": "1967",
         "genre": [
           "TVP"
         ],
@@ -761,7 +762,7 @@
         "label_en": "Thunderbirds",
         "url_en": "https://en.wikipedia.org/wiki/Thunderbirds_(TV_series)",
         "note_en": "British-made special effects puppet show",
-        "_rev": "1774360143694-ilypa6aj"
+        "_rev": "1774360626166-lznluyk6"
       }
     ],
     "1967": [
