@@ -5643,6 +5643,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Chrono_Trigger",
         "note": "“ドリームチーム”制作の名作RPG。",
         "note_en": "Beloved JRPG by a “dream team” of creators."
+      },
+      {
+        "label": "ヘルタースケルター（岡崎京子）",
+        "startYear": "1995",
+        "endYear": "1996",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%AB%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%AB%E3%82%BF%E3%83%BC_(%E6%BC%AB%E7%94%BB)",
+        "note": "岡崎京子のマンガ作品",
+        "label_en": "Helter Skelter",
+        "url_en": "https://en.wikipedia.org/wiki/Helter_Skelter_(manga)",
+        "_rev": "1774362030236-j6yg0khf"
       }
     ],
     "1996": [
