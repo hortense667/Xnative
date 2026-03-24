@@ -3458,6 +3458,22 @@
         "label_en": "Cal.9090",
         "note_en": "https://www.watch-wiki.net/index.php?title=Cal._9090",
         "url_en": "https://www.watch-wiki.net/index.php?title=Cal._9090"
+      },
+      {
+        "label": "VAIO C1",
+        "startYear": "1998",
+        "genre": [
+          "COMPUTER",
+          "MOBILE",
+          "CAMERA",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "note": "カメラ搭載ノートPC。",
+        "label_en": "VAIO C1",
+        "url_en": "https://en.wikipedia.org/wiki/Sony_Vaio_C1_series",
+        "note_en": "Notebook PC with a built-in camera.",
+        "_rev": "1774343301447-gz35uwfr"
       }
     ],
     "1999": [
