@@ -2873,6 +2873,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Magical_Princess_Minky_Momo",
         "note_en": "The story is about Minky Momo, a girl who came from the Land of Dreams, who transforms into an adult using her magical powers and works to protect people's dreams.",
         "_rev": "1774360577969-oqasx1b8"
+      },
+      {
+        "label": "普通の人",
+        "startYear": "1982",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E8%A5%BF%E6%B0%B4%E4%B8%B8",
+        "note": "安西水丸によるマンガ作品",
+        "label_en": "Ordinary person",
+        "note_en": "Manga works by Anzai Mizumaru",
+        "_rev": "1774361352185-kzo0a5f4"
       }
     ],
     "1983": [
