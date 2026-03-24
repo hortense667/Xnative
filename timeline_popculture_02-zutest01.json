@@ -1792,6 +1792,20 @@
         "url_en": "https://en.wikipedia.org/wiki/TRS-80",
         "note": "量販店発の個人向けPC。",
         "note_en": "Mass-market personal computer line."
+      },
+      {
+        "label": "天使のはらわた",
+        "startYear": "1977",
+        "genre": [
+          "MAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%81%AF%E3%82%89%E3%82%8F%E3%81%9F",
+        "note": "石井隆による連作劇画。映画化もされた。",
+        "label_en": "Angel Guts",
+        "url_en": "https://en.wikipedia.org/wiki/Angel_Guts",
+        "note_en": "A series of dramatic manga by Takashi Ishii. It was also made into a film.",
+        "_rev": "1774360556688-blupqpf9"
       }
     ],
     "1978": [
