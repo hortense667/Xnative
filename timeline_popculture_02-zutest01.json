@@ -550,6 +550,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Doctor_Who",
         "note": "長寿SFシリーズの出発点。",
         "note_en": "Launch of the long-running SF series."
+      },
+      {
+        "label": "鉄腕アトム (アニメ第1作)",
+        "startYear": "1963",
+        "endYear": "1966",
+        "genre": [
+          "ANI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E8%85%95%E3%82%A2%E3%83%88%E3%83%A0_(%E3%82%A2%E3%83%8B%E3%83%A1%E7%AC%AC1%E4%BD%9C)",
+        "note": "手塚治虫によるテレビアニメ。SFアニメの初期代表作",
+        "label_en": "Astro Boy (1963 TV series)",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy_(1963_TV_series)",
+        "note_en": "A television anime by Osamu Tezuka. An early masterpiece of SF anime.",
+        "_rev": "1774363798707-hsv396kp"
       }
     ],
     "1964": [
