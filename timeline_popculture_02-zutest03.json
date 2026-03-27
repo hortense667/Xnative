@@ -10389,22 +10389,6 @@
         }
       },
       {
-        "label": "初音ミク (VOCALOID2)",
-        "label_en": "Hatsune Miku (VOCALOID2)",
-        "startYear": 2007,
-        "genre": [
-          "SW",
-          "MUS",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/初音ミク",
-        "url_en": "https://en.wikipedia.org/wiki/Hatsune_Miku",
-        "note": "歌声合成キャラクター文化を確立。",
-        "note_en": "Iconic singing voice-synthesis character.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "坂道のアポロン",
         "label_en": "Kids on the Slope",
         "startYear": "2007",
