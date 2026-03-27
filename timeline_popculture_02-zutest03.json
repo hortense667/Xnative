@@ -13427,21 +13427,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Pokémon GO",
-        "label_en": "Pokémon GO",
-        "startYear": "2016",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
-        "note": "ゲームと位置情報を結んだネットサービス的存在。",
-        "note_en": "A networked service linking games and geolocation.",
-        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
-        "genreBadge": "WEB"
-      },
-      {
         "label": "PyTorch",
         "label_en": "PyTorch",
         "startYear": "2016",
