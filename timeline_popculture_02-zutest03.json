@@ -15621,21 +15621,6 @@
         "label": "ウマ娘 プリティーダービー",
         "label_en": "Umamusume Pretty Derby",
         "startYear": "2021",
-        "endYear": "ongoing",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC",
-        "note": "競走馬モチーフをアイドル性とスポ根で再構成した人気アニメ。",
-        "note_en": "Popular anime reimagining racehorses through idol appeal and sports-drama energy.",
-        "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ウマ娘 プリティーダービー",
-        "label_en": "Umamusume Pretty Derby",
-        "startYear": "2021",
         "genre": [
           "GM",
           "NET"
