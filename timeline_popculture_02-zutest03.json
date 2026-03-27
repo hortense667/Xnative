@@ -9993,6 +9993,21 @@
         "genreBadge": "MNG"
       },
       {
+        "label": "きのう何食べた?",
+        "label_en": "What Did You Eat Yesterday?",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "MNG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F",
+        "note": "中年男性カップルの暮らしと食卓を温かく描いた日常料理マンガ。",
+        "note_en": "Slice-of-life cooking manga about the daily life of a middle-aged male couple.",
+        "url_en": "https://en.wikipedia.org/wiki/What_Did_You_Eat_Yesterday%3F",
+        "genreBadge": "MNG"
+      },
+      {
         "label": "ASUS Eee PC 701",
         "label_en": "ASUS Eee PC 701",
         "startYear": 2007,
@@ -10233,21 +10248,6 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Pixiv",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "きのう何食べた?",
-        "label_en": "What Did You Eat Yesterday?",
-        "startYear": "2007",
-        "endYear": "ongoing",
-        "genre": [
-          "MNG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F",
-        "note": "中年男性カップルの暮らしと食卓を温かく描いた日常料理マンガ。",
-        "note_en": "Slice-of-life cooking manga about the daily life of a middle-aged male couple.",
-        "url_en": "https://en.wikipedia.org/wiki/What_Did_You_Eat_Yesterday%3F",
-        "genreBadge": "MNG"
       },
       {
         "label": "この世界の片隅に",
