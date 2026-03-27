@@ -11801,38 +11801,6 @@
       {
         "label": "Raspberry Pi",
         "label_en": "Raspberry Pi",
-        "startYear": 2012,
-        "genre": [
-          "HAR",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
-        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "note": "教育/ホビー向け小型PC。",
-        "note_en": "Low-cost computer for education/makers.",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "エンジニアリング"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "創作ツール"
-          ],
-          "practiceHints": [
-            "作る",
-            "改造する"
-          ],
-          "keywords": [
-            "ラズパイ",
-            "GPIO"
-          ]
-        }
-      },
-      {
-        "label": "Raspberry Pi",
-        "label_en": "Raspberry Pi",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
