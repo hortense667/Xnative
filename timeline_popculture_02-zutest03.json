@@ -13141,21 +13141,6 @@
       {
         "label": "スプラトゥーン",
         "label_en": "Splatoon",
-        "startYear": 2015,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Splatoon",
-        "url_en": "https://en.wikipedia.org/wiki/Splatoon",
-        "note": "インクで陣取りする対戦シューター。",
-        "note_en": "Ink-based territorial shooter from Nintendo.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "スプラトゥーン",
-        "label_en": "Splatoon",
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
