@@ -15960,21 +15960,6 @@
         "label": "Stable Diffusion",
         "label_en": "Stable Diffusion",
         "startYear": "2022",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion",
-        "note": "画像生成モデルの公開でAI表現の裾野を広げたソフトウェア。",
-        "note_en": "Software that broadened AI image creation by openly releasing a generative model.",
-        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Stable Diffusion",
-        "label_en": "Stable Diffusion",
-        "startYear": "2022",
         "genre": [
           "NET",
           "SW"
