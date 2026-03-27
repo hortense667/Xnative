@@ -9240,6 +9240,20 @@
     ],
     "2005": [
       {
+        "label": "脳を鍛える大人のDSトレーニング",
+        "label_en": "Brain Age: Train Your Brain in Minutes a Day!",
+        "startYear": "2005",
+        "genre": [
+          "GM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
+        "note": "脳トレ需要を掘り起こし、ゲーム人口を大きく広げたタイトル。",
+        "note_en": "Title that tapped into brain-training demand and broadened the game audience.",
+        "url_en": "https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!",
+        "genreBadge": "GM"
+      },
+      {
         "label": "Aegisub",
         "label_en": "Aegisub",
         "startYear": 2005,
@@ -9524,20 +9538,6 @@
         "note_en": "Landmark shojo manga portraying awkward high-school love and friendship with care.",
         "url_en": "https://en.wikipedia.org/wiki/Kimi_ni_Todoke",
         "genreBadge": "MNG"
-      },
-      {
-        "label": "脳を鍛える大人のDSトレーニング",
-        "label_en": "Brain Age: Train Your Brain in Minutes a Day!",
-        "startYear": "2005",
-        "genre": [
-          "GM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
-        "note": "脳トレ需要を掘り起こし、ゲーム人口を大きく広げたタイトル。",
-        "note_en": "Title that tapped into brain-training demand and broadened the game audience.",
-        "url_en": "https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!",
-        "genreBadge": "GM"
       },
       {
         "label": "花より男子 (テレビドラマ)",
