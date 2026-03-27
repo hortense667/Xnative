@@ -15,7 +15,22 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Legends_of_Tono",
         "note": "柳田國男の民俗学的古典。日本の伝承・怪異観の重要な源流。",
         "note_en": "Kunio Yanagita's folklore classic and a key source of Japanese supernatural imagination.",
-        "genreBadge": "BK"
+        "genreBadge": "BK",
+        "diagnostic": {
+          "deepModules": [
+            "和風／伝承"
+          ],
+          "generalModules": [
+            "和風幻想"
+          ],
+          "practiceHints": [
+            "研究する"
+          ],
+          "keywords": [
+            "民俗",
+            "遠野"
+          ]
+        }
       }
     ],
     "1946": [
@@ -717,7 +732,24 @@
         "url_en": "https://en.wikipedia.org/wiki/GeGeGe_no_Kitar%C5%8D",
         "note": "妖怪を題材にした国民的作品。",
         "note_en": "Beloved yokai-themed franchise.",
-        "genreBadge": "ANM"
+        "genreBadge": "ANM",
+        "diagnostic": {
+          "deepModules": [
+            "和風／伝承"
+          ],
+          "generalModules": [
+            "和風幻想",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "妖怪",
+            "鬼太郎"
+          ]
+        }
       },
       {
         "label": "サウンド・オブ・ミュージック",
@@ -1167,7 +1199,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Unix",
         "note": "現代OSの原点の一つ。",
         "note_en": "One of the roots of modern OSes.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務",
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "研究する"
+          ],
+          "keywords": [
+            "UNIX",
+            "CLI"
+          ]
+        }
       },
       {
         "label": "ルパン三世(TV第1シリーズ)",
@@ -1526,7 +1575,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Comiket",
         "note": "世界最大級の同人誌即売会。",
         "note_en": "World’s largest dōjinshi convention.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "同人／二次創作"
+          ],
+          "generalModules": [
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "集める",
+            "語る"
+          ],
+          "keywords": [
+            "コミケ",
+            "同人"
+          ]
+        }
       },
       {
         "label": "サタデー・ナイト・ライブ",
@@ -2368,7 +2433,23 @@
         "url_en": "https://en.wikipedia.org/wiki/MS-DOS",
         "note": "PC時代を支えたオペレーティングシステム。",
         "note_en": "Operating system that powered early PCs.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務"
+          ],
+          "generalModules": [
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "研究する"
+          ],
+          "keywords": [
+            "DOS",
+            "CLI"
+          ]
+        }
       },
       {
         "label": "MTV",
@@ -2679,7 +2760,23 @@
         "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
         "note": "日本の業務・家庭を席巻した国産PC。",
         "note_en": "Dominant Japanese 16-bit PC platform.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "懐かしさ／ノスタルジー"
+          ],
+          "practiceHints": [
+            "使う",
+            "集める"
+          ],
+          "keywords": [
+            "PC-98"
+          ]
+        }
       },
       {
         "label": "コンパクトディスク",
@@ -3048,7 +3145,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Macintosh",
         "note": "GUI普及の象徴的PC。",
         "note_en": "Iconic GUI-driven personal computer.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "アップル美学"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "使う",
+            "集める"
+          ],
+          "keywords": [
+            "Mac",
+            "林檎",
+            "GUI"
+          ]
+        }
       },
       {
         "label": "くりぃむレモン",
@@ -3095,7 +3210,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Tetris",
         "note": "落ち物パズルの金字塔。",
         "note_en": "Landmark falling-block puzzle game.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和",
+            "懐かしさ／ノスタルジー"
+          ],
+          "practiceHints": [
+            "観る"
+          ],
+          "keywords": [
+            "テトリス"
+          ]
+        }
       },
       {
         "label": "トランスフォーマー",
@@ -3639,7 +3769,24 @@
         "url_en": "https://en.wikipedia.org/wiki/HyperCard",
         "note": "Mac上でカード型オーサリングを広めた画期的ソフト。",
         "note_en": "Groundbreaking card-based authoring software that flourished on the Mac.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "アップル美学",
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "使う"
+          ],
+          "keywords": [
+            "カード",
+            "スタック"
+          ]
+        }
       },
       {
         "label": "NIFTY-Serve",
@@ -3686,7 +3833,23 @@
         "url_en": "https://en.wikipedia.org/wiki/X68000",
         "note": "高性能で名作移植が充実。",
         "note_en": "High-spec Japanese home computer.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務",
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "改造する"
+          ],
+          "keywords": [
+            "X68000"
+          ]
+        }
       },
       {
         "label": "サンデーモーニング",
@@ -3859,7 +4022,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
         "note": "社会現象にもなった国民的RPGの金字塔。",
         "note_en": "A landmark RPG that became a nationwide social phenomenon in Japan.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "ドラクエ",
+            "ロト"
+          ]
+        }
       },
       {
         "label": "ドラゴンクエストIII そして伝説へ…",
@@ -3994,7 +4174,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Onmyoji_(novel_series)",
         "note": "夢枕獏による伝奇シリーズ。平安・呪術・怪異の和風幻想を現代に広めた。",
         "note_en": "Baku Yumemakura's supernatural series that popularized Heian-era occult fantasy.",
-        "genreBadge": "BK"
+        "genreBadge": "BK",
+        "diagnostic": {
+          "deepModules": [
+            "和風／伝承"
+          ],
+          "generalModules": [
+            "和風幻想"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "陰陽師",
+            "平安"
+          ]
+        }
       }
     ],
     "1989": [
@@ -4603,7 +4799,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Linux",
         "note": "オープンソースOSの中心。",
         "note_en": "Core open-source operating system.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務",
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "改造する",
+            "研究する"
+          ],
+          "keywords": [
+            "Linux",
+            "OSS"
+          ]
+        }
       },
       {
         "label": "グラップラー刃牙",
@@ -4634,7 +4847,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Street_Fighter_II",
         "note": "対戦格闘ブームを創出。",
         "note_en": "Created the versus fighting boom.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "ストII",
+            "対戦"
+          ]
+        }
       },
       {
         "label": "ソニック・ザ・ヘッジホッグ (1991年のゲーム)",
@@ -4745,7 +4974,22 @@
         "url_en": "https://en.wikipedia.org/wiki/RPG_Maker",
         "note": "個人制作RPGを支えたツール。",
         "note_en": "Toolchain enabling indie RPG creation.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "創作ツール",
+            "ゲーム親和"
+          ],
+          "practiceHints": [
+            "作る"
+          ],
+          "keywords": [
+            "ツクール"
+          ]
+        }
       },
       {
         "label": "ThinkPad 700C",
@@ -4808,7 +5052,21 @@
         "url_en": "https://en.wikipedia.org/wiki/D%C5%8Dky%C5%ABsei_(video_game)",
         "note": "恋愛アドベンチャーの先駆。",
         "note_en": "Pioneer of dating adventure games.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "萌え／美少女"
+          ],
+          "generalModules": [
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る"
+          ],
+          "keywords": [
+            "恋愛"
+          ]
+        }
       },
       {
         "label": "紅の豚",
@@ -4840,7 +5098,24 @@
         "label_en": "Sailor Moon (anime franchise)",
         "url_en": "https://en.wikipedia.org/wiki/Sailor_Moon",
         "note_en": "Franchise spanning anime, stage, more.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "萌え／美少女"
+          ],
+          "generalModules": [
+            "キャラクター愛着",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る",
+            "推す"
+          ],
+          "keywords": [
+            "セーラー",
+            "月"
+          ]
+        }
       },
       {
         "label": "花より男子",
@@ -5512,7 +5787,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Ubume_no_Natsu",
         "note": "京極夏彦による妖怪・民俗・推理の融合シリーズ。",
         "note_en": "Natsuhiko Kyogoku's series blending yokai, folklore, and mystery.",
-        "genreBadge": "BK"
+        "genreBadge": "BK",
+        "diagnostic": {
+          "deepModules": [
+            "和風／伝承"
+          ],
+          "generalModules": [
+            "和風幻想",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "研究する",
+            "語る"
+          ],
+          "keywords": [
+            "京極堂",
+            "妖怪"
+          ]
+        }
       },
       {
         "label": "古畑任三郎",
@@ -5604,7 +5896,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_95",
         "note": "GUIとインターネット普及を加速した決定的OS。",
         "note_en": "A defining OS that accelerated the spread of GUIs and the internet.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "DOS/UNIX実務"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "懐かしさ／ノスタルジー"
+          ],
+          "practiceHints": [
+            "使う"
+          ],
+          "keywords": [
+            "Windows 95"
+          ]
+        }
       },
       {
         "label": "カシオ QV-10",
@@ -5925,7 +6232,22 @@
         "url": "https://ja.wikipedia.org/wiki/あやしいわーるど",
         "note": "日本の匿名掲示板文化の源流の一つ。",
         "note_en": "One of the key origins of Japanese anonymous message-board culture.",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "匿名ネット文化"
+          ],
+          "generalModules": [
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "語る"
+          ],
+          "keywords": [
+            "匿名",
+            "路地裏"
+          ]
+        }
       },
       {
         "label": "うたばん",
@@ -6133,7 +6455,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Touhou_Project",
         "note": "同人ゲームから巨大な二次創作文化圏へ広がったシリーズ。",
         "note_en": "A dōjin game series that expanded into a vast derivative-creation culture.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "同人／二次創作",
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "語る",
+            "集める"
+          ],
+          "keywords": [
+            "東方",
+            "弾幕"
+          ]
+        }
       },
       {
         "label": "水曜どうでしょう",
@@ -6851,7 +7191,24 @@
         "url_en": "https://en.wikipedia.org/wiki/2channel",
         "note": "巨大匿名掲示板文化を形成。",
         "note_en": "Massive anonymous message board.",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "匿名ネット文化"
+          ],
+          "generalModules": [
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "語る",
+            "研究する"
+          ],
+          "keywords": [
+            "2ちゃん",
+            "匿名掲示板",
+            "AA"
+          ]
+        }
       },
       {
         "label": "BECK",
@@ -7756,7 +8113,22 @@
         "url": "https://ja.wikipedia.org/wiki/ふたば☆ちゃんねる",
         "note": "画像掲示板文化を代表する匿名コミュニティ。",
         "note_en": "A representative anonymous imageboard community in Japanese web culture.",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "匿名ネット文化"
+          ],
+          "generalModules": [
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "語る"
+          ],
+          "keywords": [
+            "ふたば",
+            "匿名"
+          ]
+        }
       },
       {
         "label": "アメリ",
@@ -8401,7 +8773,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends",
         "note": "妖怪と人との関係を静かに描く和風幻想作品。",
         "note_en": "A gentle Japanese fantasy about relationships between humans and yokai.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "和風／伝承"
+          ],
+          "generalModules": [
+            "和風幻想",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る"
+          ],
+          "keywords": [
+            "妖"
+          ]
+        }
       },
       {
         "label": "岳",
@@ -8479,7 +8866,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Fate/stay_night",
         "note": "ビジュアルノベルから大きなメディアミックスへ発展した代表作。",
         "note_en": "A representative visual novel that grew into a major media franchise.",
-        "genreBadge": "GM"
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "同人／二次創作"
+          ],
+          "generalModules": [
+            "物語世界",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "Fate",
+            "サーヴァント"
+          ]
+        }
       },
       {
         "label": "GarageBand",
@@ -8633,7 +9037,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Vocaloid",
         "note": "歌声合成のプラットフォーム。",
         "note_en": "Singing-voice synthesis platform.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "ボカロ／仮想人格",
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "音楽／リズム"
+          ],
+          "practiceHints": [
+            "作る"
+          ],
+          "keywords": [
+            "ボカロ"
+          ]
+        }
       },
       {
         "label": "World of Warcraft",
@@ -8926,7 +9345,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Arduino",
         "note": "Maker文化を支えたマイコン基板。",
         "note_en": "Open-source electronics prototyping platform.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "改造する"
+          ],
+          "keywords": [
+            "Arduino",
+            "電子工作"
+          ]
+        }
       },
       {
         "label": "Git",
@@ -9508,7 +9944,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Niconico",
         "note": "コメント重畳型動画共有サイト。",
         "note_en": "Comment-overlay video platform.",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "共同視聴文化"
+          ],
+          "generalModules": [
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "ニコニコ",
+            "コメント",
+            "弾幕"
+          ]
+        }
       },
       {
         "label": "プラネットアース",
@@ -9736,7 +10189,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Pixiv",
         "note": "イラストと二次創作文化を可視化した代表的プラットフォーム。",
         "note_en": "A major platform that made illustration and derivative creation culture visible.",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "同人／二次創作"
+          ],
+          "generalModules": [
+            "ネット交流",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "語る"
+          ],
+          "keywords": [
+            "Pixiv",
+            "投稿"
+          ]
+        }
       },
       {
         "label": "Portal",
@@ -9826,7 +10296,22 @@
         "url_en": "https://en.wikipedia.org/wiki/IPhone",
         "note": "スマートフォン時代の起点。",
         "note_en": "Catalyst for the smartphone era.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "アップル美学"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "使う"
+          ],
+          "keywords": [
+            "iPhone"
+          ]
+        }
       },
       {
         "label": "pixiv",
@@ -9991,7 +10476,27 @@
         "url_en": "https://en.wikipedia.org/wiki/Hatsune_Miku",
         "note": "音声合成ソフトから巨大な創作文化圏へ発展した象徴的存在。",
         "note_en": "An iconic vocal synthesizer that grew into a massive creative culture.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "ボカロ／仮想人格",
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "音楽／リズム",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "推す",
+            "語る"
+          ],
+          "keywords": [
+            "ミク",
+            "歌声",
+            "ボカロ"
+          ]
+        }
       },
       {
         "label": "初音ミク (VOCALOID2)",
@@ -10206,7 +10711,22 @@
         "url_en": "https://en.wikipedia.org/wiki/MikuMikuDance",
         "note": "3Dキャラのモーション作成ツール。",
         "note_en": "Tool for animating 3D characters.",
-        "genreBadge": "MOV"
+        "genreBadge": "MOV",
+        "diagnostic": {
+          "deepModules": [
+            "ボカロ／仮想人格",
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る"
+          ],
+          "keywords": [
+            "MMD"
+          ]
+        }
       },
       {
         "label": "Plex",
@@ -10326,7 +10846,23 @@
         "note": "サービスの性格が異なる代表的インターネット項目。",
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Niconico",
-        "genreBadge": "WEB"
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "共同視聴文化"
+          ],
+          "generalModules": [
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "生放送",
+            "コメント"
+          ]
+        }
       },
       {
         "label": "バクマン。",
@@ -10513,7 +11049,22 @@
         "url_en": "https://en.wikipedia.org/wiki/Vocal_synthesis#AHS_Voiceroid",
         "note": "音声合成による読み上げ・キャラクター文化を広げた日本発のソフトウェアシリーズ。",
         "note_en": "A Japanese speech-synthesis software series that expanded character-based voice culture.",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "創作／オーサリング"
+          ],
+          "generalModules": [
+            "創作ツール",
+            "音楽／リズム"
+          ],
+          "practiceHints": [
+            "作る"
+          ],
+          "keywords": [
+            "ボイロ"
+          ]
+        }
       },
       {
         "label": "Windows 7",
@@ -11386,7 +11937,24 @@
         "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
         "note": "教育/ホビー向け小型PC。",
         "note_en": "Low-cost computer for education/makers.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "改造する"
+          ],
+          "keywords": [
+            "ラズパイ",
+            "GPIO"
+          ]
+        }
       },
       {
         "label": "Raspberry Pi",
@@ -11401,7 +11969,24 @@
         "note": "低価格で教育と電子工作に広がった小型シングルボードPC。",
         "note_en": "Low-cost single-board computer widely used in education and maker projects.",
         "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "創作ツール"
+          ],
+          "practiceHints": [
+            "作る",
+            "改造する"
+          ],
+          "keywords": [
+            "ラズパイ",
+            "GPIO"
+          ]
+        }
       },
       {
         "label": "Tinder",
@@ -11830,7 +12415,22 @@
         "label_en": "DJI Phantom",
         "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
         "note_en": "Mainstreamed consumer aerial drones.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "改造する"
+          ],
+          "keywords": [
+            "ドローン"
+          ]
+        }
       },
       {
         "label": "Docker",
@@ -13589,7 +14189,24 @@
         "url_en": "https://en.wikipedia.org/wiki/VRChat",
         "note": "アバター交流を広げた仮想空間",
         "note_en": "Virtual social space built around avatars and user worlds",
-        "genreBadge": "SW"
+        "genreBadge": "SW",
+        "diagnostic": {
+          "deepModules": [
+            "同人／二次創作"
+          ],
+          "generalModules": [
+            "ネット交流",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "語る",
+            "作る"
+          ],
+          "keywords": [
+            "VRChat",
+            "アバター"
+          ]
+        }
       },
       {
         "label": "けものフレンズ",
@@ -17261,7 +17878,23 @@
           "url": "",
           "url_en": "",
           "note": "鉄道文化・旅の計画文化を象徴する媒体。",
-          "note_en": "A symbolic medium of railway culture and trip-planning culture."
+          "note_en": "A symbolic medium of railway culture and trip-planning culture.",
+          "diagnostic": {
+            "deepModules": [
+              "鉄道／交通"
+            ],
+            "generalModules": [
+              "懐かしさ／ノスタルジー"
+            ],
+            "practiceHints": [
+              "集める",
+              "研究する"
+            ],
+            "keywords": [
+              "時刻表",
+              "路線"
+            ]
+          }
         }
       ]
     },
@@ -17282,7 +17915,22 @@
           "url": "",
           "url_en": "",
           "note": "鉄道ファン文化を代表する雑誌の一つ。",
-          "note_en": "One of the magazines most representative of Japanese railfan culture."
+          "note_en": "One of the magazines most representative of Japanese railfan culture.",
+          "diagnostic": {
+            "deepModules": [
+              "鉄道／交通"
+            ],
+            "generalModules": [
+              "懐かしさ／ノスタルジー"
+            ],
+            "practiceHints": [
+              "集める",
+              "研究する"
+            ],
+            "keywords": [
+              "鉄道"
+            ]
+          }
         }
       ]
     },
@@ -17302,7 +17950,21 @@
           "url": "",
           "url_en": "",
           "note": "少女マンガ／耽美・関係性文化の金字塔。",
-          "note_en": "A landmark of shōjo manga and aesthetic relationship-driven storytelling."
+          "note_en": "A landmark of shōjo manga and aesthetic relationship-driven storytelling.",
+          "diagnostic": {
+            "deepModules": [
+              "BL／耽美"
+            ],
+            "generalModules": [
+              "物語世界"
+            ],
+            "practiceHints": [
+              "語る"
+            ],
+            "keywords": [
+              "トーマ"
+            ]
+          }
         }
       ]
     },
@@ -17322,7 +17984,21 @@
           "url": "",
           "url_en": "",
           "note": "少年愛・耽美表現の歴史を語る上で重要なマンガ作品。",
-          "note_en": "A foundational manga in the history of boys' love and aesthetic expression."
+          "note_en": "A foundational manga in the history of boys' love and aesthetic expression.",
+          "diagnostic": {
+            "deepModules": [
+              "BL／耽美"
+            ],
+            "generalModules": [
+              "物語世界"
+            ],
+            "practiceHints": [
+              "語る"
+            ],
+            "keywords": [
+              "風木"
+            ]
+          }
         }
       ]
     },
@@ -17342,7 +18018,23 @@
           "url": "",
           "url_en": "",
           "note": "耽美・BL文化を語る上で欠かせない雑誌。",
-          "note_en": "A key magazine in the history of boys' love and aesthetic subculture."
+          "note_en": "A key magazine in the history of boys' love and aesthetic subculture.",
+          "diagnostic": {
+            "deepModules": [
+              "BL／耽美"
+            ],
+            "generalModules": [
+              "キャラクター愛着"
+            ],
+            "practiceHints": [
+              "語る",
+              "研究する"
+            ],
+            "keywords": [
+              "JUNE",
+              "耽美"
+            ]
+          }
         }
       ]
     },
@@ -17362,7 +18054,22 @@
           "url": "",
           "url_en": "",
           "note": "歴史・耽美・関係性を結ぶ重要なマンガ作品。",
-          "note_en": "An important manga linking history, aesthetics, and intense relationships."
+          "note_en": "An important manga linking history, aesthetics, and intense relationships.",
+          "diagnostic": {
+            "deepModules": [
+              "BL／耽美",
+              "和風／伝承"
+            ],
+            "generalModules": [
+              "和風幻想"
+            ],
+            "practiceHints": [
+              "語る"
+            ],
+            "keywords": [
+              "厩戸皇子"
+            ]
+          }
         }
       ]
     },
@@ -17383,7 +18090,24 @@
           "url": "",
           "url_en": "",
           "note": "鉄道・都市開発・経営を結びつけたシミュレーションゲーム。",
-          "note_en": "A simulation game linking railways, city development, and management."
+          "note_en": "A simulation game linking railways, city development, and management.",
+          "diagnostic": {
+            "deepModules": [
+              "鉄道／交通",
+              "ゲーム実践"
+            ],
+            "generalModules": [
+              "ゲーム親和"
+            ],
+            "practiceHints": [
+              "語る",
+              "研究する"
+            ],
+            "keywords": [
+              "A列車",
+              "都市"
+            ]
+          }
         },
         {
           "startYear": 1985,
@@ -17398,7 +18122,23 @@
           "url": "",
           "url_en": "",
           "note": "少女マンガの枠を越えて支持された関係性の濃い作品。",
-          "note_en": "A relationship-driven manga widely embraced beyond shōjo manga audiences."
+          "note_en": "A relationship-driven manga widely embraced beyond shōjo manga audiences.",
+          "diagnostic": {
+            "deepModules": [
+              "BL／耽美"
+            ],
+            "generalModules": [
+              "物語世界"
+            ],
+            "practiceHints": [
+              "観る",
+              "語る"
+            ],
+            "keywords": [
+              "アッシュ",
+              "英二"
+            ]
+          }
         }
       ]
     },
@@ -17418,7 +18158,21 @@
           "url": "",
           "url_en": "",
           "note": "恋愛シミュレーション／美少女ゲーム文化の初期代表作。",
-          "note_en": "An early landmark title in dating sim and bishōjo game culture."
+          "note_en": "An early landmark title in dating sim and bishōjo game culture.",
+          "diagnostic": {
+            "deepModules": [
+              "萌え／美少女"
+            ],
+            "generalModules": [
+              "キャラクター愛着"
+            ],
+            "practiceHints": [
+              "観る"
+            ],
+            "keywords": [
+              "恋愛"
+            ]
+          }
         },
         {
           "startYear": 1992,
@@ -17434,7 +18188,24 @@
           "url": "",
           "url_en": "",
           "note": "少女文化・変身ヒロイン・キャラクター文化の大きな分岐点。",
-          "note_en": "A major turning point for girl culture, magical heroines, and character fandom."
+          "note_en": "A major turning point for girl culture, magical heroines, and character fandom.",
+          "diagnostic": {
+            "deepModules": [
+              "萌え／美少女"
+            ],
+            "generalModules": [
+              "キャラクター愛着",
+              "物語世界"
+            ],
+            "practiceHints": [
+              "観る",
+              "推す"
+            ],
+            "keywords": [
+              "セーラー",
+              "月"
+            ]
+          }
         }
       ]
     },
@@ -17454,7 +18225,22 @@
           "url": "",
           "url_en": "",
           "note": "美少女ゲーム／学園恋愛ADVの代表的作品の一つ。",
-          "note_en": "A representative school romance visual novel in Japanese bishōjo game culture."
+          "note_en": "A representative school romance visual novel in Japanese bishōjo game culture.",
+          "diagnostic": {
+            "deepModules": [
+              "萌え／美少女"
+            ],
+            "generalModules": [
+              "キャラクター愛着"
+            ],
+            "practiceHints": [
+              "観る",
+              "推す"
+            ],
+            "keywords": [
+              "マルチ"
+            ]
+          }
         },
         {
           "startYear": 1997,
@@ -17470,7 +18256,21 @@
           "url": "",
           "url_en": "",
           "note": "平成アイドル文化を代表するグループ。",
-          "note_en": "A defining idol group of Japan's Heisei era."
+          "note_en": "A defining idol group of Japan's Heisei era.",
+          "diagnostic": {
+            "deepModules": [
+              "アイドル／推し文化"
+            ],
+            "generalModules": [
+              "音楽／リズム"
+            ],
+            "practiceHints": [
+              "推す"
+            ],
+            "keywords": [
+              "娘。"
+            ]
+          }
         },
         {
           "startYear": 1997,
@@ -17486,7 +18286,22 @@
           "url": "",
           "url_en": "",
           "note": "鉄道運転体験をゲーム化した代表作。",
-          "note_en": "A landmark game that turned train operation into a playable experience."
+          "note_en": "A landmark game that turned train operation into a playable experience.",
+          "diagnostic": {
+            "deepModules": [
+              "鉄道／交通",
+              "ゲーム実践"
+            ],
+            "generalModules": [
+              "ゲーム親和"
+            ],
+            "practiceHints": [
+              "語る"
+            ],
+            "keywords": [
+              "電車"
+            ]
+          }
         }
       ]
     },
@@ -17507,7 +18322,24 @@
           "url": "",
           "url_en": "",
           "note": "Key作品を代表する恋愛アドベンチャーゲーム。",
-          "note_en": "A landmark romance visual novel from Key."
+          "note_en": "A landmark romance visual novel from Key.",
+          "diagnostic": {
+            "deepModules": [
+              "萌え／美少女"
+            ],
+            "generalModules": [
+              "キャラクター愛着",
+              "物語世界"
+            ],
+            "practiceHints": [
+              "観る",
+              "推す"
+            ],
+            "keywords": [
+              "雪",
+              "鍵"
+            ]
+          }
         },
         {
           "startYear": 1999,
@@ -17523,7 +18355,21 @@
           "url": "",
           "url_en": "",
           "note": "キャラクター中心の萌え文化を象徴するシリーズ。",
-          "note_en": "A series emblematic of character-centered moe culture."
+          "note_en": "A series emblematic of character-centered moe culture.",
+          "diagnostic": {
+            "deepModules": [
+              "萌え／美少女"
+            ],
+            "generalModules": [
+              "キャラクター愛着"
+            ],
+            "practiceHints": [
+              "推す"
+            ],
+            "keywords": [
+              "シスプリ"
+            ]
+          }
         }
       ]
     },
@@ -17544,7 +18390,22 @@
           "url": "",
           "url_en": "",
           "note": "交通と日常決済を結ぶICカードサービス。",
-          "note_en": "An IC card service connecting transportation with everyday payment."
+          "note_en": "An IC card service connecting transportation with everyday payment.",
+          "diagnostic": {
+            "deepModules": [
+              "鉄道／交通"
+            ],
+            "generalModules": [
+              "日常エンタメ",
+              "機械／ガジェット"
+            ],
+            "practiceHints": [
+              "使う"
+            ],
+            "keywords": [
+              "ICカード"
+            ]
+          }
         }
       ]
     },
@@ -17565,7 +18426,21 @@
           "url": "",
           "url_en": "",
           "note": "会いに行けるアイドルとして推し文化を拡張したグループ。",
-          "note_en": "An idol group that expanded fan culture through the 'idols you can meet' model."
+          "note_en": "An idol group that expanded fan culture through the 'idols you can meet' model.",
+          "diagnostic": {
+            "deepModules": [
+              "アイドル／推し文化"
+            ],
+            "generalModules": [
+              "音楽／リズム"
+            ],
+            "practiceHints": [
+              "推す"
+            ],
+            "keywords": [
+              "AKB"
+            ]
+          }
         },
         {
           "startYear": 2005,
@@ -17581,7 +18456,24 @@
           "url": "",
           "url_en": "",
           "note": "ゲームとアイドル／推し文化を結ぶ代表的シリーズ。",
-          "note_en": "A major franchise connecting gaming with idol and fandom culture."
+          "note_en": "A major franchise connecting gaming with idol and fandom culture.",
+          "diagnostic": {
+            "deepModules": [
+              "アイドル／推し文化"
+            ],
+            "generalModules": [
+              "キャラクター愛着",
+              "ゲーム親和"
+            ],
+            "practiceHints": [
+              "推す",
+              "語る"
+            ],
+            "keywords": [
+              "アイマス",
+              "担当"
+            ]
+          }
         }
       ]
     },
@@ -17602,7 +18494,22 @@
           "url": "",
           "url_en": "",
           "note": "配信文化・コミュニティ文化と結びついたVTuberグループ。",
-          "note_en": "A VTuber group closely tied to streaming and community culture."
+          "note_en": "A VTuber group closely tied to streaming and community culture.",
+          "diagnostic": {
+            "deepModules": [
+              "アイドル／推し文化"
+            ],
+            "generalModules": [
+              "ネット交流"
+            ],
+            "practiceHints": [
+              "推す",
+              "語る"
+            ],
+            "keywords": [
+              "にじ"
+            ]
+          }
         },
         {
           "startYear": 2018,
@@ -17618,9 +18525,77 @@
           "url": "",
           "url_en": "",
           "note": "VTuber／配信時代の推し文化を代表するグループ。",
-          "note_en": "A leading VTuber group representing streaming-era fandom."
+          "note_en": "A leading VTuber group representing streaming-era fandom.",
+          "diagnostic": {
+            "deepModules": [
+              "アイドル／推し文化"
+            ],
+            "generalModules": [
+              "ネット交流"
+            ],
+            "practiceHints": [
+              "推す",
+              "語る"
+            ],
+            "keywords": [
+              "ホロ"
+            ]
+          }
         }
       ]
     }
-  ]
+  ],
+  "diagnosticConfig": {
+    "upperAttributes": [
+      "世界観没入",
+      "機構偏愛",
+      "未来感受",
+      "異形親和",
+      "日常浸透",
+      "越境回遊",
+      "少年回路",
+      "少女回路",
+      "反復愛着",
+      "作者偏信",
+      "記録蒐集"
+    ],
+    "deepModules": [
+      "萌え／美少女",
+      "BL／耽美",
+      "和風／伝承",
+      "鉄道／交通",
+      "匿名ネット文化",
+      "共同視聴文化",
+      "ボカロ／仮想人格",
+      "アップル美学",
+      "DOS/UNIX実務",
+      "ゲーム実践",
+      "創作／オーサリング",
+      "エンジニアリング",
+      "同人／二次創作",
+      "アイドル／推し文化"
+    ],
+    "generalModules": [
+      "物語世界",
+      "キャラクター愛着",
+      "日常エンタメ",
+      "機械／ガジェット",
+      "ゲーム親和",
+      "ネット交流",
+      "音楽／リズム",
+      "創作ツール",
+      "懐かしさ／ノスタルジー",
+      "和風幻想"
+    ],
+    "practiceModes": [
+      "観る",
+      "使う",
+      "集める",
+      "作る",
+      "改造する",
+      "推す",
+      "語る",
+      "研究する"
+    ]
+  }
 }
