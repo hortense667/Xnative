@@ -12148,20 +12148,6 @@
         "note_en": "Low-cost single-board computer widely used in education and maker projects.",
         "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
         "genreBadge": "HW"
-      },
-      {
-        "label": "Wii U",
-        "label_en": "Wii U",
-        "startYear": "2012",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Wii%20U",
-        "note": "GamePad連携で二画面遊びを試みた任天堂の据置ゲーム機。",
-        "note_en": "Nintendo console that experimented with dual-screen play via the GamePad.",
-        "url_en": "https://en.wikipedia.org/wiki/Wii_U",
-        "genreBadge": "HW"
       }
     ],
     "2013": [
