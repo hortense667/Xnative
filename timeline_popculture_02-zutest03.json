@@ -15233,21 +15233,6 @@
       {
         "label": "あつまれ どうぶつの森",
         "label_en": "Animal Crossing: New Horizons",
-        "startYear": 2020,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/あつまれ_どうぶつの森",
-        "url_en": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
-        "note": "コロナ禍の癒やしとして爆発的人気。",
-        "note_en": "Pandemic comfort-game phenomenon.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "あつまれ どうぶつの森",
-        "label_en": "Animal Crossing: New Horizons",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
