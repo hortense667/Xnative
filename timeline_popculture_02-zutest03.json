@@ -624,20 +624,6 @@
     ],
     "1964": [
       {
-        "label": "IBM System/360",
-        "label_en": "IBM System/360",
-        "startYear": 1964,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/IBM_System/360",
-        "url_en": "https://en.wikipedia.org/wiki/IBM_System/360",
-        "note": "互換性を重視した画期的ファミリー。",
-        "note_en": "Revolutionary compatible mainframe family.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "カムイ伝",
         "label_en": "Legend of Kamui",
         "startYear": 1964,
@@ -1087,21 +1073,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "ゴアテックス",
-        "label_en": "Gore-Tex",
-        "startYear": 1969,
-        "genre": [
-          "FAS",
-          "HAR"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/ゴアテックス",
-        "url_en": "https://en.wikipedia.org/wiki/Gore-Tex",
-        "note": "防水透湿素材の革命。",
-        "note_en": "Revolutionary waterproof breathable fabric.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "サザエさん",
         "label_en": "Sazae-san (TV anime)",
         "startYear": 1969,
@@ -1151,21 +1122,6 @@
       }
     ],
     "1970": [
-      {
-        "label": "Minimoog Model D",
-        "label_en": "Minimoog Model D",
-        "startYear": 1970,
-        "genre": [
-          "HAR",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Minimoog",
-        "url_en": "https://en.wikipedia.org/wiki/Minimoog",
-        "note": "携帯可能な名機シンセ。",
-        "note_en": "Portable iconic analog synthesizer.",
-        "genreBadge": "HW"
-      },
       {
         "label": "NNNドキュメント",
         "label_en": "NNN Document",
@@ -1279,20 +1235,6 @@
       }
     ],
     "1972": [
-      {
-        "label": "HP-35",
-        "label_en": "HP-35",
-        "startYear": 1972,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/HP-35",
-        "url_en": "https://en.wikipedia.org/wiki/HP-35",
-        "note": "初の科学技術向けポケット電卓。",
-        "note_en": "First handheld scientific calculator.",
-        "genreBadge": "HW"
-      },
       {
         "label": "NHK少年ドラマシリーズ",
         "startYear": "1972",
@@ -1568,21 +1510,6 @@
     ],
     "1975": [
       {
-        "label": "Altair 8800",
-        "label_en": "Altair 8800",
-        "startYear": 1975,
-        "genre": [
-          "HAR",
-          "SOF"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Altair_8800",
-        "url_en": "https://en.wikipedia.org/wiki/Altair_8800",
-        "note": "パソコン革命の火付け役。",
-        "note_en": "Catalyst for the personal computer revolution.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "コミックマーケット",
         "label_en": "Comiket",
         "startYear": 1975,
@@ -1664,38 +1591,6 @@
       }
     ],
     "1976": [
-      {
-        "label": "I/O (パソコン雑誌)",
-        "label_en": "I/O",
-        "startYear": 1976,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG",
-          "HAR",
-          "SOF",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/I/O_(雑誌)",
-        "note": "ホビーパソコン向け技術誌。",
-        "note_en": "Japanese hobby PC tech magazine.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "TK-80",
-        "label_en": "TK-80",
-        "startYear": 1976,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/TK-80",
-        "note": "NECの学習用マイコンキット。",
-        "note_en": "NEC’s training microcomputer kit.",
-        "url_en": "https://en.wikipedia.org/wiki/TK-80",
-        "genreBadge": "HW"
-      },
       {
         "label": "VHS",
         "label_en": "VHS",
@@ -1852,66 +1747,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Commodore PET 2001",
-        "label_en": "Commodore PET 2001",
-        "startYear": 1977,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Commodore_PET",
-        "url_en": "https://en.wikipedia.org/wiki/Commodore_PET",
-        "note": "オールインワン型初期PC。",
-        "note_en": "All-in-one early personal computer.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "Synclavier",
-        "label_en": "Synclavier",
-        "startYear": 1977,
-        "genre": [
-          "HAR",
-          "SOF",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Synclavier",
-        "url_en": "https://en.wikipedia.org/wiki/Synclavier",
-        "note": "デジタル音源とサンプラーの先駆。",
-        "note_en": "Early digital synthesizer/sampling system.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "TRS-80",
-        "label_en": "TRS-80",
-        "startYear": 1977,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/TRS-80",
-        "url_en": "https://en.wikipedia.org/wiki/TRS-80",
-        "note": "量販店発の個人向けPC。",
-        "note_en": "Mass-market personal computer line.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "Yamaha CS-80",
-        "label_en": "Yamaha CS-80",
-        "startYear": 1977,
-        "genre": [
-          "HAR",
-          "MUS",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/CS-80",
-        "url_en": "https://en.wikipedia.org/wiki/Yamaha_CS-80",
-        "note": "表現力豊かな名機シンセ。",
-        "note_en": "Expressive), legendary analog synth.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "アスキー (雑誌)",
         "label_en": "ASCII (magazine)",
         "startYear": 1977,
@@ -2021,35 +1856,6 @@
         "note": "チャリティー長時間特番。",
         "note_en": "Annual long-form charity TV special.",
         "genreBadge": "TV"
-      },
-      {
-        "label": "MZ-80K",
-        "label_en": "MZ-80K",
-        "startYear": 1978,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MZ-80K",
-        "note": "シャープのホビーパソコン。",
-        "note_en": "Sharp’s early hobbyist microcomputer.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "Sequential Circuits Prophet-5",
-        "label_en": "Prophet-5",
-        "startYear": 1978,
-        "genre": [
-          "HAR",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%BC%E3%82%B1%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%BB%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88_%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%83%885",
-        "url_en": "https://en.wikipedia.org/wiki/Prophet-5",
-        "note": "ポリフォニック・シンセの決定版。",
-        "note_en": "Definitive polyphonic analog synth.",
-        "genreBadge": "HW"
       },
       {
         "label": "うる星やつら",
@@ -2183,22 +1989,6 @@
         "genreBadge": "HW"
       },
       {
-        "label": "Fairlight CMI",
-        "label_en": "Fairlight CMI",
-        "startYear": 1979,
-        "genre": [
-          "HAR",
-          "SOF",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Fairlight_CMI",
-        "url_en": "https://en.wikipedia.org/wiki/Fairlight_CMI",
-        "note": "デジタルサンプラーの草分け。",
-        "note_en": "Pioneering digital sampling workstation.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "Intellivision",
         "label_en": "Intellivision",
         "startYear": 1979,
@@ -2226,20 +2016,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Private_Eyes_(1976_film)",
         "_rev": "1774364483188-i4ffwp5q",
         "genreBadge": "MOV"
-      },
-      {
-        "label": "PC-8001",
-        "label_en": "NEC PC-8001",
-        "startYear": 1979,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PC-8001",
-        "note": "国産パソコン普及の嚆矢。",
-        "note_en": "Pioneer of Japanese home PCs.",
-        "genreBadge": "HW"
       },
       {
         "label": "Walkman（カセット）",
@@ -2566,20 +2342,6 @@
     ],
     "1981": [
       {
-        "label": "BBC Micro",
-        "label_en": "BBC Micro",
-        "startYear": 1981,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/BBC_Micro",
-        "url_en": "https://en.wikipedia.org/wiki/BBC_Micro",
-        "note": "英国の教育用8ビット機。",
-        "note_en": "UK 8-bit computer for education.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "IBM PC",
         "label_en": "IBM Personal Computer (5150)",
         "startYear": 1981,
@@ -2622,21 +2384,6 @@
         "note": "ミュージックビデオ時代を切り開いた専門局。",
         "note_en": "Cable channel that ushered in the music video era.",
         "genreBadge": "TV"
-      },
-      {
-        "label": "PC-6001",
-        "label_en": "NEC PC-6001",
-        "startYear": 1981,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/PC-6001",
-        "url_en": "https://en.wikipedia.org/wiki/PC-6001",
-        "note": "入門機として普及した8ビット機。",
-        "note_en": "Affordable 8-bit entry-level home computer.",
-        "genreBadge": "HW"
       },
       {
         "label": "PC-8801",
@@ -2904,21 +2651,6 @@
         "genreBadge": "MOV"
       },
       {
-        "label": "FM-7",
-        "label_en": "Fujitsu FM-7",
-        "startYear": 1982,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/FM-7",
-        "url_en": "https://en.wikipedia.org/wiki/Fujitsu_FM-7",
-        "note": "教育・ホビー向け国産PC。",
-        "note_en": "Japanese 8-bit computer for hobby/education.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "LOGiN",
         "label_en": "LOGiN (magazine)",
         "startYear": 1982,
@@ -2947,35 +2679,6 @@
         "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
         "note": "日本の業務・家庭を席巻した国産PC。",
         "note_en": "Dominant Japanese 16-bit PC platform.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "X1",
-        "label_en": "Sharp X1",
-        "startYear": 1982,
-        "genre": [
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/X1_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
-        "url_en": "https://en.wikipedia.org/wiki/Sharp_X1",
-        "note": "高解像度表示で人気の8ビット機。",
-        "note_en": "Sharp’s crisp-display 8-bit computer.",
-        "genreBadge": "HW"
-      },
-      {
-        "label": "ZX Spectrum",
-        "label_en": "ZX Spectrum",
-        "startYear": 1982,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ZX_Spectrum",
-        "url_en": "https://en.wikipedia.org/wiki/ZX_Spectrum",
-        "note": "英国8ビット文化を築いた名機。",
-        "note_en": "Iconic UK 8-bit home computer.",
         "genreBadge": "HW"
       },
       {
@@ -3333,22 +3036,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "Discman（CDウォークマン）",
-        "label_en": "Sony Discman",
-        "startYear": 1984,
-        "genre": [
-          "FMT",
-          "HAR",
-          "JAPAN",
-          "MUS"
-        ],
-        "imp": 4,
-        "url_en": "https://en.wikipedia.org/wiki/Discman",
-        "note": "携帯CDプレーヤー普及の火付け役。",
-        "note_en": "Popularized portable CD players.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "Macintosh",
         "label_en": "Macintosh",
         "startYear": 1984,
@@ -3509,34 +3196,6 @@
       }
     ],
     "1985": [
-      {
-        "label": "AmigaOS",
-        "label_en": "AmigaOS",
-        "startYear": 1985,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/AmigaOS",
-        "url_en": "https://en.wikipedia.org/wiki/AmigaOS",
-        "note": "マルチメディアで強みのOS。",
-        "note_en": "Multimedia-capable home computer OS.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Atari ST",
-        "label_en": "Atari ST",
-        "startYear": 1985,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Atari_ST",
-        "url_en": "https://en.wikipedia.org/wiki/Atari_ST",
-        "note": "DTP/音楽制作で普及。",
-        "note_en": "Popular in DTP and music production.",
-        "genreBadge": "HW"
-      },
       {
         "label": "Microsoft Excel",
         "label_en": "Microsoft Excel",
@@ -3983,20 +3642,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "Macromedia Director",
-        "label_en": "Macromedia Director",
-        "startYear": 1987,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Adobe_Director",
-        "url_en": "https://en.wikipedia.org/wiki/Adobe_Director",
-        "note": "マルチメディア制作の定番に。",
-        "note_en": "Staple multimedia authoring tool.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "NIFTY-Serve",
         "label_en": "NIFTY-Serve",
         "startYear": 1987,
@@ -4106,21 +3751,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "草の根BBS",
-        "label_en": "Grassroots BBS (Japan)",
-        "startYear": 1987,
-        "genre": [
-          "NET",
-          "SOF",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/草の根BBS",
-        "note": "個人運営の小規模BBS群。",
-        "note_en": "Small privately run BBS networks.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "超神伝説うろつき童子",
         "label_en": "Urotsukidōji",
         "startYear": 1987,
@@ -4170,21 +3800,6 @@
         "note": "考古学×冒険のミステリー。",
         "note_en": "Archaeology-themed adventure mystery.",
         "genreBadge": "MNG"
-      },
-      {
-        "label": "PC-VAN",
-        "label_en": "NEC PC-VAN",
-        "startYear": 1988,
-        "genre": [
-          "NET",
-          "SOF",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/PC-VAN",
-        "note": "NEC系オンラインサービス。",
-        "note_en": "NEC’s commercial online service.",
-        "genreBadge": "SW"
       },
       {
         "label": "となりのトトロ",
@@ -4427,21 +4042,6 @@
         "note": "ノンリニア編集の定番。",
         "note_en": "Industry-standard non-linear editor.",
         "genreBadge": "MOV"
-      },
-      {
-        "label": "Cubase",
-        "label_en": "Cubase",
-        "startYear": 1989,
-        "genre": [
-          "SOF",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Cubase",
-        "url_en": "https://en.wikipedia.org/wiki/Cubase",
-        "note": "DAW/シーケンサーの代表格。",
-        "note_en": "Leading DAW/sequencer.",
-        "genreBadge": "SW"
       },
       {
         "label": "Cut",
@@ -5006,20 +4606,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "QuickTime",
-        "label_en": "QuickTime",
-        "startYear": 1991,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/QuickTime",
-        "url_en": "https://en.wikipedia.org/wiki/QuickTime",
-        "note": "Appleのマルチメディア基盤。",
-        "note_en": "Apple’s multimedia framework.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "グラップラー刃牙",
         "label_en": "Grappler Baki",
         "startYear": 1991,
@@ -5305,20 +4891,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Adobe Acrobat",
-        "label_en": "Adobe Acrobat",
-        "startYear": 1993,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Adobe_Acrobat",
-        "url_en": "https://en.wikipedia.org/wiki/Adobe_Acrobat",
-        "note": "PDF制作/閲覧ソフト。",
-        "note_en": "PDF creation and viewing software.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "After Effects",
         "label_en": "Adobe After Effects",
         "startYear": 1993,
@@ -5466,23 +5038,6 @@
         "note": "日本発PDAの代表格。",
         "note_en": "Notable Japanese PDA line.",
         "genreBadge": "HW"
-      },
-      {
-        "label": "WIRED",
-        "label_en": "WIRED",
-        "startYear": 1993,
-        "endYear": "ongoing",
-        "genre": [
-          "MAG",
-          "NET",
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/WIRED",
-        "url_en": "https://en.wikipedia.org/wiki/Wired_(magazine)",
-        "note": "テクノロジー文化誌。",
-        "note_en": "Magazine on tech and culture.",
-        "genreBadge": "SW"
       },
       {
         "label": "id Tech 1 (DOOMエンジン)",
@@ -6038,36 +5593,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "RealPlayer",
-        "label_en": "RealPlayer",
-        "startYear": 1995,
-        "genre": [
-          "SOF",
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/RealPlayer",
-        "url_en": "https://en.wikipedia.org/wiki/RealPlayer",
-        "note": "初期ストリーミング再生ソフト。",
-        "note_en": "Early consumer streaming media player.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Shockwave",
-        "label_en": "Adobe Shockwave",
-        "startYear": 1995,
-        "genre": [
-          "SOF",
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Adobe_Shockwave",
-        "url_en": "https://en.wikipedia.org/wiki/Adobe_Shockwave",
-        "note": "Web向けリッチコンテンツ技術。",
-        "note_en": "Web tech for rich interactive content.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Windows 95",
         "label_en": "Windows 95",
         "startYear": 1995,
@@ -6222,20 +5747,6 @@
     ],
     "1996": [
       {
-        "label": "3ds Max",
-        "label_en": "Autodesk 3ds Max",
-        "startYear": 1996,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Autodesk_3ds_Max",
-        "url_en": "https://en.wikipedia.org/wiki/Autodesk_3ds_Max",
-        "note": "3D) CG制作の業界標準ソフトの一つ。",
-        "note_en": "Industry-standard 3D CG package.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Adobe Flash Player",
         "label_en": "Adobe Flash Player",
         "startYear": 1996,
@@ -6279,20 +5790,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Outlook.com",
         "note": "無料Webメールの草分け。",
         "note_en": "Pioneering free webmail service.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Houdini",
-        "label_en": "Houdini (software)",
-        "startYear": 1996,
-        "genre": [
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Houdini",
-        "url_en": "https://en.wikipedia.org/wiki/Houdini_(software)",
-        "note": "プロシージャルCGで知られる3Dソフト。",
-        "note_en": "3D package famed for procedural CG.",
         "genreBadge": "SW"
       },
       {
@@ -6674,21 +6171,6 @@
     ],
     "1997": [
       {
-        "label": "AOL Instant Messenger",
-        "label_en": "AOL Instant Messenger",
-        "startYear": 1997,
-        "genre": [
-          "NET",
-          "SOF"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/AOL_Instant_Messenger",
-        "url_en": "https://en.wikipedia.org/wiki/AOL_Instant_Messenger",
-        "note": "米IM文化を築いたサービス。",
-        "note_en": "Defining U.S. instant messaging service.",
-        "genreBadge": "SW"
-      },
-      {
         "startYear": 1997,
         "label": "ASCIIアート文化",
         "label_en": "ASCII Art Culture",
@@ -6702,21 +6184,6 @@
         "note": "文字だけで図像や感情を表現するネット文化の重要な様式。",
         "note_en": "A key internet style that used text characters to express images and emotion.",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "AviUtl",
-        "label_en": "AviUtl",
-        "startYear": 1997,
-        "genre": [
-          "SOF",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/AviUtl",
-        "url_en": "https://ja.wikipedia.org/wiki/AviUtl",
-        "note": "国産無料動画編集ソフト。",
-        "note_en": "Popular Japanese free video editor.",
-        "genreBadge": "SW"
       },
       {
         "label": "DEAR BOYS",
@@ -6734,51 +6201,6 @@
         "note": "高校バスケを描く長寿漫画。",
         "note_en": "Long-running high school basketball manga.",
         "genreBadge": "MNG"
-      },
-      {
-        "label": "Dreamweaver",
-        "label_en": "Adobe Dreamweaver",
-        "startYear": 1997,
-        "genre": [
-          "SOF",
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Adobe_Dreamweaver",
-        "url_en": "https://en.wikipedia.org/wiki/Adobe_Dreamweaver",
-        "note": "Web制作向けWYSIWYG編集ソフト。",
-        "note_en": "WYSIWYG web authoring tool.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "FL Studio",
-        "label_en": "FL Studio",
-        "startYear": 1997,
-        "genre": [
-          "SOF",
-          "MUS"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/FL_Studio",
-        "url_en": "https://en.wikipedia.org/wiki/FL_Studio",
-        "note": "DAWとして世界的普及。",
-        "note_en": "Widely used DAW for music production.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "MAME",
-        "label_en": "MAME",
-        "startYear": 1997,
-        "genre": [
-          "SOF",
-          "GAM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/MAME",
-        "url_en": "https://en.wikipedia.org/wiki/MAME",
-        "note": "アーケード基板のエミュレータ。",
-        "note_en": "Arcade machine emulator project.",
-        "genreBadge": "GM"
       },
       {
         "label": "ONE_PIECE",
@@ -6812,20 +6234,6 @@
         "note": "高難度アスレチックを競う人気番組。",
         "note_en": "Hit obstacle-course competition show.",
         "genreBadge": "TV"
-      },
-      {
-        "label": "Sony Digital Mavica",
-        "label_en": "Sony Digital Mavica",
-        "startYear": 1997,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/マビカ",
-        "url_en": "https://en.wikipedia.org/wiki/Sony_Mavica",
-        "note": "フロッピー保存のデジカメ。",
-        "note_en": "Digital camera saving to floppy disks.",
-        "genreBadge": "HW"
       },
       {
         "label": "South Park",
@@ -8548,65 +7956,6 @@
       }
     ],
     "2002": [
-      {
-        "label": "Camtasia",
-        "label_en": "Camtasia",
-        "startYear": 2002,
-        "genre": [
-          "MOV",
-          "SOF"
-        ],
-        "imp": 3,
-        "url_en": "https://en.wikipedia.org/wiki/Camtasia",
-        "note": "画面録画と編集の統合ソフト。",
-        "note_en": "Screen recording and video editing suite.",
-        "genreBadge": "MOV"
-      },
-      {
-        "label": "DOSBox",
-        "label_en": "DOSBox",
-        "startYear": 2002,
-        "genre": [
-          "SOF",
-          "GAM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/DOSBox",
-        "url_en": "https://en.wikipedia.org/wiki/DOSBox",
-        "note": "MS-DOS環境を再現するエミュレータ。",
-        "note_en": "Emulator for legacy MS-DOS software.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "Kdenlive",
-        "label_en": "Kdenlive",
-        "startYear": 2002,
-        "genre": [
-          "SOF",
-          "MOV"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Kdenlive",
-        "url_en": "https://en.wikipedia.org/wiki/Kdenlive",
-        "note": "OSSのノンリニア動画編集。",
-        "note_en": "Open-source non-linear video editor.",
-        "genreBadge": "MOV"
-      },
-      {
-        "label": "Kodi (XBMC)",
-        "label_en": "Kodi (XBMC)",
-        "startYear": 2002,
-        "genre": [
-          "SOF",
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Kodi",
-        "url_en": "https://en.wikipedia.org/wiki/Kodi_(software)",
-        "note": "メディアセンター用ソフトウェア。",
-        "note_en": "Home-theater media center software.",
-        "genreBadge": "SW"
-      },
       {
         "label": "Roomba（初代）",
         "label_en": "Roomba (1st gen)",
@@ -14168,18 +13517,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "M5Stack",
-        "startYear": 2017,
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/M5Stack",
-        "note": "表示器や筐体を備え試作しやすいモジュール型開発ボード。",
-        "note_en": "Modular development board designed for rapid prototyping with built-in display and case.",
-        "genreBadge": "HW"
-      },
-      {
         "label": "NieR:Automata",
         "label_en": "NieR:Automata",
         "startYear": 2017,
@@ -14238,21 +13575,6 @@
         "note": "バトロワ隆盛の火付け役。",
         "note_en": "Sparked the battle-royale boom.",
         "genreBadge": "GM"
-      },
-      {
-        "label": "Substack",
-        "label_en": "Substack",
-        "startYear": "2017",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Substack",
-        "note": "サービスの性格が異なる代表的インターネット項目。",
-        "note_en": "A representative internet service with a distinct role.",
-        "url_en": "https://en.wikipedia.org/wiki/Substack",
-        "genreBadge": "WEB"
       },
       {
         "label": "VRChat",
@@ -17919,6 +17241,386 @@
       "code": "SOF",
       "label": "ソフトウェア",
       "conjunction": false
+    }
+  ],
+  "years": [
+    {
+      "year": 1925,
+      "events": [
+        {
+          "startYear": 1925,
+          "label": "時刻表",
+          "label_en": "Timetable",
+          "genre": [
+            "MAG",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道文化・旅の計画文化を象徴する媒体。",
+          "note_en": "A symbolic medium of railway culture and trip-planning culture."
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "startYear": 1967,
+          "label": "鉄道ジャーナル",
+          "label_en": "Railway Journal",
+          "genre": [
+            "MAG",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道ファン文化を代表する雑誌の一つ。",
+          "note_en": "One of the magazines most representative of Japanese railfan culture."
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "events": [
+        {
+          "startYear": 1974,
+          "label": "トーマの心臓",
+          "label_en": "The Heart of Thomas",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少女マンガ／耽美・関係性文化の金字塔。",
+          "note_en": "A landmark of shōjo manga and aesthetic relationship-driven storytelling."
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "events": [
+        {
+          "startYear": 1976,
+          "label": "風と木の詩",
+          "label_en": "The Poem of Wind and Trees",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少年愛・耽美表現の歴史を語る上で重要なマンガ作品。",
+          "note_en": "A foundational manga in the history of boys' love and aesthetic expression."
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "events": [
+        {
+          "startYear": 1978,
+          "label": "JUNE",
+          "label_en": "JUNE",
+          "genre": [
+            "MAG",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "耽美・BL文化を語る上で欠かせない雑誌。",
+          "note_en": "A key magazine in the history of boys' love and aesthetic subculture."
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "events": [
+        {
+          "startYear": 1980,
+          "label": "日出処の天子",
+          "label_en": "The Son of the Sun",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "歴史・耽美・関係性を結ぶ重要なマンガ作品。",
+          "note_en": "An important manga linking history, aesthetics, and intense relationships."
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "events": [
+        {
+          "startYear": 1985,
+          "label": "A列車で行こう",
+          "label_en": "A-Train",
+          "genre": [
+            "GAM",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道・都市開発・経営を結びつけたシミュレーションゲーム。",
+          "note_en": "A simulation game linking railways, city development, and management."
+        },
+        {
+          "startYear": 1985,
+          "label": "BANANA FISH",
+          "label_en": "BANANA FISH",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少女マンガの枠を越えて支持された関係性の濃い作品。",
+          "note_en": "A relationship-driven manga widely embraced beyond shōjo manga audiences."
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "events": [
+        {
+          "startYear": 1992,
+          "label": "同級生",
+          "label_en": "Dōkyūsei",
+          "genre": [
+            "GAM",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "恋愛シミュレーション／美少女ゲーム文化の初期代表作。",
+          "note_en": "An early landmark title in dating sim and bishōjo game culture."
+        },
+        {
+          "startYear": 1992,
+          "label": "美少女戦士セーラームーン",
+          "label_en": "Pretty Guardian Sailor Moon",
+          "genre": [
+            "ANM",
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "ANM",
+          "imp": 5,
+          "url": "",
+          "url_en": "",
+          "note": "少女文化・変身ヒロイン・キャラクター文化の大きな分岐点。",
+          "note_en": "A major turning point for girl culture, magical heroines, and character fandom."
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "events": [
+        {
+          "startYear": 1997,
+          "label": "To Heart",
+          "label_en": "To Heart",
+          "genre": [
+            "GAM",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "美少女ゲーム／学園恋愛ADVの代表的作品の一つ。",
+          "note_en": "A representative school romance visual novel in Japanese bishōjo game culture."
+        },
+        {
+          "startYear": 1997,
+          "label": "モーニング娘。",
+          "label_en": "Morning Musume",
+          "genre": [
+            "MUS",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "MUS",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "平成アイドル文化を代表するグループ。",
+          "note_en": "A defining idol group of Japan's Heisei era."
+        },
+        {
+          "startYear": 1997,
+          "label": "電車でGO!",
+          "label_en": "Densha de GO!",
+          "genre": [
+            "GAM",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道運転体験をゲーム化した代表作。",
+          "note_en": "A landmark game that turned train operation into a playable experience."
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "events": [
+        {
+          "startYear": 1999,
+          "label": "Kanon",
+          "label_en": "Kanon",
+          "genre": [
+            "GAM",
+            "NOV",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "Key作品を代表する恋愛アドベンチャーゲーム。",
+          "note_en": "A landmark romance visual novel from Key."
+        },
+        {
+          "startYear": 1999,
+          "label": "シスター・プリンセス",
+          "label_en": "Sister Princess",
+          "genre": [
+            "MNG",
+            "NOV",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "キャラクター中心の萌え文化を象徴するシリーズ。",
+          "note_en": "A series emblematic of character-centered moe culture."
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "events": [
+        {
+          "startYear": 2001,
+          "label": "Suica",
+          "label_en": "Suica",
+          "genre": [
+            "SVC",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "交通と日常決済を結ぶICカードサービス。",
+          "note_en": "An IC card service connecting transportation with everyday payment."
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "events": [
+        {
+          "startYear": 2005,
+          "label": "AKB48",
+          "label_en": "AKB48",
+          "genre": [
+            "MUS",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "MUS",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "会いに行けるアイドルとして推し文化を拡張したグループ。",
+          "note_en": "An idol group that expanded fan culture through the 'idols you can meet' model."
+        },
+        {
+          "startYear": 2005,
+          "label": "アイドルマスター",
+          "label_en": "THE IDOLM@STER",
+          "genre": [
+            "GAM",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "ゲームとアイドル／推し文化を結ぶ代表的シリーズ。",
+          "note_en": "A major franchise connecting gaming with idol and fandom culture."
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "events": [
+        {
+          "startYear": 2018,
+          "label": "にじさんじ",
+          "label_en": "Nijisanji",
+          "genre": [
+            "NET",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "配信文化・コミュニティ文化と結びついたVTuberグループ。",
+          "note_en": "A VTuber group closely tied to streaming and community culture."
+        },
+        {
+          "startYear": 2018,
+          "label": "ホロライブ",
+          "label_en": "hololive",
+          "genre": [
+            "NET",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "VTuber／配信時代の推し文化を代表するグループ。",
+          "note_en": "A leading VTuber group representing streaming-era fandom."
+        }
+      ]
     }
   ]
 }
