@@ -16021,21 +16021,6 @@
         "genreBadge": "MOV"
       },
       {
-        "label": "ELDEN RING",
-        "label_en": "Elden Ring",
-        "startYear": 2022,
-        "genre": [
-          "GAM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
-        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring",
-        "note": "探索自由度で新境地のアクションRPG。",
-        "note_en": "Open-world evolution of the Soulslike.",
-        "genreBadge": "GM"
-      },
-      {
         "label": "Do It Yourself!!",
         "label_en": "Do It Yourself!!",
         "startYear": "2022",
