@@ -15813,21 +15813,6 @@
         "label": "ChatGPT",
         "label_en": "ChatGPT",
         "startYear": "2022",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
-        "note": "対話型生成AIを一般ユーザーへ一気に広めたサービス。",
-        "note_en": "Service that rapidly introduced conversational generative AI to the general public.",
-        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "ChatGPT",
-        "label_en": "ChatGPT",
-        "startYear": "2022",
         "genre": [
           "NET",
           "SW"
