@@ -9360,21 +9360,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Unity",
-        "label_en": "Unity",
-        "startYear": "2005",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Unity",
-        "note": "個人から大手まで使われる、ゲーム開発向け総合エンジン。",
-        "note_en": "Comprehensive engine used for game development from indies to major studios.",
-        "url_en": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Xbox 360",
         "label_en": "Xbox 360",
         "startYear": "2005",
