@@ -15840,21 +15840,6 @@
         "genreBadge": "ANM"
       },
       {
-        "label": "ELDEN RING SHADOW OF THE ERDTREE",
-        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
-        "startYear": "2022",
-        "endYear": "2024",
-        "genre": [
-          "GM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
-        "note": "巨大な追加領域で本編の魅力を拡張した大型DLC。",
-        "note_en": "Large-scale expansion that significantly broadened the appeal of the main game.",
-        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring:_Shadow_of_the_Erdtree",
-        "genreBadge": "GM"
-      },
-      {
         "label": "Everything Everywhere All at Once",
         "label_en": "Everything Everywhere All at Once",
         "startYear": 2022,
@@ -16300,6 +16285,21 @@
         "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate.",
         "url_en": "https://en.wikipedia.org/wiki/The_13_Lords_of_the_Shogun",
         "genreBadge": "TV"
+      },
+      {
+        "label": "ELDEN RING SHADOW OF THE ERDTREE",
+        "startYear": "2022",
+        "endYear": "2024",
+        "genre": [
+          "GM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
+        "note": "巨大な追加領域で本編の魅力を拡張した大型DLC。",
+        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
+        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring:_Shadow_of_the_Erdtree",
+        "note_en": "Large-scale expansion that significantly broadened the appeal of the main game.",
+        "_rev": "1774652054449-ocig4u87"
       }
     ],
     "2023": [
