@@ -26,7 +26,7 @@
       "usageDescription_en": "This screen plays introduction videos for HARC and Xnative Timeline. Press the Start button to return to the beginning."
     },
     "zutest02": {
-      "filePath": "timeline_popculture_02-zutest02.json",
+      "filePath": "timeline_popculture_02-zutest03.json",
       "aiProvider": "openai",
       "temperature": 1.2,
       "initialBirthYear": 2000,
