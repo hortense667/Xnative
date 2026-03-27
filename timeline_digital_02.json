@@ -30,209 +30,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "黎明期・商用コンピュータ全盛期",
-      "startYear": 1946,
-      "endYear": 1989,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "パソコン繁栄期",
-      "startYear": 1977,
-      "endYear": 1999,
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "インターネット・スマートフォンの時代",
-      "startYear": 1995,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "AIの時代",
-      "startYear": 2012,
-      "endYear": "ongoing",
-      "color": "#4169E1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "NON-HIS",
-      "label": "事件/戦略/協定/政策",
-      "label_en": "Events/Strat/Agreements/Policies",
-      "conjunction": false
-    },
-    {
-      "code": "THE",
-      "label": "理論/モデル",
-      "label_en": "Theory/Models",
-      "conjunction": false
-    },
-    {
-      "code": "ORG",
-      "label": "人物/組織",
-      "label_en": "People/Orgs",
-      "conjunction": false
-    },
-    {
-      "code": "MED-CNT",
-      "label": "メディア（雑誌/出版）/コンテンツ（作品）",
-      "label_en": "Media(Mag/Publ)/Content",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-PC",
-      "label": "コンピュータ本体",
-      "label_en": "Computers",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-MOB",
-      "label": "モバイル端末/携帯/ウェアラブル",
-      "label_en": "Mobile/Phones/Wearables",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-CPU",
-      "label": "マイクロプロセッサ",
-      "label_en": "MPUs",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-MED",
-      "label": "メディア/データ形式",
-      "label_en": "Media/DataFmt",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-PER",
-      "label": "周辺機器（プリンタ/スキャナ等）",
-      "label_en": "Peripherals(Printers/Scanners)",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-IMG",
-      "label": "画像/音響機器（カメラ/オーディオ）",
-      "label_en": "Imaging/Audio(Cam/Audio)",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-GAM",
-      "label": "ゲームハード",
-      "label_en": "GameHW",
-      "conjunction": false
-    },
-    {
-      "code": "HAR-ROB",
-      "label": "ロボティクス/コンシューマロボ",
-      "label_en": "Robotics/ConsumerRobots",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-OS",
-      "label": "OS",
-      "label_en": "OS",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-DEV",
-      "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
-      "label_en": "SW(Lang/DevTools/Platforms)",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-CRE",
-      "label": "クリエイティブ/3D/メディア系ソフト",
-      "label_en": "Creative/3D/MediaSW",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-OFF",
-      "label": "ソフトウェア/業務/データベース",
-      "label_en": "SW/Enterprise/DB",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-SEC",
-      "label": "セキュリティ/プライバシー/決済",
-      "label_en": "Sec/Privacy/Payments",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-AI",
-      "label": "AI/機械学習",
-      "label_en": "AI/ML",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-PRO",
-      "label": "ネットワーク/規格・プロトコル",
-      "label_en": "Net/Std/Proto",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-SVC",
-      "label": "インターネット/サービス（Web/検索/クラウド等）",
-      "label_en": "Internet/Services(Web/Search/Cloud)",
-      "conjunction": false
-    },
-    {
-      "code": "NON-COM",
-      "label": "コミュニティ/イベント",
-      "label_en": "Community/Events",
-      "conjunction": false
-    },
-    {
-      "code": "SOF-ENT",
-      "label": "エンタープライズIT",
-      "label_en": "EnterpriseIT",
-      "conjunction": false
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本",
-      "label_en": "Japan",
-      "conjunction": true
-    },
-    {
-      "code": "HARD",
-      "label": "ハードウェア",
-      "label_en": "HW",
-      "conjunction": true
-    },
-    {
-      "code": "SOFT",
-      "label": "ソフトウェア/メディア/規格等",
-      "label_en": "SW/Media/Standards",
-      "conjunction": true
-    },
-    {
-      "code": "NONG",
-      "label": "事件/トピック/戦略等",
-      "label_en": "Events/Topics/Strat",
-      "conjunction": true
-    },
-    {
-      "code": "WORK",
-      "label": "作業用（仮）",
-      "label_en": "Scratch",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1945": [
       {
@@ -5838,21 +5635,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Nippon_Telegraph_and_Telephone",
         "note": "初期携帯の大型端末。",
         "note_en": "Early large-format mobile handset in Japan."
-      },
-      {
-        "label": "NTT携帯電話サービス開始",
-        "label_en": "Launch of NTT mobile service",
-        "startYear": 1987,
-        "genre": [
-          "NON-HIS",
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/携帯電話",
-        "url_en": "https://en.wikipedia.org/wiki/Mobile_phone",
-        "note": "日本での携帯電話商用サービス開始。",
-        "note_en": "Commercial mobile service begins in Japan."
       },
       {
         "label": "OS/2（オペレーティングシステム）",
@@ -14639,5 +14421,207 @@
         "note_en": "Japanese rail reservation system honored."
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "黎明期・商用コンピュータ全盛期",
+      "startYear": 1946,
+      "endYear": 1989,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "パソコン繁栄期",
+      "startYear": 1977,
+      "endYear": 1999,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "インターネット・スマートフォンの時代",
+      "startYear": 1995,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2012,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "NON-HIS",
+      "label": "事件/戦略/協定/政策",
+      "label_en": "Events/Strat/Agreements/Policies",
+      "conjunction": false
+    },
+    {
+      "code": "THE",
+      "label": "理論/モデル",
+      "label_en": "Theory/Models",
+      "conjunction": false
+    },
+    {
+      "code": "ORG",
+      "label": "人物/組織",
+      "label_en": "People/Orgs",
+      "conjunction": false
+    },
+    {
+      "code": "MED-CNT",
+      "label": "メディア（雑誌/出版）/コンテンツ（作品）",
+      "label_en": "Media(Mag/Publ)/Content",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-PC",
+      "label": "コンピュータ本体",
+      "label_en": "Computers",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-MOB",
+      "label": "モバイル端末/携帯/ウェアラブル",
+      "label_en": "Mobile/Phones/Wearables",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-CPU",
+      "label": "マイクロプロセッサ",
+      "label_en": "MPUs",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-MED",
+      "label": "メディア/データ形式",
+      "label_en": "Media/DataFmt",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-PER",
+      "label": "周辺機器（プリンタ/スキャナ等）",
+      "label_en": "Peripherals(Printers/Scanners)",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-IMG",
+      "label": "画像/音響機器（カメラ/オーディオ）",
+      "label_en": "Imaging/Audio(Cam/Audio)",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-GAM",
+      "label": "ゲームハード",
+      "label_en": "GameHW",
+      "conjunction": false
+    },
+    {
+      "code": "HAR-ROB",
+      "label": "ロボティクス/コンシューマロボ",
+      "label_en": "Robotics/ConsumerRobots",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-OS",
+      "label": "OS",
+      "label_en": "OS",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-DEV",
+      "label": "ソフトウェア（言語/開発ツール/プラットフォーム）",
+      "label_en": "SW(Lang/DevTools/Platforms)",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-CRE",
+      "label": "クリエイティブ/3D/メディア系ソフト",
+      "label_en": "Creative/3D/MediaSW",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-OFF",
+      "label": "ソフトウェア/業務/データベース",
+      "label_en": "SW/Enterprise/DB",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-SEC",
+      "label": "セキュリティ/プライバシー/決済",
+      "label_en": "Sec/Privacy/Payments",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-AI",
+      "label": "AI/機械学習",
+      "label_en": "AI/ML",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-PRO",
+      "label": "ネットワーク/規格・プロトコル",
+      "label_en": "Net/Std/Proto",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-SVC",
+      "label": "インターネット/サービス（Web/検索/クラウド等）",
+      "label_en": "Internet/Services(Web/Search/Cloud)",
+      "conjunction": false
+    },
+    {
+      "code": "NON-COM",
+      "label": "コミュニティ/イベント",
+      "label_en": "Community/Events",
+      "conjunction": false
+    },
+    {
+      "code": "SOF-ENT",
+      "label": "エンタープライズIT",
+      "label_en": "EnterpriseIT",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "HARD",
+      "label": "ハードウェア",
+      "label_en": "HW",
+      "conjunction": true
+    },
+    {
+      "code": "SOFT",
+      "label": "ソフトウェア/メディア/規格等",
+      "label_en": "SW/Media/Standards",
+      "conjunction": true
+    },
+    {
+      "code": "NONG",
+      "label": "事件/トピック/戦略等",
+      "label_en": "Events/Topics/Strat",
+      "conjunction": true
+    },
+    {
+      "code": "WORK",
+      "label": "作業用（仮）",
+      "label_en": "Scratch",
+      "conjunction": true
+    }
+  ]
 }
