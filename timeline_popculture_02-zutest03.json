@@ -15840,21 +15840,6 @@
         "genreBadge": "ANM"
       },
       {
-        "label": "ELDEN RING",
-        "label_en": "Elden Ring",
-        "startYear": 2022,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
-        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring",
-        "note": "探索自由度で新境地のアクションRPG。",
-        "note_en": "Open-world evolution of the Soulslike.",
-        "genreBadge": "GM"
-      },
-      {
         "label": "ELDEN RING SHADOW OF THE ERDTREE",
         "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
         "startYear": "2022",
