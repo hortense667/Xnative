@@ -15495,21 +15495,6 @@
         "label": "GitHub Copilot",
         "label_en": "GitHub Copilot",
         "startYear": "2021",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot",
-        "note": "コード補完に生成AIを持ち込み、開発支援を変えたツール。",
-        "note_en": "Tool that changed software development by bringing generative AI into code completion.",
-        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "GitHub Copilot",
-        "label_en": "GitHub Copilot",
-        "startYear": "2021",
         "genre": [
           "NET",
           "SW"
