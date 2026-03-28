@@ -15,22 +15,7 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Legends_of_Tono",
         "note": "柳田國男の民俗学的古典。日本の伝承・怪異観の重要な源流。",
         "note_en": "Kunio Yanagita's folklore classic and a key source of Japanese supernatural imagination.",
-        "genreBadge": "BK",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想"
-          ],
-          "practiceHints": [
-            "研究する"
-          ],
-          "keywords": [
-            "民俗",
-            "遠野"
-          ]
-        }
+        "genreBadge": "BK"
       }
     ],
     "1946": [
@@ -176,7 +161,26 @@
         "url_en": "https://en.wikipedia.org/wiki/K%C5%8Dhaku_Uta_Gassen",
         "note": "年末恒例の国民的歌番組。",
         "note_en": "Japan’s year-end national music show.",
-        "genreBadge": "TV"
+        "genreBadge": "TV",
+        "diagnostic": {
+          "deepModules": [
+            "音楽メディア体験",
+            "アイドル／推し文化"
+          ],
+          "generalModules": [
+            "音楽体験",
+            "推し／パフォーマンス"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "紅白",
+            "歌番組",
+            "年末"
+          ]
+        }
       },
       {
         "label": "リボンの騎士",
@@ -669,7 +673,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Garo_(magazine)",
         "note": "前衛的漫画を掲載した伝説的誌。",
         "note_en": "Legendary avant-garde manga magazine.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "創作関心",
+            "懐かしさ／ノスタルジー"
+          ],
+          "practiceHints": [
+            "語る",
+            "研究する"
+          ],
+          "keywords": [
+            "ガロ",
+            "前衛",
+            "アングラ"
+          ]
+        }
       },
       {
         "label": "博士の異常な愛情",
@@ -698,10 +720,42 @@
         "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
         "note": "クラシック中心の音楽番組。",
         "note_en": "Long-running Japanese classical music TV show.",
-        "genreBadge": "TV"
+        "genreBadge": "TV",
+        "diagnostic": {
+          "deepModules": [
+            "音楽メディア体験"
+          ],
+          "generalModules": [
+            "音楽体験"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "音楽番組",
+            "演奏",
+            "クラシック"
+          ]
+        }
       }
     ],
     "1965": [
+      {
+        "label": "11PM",
+        "label_en": "11PM",
+        "startYear": 1965,
+        "endYear": 1990,
+        "genre": [
+          "JAPAN",
+          "TV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/11PM",
+        "note": "深夜ワイドの先駆け。",
+        "note_en": "Pioneer of late-night variety in Japan.",
+        "genreBadge": "TV"
+      },
       {
         "label": "ゲゲゲの鬼太郎",
         "label_en": "GeGeGe no Kitarō (1968 TV)",
@@ -717,24 +771,7 @@
         "url_en": "https://en.wikipedia.org/wiki/GeGeGe_no_Kitar%C5%8D",
         "note": "妖怪を題材にした国民的作品。",
         "note_en": "Beloved yokai-themed franchise.",
-        "genreBadge": "ANM",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "妖怪",
-            "鬼太郎"
-          ]
-        }
+        "genreBadge": "ANM"
       },
       {
         "label": "サウンド・オブ・ミュージック",
@@ -766,20 +803,6 @@
         "note": "手塚治虫の動物アニメ。",
         "note_en": "Tezuka’s pioneering animal anime.",
         "genreBadge": "ANM"
-      },
-      {
-        "label": "11PM",
-        "startYear": "1965",
-        "endYear": "1990",
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/11PM",
-        "note": "深夜ワイドの先駆け。タモリとか登場してました。",
-        "label_en": "11PM",
-        "note_en": "Pioneer of late-night variety in Japan.",
-        "_rev": "1774657120015-64qbgl2m"
       }
     ],
     "1966": [
@@ -988,7 +1011,25 @@
         "url": "https://ja.wikipedia.org/wiki/ねじ式",
         "note": "つげ義春のシュール短編。",
         "note_en": "Surreal short manga by Yoshiharu Tsuge.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "物語世界",
+            "創作関心"
+          ],
+          "practiceHints": [
+            "語る",
+            "研究する"
+          ],
+          "keywords": [
+            "つげ",
+            "シュール",
+            "ねじ式"
+          ]
+        }
       },
       {
         "label": "ゴルゴ13",
@@ -1198,24 +1239,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Unix",
         "note": "現代OSの原点の一つ。",
         "note_en": "One of the roots of modern OSes.",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "DOS/UNIX実務",
-            "エンジニアリング"
-          ],
-          "generalModules": [
-            "機械／ガジェット"
-          ],
-          "practiceHints": [
-            "使う",
-            "研究する"
-          ],
-          "keywords": [
-            "UNIX",
-            "CLI"
-          ]
-        }
+        "genreBadge": "SW"
       },
       {
         "label": "ルパン三世(TV第1シリーズ)",
@@ -1522,6 +1546,39 @@
         "genreBadge": "MOV"
       },
       {
+        "startYear": 1974,
+        "label": "トーマの心臓",
+        "label_en": "The Heart of Thomas",
+        "genre": [
+          "MNG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/トーマの心臓",
+        "url_en": "https://en.wikipedia.org/wiki/The_Heart_of_Thomas",
+        "note": "萩尾望都による、耽美・関係性文化の金字塔。",
+        "note_en": "Moto Hagio's landmark of aesthetic and relationship-driven manga culture.",
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "BL／耽美"
+          ],
+          "generalModules": [
+            "物語世界",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "萩尾望都",
+            "少年愛",
+            "寄宿舎"
+          ]
+        }
+      },
+      {
         "label": "宇宙戦艦ヤマト",
         "label_en": "Space Battleship Yamato (TV)",
         "startYear": 1974,
@@ -1580,7 +1637,8 @@
             "同人／二次創作"
           ],
           "generalModules": [
-            "キャラクター愛着"
+            "キャラクター愛着",
+            "創作関心"
           ],
           "practiceHints": [
             "集める",
@@ -1777,6 +1835,39 @@
         "note": "物議を醸した官能映画。",
         "note_en": "Controversial Japanese erotic art film.",
         "genreBadge": "MOV"
+      },
+      {
+        "startYear": 1976,
+        "label": "風と木の詩",
+        "label_en": "The Poem of Wind and Trees",
+        "genre": [
+          "MNG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/風と木の詩",
+        "url_en": "https://en.wikipedia.org/wiki/The_Poem_of_Wind_and_Trees",
+        "note": "竹宮惠子による、少年愛・耽美表現の歴史を語る上で重要な作品。",
+        "note_en": "Keiko Takemiya's foundational work in the history of boys' love and aesthetic expression.",
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "BL／耽美"
+          ],
+          "generalModules": [
+            "物語世界",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "竹宮惠子",
+            "耽美",
+            "少年愛"
+          ]
+        }
       }
     ],
     "1977": [
@@ -1922,6 +2013,39 @@
         "genreBadge": "TV"
       },
       {
+        "startYear": 1978,
+        "label": "JUNE",
+        "label_en": "JUNE",
+        "genre": [
+          "MAG",
+          "JAPAN",
+          "MNG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/JUNE_(雑誌)",
+        "url_en": "https://en.wikipedia.org/wiki/June_(magazine)",
+        "note": "耽美・BL文化を語る上で欠かせない雑誌。",
+        "note_en": "A key magazine in the history of boys' love and aesthetic subculture.",
+        "genreBadge": "MAG",
+        "diagnostic": {
+          "deepModules": [
+            "BL／耽美"
+          ],
+          "generalModules": [
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "集める",
+            "語る"
+          ],
+          "keywords": [
+            "JUNE",
+            "耽美",
+            "BL"
+          ]
+        }
+      },
+      {
         "label": "うる星やつら",
         "label_en": "Urusei Yatsura (manga)",
         "startYear": 1978,
@@ -2014,7 +2138,25 @@
         "note": "吾妻ひでおによる不条理マンガのルーツとされる作品",
         "note_en": "Works considered to be the roots of absurd manga by Hideo Azuma",
         "_rev": "1774360924568-kgeqggl4",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "創作関心",
+            "懐かしさ／ノスタルジー"
+          ],
+          "practiceHints": [
+            "語る",
+            "研究する"
+          ],
+          "keywords": [
+            "吾妻ひでお",
+            "不条理",
+            "メタ"
+          ]
+        }
       },
       {
         "label": "銀河鉄道999",
@@ -2241,21 +2383,6 @@
     ],
     "1980": [
       {
-        "label": "あさきゆめみし",
-        "label_en": "The Tale of Genji (Asaki Yumemishi)",
-        "startYear": 1979,
-        "endYear": 1993,
-        "genre": [
-          "JAPAN",
-          "MNG"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/あさきゆめみし",
-        "note": "源氏物語の漫画化。",
-        "note_en": "Manga adaptation of The Tale of Genji.",
-        "genreBadge": "MNG"
-      },
-      {
         "label": "Dr.スランプ",
         "label_en": "Dr. Slump",
         "startYear": 1980,
@@ -2287,6 +2414,21 @@
         "note": "電子音楽を変えた名ドラムマシン。",
         "note_en": "Iconic drum machine that reshaped music.",
         "genreBadge": "HW"
+      },
+      {
+        "label": "あさきゆめみし",
+        "label_en": "The Tale of Genji (Asaki Yumemishi)",
+        "startYear": 1979,
+        "endYear": 1993,
+        "genre": [
+          "JAPAN",
+          "MNG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/あさきゆめみし",
+        "note": "源氏物語の漫画化。",
+        "note_en": "Manga adaptation of The Tale of Genji.",
+        "genreBadge": "MNG"
       },
       {
         "label": "ガンプラ",
@@ -2387,6 +2529,39 @@
         "genreBadge": "ANM"
       },
       {
+        "startYear": 1980,
+        "label": "日出処の天子",
+        "label_en": "The Son of the Sun",
+        "genre": [
+          "MNG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日出処の天子",
+        "url_en": "https://en.wikipedia.org/wiki/The_Son_of_the_Sun",
+        "note": "歴史・耽美・関係性を結ぶ重要なマンガ作品。",
+        "note_en": "An important manga linking history, aesthetics, and intense relationships.",
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "BL／耽美"
+          ],
+          "generalModules": [
+            "和風幻想",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "厩戸王子",
+            "山岸凉子",
+            "関係性"
+          ]
+        }
+      },
+      {
         "label": "週刊ヤングマガジン",
         "label_en": "Weekly Young Magazine",
         "startYear": 1980,
@@ -2435,7 +2610,8 @@
         "genreBadge": "SW",
         "diagnostic": {
           "deepModules": [
-            "DOS/UNIX実務"
+            "DOS/UNIX実務",
+            "エンジニアリング"
           ],
           "generalModules": [
             "機械／ガジェット"
@@ -2446,7 +2622,8 @@
           ],
           "keywords": [
             "DOS",
-            "CLI"
+            "コマンド",
+            "PC"
           ]
         }
       },
@@ -2463,7 +2640,25 @@
         "url_en": "https://en.wikipedia.org/wiki/MTV",
         "note": "ミュージックビデオ時代を切り開いた専門局。",
         "note_en": "Cable channel that ushered in the music video era.",
-        "genreBadge": "TV"
+        "genreBadge": "TV",
+        "diagnostic": {
+          "deepModules": [
+            "音楽メディア体験"
+          ],
+          "generalModules": [
+            "音楽体験",
+            "日常エンタメ"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "MV",
+            "洋楽",
+            "音楽チャンネル"
+          ]
+        }
       },
       {
         "label": "PC-8801",
@@ -2666,7 +2861,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Sh%C5%8Djo_Tsubaki",
         "note_en": "Please provide the Japanese sentence.",
         "_rev": "1774361128866-62gdb2z9",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "物語世界",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "見世物",
+            "耽美",
+            "丸尾"
+          ]
+        }
       }
     ],
     "1982": [
@@ -2759,23 +2972,7 @@
         "url_en": "https://en.wikipedia.org/wiki/PC-9800_series",
         "note": "日本の業務・家庭を席巻した国産PC。",
         "note_en": "Dominant Japanese 16-bit PC platform.",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "DOS/UNIX実務"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "懐かしさ／ノスタルジー"
-          ],
-          "practiceHints": [
-            "使う",
-            "集める"
-          ],
-          "keywords": [
-            "PC-98"
-          ]
-        }
+        "genreBadge": "HW"
       },
       {
         "label": "コンパクトディスク",
@@ -3031,7 +3228,26 @@
         "url": "https://ja.wikipedia.org/wiki/オールナイトフジ",
         "note": "深夜アイドル・情報番組の先駆。",
         "note_en": "Pioneering late-night idol/info show.",
-        "genreBadge": "TV"
+        "genreBadge": "TV",
+        "diagnostic": {
+          "deepModules": [
+            "音楽メディア体験",
+            "アイドル／推し文化"
+          ],
+          "generalModules": [
+            "日常エンタメ",
+            "推し／パフォーマンス"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "深夜",
+            "バラエティ",
+            "アイドル"
+          ]
+        }
       },
       {
         "label": "ゼビウス",
@@ -3151,16 +3367,17 @@
           ],
           "generalModules": [
             "機械／ガジェット",
-            "創作ツール"
+            "創作関心"
           ],
           "practiceHints": [
             "使う",
-            "集める"
+            "集める",
+            "作る"
           ],
           "keywords": [
             "Mac",
-            "林檎",
-            "GUI"
+            "GUI",
+            "林檎"
           ]
         }
       },
@@ -3209,22 +3426,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Tetris",
         "note": "落ち物パズルの金字塔。",
         "note_en": "Landmark falling-block puzzle game.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "ゲーム実践"
-          ],
-          "generalModules": [
-            "ゲーム親和",
-            "懐かしさ／ノスタルジー"
-          ],
-          "practiceHints": [
-            "観る"
-          ],
-          "keywords": [
-            "テトリス"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "トランスフォーマー",
@@ -3325,6 +3527,74 @@
       }
     ],
     "1985": [
+      {
+        "startYear": 1985,
+        "label": "A列車で行こう",
+        "label_en": "A-Train",
+        "genre": [
+          "GM",
+          "TRA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/A列車で行こう",
+        "url_en": "https://en.wikipedia.org/wiki/A-Train",
+        "note": "鉄道・都市開発・経営を結びつけたシミュレーションゲーム。",
+        "note_en": "A simulation game linking railways, city development, and management.",
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "鉄道／交通",
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和",
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "研究する"
+          ],
+          "keywords": [
+            "列車",
+            "都市",
+            "ダイヤ"
+          ]
+        }
+      },
+      {
+        "startYear": 1985,
+        "label": "BANANA FISH",
+        "label_en": "BANANA FISH",
+        "genre": [
+          "MNG",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/BANANA_FISH",
+        "url_en": "https://en.wikipedia.org/wiki/Banana_Fish",
+        "note": "少女マンガの枠を越えて支持された関係性の濃い作品。",
+        "note_en": "A relationship-driven manga embraced far beyond shōjo manga audiences.",
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "BL／耽美"
+          ],
+          "generalModules": [
+            "物語世界",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "アッシュ",
+            "英二",
+            "関係性"
+          ]
+        }
+      },
       {
         "label": "Microsoft Excel",
         "label_en": "Microsoft Excel",
@@ -3775,15 +4045,17 @@
             "創作／オーサリング"
           ],
           "generalModules": [
-            "創作ツール"
+            "創作関心",
+            "機械／ガジェット"
           ],
           "practiceHints": [
             "作る",
-            "使う"
+            "語る"
           ],
           "keywords": [
             "カード",
-            "スタック"
+            "スタック",
+            "Mac"
           ]
         }
       },
@@ -3832,23 +4104,7 @@
         "url_en": "https://en.wikipedia.org/wiki/X68000",
         "note": "高性能で名作移植が充実。",
         "note_en": "High-spec Japanese home computer.",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "DOS/UNIX実務",
-            "ゲーム実践"
-          ],
-          "generalModules": [
-            "機械／ガジェット"
-          ],
-          "practiceHints": [
-            "使う",
-            "改造する"
-          ],
-          "keywords": [
-            "X68000"
-          ]
-        }
+        "genreBadge": "HW"
       },
       {
         "label": "サンデーモーニング",
@@ -4009,6 +4265,36 @@
         "genreBadge": "TV"
       },
       {
+        "label": "ドラゴンクエストIII",
+        "label_en": "Dragon Quest III",
+        "startYear": 1988,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
+        "url_en": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
+        "note": "社会現象にもなった国民的RPGの金字塔。",
+        "note_en": "A landmark RPG that became a nationwide social phenomenon in Japan.",
+        "genreBadge": "GM"
+      },
+      {
+        "label": "ドラゴンクエストIII そして伝説へ…",
+        "label_en": "Dragon Quest III",
+        "startYear": 1988,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
+        "url_en": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
+        "note": "社会現象化した名作RPG。",
+        "note_en": "Blockbuster JRPG phenomenon.",
+        "genreBadge": "GM"
+      },
+      {
         "label": "ニュー・シネマ・パラダイス",
         "label_en": "Cinema Paradiso",
         "startYear": 1988,
@@ -4126,23 +4412,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Onmyoji_(novel_series)",
         "note": "夢枕獏による伝奇シリーズ。平安・呪術・怪異の和風幻想を現代に広めた。",
         "note_en": "Baku Yumemakura's supernatural series that popularized Heian-era occult fantasy.",
-        "genreBadge": "BK",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "陰陽師",
-            "平安"
-          ]
-        }
+        "genreBadge": "BK"
       }
     ],
     "1989": [
@@ -4761,12 +5031,14 @@
             "機械／ガジェット"
           ],
           "practiceHints": [
-            "改造する",
-            "研究する"
+            "使う",
+            "研究する",
+            "改造する"
           ],
           "keywords": [
             "Linux",
-            "OSS"
+            "OSS",
+            "CLI"
           ]
         }
       },
@@ -4799,23 +5071,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Street_Fighter_II",
         "note": "対戦格闘ブームを創出。",
         "note_en": "Created the versus fighting boom.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "ゲーム実践"
-          ],
-          "generalModules": [
-            "ゲーム親和"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "ストII",
-            "対戦"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "ソニック・ザ・ヘッジホッグ (1991年のゲーム)",
@@ -4910,7 +5166,25 @@
         "url_en": "https://en.wikipedia.org/wiki/MiniDisc",
         "note": "MD携帯再生機の普及。",
         "note_en": "Portable MiniDisc players spread.",
-        "genreBadge": "HW"
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "音楽メディア体験"
+          ],
+          "generalModules": [
+            "音楽体験",
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "使う",
+            "集める"
+          ],
+          "keywords": [
+            "携帯音楽",
+            "MD",
+            "ウォークマン"
+          ]
+        }
       },
       {
         "label": "RPGツクール",
@@ -4926,22 +5200,7 @@
         "url_en": "https://en.wikipedia.org/wiki/RPG_Maker",
         "note": "個人制作RPGを支えたツール。",
         "note_en": "Toolchain enabling indie RPG creation.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "創作／オーサリング"
-          ],
-          "generalModules": [
-            "創作ツール",
-            "ゲーム親和"
-          ],
-          "practiceHints": [
-            "作る"
-          ],
-          "keywords": [
-            "ツクール"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "ThinkPad 700C",
@@ -5004,21 +5263,7 @@
         "url_en": "https://en.wikipedia.org/wiki/D%C5%8Dky%C5%ABsei_(video_game)",
         "note": "恋愛アドベンチャーの先駆。",
         "note_en": "Pioneer of dating adventure games.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "萌え／美少女"
-          ],
-          "generalModules": [
-            "キャラクター愛着"
-          ],
-          "practiceHints": [
-            "観る"
-          ],
-          "keywords": [
-            "恋愛"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "紅の豚",
@@ -5050,24 +5295,7 @@
         "label_en": "Sailor Moon (anime franchise)",
         "url_en": "https://en.wikipedia.org/wiki/Sailor_Moon",
         "note_en": "Franchise spanning anime, stage, more.",
-        "genreBadge": "MNG",
-        "diagnostic": {
-          "deepModules": [
-            "萌え／美少女"
-          ],
-          "generalModules": [
-            "キャラクター愛着",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "観る",
-            "推す"
-          ],
-          "keywords": [
-            "セーラー",
-            "月"
-          ]
-        }
+        "genreBadge": "MNG"
       },
       {
         "label": "花より男子",
@@ -5739,24 +5967,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Ubume_no_Natsu",
         "note": "京極夏彦による妖怪・民俗・推理の融合シリーズ。",
         "note_en": "Natsuhiko Kyogoku's series blending yokai, folklore, and mystery.",
-        "genreBadge": "BK",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "研究する",
-            "語る"
-          ],
-          "keywords": [
-            "京極堂",
-            "妖怪"
-          ]
-        }
+        "genreBadge": "BK"
       },
       {
         "label": "古畑任三郎",
@@ -5848,22 +6059,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_95",
         "note": "GUIとインターネット普及を加速した決定的OS。",
         "note_en": "A defining OS that accelerated the spread of GUIs and the internet.",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "DOS/UNIX実務"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "懐かしさ／ノスタルジー"
-          ],
-          "practiceHints": [
-            "使う"
-          ],
-          "keywords": [
-            "Windows 95"
-          ]
-        }
+        "genreBadge": "SW"
       },
       {
         "label": "カシオ QV-10",
@@ -6184,22 +6380,7 @@
         "url": "https://ja.wikipedia.org/wiki/あやしいわーるど",
         "note": "日本の匿名掲示板文化の源流の一つ。",
         "note_en": "One of the key origins of Japanese anonymous message-board culture.",
-        "genreBadge": "WEB",
-        "diagnostic": {
-          "deepModules": [
-            "匿名ネット文化"
-          ],
-          "generalModules": [
-            "ネット交流"
-          ],
-          "practiceHints": [
-            "語る"
-          ],
-          "keywords": [
-            "匿名",
-            "路地裏"
-          ]
-        }
+        "genreBadge": "WEB"
       },
       {
         "label": "うたばん",
@@ -6407,25 +6588,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Touhou_Project",
         "note": "同人ゲームから巨大な二次創作文化圏へ広がったシリーズ。",
         "note_en": "A dōjin game series that expanded into a vast derivative-creation culture.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "同人／二次創作",
-            "ゲーム実践"
-          ],
-          "generalModules": [
-            "ゲーム親和",
-            "キャラクター愛着"
-          ],
-          "practiceHints": [
-            "語る",
-            "集める"
-          ],
-          "keywords": [
-            "東方",
-            "弾幕"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "水曜どうでしょう",
@@ -6726,6 +6889,41 @@
         "note": "メトロイドヴァニア確立作。",
         "note_en": "Genre-defining Metroidvania classic.",
         "genreBadge": "GM"
+      },
+      {
+        "startYear": 1997,
+        "label": "電車でGO!",
+        "label_en": "Densha de GO!",
+        "genre": [
+          "GM",
+          "TRA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/電車でGO!",
+        "url_en": "https://en.wikipedia.org/wiki/Densha_de_Go!",
+        "note": "鉄道運転体験をゲーム化した代表作。",
+        "note_en": "A landmark game that turned train operation into a playable experience.",
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "鉄道／交通",
+            "ゲーム実践"
+          ],
+          "generalModules": [
+            "ゲーム親和",
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "観る",
+            "使う"
+          ],
+          "keywords": [
+            "運転",
+            "電車",
+            "鉄道"
+          ]
+        }
       }
     ],
     "1998": [
@@ -7156,9 +7354,9 @@
             "研究する"
           ],
           "keywords": [
-            "2ちゃん",
-            "匿名掲示板",
-            "AA"
+            "匿名",
+            "掲示板",
+            "ログ"
           ]
         }
       },
@@ -8065,22 +8263,7 @@
         "url": "https://ja.wikipedia.org/wiki/ふたば☆ちゃんねる",
         "note": "画像掲示板文化を代表する匿名コミュニティ。",
         "note_en": "A representative anonymous imageboard community in Japanese web culture.",
-        "genreBadge": "WEB",
-        "diagnostic": {
-          "deepModules": [
-            "匿名ネット文化"
-          ],
-          "generalModules": [
-            "ネット交流"
-          ],
-          "practiceHints": [
-            "語る"
-          ],
-          "keywords": [
-            "ふたば",
-            "匿名"
-          ]
-        }
+        "genreBadge": "WEB"
       },
       {
         "label": "アメリ",
@@ -8725,22 +8908,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Natsume%27s_Book_of_Friends",
         "note": "妖怪と人との関係を静かに描く和風幻想作品。",
         "note_en": "A gentle Japanese fantasy about relationships between humans and yokai.",
-        "genreBadge": "MNG",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "観る"
-          ],
-          "keywords": [
-            "妖"
-          ]
-        }
+        "genreBadge": "MNG"
       },
       {
         "label": "岳",
@@ -8818,24 +8986,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Fate/stay_night",
         "note": "ビジュアルノベルから大きなメディアミックスへ発展した代表作。",
         "note_en": "A representative visual novel that grew into a major media franchise.",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "同人／二次創作"
-          ],
-          "generalModules": [
-            "物語世界",
-            "キャラクター愛着"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "Fate",
-            "サーヴァント"
-          ]
-        }
+        "genreBadge": "GM"
       },
       {
         "label": "GarageBand",
@@ -8993,16 +9144,20 @@
         "diagnostic": {
           "deepModules": [
             "ボカロ／仮想人格",
-            "創作／オーサリング"
+            "音楽メディア体験"
           ],
           "generalModules": [
-            "音楽／リズム"
+            "音楽体験",
+            "創作関心"
           ],
           "practiceHints": [
-            "作る"
+            "作る",
+            "研究する"
           ],
           "keywords": [
-            "ボカロ"
+            "VOCALOID",
+            "音声合成",
+            "歌声"
           ]
         }
       },
@@ -9081,6 +9236,22 @@
         "note": "時代劇×ヒップホップのスタイリッシュ作。",
         "note_en": "Stylish samurai/hip-hop fusion anime.",
         "genreBadge": "ANM"
+      },
+      {
+        "label": "ニンテンドーDS",
+        "label_en": "Nintendo DS",
+        "startYear": 2004,
+        "genre": [
+          "GM",
+          "HAR",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ニンテンドーDS",
+        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS",
+        "note": "二画面携帯機で市場を席巻。",
+        "note_en": "Dual-screen handheld that dominated sales.",
+        "genreBadge": "GM"
       },
       {
         "label": "ニンテンドーDS",
@@ -9192,6 +9363,22 @@
       },
       {
         "label": "逃走中",
+        "label_en": "Run for Money: Tosōchū",
+        "startYear": 2004,
+        "endYear": "ongoing",
+        "genre": [
+          "TV",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/逃走中",
+        "url_en": "https://en.wikipedia.org/wiki/Run_for_Money",
+        "note": "鬼ごっこ型サバイバルバラエティ。",
+        "note_en": "Chase-game survival variety show.",
+        "genreBadge": "TV"
+      },
+      {
+        "label": "逃走中",
         "startYear": "2004",
         "endYear": "ongoing",
         "genre": [
@@ -9239,18 +9426,39 @@
     ],
     "2005": [
       {
-        "label": "脳を鍛える大人のDSトレーニング",
-        "label_en": "Brain Age: Train Your Brain in Minutes a Day!",
-        "startYear": "2005",
+        "startYear": 2005,
+        "label": "AKB48",
+        "label_en": "AKB48",
         "genre": [
-          "GM"
+          "MUS",
+          "IDL",
+          "JAPAN",
+          "TV"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
-        "note": "脳トレ需要を掘り起こし、ゲーム人口を大きく広げたタイトル。",
-        "note_en": "Title that tapped into brain-training demand and broadened the game audience.",
-        "url_en": "https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!",
-        "genreBadge": "GM"
+        "url": "https://ja.wikipedia.org/wiki/AKB48",
+        "url_en": "https://en.wikipedia.org/wiki/AKB48",
+        "note": "会いに行けるアイドルとして推し文化を拡張したグループ。",
+        "note_en": "An idol group that expanded fan culture through the 'idols you can meet' model.",
+        "genreBadge": "TV",
+        "diagnostic": {
+          "deepModules": [
+            "アイドル／推し文化"
+          ],
+          "generalModules": [
+            "音楽体験",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "推す",
+            "語る"
+          ],
+          "keywords": [
+            "アイドル",
+            "推し",
+            "劇場"
+          ]
+        }
       },
       {
         "label": "Aegisub",
@@ -9286,15 +9494,17 @@
           ],
           "generalModules": [
             "機械／ガジェット",
-            "創作ツール"
+            "創作関心"
           ],
           "practiceHints": [
             "作る",
-            "改造する"
+            "改造する",
+            "研究する"
           ],
           "keywords": [
             "Arduino",
-            "電子工作"
+            "電子工作",
+            "センサー"
           ]
         }
       },
@@ -9371,6 +9581,21 @@
         "note": "汎用ゲームエンジンの定番。",
         "note_en": "Ubiquitous general-purpose game engine.",
         "genreBadge": "GM"
+      },
+      {
+        "label": "Unity",
+        "label_en": "Unity",
+        "startYear": "2005",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Unity",
+        "note": "個人から大手まで使われる、ゲーム開発向け総合エンジン。",
+        "note_en": "Comprehensive engine used for game development from indies to major studios.",
+        "url_en": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+        "genreBadge": "SW"
       },
       {
         "label": "Xbox 360",
@@ -9461,6 +9686,41 @@
         "genreBadge": "MNG"
       },
       {
+        "startYear": 2005,
+        "label": "アイドルマスター",
+        "label_en": "THE IDOLM@STER",
+        "genre": [
+          "GM",
+          "IDL",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/The_Idolmaster",
+        "url_en": "https://en.wikipedia.org/wiki/The_Idolmaster",
+        "note": "ゲームとアイドル／推し文化を結ぶ代表的シリーズ。",
+        "note_en": "A major franchise connecting gaming with idol and fandom culture.",
+        "genreBadge": "GM",
+        "diagnostic": {
+          "deepModules": [
+            "アイドル／推し文化"
+          ],
+          "generalModules": [
+            "キャラクター愛着",
+            "ゲーム親和"
+          ],
+          "practiceHints": [
+            "推す",
+            "語る",
+            "観る"
+          ],
+          "keywords": [
+            "担当",
+            "プロデュース",
+            "アイドル"
+          ]
+        }
+      },
+      {
         "label": "ソラニン",
         "startYear": "2005",
         "endYear": "2006",
@@ -9537,6 +9797,20 @@
         "note_en": "Landmark shojo manga portraying awkward high-school love and friendship with care.",
         "url_en": "https://en.wikipedia.org/wiki/Kimi_ni_Todoke",
         "genreBadge": "MNG"
+      },
+      {
+        "label": "脳を鍛える大人のDSトレーニング",
+        "label_en": "Brain Age: Train Your Brain in Minutes a Day!",
+        "startYear": "2005",
+        "genre": [
+          "GM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%B3%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AEDS%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0",
+        "note": "脳トレ需要を掘り起こし、ゲーム人口を大きく広げたタイトル。",
+        "note_en": "Title that tapped into brain-training demand and broadened the game audience.",
+        "url_en": "https://en.wikipedia.org/wiki/Brain_Age:_Train_Your_Brain_in_Minutes_a_Day!",
+        "genreBadge": "GM"
       },
       {
         "label": "花より男子 (テレビドラマ)",
@@ -9852,19 +10126,22 @@
         "genreBadge": "WEB",
         "diagnostic": {
           "deepModules": [
-            "共同視聴文化"
+            "共同視聴文化",
+            "匿名ネット文化"
           ],
           "generalModules": [
-            "ネット交流"
+            "ネット交流",
+            "日常エンタメ"
           ],
           "practiceHints": [
             "観る",
-            "語る"
+            "語る",
+            "作る"
           ],
           "keywords": [
-            "ニコニコ",
             "コメント",
-            "弾幕"
+            "弾幕",
+            "ニコ動"
           ]
         }
       },
@@ -9912,7 +10189,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Lychee_Light_Club",
         "note_en": "It is a Japanese manga work by Usamaru Furuya based on the Tokyo Grand Guignol plays \"Lychee Light Club\" (1985, 1986).",
         "_rev": "1774363005637-2zpi6hby",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "キャラクター愛着",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "推す",
+            "語る"
+          ],
+          "keywords": [
+            "光クラブ",
+            "耽美",
+            "退廃"
+          ]
+        }
       },
       {
         "label": "大神",
@@ -9989,21 +10284,6 @@
         "note": "将棋棋士の成長と孤独、周囲とのつながりを繊細に描いた青春マンガ。",
         "note_en": "Coming-of-age manga about a shogi prodigy, loneliness, and human connection.",
         "url_en": "https://en.wikipedia.org/wiki/March_Comes_In_like_a_Lion",
-        "genreBadge": "MNG"
-      },
-      {
-        "label": "きのう何食べた?",
-        "label_en": "What Did You Eat Yesterday?",
-        "startYear": "2007",
-        "endYear": "ongoing",
-        "genre": [
-          "MNG"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F",
-        "note": "中年男性カップルの暮らしと食卓を温かく描いた日常料理マンガ。",
-        "note_en": "Slice-of-life cooking manga about the daily life of a middle-aged male couple.",
-        "url_en": "https://en.wikipedia.org/wiki/What_Did_You_Eat_Yesterday%3F",
         "genreBadge": "MNG"
       },
       {
@@ -10112,19 +10392,21 @@
         "genreBadge": "WEB",
         "diagnostic": {
           "deepModules": [
-            "同人／二次創作"
+            "同人／二次創作",
+            "創作／オーサリング"
           ],
           "generalModules": [
-            "ネット交流",
-            "創作ツール"
+            "創作関心",
+            "キャラクター愛着"
           ],
           "practiceHints": [
             "作る",
             "語る"
           ],
           "keywords": [
-            "Pixiv",
-            "投稿"
+            "投稿",
+            "イラスト",
+            "二次創作"
           ]
         }
       },
@@ -10216,22 +10498,7 @@
         "url_en": "https://en.wikipedia.org/wiki/IPhone",
         "note": "スマートフォン時代の起点。",
         "note_en": "Catalyst for the smartphone era.",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "アップル美学"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "ネット交流"
-          ],
-          "practiceHints": [
-            "使う"
-          ],
-          "keywords": [
-            "iPhone"
-          ]
-        }
+        "genreBadge": "HW"
       },
       {
         "label": "pixiv",
@@ -10247,6 +10514,21 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Pixiv",
         "genreBadge": "WEB"
+      },
+      {
+        "label": "きのう何食べた?",
+        "label_en": "What Did You Eat Yesterday?",
+        "startYear": "2007",
+        "endYear": "ongoing",
+        "genre": [
+          "MNG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%AE%E3%81%86%E4%BD%95%E9%A3%9F%E3%81%B9%E3%81%9F%3F",
+        "note": "中年男性カップルの暮らしと食卓を温かく描いた日常料理マンガ。",
+        "note_en": "Slice-of-life cooking manga about the daily life of a middle-aged male couple.",
+        "url_en": "https://en.wikipedia.org/wiki/What_Did_You_Eat_Yesterday%3F",
+        "genreBadge": "MNG"
       },
       {
         "label": "この世界の片隅に",
@@ -10341,6 +10623,22 @@
       },
       {
         "label": "世界の果てまでイッテQ!",
+        "label_en": "ItteQ!",
+        "startYear": 2007,
+        "endYear": "ongoing",
+        "genre": [
+          "TV",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/世界の果てまでイッテQ!",
+        "url_en": "https://en.wikipedia.org/wiki/ItteQ!",
+        "note": "ロケ重視の人気バラエティ。",
+        "note_en": "Hit location-based variety show.",
+        "genreBadge": "TV"
+      },
+      {
+        "label": "世界の果てまでイッテQ!",
         "startYear": 2007,
         "genre": [
           "TV"
@@ -10369,11 +10667,13 @@
         "diagnostic": {
           "deepModules": [
             "ボカロ／仮想人格",
+            "音楽メディア体験",
             "創作／オーサリング"
           ],
           "generalModules": [
-            "音楽／リズム",
-            "創作ツール"
+            "音楽体験",
+            "創作関心",
+            "推し／パフォーマンス"
           ],
           "practiceHints": [
             "作る",
@@ -10383,9 +10683,25 @@
           "keywords": [
             "ミク",
             "歌声",
-            "ボカロ"
+            "仮想歌姫"
           ]
         }
+      },
+      {
+        "label": "初音ミク (VOCALOID2)",
+        "label_en": "Hatsune Miku (VOCALOID2)",
+        "startYear": 2007,
+        "genre": [
+          "SW",
+          "MUS",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/初音ミク",
+        "url_en": "https://en.wikipedia.org/wiki/Hatsune_Miku",
+        "note": "歌声合成キャラクター文化を確立。",
+        "note_en": "Iconic singing voice-synthesis character.",
+        "genreBadge": "SW"
       },
       {
         "label": "坂道のアポロン",
@@ -10591,13 +10907,17 @@
             "創作／オーサリング"
           ],
           "generalModules": [
-            "創作ツール"
+            "創作関心",
+            "音楽体験"
           ],
           "practiceHints": [
-            "作る"
+            "作る",
+            "語る"
           ],
           "keywords": [
-            "MMD"
+            "MMD",
+            "モーション",
+            "二次創作"
           ]
         }
       },
@@ -10719,23 +11039,7 @@
         "note": "サービスの性格が異なる代表的インターネット項目。",
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Niconico",
-        "genreBadge": "WEB",
-        "diagnostic": {
-          "deepModules": [
-            "共同視聴文化"
-          ],
-          "generalModules": [
-            "ネット交流"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "生放送",
-            "コメント"
-          ]
-        }
+        "genreBadge": "WEB"
       },
       {
         "label": "バクマン。",
@@ -10922,22 +11226,7 @@
         "url_en": "https://en.wikipedia.org/wiki/Vocal_synthesis#AHS_Voiceroid",
         "note": "音声合成による読み上げ・キャラクター文化を広げた日本発のソフトウェアシリーズ。",
         "note_en": "A Japanese speech-synthesis software series that expanded character-based voice culture.",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "創作／オーサリング"
-          ],
-          "generalModules": [
-            "創作ツール",
-            "音楽／リズム"
-          ],
-          "practiceHints": [
-            "作る"
-          ],
-          "keywords": [
-            "ボイロ"
-          ]
-        }
+        "genreBadge": "SW"
       },
       {
         "label": "Windows 7",
@@ -11156,6 +11445,21 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Instagram",
         "genreBadge": "WEB"
+      },
+      {
+        "label": "Instagram",
+        "label_en": "Instagram",
+        "startYear": "2010",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Instagram",
+        "note": "写真共有を中心に成長し、SNS表現の定番となったアプリ。",
+        "note_en": "App that grew around photo sharing and became a standard form of social expression.",
+        "url_en": "https://en.wikipedia.org/wiki/Instagram",
+        "genreBadge": "SW"
       },
       {
         "label": "Kinect",
@@ -11785,6 +12089,40 @@
       {
         "label": "Raspberry Pi",
         "label_en": "Raspberry Pi",
+        "startYear": 2012,
+        "genre": [
+          "HAR",
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Raspberry_Pi",
+        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "note": "教育/ホビー向け小型PC。",
+        "note_en": "Low-cost computer for education/makers.",
+        "genreBadge": "HW",
+        "diagnostic": {
+          "deepModules": [
+            "エンジニアリング"
+          ],
+          "generalModules": [
+            "機械／ガジェット",
+            "創作関心"
+          ],
+          "practiceHints": [
+            "作る",
+            "改造する",
+            "研究する"
+          ],
+          "keywords": [
+            "Raspberry Pi",
+            "電子工作",
+            "自作"
+          ]
+        }
+      },
+      {
+        "label": "Raspberry Pi",
+        "label_en": "Raspberry Pi",
         "startYear": "2012",
         "endYear": "ongoing",
         "genre": [
@@ -11802,15 +12140,17 @@
           ],
           "generalModules": [
             "機械／ガジェット",
-            "創作ツール"
+            "創作関心"
           ],
           "practiceHints": [
             "作る",
-            "改造する"
+            "改造する",
+            "研究する"
           ],
           "keywords": [
-            "ラズパイ",
-            "GPIO"
+            "Raspberry Pi",
+            "電子工作",
+            "自作"
           ]
         }
       },
@@ -11828,6 +12168,22 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Tinder_(app)",
         "genreBadge": "WEB"
+      },
+      {
+        "label": "Wii U",
+        "label_en": "Wii U",
+        "startYear": 2012,
+        "genre": [
+          "GM",
+          "HAR",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Wii_U",
+        "url_en": "https://en.wikipedia.org/wiki/Wii_U",
+        "note": "タブコン搭載の据置機。",
+        "note_en": "GamePad-equipped home console.",
+        "genreBadge": "GM"
       },
       {
         "label": "Wii U",
@@ -12225,22 +12581,7 @@
         "label_en": "DJI Phantom",
         "url_en": "https://en.wikipedia.org/wiki/DJI_Phantom",
         "note_en": "Mainstreamed consumer aerial drones.",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "エンジニアリング"
-          ],
-          "generalModules": [
-            "機械／ガジェット"
-          ],
-          "practiceHints": [
-            "使う",
-            "改造する"
-          ],
-          "keywords": [
-            "ドローン"
-          ]
-        }
+        "genreBadge": "HW"
       },
       {
         "label": "Docker",
@@ -12347,6 +12688,21 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
         "genreBadge": "WEB"
+      },
+      {
+        "label": "Slack",
+        "label_en": "Slack",
+        "startYear": "2013",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Slack",
+        "note": "チーム内チャットを中心に業務コミュニケーションを変えたソフト。",
+        "note_en": "Software that changed workplace communication through channel-based team chat.",
+        "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
+        "genreBadge": "SW"
       },
       {
         "label": "Surface Pro",
@@ -12978,6 +13334,21 @@
         "startYear": "2015",
         "endYear": "ongoing",
         "genre": [
+          "NET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Discord",
+        "note": "サービスの性格が異なる代表的インターネット項目。",
+        "note_en": "A representative internet service with a distinct role.",
+        "url_en": "https://en.wikipedia.org/wiki/Discord",
+        "genreBadge": "WEB"
+      },
+      {
+        "label": "Discord",
+        "label_en": "Discord",
+        "startYear": "2015",
+        "endYear": "ongoing",
+        "genre": [
           "SW"
         ],
         "imp": 5,
@@ -13136,6 +13507,21 @@
         "note_en": "Comedy about a fallen wealthy family rebuilding their lives with warmth and humor.",
         "url_en": "https://en.wikipedia.org/wiki/Schitt%27s_Creek",
         "genreBadge": "TV"
+      },
+      {
+        "label": "スプラトゥーン",
+        "label_en": "Splatoon",
+        "startYear": 2015,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Splatoon",
+        "url_en": "https://en.wikipedia.org/wiki/Splatoon",
+        "note": "インクで陣取りする対戦シューター。",
+        "note_en": "Ink-based territorial shooter from Nintendo.",
+        "genreBadge": "GM"
       },
       {
         "label": "スプラトゥーン",
@@ -13411,6 +13797,21 @@
         "genreBadge": "GM"
       },
       {
+        "label": "Pokémon GO",
+        "label_en": "Pokémon GO",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
+        "note": "ゲームと位置情報を結んだネットサービス的存在。",
+        "note_en": "A networked service linking games and geolocation.",
+        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
+        "genreBadge": "WEB"
+      },
+      {
         "label": "PyTorch",
         "label_en": "PyTorch",
         "startYear": "2016",
@@ -13470,6 +13871,21 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/TikTok",
         "genreBadge": "WEB"
+      },
+      {
+        "label": "TikTok",
+        "label_en": "TikTok",
+        "startYear": "2016",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/TikTok",
+        "note": "短尺動画の編集と視聴体験を一気に大衆化したアプリ。",
+        "note_en": "App that mainstreamed the creation and consumption of short-form video.",
+        "url_en": "https://en.wikipedia.org/wiki/TikTok",
+        "genreBadge": "SW"
       },
       {
         "label": "この世界の片隅に",
@@ -13924,24 +14340,7 @@
         "url_en": "https://en.wikipedia.org/wiki/VRChat",
         "note": "アバター交流を広げた仮想空間",
         "note_en": "Virtual social space built around avatars and user worlds",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "同人／二次創作"
-          ],
-          "generalModules": [
-            "ネット交流",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "語る",
-            "作る"
-          ],
-          "keywords": [
-            "VRChat",
-            "アバター"
-          ]
-        }
+        "genreBadge": "SW"
       },
       {
         "label": "けものフレンズ",
@@ -14051,6 +14450,21 @@
       {
         "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
         "label_en": "The Legend of Zelda: Breath of the Wild",
+        "startYear": 2017,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_ブレス_オブ_ザ_ワイルド",
+        "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
+        "note": "箱庭探索でシリーズ刷新。",
+        "note_en": "Open-air design redefined the series.",
+        "genreBadge": "GM"
+      },
+      {
+        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+        "label_en": "The Legend of Zelda: Breath of the Wild",
         "startYear": "2017",
         "genre": [
           "GM"
@@ -14093,6 +14507,42 @@
         "note": "美大受験を題材にした青春劇。",
         "note_en": "Coming-of-age story about art school.",
         "genreBadge": "MNG"
+      },
+      {
+        "startYear": 2017,
+        "label": "ホロライブ",
+        "label_en": "hololive",
+        "genre": [
+          "NET",
+          "IDL",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ホロライブプロダクション",
+        "url_en": "https://en.wikipedia.org/wiki/Hololive_Production",
+        "note": "VTuber／配信時代の推し文化を代表するグループ。",
+        "note_en": "A leading VTuber group representing streaming-era fandom.",
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "アイドル／推し文化",
+            "共同視聴文化"
+          ],
+          "generalModules": [
+            "音楽体験",
+            "ネット交流"
+          ],
+          "practiceHints": [
+            "推す",
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "VTuber",
+            "配信",
+            "推し"
+          ]
+        }
       },
       {
         "label": "ミギとダリ",
@@ -14411,6 +14861,42 @@
         "genreBadge": "MNG"
       },
       {
+        "startYear": 2018,
+        "label": "にじさんじ",
+        "label_en": "Nijisanji",
+        "genre": [
+          "NET",
+          "IDL",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/にじさんじ",
+        "url_en": "https://en.wikipedia.org/wiki/Nijisanji",
+        "note": "配信文化・コミュニティ文化と結びついたVTuberグループ。",
+        "note_en": "A VTuber group closely tied to streaming and community culture.",
+        "genreBadge": "WEB",
+        "diagnostic": {
+          "deepModules": [
+            "アイドル／推し文化",
+            "共同視聴文化"
+          ],
+          "generalModules": [
+            "ネット交流",
+            "キャラクター愛着"
+          ],
+          "practiceHints": [
+            "推す",
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "VTuber",
+            "ライバー",
+            "配信"
+          ]
+        }
+      },
+      {
         "label": "ゆるキャン△",
         "label_en": "Laid-Back Camp",
         "startYear": "2018",
@@ -14517,7 +15003,25 @@
         "url_en": "https://en.wikipedia.org/wiki/Chainsaw_Man",
         "note": "過激で奇想のダークアクション。",
         "note_en": "Gonzo), dark action manga phenomenon.",
-        "genreBadge": "MNG"
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "アングラ／サブカル前衛"
+          ],
+          "generalModules": [
+            "キャラクター愛着",
+            "物語世界"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "チェンソーマン",
+            "暴力",
+            "悪趣味"
+          ]
+        }
       },
       {
         "label": "ツルネ -風舞高校弓道部-",
@@ -15232,6 +15736,21 @@
       {
         "label": "あつまれ どうぶつの森",
         "label_en": "Animal Crossing: New Horizons",
+        "startYear": 2020,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/あつまれ_どうぶつの森",
+        "url_en": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+        "note": "コロナ禍の癒やしとして爆発的人気。",
+        "note_en": "Pandemic comfort-game phenomenon.",
+        "genreBadge": "GM"
+      },
+      {
+        "label": "あつまれ どうぶつの森",
+        "label_en": "Animal Crossing: New Horizons",
         "startYear": "2020",
         "endYear": "ongoing",
         "genre": [
@@ -15464,6 +15983,21 @@
         "label": "GitHub Copilot",
         "label_en": "GitHub Copilot",
         "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GitHub%20Copilot",
+        "note": "コード補完に生成AIを持ち込み、開発支援を変えたツール。",
+        "note_en": "Tool that changed software development by bringing generative AI into code completion.",
+        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
+        "genreBadge": "SW"
+      },
+      {
+        "label": "GitHub Copilot",
+        "label_en": "GitHub Copilot",
+        "startYear": "2021",
         "genre": [
           "NET",
           "SW"
@@ -15600,6 +16134,21 @@
         "note_en": "Global streaming hit using deadly games to depict social inequality.",
         "url_en": "https://en.wikipedia.org/wiki/Squid_Game",
         "genreBadge": "TV"
+      },
+      {
+        "label": "ウマ娘 プリティーダービー",
+        "label_en": "Umamusume Pretty Derby",
+        "startYear": "2021",
+        "endYear": "ongoing",
+        "genre": [
+          "GM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC",
+        "note": "競走馬モチーフをアイドル性とスポ根で再構成した人気アニメ。",
+        "note_en": "Popular anime reimagining racehorses through idol appeal and sports-drama energy.",
+        "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
+        "genreBadge": "GM"
       },
       {
         "label": "ウマ娘 プリティーダービー",
@@ -15812,6 +16361,21 @@
         "label": "ChatGPT",
         "label_en": "ChatGPT",
         "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "note": "対話型生成AIを一般ユーザーへ一気に広めたサービス。",
+        "note_en": "Service that rapidly introduced conversational generative AI to the general public.",
+        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
+        "genreBadge": "SW"
+      },
+      {
+        "label": "ChatGPT",
+        "label_en": "ChatGPT",
+        "startYear": "2022",
         "genre": [
           "NET",
           "SW"
@@ -15837,6 +16401,36 @@
         "note_en": "Slice-of-life anime about friendship and the joy of making things by hand.",
         "url_en": "https://en.wikipedia.org/wiki/Do_It_Yourself!!",
         "genreBadge": "ANM"
+      },
+      {
+        "label": "ELDEN RING",
+        "label_en": "Elden Ring",
+        "startYear": 2022,
+        "genre": [
+          "GM",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ELDEN_RING",
+        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring",
+        "note": "探索自由度で新境地のアクションRPG。",
+        "note_en": "Open-world evolution of the Soulslike.",
+        "genreBadge": "GM"
+      },
+      {
+        "label": "ELDEN RING SHADOW OF THE ERDTREE",
+        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
+        "startYear": "2022",
+        "endYear": "2024",
+        "genre": [
+          "GM"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
+        "note": "巨大な追加領域で本編の魅力を拡張した大型DLC。",
+        "note_en": "Large-scale expansion that significantly broadened the appeal of the main game.",
+        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring:_Shadow_of_the_Erdtree",
+        "genreBadge": "GM"
       },
       {
         "label": "Everything Everywhere All at Once",
@@ -15924,6 +16518,21 @@
         "note": "擬装家族コメディが国民的ヒット。",
         "note_en": "Fake-family spy comedy became a phenomenon.",
         "genreBadge": "ANM"
+      },
+      {
+        "label": "Stable Diffusion",
+        "label_en": "Stable Diffusion",
+        "startYear": "2022",
+        "endYear": "ongoing",
+        "genre": [
+          "SW"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Stable%20Diffusion",
+        "note": "画像生成モデルの公開でAI表現の裾野を広げたソフトウェア。",
+        "note_en": "Software that broadened AI image creation by openly releasing a generative model.",
+        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "genreBadge": "SW"
       },
       {
         "label": "Stable Diffusion",
@@ -16284,21 +16893,6 @@
         "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate.",
         "url_en": "https://en.wikipedia.org/wiki/The_13_Lords_of_the_Shogun",
         "genreBadge": "TV"
-      },
-      {
-        "label": "ELDEN RING SHADOW OF THE ERDTREE",
-        "startYear": "2022",
-        "endYear": "2024",
-        "genre": [
-          "GM"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
-        "note": "巨大な追加領域で本編の魅力を拡張した大型DLC。",
-        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
-        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring:_Shadow_of_the_Erdtree",
-        "note_en": "Large-scale expansion that significantly broadened the appeal of the main game.",
-        "_rev": "1774652054449-ocig4u87"
       }
     ],
     "2023": [
@@ -17445,6 +18039,42 @@
         "url_en": "https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_GQuuuuuuX",
         "genreBadge": "ANM"
       }
+    ],
+    "1925": [
+      {
+        "startYear": 1925,
+        "label": "時刻表",
+        "label_en": "Timetable",
+        "genre": [
+          "MAG",
+          "TRA",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/時刻表",
+        "url_en": "https://en.wikipedia.org/wiki/Train_timetable",
+        "note": "鉄道文化・旅の計画文化を象徴する媒体。",
+        "note_en": "A symbolic medium of railway culture and trip-planning culture.",
+        "genreBadge": "MAG",
+        "diagnostic": {
+          "deepModules": [
+            "鉄道／交通"
+          ],
+          "generalModules": [
+            "懐かしさ／ノスタルジー",
+            "機械／ガジェット"
+          ],
+          "practiceHints": [
+            "集める",
+            "研究する"
+          ],
+          "keywords": [
+            "時刻表",
+            "路線",
+            "旅程"
+          ]
+        }
+      }
     ]
   },
   "eraSettings": [],
@@ -17489,5 +18119,442 @@
       "label": "ソフトウェア",
       "conjunction": false
     }
-  ]
+  ],
+  "years": [
+    {
+      "year": 1925,
+      "events": [
+        {
+          "startYear": 1925,
+          "label": "時刻表",
+          "label_en": "Timetable",
+          "genre": [
+            "MAG",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道文化・旅の計画文化を象徴する媒体。",
+          "note_en": "A symbolic medium of railway culture and trip-planning culture."
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "startYear": 1967,
+          "label": "鉄道ジャーナル",
+          "label_en": "Railway Journal",
+          "genre": [
+            "MAG",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道ファン文化を代表する雑誌の一つ。",
+          "note_en": "One of the magazines most representative of Japanese railfan culture."
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "events": [
+        {
+          "startYear": 1974,
+          "label": "トーマの心臓",
+          "label_en": "The Heart of Thomas",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少女マンガ／耽美・関係性文化の金字塔。",
+          "note_en": "A landmark of shōjo manga and aesthetic relationship-driven storytelling."
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "events": [
+        {
+          "startYear": 1976,
+          "label": "風と木の詩",
+          "label_en": "The Poem of Wind and Trees",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少年愛・耽美表現の歴史を語る上で重要なマンガ作品。",
+          "note_en": "A foundational manga in the history of boys' love and aesthetic expression."
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "events": [
+        {
+          "startYear": 1978,
+          "label": "JUNE",
+          "label_en": "JUNE",
+          "genre": [
+            "MAG",
+            "JAPAN"
+          ],
+          "genreBadge": "MAG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "耽美・BL文化を語る上で欠かせない雑誌。",
+          "note_en": "A key magazine in the history of boys' love and aesthetic subculture."
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "events": [
+        {
+          "startYear": 1980,
+          "label": "日出処の天子",
+          "label_en": "The Son of the Sun",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "歴史・耽美・関係性を結ぶ重要なマンガ作品。",
+          "note_en": "An important manga linking history, aesthetics, and intense relationships."
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "events": [
+        {
+          "startYear": 1985,
+          "label": "A列車で行こう",
+          "label_en": "A-Train",
+          "genre": [
+            "GM",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道・都市開発・経営を結びつけたシミュレーションゲーム。",
+          "note_en": "A simulation game linking railways, city development, and management."
+        },
+        {
+          "startYear": 1985,
+          "label": "BANANA FISH",
+          "label_en": "BANANA FISH",
+          "genre": [
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "少女マンガの枠を越えて支持された関係性の濃い作品。",
+          "note_en": "A relationship-driven manga widely embraced beyond shōjo manga audiences."
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "events": [
+        {
+          "startYear": 1992,
+          "label": "同級生",
+          "label_en": "Dōkyūsei",
+          "genre": [
+            "GM",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "恋愛シミュレーション／美少女ゲーム文化の初期代表作。",
+          "note_en": "An early landmark title in dating sim and bishōjo game culture."
+        },
+        {
+          "startYear": 1992,
+          "label": "美少女戦士セーラームーン",
+          "label_en": "Pretty Guardian Sailor Moon",
+          "genre": [
+            "ANM",
+            "MNG",
+            "JAPAN"
+          ],
+          "genreBadge": "ANM",
+          "imp": 5,
+          "url": "",
+          "url_en": "",
+          "note": "少女文化・変身ヒロイン・キャラクター文化の大きな分岐点。",
+          "note_en": "A major turning point for girl culture, magical heroines, and character fandom."
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "events": [
+        {
+          "startYear": 1997,
+          "label": "To Heart",
+          "label_en": "To Heart",
+          "genre": [
+            "GM",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "美少女ゲーム／学園恋愛ADVの代表的作品の一つ。",
+          "note_en": "A representative school romance visual novel in Japanese bishōjo game culture."
+        },
+        {
+          "startYear": 1997,
+          "label": "モーニング娘。",
+          "label_en": "Morning Musume",
+          "genre": [
+            "MUS",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "MUS",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "平成アイドル文化を代表するグループ。",
+          "note_en": "A defining idol group of Japan's Heisei era."
+        },
+        {
+          "startYear": 1997,
+          "label": "電車でGO!",
+          "label_en": "Densha de GO!",
+          "genre": [
+            "GM",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "鉄道運転体験をゲーム化した代表作。",
+          "note_en": "A landmark game that turned train operation into a playable experience."
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "events": [
+        {
+          "startYear": 1999,
+          "label": "Kanon",
+          "label_en": "Kanon",
+          "genre": [
+            "GM",
+            "NOV",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "Key作品を代表する恋愛アドベンチャーゲーム。",
+          "note_en": "A landmark romance visual novel from Key."
+        },
+        {
+          "startYear": 1999,
+          "label": "シスター・プリンセス",
+          "label_en": "Sister Princess",
+          "genre": [
+            "MNG",
+            "NOV",
+            "JAPAN"
+          ],
+          "genreBadge": "MNG",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "キャラクター中心の萌え文化を象徴するシリーズ。",
+          "note_en": "A series emblematic of character-centered moe culture."
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "events": [
+        {
+          "startYear": 2001,
+          "label": "Suica",
+          "label_en": "Suica",
+          "genre": [
+            "NET",
+            "TRA",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 3,
+          "url": "",
+          "url_en": "",
+          "note": "交通と日常決済を結ぶICカードサービス。",
+          "note_en": "An IC card service connecting transportation with everyday payment."
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "events": [
+        {
+          "startYear": 2005,
+          "label": "AKB48",
+          "label_en": "AKB48",
+          "genre": [
+            "MUS",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "MUS",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "会いに行けるアイドルとして推し文化を拡張したグループ。",
+          "note_en": "An idol group that expanded fan culture through the 'idols you can meet' model."
+        },
+        {
+          "startYear": 2005,
+          "label": "アイドルマスター",
+          "label_en": "THE IDOLM@STER",
+          "genre": [
+            "GM",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "GM",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "ゲームとアイドル／推し文化を結ぶ代表的シリーズ。",
+          "note_en": "A major franchise connecting gaming with idol and fandom culture."
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "events": [
+        {
+          "startYear": 2018,
+          "label": "にじさんじ",
+          "label_en": "Nijisanji",
+          "genre": [
+            "NET",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "配信文化・コミュニティ文化と結びついたVTuberグループ。",
+          "note_en": "A VTuber group closely tied to streaming and community culture."
+        },
+        {
+          "startYear": 2018,
+          "label": "ホロライブ",
+          "label_en": "hololive",
+          "genre": [
+            "NET",
+            "IDL",
+            "JAPAN"
+          ],
+          "genreBadge": "WEB",
+          "imp": 4,
+          "url": "",
+          "url_en": "",
+          "note": "VTuber／配信時代の推し文化を代表するグループ。",
+          "note_en": "A leading VTuber group representing streaming-era fandom."
+        }
+      ]
+    }
+  ],
+  "diagnosticConfig": {
+    "upperAttributes": [
+      "世界観没入",
+      "機構偏愛",
+      "未来感受",
+      "異形親和",
+      "日常浸透",
+      "越境回遊",
+      "少年回路",
+      "少女回路",
+      "反復愛着",
+      "作者偏信",
+      "記録蒐集"
+    ],
+    "deepModules": [
+      "萌え／美少女",
+      "BL／耽美",
+      "和風／伝承",
+      "鉄道／交通",
+      "匿名ネット文化",
+      "共同視聴文化",
+      "ボカロ／仮想人格",
+      "アップル美学",
+      "DOS/UNIX実務",
+      "ゲーム実践",
+      "創作／オーサリング",
+      "エンジニアリング",
+      "同人／二次創作",
+      "アイドル／推し文化",
+      "アングラ／サブカル前衛",
+      "音楽メディア体験",
+      "音楽体験"
+    ],
+    "generalModules": [
+      "物語世界",
+      "キャラクター愛着",
+      "日常エンタメ",
+      "機械／ガジェット",
+      "ゲーム親和",
+      "ネット交流",
+      "音楽体験",
+      "創作関心",
+      "懐かしさ／ノスタルジー",
+      "和風幻想",
+      "推し／パフォーマンス"
+    ],
+    "practiceModes": [
+      "観る",
+      "使う",
+      "集める",
+      "作る",
+      "改造する",
+      "推す",
+      "語る",
+      "研究する"
+    ]
+  }
 }
