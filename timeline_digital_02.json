@@ -8901,20 +8901,6 @@
         "note_en": "Chinese office productivity suite."
       },
       {
-        "label": "たまごっち 20周年/ミニ復刻",
-        "label_en": "Tamagotchi 20th/mini reissue",
-        "startYear": 1997,
-        "genre": [
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 1,
-        "url": "https://ja.wikipedia.org/wiki/たまごっち",
-        "url_en": "https://en.wikipedia.org/wiki/Tamagotchi",
-        "note": "携帯玩具の復刻。",
-        "note_en": "Reissued handheld virtual pet."
-      },
-      {
         "label": "Boston Dynamics Handle/Stretch（物流ロボット）",
         "label_en": "Boston Dynamics Handle/Stretch",
         "startYear": 1997,
