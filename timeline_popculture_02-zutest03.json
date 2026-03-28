@@ -9097,20 +9097,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "ニンテンドーDS",
-        "label_en": "Nintendo DS",
-        "startYear": "2004",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BCDS",
-        "note": "二画面とタッチ操作で携帯ゲームの裾野を広げた携帯機。",
-        "note_en": "Dual-screen handheld that expanded gaming with touch controls.",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS",
-        "genreBadge": "HW"
-      },
-      {
         "label": "ハウルの動く城",
         "label_en": "Howl’s Moving Castle",
         "startYear": 2004,
