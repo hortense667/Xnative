@@ -8966,6 +8966,19 @@
         "url_en": "https://en.wikipedia.org/wiki/Pentium_II",
         "note": "Slot) 1採用の主力CPU。",
         "note_en": "Mainstream Slot-1 x86 processor."
+      },
+      {
+        "label": "ショートメール",
+        "startYear": "1997",
+        "genre": [
+          "HAR-MOB",
+          "SOF-PRO"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB",
+        "label_en": "Short Mail",
+        "note_en": "NTTドコモほか、携帯各社がショートメッセージングサービスを開始。",
+        "_rev": "1774659611686-dut2f7g7"
       }
     ],
     "1998": [
