@@ -703,21 +703,6 @@
     ],
     "1965": [
       {
-        "label": "11PM",
-        "label_en": "11PM",
-        "startYear": 1965,
-        "endYear": 1990,
-        "genre": [
-          "JAPAN",
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/11PM",
-        "note": "深夜ワイドの先駆け。",
-        "note_en": "Pioneer of late-night variety in Japan.",
-        "genreBadge": "TV"
-      },
-      {
         "label": "ゲゲゲの鬼太郎",
         "label_en": "GeGeGe no Kitarō (1968 TV)",
         "startYear": 1965,
@@ -781,6 +766,20 @@
         "note": "手塚治虫の動物アニメ。",
         "note_en": "Tezuka’s pioneering animal anime.",
         "genreBadge": "ANM"
+      },
+      {
+        "label": "11PM",
+        "startYear": "1965",
+        "endYear": "1990",
+        "genre": [
+          "TV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/11PM",
+        "note": "深夜ワイドの先駆け。タモリとか登場してました。",
+        "label_en": "11PM",
+        "note_en": "Pioneer of late-night variety in Japan.",
+        "_rev": "1774657120015-64qbgl2m"
       }
     ],
     "1966": [
