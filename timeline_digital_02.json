@@ -8150,23 +8150,6 @@
         "note_en": "Lightweight distributed operating system."
       },
       {
-        "label": "PHS（日本）",
-        "label_en": "PHS (Japan)",
-        "startYear": 1995,
-        "endYear": 2020,
-        "genre": [
-          "SOF-PRO",
-          "HAR-MOB",
-          "SOF-SVC",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/PHS",
-        "url_en": "https://en.wikipedia.org/wiki/Personal_Handy-phone_System",
-        "note": "日本で普及した簡易携帯電話規格。",
-        "note_en": "Japanese micro-cell cordless telephony."
-      },
-      {
         "label": "Paint Shop Pro（画像編集）",
         "label_en": "Paint Shop Pro",
         "startYear": 1995,
@@ -8299,6 +8282,24 @@
         "url_en": "https://en.wikipedia.org/wiki/UltraSPARC",
         "note": "Sunの64ビットRISC) CPU。",
         "note_en": "Sun’s 64-bit RISC CPU family."
+      },
+      {
+        "label": "PHS（日本）",
+        "startYear": "1995",
+        "endYear": "2020",
+        "genre": [
+          "HAR-MOB",
+          "SOF-PRO",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/PHS",
+        "note": "NTTパーソナル（現：NTTドコモ）、DDIポケット（現：ソフトバンク Y!mobileブランド）（共に7月1日）、アステル（10月1日）各グループが本サービス事業を開始。日本で普及した簡易携帯電話規格。",
+        "label_en": "PHS (Japan)",
+        "url_en": "https://en.wikipedia.org/wiki/Personal_Handy-phone_System",
+        "note_en": "Japanese micro-cell cordless telephony.",
+        "_rev": "1774659484570-x33no0l0"
       }
     ],
     "1996": [
