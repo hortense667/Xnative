@@ -13455,21 +13455,6 @@
         "startYear": "2016",
         "endYear": "ongoing",
         "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
-        "note": "現実空間を歩く体験と位置情報ゲームを社会現象にした作品。",
-        "note_en": "Phenomenon that turned location-based play and walking into mainstream gaming.",
-        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "Pokémon GO",
-        "label_en": "Pokémon GO",
-        "startYear": "2016",
-        "endYear": "ongoing",
-        "genre": [
           "NET"
         ],
         "imp": 4,
