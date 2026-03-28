@@ -13175,21 +13175,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "スプラトゥーン",
-        "label_en": "Splatoon",
-        "startYear": "2015",
-        "endYear": "ongoing",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3",
-        "note": "塗る行為を対戦の軸にし、新しいTPSの魅力を作った作品。",
-        "note_en": "Game that built a new kind of shooter around covering territory with ink.",
-        "url_en": "https://en.wikipedia.org/wiki/Splatoon",
-        "genreBadge": "GM"
-      },
-      {
         "label": "ドラゴンクエストビルダーズ",
         "label_en": "Dragon Quest Builders",
         "startYear": "2015",
