@@ -28,7 +28,34 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
+    "timestamp": "2026-03-28T00:45:41.706Z",
+    "githubConfig": {
+      "accessToken": "",
+      "owner": "hortense667",
+      "repo": "xnative",
+      "filePath": "timeline_digital_02.json",
+      "refFilePaths": "timeline_background_02.json",
+      "localDataMode": false,
+      "localFileName": "",
+      "aiProvider": "gemini",
+      "aiModel": "gemini-2.5-flash-lite",
+      "aiMaxInputTokens": 24000,
+      "aiMaxOutputTokens": 1200,
+      "aiTokenSafetyMargin": 1200,
+      "refTimelines": [
+        {
+          "sourceType": "github",
+          "owner": "hortense667",
+          "repo": "nativemap",
+          "filePath": "timeline_background_02.json",
+          "minImportance": 5
+        }
+      ]
+    },
+    "appTitle": "日本のデジタル年表 0.2",
+    "appTitleEn": "Japan Digital Timeline 0.2",
+    "currentLang": "ja"
   },
   "events": {
     "1945": [
