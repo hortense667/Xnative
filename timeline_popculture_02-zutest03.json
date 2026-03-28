@@ -3285,20 +3285,6 @@
     ],
     "1984": [
       {
-        "label": "Classic Mac OS",
-        "label_en": "Classic Mac OS",
-        "startYear": 1984,
-        "genre": [
-          "SW"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Classic_Mac_OS",
-        "url_en": "https://en.wikipedia.org/wiki/Classic_Mac_OS",
-        "note": "初期MacのGUI) OS。",
-        "note_en": "Early Macintosh GUI operating system.",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Macintosh",
         "label_en": "Macintosh",
         "startYear": 1984,
