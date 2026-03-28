@@ -9343,22 +9343,6 @@
         "note_en": "x86 virtualization reshaping data centers."
       },
       {
-        "label": "iモード",
-        "label_en": "i-mode",
-        "startYear": 1999,
-        "endYear": 2015,
-        "genre": [
-          "SOF-SVC",
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Iモード",
-        "url_en": "https://en.wikipedia.org/wiki/I-mode",
-        "note": "携帯インターネットを大衆化。",
-        "note_en": "Mainstreamed mobile Internet in Japan."
-      },
-      {
         "label": "VMware仮想化（初期製品）",
         "label_en": "VMware virtualization (early)",
         "startYear": 1999,
@@ -9908,6 +9892,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Mac_OS_9",
         "note": "Classic) Mac OSの最終期。",
         "note_en": "Late iteration of Classic Mac OS."
+      },
+      {
+        "label": "iモード",
+        "startYear": "1999",
+        "endYear": "2015",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "NTTドコモ：携帯インターネットを大衆化。",
+        "label_en": "i-mode",
+        "url_en": "https://en.wikipedia.org/wiki/I-mode",
+        "note_en": "Mainstreamed mobile Internet in Japan.",
+        "_rev": "1774657646189-924khkpx"
       }
     ],
     "2000": [
