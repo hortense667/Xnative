@@ -7380,6 +7380,19 @@
         "url_en": "https://en.wikipedia.org/wiki/POWER2",
         "note": "RISC系の第二世代POWER) CPU。",
         "note_en": "Second-gen IBM POWER RISC CPU."
+      },
+      {
+        "label": "デジタル移動体サービス（PDC）",
+        "startYear": "1993",
+        "genre": [
+          "HAR-MOB"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PDC",
+        "note": "NTT：",
+        "label_en": "Personal Digital Cellular",
+        "url_en": "https://en.wikipedia.org/wiki/Personal_Digital_Cellular",
+        "_rev": "1774658622452-s7d27v9n"
       }
     ],
     "1994": [
