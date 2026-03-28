@@ -9615,21 +9615,6 @@
         "note_en": "Canon’s flatbed image scanner lineup."
       },
       {
-        "label": "F502i（カラー/着メロDL）",
-        "label_en": "NTT DoCoMo F502i",
-        "startYear": 1999,
-        "genre": [
-          "HAR-MOB",
-          "SOF-SVC",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Iモード",
-        "url_en": "https://en.wikipedia.org/wiki/I-mode",
-        "note": "カラー対応/着メロDLに対応。",
-        "note_en": "Early color screen and ringtone downloads."
-      },
-      {
         "label": "Final Cut Pro（映像編集）",
         "label_en": "Final Cut Pro",
         "startYear": 1999,
@@ -9910,6 +9895,22 @@
         "url_en": "https://en.wikipedia.org/wiki/I-mode",
         "note_en": "Early i-mode capable handset.",
         "_rev": "1774657736431-mdood9wz"
+      },
+      {
+        "label": "F502i（カラー/着メロDL）",
+        "startYear": "1999",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "NTTドコモ：カラー対応/着メロDLに対応。",
+        "label_en": "NTT DoCoMo F502i",
+        "url_en": "https://en.wikipedia.org/wiki/I-mode",
+        "note_en": "Early color screen and ringtone downloads.",
+        "_rev": "1774657828055-xwh5vl7i"
       }
     ],
     "2000": [
