@@ -10239,21 +10239,6 @@
         "note_en": "Pioneering contactless transit e-money."
       },
       {
-        "label": "NTTドコモ FOMA（商用3G）",
-        "label_en": "NTT DoCoMo FOMA (3G launch)",
-        "startYear": 2001,
-        "genre": [
-          "SOF-SVC",
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/FOMA",
-        "url_en": "https://en.wikipedia.org/wiki/FOMA",
-        "note": "世界初のW-CDMA商用3G開始。",
-        "note_en": "World’s first W-CDMA 3G service."
-      },
-      {
         "label": "e-Japan戦略",
         "label_en": "e-Japan Strategy",
         "startYear": 2001,
@@ -10482,6 +10467,22 @@
         "url_en": "https://en.wikipedia.org/wiki/MacOS",
         "note": "UNIXベースの新生Mac) OS。",
         "note_en": "UNIX-based modern Mac operating system."
+      },
+      {
+        "label": "NTTドコモ FOMA（商用3G）",
+        "startYear": "2001",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/FOMA",
+        "note": "NTTドコモ：W-CDMA商用3G開始。",
+        "label_en": "NTT DoCoMo FOMA (3G launch)",
+        "url_en": "https://en.wikipedia.org/wiki/FOMA",
+        "note_en": "World’s first W-CDMA 3G service.",
+        "_rev": "1774657901754-jq08wnbn"
       }
     ],
     "2002": [
