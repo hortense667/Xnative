@@ -9615,21 +9615,6 @@
         "note_en": "Canon’s flatbed image scanner lineup."
       },
       {
-        "label": "F501i（iモード初期機）",
-        "label_en": "NTT DoCoMo F501i",
-        "startYear": 1999,
-        "genre": [
-          "HAR-MOB",
-          "SOF-SVC",
-          "JAPAN"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/Iモード",
-        "url_en": "https://en.wikipedia.org/wiki/I-mode",
-        "note": "iモード初期の対応機。",
-        "note_en": "Early i-mode capable handset."
-      },
-      {
         "label": "F502i（カラー/着メロDL）",
         "label_en": "NTT DoCoMo F502i",
         "startYear": 1999,
@@ -9909,6 +9894,22 @@
         "url_en": "https://en.wikipedia.org/wiki/I-mode",
         "note_en": "Mainstreamed mobile Internet in Japan.",
         "_rev": "1774657646189-924khkpx"
+      },
+      {
+        "label": "F501i（iモード初期機）",
+        "startYear": "1999",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/Iモード",
+        "note": "NTTドコモ：iモード初期の対応機。",
+        "label_en": "NTT DoCoMo F501i",
+        "url_en": "https://en.wikipedia.org/wiki/I-mode",
+        "note_en": "Early i-mode capable handset.",
+        "_rev": "1774657736431-mdood9wz"
       }
     ],
     "2000": [
