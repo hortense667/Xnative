@@ -11020,23 +11020,6 @@
         "note_en": "Framework for large-scale data processing."
       },
       {
-        "label": "おサイフケータイ",
-        "label_en": "Osaifu-Keitai (mobile wallet)",
-        "startYear": 2004,
-        "endYear": "ongoing",
-        "genre": [
-          "SOF-SEC",
-          "SOF-SVC",
-          "HAR-MOB",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/おサイフケータイ",
-        "url_en": "https://en.wikipedia.org/wiki/Osaifu-Keitai",
-        "note": "FeliCa搭載の携帯非接触決済。",
-        "note_en": "Contactless wallet on phones (FeliCa)."
-      },
-      {
         "label": "ニンテンドーDS",
         "label_en": "Nintendo DS",
         "startYear": 2004,
@@ -11080,6 +11063,24 @@
         "url_en": "https://en.wikipedia.org/wiki/FeliCa",
         "note": "FeliCa基盤の整備が進展。",
         "note_en": "FeliCa NFC infrastructure matured."
+      },
+      {
+        "label": "おサイフケータイ",
+        "startYear": "2004",
+        "endYear": "ongoing",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SEC",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/おサイフケータイ",
+        "note": "NTTドコモ：FeliCa搭載の携帯非接触決済。",
+        "label_en": "Osaifu-Keitai (mobile wallet)",
+        "url_en": "https://en.wikipedia.org/wiki/Osaifu-Keitai",
+        "note_en": "Contactless wallet on phones (FeliCa).",
+        "_rev": "1774658023386-ko71v3zs"
       }
     ],
     "2005": [
