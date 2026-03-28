@@ -11758,21 +11758,6 @@
         "genreBadge": "HW"
       },
       {
-        "label": "Raspberry Pi",
-        "label_en": "Raspberry Pi",
-        "startYear": "2012",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry%20Pi",
-        "note": "低価格で教育と電子工作に広がった小型シングルボードPC。",
-        "note_en": "Low-cost single-board computer widely used in education and maker projects.",
-        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "genreBadge": "HW"
-      },
-      {
         "label": "Tinder",
         "label_en": "Tinder",
         "startYear": "2012",
