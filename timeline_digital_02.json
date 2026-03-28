@@ -6836,19 +6836,6 @@
         "note_en": "Room-scale multi-projection VR."
       },
       {
-        "label": "ThinkPad 700C",
-        "label_en": "ThinkPad 700C",
-        "startYear": 1992,
-        "genre": [
-          "HAR-MOB"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ThinkPad",
-        "url_en": "https://en.wikipedia.org/wiki/ThinkPad",
-        "note": "名機ThinkPadシリーズの初期旗艦。",
-        "note_en": "Early flagship of the ThinkPad line."
-      },
-      {
         "label": "IIJ（日本商用ISP）",
         "label_en": "Internet Initiative Japan (IIJ)",
         "startYear": 1992,
