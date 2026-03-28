@@ -14118,21 +14118,6 @@
       {
         "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
         "label_en": "The Legend of Zelda: Breath of the Wild",
-        "startYear": 2017,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ゼルダの伝説_ブレス_オブ_ザ_ワイルド",
-        "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
-        "note": "箱庭探索でシリーズ刷新。",
-        "note_en": "Open-air design redefined the series.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
-        "label_en": "The Legend of Zelda: Breath of the Wild",
         "startYear": "2017",
         "genre": [
           "GM"
