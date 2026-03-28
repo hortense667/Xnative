@@ -4127,36 +4127,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "ドラゴンクエストIII",
-        "label_en": "Dragon Quest III",
-        "startYear": 1988,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
-        "url_en": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
-        "note": "社会現象にもなった国民的RPGの金字塔。",
-        "note_en": "A landmark RPG that became a nationwide social phenomenon in Japan.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ドラゴンクエストIII そして伝説へ…",
-        "label_en": "Dragon Quest III",
-        "startYear": 1988,
-        "genre": [
-          "GM",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ドラゴンクエストIII_そして伝説へ…",
-        "url_en": "https://en.wikipedia.org/wiki/Dragon_Quest_III",
-        "note": "社会現象化した名作RPG。",
-        "note_en": "Blockbuster JRPG phenomenon.",
-        "genreBadge": "GM"
-      },
-      {
         "label": "ニュー・シネマ・パラダイス",
         "label_en": "Cinema Paradiso",
         "startYear": 1988,
