@@ -11789,20 +11789,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Wii U",
-        "label_en": "Wii U",
-        "startYear": "2012",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/Wii%20U",
-        "note": "GamePad連携で二画面遊びを試みた任天堂の据置ゲーム機。",
-        "note_en": "Nintendo console that experimented with dual-screen play via the GamePad.",
-        "url_en": "https://en.wikipedia.org/wiki/Wii_U",
-        "genreBadge": "HW"
-      },
-      {
         "label": "Zoom",
         "label_en": "Zoom",
         "startYear": 2012,
