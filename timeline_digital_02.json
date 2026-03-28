@@ -10957,6 +10957,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Windows_Mobile",
         "note": "Pocket) PC系のモバイルOS。",
         "note_en": "Pocket PC–based mobile OS release."
+      },
+      {
+        "label": "D505i（Flash Lite搭載）",
+        "label_en": "D505i series (equipped with Flash Lite)",
+        "startYear": "2003",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Flash_Lite",
+        "url_en": "https://en.wikipedia.org/wiki/Adobe_Flash_Lite",
+        "note": "NTTドコモのiモード端末にマクロメディアのFlash Liteが搭載",
+        "note_en": "Macromedia's Flash Lite is installed on NTT DoCoMo's i-mode devices."
       }
     ],
     "2004": [
