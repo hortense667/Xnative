@@ -13800,21 +13800,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Slack",
-        "label_en": "Slack",
-        "startYear": "2013",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Slack",
-        "note": "チーム内チャットを中心に業務コミュニケーションを変えたソフト。",
-        "note_en": "Software that changed workplace communication through channel-based team chat.",
-        "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Surface Pro",
         "label_en": "Surface Pro",
         "startYear": "2013",
