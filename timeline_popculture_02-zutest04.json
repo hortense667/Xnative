@@ -10129,22 +10129,6 @@
       {
         "label": "ニンテンドーDS",
         "label_en": "Nintendo DS",
-        "startYear": 2004,
-        "genre": [
-          "GM",
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ニンテンドーDS",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS",
-        "note": "二画面携帯機で市場を席巻。",
-        "note_en": "Dual-screen handheld that dominated sales.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ニンテンドーDS",
-        "label_en": "Nintendo DS",
         "startYear": "2004",
         "genre": [
           "HAR"
