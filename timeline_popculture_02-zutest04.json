@@ -9215,38 +9215,6 @@
         }
       },
       {
-        "label": "千と千尋の神隠し",
-        "label_en": "Spirited Away",
-        "startYear": "2001",
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97",
-        "note": "異界に迷い込んだ少女の成長を描き、世界的評価を得たアニメ映画。",
-        "note_en": "Animated film about a girl lost in a spirit world, acclaimed worldwide.",
-        "url_en": "https://en.wikipedia.org/wiki/Spirited_Away",
-        "genreBadge": "MOV",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "神隠し",
-            "湯屋",
-            "異界"
-          ]
-        }
-      },
-      {
         "label": "逆転裁判",
         "label_en": "Ace Attorney",
         "startYear": "2001",
