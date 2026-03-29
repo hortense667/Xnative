@@ -15649,20 +15649,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
-        "label_en": "The Legend of Zelda: Breath of the Wild",
-        "startYear": "2017",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%96%E3%83%AC%E3%82%B9%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89",
-        "note": "自由な物理挙動と冒険の発見でオープンワールド像を更新した作品。",
-        "note_en": "Game that redefined open-world adventure through physics and discovery.",
-        "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
-        "genreBadge": "GM"
-      },
-      {
         "label": "ニンテンドースイッチ",
         "label_en": "Nintendo Switch",
         "startYear": 2017,
