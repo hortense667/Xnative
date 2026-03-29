@@ -17392,40 +17392,6 @@
         }
       },
       {
-        "label": "ウマ娘 プリティーダービー",
-        "label_en": "Umamusume Pretty Derby",
-        "startYear": "2021",
-        "genre": [
-          "GM",
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ウマ娘_プリティーダービー",
-        "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
-        "note": "SNS拡散も大きかった育成ゲーム",
-        "note_en": "Network-amplified training game that became a social hit",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "アイドル／推し"
-          ],
-          "generalModules": [
-            "推し／パフォーマンス",
-            "キャラクター愛着"
-          ],
-          "practiceHints": [
-            "推す",
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "育成",
-            "推し",
-            "ライブ"
-          ]
-        }
-      },
-      {
         "label": "オッドタクシー",
         "label_en": "Odd Taxi",
         "startYear": 2021,
