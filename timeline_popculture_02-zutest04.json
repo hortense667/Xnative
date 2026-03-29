@@ -11605,18 +11605,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "世界の果てまでイッテQ!",
-        "startYear": 2007,
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%BE%E3%81%A7%E3%82%A4%E3%83%83%E3%83%86Q!",
-        "note": "体当たり企画と海外ロケで長く人気を保つバラエティ番組。",
-        "note_en": "Long-running variety show known for physical stunts and international location shoots.",
-        "genreBadge": "TV"
-      },
-      {
         "label": "初音ミク",
         "label_en": "Hatsune Miku",
         "startYear": 2007,
