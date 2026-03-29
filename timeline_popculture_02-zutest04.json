@@ -17648,21 +17648,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "Stable Diffusion",
-        "label_en": "Stable Diffusion",
-        "startYear": "2022",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
-        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "note": "画像生成を一気に民主化",
-        "note_en": "Image model that rapidly democratized AI art creation",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Steam Deck",
         "label_en": "Steam Deck",
         "startYear": "2022",
