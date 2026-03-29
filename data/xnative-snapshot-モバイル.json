@@ -29,7 +29,7 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
-    "timestamp": "2026-03-28T01:03:03.510Z",
+    "timestamp": "2026-03-29T14:07:40.705Z",
     "githubConfig": {
       "accessToken": "",
       "owner": "hortense667",
@@ -1359,21 +1359,6 @@
         "note_en": "Counterculture magazine on tools/ideas."
       },
       {
-        "label": "ポケベル（日本）",
-        "label_en": "Pager (Japan)",
-        "startYear": 1968,
-        "endYear": 2019,
-        "genre": [
-          "HAR-MOB",
-          "JAPAN",
-          "SOF-SVC"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/ポケットベル",
-        "note": "日本で長期に普及した簡易通信。",
-        "note_en": "Wide use one-way paging in Japan."
-      },
-      {
         "label": "霞が関ビルの耐震設計と計算機利用",
         "label_en": "Kasumigaseki Building seismic design",
         "startYear": 1968,
@@ -1415,6 +1400,22 @@
         "url_en": "https://en.wikipedia.org/wiki/FACOM",
         "note": "国産汎用機FACOM) 230系の上位機。",
         "note_en": "High-end model of Japan’s FACOM 230 line."
+      },
+      {
+        "label": "ポケベル（日本）",
+        "startYear": "1968",
+        "endYear": "2019",
+        "genre": [
+          "HAR-MOB",
+          "SOF-SVC",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ポケットベル",
+        "note": "日本で長期に普及した簡易通信。NTTの前身にあたる日本電信電話公社。",
+        "label_en": "Pager (Japan)",
+        "note_en": "Wide use one-way paging in Japan.",
+        "_rev": "1774793167363-98l0mcoz"
       }
     ],
     "1969": [
@@ -14759,7 +14760,7 @@
     }
   },
   "viewportState": {
-    "scrollTop": 43492,
+    "scrollTop": 43692,
     "scrollLeft": 0
   },
   "searchState": {
@@ -14785,19 +14786,19 @@
   "fukidashiList": [
     {
       "id": 1,
-      "x": 805,
-      "y": 43890,
+      "x": 752,
+      "y": 43879,
       "width": 200,
       "pointerX": 485,
       "pointerY": 44019,
-      "text": "iモード開始",
+      "text": "1999年2月22日iモード開始",
       "isEditing": false,
       "style": {
         "backgroundColor": "#fafafa",
         "textColor": "#757575",
         "borderColor": "#9e9e9e",
         "lineColor": "#9e9e9e",
-        "fontSize": 18,
+        "fontSize": 20,
         "bold": true,
         "reverse": true,
         "showTail": true
