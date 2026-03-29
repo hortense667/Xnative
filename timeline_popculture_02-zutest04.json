@@ -11803,21 +11803,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "Google Chrome",
-        "label_en": "Google Chrome",
-        "startYear": "2008",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Chrome",
-        "note": "高速表示と拡張性でブラウザ競争を塗り替えたWebブラウザ。",
-        "note_en": "Web browser that reshaped browser competition through speed and extensibility.",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Chrome",
-        "genreBadge": "SW"
-      },
-      {
         "label": "MacBook Air",
         "label_en": "MacBook Air",
         "startYear": "2008",
