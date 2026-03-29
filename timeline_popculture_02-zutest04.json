@@ -15229,20 +15229,6 @@
         "genreBadge": "ANM"
       },
       {
-        "label": "君の名は。",
-        "label_en": "Your Name",
-        "startYear": "2016",
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82",
-        "note": "入れ替わりと時間差を組み合わせ、広く共感を呼んだアニメ映画。",
-        "note_en": "Animated hit combining body-swapping and time shifts to broad emotional effect.",
-        "url_en": "https://en.wikipedia.org/wiki/Your_Name",
-        "genreBadge": "MOV"
-      },
-      {
         "label": "映像研には手を出すな!",
         "label_en": "Keep Your Hands Off Eizouken!",
         "startYear": "2016",
