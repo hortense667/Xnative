@@ -17081,21 +17081,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "GitHub Copilot",
-        "label_en": "GitHub Copilot",
-        "startYear": "2021",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/GitHub_Copilot",
-        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
-        "note": "生成AI時代の開発支援を代表",
-        "note_en": "Representative coding assistant of the generative-AI era",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Horizon Worlds",
         "label_en": "Horizon Worlds",
         "startYear": 2021,
