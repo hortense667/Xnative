@@ -29,7 +29,7 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
-    "timestamp": "2026-03-29T14:07:40.705Z",
+    "timestamp": "2026-03-29T14:24:29.507Z",
     "githubConfig": {
       "accessToken": "",
       "owner": "hortense667",
@@ -14687,33 +14687,12 @@
       "HARD": true,
       "SOFT": true,
       "NONG": true,
-      "WORK": true,
-      "WORLD": true
+      "WORK": true
     }
   },
   "selectedGenres": [
-    "NON-HIS",
-    "THE",
-    "ORG",
-    "MED-CNT",
-    "HAR-PC",
     "HAR-MOB",
-    "HAR-CPU",
-    "HAR-MED",
-    "HAR-PER",
-    "HAR-IMG",
-    "HAR-GAM",
-    "HAR-ROB",
-    "SOF-OS",
-    "SOF-DEV",
-    "SOF-CRE",
-    "SOF-OFF",
-    "SOF-SEC",
-    "SOF-AI",
-    "SOF-PRO",
-    "SOF-SVC",
-    "NON-COM",
-    "SOF-ENT"
+    "SOF-PRO"
   ],
   "refGroups": {
     "timeline_background_02.json": {
@@ -14771,7 +14750,70 @@
     "currentIndex": 0
   },
   "editFlags": {},
-  "labelBackups": {},
+  "labelBackups": {
+    "1993|デジタル移動体サービス（PDC）|Personal Digital Cellular|1993|HAR-MOB": {
+      "label": "デジタル移動体サービス（PDC）",
+      "startYear": "1993",
+      "genre": [
+        "HAR-MOB"
+      ],
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/PDC",
+      "note": "NTT：",
+      "label_en": "Personal Digital Cellular",
+      "url_en": "https://en.wikipedia.org/wiki/Personal_Digital_Cellular",
+      "_rev": "1774658622452-s7d27v9n"
+    },
+    "1999|iモード|i-mode|1999|HAR-MOB・JAPAN・SOF-SVC": {
+      "label": "iモード",
+      "startYear": "1999",
+      "endYear": "2015",
+      "genre": [
+        "HAR-MOB",
+        "SOF-SVC",
+        "JAPAN"
+      ],
+      "imp": 5,
+      "url": "https://ja.wikipedia.org/wiki/Iモード",
+      "note": "NTTドコモ：携帯インターネットを大衆化。",
+      "label_en": "i-mode",
+      "url_en": "https://en.wikipedia.org/wiki/I-mode",
+      "note_en": "Mainstreamed mobile Internet in Japan.",
+      "_rev": "1774657646189-924khkpx"
+    },
+    "1995|PHS（日本）|PHS (Japan)|1995|HAR-MOB・JAPAN・SOF-PRO・SOF-SVC": {
+      "label": "PHS（日本）",
+      "startYear": "1995",
+      "endYear": "2020",
+      "genre": [
+        "HAR-MOB",
+        "SOF-PRO",
+        "SOF-SVC",
+        "JAPAN"
+      ],
+      "imp": 4,
+      "url": "https://ja.wikipedia.org/wiki/PHS",
+      "note": "NTTパーソナル（現：NTTドコモ）、DDIポケット（現：ソフトバンク Y!mobileブランド）（共に7月1日）、アステル（10月1日）各グループが本サービス事業を開始。日本で普及した簡易携帯電話規格。",
+      "label_en": "PHS (Japan)",
+      "url_en": "https://en.wikipedia.org/wiki/Personal_Handy-phone_System",
+      "note_en": "Japanese micro-cell cordless telephony.",
+      "_rev": "1774659484570-x33no0l0"
+    },
+    "1997|ショートメール|Short Mail|1997|HAR-MOB・SOF-PRO": {
+      "label": "ショートメール",
+      "startYear": "1997",
+      "genre": [
+        "HAR-MOB",
+        "SOF-PRO"
+      ],
+      "imp": 3,
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%A1%E3%83%BC%E3%83%AB",
+      "note": "NTTドコモほか、携帯各社がショートメッセージングサービスを開始。",
+      "label_en": "Short Mail",
+      "note_en": "NTTドコモほか、携帯各社がショートメッセージングサービスを開始。",
+      "_rev": "1774659651356-fksscky4"
+    }
+  },
   "dataFreshnessTimestamp": 1774659651000,
   "orderChanged": false,
   "probeSyncData": {
@@ -14786,10 +14828,10 @@
   "fukidashiList": [
     {
       "id": 1,
-      "x": 752,
-      "y": 43879,
+      "x": 91,
+      "y": 43904,
       "width": 200,
-      "pointerX": 485,
+      "pointerX": 483,
       "pointerY": 44019,
       "text": "1999年2月22日iモード開始",
       "isEditing": false,
