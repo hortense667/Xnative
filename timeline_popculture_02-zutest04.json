@@ -15010,6 +15010,20 @@
         "genreBadge": "ANM"
       },
       {
+        "label": "ラ・ラ・ランド",
+        "label_en": "La La Land",
+        "startYear": "2016",
+        "genre": [
+          "MOV"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%B3%E3%83%89",
+        "note": "夢と恋のすれ違いを鮮やかな音楽演出で描いたミュージカル映画。",
+        "note_en": "Musical film portraying dreams and romance through vivid song-and-dance direction.",
+        "url_en": "https://en.wikipedia.org/wiki/La_La_Land",
+        "genreBadge": "MOV"
+      },
+      {
         "label": "君の名は。",
         "label_en": "Your Name",
         "startYear": 2016,
