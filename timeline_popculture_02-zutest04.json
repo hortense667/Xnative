@@ -10270,20 +10270,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "逃走中",
-        "startYear": "2004",
-        "endYear": "ongoing",
-        "genre": [
-          "TV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD",
-        "note": "制限時間内の逃走劇をゲーム感覚で見せるサバイバル系バラエティ。",
-        "note_en": "Survival-style variety show turning escape under time limits into game-like entertainment.",
-        "_rev": "1774246158384-0fvmoebp",
-        "genreBadge": "TV"
-      },
-      {
         "label": "銀魂",
         "label_en": "Gintama",
         "startYear": 2004,
