@@ -13680,21 +13680,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Canva",
-        "label_en": "Canva",
-        "startYear": "2013",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Canva",
-        "note": "デザイン経験が薄くても使いやすいオンライン制作ツール。",
-        "note_en": "Online design tool approachable even for users with little design experience.",
-        "url_en": "https://en.wikipedia.org/wiki/Canva",
-        "genreBadge": "SW"
-      },
-      {
         "label": "DJI Phantom",
         "startYear": "2013",
         "genre": [
