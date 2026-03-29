@@ -13346,22 +13346,6 @@
       {
         "label": "Wii U",
         "label_en": "Wii U",
-        "startYear": 2012,
-        "genre": [
-          "GM",
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Wii_U",
-        "url_en": "https://en.wikipedia.org/wiki/Wii_U",
-        "note": "タブコン搭載の据置機。",
-        "note_en": "GamePad-equipped home console.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "Wii U",
-        "label_en": "Wii U",
         "startYear": "2012",
         "genre": [
           "HAR"
