@@ -14477,21 +14477,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Discord",
-        "label_en": "Discord",
-        "startYear": "2015",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Discord",
-        "note": "音声通話とコミュニティ運営を一体化した定番コミュニケーションソフト。",
-        "note_en": "Standard communication software combining voice chat and community management.",
-        "url_en": "https://en.wikipedia.org/wiki/Discord",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Fate/Grand Order",
         "label_en": "Fate/Grand Order",
         "startYear": "2015",
