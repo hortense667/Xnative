@@ -17516,40 +17516,6 @@
         }
       },
       {
-        "label": "ChatGPT",
-        "label_en": "ChatGPT",
-        "startYear": "2022",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
-        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
-        "note": "対話型生成AIを一般化",
-        "note_en": "Chatbot that brought generative AI to the mainstream",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "エンジニアリング／プログラム"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "創作関心"
-          ],
-          "practiceHints": [
-            "作る",
-            "改造する",
-            "研究する"
-          ],
-          "keywords": [
-            "対話機",
-            "LLM",
-            "自動化"
-          ]
-        }
-      },
-      {
         "label": "Do It Yourself!!",
         "label_en": "Do It Yourself!!",
         "startYear": "2022",
