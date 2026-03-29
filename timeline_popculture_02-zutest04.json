@@ -12466,21 +12466,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Instagram",
-        "label_en": "Instagram",
-        "startYear": "2010",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Instagram",
-        "note": "写真共有を中心に成長し、SNS表現の定番となったアプリ。",
-        "note_en": "App that grew around photo sharing and became a standard form of social expression.",
-        "url_en": "https://en.wikipedia.org/wiki/Instagram",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Kinect",
         "label_en": "Kinect",
         "startYear": 2010,
