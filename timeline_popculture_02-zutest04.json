@@ -12872,21 +12872,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Zoom",
-        "label_en": "Zoom",
-        "startYear": "2011",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Zoom",
-        "note": "遠隔会議を広く定着させたビデオ会議ソフト。",
-        "note_en": "Video conferencing software that became a default for remote meetings.",
-        "url_en": "https://en.wikipedia.org/wiki/Zoom_(software)",
-        "genreBadge": "SW"
-      },
-      {
         "label": "あの日見た花の名前を僕達はまだ知らない。",
         "label_en": "Anohana: The Flower We Saw That Day",
         "startYear": 2011,
