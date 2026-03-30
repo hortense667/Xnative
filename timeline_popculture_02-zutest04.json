@@ -3528,19 +3528,18 @@
       },
       {
         "label": "風の谷のナウシカ",
-        "label_en": "Nausicaä of the Valley of the Wind (franchise)",
-        "startYear": 1984,
+        "startYear": "1984",
         "genre": [
-          "JAPAN",
-          "MNG",
+          "ANM",
           "MOV"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E8%B0%B7%E3%81%AE%E3%83%8A%E3%82%A6%E3%82%B7%E3%82%AB_(%E6%98%A0%E7%94%BB)",
-        "url_en": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)",
         "note": "映画/漫画の長期的影響を持つ作品群。",
+        "label_en": "Nausicaä of the Valley of the Wind (franchise)",
+        "url_en": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)",
         "note_en": "Enduring film/manga franchise with wide impact.",
-        "genreBadge": "MNG"
+        "_rev": "1774847984321-3ex5g8kj"
       }
     ],
     "1985": [
