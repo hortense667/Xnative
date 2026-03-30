@@ -3528,18 +3528,19 @@
       },
       {
         "label": "風の谷のナウシカ",
-        "startYear": "1984",
+        "label_en": "Nausicaä of the Valley of the Wind (franchise)",
+        "startYear": 1984,
         "genre": [
-          "ANM",
+          "JAPAN",
+          "MNG",
           "MOV"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E8%B0%B7%E3%81%AE%E3%83%8A%E3%82%A6%E3%82%B7%E3%82%AB_(%E6%98%A0%E7%94%BB)",
-        "note": "映画/漫画の長期的影響を持つ作品群。",
-        "label_en": "Nausicaä of the Valley of the Wind (franchise)",
         "url_en": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)",
+        "note": "映画/漫画の長期的影響を持つ作品群。",
         "note_en": "Enduring film/manga franchise with wide impact.",
-        "_rev": "1774847281303-ay5hiw2x"
+        "genreBadge": "MNG"
       }
     ],
     "1985": [
@@ -5986,7 +5987,7 @@
           "keywords": [
             "果実",
             "机上",
-            "林檎"
+            "統一感"
           ]
         }
       },
@@ -9214,38 +9215,6 @@
         }
       },
       {
-        "label": "千と千尋の神隠し",
-        "label_en": "Spirited Away",
-        "startYear": "2001",
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97",
-        "note": "異界に迷い込んだ少女の成長を描き、世界的評価を得たアニメ映画。",
-        "note_en": "Animated film about a girl lost in a spirit world, acclaimed worldwide.",
-        "url_en": "https://en.wikipedia.org/wiki/Spirited_Away",
-        "genreBadge": "MOV",
-        "diagnostic": {
-          "deepModules": [
-            "和風／伝承"
-          ],
-          "generalModules": [
-            "和風幻想",
-            "物語世界"
-          ],
-          "practiceHints": [
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "神隠し",
-            "湯屋",
-            "異界"
-          ]
-        }
-      },
-      {
         "label": "逆転裁判",
         "label_en": "Ace Attorney",
         "startYear": "2001",
@@ -10128,22 +10097,6 @@
       {
         "label": "ニンテンドーDS",
         "label_en": "Nintendo DS",
-        "startYear": 2004,
-        "genre": [
-          "GM",
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ニンテンドーDS",
-        "url_en": "https://en.wikipedia.org/wiki/Nintendo_DS",
-        "note": "二画面携帯機で市場を席巻。",
-        "note_en": "Dual-screen handheld that dominated sales.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ニンテンドーDS",
-        "label_en": "Nintendo DS",
         "startYear": "2004",
         "genre": [
           "HAR"
@@ -10282,20 +10235,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Run_for_Money",
         "note": "鬼ごっこ型サバイバルバラエティ。",
         "note_en": "Chase-game survival variety show.",
-        "genreBadge": "TV"
-      },
-      {
-        "label": "逃走中",
-        "startYear": "2004",
-        "endYear": "ongoing",
-        "genre": [
-          "TV"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E9%80%83%E8%B5%B0%E4%B8%AD",
-        "note": "制限時間内の逃走劇をゲーム感覚で見せるサバイバル系バラエティ。",
-        "note_en": "Survival-style variety show turning escape under time limits into game-like entertainment.",
-        "_rev": "1774246158384-0fvmoebp",
         "genreBadge": "TV"
       },
       {
@@ -10492,21 +10431,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Unity",
-        "label_en": "Unity",
-        "startYear": "2005",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Unity",
-        "note": "個人から大手まで使われる、ゲーム開発向け総合エンジン。",
-        "note_en": "Comprehensive engine used for game development from indies to major studios.",
-        "url_en": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Xbox 360",
         "label_en": "Xbox 360",
         "startYear": "2005",
@@ -10563,7 +10487,7 @@
           "keywords": [
             "果実",
             "机上",
-            "林檎"
+            "統一感"
           ]
         }
       },
@@ -11620,18 +11544,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "世界の果てまでイッテQ!",
-        "startYear": 2007,
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%BE%E3%81%A7%E3%82%A4%E3%83%83%E3%83%86Q!",
-        "note": "体当たり企画と海外ロケで長く人気を保つバラエティ番組。",
-        "note_en": "Long-running variety show known for physical stunts and international location shoots.",
-        "genreBadge": "TV"
-      },
-      {
         "label": "初音ミク",
         "label_en": "Hatsune Miku",
         "startYear": 2007,
@@ -11665,41 +11577,6 @@
             "青い声",
             "仮想歌姫",
             "創作"
-          ]
-        }
-      },
-      {
-        "label": "初音ミク (VOCALOID2)",
-        "label_en": "Hatsune Miku (VOCALOID2)",
-        "startYear": 2007,
-        "genre": [
-          "SW",
-          "MUS",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/初音ミク",
-        "url_en": "https://en.wikipedia.org/wiki/Hatsune_Miku",
-        "note": "歌声合成キャラクター文化を確立。",
-        "note_en": "Iconic singing voice-synthesis character.",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "ボカロ／仮想人格",
-            "アイドル／推し"
-          ],
-          "generalModules": [
-            "音楽体験",
-            "創作関心"
-          ],
-          "practiceHints": [
-            "作る",
-            "推す"
-          ],
-          "keywords": [
-            "合成声",
-            "仮想歌姫",
-            "電声"
           ]
         }
       },
@@ -11873,21 +11750,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Google_Chrome",
         "note": "高速化で普及したWebブラウザ。",
         "note_en": "Fast), dominant web browser.",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Google Chrome",
-        "label_en": "Google Chrome",
-        "startYear": "2008",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Google%20Chrome",
-        "note": "高速表示と拡張性でブラウザ競争を塗り替えたWebブラウザ。",
-        "note_en": "Web browser that reshaped browser competition through speed and extensibility.",
-        "url_en": "https://en.wikipedia.org/wiki/Google_Chrome",
         "genreBadge": "SW"
       },
       {
@@ -12539,21 +12401,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Instagram",
-        "label_en": "Instagram",
-        "startYear": "2010",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Instagram",
-        "note": "写真共有を中心に成長し、SNS表現の定番となったアプリ。",
-        "note_en": "App that grew around photo sharing and became a standard form of social expression.",
-        "url_en": "https://en.wikipedia.org/wiki/Instagram",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Kinect",
         "label_en": "Kinect",
         "startYear": 2010,
@@ -12626,7 +12473,7 @@
           "keywords": [
             "平板果実",
             "触れる板",
-            "林檎"
+            "統一感"
           ]
         }
       },
@@ -12945,21 +12792,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Zoom",
-        "label_en": "Zoom",
-        "startYear": "2011",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Zoom",
-        "note": "遠隔会議を広く定着させたビデオ会議ソフト。",
-        "note_en": "Video conferencing software that became a default for remote meetings.",
-        "url_en": "https://en.wikipedia.org/wiki/Zoom_(software)",
-        "genreBadge": "SW"
-      },
-      {
         "label": "あの日見た花の名前を僕達はまだ知らない。",
         "label_en": "Anohana: The Flower We Saw That Day",
         "startYear": 2011,
@@ -13169,21 +13001,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "家政婦のミタ",
-        "label_en": "I'm Mita, Your Housekeeper.",
-        "startYear": 2011,
-        "endYear": 2011,
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%AE%B6%E6%94%BF%E5%A9%A6%E3%81%AE%E3%83%9F%E3%82%BF",
-        "note": "感情を見せない家政婦が家族を変えていく高視聴率ドラマ。",
-        "note_en": "High-rating drama about an emotionless housekeeper transforming a family.",
-        "url_en": "https://en.wikipedia.org/wiki/I%27m_Mita,_Your_Housekeeper.",
-        "genreBadge": "TV"
-      },
-      {
         "label": "月刊少女野崎くん",
         "label_en": "Monthly Girls' Nozaki-kun",
         "startYear": "2011",
@@ -13328,40 +13145,6 @@
         }
       },
       {
-        "label": "Raspberry Pi",
-        "label_en": "Raspberry Pi",
-        "startYear": "2012",
-        "endYear": "ongoing",
-        "genre": [
-          "HAR"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Raspberry%20Pi",
-        "note": "低価格で教育と電子工作に広がった小型シングルボードPC。",
-        "note_en": "Low-cost single-board computer widely used in education and maker projects.",
-        "url_en": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "genreBadge": "HW",
-        "diagnostic": {
-          "deepModules": [
-            "エンジニアリング／プログラム"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "創作関心"
-          ],
-          "practiceHints": [
-            "作る",
-            "改造する",
-            "研究する"
-          ],
-          "keywords": [
-            "小型基板",
-            "工作",
-            "自作"
-          ]
-        }
-      },
-      {
         "label": "Tinder",
         "label_en": "Tinder",
         "startYear": "2012",
@@ -13375,22 +13158,6 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Tinder_(app)",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "Wii U",
-        "label_en": "Wii U",
-        "startYear": 2012,
-        "genre": [
-          "GM",
-          "HAR",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Wii_U",
-        "url_en": "https://en.wikipedia.org/wiki/Wii_U",
-        "note": "タブコン搭載の据置機。",
-        "note_en": "GamePad-equipped home console.",
-        "genreBadge": "GM"
       },
       {
         "label": "Wii U",
@@ -13818,21 +13585,6 @@
         "genreBadge": "WEB"
       },
       {
-        "label": "Canva",
-        "label_en": "Canva",
-        "startYear": "2013",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Canva",
-        "note": "デザイン経験が薄くても使いやすいオンライン制作ツール。",
-        "note_en": "Online design tool approachable even for users with little design experience.",
-        "url_en": "https://en.wikipedia.org/wiki/Canva",
-        "genreBadge": "SW"
-      },
-      {
         "label": "DJI Phantom",
         "startYear": "2013",
         "genre": [
@@ -13951,21 +13703,6 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "Slack",
-        "label_en": "Slack",
-        "startYear": "2013",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Slack",
-        "note": "チーム内チャットを中心に業務コミュニケーションを変えたソフト。",
-        "note_en": "Software that changed workplace communication through channel-based team chat.",
-        "url_en": "https://en.wikipedia.org/wiki/Slack_(software)",
-        "genreBadge": "SW"
       },
       {
         "label": "Surface Pro",
@@ -14212,21 +13949,6 @@
         "genreBadge": "TV"
       },
       {
-        "label": "半沢直樹",
-        "label_en": "Hanzawa Naoki",
-        "startYear": "2013",
-        "endYear": "ongoing",
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8D%8A%E6%B2%A2%E7%9B%B4%E6%A8%B9",
-        "note": "銀行員の逆転劇と決めぜりふで社会現象化したドラマ。",
-        "note_en": "Drama that became a social phenomenon through corporate revenge and iconic catchphrases.",
-        "url_en": "https://en.wikipedia.org/wiki/Hanzawa_Naoki",
-        "genreBadge": "TV"
-      },
-      {
         "label": "応天の門",
         "label_en": "Ōten no Mon",
         "startYear": 2013,
@@ -14336,7 +14058,8 @@
           ],
           "keywords": [
             "果実",
-            "林檎"
+            "机上",
+            "統一感"
           ]
         }
       },
@@ -14610,20 +14333,6 @@
         "note": "企画検証系バラエティのヒット。",
         "note_en": "Hit JP variety show testing “theories.”",
         "genreBadge": "TV"
-      },
-      {
-        "label": "水曜日のダウンタウン",
-        "label_en": "Wednesday's Downtown",
-        "startYear": 2014,
-        "genre": [
-          "TV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3",
-        "note": "検証企画の過激さとメタ視点で話題を呼ぶバラエティ番組。",
-        "note_en": "Variety show famous for provocative premise-testing and meta humor.",
-        "url_en": "https://en.wikipedia.org/wiki/Wednesday%27s_Downtown",
-        "genreBadge": "TV"
       }
     ],
     "2015": [
@@ -14641,21 +14350,6 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/Discord",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "Discord",
-        "label_en": "Discord",
-        "startYear": "2015",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Discord",
-        "note": "音声通話とコミュニティ運営を一体化した定番コミュニケーションソフト。",
-        "note_en": "Standard communication software combining voice chat and community management.",
-        "url_en": "https://en.wikipedia.org/wiki/Discord",
-        "genreBadge": "SW"
       },
       {
         "label": "Fate/Grand Order",
@@ -14839,21 +14533,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Splatoon",
         "note": "インクで陣取りする対戦シューター。",
         "note_en": "Ink-based territorial shooter from Nintendo.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "スプラトゥーン",
-        "label_en": "Splatoon",
-        "startYear": "2015",
-        "endYear": "ongoing",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3",
-        "note": "塗る行為を対戦の軸にし、新しいTPSの魅力を作った作品。",
-        "note_en": "Game that built a new kind of shooter around covering territory with ink.",
-        "url_en": "https://en.wikipedia.org/wiki/Splatoon",
         "genreBadge": "GM"
       },
       {
@@ -15118,36 +14797,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "Pokémon GO",
-        "label_en": "Pokémon GO",
-        "startYear": "2016",
-        "endYear": "ongoing",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
-        "note": "現実空間を歩く体験と位置情報ゲームを社会現象にした作品。",
-        "note_en": "Phenomenon that turned location-based play and walking into mainstream gaming.",
-        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "Pokémon GO",
-        "label_en": "Pokémon GO",
-        "startYear": "2016",
-        "endYear": "ongoing",
-        "genre": [
-          "NET"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/Pok%C3%A9mon%20GO",
-        "note": "ゲームと位置情報を結んだネットサービス的存在。",
-        "note_en": "A networked service linking games and geolocation.",
-        "url_en": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_GO",
-        "genreBadge": "WEB"
-      },
-      {
         "label": "PyTorch",
         "label_en": "PyTorch",
         "startYear": "2016",
@@ -15207,21 +14856,6 @@
         "note_en": "A representative internet service with a distinct role.",
         "url_en": "https://en.wikipedia.org/wiki/TikTok",
         "genreBadge": "WEB"
-      },
-      {
-        "label": "TikTok",
-        "label_en": "TikTok",
-        "startYear": "2016",
-        "endYear": "ongoing",
-        "genre": [
-          "SW"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/TikTok",
-        "note": "短尺動画の編集と視聴体験を一気に大衆化したアプリ。",
-        "note_en": "App that mainstreamed the creation and consumption of short-form video.",
-        "url_en": "https://en.wikipedia.org/wiki/TikTok",
-        "genreBadge": "SW"
       },
       {
         "label": "この世界の片隅に",
@@ -15407,20 +15041,6 @@
         "genreBadge": "ANM"
       },
       {
-        "label": "君の名は。",
-        "label_en": "Your Name",
-        "startYear": "2016",
-        "genre": [
-          "MOV"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%E3%80%82",
-        "note": "入れ替わりと時間差を組み合わせ、広く共感を呼んだアニメ映画。",
-        "note_en": "Animated hit combining body-swapping and time shifts to broad emotional effect.",
-        "url_en": "https://en.wikipedia.org/wiki/Your_Name",
-        "genreBadge": "MOV"
-      },
-      {
         "label": "映像研には手を出すな!",
         "label_en": "Keep Your Hands Off Eizouken!",
         "startYear": "2016",
@@ -15494,22 +15114,6 @@
         "note": "契約結婚設定と恋愛観のアップデートで広く共感を呼んだドラマ。",
         "note_en": "Drama that resonated widely through its contract-marriage premise and updated romance values.",
         "url_en": "https://en.wikipedia.org/wiki/The_Full-Time_Wife_Escapist",
-        "genreBadge": "TV"
-      },
-      {
-        "label": "逃げるは恥だが役に立つ (テレビドラマ)",
-        "label_en": "We Married as a Job",
-        "startYear": 2016,
-        "endYear": "ongoing",
-        "genre": [
-          "TV",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/逃げるは恥だが役に立つ",
-        "url_en": "https://en.wikipedia.org/wiki/Nigeru_wa_Haji_da_ga_Yaku_ni_Tatsu",
-        "note": "契約結婚を巡る社会派ラブコメ。",
-        "note_en": "Socially aware rom-com about contract marriage.",
         "genreBadge": "TV"
       },
       {
@@ -15796,20 +15400,6 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
         "note": "箱庭探索でシリーズ刷新。",
         "note_en": "Open-air design redefined the series.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ゼルダの伝説 ブレス オブ ザ ワイルド",
-        "label_en": "The Legend of Zelda: Breath of the Wild",
-        "startYear": "2017",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80%E3%81%AE%E4%BC%9D%E8%AA%AC%20%E3%83%96%E3%83%AC%E3%82%B9%20%E3%82%AA%E3%83%96%20%E3%82%B6%20%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89",
-        "note": "自由な物理挙動と冒険の発見でオープンワールド像を更新した作品。",
-        "note_en": "Game that redefined open-world adventure through physics and discovery.",
-        "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
         "genreBadge": "GM"
       },
       {
@@ -16566,7 +16156,7 @@
           "keywords": [
             "果実",
             "机上",
-            "林檎"
+            "統一感"
           ]
         }
       },
@@ -17085,21 +16675,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "あつまれ どうぶつの森",
-        "label_en": "Animal Crossing: New Horizons",
-        "startYear": "2020",
-        "endYear": "ongoing",
-        "genre": [
-          "GM"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%A4%E3%81%BE%E3%82%8C%20%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE",
-        "note": "離れていても交流できる島生活が時代に合致した生活ゲーム。",
-        "note_en": "Life sim whose island living and social play matched the mood of its time.",
-        "url_en": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
-        "genreBadge": "GM"
-      },
-      {
         "label": "サクナヒメ",
         "label_en": "Sakuna: Of Rice and Ruin",
         "startYear": "2020",
@@ -17350,21 +16925,6 @@
         "genreBadge": "SW"
       },
       {
-        "label": "GitHub Copilot",
-        "label_en": "GitHub Copilot",
-        "startYear": "2021",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/GitHub_Copilot",
-        "url_en": "https://en.wikipedia.org/wiki/GitHub_Copilot",
-        "note": "生成AI時代の開発支援を代表",
-        "note_en": "Representative coding assistant of the generative-AI era",
-        "genreBadge": "SW"
-      },
-      {
         "label": "Horizon Worlds",
         "label_en": "Horizon Worlds",
         "startYear": 2021,
@@ -17520,40 +17080,6 @@
         "note": "競走馬モチーフをアイドル性とスポ根で再構成した人気アニメ。",
         "note_en": "Popular anime reimagining racehorses through idol appeal and sports-drama energy.",
         "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
-        "genreBadge": "GM",
-        "diagnostic": {
-          "deepModules": [
-            "アイドル／推し"
-          ],
-          "generalModules": [
-            "推し／パフォーマンス",
-            "キャラクター愛着"
-          ],
-          "practiceHints": [
-            "推す",
-            "観る",
-            "語る"
-          ],
-          "keywords": [
-            "育成",
-            "推し",
-            "ライブ"
-          ]
-        }
-      },
-      {
-        "label": "ウマ娘 プリティーダービー",
-        "label_en": "Umamusume Pretty Derby",
-        "startYear": "2021",
-        "genre": [
-          "GM",
-          "NET"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ウマ娘_プリティーダービー",
-        "url_en": "https://en.wikipedia.org/wiki/Umamusume_Pretty_Derby",
-        "note": "SNS拡散も大きかった育成ゲーム",
-        "note_en": "Network-amplified training game that became a social hit",
         "genreBadge": "GM",
         "diagnostic": {
           "deepModules": [
@@ -17819,40 +17345,6 @@
         }
       },
       {
-        "label": "ChatGPT",
-        "label_en": "ChatGPT",
-        "startYear": "2022",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
-        "url_en": "https://en.wikipedia.org/wiki/ChatGPT",
-        "note": "対話型生成AIを一般化",
-        "note_en": "Chatbot that brought generative AI to the mainstream",
-        "genreBadge": "SW",
-        "diagnostic": {
-          "deepModules": [
-            "エンジニアリング／プログラム"
-          ],
-          "generalModules": [
-            "機械／ガジェット",
-            "創作関心"
-          ],
-          "practiceHints": [
-            "作る",
-            "改造する",
-            "研究する"
-          ],
-          "keywords": [
-            "対話機",
-            "LLM",
-            "自動化"
-          ]
-        }
-      },
-      {
         "label": "Do It Yourself!!",
         "label_en": "Do It Yourself!!",
         "startYear": "2022",
@@ -17880,21 +17372,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Elden_Ring",
         "note": "探索自由度で新境地のアクションRPG。",
         "note_en": "Open-world evolution of the Soulslike.",
-        "genreBadge": "GM"
-      },
-      {
-        "label": "ELDEN RING SHADOW OF THE ERDTREE",
-        "label_en": "ELDEN RING SHADOW OF THE ERDTREE",
-        "startYear": "2022",
-        "endYear": "2024",
-        "genre": [
-          "GM"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ELDEN%20RING%20SHADOW%20OF%20THE%20ERDTREE",
-        "note": "巨大な追加領域で本編の魅力を拡張した大型DLC。",
-        "note_en": "Large-scale expansion that significantly broadened the appeal of the main game.",
-        "url_en": "https://en.wikipedia.org/wiki/Elden_Ring:_Shadow_of_the_Erdtree",
         "genreBadge": "GM"
       },
       {
@@ -17997,21 +17474,6 @@
         "note": "画像生成モデルの公開でAI表現の裾野を広げたソフトウェア。",
         "note_en": "Software that broadened AI image creation by openly releasing a generative model.",
         "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "genreBadge": "SW"
-      },
-      {
-        "label": "Stable Diffusion",
-        "label_en": "Stable Diffusion",
-        "startYear": "2022",
-        "genre": [
-          "NET",
-          "SW"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
-        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
-        "note": "画像生成を一気に民主化",
-        "note_en": "Image model that rapidly democratized AI art creation",
         "genreBadge": "SW"
       },
       {
@@ -18945,7 +18407,7 @@
           "keywords": [
             "果実",
             "机上",
-            "林檎"
+            "統一感"
           ]
         }
       },
@@ -18976,7 +18438,8 @@
           ],
           "keywords": [
             "果実",
-            "林檎"
+            "机上",
+            "統一感"
           ]
         }
       },
