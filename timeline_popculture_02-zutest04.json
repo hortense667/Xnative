@@ -3530,6 +3530,7 @@
         "label": "風の谷のナウシカ",
         "startYear": "1984",
         "genre": [
+          "ANM",
           "MOV"
         ],
         "imp": 5,
@@ -3538,7 +3539,7 @@
         "label_en": "Nausicaä of the Valley of the Wind (franchise)",
         "url_en": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)",
         "note_en": "Enduring film/manga franchise with wide impact.",
-        "_rev": "1774847119856-m7q90psk"
+        "_rev": "1774847206168-4z5hiilr"
       }
     ],
     "1985": [
