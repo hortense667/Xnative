@@ -12521,6 +12521,40 @@
         "genreBadge": "GM"
       },
       {
+        "label": "昭和元禄落語心中",
+        "startYear": 2010,
+        "genre": [
+          "MNG",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "note": "劇画・歴史系の補強候補。  Wikipedia冒頭要約風: 『昭和元禄落語心中』は劇画・歴史・戦記・ハードボイルドに位置づけられる作品で、作風・主題・掲載文脈を通じてこの系譜を理解するための代表例となる。",
+        "note_en": "A representative manga in the cluster '劇画・歴史・戦記・ハードボイルド'.  Wikipedia-style lead: '昭和元禄落語心中' is a useful reference point for understanding this lineage through its style, themes, and publication context.",
+        "genreBadge": "MNG",
+        "diagnostic": {
+          "deepModules": [
+            "劇画／硬派",
+            "歴史／戦記"
+          ],
+          "generalModules": [
+            "物語世界",
+            "創作関心"
+          ],
+          "practiceHints": [
+            "観る",
+            "語る"
+          ],
+          "keywords": [
+            "歴史",
+            "戦記",
+            "硬派"
+          ]
+        },
+        "url": "https://ja.wikipedia.org/wiki/昭和元禄落語心中",
+        "url_en": "https://en.wikipedia.org/wiki/Descending_Stories:_Showa_Genroku_Rakugo_Shinju",
+        "label_en": "Descending Stories: Showa Genroku Rakugo Shinju"
+      },
+      {
         "label": "借りぐらしのアリエッティ",
         "label_en": "The Secret World of Arrietty",
         "startYear": 2010,
