@@ -16408,18 +16408,6 @@
         "genreBadge": "GM"
       },
       {
-        "label": "乙女椿は笑わない",
-        "startYear": 2019,
-        "genre": [
-          "MNG"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A2%A8%E3%81%BF%E3%81%A4%E3%81%B0",
-        "note": "複雑な家庭環境を抱える少女の恋と再生を描く少女マンガ。",
-        "note_en": "Shojo manga about a girl from a complicated family finding love and recovery.",
-        "genreBadge": "MNG"
-      },
-      {
         "label": "天気の子",
         "label_en": "Weathering with You",
         "startYear": 2019,
@@ -16466,6 +16454,19 @@
         "note": "社会現象となったTVアニメ。",
         "note_en": "Breakout TV anime phenomenon.",
         "genreBadge": "ANM"
+      },
+      {
+        "label": "乙女椿は笑わない",
+        "startYear": "2019",
+        "genre": [
+          "MNG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A2%A8%E3%81%BF%E3%81%A4%E3%81%B0",
+        "note": "複雑な家庭環境を抱える少女の恋と再生を描く少女マンガ。",
+        "url_en": "https://en.wikipedia.org/wiki/Mitsuba_Takanashi",
+        "note_en": "Shojo manga about a girl from a complicated family finding love and recovery.",
+        "_rev": "1776187574360-l3w5sedk"
       }
     ],
     "2020": [
