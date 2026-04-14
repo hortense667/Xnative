@@ -18679,18 +18679,6 @@
         "genreBadge": "MNG"
       },
       {
-        "label": "ドラマクイン",
-        "startYear": 2024,
-        "genre": [
-          "MNG"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/ドラマクイン",
-        "note": "ジャンプ+発のサスペンス系新作",
-        "note_en": "Suspense manga from Shonen Jump+",
-        "genreBadge": "MNG"
-      },
-      {
         "label": "ルックバック",
         "label_en": "Look Back (manga)",
         "startYear": "2024",
@@ -18837,6 +18825,19 @@
         "note_en": "Action RPG that drew global attention with Journey to the West motifs and high-end visuals.",
         "url_en": "https://en.wikipedia.org/wiki/Black_Myth:_Wukong",
         "genreBadge": "GM"
+      },
+      {
+        "label": "ドラマクイン",
+        "startYear": "2024",
+        "genre": [
+          "MNG"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ドラマクイン",
+        "note": "ジャンプ+発のサスペンス系新作",
+        "url_en": "https://en.wikipedia.org/wiki/Drama_Queen_(manga)",
+        "note_en": "Suspense manga from Shonen Jump+",
+        "_rev": "1776187663449-qxl9ja5s"
       }
     ],
     "2025": [
