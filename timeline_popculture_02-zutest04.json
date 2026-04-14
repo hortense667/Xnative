@@ -17586,19 +17586,6 @@
         "genreBadge": "MNG"
       },
       {
-        "label": "さよなら絵梨",
-        "label_en": "Goodbye, Eri",
-        "startYear": 2022,
-        "genre": [
-          "MNG"
-        ],
-        "imp": 4,
-        "note": "映像感覚の強い読切マンガの話題作",
-        "note_en": "A buzzy one-shot manga with a strong cinematic feel",
-        "url_en": "https://en.wikipedia.org/wiki/Goodbye,_Eri",
-        "genreBadge": "MNG"
-      },
-      {
         "label": "すずめの戸締まり",
         "label_en": "Suzume",
         "startYear": 2022,
@@ -17853,6 +17840,20 @@
         "note_en": "Taiga drama portraying the power struggles around the founding of the Kamakura shogunate.",
         "url_en": "https://en.wikipedia.org/wiki/The_13_Lords_of_the_Shogun",
         "genreBadge": "TV"
+      },
+      {
+        "label": "さよなら絵梨",
+        "startYear": "2022",
+        "genre": [
+          "MNG"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E8%97%A4%E6%9C%AC%E3%82%BF%E3%83%84%E3%82%AD",
+        "note": "映像感覚の強い読切マンガの話題作",
+        "label_en": "Goodbye, Eri",
+        "url_en": "https://en.wikipedia.org/wiki/Goodbye,_Eri",
+        "note_en": "A buzzy one-shot manga with a strong cinematic feel",
+        "_rev": "1776187459571-emfikwlk"
       }
     ],
     "2023": [
