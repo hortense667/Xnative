@@ -1,5 +1,35 @@
 {
-  "metadata": {},
+  "metadata": {
+    "title": {
+      "ja": "ポップカルチャー 0.1",
+      "en": "Pop culture Timeline 0.1"
+    },
+    "description": {
+      "ja": "この年表は日本のポップカルチャーに関する項目を選んだものです。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline presents selected entries on Japanese pop culture. It is currently in a trial release, and its content is under careful review."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
   "events": {
     "1945": [
       {
