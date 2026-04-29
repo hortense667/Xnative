@@ -3,6 +3,8 @@
     "zutest01": {
       "filePath": "timeline_popculture_02-zutest04.json",
       "aiProvider": "openai",
+      "openaiModel": "gpt-5.4",
+      "geminiModel": "gemini-2.5-flash-lite",
       "temperature": 1.2,
       "initialBirthYear": 2000,
       "initialEventYear": 2006,
@@ -28,6 +30,8 @@
     "zutest02": {
       "filePath": "timeline_popculture_02-zutest05.json",
       "aiProvider": "openai",
+      "openaiModel": "gpt-5.4",
+      "geminiModel": "gemini-2.5-flash-lite",
       "temperature": 1.2,
       "initialBirthYear": 2000,
       "initialEventYear": 2006,
