@@ -1426,23 +1426,6 @@
         "note_en": "Hugely influential SF TV series."
       },
       {
-        "label": "巨人の星",
-        "label_en": "Star of the Giants",
-        "startYear": 1966,
-        "endYear": 1971,
-        "genre": [
-          "ANI",
-          "JAPAN",
-          "MAN",
-          "TVP"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/巨人の星",
-        "url_en": "https://en.wikipedia.org/wiki/Star_of_the_Giants",
-        "note": "スポ根ものの代表作。",
-        "note_en": "Defining sports drama anime/manga."
-      },
-      {
         "label": "週刊プレイボーイ",
         "label_en": "Weekly Playboy (Japan)",
         "startYear": 1966,
@@ -1778,6 +1761,23 @@
         "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
         "note": "SF映画の到達点。",
         "note_en": "Monumental achievement in SF cinema."
+      },
+      {
+        "label": "巨人の星",
+        "startYear": "1968",
+        "endYear": "1979",
+        "genre": [
+          "ANI",
+          "TVP",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/巨人の星",
+        "note": "スポ根ものの代表作。",
+        "label_en": "Star of the Giants",
+        "url_en": "https://en.wikipedia.org/wiki/Star_of_the_Giants",
+        "note_en": "Defining sports drama anime/manga.",
+        "_rev": "1777994795772-s4qd6nrz"
       }
     ],
     "1969": [
