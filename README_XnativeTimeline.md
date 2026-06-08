@@ -71,10 +71,10 @@ This document includes both a Japanese and an English version. The English versi
 - Cloudflare ： https://xnative.pages.dev/?editmode=ON
 - Netlify ： https://xnative.netlify.app/?editmode=ON
 
-※適切な年表が設定されないとエラーとなります。すぐに触りたい人は以下のチュートリアルを開いてみてください。
+※適切な年表が設定されないとエラーとなります。すぐに触りたい人は以下のサンプルを開いてみてください。
 
-- チュートリアル
-　https://xnative.pages.dev/?snapshot=snapshot-tutorial.json
+- サンプル
+　https://xnative.pages.dev/?editmode=ON&snapshot=xnative-snapshot-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB.json
 
 
 #### 年表の表示と操作
