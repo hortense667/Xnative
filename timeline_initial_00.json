@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "title": {
+      "ja": "文具の年表 0.0（サンプル）",
+      "en": "Stationery Timeline 0.0 (Sample)"
+    },
+    "description": {
+      "ja": "年表データの作り方を学ぶための最小サンプルです。項目の追加・ジャンル・重要度・期間（endYear）・URL・メモなど、実データで使うフィールドの例を示しています。",
+      "en": "A minimal sample for learning how to build timeline data. It demonstrates fields used in real data: items, genres, importance, duration (endYear), URLs, and notes."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2026-06-09",
+    "version": "0.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2026 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "This is a tutorial sample. Replace title, genres, and events with your own topic when creating a new timeline."
+  },
+  "events": {
+    "1950": [
+      {
+        "label": "クレヨンの一般普及",
+        "label_en": "Crayons become widely used",
+        "startYear": 1950,
+        "genre": [
+          "PROD",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/クレヨン",
+        "url_en": "https://en.wikipedia.org/wiki/Crayon",
+        "note": "子ども向け絵画用具として世界各地で定番化。",
+        "note_en": "Children's drawing tools became a staple worldwide."
+      }
+    ],
+    "1958": [
+      {
+        "label": "ビック・クリスタル",
+        "label_en": "Bic Cristal",
+        "startYear": 1958,
+        "genre": [
+          "PROD",
+          "WORLD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ビック・クリスタル",
+        "url_en": "https://en.wikipedia.org/wiki/Bic_Cristal",
+        "note": "使い捨てボールペンの代表モデル。",
+        "note_en": "Iconic disposable ballpoint pen design."
+      }
+    ],
+    "1961": [
+      {
+        "label": "テキスター（修正液）",
+        "label_en": "Liquid Paper",
+        "startYear": 1961,
+        "endYear": 1990,
+        "genre": [
+          "PROD",
+          "WORLD"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/修正液",
+        "url_en": "https://en.wikipedia.org/wiki/Correction_fluid",
+        "note": "誤記を塗りつぶす修正液が普及。endYear の記載例。",
+        "note_en": "Correction fluid for covering typos. Example with endYear."
+      }
+    ],
+    "1964": [
+      {
+        "label": "シャープペンシル",
+        "label_en": "Mechanical pencil (Sharp)",
+        "startYear": 1964,
+        "genre": [
+          "PROD",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/シャープペンシル",
+        "url_en": "https://en.wikipedia.org/wiki/Mechanical_pencil",
+        "note": "芯を繰り出すシャープペンシルが広く知られる。",
+        "note_en": "Propelling-lead mechanical pencils gained wide recognition."
+      }
+    ],
+    "1977": [
+      {
+        "label": "ポスト・イット・ノート",
+        "label_en": "Post-it Notes",
+        "startYear": 1977,
+        "genre": [
+          "PROD",
+          "WORLD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ポスト・イット・ノート",
+        "url_en": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "note": "再剥離可能な付箋がオフィス文房具の定番に。",
+        "note_en": "Repositionable sticky notes became an office staple."
+      }
+    ],
+    "1982": [
+      {
+        "label": "シャープ グラフ1000",
+        "label_en": "Pentel Graph 1000",
+        "startYear": 1982,
+        "genre": [
+          "PROD",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/グラフ1000",
+        "note": "製図・筆記向けの代表シャープペン。",
+        "note_en": "Representative drafting and writing mechanical pencil."
+      }
+    ],
+    "1990": [
+      {
+        "label": "蛍光ペンの一般化",
+        "label_en": "Highlighter pens go mainstream",
+        "startYear": 1990,
+        "genre": [
+          "PROD",
+          "WORLD"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/蛍光ペン",
+        "url_en": "https://en.wikipedia.org/wiki/Highlighter",
+        "note": "勉強・事務用途で蛍光マーカーが定着。",
+        "note_en": "Fluorescent markers became standard for study and office use."
+      },
+      {
+        "label": "文房具の日",
+        "label_en": "Stationery Day (Japan)",
+        "startYear": 1990,
+        "genre": [
+          "EVT",
+          "JAPAN"
+        ],
+        "imp": 1,
+        "note": "同年に複数項目を置く例。イベント系ジャンルの例。",
+        "note_en": "Example of multiple items in one year and an event genre."
+      }
+    ],
+    "2008": [
+      {
+        "label": "ステーショナーズ・オブ・ザ・ワールド",
+        "label_en": "Stationery of the World",
+        "startYear": 2008,
+        "genre": [
+          "BOO",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "note": "書籍ジャンルの記載例。URL は任意フィールド。",
+        "note_en": "Example of a book genre. URL is optional."
+      }
+    ],
+    "2020": [
+      {
+        "label": "在宅ワークと文房具",
+        "label_en": "Remote work and stationery",
+        "startYear": 2020,
+        "genre": [
+          "EVT",
+          "JAPAN",
+          "WORLD"
+        ],
+        "imp": 2,
+        "note": "複数ジャンルを組み合わせる例（出来事＋日本＋世界）。",
+        "note_en": "Example combining multiple genres (event + Japan + world)."
+      }
+    ]
+  },
+  "eraSettings": [
+    {
+      "name": "プラスチック文具の時代",
+      "startYear": 1950,
+      "endYear": 1999,
+      "color": "#87CEEB",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "PROD",
+      "label": "製品",
+      "label_en": "Product",
+      "conjunction": false
+    },
+    {
+      "code": "EVT",
+      "label": "出来事",
+      "label_en": "Event",
+      "conjunction": false
+    },
+    {
+      "code": "BOO",
+      "label": "書籍",
+      "label_en": "Book",
+      "conjunction": false
+    },
+    {
+      "code": "JAPAN",
+      "label": "日本",
+      "label_en": "Japan",
+      "conjunction": true
+    },
+    {
+      "code": "WORLD",
+      "label": "世界",
+      "label_en": "World",
+      "conjunction": true
+    }
+  ]
+}
