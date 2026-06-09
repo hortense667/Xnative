@@ -98,17 +98,17 @@
     "1977": [
       {
         "label": "ポスト・イット・ノート",
-        "label_en": "Post-it Notes",
-        "startYear": 1977,
+        "startYear": "1977",
         "genre": [
           "PROD",
           "WORLD"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/ポスト・イット・ノート",
-        "url_en": "https://en.wikipedia.org/wiki/Post-it_Note",
         "note": "再剥離可能な付箋がオフィス文房具の定番に。",
-        "note_en": "Repositionable sticky notes became an office staple."
+        "label_en": "Post-it Notes",
+        "url_en": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "note_en": "Repositionable sticky notes became an office staple.",
+        "_rev": "1780995275791-kef44i0p"
       }
     ],
     "1982": [
