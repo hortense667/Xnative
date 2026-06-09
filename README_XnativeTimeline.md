@@ -71,10 +71,11 @@ This document includes both a Japanese and an English version. The English versi
 - Cloudflare ： https://xnative.pages.dev/?editmode=ON
 - Netlify ： https://xnative.netlify.app/?editmode=ON
 
-※適切な年表が設定されないとエラーとなります。すぐに触りたい人は以下のサンプルを開いてみてください。
+※適切な年表が設定されないとエラーとなります。すぐに触りたい人は以下のチュートリアルを開いてみてください。
 
 - サンプル
-　https://xnative.pages.dev/?editmode=ON&snapshot=xnative-snapshot-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB.json
+　https://xnative.pages.dev/?editmode=ON&snapshot=snapshot-tutorial.json
+  - ※ `snapshot` は GitHub の `owner/repo` の `main/data/` から読み込みます（Cloudflare/Netlify の配置先ではありません）。
 
 
 #### 年表の表示と操作
@@ -164,7 +165,7 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
 - メイン年表（GitHub JSON）
   - datasrc=github
   - owner, repo, filePath
-  - 例: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json`
+  - 例: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json`
 
 - メイン年表（Google Sheets / GAS）
   - datasrc=sheet
@@ -186,8 +187,9 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
   - `snapshot` または `snapshotpath` に JSON ファイル名（`data/` 相対）を指定
   - 既定の取得先: メイン年表と同じ `owner/repo`
   - 別リポジトリ指定: `snapshotowner`, `snapshotrepo`
-  - 例（同一リポジトリ）: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json&snapshot=snapshot-tutorial.json`
-  - 例（別リポジトリ）: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`
+  - Cloudflare Pages / Netlify に同名ファイルを置いても参照されません（`main/data/` が参照先）
+  - 例（同一リポジトリ）: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json&snapshot=snapshot-tutorial.json`
+  - 例（別リポジトリ）: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`
   - `snapshotURL` / `snapshotUrl` / `data` は廃止
 
 メイン年表の種別に応じて、不要なパラメーター（GitHub系/Sheets系）はURLから自動的に取り除かれます（設定→「設定を保存」時に付与/整理）。
@@ -321,6 +323,7 @@ https://youtu.be/Ymsez9vMJa4
 - Cloudflare: https://xnative.pages.dev/?editmode=ON
 - Netlify: https://xnative.netlify.app/?editmode=ON
 - Quick try: tutorial https://xnative.pages.dev/?snapshot=snapshot-tutorial.json
+  - Note: `snapshot` is loaded from GitHub `owner/repo` `main/data/` (not from Cloudflare/Netlify deployed files).
 
 #### Viewing & interaction
 - Vertical scroll 0s–2050s (default)
@@ -390,7 +393,7 @@ Distributed system: manage your data in your own repo. See [User Guide](users_gu
 
 ### Data source & URL parameters (for sharing)
 - Main timeline (GitHub JSON): `datasrc=github`, `owner`, `repo`, `filePath`  
-  Example: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json`
+  Example: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json`
 - Main timeline (Google Sheets / GAS): `datasrc=sheet`, `sheetApi`, `sheetId`, `ev`, `gn`, `er`, `md`  
   Example: `?datasrc=sheet&sheetApi=https://script.google.com/macros/s/XXX/exec&sheetId=1AbC...&ev=events&gn=genres&er=eraSettings&md=metadata`
 - Reference timelines (GitHub/Sheets mix): `refTimelines` = URL-encoded JSON array  
@@ -400,8 +403,9 @@ Distributed system: manage your data in your own repo. See [User Guide](users_gu
   - Specify `snapshot` or `snapshotpath` as JSON path relative to `data/`  
   - Default source repo: same as the main timeline `owner/repo`  
   - Different repo: add `snapshotowner` and `snapshotrepo`  
-  - Same-repo example: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json&snapshot=snapshot-tutorial.json`  
-  - Cross-repo example: `?datasrc=github&owner=hortense667&repo=nativetimeline&filePath=timeline_initial.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`  
+  - Files deployed only to Cloudflare Pages / Netlify are not used for `snapshot` lookup (`main/data/` on GitHub is the source)  
+  - Same-repo example: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json&snapshot=snapshot-tutorial.json`  
+  - Cross-repo example: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_initial.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`  
   - `snapshotURL` / `snapshotUrl` / `data` are deprecated  
 Unneeded params for the chosen main data source are stripped automatically when saving settings.
 
