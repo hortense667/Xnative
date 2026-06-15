@@ -30,127 +30,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "火除けと駅前形成期",
-      "startYear": 1869,
-      "endYear": 1945,
-      "color": "#8B4513",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "闇市から電気街誕生",
-      "startYear": 1946,
-      "endYear": 1954,
-      "color": "#228B22",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "家電量販とランドマーク形成",
-      "startYear": 1955,
-      "endYear": 1969,
-      "color": "#1E90FF",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "オーディオ・マイコン黎明",
-      "startYear": 1970,
-      "endYear": 1984,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "コンピュータ＆ゲーム躍進",
-      "startYear": 1985,
-      "endYear": 1999,
-      "color": "#9932CC",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "再開発とオタク主流化",
-      "startYear": 2000,
-      "endYear": 2007,
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "転換と再整備の時代",
-      "startYear": 2008,
-      "endYear": 2014,
-      "color": "#708090",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "インバウンドと多言語化",
-      "startYear": 2015,
-      "endYear": 2019,
-      "color": "#FFD700",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "ポストCOVID・ハイブリッド化",
-      "startYear": 2020,
-      "endYear": "ongoing",
-      "color": "#00CED1",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "EVENT",
-      "label": "事件・出来事",
-      "label_en": "Incidents/Events",
-      "conjunction": false
-    },
-    {
-      "code": "PRODUCT",
-      "label": "商品",
-      "label_en": "Product",
-      "conjunction": false
-    },
-    {
-      "code": "CONTENT",
-      "label": "Content related to Akihabara",
-      "conjunction": false
-    },
-    {
-      "code": "STORE",
-      "label": "店舗",
-      "label_en": "Store",
-      "conjunction": false
-    },
-    {
-      "code": "OTAKU",
-      "label": "おたく系",
-      "label_en": "Otaku-type",
-      "conjunction": true
-    },
-    {
-      "code": "ELECTRONICS",
-      "label": "電気・電子系",
-      "label_en": "Electrical and Electronic Systems",
-      "conjunction": true
-    }
-  ],
   "events": {
     "1869": [
       {
@@ -1597,16 +1476,17 @@
       },
       {
         "label": "牛丼サンボ 開業",
-        "label_en": "Gyudon SAMBO opens",
-        "startYear": 1989,
+        "startYear": "1989",
         "genre": [
           "STORE"
         ],
         "imp": 2,
-        "url": "https://getnews.jp/archives/2536523",
-        "url_en": "https://tabelog.com/en/tokyo/A1310/A131001/13000378/",
+        "url": "https://tabelog.com/en/tokyo/A1310/A131001/13000378/",
         "note": "秋葉原のローカル名物食堂「牛丼サンボ」が開業しB級グルメの象徴に。",
-        "note_en": "Local](https://getnews.jp/archives/2536523"
+        "label_en": "Gyudon SAMBO opens",
+        "url_en": "https://tabelog.com/en/tokyo/A1310/A131001/13000378/",
+        "note_en": "Local](https://getnews.jp/archives/2536523",
+        "_rev": "1781521866113-q6xew59s"
       }
     ],
     "1990": [
@@ -3549,5 +3429,125 @@
         "label_en": "\"The Great Adventure of Akiba Sanshakubou\""
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "火除けと駅前形成期",
+      "startYear": 1869,
+      "endYear": 1945,
+      "color": "#8B4513",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "闇市から電気街誕生",
+      "startYear": 1946,
+      "endYear": 1954,
+      "color": "#228B22",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "家電量販とランドマーク形成",
+      "startYear": 1955,
+      "endYear": 1969,
+      "color": "#1E90FF",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "オーディオ・マイコン黎明",
+      "startYear": 1970,
+      "endYear": 1984,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "コンピュータ＆ゲーム躍進",
+      "startYear": 1985,
+      "endYear": 1999,
+      "color": "#9932CC",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "再開発とオタク主流化",
+      "startYear": 2000,
+      "endYear": 2007,
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "転換と再整備の時代",
+      "startYear": 2008,
+      "endYear": 2014,
+      "color": "#708090",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "インバウンドと多言語化",
+      "startYear": 2015,
+      "endYear": 2019,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ポストCOVID・ハイブリッド化",
+      "startYear": 2020,
+      "endYear": "ongoing",
+      "color": "#00CED1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "EVENT",
+      "label": "事件・出来事",
+      "label_en": "Incidents/Events",
+      "conjunction": false
+    },
+    {
+      "code": "PRODUCT",
+      "label": "商品",
+      "label_en": "Product",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "Content related to Akihabara",
+      "conjunction": false
+    },
+    {
+      "code": "STORE",
+      "label": "店舗",
+      "label_en": "Store",
+      "conjunction": false
+    },
+    {
+      "code": "OTAKU",
+      "label": "おたく系",
+      "label_en": "Otaku-type",
+      "conjunction": true
+    },
+    {
+      "code": "ELECTRONICS",
+      "label": "電気・電子系",
+      "label_en": "Electrical and Electronic Systems",
+      "conjunction": true
+    }
+  ]
 }
