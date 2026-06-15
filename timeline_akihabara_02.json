@@ -3428,6 +3428,17 @@
         "note": "秋葉原の源流探求記とする薄い本です",
         "label_en": "\"The Great Adventure of Akiba Sanshakubou\""
       }
+    ],
+    "2030": [
+      {
+        "label": "AGI誕生",
+        "startYear": "2030",
+        "genre": [
+          "PRODUCT"
+        ],
+        "imp": 5,
+        "_rev": "1781522270218-ff1iyaim"
+      }
     ]
   },
   "eraSettings": [
