@@ -110,91 +110,91 @@
       "code": "CASTLE_SAMURAI",
       "label": "城下町・長岡藩",
       "label_en": "Castle town / Nagaoka Domain",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "BOSHIN_KOME",
       "label": "戊辰戦争・米百俵",
       "label_en": "Boshin War / Kome Hyappyo",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "PERSON",
       "label": "人物",
       "label_en": "People",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "FIREWORKS",
       "label": "長岡花火・まつり",
       "label_en": "Nagaoka fireworks / festivals",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "WAR_RECONSTRUCTION",
       "label": "戦災・復興・平和",
       "label_en": "War damage / reconstruction / peace",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "INDUSTRY",
       "label": "産業・石油・工業",
       "label_en": "Industry / oil / manufacturing",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "FERMENTATION",
       "label": "発酵・醸造・食文化",
       "label_en": "Fermentation / brewing / food culture",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "TRANSPORT",
       "label": "交通・橋・都市動線",
       "label_en": "Transport / bridges / urban flows",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "EDUCATION",
       "label": "教育・学校・人づくり",
       "label_en": "Education / schools / human development",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "CULTURE",
       "label": "文化・資料館・アート",
       "label_en": "Culture / museums / arts",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "DISASTER",
       "label": "災害・防災・復興",
       "label_en": "Disaster / resilience / recovery",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "NATURE_RIVER_SNOW",
       "label": "信濃川・雪国・自然",
       "label_en": "Shinano River / snow country / nature",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "FOOD_LOCAL",
       "label": "名物・郷土食",
       "label_en": "Local foods",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "CRAFT_FOLK",
       "label": "工芸・民俗・地域文化",
       "label_en": "Crafts / folk culture",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "SPORTS",
       "label": "スポーツ",
       "label_en": "Sports",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "ADMIN",
