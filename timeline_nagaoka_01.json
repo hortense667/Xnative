@@ -104,7 +104,7 @@
       "code": "EVENT",
       "label": "事件・出来事",
       "label_en": "Events",
-      "conjunction": false
+      "conjunction": true
     },
     {
       "code": "CASTLE_SAMURAI",
@@ -200,7 +200,7 @@
       "code": "ADMIN",
       "label": "行政・市制",
       "label_en": "Municipal administration",
-      "conjunction": false
+      "conjunction": true
     }
   ],
   "events": {
