@@ -27,15 +27,6 @@
   "schemaVersion": 1,
   "eraSettings": [
     {
-      "name": "縄文・古代の信濃川文化",
-      "startYear": -3000,
-      "endYear": 1597,
-      "color": "#8B5A2B",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
       "name": "長岡城下町と牧野家の時代",
       "startYear": 1598,
       "endYear": 1867,
@@ -204,35 +195,6 @@
     }
   ],
   "events": {
-    "-3000": [
-      {
-        "label": "馬高遺跡に代表される縄文文化が栄える",
-        "startYear": -3000,
-        "genre": [
-          "CULTURE",
-          "NATURE_RIVER_SNOW"
-        ],
-        "imp": 5,
-        "url": "https://www.museum.city.nagaoka.niigata.jp/umataka/",
-        "note": "信濃川流域の縄文文化を示す代表的遺跡。火焔型土器の出土で知られる。",
-        "label_en": "Jomon culture flourishes around the Umataka site",
-        "url_en": "https://www.museum.city.nagaoka.niigata.jp/umataka/"
-      }
-    ],
-    "-2500": [
-      {
-        "label": "火焔型土器の文化圏が形成",
-        "startYear": -2500,
-        "genre": [
-          "CULTURE"
-        ],
-        "imp": 5,
-        "url": "https://www.museum.city.nagaoka.niigata.jp/umataka/materials/materials-1174/",
-        "note": "長岡を象徴する考古資料。1936年の発掘以後、長岡の文化アイコンになる。",
-        "label_en": "Flame-style pottery culture emerges",
-        "url_en": "https://www.museum.city.nagaoka.niigata.jp/umataka/materials/materials-1174/"
-      }
-    ],
     "702": [
       {
         "label": "古志郡が文献に見える時代へ",
