@@ -4451,18 +4451,6 @@
         "note": "大規模フェスだけでなく、店単位・路地単位の企画が街の魅力になっている。",
         "label_en": "Small events linking antiquarian bookshops, publishers, galleries, and restaurants increase",
         "note_en": "Not only large festivals but also shop-level and alley-level events have become part of the town’s appeal."
-      },
-      {
-        "label": "『古本屋の誕生』の単行本化作業が始まる",
-        "startYear": 2024,
-        "genre": [
-          "SECONDHAND_BOOK",
-          "PUBLISHING_JP"
-        ],
-        "imp": 3,
-        "note": "2024年7月、草思社の編集者から鹿島茂へ単行本原稿の相談があり、『東京古書組合百年史』関連原稿をもとに書籍化作業が進んだ。",
-        "label_en": "Work begins toward the book Furuhonya no Tanjō",
-        "note_en": "The manuscript grew from the centennial-history materials."
       }
     ],
     "2025": [
