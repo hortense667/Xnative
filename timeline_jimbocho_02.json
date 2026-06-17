@@ -2897,19 +2897,6 @@
     ],
     "1968": [
       {
-        "label": "『週刊少年ジャンプ』創刊",
-        "startYear": 1968,
-        "genre": [
-          "MAGAZINE_MANGA",
-          "PUBLISHER"
-        ],
-        "imp": 5,
-        "url": "https://www.shueisha.co.jp/history/",
-        "note": "集英社の少年マンガ雑誌として創刊。以後、マンガ出版の中心的存在となる。",
-        "label_en": "Weekly Shonen Jump is launched",
-        "note_en": "Shueisha’s boys’ manga magazine becomes a major force."
-      },
-      {
         "label": "都電の神保町周辺系統が相次ぎ縮小、地上交通から地下鉄・バス中心へ移行する",
         "startYear": 1968,
         "genre": [
@@ -2943,6 +2930,20 @@
         "note": "1968年5月、日本橋白木屋で明治古典会による「明治百年大古書展」が開催され、空前の売上を記録したとされる。",
         "label_en": "The Meiji Centennial Great Antiquarian Book Fair is held at Shirokiya",
         "note_en": "A highly successful Meiji Koten-kai event."
+      },
+      {
+        "label": "『週刊少年ジャンプ』創刊",
+        "startYear": "1968",
+        "genre": [
+          "PUBLISHER",
+          "MAGAZINE_MANGA"
+        ],
+        "imp": 5,
+        "url": "https://www.shueisha.co.jp/history/",
+        "note": "集英社の少年マンガ雑誌として創刊。以後、マンガ出版の中心的存在となる。",
+        "label_en": "Weekly Shonen Jump is launched",
+        "note_en": "Shueisha’s boys’ manga magazine becomes a major force.",
+        "_rev": "1781694256792-3zgf04yw"
       }
     ],
     "1969": [
