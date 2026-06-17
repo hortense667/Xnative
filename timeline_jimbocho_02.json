@@ -1953,6 +1953,19 @@
         "note": "小学館の学習雑誌に対し、娯楽性の強い児童雑誌展開が準備される。",
         "label_en": "Magazines under the Shueisha name begin",
         "note_en": "A preparation stage for entertainment-oriented children’s publishing."
+      },
+      {
+        "label": "すずらん通り",
+        "startYear": "1925",
+        "genre": [
+          "SIDE_STREET",
+          "URBAN"
+        ],
+        "imp": 3,
+        "url": "https://smtrc.jp/town-archives/city/kanda/p07.html",
+        "note": "1925（大正14）年頃、東京で初めて、すずらん型の街路灯が設置されており、この頃から「すずらん通り」と呼ばれるようになったと思われる。",
+        "label_en": "Suzuran Street",
+        "_rev": "1781714270713-g2hlt54v"
       }
     ],
     "1926": [
