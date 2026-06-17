@@ -3871,6 +3871,17 @@
         "note": "神保町周辺の文化施設回遊の背景項目。",
         "label_en": "The Transportation Museum closes at Manseibashi, changing reasons to circulate across Akihabara, Kanda, and Ochanomizu",
         "note_en": "Included as background to cultural-facility circulation around Jimbocho."
+      },
+      {
+        "label": "パンチマハル開店",
+        "startYear": "2006",
+        "genre": [
+          "CURRY_CAFE"
+        ],
+        "imp": 4,
+        "url": "https://ameblo.jp/panchmahal/",
+        "label_en": "Punch Mahal opens",
+        "_rev": "1781702612011-5yrsnv6j"
       }
     ],
     "2007": [
