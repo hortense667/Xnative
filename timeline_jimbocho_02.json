@@ -31,225 +31,51 @@
     "notes": "0.2: 専門古書店、喫茶・カレー、都電・地下鉄、新しい共同書店や裏通りの動き、出版市場の変化を増補。年次が推定・時代幅の項目はnoteにその旨を記載。鹿島茂さんの『神田神保町書肆街考』、『古本屋の誕生:東京古書店史』からも多数のトピックを拾わせていただいています。  This edition has been expanded to include specialty used bookstores, cafes and curry shops, the Toden streetcar and subway, new collaborative bookstores and backstreet movements, and changes in the publishing market. For entries with estimated dates or spanning a historical period, a note is included to that effect. Many topics have also been drawn from Shigeru Kashima's 'Kanda Jinbōchō Shoshi Gai kō' (A Study of Kanda Jinbōchō Bookstore Street) and 'Furuhonya no Tanjō: Tōkyō Kosho-ten Shi' (The Birth of the Used Bookstore: A History of Tokyo's Antiquarian Bookshops).",
     "updatedAt": "2026-06-17"
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "武家地から学問・学校街へ",
-      "startYear": 1600,
-      "endYear": 1876,
-      "color": "#6B4E16",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "近代学校と法律書・洋書需要",
-      "startYear": 1877,
-      "endYear": 1912,
-      "color": "#2E8B57",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "大火と老舗出版社形成",
-      "startYear": 1913,
-      "endYear": 1922,
-      "color": "#B22222",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "関東大震災復興と総合出版",
-      "startYear": 1923,
-      "endYear": 1945,
-      "color": "#8B5A2B",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "戦後復興と古書会館",
-      "startYear": 1946,
-      "endYear": 1959,
-      "color": "#4682B4",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "古本まつりと大衆出版高度成長",
-      "startYear": 1960,
-      "endYear": 1979,
-      "color": "#DAA520",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "サブカル・専門店・大型書店",
-      "startYear": 1980,
-      "endYear": 1999,
-      "color": "#8A2BE2",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "再開発・映画・ネット古書",
-      "startYear": 2000,
-      "endYear": 2019,
-      "color": "#008B8B",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "コロナ後・紙電子ハイブリッド",
-      "startYear": 2020,
-      "endYear": "ongoing",
-      "color": "#DC143C",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "EVENT",
-      "label": "事件・出来事",
-      "label_en": "Incidents/Events",
-      "conjunction": false
-    },
-    {
-      "code": "BOOKSTORE",
-      "label": "書店・古書店",
-      "label_en": "Bookstores/Antiquarian Bookshops",
-      "conjunction": false
-    },
-    {
-      "code": "PUBLISHER",
-      "label": "出版社・編集",
-      "label_en": "Publishers/Editing",
-      "conjunction": false
-    },
-    {
-      "code": "EDUCATION",
-      "label": "大学・教育",
-      "label_en": "Universities/Education",
-      "conjunction": true
-    },
-    {
-      "code": "PRINTING",
-      "label": "印刷・製本・取次",
-      "label_en": "Printing/Binding/Distribution",
-      "conjunction": true
-    },
-    {
-      "code": "MAGAZINE_MANGA",
-      "label": "雑誌・マンガ",
-      "label_en": "Magazines/Manga",
-      "conjunction": true
-    },
-    {
-      "code": "CULTURE",
-      "label": "喫茶・映画・街文化",
-      "label_en": "Cafe/Cinema/Street Culture",
-      "conjunction": false
-    },
-    {
-      "code": "PUBLISHING_JP",
-      "label": "日本の出版事情",
-      "label_en": "Japanese Publishing Context",
-      "conjunction": true
-    },
-    {
-      "code": "DIGITAL",
-      "label": "デジタル・電子出版",
-      "label_en": "Digital/E-publishing",
-      "conjunction": true
-    },
-    {
-      "code": "TRANSPORT",
-      "label": "交通・駅・都市動線",
-      "label_en": "Transport/Stations/Urban Flow",
-      "conjunction": true
-    },
-    {
-      "code": "CURRY_CAFE",
-      "label": "カレー・喫茶・飲食",
-      "label_en": "Curry/Cafes/Food Culture",
-      "conjunction": false
-    },
-    {
-      "code": "SIDE_STREET",
-      "label": "裏通り・小店・まち歩き",
-      "label_en": "Backstreets/Small Shops/Walkability",
-      "conjunction": true
-    },
-    {
-      "code": "MUSIC_ART",
-      "label": "音楽・美術・趣味文化",
-      "label_en": "Music/Art/Hobby Culture",
-      "conjunction": true
-    },
-    {
-      "code": "TOURISM",
-      "label": "観光・国際評価",
-      "label_en": "Tourism/Global Recognition",
-      "conjunction": true
-    },
-    {
-      "code": "SPORTS_OUTDOOR",
-      "label": "スポーツ・登山・アウトドア",
-      "label_en": "Sports/Outdoor",
-      "conjunction": true
-    },
-    {
-      "code": "URBAN",
-      "label": "地形・町名・街区形成",
-      "label_en": "Urban formation",
-      "conjunction": false
-    },
-    {
-      "code": "SECONDHAND_BOOK",
-      "label": "古書業・セリ・蔵書移動",
-      "label_en": "Secondhand books",
-      "conjunction": false
-    },
-    {
-      "code": "LANGUAGE",
-      "label": "洋学・外国語・翻訳",
-      "label_en": "Language/translation",
-      "conjunction": false
-    },
-    {
-      "code": "CINEMA",
-      "label": "映画館・活動写真",
-      "label_en": "Cinema",
-      "conjunction": false
-    },
-    {
-      "code": "STUDENT_TOWN",
-      "label": "学生街・予備校・下宿",
-      "label_en": "Student town",
-      "conjunction": false
-    },
-    {
-      "code": "LITERARY_CULTURE",
-      "label": "文学・詩・小出版社",
-      "label_en": "Literary culture",
-      "conjunction": false
-    },
-    {
-      "code": "CHINESE_CULTURE",
-      "label": "留学生・中華街的神保町",
-      "label_en": "Chinese culture/students",
-      "conjunction": false
-    }
-  ],
   "events": {
+    "702": [
+      {
+        "label": "反町茂雄の分類で「古典籍」の起点が大宝2年とされる",
+        "startYear": 702,
+        "genre": [
+          "SECONDHAND_BOOK",
+          "PUBLISHING_JP"
+        ],
+        "imp": 2,
+        "note": "kosho2では反町茂雄の三分類として、702年から明治10年頃までに製作された和紙・和装の書物を「古典籍」と整理する見方を紹介している。",
+        "label_en": "Sorimachi's classification starts kotenseki at 702",
+        "note_en": "A bibliographical frame for antiquarian books."
+      }
+    ],
+    "770": [
+      {
+        "label": "『百万塔陀羅尼』が現存する木版印刷物として挙げられる",
+        "startYear": 770,
+        "genre": [
+          "PRINTING",
+          "PUBLISHING_JP"
+        ],
+        "imp": 3,
+        "note": "法隆寺に残る770年の『百万塔陀羅尼』が、日本に現存する木版印刷物の例として紹介される。",
+        "label_en": "Hyakumantō Darani is cited as an extant woodblock print",
+        "note_en": "An early example in Japanese printing history."
+      }
+    ],
+    "960": [
+      {
+        "label": "宋版が日本の古本屋の主力商品となる前史が始まる",
+        "startYear": 960,
+        "genre": [
+          "PUBLISHING_JP",
+          "SECONDHAND_BOOK",
+          "CHINESE_CULTURE"
+        ],
+        "imp": 3,
+        "note": "宋代（北宋960〜1127、南宋1127〜1279）に木版印刷が本格産業化し、宋版が日宋貿易を通じて日本へ入り、後世の古本屋の商品基盤となった。",
+        "endYear": 1127,
+        "label_en": "Song editions become a historical base of Japanese antiquarian trade",
+        "note_en": "Woodblock printing flourished in Song China and books entered Japan through trade."
+      }
+    ],
     "1018": [
       {
         "label": "「白楽天詩巻」の由来書に書物移動の痕跡が残る",
@@ -276,6 +102,36 @@
         "note": "保延6年10月22日の「屏風土代」等の売買記録が、古本売買史料として見える最古級の例として紹介される。",
         "label_en": "A 1140 record of selling copybooks is cited as an early secondhand-book transaction",
         "note_en": "Used as a prehistory of Japanese antiquarian book dealing."
+      }
+    ],
+    "1201": [
+      {
+        "label": "高野版の出版事業が始まる",
+        "startYear": 1201,
+        "genre": [
+          "PRINTING",
+          "PUBLISHING_JP"
+        ],
+        "imp": 2,
+        "note": "建仁元年、金剛峰寺が京都の経師・大和屋善七を招いて真言宗の木版印刷本を開版したとされる。",
+        "label_en": "Kōya editions begin",
+        "note_en": "Woodblock Buddhist printing at Kongōbu-ji."
+      }
+    ],
+    "1336": [
+      {
+        "label": "五山版など中世寺院版の出版文化が広がる",
+        "startYear": 1336,
+        "genre": [
+          "PRINTING",
+          "PUBLISHING_JP",
+          "CHINESE_CULTURE"
+        ],
+        "imp": 2,
+        "note": "鎌倉五山・京都五山を中心に、輸入宋版・元版を参考にした禅宗系の木版印刷本が開版された。南北朝期以降の古典籍供給の前史。",
+        "endYear": 1568,
+        "label_en": "Gozan editions spread in medieval temple publishing",
+        "note_en": "Zen temple woodblock editions became important classical books."
       }
     ],
     "1500": [
@@ -320,6 +176,22 @@
         "note": "kosho2では、1593年天草刊のキリシタン版『エソポのハブラス』を、日本語印刷・翻訳出版史の一例として挙げている。",
         "label_en": "Amakusa edition of Aesop is printed",
         "note_en": "A Kirishitan edition important to Japanese printing and translation history."
+      }
+    ],
+    "1596": [
+      {
+        "label": "慶長・元和年間に刊記のある民間書林が現れる",
+        "startYear": 1596,
+        "genre": [
+          "PUBLISHING_JP",
+          "BOOKSTORE",
+          "PRINTING"
+        ],
+        "imp": 3,
+        "note": "1596〜1624年頃、京都に出版も手がける本屋が現れ、刊記に発行者名・住所を記す例が増える。後の奥付につながる動き。",
+        "endYear": 1624,
+        "label_en": "Private publisher-booksellers with colophons appear in Kyoto",
+        "note_en": "Colophons with publisher information prefigure the modern colophon."
       }
     ],
     "1599": [
@@ -380,6 +252,50 @@
         "note_en": "An early official movable-type publication under Ieyasu."
       }
     ],
+    "1624": [
+      {
+        "label": "寛永年間以後、古活字本から整版木版印刷へ重心が移る",
+        "startYear": 1624,
+        "genre": [
+          "PRINTING",
+          "PUBLISHING_JP"
+        ],
+        "imp": 3,
+        "note": "1624〜44年以後、木製活字本は発展せず、一枚板に彫る整版木版印刷が主流となったと説明される。",
+        "label_en": "Woodblock printing replaces early movable-type books after the Kan'ei era",
+        "note_en": "A shift from movable type to block printing."
+      }
+    ],
+    "1661": [
+      {
+        "label": "赤本など草双紙文化が江戸出版の娯楽領域を開く",
+        "startYear": 1661,
+        "genre": [
+          "PUBLISHING_JP",
+          "MAGAZINE_MANGA",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "寛文年間（1661〜73）に赤本が出て、絵入り娯楽本としての草双紙文化が広がる前史となった。",
+        "endYear": 1673,
+        "label_en": "Akahon and kusazōshi popular publishing begin",
+        "note_en": "Illustrated popular books form a base of Edo publishing."
+      }
+    ],
+    "1682": [
+      {
+        "label": "井原西鶴『好色一代男』刊行、浮世草子の代表作となる",
+        "startYear": 1682,
+        "genre": [
+          "PUBLISHING_JP",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1682年刊の『好色一代男』が、江戸出版・娯楽読物の展開を示す例として挙げられている。",
+        "label_en": "Ihara Saikaku's Kōshoku Ichidai Otoko is published",
+        "note_en": "A representative ukiyo-zōshi work."
+      }
+    ],
     "1689": [
       {
         "label": "旗本・神保長治の屋敷に由来する「神保小路」が成立",
@@ -406,6 +322,64 @@
         "note": "大坂では17世紀後半から出版が行われ、遅くとも1698年には大坂本屋仲間（浪速書林仲間）が結成されたとされる。",
         "label_en": "Osaka booksellers' guild is formed",
         "note_en": "The Naniwa shorin guild shows the organization of early modern book trade."
+      }
+    ],
+    "1775": [
+      {
+        "label": "黄表紙『金々先生栄花夢』刊行",
+        "startYear": 1775,
+        "genre": [
+          "PUBLISHING_JP",
+          "MAGAZINE_MANGA",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1775年刊の恋川春町『金々先生栄花夢』が、草双紙・黄表紙文化の代表例として紹介される。",
+        "label_en": "Kinkin Sensei Eiga no Yume is published",
+        "note_en": "A representative kibyōshi title."
+      }
+    ],
+    "1776": [
+      {
+        "label": "上田秋成『雨月物語』刊行",
+        "startYear": 1776,
+        "genre": [
+          "PUBLISHING_JP",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1776年刊の『雨月物語』が、読本ジャンルを説明する代表作として挙げられている。",
+        "label_en": "Ugetsu Monogatari is published",
+        "note_en": "A representative yomihon work."
+      }
+    ],
+    "1787": [
+      {
+        "label": "山東京伝『通言総籬』刊行",
+        "startYear": 1787,
+        "genre": [
+          "PUBLISHING_JP",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1787年刊の洒落本『通言総籬』が、寛政改革期の出版統制・洒落本衰退の文脈で紹介される。",
+        "label_en": "Santō Kyōden's Tsūgen Sōmagaki is published",
+        "note_en": "A sharebon work tied to later Kansei-era censorship."
+      }
+    ],
+    "1791": [
+      {
+        "label": "寛政改革で山東京伝・蔦屋重三郎が処罰される",
+        "startYear": 1791,
+        "genre": [
+          "PUBLISHING_JP",
+          "EVENT",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 3,
+        "note": "寛政3年、京伝と版元の蔦屋重三郎が摘発され、京伝は手鎖、蔦屋は財産半減の処罰を受け、洒落本衰退の一因となった。",
+        "label_en": "Santō Kyōden and Tsutaya Jūzaburō are punished under Kansei reforms",
+        "note_en": "Censorship damaged sharebon publishing."
       }
     ],
     "1797": [
@@ -436,6 +410,51 @@
         "note": "江戸の出版・書物流通の蓄積は、明治以降の書店街形成の遠景となる。",
         "label_en": "Edo-period book trade spreads through the city",
         "note_en": "Background to the later concentration of book businesses."
+      }
+    ],
+    "1802": [
+      {
+        "label": "葛飾北斎『画本東都遊』に蔦屋重三郎の店頭が描かれる",
+        "startYear": 1802,
+        "genre": [
+          "PUBLISHING_JP",
+          "BOOKSTORE",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1802年刊『画本東都遊』の図版が、江戸の書店店頭・地本問屋文化を示す資料として使われている。",
+        "label_en": "Hokusai's Ehon Azuma Asobi depicts Tsutaya Jūzaburō's shopfront",
+        "note_en": "A visual record of Edo book retailing."
+      }
+    ],
+    "1804": [
+      {
+        "label": "十返舎一九『東海道中膝栗毛』が滑稽本の代表作となる",
+        "startYear": 1804,
+        "genre": [
+          "PUBLISHING_JP",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1804〜09年刊の『東海道中膝栗毛』が、滑稽本と江戸後期の会話体出版文化を説明する代表作として挙げられる。",
+        "endYear": 1809,
+        "label_en": "Tōkaidōchū Hizakurige becomes a representative kokkeibon work",
+        "note_en": "A key work in late-Edo popular publishing."
+      }
+    ],
+    "1832": [
+      {
+        "label": "為永春水『春色梅児誉美』が人情本の代表作となる",
+        "startYear": 1832,
+        "genre": [
+          "PUBLISHING_JP",
+          "LITERARY_CULTURE"
+        ],
+        "imp": 2,
+        "note": "1832〜33年刊の『春色梅児誉美』が、人情本ジャンルと江戸後期の恋愛風俗小説を説明する代表作として挙げられる。",
+        "endYear": 1833,
+        "label_en": "Shunshoku Umegoyomi becomes a representative ninjōbon work",
+        "note_en": "A late-Edo romantic popular-fiction title."
       }
     ],
     "1856": [
@@ -583,6 +602,21 @@
         "note": "旧武家地の再利用が、学校と本の需要を生む条件になった。／補足候補：幕末維新後、旗本・御家人の屋敷地が空き、新政府官吏や学校用地に転用されていく。",
         "label_en": "Post-Restoration redevelopment of former samurai districts",
         "note_en": "Schools and commerce moved into the former samurai district. / Addition candidate: After the Meiji Restoration, former samurai lands are repurposed for officials and schools."
+      }
+    ],
+    "1869": [
+      {
+        "label": "福沢諭吉が慶応義塾出版局を成立させる",
+        "startYear": 1869,
+        "genre": [
+          "PUBLISHER",
+          "PUBLISHING_JP",
+          "EDUCATION"
+        ],
+        "imp": 3,
+        "note": "明治2年、福沢諭吉は出版・販売を自ら手がけるため問屋組合に加入し、慶応義塾出版局を成立させた。著訳者が版元機能を持つ転換例として扱われる。",
+        "label_en": "Fukuzawa Yukichi establishes Keiō Gijuku's publishing office",
+        "note_en": "An example of an author-scholar taking control of publishing and sales."
       }
     ],
     "1870": [
@@ -1390,6 +1424,20 @@
         ],
         "imp": 3,
         "note": "神保町の「外に本があふれる」景観の前史。"
+      }
+    ],
+    "1909": [
+      {
+        "label": "横浜浜港館で古書即売展の先駆的催しが開かれる",
+        "startYear": 1909,
+        "genre": [
+          "SECONDHAND_BOOK",
+          "CULTURE"
+        ],
+        "imp": 2,
+        "note": "1909年11月、横浜の浜港館で古書即売展が開かれ好評を博し、のちの丸ビル展覧会など会場型古書展の前史となった。",
+        "label_en": "An early antiquarian book sale exhibition is held at Yokohama Hankōkan",
+        "note_en": "A precursor to later venue-based book fairs."
       }
     ],
     "1910": [
@@ -3230,6 +3278,17 @@
     ],
     "1981": [
       {
+        "label": "まんてん創業、学生街らしい大盛りカレー文化が定着する",
+        "startYear": 1981,
+        "genre": [
+          "CURRY_CAFE",
+          "SIDE_STREET"
+        ],
+        "imp": 4,
+        "url": "https://note.com/moeatsu/n/n9d97c21b520b",
+        "note": "1981年創業。安く量のあるカレー店として学生街・裏通りの記憶に残る。"
+      },
+      {
         "label": "三省堂書店神田本店ビルが開店",
         "startYear": 1981,
         "genre": [
@@ -3241,17 +3300,6 @@
         "note": "大型総合書店として、古書店街に新刊の巨大拠点を置く存在になった。",
         "label_en": "Sanseido Kanda main store building opens",
         "note_en": "A large new-book hub in the antiquarian book district."
-      },
-      {
-        "label": "まんてん創業、学生街らしい大盛りカレー文化が定着する",
-        "startYear": 1981,
-        "genre": [
-          "CURRY_CAFE",
-          "SIDE_STREET"
-        ],
-        "imp": 4,
-        "url": "https://note.com/moeatsu/n/n9d97c21b520b",
-        "note": "1981年創業。安く量のあるカレー店として学生街・裏通りの記憶に残る。"
       },
       {
         "label": "三省堂書店、創業100周年を迎える",
@@ -4381,272 +4429,223 @@
         "url": "https://www.pendulummag.com/travel/2026/2/1/jimbocho-tokyos-literary-underworld-crowned-the-coolest-neighbourhood-in-the-world",
         "note": "Time Out以後、海外旅行メディアでも神保町の古書店、喫茶、カレー、ギター街が紹介されるようになった。"
       }
-    ],
-    "702": [
-      {
-        "label": "反町茂雄の分類で「古典籍」の起点が大宝2年とされる",
-        "startYear": 702,
-        "genre": [
-          "SECONDHAND_BOOK",
-          "PUBLISHING_JP"
-        ],
-        "imp": 2,
-        "note": "kosho2では反町茂雄の三分類として、702年から明治10年頃までに製作された和紙・和装の書物を「古典籍」と整理する見方を紹介している。",
-        "label_en": "Sorimachi's classification starts kotenseki at 702",
-        "note_en": "A bibliographical frame for antiquarian books."
-      }
-    ],
-    "770": [
-      {
-        "label": "『百万塔陀羅尼』が現存する木版印刷物として挙げられる",
-        "startYear": 770,
-        "genre": [
-          "PRINTING",
-          "PUBLISHING_JP"
-        ],
-        "imp": 3,
-        "note": "法隆寺に残る770年の『百万塔陀羅尼』が、日本に現存する木版印刷物の例として紹介される。",
-        "label_en": "Hyakumantō Darani is cited as an extant woodblock print",
-        "note_en": "An early example in Japanese printing history."
-      }
-    ],
-    "960": [
-      {
-        "label": "宋版が日本の古本屋の主力商品となる前史が始まる",
-        "startYear": 960,
-        "genre": [
-          "PUBLISHING_JP",
-          "SECONDHAND_BOOK",
-          "CHINESE_CULTURE"
-        ],
-        "imp": 3,
-        "note": "宋代（北宋960〜1127、南宋1127〜1279）に木版印刷が本格産業化し、宋版が日宋貿易を通じて日本へ入り、後世の古本屋の商品基盤となった。",
-        "endYear": 1127,
-        "label_en": "Song editions become a historical base of Japanese antiquarian trade",
-        "note_en": "Woodblock printing flourished in Song China and books entered Japan through trade."
-      }
-    ],
-    "1201": [
-      {
-        "label": "高野版の出版事業が始まる",
-        "startYear": 1201,
-        "genre": [
-          "PRINTING",
-          "PUBLISHING_JP"
-        ],
-        "imp": 2,
-        "note": "建仁元年、金剛峰寺が京都の経師・大和屋善七を招いて真言宗の木版印刷本を開版したとされる。",
-        "label_en": "Kōya editions begin",
-        "note_en": "Woodblock Buddhist printing at Kongōbu-ji."
-      }
-    ],
-    "1336": [
-      {
-        "label": "五山版など中世寺院版の出版文化が広がる",
-        "startYear": 1336,
-        "genre": [
-          "PRINTING",
-          "PUBLISHING_JP",
-          "CHINESE_CULTURE"
-        ],
-        "imp": 2,
-        "note": "鎌倉五山・京都五山を中心に、輸入宋版・元版を参考にした禅宗系の木版印刷本が開版された。南北朝期以降の古典籍供給の前史。",
-        "endYear": 1568,
-        "label_en": "Gozan editions spread in medieval temple publishing",
-        "note_en": "Zen temple woodblock editions became important classical books."
-      }
-    ],
-    "1596": [
-      {
-        "label": "慶長・元和年間に刊記のある民間書林が現れる",
-        "startYear": 1596,
-        "genre": [
-          "PUBLISHING_JP",
-          "BOOKSTORE",
-          "PRINTING"
-        ],
-        "imp": 3,
-        "note": "1596〜1624年頃、京都に出版も手がける本屋が現れ、刊記に発行者名・住所を記す例が増える。後の奥付につながる動き。",
-        "endYear": 1624,
-        "label_en": "Private publisher-booksellers with colophons appear in Kyoto",
-        "note_en": "Colophons with publisher information prefigure the modern colophon."
-      }
-    ],
-    "1624": [
-      {
-        "label": "寛永年間以後、古活字本から整版木版印刷へ重心が移る",
-        "startYear": 1624,
-        "genre": [
-          "PRINTING",
-          "PUBLISHING_JP"
-        ],
-        "imp": 3,
-        "note": "1624〜44年以後、木製活字本は発展せず、一枚板に彫る整版木版印刷が主流となったと説明される。",
-        "label_en": "Woodblock printing replaces early movable-type books after the Kan'ei era",
-        "note_en": "A shift from movable type to block printing."
-      }
-    ],
-    "1661": [
-      {
-        "label": "赤本など草双紙文化が江戸出版の娯楽領域を開く",
-        "startYear": 1661,
-        "genre": [
-          "PUBLISHING_JP",
-          "MAGAZINE_MANGA",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "寛文年間（1661〜73）に赤本が出て、絵入り娯楽本としての草双紙文化が広がる前史となった。",
-        "endYear": 1673,
-        "label_en": "Akahon and kusazōshi popular publishing begin",
-        "note_en": "Illustrated popular books form a base of Edo publishing."
-      }
-    ],
-    "1682": [
-      {
-        "label": "井原西鶴『好色一代男』刊行、浮世草子の代表作となる",
-        "startYear": 1682,
-        "genre": [
-          "PUBLISHING_JP",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1682年刊の『好色一代男』が、江戸出版・娯楽読物の展開を示す例として挙げられている。",
-        "label_en": "Ihara Saikaku's Kōshoku Ichidai Otoko is published",
-        "note_en": "A representative ukiyo-zōshi work."
-      }
-    ],
-    "1775": [
-      {
-        "label": "黄表紙『金々先生栄花夢』刊行",
-        "startYear": 1775,
-        "genre": [
-          "PUBLISHING_JP",
-          "MAGAZINE_MANGA",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1775年刊の恋川春町『金々先生栄花夢』が、草双紙・黄表紙文化の代表例として紹介される。",
-        "label_en": "Kinkin Sensei Eiga no Yume is published",
-        "note_en": "A representative kibyōshi title."
-      }
-    ],
-    "1776": [
-      {
-        "label": "上田秋成『雨月物語』刊行",
-        "startYear": 1776,
-        "genre": [
-          "PUBLISHING_JP",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1776年刊の『雨月物語』が、読本ジャンルを説明する代表作として挙げられている。",
-        "label_en": "Ugetsu Monogatari is published",
-        "note_en": "A representative yomihon work."
-      }
-    ],
-    "1787": [
-      {
-        "label": "山東京伝『通言総籬』刊行",
-        "startYear": 1787,
-        "genre": [
-          "PUBLISHING_JP",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1787年刊の洒落本『通言総籬』が、寛政改革期の出版統制・洒落本衰退の文脈で紹介される。",
-        "label_en": "Santō Kyōden's Tsūgen Sōmagaki is published",
-        "note_en": "A sharebon work tied to later Kansei-era censorship."
-      }
-    ],
-    "1791": [
-      {
-        "label": "寛政改革で山東京伝・蔦屋重三郎が処罰される",
-        "startYear": 1791,
-        "genre": [
-          "PUBLISHING_JP",
-          "EVENT",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 3,
-        "note": "寛政3年、京伝と版元の蔦屋重三郎が摘発され、京伝は手鎖、蔦屋は財産半減の処罰を受け、洒落本衰退の一因となった。",
-        "label_en": "Santō Kyōden and Tsutaya Jūzaburō are punished under Kansei reforms",
-        "note_en": "Censorship damaged sharebon publishing."
-      }
-    ],
-    "1802": [
-      {
-        "label": "葛飾北斎『画本東都遊』に蔦屋重三郎の店頭が描かれる",
-        "startYear": 1802,
-        "genre": [
-          "PUBLISHING_JP",
-          "BOOKSTORE",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1802年刊『画本東都遊』の図版が、江戸の書店店頭・地本問屋文化を示す資料として使われている。",
-        "label_en": "Hokusai's Ehon Azuma Asobi depicts Tsutaya Jūzaburō's shopfront",
-        "note_en": "A visual record of Edo book retailing."
-      }
-    ],
-    "1804": [
-      {
-        "label": "十返舎一九『東海道中膝栗毛』が滑稽本の代表作となる",
-        "startYear": 1804,
-        "genre": [
-          "PUBLISHING_JP",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1804〜09年刊の『東海道中膝栗毛』が、滑稽本と江戸後期の会話体出版文化を説明する代表作として挙げられる。",
-        "endYear": 1809,
-        "label_en": "Tōkaidōchū Hizakurige becomes a representative kokkeibon work",
-        "note_en": "A key work in late-Edo popular publishing."
-      }
-    ],
-    "1832": [
-      {
-        "label": "為永春水『春色梅児誉美』が人情本の代表作となる",
-        "startYear": 1832,
-        "genre": [
-          "PUBLISHING_JP",
-          "LITERARY_CULTURE"
-        ],
-        "imp": 2,
-        "note": "1832〜33年刊の『春色梅児誉美』が、人情本ジャンルと江戸後期の恋愛風俗小説を説明する代表作として挙げられる。",
-        "endYear": 1833,
-        "label_en": "Shunshoku Umegoyomi becomes a representative ninjōbon work",
-        "note_en": "A late-Edo romantic popular-fiction title."
-      }
-    ],
-    "1869": [
-      {
-        "label": "福沢諭吉が慶応義塾出版局を成立させる",
-        "startYear": 1869,
-        "genre": [
-          "PUBLISHER",
-          "PUBLISHING_JP",
-          "EDUCATION"
-        ],
-        "imp": 3,
-        "note": "明治2年、福沢諭吉は出版・販売を自ら手がけるため問屋組合に加入し、慶応義塾出版局を成立させた。著訳者が版元機能を持つ転換例として扱われる。",
-        "label_en": "Fukuzawa Yukichi establishes Keiō Gijuku's publishing office",
-        "note_en": "An example of an author-scholar taking control of publishing and sales."
-      }
-    ],
-    "1909": [
-      {
-        "label": "横浜浜港館で古書即売展の先駆的催しが開かれる",
-        "startYear": 1909,
-        "genre": [
-          "SECONDHAND_BOOK",
-          "CULTURE"
-        ],
-        "imp": 2,
-        "note": "1909年11月、横浜の浜港館で古書即売展が開かれ好評を博し、のちの丸ビル展覧会など会場型古書展の前史となった。",
-        "label_en": "An early antiquarian book sale exhibition is held at Yokohama Hankōkan",
-        "note_en": "A precursor to later venue-based book fairs."
-      }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "武家地から学問・学校街へ",
+      "startYear": 1600,
+      "endYear": 1876,
+      "color": "#6B4E16",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "近代学校と法律書・洋書需要",
+      "startYear": 1877,
+      "endYear": 1912,
+      "color": "#2E8B57",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "大火と老舗出版社形成",
+      "startYear": 1913,
+      "endYear": 1922,
+      "color": "#B22222",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "関東大震災復興と総合出版",
+      "startYear": 1923,
+      "endYear": 1945,
+      "color": "#8B5A2B",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "戦後復興と古書会館",
+      "startYear": 1946,
+      "endYear": 1959,
+      "color": "#4682B4",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "古本まつりと大衆出版高度成長",
+      "startYear": 1960,
+      "endYear": 1979,
+      "color": "#DAA520",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "サブカル・専門店・大型書店",
+      "startYear": 1980,
+      "endYear": 1999,
+      "color": "#8A2BE2",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "再開発・映画・ネット古書",
+      "startYear": 2000,
+      "endYear": 2019,
+      "color": "#008B8B",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "コロナ後・紙電子ハイブリッド",
+      "startYear": 2020,
+      "endYear": "ongoing",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "EVENT",
+      "label": "事件・出来事",
+      "label_en": "Incidents/Events",
+      "conjunction": false
+    },
+    {
+      "code": "BOOKSTORE",
+      "label": "書店・古書店",
+      "label_en": "Bookstores/Antiquarian Bookshops",
+      "conjunction": false
+    },
+    {
+      "code": "PUBLISHER",
+      "label": "出版社・編集",
+      "label_en": "Publishers/Editing",
+      "conjunction": false
+    },
+    {
+      "code": "EDUCATION",
+      "label": "大学・教育",
+      "label_en": "Universities/Education",
+      "conjunction": true
+    },
+    {
+      "code": "PRINTING",
+      "label": "印刷・製本・取次",
+      "label_en": "Printing/Binding/Distribution",
+      "conjunction": true
+    },
+    {
+      "code": "MAGAZINE_MANGA",
+      "label": "雑誌・マンガ",
+      "label_en": "Magazines/Manga",
+      "conjunction": true
+    },
+    {
+      "code": "CULTURE",
+      "label": "喫茶・映画・街文化",
+      "label_en": "Cafe/Cinema/Street Culture",
+      "conjunction": false
+    },
+    {
+      "code": "PUBLISHING_JP",
+      "label": "日本の出版事情",
+      "label_en": "Japanese Publishing Context",
+      "conjunction": true
+    },
+    {
+      "code": "DIGITAL",
+      "label": "デジタル・電子出版",
+      "label_en": "Digital/E-publishing",
+      "conjunction": true
+    },
+    {
+      "code": "TRANSPORT",
+      "label": "交通・駅・都市動線",
+      "label_en": "Transport/Stations/Urban Flow",
+      "conjunction": true
+    },
+    {
+      "code": "CURRY_CAFE",
+      "label": "カレー・喫茶・飲食",
+      "label_en": "Curry/Cafes/Food Culture",
+      "conjunction": false
+    },
+    {
+      "code": "SIDE_STREET",
+      "label": "裏通り・小店・まち歩き",
+      "label_en": "Backstreets/Small Shops/Walkability",
+      "conjunction": true
+    },
+    {
+      "code": "MUSIC_ART",
+      "label": "音楽・美術・趣味文化",
+      "label_en": "Music/Art/Hobby Culture",
+      "conjunction": true
+    },
+    {
+      "code": "TOURISM",
+      "label": "観光・国際評価",
+      "label_en": "Tourism/Global Recognition",
+      "conjunction": true
+    },
+    {
+      "code": "SPORTS_OUTDOOR",
+      "label": "スポーツ・登山・アウトドア",
+      "label_en": "Sports/Outdoor",
+      "conjunction": true
+    },
+    {
+      "code": "URBAN",
+      "label": "地形・町名・街区形成",
+      "label_en": "Urban formation",
+      "conjunction": false
+    },
+    {
+      "code": "SECONDHAND_BOOK",
+      "label": "古書業・セリ・蔵書移動",
+      "label_en": "Secondhand books",
+      "conjunction": false
+    },
+    {
+      "code": "LANGUAGE",
+      "label": "洋学・外国語・翻訳",
+      "label_en": "Language/translation",
+      "conjunction": false
+    },
+    {
+      "code": "CINEMA",
+      "label": "映画館・活動写真",
+      "label_en": "Cinema",
+      "conjunction": false
+    },
+    {
+      "code": "STUDENT_TOWN",
+      "label": "学生街・予備校・下宿",
+      "label_en": "Student town",
+      "conjunction": false
+    },
+    {
+      "code": "LITERARY_CULTURE",
+      "label": "文学・詩・小出版社",
+      "label_en": "Literary culture",
+      "conjunction": false
+    },
+    {
+      "code": "CHINESE_CULTURE",
+      "label": "留学生・中華街的神保町",
+      "label_en": "Chinese culture/students",
+      "conjunction": false
+    }
+  ]
 }
