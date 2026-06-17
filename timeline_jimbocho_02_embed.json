@@ -1,0 +1,567 @@
+{
+  "source": "timeline_jimbocho_02.json",
+  "generatedAt": "2026-06-17T16:57:08.741Z",
+  "checkedCount": 86,
+  "blockedCount": 22,
+  "blockedUrls": [
+    "https://bookhousecafe.jp/",
+    "https://bunshun.jp/bungeishunju/articles/h12087",
+    "https://current.ndl.go.jp/car/238836",
+    "https://current.ndl.go.jp/car/270088",
+    "https://note.com/moeatsu/n/n9d97c21b520b",
+    "https://smtrc.jp/town-archives/city/kanda/p07.html",
+    "https://tabelog.com/tokyo/A1310/A131003/13000638/dtlrvwlst/B410862767/?type=0",
+    "https://visit-chiyoda.tokyo/app/event/detail/846",
+    "https://visit-chiyoda.tokyo/app/spot/detail/50",
+    "https://visit-chiyoda.tokyo/app/spot/detail/837",
+    "https://visit-chiyoda.tokyo/app/spot/detail/941",
+    "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r804/20260409.html",
+    "https://www.gotokyo.org/jp/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+    "https://www.kosho.or.jp/",
+    "https://www.kosho.or.jp/wppost/plg_WpPost_post.php?postid=6841",
+    "https://www.library.chiyoda.tokyo.jp/findbook/documents/publication/yuuhikaku/",
+    "https://www.nippon.com/ja/japan-topics/b11002/",
+    "https://www.pendulummag.com/travel/2026/2/1/jimbocho-tokyos-literary-underworld-crowned-the-coolest-neighbourhood-in-the-world",
+    "https://www.shinbunka.co.jp/archives/6273",
+    "https://www.shogakukan.co.jp/company/history",
+    "https://www.shueisha.co.jp/history/",
+    "https://www.timeout.jp/tokyo/ja/news/jimbocho-is-the-world%E2%80%99s-coolest-neighbourhood-in-2025-092425"
+  ],
+  "blockedHostPatterns": [
+    "(^|\\.)bookhousecafe\\.jp$",
+    "(^|\\.)bunshun\\.jp$",
+    "(^|\\.)current\\.ndl\\.go\\.jp$",
+    "(^|\\.)note\\.com$",
+    "(^|\\.)smtrc\\.jp$",
+    "(^|\\.)tabelog\\.com$",
+    "(^|\\.)visit-chiyoda\\.tokyo$",
+    "(^|\\.)www\\.city\\.chiyoda\\.lg\\.jp$",
+    "(^|\\.)www\\.gotokyo\\.org$",
+    "(^|\\.)www\\.kosho\\.or\\.jp$",
+    "(^|\\.)www\\.library\\.chiyoda\\.tokyo\\.jp$",
+    "(^|\\.)www\\.nippon\\.com$",
+    "(^|\\.)www\\.pendulummag\\.com$",
+    "(^|\\.)www\\.shinbunka\\.co\\.jp$",
+    "(^|\\.)www\\.shogakukan\\.co\\.jp$",
+    "(^|\\.)www\\.shueisha\\.co\\.jp$",
+    "(^|\\.)www\\.timeout\\.jp$"
+  ],
+  "results": [
+    {
+      "url": "https://bookhousecafe.jp/",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:deny"
+    },
+    {
+      "url": "https://bunshun.jp/bungeishunju/articles/h12087",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://chienotomoshibi.jp/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-%E5%B2%A9%E6%B3%A2%E6%9B%B8%E5%BA%971913%E5%B9%B4%E5%A4%A7%E6%AD%A32%E5%B9%B4%E5%89%B5%E6%A5%AD/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://chiyodaku-shoren.jp/event/post-774/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://current.ndl.go.jp/car/238836",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://current.ndl.go.jp/car/270088",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://genkosha.pictures/illustration/18120718005",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://hatsumimi-mag.com/2018/11/27/%E5%96%AB%E8%8C%B6%E8%80%81%E5%BA%97%E3%80%8C%E3%81%95%E3%81%BC%E3%81%86%E3%82%8B%E3%80%8D%E9%88%B4%E6%9C%A8%E8%80%81%E9%97%86%EF%BC%8C%E8%88%87%E3%81%95%E3%81%BC%E3%81%86%E3%82%8B%E5%92%8C%E7%A5%9E/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://hon.jp/news/1.0/0/58293",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%81%E3%82%A8%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E7%A5%9E%E7%94%B0%E4%B8%87%E4%B8%96%E6%A9%8B",
+      "status": 404,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%A0%E3%83%83%E3%82%AF_(%E5%87%BA%E7%89%88)",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%89%E3%83%AA%E3%82%AA",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%A6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E4%BA%A4%E9%80%9A%E5%8D%9A%E7%89%A9%E9%A4%A8",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%86%E6%9C%AC",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%87%BA%E7%89%88",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%87%BA%E7%89%88%E5%8F%96%E6%AC%A1",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%8D%9A%E6%96%87%E9%A4%A8",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E7%B7%8F%E5%8B%95%E5%93%A1%E6%B3%95",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%A6%E4%BB%A4",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%A6%E7%B4%9B%E4%BA%89",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E5%88%B6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E5%88%B6%E6%94%B9%E9%9D%A9",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%B0%82%E4%BF%AE%E5%A4%A7%E5%AD%A6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B3%A2%E3%83%9B%E3%83%BC%E3%83%AB",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B3%A2%E5%86%99%E7%9C%9F%E6%96%87%E5%BA%AB",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B3%A2%E6%96%87%E5%BA%AB",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B3%A2%E6%96%B0%E6%9B%B8",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%96%87%E5%BA%AB%E6%9C%AC",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%97%A9%E7%A8%B2%E7%94%B0%E5%A4%A7%E5%AD%A6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%98%8E%E6%B2%BB%E5%A4%A7%E5%AD%A6",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9B%B8%E5%BA%97",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%9C%B0%E4%B8%8B%E9%89%84%E9%81%93",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%BE%A9%E6%B4%BB%E5%A4%A7%E8%81%96%E5%A0%82",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%9B%BB%E8%BB%8A",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%BC%AB%E7%94%BB%E9%9B%91%E8%AA%8C",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E4%BF%9D%E7%94%BA%E3%82%B7%E3%82%A2%E3%82%BF%E3%83%BC",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E4%BF%9D%E7%94%BA%E9%A7%85",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E7%94%B0%E7%A5%9E%E4%BF%9D%E7%94%BA",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E8%95%83%E6%9B%B8%E8%AA%BF%E6%89%80",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E8%B2%B8%E6%9C%AC",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E8%B2%B8%E6%9C%AC%E6%BC%AB%E7%94%BB",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%80%B1%E5%88%8A%E5%B0%91%E5%B9%B4%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%80%B1%E5%88%8A%E8%AA%8C",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%85%8D%E7%B5%A6_(%E7%89%A9%E8%B3%87)",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%9B%91%E8%AA%8C",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E8%BE%9E%E6%9B%B8",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/Amazon.co.jp",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://jimbou.info/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://jimbou.info/bookstores/ab0045/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://jimbou.info/bookstores/nb166/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://jimbou.info/news/20250920.html",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://jinbocho.books-sanseido.co.jp/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://kanda-curry.com/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://kanda-curry.com/img/KandCurryGrandprix2011-PressRelease.pdf",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://note.com/moeatsu/n/n9d97c21b520b",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://osanpo-jimbo.com/info/6437098",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://passage.allreviews.jp/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://shuppankagaku.com/statistics/japan/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://shuppankagaku.com/wp/wp-content/uploads/2025/01/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B92501.pdf",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://smtrc.jp/town-archives/city/kanda/p07.html",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://tabelog.com/tokyo/A1310/A131003/13000638/dtlrvwlst/B410862767/?type=0",
+      "status": 400,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://visit-chiyoda.tokyo/app/event/detail/846",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://visit-chiyoda.tokyo/app/spot/detail/50",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://visit-chiyoda.tokyo/app/spot/detail/837",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://visit-chiyoda.tokyo/app/spot/detail/941",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.book-komiyama.co.jp/about/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.books-sanseido.co.jp/company/history/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.books-sanseido.co.jp/shop/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r804/20260409.html",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.fuzambo-intl.com/news/%E3%81%94%E6%8C%A8%E6%8B%B6/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.gotokyo.org/jp/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+      "status": 200,
+      "blocked": true,
+      "reason": "csp:restricted"
+    },
+    {
+      "url": "https://www.kosho.or.jp/",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:deny, sameorigin"
+    },
+    {
+      "url": "https://www.kosho.or.jp/wppost/plg_WpPost_post.php?postid=6841",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:deny, sameorigin"
+    },
+    {
+      "url": "https://www.koshokaitori.com/festival/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.library.chiyoda.tokyo.jp/findbook/documents/publication/yuuhikaku/",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.nippon.com/ja/japan-topics/b11002/",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.pendulummag.com/travel/2026/2/1/jimbocho-tokyos-literary-underworld-crowned-the-coolest-neighbourhood-in-the-world",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.shinbunka.co.jp/archives/6273",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.shogakukan.co.jp/company/history",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.shosen.co.jp/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    },
+    {
+      "url": "https://www.shueisha.co.jp/history/",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:sameorigin"
+    },
+    {
+      "url": "https://www.timeout.jp/tokyo/ja/news/jimbocho-is-the-world%E2%80%99s-coolest-neighbourhood-in-2025-092425",
+      "status": 200,
+      "blocked": true,
+      "reason": "xfo:deny"
+    },
+    {
+      "url": "https://yaguchishoten.jp/",
+      "status": 200,
+      "blocked": false,
+      "reason": "ok"
+    }
+  ]
+}
