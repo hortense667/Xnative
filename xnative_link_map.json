@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "description": "Short xid parameter → URL query string for Xnative share/deep links (hortense667/xnative)",
+  "updatedAt": "2026-06-18",
+  "entries": {
+    "jimbocho03": {
+      "params": "filePath=timeline_jimbocho_03.json",
+      "label": "神田神保町年表 0.2"
+    },
+    "jimbocho02": {
+      "params": "filePath=timeline_jimbocho_02.json",
+      "label": "神田神保町年表 0.2 (prev)"
+    },
+    "initial00": {
+      "params": "filePath=timeline_initial_00.json",
+      "label": "Xnative 初期年表"
+    }
+  }
+}
