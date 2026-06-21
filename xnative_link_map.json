@@ -4,15 +4,15 @@
   "updatedAt": "2026-06-18",
   "entries": {
     "jimbocho02": {
-      "params": "filePath=timeline_jimbocho_02.json",
+      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_jimbocho_02.json",
       "label": "神田神保町年表 0.2"
     },
     "akihabara02": {
-      "params": "filePath=timeline_akihabara_02.json",
+      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_akihabara_02.json",
       "label": "秋葉原年表 0.2"
     },
     "initial00": {
-      "params": "filePath=timeline_initial_00.json",
+      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_initial_00.json",
       "label": "Xnative 初期年表"
     }
   }
