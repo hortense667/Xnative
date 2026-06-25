@@ -85,6 +85,275 @@
       "temperature": 1.1,
       "initialBirthYear": 1990,
       "initialEventYear": 2010,
+      "candidateDisplay": {
+        "languageMode": "both"
+      },
+      "step1Texts": {
+        "privacyNotice": "※入力した内容や選択内容は、ガジェット診断結果の表示や集計に使わせていただきます。",
+        "privacyNotice_en": "Your inputs and selections are used to show and aggregate gadget diagnosis results.",
+        "selectionGuide": "好きだったハードウェアや機材の項目をチェックボックスで選んでください。",
+        "selectionGuide_en": "Use checkboxes to select hardware and gadget items you liked.",
+        "minimumSelectionNotice": "※リアルタイムで接したものでなくても、好きだった・影響を受けたガジェットをチェックしてください（{min}個以上、{recommended}個程度までが適切です）。次画面で生年をセットしたあとに動かす〇マーカーは生年以前へも動かせます。時期が偏っていても問題ありません。",
+        "minimumSelectionNotice_en": "Check gadgets you liked or were influenced by, even if not in real time (at least {min} items, around {recommended} is recommended). After setting your birth year, the 〇 marker can be moved before your birth year. Time bias is okay.",
+        "startButton": "ガジェット診断スタート",
+        "startButton_en": "Start Gadget Diagnosis"
+      },
+      "mode2Profile": {
+        "shareHashtag": "#ガジェット診断",
+        "shareHashtag_en": "#GadgetDiagnosis",
+        "meaningChoices": [
+          {
+            "code": "like",
+            "label": "好き",
+            "label_en": "Like",
+            "description": "素直に好きだと思った。見た瞬間や触れた瞬間に好意が立ち上がった。",
+            "description_en": "I simply liked it. Affection rose the moment I saw or touched it.",
+            "scoreKey": "taste",
+            "weight": 1.2
+          },
+          {
+            "code": "wanted",
+            "label": "手にしたかった",
+            "label_en": "Wanted to own",
+            "description": "手のひらサイズで持ち歩ける、かわいい／ゴツい質感に惹かれ、所有欲が強く動いた。",
+            "description_en": "Its palm-size portability and cute/rugged texture triggered strong ownership desire.",
+            "scoreKey": "admiration",
+            "weight": 2.3
+          },
+          {
+            "code": "mechanism",
+            "label": "仕組みに驚いた",
+            "label_en": "Surprised by mechanism",
+            "description": "機構、UI、入力方法に驚き、触った瞬間に覚醒するような感覚があった。",
+            "description_en": "Its mechanism, UI, or input method surprised me with an awakening tactile shock.",
+            "scoreKey": "moe",
+            "weight": 2.4
+          },
+          {
+            "code": "used",
+            "label": "使い込んだ",
+            "label_en": "Used heavily",
+            "description": "日常や仕事で繰り返し使い、使い方が身体に馴染むまで付き合った。",
+            "description_en": "I repeatedly used it in daily life or work until usage became embodied.",
+            "scoreKey": "repeat",
+            "weight": 3.0
+          },
+          {
+            "code": "learned",
+            "label": "学びになった",
+            "label_en": "Became a learning gateway",
+            "description": "技術や概念を学ぶ入口になり、理解の階段を上るきっかけになった。",
+            "description_en": "It became an entry point to learn technologies and concepts.",
+            "scoreKey": "discovery",
+            "weight": 2.1
+          },
+          {
+            "code": "shifted",
+            "label": "考え方が変わった",
+            "label_en": "Changed my mindset",
+            "description": "その後の世界観や判断基準に影響し、選び方そのものを変えた。",
+            "description_en": "It influenced my worldview and standards, changing how I make choices.",
+            "scoreKey": "impact",
+            "weight": 4.0
+          },
+          {
+            "code": "self",
+            "label": "自分らしいと思った",
+            "label_en": "Felt like me",
+            "description": "主流とは違う態度や選択だとしても、自分のスタンスにしっくりきた。",
+            "description_en": "Even if non-mainstream, it matched my own stance and way of choosing.",
+            "scoreKey": "self",
+            "weight": 5.0
+          },
+          {
+            "code": "future",
+            "label": "未来を感じた",
+            "label_en": "Felt the future",
+            "description": "新領域の気配や未来感、少し魔術的な手触りを感じた。",
+            "description_en": "It carried a sense of new frontier, futurity, and almost magical tactility.",
+            "scoreKey": "oshi",
+            "weight": 2.8
+          }
+        ],
+        "scoring": {
+          "attributeWeights": {
+            "mechanism": 1.08,
+            "future": 1.06,
+            "crossing": 0.96
+          },
+          "attributeBias": {
+            "repeat": 0.2,
+            "daily": 0.15
+          },
+          "meaningWeights": {
+            "mechanism": {
+              "mechanism": 1.22,
+              "aberration": 1.08
+            },
+            "wanted": {
+              "repeat": 1.12,
+              "daily": 1.1
+            },
+            "future": {
+              "future": 1.2,
+              "crossing": 1.08
+            },
+            "learned": {
+              "author": 1.12,
+              "archive": 1.1
+            },
+            "self": {
+              "daily": 1.14
+            }
+          },
+          "diversityPenalty": 0.45,
+          "dominanceCap": {
+            "maxRatio": 1.8,
+            "strength": 0.3
+          }
+        },
+        "roleLabels": {
+          "mainJa": "主資質",
+          "mainEn": "Primary Trait",
+          "subJa": "副資質",
+          "subEn": "Secondary Trait",
+          "hiddenJa": "裏資質",
+          "hiddenEn": "Hidden Trait"
+        },
+        "lowerModuleLabels": {
+          "deepJa": "濃い機材圏",
+          "deepEn": "Deep Device Modules",
+          "generalJa": "惹かれやすい領域",
+          "generalEn": "Areas You Naturally Gravitate Toward"
+        },
+        "epithetLabel": {
+          "ja": "あなたのガジェット異名",
+          "en": "Your Gadget Epithet"
+        },
+        "attributes": [
+          { "key": "world", "ja": "携帯性偏愛", "en": "Portability Love", "short": "携帯", "code": "PO", "family": "portable", "desc": "いつでも持ち歩ける軽さと機動性に強く惹かれる資質です。", "descEn": "You are strongly drawn to lightness and mobility you can carry everywhere." },
+          { "key": "mechanism", "ja": "入力装置偏愛", "en": "Input Device Love", "short": "入力", "code": "IN", "family": "interface", "desc": "キー、ボタン、ペンなど入力機構の違いに心が動く資質です。", "descEn": "You care deeply about input feel across keys, buttons, and pens." },
+          { "key": "future", "ja": "未来先取り", "en": "Future Early-Adopter", "short": "未来", "code": "FU", "family": "future", "desc": "次世代の規格や新しい使い方を先取りする資質です。", "descEn": "You adopt next-gen standards and emerging usage styles early." },
+          { "key": "aberration", "ja": "改造実験", "en": "Tinkering Experiments", "short": "改造", "code": "MX", "family": "build", "desc": "分解・改造・検証を通じて道具を理解したい資質です。", "descEn": "You want to understand tools through modding, teardown, and experimentation." },
+          { "key": "daily", "ja": "仕事道具化", "en": "Workhorse Integration", "short": "仕事", "code": "WK", "family": "workflow", "desc": "道具を生活や仕事の実務に組み込み続ける資質です。", "descEn": "You integrate tools into everyday and professional workflows." },
+          { "key": "crossing", "ja": "通信欲求", "en": "Connectivity Drive", "short": "通信", "code": "CN", "family": "network", "desc": "つながること自体の快感や通信環境への関心が強い資質です。", "descEn": "You are strongly motivated by connectivity and communication environments." },
+          { "key": "boyhood", "ja": "ゲーム機感受", "en": "Console Sensibility", "short": "ゲーム", "code": "GM", "family": "play", "desc": "ゲーム機と周辺機器の進化に高い感受性を持つ資質です。", "descEn": "You are highly sensitive to the evolution of consoles and peripherals." },
+          { "key": "girlhood", "ja": "音と映像の身体化", "en": "Embodied Audio-Visual Sense", "short": "音映", "code": "AV", "family": "sensory", "desc": "音響と映像の体感的な質にこだわる資質です。", "descEn": "You care deeply about embodied quality in sound and visuals." },
+          { "key": "repeat", "ja": "所有欲／質感", "en": "Ownership & Texture", "short": "質感", "code": "TX", "family": "ownership", "desc": "所有する満足感や素材感・重量感に愛着が生まれる資質です。", "descEn": "You form attachment through ownership and material/weight texture." },
+          { "key": "author", "ja": "ロボット／玩具親和", "en": "Robot/Toy Affinity", "short": "玩具", "code": "RT", "family": "play", "desc": "ロボットや玩具に宿る設計思想と遊びの回路に惹かれる資質です。", "descEn": "You are drawn to design philosophy and playful circuitry in robots and toys." },
+          { "key": "archive", "ja": "記録メディア愛", "en": "Recording Media Love", "short": "記録", "code": "RM", "family": "record", "desc": "記録媒体の形式や保存の作法に継続して関心を持つ資質です。", "descEn": "You maintain long-term interest in recording formats and preservation practices." }
+        ],
+        "deepModules": [
+          { "key": "apple", "ja": "アップル美学", "en": "Apple Aesthetics" },
+          { "key": "unix", "ja": "DOS/UNIX実務", "en": "DOS/UNIX Practicality" },
+          { "key": "engineering", "ja": "エンジニアリング", "en": "Engineering" },
+          { "key": "authoring", "ja": "創作／オーサリング", "en": "Creation / Authoring" },
+          { "key": "watchalong", "ja": "共同視聴文化", "en": "Shared Viewing Culture" },
+          { "key": "anonnet", "ja": "匿名ネット文化", "en": "Anonymous Net Culture" },
+          { "key": "vocaloid", "ja": "ボカロ／仮想人格", "en": "Vocaloid / Virtual Persona" },
+          { "key": "game", "ja": "ゲーム実践", "en": "Game Practice" }
+        ],
+        "generalModules": [
+          { "key": "gadget", "ja": "機械／ガジェット", "en": "Machines / Gadgets" },
+          { "key": "creativetools", "ja": "創作ツール", "en": "Creative Tools" },
+          { "key": "musicrhythm", "ja": "音楽／リズム", "en": "Music / Rhythm" },
+          { "key": "gamefriendly", "ja": "ゲーム親和", "en": "Game Affinity" },
+          { "key": "netsocial", "ja": "ネット交流", "en": "Online Interaction" },
+          { "key": "nostalgia", "ja": "懐かしさ／ノスタルジー", "en": "Nostalgia" }
+        ],
+        "practiceModes": [
+          { "key": "watch", "ja": "観る", "en": "Watch" },
+          { "key": "use", "ja": "使う", "en": "Use" },
+          { "key": "collect", "ja": "集める", "en": "Collect" },
+          { "key": "create", "ja": "作る", "en": "Create" },
+          { "key": "modify", "ja": "改造する", "en": "Modify" },
+          { "key": "support", "ja": "推す", "en": "Support" },
+          { "key": "talk", "ja": "語る", "en": "Talk" },
+          { "key": "research", "ja": "研究する", "en": "Research" }
+        ],
+        "epithetInstructions": {
+          "ja": "異名は、機材との距離感・操作感・収集癖が伝わる語で組み立ててください。ブランド名の直書きは避け、作法や質感の比喩に変換してください。",
+          "en": "Build epithets with terms that express device intimacy, operation style, and collector mentality. Avoid direct brand names; translate them into metaphors of practice and texture."
+        },
+        "epithetVocabularyHints": {
+          "ja": ["ポケット", "端子", "液晶", "クリック感", "電池蓋", "充電", "ケーブル", "ケース", "重さ", "手触り", "ガジェットポーチ", "説明書", "初期設定", "拡張スロット", "変換アダプタ"],
+          "en": ["pocket", "port", "LCD", "click-feel", "battery cover", "charging", "cable", "case", "weight", "texture", "gadget pouch", "manual", "initial setup", "expansion slot", "adapter"]
+        }
+      },
+      "diagnosticProfile": {
+        "minSelectionCount": 5,
+        "recommendedSelectionCount": 10,
+        "meaningDefs": [
+          { "key": "taste", "labelJa": "好き", "labelEn": "Like", "weight": 1.0 },
+          { "key": "moe", "labelJa": "ときめき", "labelEn": "Spark", "weight": 1.2 },
+          { "key": "impact", "labelJa": "衝撃", "labelEn": "Impact", "weight": 1.45 },
+          { "key": "repeat", "labelJa": "使い込んだ", "labelEn": "Used repeatedly", "weight": 1.2 },
+          { "key": "self", "labelJa": "自分らしい", "labelEn": "Feels like me", "weight": 1.55 },
+          { "key": "oshi", "labelJa": "推したい", "labelEn": "Want to support", "weight": 1.35 }
+        ],
+        "attrs": {
+          "world": { "ja": "体験没入", "en": "Experience Immersion", "short": "没入", "code": "EX", "desc": "使い手として入り込める体験に惹かれる資質です。", "descEn": "You are drawn to experiences you can fully dive into as a user." },
+          "mechanism": { "ja": "機構偏愛", "en": "Mechanism Love", "short": "機構", "code": "ME", "desc": "道具の機構や設計そのものに心が動く資質です。", "descEn": "Design and mechanics themselves strongly move your interest." },
+          "future": { "ja": "先端感受", "en": "Frontier Sense", "short": "先端", "code": "FR", "desc": "次に来る技術や新しい作法の兆しに反応する資質です。", "descEn": "You react quickly to signs of next-generation tech and new usage styles." },
+          "aberration": { "ja": "異形親和", "en": "Aberration Affinity", "short": "異形", "code": "AB", "desc": "少し尖った仕様や癖のある道具に熱を感じる資質です。", "descEn": "You feel excitement for unusual or sharply opinionated devices." },
+          "daily": { "ja": "日常浸透", "en": "Daily Affinity", "short": "日常", "code": "DY", "desc": "毎日の動線に溶け込む使い心地を長く愛する資質です。", "descEn": "You value tools that blend into everyday routines over time." },
+          "crossing": { "ja": "越境回遊", "en": "Crossing", "short": "越境", "code": "CR", "desc": "ハード・ソフト・ネットを横断して楽しむ資質です。", "descEn": "You enjoy crossing hardware, software, and network domains." },
+          "boyhood": { "ja": "探究回路", "en": "Explorer Circuit", "short": "探究", "code": "XP", "desc": "試す・分解する・攻略する衝動が強い資質です。", "descEn": "You have a strong urge to test, dissect, and master things." },
+          "girlhood": { "ja": "審美回路", "en": "Aesthetic Circuit", "short": "審美", "code": "AE", "desc": "手触りや見た目、関係性の美しさに惹かれる資質です。", "descEn": "You are drawn to tactile, visual, and relational aesthetics." },
+          "repeat": { "ja": "反復愛着", "en": "Repeat Attachment", "short": "反復", "code": "RP", "desc": "何度も使うほど愛着が深まる資質です。", "descEn": "Repeated use deepens your attachment." },
+          "author": { "ja": "設計者偏愛", "en": "Designer Bias", "short": "設計", "code": "DS", "desc": "作り手の思想や設計哲学まで含めて愛する資質です。", "descEn": "You care about makers' philosophies and design stance." },
+          "archive": { "ja": "記録蒐集", "en": "Archive Impulse", "short": "蒐集", "code": "AR", "desc": "機種や系譜を記録として抱え込む資質です。", "descEn": "You keep lineups and lineages as personal archives." }
+        },
+        "lowerModuleLabels": {
+          "deepJa": "濃い機材圏",
+          "deepEn": "Deep Device Modules",
+          "generalJa": "惹かれやすい領域",
+          "generalEn": "Areas You Naturally Gravitate Toward"
+        },
+        "shareHashtag": "#ガジェット診断",
+        "screenLabels": {
+          "resultPageTitleJa": "あなたの選択から読み解いた\"ガジェット資質\"",
+          "resultPageTitleEn": "Your gadget traits read from your selections",
+          "attrsGuideButtonJa": "\"ガジェット資質\"とは",
+          "attrsGuideButtonEn": "What are gadget traits?",
+          "attrsGuideIntroJa": "この診断で使う「ガジェット資質」の一覧です。医療・性格診断ではなく、あなたが選んだ項目と意味づけタグから読み取った、道具嗜好のラベルです。",
+          "attrsGuideIntroEn": "These gadget traits are labels of tool preferences read from your selections and meaning tags, not medical or personality typing.",
+          "shareTitleJa": "ガジェット診断",
+          "shareTitleEn": "Gadget Diagnosis",
+          "shareImageFileBaseJa": "gadget-diagnosis",
+          "shareImageFileBaseEn": "gadget-diagnosis",
+          "attributesSectionJa": "資質",
+          "attributesSectionEn": "Traits",
+          "epithetSectionJa": "あなたの通り名",
+          "epithetSectionEn": "Your Alias",
+          "emblemSectionJa": "あなたのシグネチャ",
+          "emblemSectionEn": "Your Signature",
+          "overallSectionJa": "総評",
+          "overallSectionEn": "Overview",
+          "selectionStatusSectionJa": "選択した機材",
+          "selectionStatusSectionEn": "Selected Devices",
+          "reasonLabelJa": "根拠",
+          "reasonLabelEn": "Reason",
+          "personalQrButtonJa": "個人レポートQRを表示",
+          "personalQrButtonEn": "Show personal report QR",
+          "personalQrDescriptionJa": "QRを読み取ると、選択した機材一覧と診断結果テキストが表示されます。",
+          "personalQrDescriptionEn": "Scanning the QR shows selected devices and diagnosis text.",
+          "noAttributesJa": "（判定なし）",
+          "noAttributesEn": "(No traits)",
+          "noMatchingModulesJa": "（該当なし）",
+          "noMatchingModulesEn": "(No matching modules)",
+          "subHiddenSectionJa": "副資質・裏資質",
+          "subHiddenSectionEn": "Secondary / Hidden Traits",
+          "helpAudienceJa": "ガジェット好き",
+          "helpAudienceEn": "gadget enthusiasts",
+          "mainAttributeJa": "主資質",
+          "mainAttributeEn": "Primary Trait",
+          "subAttributeJa": "副資質",
+          "subAttributeEn": "Secondary Trait",
+          "hiddenAttributeJa": "裏資質",
+          "hiddenAttributeEn": "Hidden Trait"
+        }
+      },
       "topTitle": "Xnative/Timeline 大好きガジェット分析・クロノロジー診断テスト",
       "topTitle_en": "Xnative/Timeline how to measure your \"gadget otaku\" feature",
       "topDescription": "あなたが特に好きだった、愛するほど使い込んだ、衝撃を受けたハードウェア（楽器、カメラ、コンピューター、PDA、スマートフォンなど）を選んでいくことで、あなたの「ネイティブ」な感性を診断します。",
@@ -103,6 +372,494 @@
       "usageTitle_en": "How To Use (Demo)",
       "usageDescription": "ここでは心を静めて深呼吸して診断結果を心の引き出しの中にしまい込みましょう。下の「スタート」ボタンで最初の画面に戻ります。",
       "usageDescription_en": "Take a breath and keep your diagnosis in mind. Press Start below to return to the first screen."
+    },
+    "akihabara02": {
+      "filePath": "timeline_akihabara_02.json",
+      "aiProvider": "gemini",
+      "temperature": 1.05,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "candidateDisplay": {
+        "languageMode": "primaryOnly"
+      },
+      "step1Texts": {
+        "privacyNotice": "※入力した内容や選択内容は、秋葉原診断結果の表示や集計に使わせていただきます。",
+        "privacyNotice_en": "Your inputs and selections are used to show and aggregate Akihabara diagnosis results.",
+        "selectionGuide": "秋葉原の年表で、引っかかった出来事をチェックしてください。",
+        "selectionGuide_en": "Check timeline events that resonate with your Akihabara memory.",
+        "minimumSelectionNotice": "※リアルタイムで触れていなくても、好きだった・影響を受けた出来事をチェックしてください（{min}個以上、{recommended}個程度までが適切です）。次画面で生年をセットしたあとに動かす〇マーカーは生年以前へも動かせます。",
+        "minimumSelectionNotice_en": "Check events you liked or were influenced by even if not in real time (at least {min}, around {recommended} recommended). After setting your birth year, the 〇 marker can be moved before your birth year.",
+        "startButton": "秋葉原診断スタート",
+        "startButton_en": "Start Akihabara Diagnosis"
+      },
+      "mode2Profile": {
+        "shareHashtag": "#秋葉原診断",
+        "shareHashtag_en": "#AkihabaraDiagnosis",
+        "meaningChoices": [
+          {
+            "code": "like",
+            "label": "好き",
+            "label_en": "Like",
+            "description": "素直に好きで、思い入れがある。",
+            "description_en": "I simply like it and have emotional attachment.",
+            "scoreKey": "taste",
+            "weight": 1.2
+          },
+          {
+            "code": "visited",
+            "label": "通った",
+            "label_en": "Kept visiting",
+            "description": "実際に店や街へ繰り返し足を運んだ。",
+            "description_en": "I repeatedly visited the stores and district in person.",
+            "scoreKey": "repeat",
+            "weight": 2.5
+          },
+          {
+            "code": "dug",
+            "label": "掘り出した",
+            "label_en": "Dug out finds",
+            "description": "ジャンク、部品、レア物、古い機材、情報を探した。",
+            "description_en": "I searched for junk, parts, rare gear, old devices, and niche information.",
+            "scoreKey": "admiration",
+            "weight": 2.4
+          },
+          {
+            "code": "build_fix",
+            "label": "組んだ／直した",
+            "label_en": "Built / fixed",
+            "description": "自作、改造、修理、配線、設定、環境構築をした。",
+            "description_en": "I built, modded, repaired, wired, configured, and assembled environments.",
+            "scoreKey": "discovery",
+            "weight": 2.8
+          },
+          {
+            "code": "stocked",
+            "label": "買い込んだ",
+            "label_en": "Stocked up",
+            "description": "パーツ、ゲーム、同人誌、メディア、周辺機器を買い集めた。",
+            "description_en": "I accumulated parts, games, doujin works, media, and peripherals.",
+            "scoreKey": "oshi",
+            "weight": 2.7
+          },
+          {
+            "code": "culture",
+            "label": "カルチャーを感じた",
+            "label_en": "Felt the culture",
+            "description": "店、看板、人、イベント、同人、メイド、ゲーム、アニメの空気を感じた。",
+            "description_en": "I felt the atmosphere of shops, signs, people, events, doujin, maid culture, games, and anime.",
+            "scoreKey": "moe",
+            "weight": 2.4
+          },
+          {
+            "code": "home",
+            "label": "自分の居場所だった",
+            "label_en": "It was my place",
+            "description": "主流ではない趣味や技術が肯定される場所として感じた。",
+            "description_en": "It felt like a place where non-mainstream tastes and skills were accepted.",
+            "scoreKey": "self",
+            "weight": 4.6
+          },
+          {
+            "code": "city_change",
+            "label": "街の変化を感じた",
+            "label_en": "Felt the city's changes",
+            "description": "電気街からPC、オタク、観光、再開発へ変わる流れを感じた。",
+            "description_en": "I sensed the shift from electric town to PC hub, otaku stage, tourism, and redevelopment.",
+            "scoreKey": "impact",
+            "weight": 3.6
+          }
+        ],
+        "scoring": {
+          "attributeWeights": {
+            "crossing": 0.94,
+            "future": 0.93,
+            "archive": 0.95
+          },
+          "attributeBias": {
+            "world": 0.15,
+            "mechanism": 0.12
+          },
+          "meaningWeights": {
+            "dug": {
+              "mechanism": 1.2,
+              "world": 1.14,
+              "daily": 1.1
+            },
+            "build_fix": {
+              "boyhood": 1.24,
+              "world": 1.14
+            },
+            "stocked": {
+              "daily": 1.14,
+              "girlhood": 1.12,
+              "repeat": 1.12
+            },
+            "culture": {
+              "repeat": 1.15,
+              "author": 1.12,
+              "crossing": 1.08
+            },
+            "home": {
+              "archive": 1.16,
+              "crossing": 1.08
+            },
+            "city_change": {
+              "aberration": 1.15,
+              "future": 1.15
+            }
+          },
+          "diversityPenalty": 0.4,
+          "dominanceCap": {
+            "maxRatio": 1.85,
+            "strength": 0.28
+          }
+        },
+        "roleLabels": {
+          "mainJa": "主属性",
+          "mainEn": "Main Trait",
+          "subJa": "副属性",
+          "subEn": "Sub Trait",
+          "hiddenJa": "裏属性",
+          "hiddenEn": "Hidden Trait"
+        },
+        "lowerModuleLabels": {
+          "deepJa": "濃いアキバ圏",
+          "deepEn": "Deep Akiba Modules",
+          "generalJa": "惹かれやすい領域",
+          "generalEn": "Areas You Naturally Gravitate Toward"
+        },
+        "epithetLabel": {
+          "ja": "あなたのアキバ異名",
+          "en": "Your Akiba Epithet"
+        },
+        "attributes": [
+          { "key": "world", "label": "電気街工作", "label_en": "Electric-Town Tinkering", "ja": "電気街工作", "en": "Electric-Town Tinkering", "short": "電工", "code": "EL", "family": "hardware", "desc": "部品や道具を前に手を動かしたくなる資質です。", "descEn": "You are moved to work hands-on when facing parts and tools." },
+          { "key": "mechanism", "label": "ジャンク発掘", "label_en": "Junk Excavation", "ja": "ジャンク発掘", "en": "Junk Excavation", "short": "発掘", "code": "JK", "family": "search", "desc": "山の中から価値ある物を見つける探索資質です。", "descEn": "You have an excavator trait for finding value inside chaotic piles." },
+          { "key": "future", "label": "観光地化感受", "label_en": "Touristification Sensibility", "ja": "観光地化感受", "en": "Touristification Sensibility", "short": "観光", "code": "TS", "family": "tourism", "desc": "街が観光地化していく変化に敏感な資質です。", "descEn": "You are sensitive to the district becoming a tourism-oriented space." },
+          { "key": "aberration", "label": "再開発観測", "label_en": "Redevelopment Observer", "ja": "再開発観測", "en": "Redevelopment Observer", "short": "再開", "code": "RD", "family": "redevelopment", "desc": "駅前や通りの再編を定点観測する資質です。", "descEn": "You closely observe restructuring around stations and streets." },
+          { "key": "daily", "label": "店舗巡礼", "label_en": "Store Pilgrimage", "ja": "店舗巡礼", "en": "Store Pilgrimage", "short": "巡礼", "code": "ST", "family": "city", "desc": "店ごとの癖を覚えながら巡回する資質です。", "descEn": "You circulate while memorizing each store's unique character." },
+          { "key": "crossing", "label": "オタク主流化観測", "label_en": "Mainstreaming Observer", "ja": "オタク主流化観測", "en": "Mainstreaming Observer", "short": "主流", "code": "MS", "family": "city", "desc": "サブカルが表舞台化する流れを読む資質です。", "descEn": "You read the flow of subculture becoming publicly mainstream." },
+          { "key": "boyhood", "label": "PC／自作感覚", "label_en": "PC Build Sensibility", "ja": "PC／自作感覚", "en": "PC Build Sensibility", "short": "自作", "code": "PC", "family": "pc", "desc": "組む、直す、最適化する作業に快感を持つ資質です。", "descEn": "You enjoy building, fixing, and optimizing systems." },
+          { "key": "girlhood", "label": "ゲーム聖地感受", "label_en": "Game-Sanctuary Sense", "ja": "ゲーム聖地感受", "en": "Game-Sanctuary Sense", "short": "ゲーム", "code": "GM", "family": "game", "desc": "ゲーム文化の集積地として街を感じる資質です。", "descEn": "You sense the district as a sanctuary of game culture." },
+          { "key": "repeat", "label": "同人・サブカル回遊", "label_en": "Doujin/Subculture Circulation", "ja": "同人・サブカル回遊", "en": "Doujin/Subculture Circulation", "short": "同人", "code": "DJ", "family": "subculture", "desc": "同人とサブカル領域を往復し続ける資質です。", "descEn": "You continuously circulate through doujin and subculture zones." },
+          { "key": "author", "label": "メイド／体験消費", "label_en": "Maid/Experience Consumption", "ja": "メイド／体験消費", "en": "Maid/Experience Consumption", "short": "体験", "code": "EX", "family": "tourism", "desc": "店舗体験そのものを文化として消費する資質です。", "descEn": "You consume venue experiences themselves as cultural content." },
+          { "key": "archive", "label": "非主流アイデンティティ", "label_en": "Non-Mainstream Identity", "ja": "非主流アイデンティティ", "en": "Non-Mainstream Identity", "short": "非主", "code": "NM", "family": "identity", "desc": "主流外の関心を自己の核として保持する資質です。", "descEn": "You keep non-mainstream interests as part of your identity core." }
+        ],
+        "deepModules": [
+          { "key": "electronic_parts", "ja": "電子部品", "en": "Electronic Parts" },
+          { "key": "junk", "ja": "ジャンク", "en": "Junk" },
+          { "key": "selfmade_pc", "ja": "自作PC", "en": "Custom PC" },
+          { "key": "game_arc", "ja": "ゲーム", "en": "Games" },
+          { "key": "doujin", "ja": "同人", "en": "Doujin" },
+          { "key": "maid", "ja": "メイド文化", "en": "Maid Culture" },
+          { "key": "backstreet", "ja": "裏通り店舗", "en": "Backstreet Stores" },
+          { "key": "redevelop", "ja": "駅前再開発", "en": "Station Redevelopment" },
+          { "key": "touristified", "ja": "観光地化", "en": "Touristification" },
+          { "key": "global_link", "ja": "海外接続", "en": "Global Linkage" },
+          { "key": "sign_building", "ja": "看板と雑居ビル", "en": "Signs and Mixed-Use Buildings" }
+        ],
+        "generalModules": [
+          { "key": "craft", "ja": "ものづくり", "en": "Making" },
+          { "key": "explore", "ja": "探索", "en": "Exploration" },
+          { "key": "consumption", "ja": "消費文化", "en": "Consumption Culture" },
+          { "key": "subculture", "ja": "サブカルチャー", "en": "Subculture" },
+          { "key": "city_shift", "ja": "都市変化", "en": "Urban Change" },
+          { "key": "tech_hobby", "ja": "技術趣味", "en": "Tech Hobby" },
+          { "key": "store_culture", "ja": "店舗文化", "en": "Store Culture" },
+          { "key": "embodied_walk", "ja": "身体化した街歩き", "en": "Embodied Street Walks" },
+          { "key": "non_mainstream_place", "ja": "非主流の居場所", "en": "Non-Mainstream Place" }
+        ],
+        "practiceModes": [
+          { "key": "search", "ja": "探す", "en": "Search" },
+          { "key": "buy", "ja": "買う", "en": "Buy" },
+          { "key": "build", "ja": "組む", "en": "Build" },
+          { "key": "repair", "ja": "直す", "en": "Repair" },
+          { "key": "tour", "ja": "巡る", "en": "Tour" },
+          { "key": "talk", "ja": "語る", "en": "Talk" },
+          { "key": "shoot", "ja": "撮る", "en": "Shoot" },
+          { "key": "guide", "ja": "案内する", "en": "Guide" },
+          { "key": "compare", "ja": "比較する", "en": "Compare" },
+          { "key": "record", "ja": "記録する", "en": "Record" }
+        ],
+        "epithetInstructions": {
+          "ja": "商品名・店名をそのまま並べるのではなく、秋葉原の手触りに変換してください。「ジャンク箱を覗く人」「基板の匂い」「駅前再開発の光」「裏通りの部品棚」「ゲームと同人の回遊」「観光地化した電気街」など、街の変化と個人の回遊感が出る異名にしてください。大げさにしすぎず、少しニヤッとできるが診断として読める言い方にしてください。",
+          "en": "Do not list product or store names literally; translate them into Akihabara texture. Use motifs like peeking into junk bins, smell of circuit boards, lights of station-side redevelopment, backstreet parts shelves, circulation between games and doujin, and a touristified electric town. Keep it readable as diagnosis, slightly witty but not overblown."
+        },
+        "epithetVocabularyHints": {
+          "ja": ["ラジオ会館", "万世橋", "中央通り", "裏通り", "ジャンク箱", "パーツ棚", "基板", "コネクタ", "ネジ", "袋入り部品", "同人誌", "ゲーム基板", "ショーケース", "雑居ビル", "メイド", "看板", "駅前広場", "再開発", "免税店", "インバウンド", "秋葉原駅", "電気街口", "末広町", "御徒町", "神田明神"],
+          "en": ["Radio Kaikan", "Manseibashi", "Chuo-dori", "backstreet", "junk bin", "parts shelf", "circuit board", "connector", "screws", "bagged parts", "doujinshi", "arcade board", "showcase", "mixed-use building", "maid", "signboard", "station plaza", "redevelopment", "duty-free shop", "inbound visitors", "Akihabara Station", "Electric Town Gate", "Suehirocho", "Okachimachi", "Kanda Myojin"]
+        }
+      },
+      "topTitle": "Xnative/Timeline\\n秋葉原回遊感性診断\\nあなたの中の“アキバ”はどこにある？",
+      "topTitle_en": "Xnative/Timeline\\nAkihabara Circulation Sensibility Diagnosis\\nWhere is \"Akiba\" inside you?",
+      "topDescription": "電子部品、ジャンク、家電、PC、ゲーム、同人、メイド、再開発、観光地化まで、秋葉原の年表から自分に引っかかる出来事を選び、あなたがどのような秋葉原の感性を持っているかを診断します。",
+      "topDescription_en": "From electronic parts, junk, home appliances, PCs, games, doujin, and maid culture to redevelopment and touristification, pick the Akihabara timeline events that catch you and diagnose what kind of Akihabara sensibility you carry.",
+      "eventChecklistDescription": "秋葉原の出来事で、引っかかった項目をチェックしてください。終わったら画面右下の「診断へ」を選んでください。",
+      "eventChecklistDescription_en": "Check Akihabara events that resonate with you. When done, press \"Diagnose\" at the bottom-right."
+    },
+    "jimbocho03": {
+      "filePath": "timeline_jimbocho_03.json",
+      "aiProvider": "gemini",
+      "temperature": 1.0,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "candidateDisplay": {
+        "languageMode": "primaryOnly"
+      },
+      "step1Texts": {
+        "privacyNotice": "※入力した内容や選択内容は、神保町診断結果の表示や集計に使わせていただきます。",
+        "privacyNotice_en": "Your inputs and selections are used to show and aggregate Jimbocho diagnosis results.",
+        "selectionGuide": "心に残っている本や読書文化の項目をチェックボックスで選んでください。",
+        "selectionGuide_en": "Use checkboxes to select books and reading-culture items that stayed with you.",
+        "minimumSelectionNotice": "※リアルタイムで触れていなくても、好きだった・影響を受けた本や読書文化をチェックしてください（{min}個以上、{recommended}個程度までが適切です）。次画面で生年をセットしたあとに動かす〇マーカーは生年以前へも動かせます。時期が偏っていても問題ありません。",
+        "minimumSelectionNotice_en": "Check books and reading-culture items you liked or were influenced by, even if not in real time (at least {min} items, around {recommended} is recommended). After setting your birth year, the 〇 marker can be moved before your birth year. Time bias is okay.",
+        "startButton": "神保町診断スタート",
+        "startButton_en": "Start Jimbocho Diagnosis"
+      },
+      "mode2Profile": {
+        "shareHashtag": "#神保町診断",
+        "shareHashtag_en": "#JimbochoDiagnosis",
+        "meaningChoices": [
+          {
+            "code": "like",
+            "label": "好き",
+            "label_en": "Like",
+            "description": "内容や空気感そのものに惹かれた。",
+            "description_en": "I was naturally drawn to its content and atmosphere.",
+            "scoreKey": "taste",
+            "weight": 1.2
+          },
+          {
+            "code": "visited",
+            "label": "通った",
+            "label_en": "Kept visiting",
+            "description": "実際に足を運び、滞在し、街のリズムに馴染んでいった。",
+            "description_en": "I physically visited repeatedly, stayed, and blended into the district rhythm.",
+            "scoreKey": "self",
+            "weight": 2.6
+          },
+          {
+            "code": "searched",
+            "label": "探し歩いた",
+            "label_en": "Searched on foot",
+            "description": "本、店、路地、記憶の断片を自分の足で探し歩いた。",
+            "description_en": "I walked to search for books, stores, alleys, and memory fragments.",
+            "scoreKey": "admiration",
+            "weight": 2.2
+          },
+          {
+            "code": "revisited",
+            "label": "読み返した",
+            "label_en": "Re-read",
+            "description": "本や雑誌、作品として繰り返し触れ、読みの層が増えた。",
+            "description_en": "I repeatedly revisited books and magazines, deepening interpretive layers.",
+            "scoreKey": "repeat",
+            "weight": 3.0
+          },
+          {
+            "code": "opened_circuit",
+            "label": "知の回路が開いた",
+            "label_en": "Opened an intellectual circuit",
+            "description": "学問・思想・編集・出版・専門知への入口になった。",
+            "description_en": "It became a gateway to scholarship, thought, editing, publishing, and expertise.",
+            "scoreKey": "discovery",
+            "weight": 2.6
+          },
+          {
+            "code": "city_layers",
+            "label": "街の層を感じた",
+            "label_en": "Felt the city's layers",
+            "description": "古書店、大学、出版社、喫茶、地下鉄、路地の重なりを実感した。",
+            "description_en": "I sensed layers across old bookstores, universities, publishers, cafes, subways, and alleys.",
+            "scoreKey": "impact",
+            "weight": 3.8
+          },
+          {
+            "code": "my_shelf",
+            "label": "自分の棚にある",
+            "label_en": "On my own shelf",
+            "description": "自分の人格、記憶、仕事の一部として棚に定着している。",
+            "description_en": "It is settled on my shelf as part of my identity, memory, and work.",
+            "scoreKey": "self",
+            "weight": 4.8
+          },
+          {
+            "code": "guide_others",
+            "label": "誰かを案内したい",
+            "label_en": "Want to guide someone there",
+            "description": "他人に伝えたい、連れて行きたい、語りたいという衝動がある。",
+            "description_en": "I feel an urge to tell others, take them there, and talk about it.",
+            "scoreKey": "oshi",
+            "weight": 2.9
+          }
+        ],
+        "scoring": {
+          "attributeWeights": {
+            "archive": 1.1,
+            "author": 1.05,
+            "crossing": 0.96
+          },
+          "attributeBias": {
+            "world": 0.15,
+            "daily": 0.2
+          },
+          "meaningWeights": {
+            "opened_circuit": {
+              "author": 1.2,
+              "archive": 1.12
+            },
+            "city_layers": {
+              "crossing": 1.18,
+              "world": 1.08
+            },
+            "my_shelf": {
+              "daily": 1.2,
+              "repeat": 1.1
+            },
+            "guide_others": {
+              "crossing": 1.1,
+              "author": 1.08
+            }
+          },
+          "diversityPenalty": 0.4,
+          "dominanceCap": {
+            "maxRatio": 1.9,
+            "strength": 0.25
+          }
+        },
+        "roleLabels": {
+          "mainJa": "主属性",
+          "mainEn": "Main Trait",
+          "subJa": "副属性",
+          "subEn": "Sub Trait",
+          "hiddenJa": "裏属性",
+          "hiddenEn": "Hidden Trait"
+        },
+        "lowerModuleLabels": {
+          "deepJa": "濃い読書文化圏",
+          "deepEn": "Deep Reading Culture Modules",
+          "generalJa": "惹かれやすい領域",
+          "generalEn": "Areas You Naturally Gravitate Toward"
+        },
+        "epithetLabel": {
+          "ja": "あなたの読書文化異名",
+          "en": "Your Reading-Culture Epithet"
+        },
+        "attributes": [
+          { "key": "world", "ja": "古書探索", "en": "Antiquarian Search", "short": "古書", "code": "BS", "family": "street", "desc": "古書店の棚を横断し、思わぬ出会いを掘り当てる資質です。", "descEn": "You traverse used-book shelves and uncover unexpected finds." },
+          { "key": "mechanism", "ja": "出版編集感覚", "en": "Editorial-Publishing Sense", "short": "編集", "code": "ED", "family": "edit", "desc": "版や編集設計、出版の構造に目が向く資質です。", "descEn": "You naturally focus on editions, editorial design, and publishing structures." },
+          { "key": "future", "ja": "新しい本屋感受", "en": "New Bookstore Sensibility", "short": "新店", "code": "NB", "family": "street", "desc": "新しい書店文化や読書導線の変化に反応する資質です。", "descEn": "You respond to shifts in new bookstore culture and reading pathways." },
+          { "key": "aberration", "ja": "路地裏回遊", "en": "Back-Alley Wandering", "short": "路地", "code": "AL", "family": "street", "desc": "裏通りや小さな棚に潜む濃い文脈へ回遊する資質です。", "descEn": "You wander toward dense contexts hidden in alleys and small stacks." },
+          { "key": "daily", "ja": "喫茶／カレー滞留", "en": "Cafe & Curry Dwell", "short": "喫茶", "code": "CF", "family": "daily", "desc": "喫茶と食の時間に読書体験を重ねる資質です。", "descEn": "You layer reading experiences with cafe and curry dwell time." },
+          { "key": "crossing", "ja": "都市交通観測", "en": "Urban Transit Observer", "short": "交通", "code": "TR", "family": "street", "desc": "駅・出口・動線を含めた街の読書回遊を楽しむ資質です。", "descEn": "You enjoy city reading circulation including stations, exits, and routes." },
+          { "key": "boyhood", "ja": "専門書深掘り", "en": "Specialist Deep-Dive", "short": "専門", "code": "SP", "family": "study", "desc": "特定分野を継続的に掘り下げる調査的な資質です。", "descEn": "You have an investigative trait for sustained deep-dives into specialties." },
+          { "key": "girlhood", "ja": "学生街知性", "en": "Campus-District Intellect", "short": "学生", "code": "CD", "family": "study", "desc": "学生街の議論や知の空気に共振する資質です。", "descEn": "You resonate with the argumentative and intellectual air of campus districts." },
+          { "key": "repeat", "ja": "漫画・雑誌文化", "en": "Manga/Magazine Culture", "short": "雑誌", "code": "MG", "family": "periodical", "desc": "連続する号や連載を追う反復的な愛着が強い資質です。", "descEn": "You have strong repeat attachment to serialized issues and magazine culture." },
+          { "key": "author", "ja": "文学・思想親和", "en": "Literature & Thought Affinity", "short": "思想", "code": "LT", "family": "study", "desc": "文学と思想の対話を読み継ぐ資質です。", "descEn": "You keep reading through the dialogue between literature and thought." },
+          { "key": "archive", "ja": "アーカイブ蒐集", "en": "Archive Collecting", "short": "蒐集", "code": "AR", "family": "archive", "desc": "目録・奥付・版を記録として積み上げる資質です。", "descEn": "You accumulate catalogs, colophons, and editions as archives." }
+        ],
+        "deepModules": [
+          { "key": "archive", "ja": "アーカイブ蒐集", "en": "Archive Collection" },
+          { "key": "authoring", "ja": "編集／執筆文化", "en": "Editing / Writing Culture" },
+          { "key": "doujin", "ja": "同人／自主制作誌", "en": "Doujin / Indie Publishing" },
+          { "key": "anonnet", "ja": "匿名読書コミュニティ", "en": "Anonymous Reading Communities" },
+          { "key": "watchalong", "ja": "読書会／共同読解", "en": "Reading Circles / Shared Reading" },
+          { "key": "wa", "ja": "和書／伝承文化", "en": "Japanese Books / Folklore" }
+        ],
+        "generalModules": [
+          { "key": "storyworld", "ja": "物語世界", "en": "Story Worlds" },
+          { "key": "character", "ja": "登場人物愛着", "en": "Character Attachment" },
+          { "key": "dailyfun", "ja": "日常読書", "en": "Everyday Reading" },
+          { "key": "creativetools", "ja": "創作ツール", "en": "Creative Tools" },
+          { "key": "netsocial", "ja": "読書コミュニティ", "en": "Reading Communities" },
+          { "key": "nostalgia", "ja": "ノスタルジー", "en": "Nostalgia" }
+        ],
+        "practiceModes": [
+          { "key": "watch", "ja": "読む", "en": "Read" },
+          { "key": "use", "ja": "使う", "en": "Use" },
+          { "key": "collect", "ja": "集める", "en": "Collect" },
+          { "key": "create", "ja": "作る", "en": "Create" },
+          { "key": "modify", "ja": "編む", "en": "Edit" },
+          { "key": "support", "ja": "推す", "en": "Support" },
+          { "key": "talk", "ja": "語る", "en": "Discuss" },
+          { "key": "research", "ja": "調べる", "en": "Research" }
+        ],
+        "epithetInstructions": {
+          "ja": "異名は、書店回遊・読書習慣・出版文化の手触りが伝わる語で構成してください。作品名の直書きは避け、棚・街・余白・版の比喩へ変換してください。",
+          "en": "Compose epithets with words that convey bookstore wandering, reading habits, and publishing culture. Avoid direct titles; translate them into metaphors of shelves, streets, margins, and editions."
+        },
+        "epithetVocabularyHints": {
+          "ja": ["棚", "路地", "紙魚", "目録", "奥付", "背表紙", "古書市", "喫茶店", "カレー", "地下鉄出口", "坂", "出版社", "校正刷り", "雑誌棚", "学生街", "裏通り", "岩波", "靖国通り"],
+          "en": ["shelf", "alley", "bookworm", "catalog", "colophon", "spine", "used-book fair", "coffeehouse", "curry", "subway exit", "slope", "publisher", "galley proof", "magazine rack", "student district", "back street", "Iwanami", "Yasukuni Street"]
+        }
+      },
+      "topTitle": "Xnative/Timeline 神保町読書文化・クロノロジー診断テスト",
+      "topTitle_en": "Xnative/Timeline Jimbocho Reading Culture Diagnosis",
+      "topDescription": "あなたが特に好きだった本・雑誌・読書文化や、影響を受けた書店体験・出版文化を選んでいくことで、あなたの読書文化のネイティブ感性を診断します。",
+      "topDescription_en": "Choose books, magazines, reading habits, bookstore experiences, and publishing culture that influenced you to diagnose your native reading-culture sensibility.",
+      "eventChecklistDescription": "心に残っている本や読書文化の項目をチェックしてください。終わったら画面右下の「診断へ」を選んでください。",
+      "eventChecklistDescription_en": "Check books and reading-culture items that stayed with you. When done, press \"Diagnose\" at the bottom-right.",
+      "diagnosticProfile": {
+        "minSelectionCount": 5,
+        "recommendedSelectionCount": 10,
+        "meaningDefs": [
+          { "key": "taste", "labelJa": "好み", "labelEn": "Taste", "weight": 1.0 },
+          { "key": "moe", "labelJa": "萌え", "labelEn": "Moe", "weight": 1.25 },
+          { "key": "impact", "labelJa": "影響", "labelEn": "Impact", "weight": 1.45 },
+          { "key": "repeat", "labelJa": "繰り返し触れた", "labelEn": "Returned to", "weight": 1.2 },
+          { "key": "self", "labelJa": "自分らしい", "labelEn": "Feels like me", "weight": 1.55 },
+          { "key": "oshi", "labelJa": "推す", "labelEn": "Oshi / Support", "weight": 1.35 }
+        ],
+        "lowerModuleLabels": {
+          "deepJa": "濃い文化圏",
+          "deepEn": "Strong Cultural Modules",
+          "generalJa": "惹かれやすい領域",
+          "generalEn": "Areas You Naturally Gravitate Toward"
+        },
+        "shareHashtag": "#神保町診断",
+        "screenLabels": {
+          "resultPageTitleJa": "あなたの選択から読み解いた\"読書文化資質\"",
+          "resultPageTitleEn": "Your reading-culture traits read from your selections",
+          "attrsGuideButtonJa": "\"読書文化資質\"とは",
+          "attrsGuideButtonEn": "What are reading-culture traits?",
+          "attrsGuideIntroJa": "この診断で使う属性の一覧です。あなたが選んだ項目と意味づけタグから読み取った、読書文化の嗜好ラベルです。",
+          "attrsGuideIntroEn": "These traits are cultural-reading preference labels inferred from your selections and meaning tags.",
+          "shareTitleJa": "神保町診断",
+          "shareTitleEn": "Jimbocho Diagnosis",
+          "shareImageFileBaseJa": "jimbocho-diagnosis",
+          "shareImageFileBaseEn": "jimbocho-diagnosis",
+          "attributesSectionJa": "資質",
+          "attributesSectionEn": "Traits",
+          "epithetSectionJa": "あなたの異名",
+          "epithetSectionEn": "Your Epithet",
+          "emblemSectionJa": "あなたの記号",
+          "emblemSectionEn": "Your Emblem",
+          "overallSectionJa": "総評",
+          "overallSectionEn": "Overview",
+          "selectionStatusSectionJa": "選んだ本と文化項目",
+          "selectionStatusSectionEn": "Selected Books and Cultural Items",
+          "reasonLabelJa": "理由",
+          "reasonLabelEn": "Reason",
+          "personalQrButtonJa": "個人レポートのQRを表示",
+          "personalQrButtonEn": "Show QR for personal report",
+          "personalQrDescriptionJa": "QRを読み取ると、選択した本と診断結果テキストが表示されます。",
+          "personalQrDescriptionEn": "Scanning the QR shows selected books and diagnosis text.",
+          "noAttributesJa": "（判定なし）",
+          "noAttributesEn": "(No traits)",
+          "noMatchingModulesJa": "（該当なし）",
+          "noMatchingModulesEn": "(No matching modules)",
+          "subHiddenSectionJa": "副属性・裏属性",
+          "subHiddenSectionEn": "Sub / Hidden Attributes",
+          "helpAudienceJa": "読書文化好き",
+          "helpAudienceEn": "reading-culture fans",
+          "mainAttributeJa": "主属性",
+          "mainAttributeEn": "Main Trait",
+          "subAttributeJa": "副属性",
+          "subAttributeEn": "Sub Trait",
+          "hiddenAttributeJa": "裏属性",
+          "hiddenAttributeEn": "Hidden Trait"
+        }
+      }
     }
   },
   "default": {
