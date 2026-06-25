@@ -3539,7 +3539,8 @@
     },
     {
       "code": "CONTENT",
-      "label": "Content related to Akihabara",
+      "label": "アキバ関連作品",
+      "label_en": "Content related to Akihabara",
       "conjunction": false
     },
     {
