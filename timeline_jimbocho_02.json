@@ -4016,20 +4016,6 @@
     ],
     "2013": [
       {
-        "label": "mAAch ecute神田万世橋開業、神田川沿いの赤レンガ高架が再活用される",
-        "startYear": 2013,
-        "genre": [
-          "CULTURE",
-          "TRANSPORT",
-          "SIDE_STREET"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%81%E3%82%A8%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E7%A5%9E%E7%94%B0%E4%B8%87%E4%B8%96%E6%A9%8B",
-        "note": "神保町から秋葉原・御茶ノ水へ歩く回遊ルートの一部として配置。",
-        "label_en": "mAAch ecute Kanda Manseibashi opens, reusing the red-brick elevated structure along the Kanda River",
-        "note_en": "Included as part of the walking route from Jimbocho toward Akihabara and Ochanomizu."
-      },
-      {
         "label": "新刊出版点数がピークを打ち、古本供給にも影を落とす",
         "startYear": 2013,
         "genre": [
@@ -4041,6 +4027,21 @@
         "note": "kosho2では、2013年の新刊8万2589点をピークに出版点数が下落へ転じ、将来の古本市場に出回る本の供給も細るという見方を示している。",
         "label_en": "New-book title output peaks and foreshadows thinner used-book supply",
         "note_en": "Fewer new books imply fewer future used books."
+      },
+      {
+        "label": "mAAch ecute神田万世橋開業、神田川沿いの赤レンガ高架が再活用される",
+        "startYear": "2013",
+        "genre": [
+          "CULTURE",
+          "TRANSPORT",
+          "SIDE_STREET"
+        ],
+        "imp": 3,
+        "url": "https://www.ecute.jp/maach",
+        "note": "神保町から秋葉原・御茶ノ水へ歩く回遊ルートの一部として配置。",
+        "label_en": "mAAch ecute Kanda Manseibashi opens, reusing the red-brick elevated structure along the Kanda River",
+        "note_en": "Included as part of the walking route from Jimbocho toward Akihabara and Ochanomizu.",
+        "_rev": "1782562856610-ee10gs4z"
       }
     ],
     "2014": [
