@@ -860,6 +860,58 @@
           "hiddenAttributeEn": "Hidden Trait"
         }
       }
+    },
+    "nagaoka": {
+      "filePath": "timeline_nagaoka_02.json",
+      "aiProvider": "gemini",
+      "temperature": 1.0,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "topTitle": "Xnative/Timeline 長岡クロノロジー診断",
+      "topTitle_en": "Xnative/Timeline Nagaoka Chronology Diagnosis",
+      "topDescription": "長岡の年表から気になる出来事を選び、あなたの関心傾向を診断します。",
+      "topDescription_en": "Pick events from the Nagaoka timeline to diagnose your interest patterns.",
+      "eventChecklistDescription": "気になる項目をチェックしてください。",
+      "eventChecklistDescription_en": "Check the items that resonate with you."
+    },
+    "ai": {
+      "filePath": "timeline_ai_02.json",
+      "aiProvider": "gemini",
+      "temperature": 1.0,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "topTitle": "Xnative/Timeline AIクロノロジー診断",
+      "topTitle_en": "Xnative/Timeline AI Chronology Diagnosis",
+      "topDescription": "AI年表から気になる出来事を選び、あなたの関心傾向を診断します。",
+      "topDescription_en": "Pick events from the AI timeline to diagnose your interest patterns.",
+      "eventChecklistDescription": "気になる項目をチェックしてください。",
+      "eventChecklistDescription_en": "Check the items that resonate with you."
+    },
+    "digital": {
+      "filePath": "timeline_digital_02.json",
+      "aiProvider": "gemini",
+      "temperature": 1.0,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "topTitle": "Xnative/Timeline デジタル史クロノロジー診断",
+      "topTitle_en": "Xnative/Timeline Digital History Chronology Diagnosis",
+      "topDescription": "デジタル史年表から気になる出来事を選び、あなたの関心傾向を診断します。",
+      "topDescription_en": "Pick events from the digital-history timeline to diagnose your interest patterns.",
+      "eventChecklistDescription": "気になる項目をチェックしてください。",
+      "eventChecklistDescription_en": "Check the items that resonate with you."
+    },
+    "popculture": {
+      "filePath": "timeline_popculture_02.json",
+      "aiProvider": "gemini",
+      "temperature": 1.0,
+      "initialBirthYear": 1990,
+      "initialEventYear": 2010,
+      "topTitle": "Xnative/Timeline ポップカルチャー診断",
+      "topTitle_en": "Xnative/Timeline Pop Culture Diagnosis",
+      "topDescription": "ポップカルチャー年表から気になる出来事を選び、あなたの関心傾向を診断します。",
+      "topDescription_en": "Pick events from the pop-culture timeline to diagnose your interest patterns.",
+      "eventChecklistDescription": "気になる項目をチェックしてください。",
+      "eventChecklistDescription_en": "Check the items that resonate with you."
     }
   },
   "default": {
