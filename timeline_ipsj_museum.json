@@ -23,127 +23,127 @@
   },
   "genres": [
     {
-      "id": "WORLD",
+      "code": "WORLD",
       "label": "[世界]",
       "label_en": "[World]",
       "conjunction": true
     },
     {
-      "id": "JAPAN",
+      "code": "JAPAN",
       "label": "[日本]",
       "label_en": "[Japan]",
       "conjunction": true
     },
     {
-      "id": "DAWN",
+      "code": "DAWN",
       "label": "黎明期のコンピュータ",
       "label_en": "Dawn",
       "conjunction": false
     },
     {
-      "id": "MAINFRAME",
+      "code": "MAINFRAME",
       "label": "メインフレーム",
       "label_en": "Mainframe",
       "conjunction": false
     },
     {
-      "id": "SUPERCOMPUTER",
+      "code": "SUPERCOMPUTER",
       "label": "スーパーコンピュータ",
       "label_en": "Supercomputer",
       "conjunction": false
     },
     {
-      "id": "UNIX_SERVER",
+      "code": "UNIX_SERVER",
       "label": "UNIXサーバ",
       "label_en": "Unix Server",
       "conjunction": false
     },
     {
-      "id": "PC_SERVER",
+      "code": "PC_SERVER",
       "label": "PCサーバ",
       "label_en": "Pc Server",
       "conjunction": false
     },
     {
-      "id": "OFFICE_COMPUTER",
+      "code": "OFFICE_COMPUTER",
       "label": "オフィスコンピュータ",
       "label_en": "Office Computer",
       "conjunction": false
     },
     {
-      "id": "MINICOMPUTER",
+      "code": "MINICOMPUTER",
       "label": "ミニコンピュータ",
       "label_en": "Minicomputer",
       "conjunction": false
     },
     {
-      "id": "WORKSTATION",
+      "code": "WORKSTATION",
       "label": "ワークステーション",
       "label_en": "Workstation",
       "conjunction": false
     },
     {
-      "id": "PERSONAL_COMPUTER",
+      "code": "PERSONAL_COMPUTER",
       "label": "パーソナルコンピュータ",
       "label_en": "Personal Computer",
       "conjunction": false
     },
     {
-      "id": "JAPANESE_WORD_PROCESSOR",
+      "code": "JAPANESE_WORD_PROCESSOR",
       "label": "日本語ワードプロセッサ",
       "label_en": "Japanese Word Processor",
       "conjunction": false
     },
     {
-      "id": "OTHER_COMPUTER",
+      "code": "OTHER_COMPUTER",
       "label": "その他のコンピュータ",
       "label_en": "Other Computer",
       "conjunction": false
     },
     {
-      "id": "PAPER_CARD_IO",
+      "code": "PAPER_CARD_IO",
       "label": "紙テープ・カード入出力装置",
       "label_en": "Paper Card Io",
       "conjunction": false
     },
     {
-      "id": "MAGNETIC_TAPE",
+      "code": "MAGNETIC_TAPE",
       "label": "磁気テープ装置",
       "label_en": "Magnetic Tape",
       "conjunction": false
     },
     {
-      "id": "MAGNETIC_DISK",
+      "code": "MAGNETIC_DISK",
       "label": "磁気ディスク装置",
       "label_en": "Magnetic Disk",
       "conjunction": false
     },
     {
-      "id": "MAGNETIC_DRUM",
+      "code": "MAGNETIC_DRUM",
       "label": "磁気ドラム装置",
       "label_en": "Magnetic Drum",
       "conjunction": false
     },
     {
-      "id": "PRINTER",
+      "code": "PRINTER",
       "label": "プリンタ",
       "label_en": "Printer",
       "conjunction": false
     },
     {
-      "id": "MAINFRAME_OS",
+      "code": "MAINFRAME_OS",
       "label": "メインフレーム用OS",
       "label_en": "Mainframe Os",
       "conjunction": false
     },
     {
-      "id": "OFFICE_COMPUTER_OS",
+      "code": "OFFICE_COMPUTER_OS",
       "label": "オフコン用OS",
       "label_en": "Office Computer Os",
       "conjunction": false
     },
     {
-      "id": "OCR",
+      "code": "OCR",
       "label": "OCR",
       "label_en": "Ocr",
       "conjunction": false
