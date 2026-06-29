@@ -4607,19 +4607,19 @@
       "code": "EDUCATION",
       "label": "大学・教育",
       "label_en": "Universities/Education",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "PRINTING",
       "label": "印刷・製本・取次",
       "label_en": "Printing/Binding/Distribution",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "MAGAZINE_MANGA",
       "label": "雑誌・マンガ",
       "label_en": "Magazines/Manga",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "CULTURE",
@@ -4631,19 +4631,19 @@
       "code": "PUBLISHING_JP",
       "label": "日本の出版事情",
       "label_en": "Japanese Publishing Context",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "DIGITAL",
       "label": "デジタル・電子出版",
       "label_en": "Digital/E-publishing",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "TRANSPORT",
       "label": "交通・駅・都市動線",
       "label_en": "Transport/Stations/Urban Flow",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "CURRY_CAFE",
@@ -4655,25 +4655,25 @@
       "code": "SIDE_STREET",
       "label": "裏通り・小店・まち歩き",
       "label_en": "Backstreets/Small Shops/Walkability",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "MUSIC_ART",
       "label": "音楽・美術・趣味文化",
       "label_en": "Music/Art/Hobby Culture",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "TOURISM",
       "label": "観光・国際評価",
       "label_en": "Tourism/Global Recognition",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "SPORTS_OUTDOOR",
       "label": "スポーツ・登山・アウトドア",
       "label_en": "Sports/Outdoor",
-      "conjunction": true
+      "conjunction": false
     },
     {
       "code": "URBAN",
