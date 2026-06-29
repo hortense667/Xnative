@@ -21,134 +21,6 @@
     "source": "https://museum.ipsj.or.jp/index.html",
     "notes": "Genre labels follow the IPSJ Computer Museum categories. Entries marked 〖世界〗/【世界】 are assigned [世界]; the rest are assigned [日本]. Linked chronology items keep their target URL; unlinked items omit url."
   },
-  "genres": [
-    {
-      "code": "WORLD",
-      "label": "[世界]",
-      "label_en": "[World]",
-      "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "[日本]",
-      "label_en": "[Japan]",
-      "conjunction": true
-    },
-    {
-      "code": "DAWN",
-      "label": "黎明期のコンピュータ",
-      "label_en": "Dawn",
-      "conjunction": false
-    },
-    {
-      "code": "MAINFRAME",
-      "label": "メインフレーム",
-      "label_en": "Mainframe",
-      "conjunction": false
-    },
-    {
-      "code": "SUPERCOMPUTER",
-      "label": "スーパーコンピュータ",
-      "label_en": "Supercomputer",
-      "conjunction": false
-    },
-    {
-      "code": "UNIX_SERVER",
-      "label": "UNIXサーバ",
-      "label_en": "Unix Server",
-      "conjunction": false
-    },
-    {
-      "code": "PC_SERVER",
-      "label": "PCサーバ",
-      "label_en": "Pc Server",
-      "conjunction": false
-    },
-    {
-      "code": "OFFICE_COMPUTER",
-      "label": "オフィスコンピュータ",
-      "label_en": "Office Computer",
-      "conjunction": false
-    },
-    {
-      "code": "MINICOMPUTER",
-      "label": "ミニコンピュータ",
-      "label_en": "Minicomputer",
-      "conjunction": false
-    },
-    {
-      "code": "WORKSTATION",
-      "label": "ワークステーション",
-      "label_en": "Workstation",
-      "conjunction": false
-    },
-    {
-      "code": "PERSONAL_COMPUTER",
-      "label": "パーソナルコンピュータ",
-      "label_en": "Personal Computer",
-      "conjunction": false
-    },
-    {
-      "code": "JAPANESE_WORD_PROCESSOR",
-      "label": "日本語ワードプロセッサ",
-      "label_en": "Japanese Word Processor",
-      "conjunction": false
-    },
-    {
-      "code": "OTHER_COMPUTER",
-      "label": "その他のコンピュータ",
-      "label_en": "Other Computer",
-      "conjunction": false
-    },
-    {
-      "code": "PAPER_CARD_IO",
-      "label": "紙テープ・カード入出力装置",
-      "label_en": "Paper Card Io",
-      "conjunction": false
-    },
-    {
-      "code": "MAGNETIC_TAPE",
-      "label": "磁気テープ装置",
-      "label_en": "Magnetic Tape",
-      "conjunction": false
-    },
-    {
-      "code": "MAGNETIC_DISK",
-      "label": "磁気ディスク装置",
-      "label_en": "Magnetic Disk",
-      "conjunction": false
-    },
-    {
-      "code": "MAGNETIC_DRUM",
-      "label": "磁気ドラム装置",
-      "label_en": "Magnetic Drum",
-      "conjunction": false
-    },
-    {
-      "code": "PRINTER",
-      "label": "プリンタ",
-      "label_en": "Printer",
-      "conjunction": false
-    },
-    {
-      "code": "MAINFRAME_OS",
-      "label": "メインフレーム用OS",
-      "label_en": "Mainframe Os",
-      "conjunction": false
-    },
-    {
-      "code": "OFFICE_COMPUTER_OS",
-      "label": "オフコン用OS",
-      "label_en": "Office Computer Os",
-      "conjunction": false
-    },
-    {
-      "code": "OCR",
-      "label": "OCR",
-      "label_en": "Ocr",
-      "conjunction": false
-    }
-  ],
   "events": {
     "1643": [
       {
@@ -377,16 +249,6 @@
     ],
     "1945": [
       {
-        "label": ")を基にしたEDVAC完成",
-        "startYear": 1945,
-        "genre": [
-          "JAPAN",
-          "DAWN"
-        ],
-        "imp": 3,
-        "note": "情報処理学会コンピュータ博物館「黎明期のコンピュータ」年表より。"
-      },
-      {
         "label": "J.v.Neumann：EDVACに関する報告書初稿（プログラム内蔵方式の概念を示す）",
         "startYear": 1945,
         "genre": [
@@ -537,6 +399,17 @@
         "imp": 3,
         "note": "情報処理学会コンピュータ博物館「黎明期のコンピュータ」年表より。",
         "startMonth": 10
+      },
+      {
+        "label": "【世界】Univ. of Pennsylvania：J.v.Neumannの報告書(1945年)を基にしたEDVAC完成",
+        "startYear": "1951",
+        "genre": [
+          "JAPAN",
+          "DAWN"
+        ],
+        "imp": 3,
+        "note": "情報処理学会コンピュータ博物館「黎明期のコンピュータ」年表より。",
+        "_rev": "1782693263591-i6wvaupn"
       }
     ],
     "1952": [
@@ -15508,5 +15381,134 @@
         "url": "https://museum.ipsj.or.jp/computer/personal/0044.html"
       }
     ]
-  }
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "WORLD",
+      "label": "[世界]",
+      "label_en": "[World]",
+      "conjunction": true
+    },
+    {
+      "code": "JAPAN",
+      "label": "[日本]",
+      "label_en": "[Japan]",
+      "conjunction": true
+    },
+    {
+      "code": "DAWN",
+      "label": "黎明期のコンピュータ",
+      "label_en": "Dawn",
+      "conjunction": false
+    },
+    {
+      "code": "MAINFRAME",
+      "label": "メインフレーム",
+      "label_en": "Mainframe",
+      "conjunction": false
+    },
+    {
+      "code": "SUPERCOMPUTER",
+      "label": "スーパーコンピュータ",
+      "label_en": "Supercomputer",
+      "conjunction": false
+    },
+    {
+      "code": "UNIX_SERVER",
+      "label": "UNIXサーバ",
+      "label_en": "Unix Server",
+      "conjunction": false
+    },
+    {
+      "code": "PC_SERVER",
+      "label": "PCサーバ",
+      "label_en": "Pc Server",
+      "conjunction": false
+    },
+    {
+      "code": "OFFICE_COMPUTER",
+      "label": "オフィスコンピュータ",
+      "label_en": "Office Computer",
+      "conjunction": false
+    },
+    {
+      "code": "MINICOMPUTER",
+      "label": "ミニコンピュータ",
+      "label_en": "Minicomputer",
+      "conjunction": false
+    },
+    {
+      "code": "WORKSTATION",
+      "label": "ワークステーション",
+      "label_en": "Workstation",
+      "conjunction": false
+    },
+    {
+      "code": "PERSONAL_COMPUTER",
+      "label": "パーソナルコンピュータ",
+      "label_en": "Personal Computer",
+      "conjunction": false
+    },
+    {
+      "code": "JAPANESE_WORD_PROCESSOR",
+      "label": "日本語ワードプロセッサ",
+      "label_en": "Japanese Word Processor",
+      "conjunction": false
+    },
+    {
+      "code": "OTHER_COMPUTER",
+      "label": "その他のコンピュータ",
+      "label_en": "Other Computer",
+      "conjunction": false
+    },
+    {
+      "code": "PAPER_CARD_IO",
+      "label": "紙テープ・カード入出力装置",
+      "label_en": "Paper Card Io",
+      "conjunction": false
+    },
+    {
+      "code": "MAGNETIC_TAPE",
+      "label": "磁気テープ装置",
+      "label_en": "Magnetic Tape",
+      "conjunction": false
+    },
+    {
+      "code": "MAGNETIC_DISK",
+      "label": "磁気ディスク装置",
+      "label_en": "Magnetic Disk",
+      "conjunction": false
+    },
+    {
+      "code": "MAGNETIC_DRUM",
+      "label": "磁気ドラム装置",
+      "label_en": "Magnetic Drum",
+      "conjunction": false
+    },
+    {
+      "code": "PRINTER",
+      "label": "プリンタ",
+      "label_en": "Printer",
+      "conjunction": false
+    },
+    {
+      "code": "MAINFRAME_OS",
+      "label": "メインフレーム用OS",
+      "label_en": "Mainframe Os",
+      "conjunction": false
+    },
+    {
+      "code": "OFFICE_COMPUTER_OS",
+      "label": "オフコン用OS",
+      "label_en": "Office Computer Os",
+      "conjunction": false
+    },
+    {
+      "code": "OCR",
+      "label": "OCR",
+      "label_en": "Ocr",
+      "conjunction": false
+    }
+  ]
 }
