@@ -1,19 +1,75 @@
 {
   "schemaVersion": 1,
   "description": "Short xid parameter → URL query string for Xnative share/deep links (hortense667/xnative)",
-  "updatedAt": "2026-06-18",
+  "updatedAt": "2026-06-29",
   "entries": {
-    "jimbocho02": {
-      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_jimbocho_02.json",
+    "jimbocho03": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_jimbocho_03.json",
       "label": "神田神保町年表 0.2"
     },
-    "akihabara02": {
-      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_akihabara_02.json",
-      "label": "秋葉原年表 0.2"
+    "jimbocho02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_jimbocho_02.json",
+      "label": "神田神保町年表 0.2 (prev)"
     },
     "initial00": {
-      "params": "owner=someuser&repo=akihabara-timeline&filePath=timeline_initial_00.json",
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_initial_00.json",
       "label": "Xnative 初期年表"
+    },
+    "popculture02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json",
+      "label": "ポップカルチャー年表 0.2"
+    },
+    "digital02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_digital_02.json",
+      "label": "デジタル史年表 0.2"
+    },
+    "background02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_background_02.json",
+      "label": "時代背景年表 0.2"
+    },
+    "ai02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ai_02.json",
+      "label": "AI史年表 0.2"
+    },
+    "akihabara02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_akihabara_02.json",
+      "label": "秋葉原年表 0.2"
+    },
+    "gadget02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_gadget_02.json",
+      "label": "ガジェット年表 0.2"
+    },
+    "cp01": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_cp_01.json",
+      "label": "コンピュータ史年表 0.1"
+    },
+    "nagaoka01": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_nagaoka_01.json",
+      "label": "長岡年表 0.1"
+    },
+    "nagaoka02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_nagaoka_02.json",
+      "label": "長岡年表 0.2"
+    },
+    "ipsMuseum": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ips_museum.json",
+      "label": "情報処理学会年表（博物館）"
+    },
+    "ipsjMuseum": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ipsj_museum.json",
+      "label": "IPSJ Museum 年表"
+    },
+    "cyberbooks00": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_00.json",
+      "label": "Cyberbooks 年表 0.0"
+    },
+    "cyberbooks01": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_01.json",
+      "label": "Cyberbooks 年表 0.1"
+    },
+    "cyberbooks02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_02.json",
+      "label": "Cyberbooks 年表 0.2"
     }
   }
 }
