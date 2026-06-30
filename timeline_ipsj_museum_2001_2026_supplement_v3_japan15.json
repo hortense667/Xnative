@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": {
-      "ja": "情報処理学会 コンピュータ博物館 年表 補遺 2001-2026 日本中心版",
+      "ja": "情報処理学会 コンピュータ博物館（補遺案）",
       "en": "IPSJ Computer Museum Timeline Supplement 2001-2026 Japan-focused edition"
     },
     "description": {
-      "ja": "情報処理学会コンピュータ博物館年表の2001年以降を補うため、日本の項目を各年15件程度、海外項目を参考数件に抑えて作成したXnative用データ。",
+      "ja": "情報処理学会コンピュータ博物館年表（補遺案）",
       "en": "Xnative supplement data for the IPSJ Computer Museum-style timeline after 2001, with about 15 Japan-focused entries per year and only a few overseas reference entries."
     },
     "initialCreator": "Satoshi Endo",
