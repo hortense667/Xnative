@@ -70,6 +70,14 @@
     "cyberbooks02": {
       "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_02.json",
       "label": "Cyberbooks 年表 0.2"
+    },
+    "cyberbooks02": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_02.json",
+      "label": "Cyberbooks 年表 0.2"
+    },
+    "ipsMuseum_Addendum": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ipsj_museum_2001_2026_supplement_v3_japan15.json",
+      "label": "情報処理学会 年表（補遺）"
     }
   }
 }
