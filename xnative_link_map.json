@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "description": "Short xid parameter → URL query string for Xnative share/deep links (hortense667/xnative)",
+  "description": "Short xid parameter → URL query string for Xnative share/deep links (hortense667/Xnative)",
   "updatedAt": "2026-06-29",
   "entries": {
     "jimbocho03": {
@@ -18,6 +18,14 @@
     "popculture02": {
       "params": "owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json",
       "label": "ポップカルチャー年表 0.2"
+    },
+    "popzutest04": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_popculture_02-zutest04.json",
+      "label": "ポップカルチャー年表 zutest04"
+    },
+    "popzutest05": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_popculture_02-zutest05.json",
+      "label": "ポップカルチャー年表 zutest05"
     },
     "digital02": {
       "params": "owner=hortense667&repo=xnative&filePath=timeline_digital_02.json",
@@ -55,21 +63,17 @@
       "params": "owner=hortense667&repo=xnative&filePath=timeline_ips_museum.json",
       "label": "情報処理学会年表（博物館）"
     },
-    "cyberbooks00": {
-      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_00.json",
-      "label": "Cyberbooks 年表 0.0"
-    },
-    "cyberbooks01": {
-      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_01.json",
-      "label": "Cyberbooks 年表 0.1"
-    },
-    "cyberbooks02": {
-      "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_02.json",
-      "label": "Cyberbooks 年表 0.2"
+    "ipsMuseum": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ips_museum.json",
+      "label": "情報処理学会年表（博物館）"
     },
     "ipsmuseuma": {
       "params": "owner=hortense667&repo=xnative&filePath=timeline_ips_museum_a.json",
       "label": "情報処理学会 年表（補遺）"
+    },
+    "ipsjmerged": {
+      "params": "owner=hortense667&repo=xnative&filePath=timeline_ipsj_museum_merged_plus_2001_2026_v3_japan15.json",
+      "label": "情報処理学会コンピュータ博物館年表（補遺案マージ）"
     }
   }
 }
