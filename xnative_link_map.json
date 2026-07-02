@@ -67,7 +67,7 @@
       "params": "owner=hortense667&repo=xnative&filePath=timeline_cyberbooks_02.json",
       "label": "Cyberbooks 年表 0.2"
     },
-    "ipsjmuseum_a": {
+    "ipsmuseuma": {
       "params": "owner=hortense667&repo=xnative&filePath=timeline_ips_museum_a.json",
       "label": "情報処理学会 年表（補遺）"
     }
