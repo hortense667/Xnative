@@ -760,20 +760,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Commodore_PET"
       },
       {
-        "label": "VAX-11/780",
-        "startYear": 1977,
-        "genre": [
-          "COMPUTER",
-          "JAPAN"
-        ],
-        "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/VAX",
-        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
-        "label_en": "VAX-11/780",
-        "note_en": "https://ja.wikipedia.org/wiki/VAX",
-        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780"
-      },
-      {
         "label": "TI Dataman",
         "startYear": 1977,
         "genre": [
@@ -827,6 +813,20 @@
         "label_en": "TRS-80",
         "url_en": "https://en.wikipedia.org/wiki/TRS-80",
         "note_en": "An 8-bit microcomputer sold by RadioShack."
+      },
+      {
+        "label": "VAX-11/780",
+        "startYear": "1977",
+        "genre": [
+          "COMPUTER"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/VAX",
+        "note": "DECの32ビット級ミニコンの代表機。仮想記憶で時代を画した。",
+        "label_en": "VAX-11/780",
+        "url_en": "https://en.wikipedia.org/wiki/VAX-11/780",
+        "note_en": "https://ja.wikipedia.org/wiki/VAX",
+        "_rev": "1783036127185-8ix59fsw"
       }
     ],
     "1978": [
