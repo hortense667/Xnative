@@ -2689,6 +2689,21 @@
         "label_en": "ThinkPad 220",
         "note_en": "https://ja.wikipedia.org/wiki/ThinkPad_220",
         "url_en": "https://en.wikipedia.org/wiki/ThinkPad"
+      },
+      {
+        "label": "ザウルス PI-3000",
+        "startYear": "1993",
+        "genre": [
+          "MOBILE",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%82%A6%E3%83%AB%E3%82%B9",
+        "note": "液晶ペンコムと称して電子手帳を超えるビジネスに必要な道具を一台に凝縮した新携帯情報ツール。",
+        "label_en": "Sharp Zaurus",
+        "url_en": "https://en.wikipedia.org/wiki/Sharp_Zaurus",
+        "note_en": "Dubbed the 'LCD Pencom,' this new mobile information tool condenses all the essential business tools into a single unit, surpassing the capabilities of electronic organizers.",
+        "_rev": "1783035649156-uboy3qvx"
       }
     ],
     "1994": [
