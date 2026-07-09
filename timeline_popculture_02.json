@@ -1,12 +1,12 @@
 {
   "metadata": {
     "title": {
-      "ja": "ポップカルチャー 0.1",
-      "en": "Pop culture Timeline 0.1"
+      "ja": "ポップカルチャー年表 0.2",
+      "en": "POP Culture Timeline 0.2"
     },
     "description": {
-      "ja": "この年表は日本のポップカルチャーに関する項目を選んだものです。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline presents selected entries on Japanese pop culture. It is currently in a trial release, and its content is under careful review."
+      "ja": "この年表は日本におけるポップカルチャー分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline shows major products and events in the field of pop culture in Japan. Currently, it is in a trial release stage and the content is being reviewed."
     },
     "initialCreator": "Satoshi Endo",
     "contributors": [
@@ -16,11 +16,13 @@
     "contact": {
       "administrator": {
         "name": "Satoshi Endo",
-        "x": "https://x.com/hortense667"
+        "email": "zzz@65536.net",
+        "x": "https://x.com/hortense667",
+        "organization": "ZEN University"
       }
     },
     "createdAt": "2025-10-01",
-    "version": "1.0",
+    "version": "0.2",
     "language": [
       "ja",
       "en"
@@ -28,7 +30,7 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+    "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
   "events": {
     "1945": [
@@ -178,21 +180,6 @@
         "note_en": "Japanese art magazine focusing on contemporary art."
       },
       {
-        "label": "人間失格",
-        "label_en": "No Longer Human",
-        "startYear": 1948,
-        "genre": [
-          "BOO",
-          "JAPAN",
-          "NOV"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/人間失格",
-        "url_en": "https://en.wikipedia.org/wiki/No_Longer_Human",
-        "note": "太宰治の自伝的要素を持つ代表的長編。",
-        "note_en": "Dazai’s seminal novel with autobiographical elements."
-      },
-      {
         "label": "自転車泥棒",
         "label_en": "Bicycle Thieves",
         "startYear": 1948,
@@ -218,6 +205,22 @@
         "url_en": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
         "note_en": "Iconic U.S. variety show that launched acts.",
         "_rev": "1773769238636-2t8f5zm8"
+      },
+      {
+        "label": "人間失格",
+        "startYear": "1948",
+        "genre": [
+          "BOO",
+          "NOV",
+          "JAPAN"
+        ],
+        "imp": 2,
+        "url": "https://ja.wikipedia.org/wiki/人間失格",
+        "note": "太宰治の自伝的要素を持つ代表的長編",
+        "label_en": "No Longer Human",
+        "url_en": "https://en.wikipedia.org/wiki/No_Longer_Human",
+        "note_en": "Dazai’s seminal novel with autobiographical elements.",
+        "_rev": "1783563584517-cqd5dxb3"
       }
     ],
     "1949": [
