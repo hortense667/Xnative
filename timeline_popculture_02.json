@@ -33,17 +33,6 @@
     "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
   },
   "events": {
-    "1941": [
-      {
-        "label": "テスト",
-        "startYear": "1941",
-        "genre": [
-          "MAN"
-        ],
-        "imp": 3,
-        "_rev": "1783691940932-yu57bpr7"
-      }
-    ],
     "1945": [
       {
         "label": "終戦",
