@@ -5,15 +5,16 @@ This document includes both a Japanese and an English version. The English versi
 
 ## 日本語版
 
-このリポジトリは **XnativeTimeline 用のデータ**（JSON）のみを収録しています。アプリ本体のコードは別管理です。関連ソフトウェアであるJSONのファイル変換ツールのJavaScriptは収録しています。
+このリポジトリは **XnativeTimeline 用のデータ**（JSON）のみを収録しています。アプリ本体のコードは別管理です。関連ソフトウェアであるJSONのファイル変換ツールのJavaScriptは収録しています。X 投稿用の短縮リンク定義 **`xnative_link_map.json`** も本リポジトリ直下に含みます（`?xid=...` の解決先）。
 
 ### 最初に（おすすめの始め方）
 - まずは「既にある年表を体験したい」人は、メイン年表に GitHub JSON を使うのが簡単です（owner/repo/filePath をURLで指定）。
-- 「自分で年表を作ってみたい」人は、Google Sheets（GAS経由）がおすすめです。スプレッドシートを用意してURLに `sheetApi/sheetId` 等を載せれば、すぐ共有できます。
+- 「自分で年表を作ってみたい」人は、まずローカルJSON（PC上）で作成し、仕上がったらGitHub JSONへ反映する方法がおすすめです。
 - 共有・共同編集の詳しい手順は、以下のドキュメントを参照してください。
   - GitHubで育てる（オープンな共同編集）: `timeline-sharing-github.md`
-  - Google Sheetsで運用する（少人数・低学習コスト）: `timeline-sharing-google-sheets.md`
-- Google Sheetsで管理していた年表を、GitHubで管理する **JSON形式** に移行したい場合は、変換ツール `sheet_to_json_coverter.html`（Sheets→JSON変換）を用意しています。逆に、GitHubで管理していた年表をGoogle Sheetsで管理する **JSON形式** に移行したい場合は、そのためのtsvファイルに変換ツール `json_to_tsv_coverter.html`（JSON→tsv変換）を用意しています。
+  - ローカルで作ってからGitHub公開する（初心者向け）: `timeline-local-to-github-guide.md`
+  - ローカル→GitHub公開の1〜2ページ版（最短手順）: `timeline-local-to-github-quickstart.md`
+- Google Sheetsで管理していた年表を、GitHubで管理する **JSON形式** に移行したい場合は、変換ツール `sheet_to_json_coverter.html`（Sheets→JSON変換）を用意しています。
 
 ### 主な機能
 
@@ -26,13 +27,13 @@ This document includes both a Japanese and an English version. The English versi
 - **AI検索**: ヘッダーの「AI検索」から自然文検索（現在選択中ジャンルのみ）
 - **データ連携/リロード**:
   - GitHub JSON との連携（読み込み・リロード）
-  - Google Sheets（GAS経由）からの読み込みに対応（下記「データソースとURLパラメーター」参照）
+  - ローカルJSON（PC上）の読み込み・保存に対応
 - **CSV対応**: データの一括インポート
 - **参照年表機能**: 複数の年表データを同時に表示・比較可能
 - **フキダシ（吹き出し）**: 右側エリアをShift+クリックして注釈を配置。三角テールはクリック位置を先端にし、バブルの辺から自然に接続。スタイル（色・文字サイズ・太字）変更やドラッグ移動、スナップショット保存/復元に対応。テイルの表示/非表示切り替え、画像表示機能（#URL形式）、リンク（@URL形式＝末尾に空白1文字が必要）、改行対応。
 - **範囲ガイド（コの字形）**:右側エリアでCtrl+Shift+クリックで、範囲ガイド（コの字形）を設置（〇年～〇年の範囲の視覚ガイド用）。縦棒の中央をドラッグで移動。縦棒の右側ドラッグで太さ変更。上下ドラッグで高さ変更。上/下の三角足をドラッグして左右に伸縮（上下連動）。右クリックで色設定、Rで反転、△で足の表示/非表示。
 - **ホバー表示文字サイズ設定**: ラベル表示エリアにマウスをホバーした際の文字サイズ（年、ラベル名、重要度、注釈）を個別に設定可能。
-- **オリジナルの年表作成**： GitHub、およびGoogle Sheetsを使って誰でもオリジナル年表を作って運用することができます。
+- **オリジナルの年表作成**： ローカルJSONとGitHub JSONを使って誰でもオリジナル年表を作って運用できます。
 
 ### データセット
 
@@ -100,10 +101,30 @@ This document includes both a Japanese and an English version. The English versi
 - 検索ボックスでラベルやジャンルを検索
 - ジャンル選択で表示項目を絞り込み
 - 重要度別のフィルター機能
-- 検索結果の青い項目にマウスオーバーでウェブ画面を開く（URLが設定されている場合）
+- 検索結果の青い項目にマウスオーバーでウェブプレビューを開く（URLが設定されている場合）
 - 検索結果の青い項目をクリックで注釈をポップアップ表示
 - 検索結果の青い項目をダブルクリックで編集モーダルを開く（editmode=ON の場合のみ）
 - 検索ボックスに「*」を入力すると、選択されている分野のすべての項目を表示
+
+#### X コメント連動（詳細一覧）
+- **𝕏** … X 投稿画面（定型文＋ハッシュタグ＋`xid` 短縮 URL）
+- **🔍** … X で当該項目のコメントを検索・一覧（新しいタブ）
+- **ラベルクリック** … 注釈と URL 一覧の項目詳細パネル
+- **`?xid=...`** … `xnative_link_map.json` で本パラメータに展開して起動（[ユーザーガイド](users_guide.md) 参照）
+
+#### スマホ・タッチ向け（閲覧中心）
+- 768px 以下またはタッチ端末でヘッダーをコンパクト化（検索＋≡メニュー）
+- 詳細一覧・項目詳細・ウェブプレビューをボトムシート表示
+- ホバーによる地球プレビューは無効化、**タップ** で開く
+- 本格的な編集は PC 推奨（初回に案内表示）
+
+#### ウェブプレビュー（地球マーク）
+- 詳細一覧の地球マーク、または検索結果の青い項目にマウスオーバー（約1秒）／地球マークをクリックで固定
+- **埋め込み可**（Wikipedia 等）: パネル内 iframe で表示
+- **埋め込み不可**（nippon.com、note.com、多くの公式サイト等）: ぼかし背景＋「新しいタブで開きますか？」と **「はい」** ボタン。ヘッダーの「新しいタブとして開く」も利用可
+- **Amazon**: `URL&画像URL` 形式で表紙画像とリンク案内（iframe なし）
+- 事前判定: 年表 JSON の `metadata.embedBlocklist` または `timeline_xxx_embed.json`（`tools/check-embed-urls.mjs` で生成）を読み込み、リスト載り URL は iframe を試さず案内表示
+- リストが無い URL は iframe 試行後、失敗時に同案内へフォールバック
 
 #### AI検索
 - ヘッダーの「AI検索」ボタンから自然文で検索できます（例: 「鉄腕アトムと同じ作者の作品をリストアップして」）。
@@ -130,15 +151,37 @@ This document includes both a Japanese and an English version. The English versi
 
 #### データの管理
 - **ロード**: CSV/TSVファイルからデータを一括インポート（設定 → データ管理）
+- **セーブ（全体反映）**: ロードで作ったマージ結果を、主年表全体としてGitHubへ反映（バッチ反映）
 - **リロード（メイン年表）**:
   - GitHub JSON: 「リロード」で最新データを再読み込み
-  - Google Sheets（GAS）: 「リロード」でシートから再読み込み（表示更新）
+  - ローカルJSON（PC上）: 「表示中の全項目をクリアしてローカルから読み込み」で再読み込み
 - **編集の反映（GitHub JSON）**:
   - アクセストークンあり: 「保存」「削除」「閉じる（並び替え）」でGitHubのJSONに反映
   - アクセストークンなし: 変更内容はCSVとして書き出し（GitHubには反映されません）
 - **参照年表**: 複数の年表データを同時に表示・比較（読み取り専用）
+  - GitHub raw から取得（設定済みのアクセストークンがある場合、取得失敗時は GitHub API へフォールバック）
+  - 参照年表のみ短時間キャッシュ（同一セッション内・最大約15分）。メイン年表の最新取得には影響しません
 - **スナップショット**: 現在の状態（データ、フキダシ、設定、開いているウェブ画面パネル）を保存・復元。気軽に自分の年表を作り始めることができます
 - **Amazon画像表示**: AmazonのURLの後に「&」を付けて画像URLを追加することで、ウェブ画面に表紙画像が表示されます
+
+### 埋め込み不可 URL の事前チェック（年表作者向け）
+
+地球マークのプレビューは iframe 埋め込みに依存しますが、多くのサイトは `X-Frame-Options` 等で拒否されます。ブラウザ上では他サイトの HTTP ヘッダーを読めない（CORS）ため、**Node スクリプトで事前調査し JSON に載せる**運用を推奨します。
+
+```bash
+node tools/check-embed-urls.mjs timeline_xxx.json timeline_xxx_embed.json --update-metadata
+```
+
+| 出力 | 内容 |
+|------|------|
+| `timeline_xxx_embed.json` | `blockedUrls`, `blockedHostPatterns`, 調査ログ |
+| `--update-metadata` | 年表 JSON の `metadata.embedBlocklist` にも同内容を書き込み |
+
+- 年表読み込み時に `embedBlocklist` と同名 `_embed.json` を自動取り込み、地球マーク操作時に `isLikelyFrameBlocked()` で判定
+- `_embed.json` が無くても動作（既知ドメイン＋ iframe 失敗検知）
+- URL 追加・変更後はスクリプトを再実行してください
+
+詳細は [ユーザーガイド](users_guide.md) の「ウェブプレビュー」「年表作者向け：埋め込み不可 URL の事前チェック」を参照。
 
 ### 年表の活用例
 
@@ -167,21 +210,21 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
   - owner, repo, filePath
   - 例: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json`
 
-- メイン年表（Google Sheets / GAS）
-  - datasrc=sheet
-  - sheetApi, sheetId, ev, gn, er, md（タブ名）
-  - 例:  
-    `?datasrc=sheet&sheetApi=https://script.google.com/macros/s/XXX/exec&sheetId=1AbC...&ev=events&gn=genres&er=eraSettings&md=metadata`
+- メイン年表（ローカルJSON / PC上）
+  - datasrc=local
+  - URL例（データソース指定のみ）: `?datasrc=local`
+  - 実データは設定画面の「表示中の全項目をクリアしてローカルから読み込み」でファイルを選択して読み込みます
+  - **URL だけではファイル名の指定・自動読み込みはできません**（ブラウザのセキュリティ上、PC上のパスへ勝手にアクセスできないため）
+  - 設定 → データソースに **「読み込み／保存先の年表JSON」** として、直近に読み込んだ／保存したファイル名が表示されます（バージョン違いの取り違え防止用）
 
-- 参照年表（GitHub/Sheets 混在可）
+- 参照年表（GitHubのみ）
   - refTimelines=JSON配列（URLエンコード）
   - 各要素（GitHub型）: `{ "sourceType":"github", "owner":"user", "repo":"repo", "filePath":"file.json", "minImportance":2 }`
-  - 各要素（Sheets型）: `{ "sourceType":"sheet", "gasApi":"https://.../exec", "sheetId":"xxxxx", "ev":"events", "gn":"genres", "er":"eraSettings", "md":"metadata", "minImportance":2 }`
   - 例（エンコード前）:
     ```
-    refTimelines=[{"sourceType":"github","owner":"user1","repo":"repo1","filePath":"file1.json","minImportance":2},
-                  {"sourceType":"sheet","gasApi":"https://script.google.com/macros/s/XXX/exec","sheetId":"1AbC...","ev":"events","gn":"genres","er":"eraSettings","md":"metadata","minImportance":3}]
+    refTimelines=[{"sourceType":"github","owner":"user1","repo":"repo1","filePath":"file1.json","minImportance":2}]
     ```
+  - 参照年表を多数まとめて読み込むと GitHub のレート制限（HTTP 429）に当たることがあります。設定にアクセストークンを入れると API フォールバックが有効になります。参照年表の本数を減らすことも有効です
 
 - スナップショット復元（GitHub data フォルダ）
   - `snapshot` または `snapshotpath` に JSON ファイル名（`data/` 相対）を指定
@@ -192,58 +235,46 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
   - 例（別リポジトリ）: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`
   - `snapshotURL` / `snapshotUrl` / `data` は廃止
 
-メイン年表の種別に応じて、不要なパラメーター（GitHub系/Sheets系）はURLから自動的に取り除かれます（設定→「設定を保存」時に付与/整理）。
+メイン年表の種別に応じて、不要なパラメーター（GitHub系/Local系/旧Sheets系）はURLから自動的に取り除かれます（設定→「設定を保存」時に付与/整理）。
+
+#### 短縮共有リンク（xid）
+
+長い URL の代わりに **`xid`**（別名 `xnativeId`）1 パラメータで年表を開けます。
+
+- 例: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1949i1`
+- 起動時に **`hortense667/xnative`** リポジトリの **`xnative_link_map.json`**（`main`）を参照し、`xid` を本来のクエリ文字列（`filePath=...&y=...&i=...` 等）に展開してから読み込みます
+- マップファイルは本リポジトリ直下に同梱。変更後は GitHub へ push が必要です
+
+**`xnative_link_map.json` の `params`**:
+- `&` で連結した通常のクエリ文字列（`?` 不要）。`owner` / `repo` / `filePath` / `refFilePaths` / `refTimelines` / `y` / `i` など **複数指定可**
+- 年表ベース ID（例: `jimbocho03`）＋ 共有 URL `?xid=jimbocho03-y1949i1` 形式なら、`y` / `i` は **自動付与**
+- 項目ごとに固定する場合は、`params` に `y` / `i` まで含めた **別 ID** として登録
+
+**年表 metadata（任意）**: `xHashtag`, `xLinkId`, `shareBaseUrl` — 詳細は [ユーザーガイド](users_guide.md) の「短縮共有リンク（xid）」を参照。
 
 #### 補足：Google Sheets → GitHub JSON への移行
 Google Sheetsで運用していた年表を、GitHub上で管理・共同編集できるJSON（アプリのGitHubデータ形式）へ変換するために、`sheet_to_json_coverter.html` を同梱しています。
 
-### Google Sheets（GAS）で用意するシート構成
+### Google Sheetsサポートについて
 
-Google Sheetsによる年表の例
-
-　https://docs.google.com/spreadsheets/d/1cagyMr1rfUm96iefqlLhVA8fhIY5znU75HCtARmF7_Y/edit
-
-タブ名は基本値 `events / genres / eraSettings / metadata` を推奨（URLで変更可能）。
-
-- events（年表本体）
-  - 必須ヘッダー: `label, label_en, startYear`
-  - 任意ヘッダー: `endYear, genre, imp, url, url_en, note, note_en, image`
-  - 値の形式:
-    - genre: パイプ区切り（例: `ANI|JAPAN|TVP`）
-    - imp: 1～5 の整数
-    - url/url_en: 単一またはパイプ区切りで複数可
-  - フロント側が保存時にTSVをクリップボードへ置くときの並び（参考）:
-    `label  label_en  startYear  endYear  genre(pipe)  imp  url  url_en  note  note_en  image`
-
-- genres（ジャンル定義）
-  - ヘッダー: `code, label, label_en, conjunction`
-  - `conjunction` は AND結合に使う補助（true/false）。ジャンルコードは events.genre と対応します。
-
-- eraSettings（時代区分）
-  - ヘッダー: `name, startYear, endYear, color, opacity, enabled, fillEnabled`
-  - `enabled`/`fillEnabled`: true/false。視覚背景の表示と塗りのオン/オフ。
-
-- metadata（メタ情報）
-  - ヘッダー（例）:
-    - タイトル/説明: `title_ja, title_en, description_ja, description_en`
-    - 作成者/連絡先: `initialCreator, contributors(パイプ), contact_admin_name, contact_admin_email, contact_admin_x, contact_admin_org`
-    - その他: `createdAt, version, language(パイプ), copyright, license, licenseUrl, notes`
-
-### Google Sheets（GAS）モード時の動作
-- 詳細一覧の「鉛筆」: 編集モーダルを開き、保存時にTSV形式をクリップボードへコピー → 対応するSheetsが自動的に開くので、当該項目のセントウコラムで自身でクリップボードからの貼り付けを行ってください。
-- 詳細一覧の「ゴミ箱」: ダイアログや画面上削除は行わず、該当セル位置に移動（シートを開く）手作業で当該行を削除してください。
-- 左カラムの空き領域クリック: その年に近い行のセルへ移動（新規追加用）手作業で当該行を追加してください。
-- 「リロード」: GAS APIから再読み込みして画面を更新
+Google Sheets（GAS）データソースは、現在サポート対象外です。  
+既存のSheetsデータは `sheet_to_json_coverter.html` を使って JSON へ移行し、  
+`ローカルJSON（PC上）` または `GitHub JSON` で運用してください。
 
 ### 編集可否（editmode）
 - URLに `?editmode=ON` がない場合:
-  - 詳細一覧の「鉛筆」「ゴミ箱」「追加」はグレーアウト（操作不可）
-  - 左カラム空白クリックでも編集モーダルは開かない（Sheetsモードでも移動しない）
+  - 詳細一覧の「鉛筆」「ゴミ箱」は **非表示**（「追加」ボタンは従来どおり無効表示）
+  - 左カラム空白クリックでも編集モーダルは開かない
 
-### 設定画面の参照年表UI（GitHub/Sheets 両対応）
-- 「参照年表（GitHub）」と「参照年表（Sheets）」を分けて入力
-- それぞれに「参照年表を追加」ボタン
+### 設定画面の参照年表UI
+- 参照年表は GitHub JSON のみ設定できます
 - 保存すると `refTimelines` にJSONとして保存され、URLにも `refTimelines` が付与されます
+- 参照年表の読み込みは raw 取得を試み、失敗時（429 など）は設定済みトークンで GitHub API にフォールバックします。参照年表のみ短時間キャッシュされます
+
+### ローカルJSON運用時のファイル名表示
+- 設定 → データソース（ローカルJSON選択時）に **読み込み／保存先の年表JSON** を表示
+- 「表示中の全項目をクリアしてローカルから読み込み」で選んだファイル名、または「セーブ（ローカル保存）」で指定したファイル名が記録されます
+- データのフル読み込み時は検索状態をリセットします（読み込み直後に意図しない一覧検索が走らないようにするため）
 
 ### 免責事項
 - このソフトによる年表の内容については、一切保証いたしません。
@@ -255,7 +286,6 @@ Google Sheetsによる年表の例
 - **フロントエンド**: HTML5, CSS3, JavaScript (ES6+)
 - **データ形式**: JSON, CSV, TSV
 - **外部連携**: GitHub API
-- **外部連携（追加）**: Google Apps Script（GAS）Web API（Google Sheets読み込み）
 - **外部連携（追加）**: `/api/ai-search`（Cloudflare Pages Functions / Netlify Functions）
 - **対応ブラウザ**: Modern browsers (Chrome, Firefox, Safari, Edge)
 
@@ -278,14 +308,15 @@ Use these labels:
 
 ## English Version
 
-This repository contains only **data (JSON) for XnativeTimeline**. The application code is managed separately. JavaScript utilities for converting JSON/TSV/Sheets data are included.
+This repository contains only **data (JSON) for XnativeTimeline**. The application code is managed separately. JavaScript utilities for converting JSON/TSV/Sheets data are included. Short-link definitions for X posts are in **`xnative_link_map.json`** at the repo root (resolves `?xid=...`).
 
 ### First Steps (recommended)
 - Want to try existing timelines? Use the main timeline from GitHub JSON (specify owner/repo/filePath via URL).
-- Want to build your own? Google Sheets (via GAS) is the easiest: prepare a sheet and pass `sheetApi/sheetId` in the URL to share quickly.
-- Detailed sharing/operation guides:
+- Want to build your own? Start in Local JSON (on your PC), then reflect finalized data to GitHub JSON.
+Detailed sharing/operation guides:
   - Grow with GitHub (open collaboration): `timeline-sharing-github.md`
-  - Operate with Google Sheets (small teams/low learning cost): `timeline-sharing-google-sheets.md`
+  - Build locally then publish to GitHub: `timeline-local-to-github-guide.md`
+  - Quick 1-2 page version: `timeline-local-to-github-quickstart.md`
 - Converters:
   - Sheets → JSON for GitHub: `sheet_to_json_coverter.html`
   - JSON → TSV for Sheets: `json_to_tsv_coverter.html`
@@ -298,7 +329,7 @@ This repository contains only **data (JSON) for XnativeTimeline**. The applicati
 - **AI search**: Natural-language search from the `AI Search` button (current selected genres only)
 - **Reload / integrations**:
   - GitHub JSON load & reload
-  - Google Sheets (via GAS) load (see “Data source and URL parameters”)
+  - Local JSON (on your PC) load & save
 - **CSV/TSV**: Bulk import
 - **Reference timelines**: Show and compare multiple timelines together
 - **Speech bubbles**: Shift+click in the right area to add. Tail connects naturally from edge to click point. Style (color/font size/bold) change, drag move, snapshot save/restore, tail toggle, image display (#URL), link (@URL + trailing space), line breaks.
@@ -342,6 +373,17 @@ https://youtu.be/Ymsez9vMJa4
 - Search box for labels/genres; `*` shows all in selected fields.
 - Filter by genre and importance.
 - Hover blue search hits to open web preview (if URL set); click for note popup; double-click to open edit modal (edit mode only).
+- Detail list: **𝕏** (post to X), **🔍** (X search in new tab), clickable label (note + URLs panel), **🌐** preview. Pencil/trash **hidden** unless `?editmode=ON`.
+- Short links: `?xid=...` resolved via `xnative_link_map.json` on `hortense667/xnative`.
+- Mobile/touch: compact header (search + ≡), bottom sheets for panels, tap instead of hover for 🌐 preview; PC editing recommended.
+
+#### Web preview (globe icon)
+- Hover (~1 s) or click the globe icon in the detail list; same for blue search hits
+- **Embeddable** (e.g. Wikipedia): shown in panel iframe
+- **Non-embeddable** (many official/commercial sites, note.com, etc.): blurred background + “Open in a new tab?” with **Yes** button; header **Open in New Tab** also works
+- **Amazon**: cover via `URL&imageURL`; no iframe
+- Pre-check: loads `metadata.embedBlocklist` and optional `timeline_xxx_embed.json` (from `tools/check-embed-urls.mjs`); listed URLs skip iframe
+- Unlisted URLs try iframe first, then fall back to the same message
 
 #### AI Search
 - Run natural-language search from the `AI Search` button in the header.
@@ -368,13 +410,23 @@ https://youtu.be/Ymsez9vMJa4
 - **Load**: Bulk import CSV/TSV (Settings → Data management).
 - **Reload (main timeline)**:
   - GitHub JSON: “Reload” fetches the latest data.
-  - Google Sheets (GAS): “Reload” fetches from the sheet (display refresh).
+  - Local JSON (on your PC): use “Clear all displayed labels and load from Local” to reload.
 - **Apply edits (GitHub JSON)**:
   - With access token: “Save”, “Delete”, “Close (reorder)” update GitHub JSON.
   - Without token: changes are exported as CSV (not reflected to GitHub).
 - **Reference timelines**: multiple timelines shown/read-only.
 - **Snapshot**: Save/restore state (data, speech bubbles, settings, open web preview panels) for easy personal timeline creation.
 - **Amazon images**: Append an image URL after `&` on an Amazon URL to show a cover image in web preview.
+
+### Embed-block pre-check (for timeline authors)
+
+Globe preview uses iframes; many sites block embedding. Browsers cannot read cross-origin `X-Frame-Options` headers, so pre-generate a blocklist with Node:
+
+```bash
+node tools/check-embed-urls.mjs timeline_xxx.json timeline_xxx_embed.json --update-metadata
+```
+
+Writes `timeline_xxx_embed.json` and optionally `metadata.embedBlocklist`. Loaded automatically when the timeline JSON is opened. Works without `_embed.json` (domain hints + iframe failure fallback). Re-run after URL changes. See [users_guide.md](users_guide.md).
 
 ### Timeline usage examples
 1) Align event years: drag blue circles up/down in drag lane  
@@ -394,11 +446,13 @@ Distributed system: manage your data in your own repo. See [User Guide](users_gu
 ### Data source & URL parameters (for sharing)
 - Main timeline (GitHub JSON): `datasrc=github`, `owner`, `repo`, `filePath`  
   Example: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json`
-- Main timeline (Google Sheets / GAS): `datasrc=sheet`, `sheetApi`, `sheetId`, `ev`, `gn`, `er`, `md`  
-  Example: `?datasrc=sheet&sheetApi=https://script.google.com/macros/s/XXX/exec&sheetId=1AbC...&ev=events&gn=genres&er=eraSettings&md=metadata`
-- Reference timelines (GitHub/Sheets mix): `refTimelines` = URL-encoded JSON array  
+- Main timeline (Local JSON / on your PC): `datasrc=local`  
+  Example: `?datasrc=local`  
+  You must pick the file via “Clear all displayed labels and load from Local” in Settings. **URL cannot specify the filename or auto-load** (browser security).  
+  Settings → Data Source shows **Loaded / saved timeline JSON** (last file from load or local save).
+- Reference timelines (GitHub only): `refTimelines` = URL-encoded JSON array  
   - GitHub: `{ "sourceType":"github", "owner":"user", "repo":"repo", "filePath":"file.json", "minImportance":2 }`  
-  - Sheets: `{ "sourceType":"sheet", "gasApi":"https://.../exec", "sheetId":"xxxxx", "ev":"events", "gn":"genres", "er":"eraSettings", "md":"metadata", "minImportance":2 }`
+  - On raw fetch failure (e.g. HTTP 429), falls back to GitHub API when an access token is configured. Reference timelines are cached briefly (~15 min); main timeline fetching is unaffected.
 - Snapshot restore (from GitHub `data/` folder):  
   - Specify `snapshot` or `snapshotpath` as JSON path relative to `data/`  
   - Default source repo: same as the main timeline `owner/repo`  
@@ -409,27 +463,28 @@ Distributed system: manage your data in your own repo. See [User Guide](users_gu
   - `snapshotURL` / `snapshotUrl` / `data` are deprecated  
 Unneeded params for the chosen main data source are stripped automatically when saving settings.
 
-### Google Sheets (GAS) sheet structure
-- `events`: required headers `label, label_en, startYear`; optional `endYear, genre, imp, url, url_en, note, note_en, image`.  
-  - genre: pipe-delimited (e.g., `ANI|JAPAN|TVP`); imp: 1–5; url/url_en: single or pipe-delimited.  
-  - Clipboard TSV order (reference): `label label_en startYear endYear genre(pipe) imp url url_en note note_en image`
-- `genres`: headers `code, label, label_en, conjunction` (`conjunction` for AND helper).
-- `eraSettings`: headers `name, startYear, endYear, color, opacity, enabled, fillEnabled`.
-- `metadata`: e.g., `title_ja, title_en, description_ja, description_en, initialCreator, contributors(pipe), contact_admin_name/email/x/org, createdAt, version, language(pipe), copyright, license, licenseUrl, notes`.
+#### Short share links (xid)
 
-### Google Sheets (GAS) mode behavior
-- Detail list “pencil”: opens edit modal; on save, TSV is copied to clipboard and the sheet is opened—paste manually into the target row.
-- Detail list “trash”: jumps to the sheet cell for manual deletion (no inline delete).
-- Left-column empty click: jumps to nearby row for manual add in the sheet.
-- “Reload”: reload from GAS API and refresh display.
+Use **`xid`** (or `xnativeId`) instead of long URLs.
+
+- Example: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1949i1`
+- Resolves via **`xnative_link_map.json`** in **`hortense667/xnative`** (`main`) into full query params before load
+- Map file lives in this repo root; push to GitHub after edits
+
+**`params` in the map**: `&`-joined query string (no leading `?`); supports `filePath`, `owner`, `repo`, `refFilePaths`, `refTimelines`, `y`, `i`, etc. Timeline-base keys (e.g. `jimbocho03`) plus `?xid=jimbocho03-y1949i1` auto-append `y` / `i`. Optional timeline metadata: `xHashtag`, `xLinkId`, `shareBaseUrl`. See [users_guide.md](users_guide.md).
+
+### About Google Sheets support
+Google Sheets (GAS) data source is currently unsupported.
+Use `sheet_to_json_coverter.html` to migrate existing sheet data into JSON,
+then operate with Local JSON or GitHub JSON.
 
 ### Edit mode
 - Without `?editmode=ON`:
-  - Detail list pencil/trash/add are disabled.
-  - Clicking blank left column does not open edit modal (Sheets mode also does not move).
+  - Detail list pencil and trash are **hidden** (Add button remains disabled-style).
+  - Clicking blank left column does not open edit modal.
 
-### Reference timeline UI (GitHub/Sheets)
-- Separate inputs for GitHub and Sheets reference timelines; “Add reference timeline” buttons for each.
+### Reference timeline UI
+- Configure GitHub JSON references.
 - Saved as JSON in `refTimelines` and added to URL.
 
 ### Disclaimers
@@ -439,7 +494,7 @@ Unneeded params for the chosen main data source are stripped automatically when 
 ### Technical Specifications
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Data Format**: JSON, CSV, TSV
-- **External integrations**: GitHub API; Google Apps Script (GAS) Web API (for Sheets)
+- **External integrations**: GitHub API
 - **External integration (added)**: `/api/ai-search` (Cloudflare Pages Functions / Netlify Functions)
 - **Supported browsers**: Modern browsers (Chrome, Firefox, Safari, Edge)
 

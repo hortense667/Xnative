@@ -74,6 +74,14 @@
 - △で足の表示/非表示
 
 
+#### 参照年表の読み込み（GitHub）
+
+- 参照年表は GitHub 上の JSON を読み取り専用でマージ表示します
+- 起動時・設定保存時などに、設定された参照年表を順に取得します
+- **メイン年表**は従来どおり毎回最新を取得します。**参照年表のみ**短時間キャッシュ（最大約15分）し、同じファイルの再取得を抑えます
+- raw 取得が失敗した場合（HTTP 429 など）、設定済みの **GitHub アクセストークン** があれば GitHub API（contents）へフォールバックします
+- 参照年表を多数同時に設定するとレート制限に当たりやすいです。本数を減らす、またはトークンを設定してください
+
 #### 参照年表とは
 参照年表機能は、メインの年表データに加えて、複数の年表データを同時に表示・比較できる機能です。参照年表のデータは読み取り専用で、編集や削除はできません。
 
@@ -106,6 +114,13 @@
 
 #### 1. 見たり操作するだけの人（閲覧者）
 
+**スマホ・タブレット**:
+- 画面幅が狭いときは **閲覧中心** のレイアウトになります（年表の横スクロール、検索、項目詳細の確認）
+- ヘッダーは **検索＋≡メニュー** を常時表示。ジャンル・重要度・リロード・設定などは **≡** から展開
+- 詳細一覧・項目詳細・地球（🌐）プレビューは **下から出るボトムシート** 形式
+- ホバー（マウスオーバー）前提の操作は使わず、**タップ** で開きます（🌐 はタップでプレビュー）
+- 編集（✏️🗑️）は `?editmode=ON` のときのみ。本格的な編集は **PC推奨**
+
 **対象**: データの追加や編集はしないが、ロードにより一時的な追加はできる
 
 **基本的な操作**:
@@ -116,11 +131,11 @@
 
 **データの一時的な追加**:
 - 「ロード」機能でCSVファイルからデータを読み込み
-- 編集・追加・削除は可能だが、保存はローカルのみ
-- ページをリロードすると元の状態に戻る
+- 編集・追加・削除は可能（通常モードではGitHub保存対象、トークンなしはCSV出力）
+- ローカルだけで保持したい場合は、データソースを「ローカルJSON（PC上）」に設定
 
 **ウェブ画面の表示**:
-- 詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、その項目のURLが設定されている場合、ウェブ画面が開きます
+- 詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、その項目のURLが設定されている場合、ウェブプレビューパネルが開きます（詳細は下記「ウェブプレビュー（地球マーク）」参照）
 - AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
 - 検索結果の青い項目は、ダブルクリックで編集画面（編集モードON時）を開けます
 
@@ -142,23 +157,32 @@
 
 #### 3. 自分で新たに年表を作りたい人（ローカル管理者）
 
-**対象**: ローカルのデータで閉じてロードとセーブで回していく人
+**対象**: GitHubを使わず、PC上のJSONファイルだけで運用したい人
 
 **用途**: 簡単な年表をプレゼンや分析に使うなどに適する
 
 **基本的な操作**:
 - 閲覧者・コラボレーターの操作すべて
-- 「ロード」でCSVファイルからデータを読み込み
-- 「セーブ」で現在のデータをCSVファイルとして保存
+- 設定でデータソースを「ローカルJSON（PC上）」に設定
+- 「表示中の全項目をクリアしてローカルから読み込み」で `timeline_*.json` を開く
+- 設定 → データソースに **読み込み／保存先の年表JSON** が表示される（直近に読み込んだ／保存したファイル名。バージョン違いの確認用）
+- 編集画面の「保存」や詳細一覧の並び替え確定（閉じる）で、ローカルJSONを保存
+- ヘッダーの「保存」ボタンでもローカルJSONを保存
+- 初回保存時に保存先を選択し、以降は同じファイルへ上書き保存（対応ブラウザ）
 - ローカルでの完全なデータ管理
 
+**URL について（ローカルJSON）**:
+- `?datasrc=local` でローカルモードであることだけ指定できます
+- **ファイル名や PC 上のパスは URL では指定できず、自動読み込みもできません**（ブラウザのセキュリティ制限）
+- どの JSON を編集中かは、上記の設定画面の表示で確認してください
+
 **推奨ワークフロー**:
-1. 初期データをCSVファイルで準備
-2. 「ロード」でデータを読み込み
-3. 必要に応じて編集・追加・削除
-4. 「スナップショット保存」で現在の状態を保存
-5. 必要に応じて手順2-4を繰り返し
-6. 気に入った状態になったら「セーブ」でCSVファイルとして保存
+1. 設定でデータソースを「ローカルJSON（PC上）」に設定
+2. ローカルJSON（`timeline_*.json`）を読み込み
+3. 必要に応じて編集・追加・削除・並べ替え
+4. 編集保存時またはヘッダーの「保存」でJSONを更新
+5. 必要に応じて「スナップショット保存」で作業状態を保存
+6. 継続時は同じローカルJSONを再度読み込む
 
 #### 4. 自分で作った年表を公開したい人（GitHub管理者）
 
@@ -170,13 +194,15 @@
 - リポジトリの作成
 
 ### 共有・共同編集の手順（最新版ドキュメント）
-GitHub / Google Sheets それぞれの「共有方法・初期設定・運用のコツ」は、更新しやすいよう別ドキュメントに切り出しています。まずはこちらを参照してください。
+GitHub / ローカルJSON の「共有方法・初期設定・運用のコツ」は、更新しやすいよう別ドキュメントに切り出しています。まずはこちらを参照してください。
 
 - GitHubで年表を育てる（フォーク→同期→PR、トークン作成など）: `timeline-sharing-github.md`
-- Google Sheetsで共同管理する（テンプレコピー、共有設定、GAS設定など）: `timeline-sharing-google-sheets.md`
+- ローカルで作ってからGitHub公開する（初心者向け）: `timeline-local-to-github-guide.md`
+- ローカル→GitHub公開の1〜2ページ版（最短手順）: `timeline-local-to-github-quickstart.md`
 
 #### 補足：Google Sheets → GitHub JSON への移行
-Google Sheetsで管理していた年表を、GitHubで管理するJSON形式へ変換するためのツールとして `sheet_to json_coverter.html` が用意されています（Sheets→JSON変換）。
+Google Sheetsで管理していた年表を、GitHubで管理するJSON形式へ変換するためのツールとして `sheet_to_json_coverter.html` が用意されています（Sheets→JSON変換）。
+現在、Google Sheets（GAS）データソースはサポート対象外です。移行後はローカルJSONまたはGitHub JSONで運用してください。
 
 ### 推奨運用方針
 
@@ -187,11 +213,16 @@ Google Sheetsで管理していた年表を、GitHubで管理するJSON形式へ
    - 重要な編集前は必ず「スナップショット保存」を実行
    - 定期的に「保存」「削除」「閉じる（並び替え）」でGitHubに反映
 
-2. **バージョン管理**
+2. **バッチ反映と日常編集の使い分け**
+   - CSV/TSVを大量投入した後は、**「ロード → セーブ（全体反映）」**で主年表全体をまとめて反映
+   - 日常の小さな修正は、項目ごとの「保存」「削除」「閉じる（並び替え確定）」を利用
+   - 「セーブ（全体反映）」は主年表全体に効く強い操作として扱う
+
+3. **バージョン管理**
    - 大きな変更前はGitHubでコミットメッセージを記録
    - 必要に応じてタグやブランチを活用
 
-3. **共同編集の管理**
+4. **共同編集の管理**
    - 複数人で編集する場合は事前にルールを決める
    - 編集前に必ず「リロード」で最新データを取得
    - 編集後は必ず「保存」「削除」「閉じる（並び替え）」で変更を反映
@@ -300,6 +331,11 @@ GitHub年表データのJSONは以下の構造です：
 2. 設定変更後は必ず「保存」ボタンを押しているか
 3. ファイルがGitHubリポジトリに存在するか確認
 4. ファイルパスにスペースや特殊文字が含まれていないか確認
+5. エラーに `GitHub raw file error: 429` と出る場合：参照年表の本数を減らす、しばらく待って再試行、設定にアクセストークンを入れて API フォールバックを有効にする
+
+**データのフル読み込み後に検索が意図せず走る場合**：
+- GitHub／ローカルからの「全項目クリアして読み込み」では、検索欄と検索結果をリセットします
+- ジャンル変更などの再描画時のみ、検索欄に文字が残っていれば検索結果を更新します
 
 **GitHubへの保存が失敗する場合**：
 1. アクセストークンが正しく設定されているか
@@ -326,11 +362,12 @@ GitHub年表データのJSONは以下の構造です：
 - 参照年表の設定も保持される
 - 編集内容は失われる（未保存の場合）
 
-**「表示中の全ラベルをクリアしてGitHubから読み込み」**：
+**「表示中の全ラベルをクリアしてGitHubから読み込み」**（ローカル読み込みも同様）：
 - ローカルデータを完全にクリア
-- GitHubから最新データを再読み込み
+- GitHubから最新データを再読み込み（ローカル時はファイル選択）
 - 参照年表も再読み込み
 - 編集フラグや削除記録もクリア
+- 検索欄・検索結果もリセット
 - より確実に最新状態にリセット
 
 ### 基本的な操作の詳細
@@ -387,32 +424,13 @@ GitHub年表データのJSONは以下の構造です：
 - 注釈（日本語/英語）も検索対象に含めて検索可能
 
 **検索結果の操作**:
-- 検索結果として表示される青い項目にマウスオーバーすると、その項目のURLが設定されている場合、詳細一覧の「地球」マークと同じようにウェブ画面が開きます
+- 検索結果として表示される青い項目にマウスオーバーすると、その項目のURLが設定されている場合、詳細一覧の「地球」マークと同じウェブプレビューが開きます
 - 検索結果の青い項目をクリックすると、その項目の注釈がポップアップ表示されます（英語モードのときは英語の注釈、日本語モードのときは日本語の注釈を表示）
 - 再度クリックするか、マウスが項目から外れると注釈ポップアップが閉じます
 
 **ワイルドカード検索**:
 - 検索ボックスに「*」を入力して検索すると、現在選択されている分野（ジャンル）のすべての項目が検索結果として表示されます
 - 重要度フィルターが設定されている場合は、その条件も適用されます
-
-#### AI検索
-
-**基本操作**:
-- ヘッダーの「AI検索」ボタンから自然文で検索できます。
-- 入力欄で上下キーを押すと、過去の検索履歴を呼び出せます。
-- 結果は通常検索と同じ青いラベルとして表示されます。
-
-**検索範囲**:
-- 対象は「現在選択中ジャンルのみ」です。
-- `主年表限` がONのときは参照年表は対象外です。
-
-**上限とエラー**:
-- 入力データ量が設定上限を超える場合、API呼び出し前にエラー表示されます。
-- その場合は、ジャンル選択の絞り込み、`主年表限` の利用、検索文の簡素化を行って再実行してください。
-
-**設定**:
-- 「設定」→「AI検索設定」で Provider / Model / Max Input Tokens / Max Output Tokens / Safety Margin を変更できます。
-- APIキー設定（Cloudflare/Netlify）は `AI_SEARCH_SETUP.md` を参照してください。
 
 #### ジャンルフィルター
 
@@ -456,11 +474,126 @@ GitHub年表データのJSONは以下の構造です：
 - ドラッグ&ドロップで順序変更
 - 「ドラッグで一覧の順序を変更できます」の表示
 
+**編集モード（`?editmode=ON`）との関係**:
+- `editmode=ON` のときのみ、詳細一覧に **鉛筆（✏️）・ゴミ箱（🗑️）・追加** が表示されます
+- `editmode` が無い（閲覧モード）のときは、これらのボタンは **表示されません**（グレーアウトではなく非表示）
+- 参照年表の項目は、編集モードでも編集・削除不可
+
+**X（旧Twitter）コメント連動**（詳細一覧の各項目）:
+- **🔗** … **共有・検索パネル**を開く（リンクコピー、X投稿、X検索）
+- **ラベル（青字）をクリック** … **項目詳細パネル** を開く（注釈と URL の一覧）
+- **🌐** … 従来どおりウェブプレビュー（下記「ウェブプレビュー」参照）
+- 手動で **Xコメントマーク** を付けた項目には、ラベル横に **𝕏** バッジが表示されます（編集画面のチェックボックス）
+
+**共有・検索パネル**（🔗 クリック）:
+- **コメントを共有** … **Xにコメントを投稿** で X の投稿画面を開く（ラベル ＋ `#XnativeTimeline #Jimbocho03` ＋ URL）
+- 修正・追加の提案は、投稿時に `#EditReq` または `#AddReq` をハッシュタグに追加（専用ボタンはありません。パネル内の案内文を参照）
+- **この項目のX投稿を見る** … X の検索画面を新しいタブで開く（公開投稿の検索は **Xのみ**）
+- **X以外への共有** … **項目ラベル** ＋ 共有 URL をコピーして Facebook・LINE 等へ貼り付け
+- パネル内の「ハッシュタグのルール」に運用ルールを記載
+
+**項目詳細パネル**（ラベルクリック、または X 投稿 URL から起動したとき）:
+- 詳細一覧の横に、**注釈**（`note` / `note_en`）と **URL リンク一覧** を表示
+- 共有 URL（`?xid=...`）からアクセスした場合: 年表を開き **該当年の詳細一覧** を表示。URL に含まれる **項目ラベル** でその年の中を検索し、一致があれば項目詳細パネルも開く。**一致がなければ項目詳細パネルは開かない**（X 検索の iframe 埋め込みは行いません）
+
+#### 短縮共有リンク（xid）と xnative_link_map.json
+
+X 投稿などで URL を短くするため、専用パラメータ **`xid`**（別名 `xnativeId`）を使います。
+
+**利用者向け（クリックしたとき）**:
+1. `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1910&lk=a1b2c3d4` のようにアクセス（**短い xid ＋ lk**）
+2. アプリ起動時に GitHub **`hortense667/xnative`** リポジトリの **`xnative_link_map.json`**（`main` ブランチ）を取得
+3. `xid`（例: `jimbocho03-y1910`）を **`y`（年）** などに展開し、**`lk` はそのまま引き継ぐ**（ラベル全文は URL に載せない）
+4. 読み込み後、**その年の中で `itemLabel` と一致する項目** を探し、見つかれば項目詳細パネルを開く
+
+**年表作者向け（リンクマップの登録）**:
+
+リポジトリ直下の `xnative_link_map.json` に、短い ID と `params` を対応付けます。
+
+```json
+{
+  "schemaVersion": 1,
+  "entries": {
+    "jimbocho03": {
+      "params": "filePath=timeline_jimbocho_03.json",
+      "label": "神田神保町年表 0.2"
+    },
+    "jimbocho02": {
+      "params": "filePath=timeline_jimbocho_02.json&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=...",
+      "label": "神保町 0.2 + 背景年表"
+    }
+  }
+}
+```
+
+**`params` の書き方**:
+- 通常のクエリ文字列と同じ。**`&` で複数パラメータを連結**できます（先頭の `?` は不要）
+- 例: `filePath=timeline_jimbocho_02.json&y=1949&i=1&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=%5B%7B%22sourceType%22%3A%22github%22...%7D%5D`
+- `refTimelines` など JSON を含む値は **1 回 URL エンコード**した文字列を `params` に書きます（JSON ファイル内では `"` を `\"` でエスケープ）
+
+**2 つの登録パターン**:
+
+| パターン | マップのキー | 共有 URL の例 | 説明 |
+|----------|-------------|---------------|------|
+| 年表ベース | `jimbocho03` | `?xid=jimbocho03-y1910&lk=…` | `params` に年表共通設定のみ。`-y{年}` suffix で `y` を **自動付与**（項目は `lk` で照合） |
+| 完全指定 | 任意の ID | `?xid=my-custom-id` | `params` に `y` / `itemLabel` 含む **すべて** を書く（自動付与なし） |
+
+**年表 JSON の metadata（X 連動用・任意）**:
+
+| フィールド | 例 | 用途 |
+|-----------|-----|------|
+| `xHashtag` | `"Jimbocho03"` | X 投稿・検索用の年表固有タグ |
+| `xLinkId` | `"jimbocho03"` | `xid` のベース ID（`xnative_link_map.json` のキーと揃える） |
+| `shareBaseUrl` | `"https://xnative.netlify.app/xnative051.html"` | X 投稿に載せる短縮リンクのベース URL |
+
+投稿時の識別子例: コメント `#XnativeTimeline #Jimbocho03`、修正の提案 `#XnativeTimeline #EditReq #Jimbocho03`、追加の提案 `#XnativeTimeline #AddReq #Jimbocho03`（いずれも「Xにコメントを投稿」から開いた画面で、ハッシュタグを手動で追加）。項目は **ラベル** と共有 **URL**（年＋ラベルをエンコード）で特定します。同一年内でラベルが重複する場合は先頭の項目に一致します。
+
+**運用**: `xnative_link_map.json` を変更したら **`hortense667/xnative` の `main` に push** してください。アプリは raw.githubusercontent.com から取得します（同梱の `xnative_link_map.json` は GitHub 取得失敗時のフォールバック）。
+
 **ウェブ画面の表示**:
-- 各項目の「地球」マークにマウスオーバーすると、その項目のURLが設定されている場合、ウェブ画面が開きます
+- 各項目の「地球」マークにマウスオーバー（スマホではタップ）すると、その項目のURLが設定されている場合、ウェブプレビューパネルが開きます
 - AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
   - 例：`https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
-- 検索結果の青い項目にマウスオーバーした場合も同様にウェブ画面が開きます
+- 検索結果の青い項目にマウスオーバーした場合も同様です
+
+#### ウェブプレビュー（地球マーク）
+
+**開き方**:
+- 詳細一覧の地球マーク、または検索結果の青い項目にマウスオーバー（約1秒）でプレビューパネルを表示
+- 地球マークをクリックするとパネルを固定表示
+- パネル上部の「新しいタブとして開く」「他のURLに切り替える」「閉じる」が使えます（`| ` 区切りで複数URL、`url` / `url_en` の切替に対応）
+
+**埋め込み可のサイト**（Wikipedia など）:
+- パネル内の iframe にページを表示します
+
+**埋め込み不可のサイト**（多くの商用サイト、自治体サイト、note.com など）:
+- iframe では開けないため、次を表示します
+  - ブラウザ風の背景（アドレスバー・ぼかしたページイメージ）
+  - メッセージ：「このサイトは新しいタブで閲覧できます。新しいタブで開きますか？」
+  - **「はい」** ボタン（クリックで新しいタブを開く）
+- ヘッダーの「新しいタブとして開く」ボタンからも同じ URL を開けます
+
+**Amazon URL**:
+- iframe 埋め込みは行わず、表紙画像（`URL&画像URL` 形式）とリンク案内を表示します
+
+**判定の仕組み（利用者向けの要点）**:
+- 年表 JSON に埋め込み不可リスト（`metadata.embedBlocklist` または同名の `timeline_xxx_embed.json`）がある場合、地球マークを押した時点で上記の案内を表示します（iframe を試しません）
+- リストが無い URL は従来どおり iframe で試行し、失敗した場合も同様の案内に切り替わります
+
+#### 年表作者向け：埋め込み不可 URL の事前チェック
+
+年表の URL を編集したあと、埋め込み可否を一括調査してリスト化できます。
+
+```bash
+node tools/check-embed-urls.mjs timeline_xxx.json timeline_xxx_embed.json --update-metadata
+```
+
+- `timeline_xxx_embed.json` … 調査結果（`blockedUrls` / `blockedHostPatterns`）
+- `--update-metadata` … 年表 JSON の `metadata.embedBlocklist` にも書き込み
+- 調査方法：`X-Frame-Options` と CSP の `frame-ancestors` を HEAD リクエストで確認（Node 上で実行。ブラウザ単体では CORS のため同じ判定ができません）
+- `_embed.json` が無くてもアプリは動作します（既知ドメインの簡易判定と iframe 失敗検知がフォールバック）
+
+**配置**: 年表 JSON と同じフォルダに `_embed.json` を置くと、読み込み時に自動で取り込まれます。
 
 #### 年表の活用例
 
@@ -667,6 +800,13 @@ Example:
 
 #### 1. People Who Just Want to View and Operate (Viewers)
 
+**Mobile / tablet**:
+- Narrow viewports use a **browse-first** layout (horizontal scroll on the timeline, search, item detail)
+- Header shows **search + ≡ menu**; genre, importance, reload, settings, etc. expand from **≡**
+- Detail list, item detail panel, and globe (🌐) preview open as **bottom sheets**
+- Touch devices skip hover; use **tap** (🌐 opens preview on tap)
+- Edit icons (✏️🗑️) only with `?editmode=ON`; **PC recommended** for full editing
+
 **Target**: Cannot add or edit data, but can temporarily add through loading
 
 **Basic Operations**:
@@ -685,9 +825,100 @@ Example:
 - Importance filter settings are also applied if configured
 
 **Web Preview Panel**:
-- Hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL
+- Hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL (see **Web preview (globe icon)** below)
 - For Amazon URLs, adding an image URL after "&" displays the cover image
   - Example: `https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
+
+#### Detail list and X comment integration
+
+**Detail list** (per-year item list):
+- **Edit mode** (`?editmode=ON`): pencil, trash, and Add are available. **Without editmode**, pencil and trash are **hidden** (not grayed out).
+- **🔗** — Opens **Share & search panel** (copy link, X posts, X search)
+- **Label (blue, clickable)** — Opens **item detail panel** (note + URL list)
+- **🌐** — Web preview (globe icon; see below)
+- Manual **X comment mark** shows an 𝕏 badge on the label (checkbox in edit modal)
+
+**Share & search panel** (🔗 click):
+- **Share comments** — **Post comment on X** opens X compose (label + `#XnativeTimeline #Jimbocho03` + URL)
+- For correction or addition suggestions, add `#EditReq` or `#AddReq` to the hashtags when posting (no dedicated buttons; see the note in the panel)
+- **View X posts for this item** — Opens X search in a new tab (**X only** for public post search)
+- **Share outside X** — Copy item label + share URL for Facebook, LINE, etc.
+- Hashtag rules are shown in the panel
+
+**Item detail panel** (label click, or opening via `?xid=...` from a share link):
+- Shows **note** and **URL links** beside the detail list
+- From a share URL: opens the **year detail list**, then finds the item **by label within that year**. Opens the item panel only on match; **no item panel if not found**
+
+#### Short share links (xid) and xnative_link_map.json
+
+Use **`xid`** (alias `xnativeId`) instead of a long query string.
+
+1. Example: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1910&itemLabel=…`
+2. On startup the app loads **`xnative_link_map.json`** from GitHub repo **`hortense667/xnative`** (`main`)
+3. Short `xid` (e.g. `jimbocho03-y1910`) expands to **`y`**; **`itemLabel`** is kept from the URL
+4. After load, the app finds the item by label in that year; opens the item panel only if found
+
+**Maintainers** — register entries in repo-root `xnative_link_map.json`:
+
+```json
+"jimbocho03": {
+  "params": "filePath=timeline_jimbocho_03.json",
+  "label": "Kanda Jimbocho Timeline"
+}
+```
+
+**`params` format**:
+- Standard query string without leading `?`; **join multiple parameters with `&`**
+- Example: `filePath=timeline_jimbocho_02.json&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=%5B%7B...%7D%5D`
+- URL-encode JSON values once (e.g. `refTimelines`)
+
+| Pattern | Map key | Share URL | Behavior |
+|---------|---------|-----------|----------|
+| Timeline base | `jimbocho03` | `?xid=jimbocho03-y1910&itemLabel=…` | Common settings in `params`; **`y` appended** from `-y{year}` suffix; label in `itemLabel` |
+| Full entry | custom id | `?xid=my-custom-id` | Entire query including `y` / `itemLabel` in `params` |
+
+**Timeline metadata (optional)**: `xHashtag`, `xLinkId`, `shareBaseUrl` — see Japanese section above in this guide.
+
+Push changes to **`hortense667/xnative` `main`** after editing the map file.
+
+#### Web preview (globe icon)
+
+**How to open**:
+- Hover (~1 s) over the globe icon in the detail list or a blue search result item
+- Click the globe icon to pin the panel
+- Use **Open in New Tab**, **Switch to other URL**, and **Close** in the header (`|` -separated URLs; `url` / `url_en` switching supported)
+
+**Embeddable sites** (e.g. Wikipedia):
+- Shown inside the panel iframe
+
+**Non-embeddable sites** (many commercial sites, government portals, note.com, etc.):
+- Cannot be shown in iframe; the panel shows:
+  - Browser-style background (address bar + blurred page thumbnail when available)
+  - Message: “This site can be viewed in a new tab. Open in a new tab?”
+  - **Yes** button (opens the URL in a new tab)
+- You can also use **Open in New Tab** in the header
+
+**Amazon URLs**:
+- No iframe; shows cover image (`URL&imageURL`) and link guidance
+
+**How blocking is decided**:
+- If the timeline JSON includes `metadata.embedBlocklist` or a companion `timeline_xxx_embed.json`, those URLs skip iframe and show the message immediately
+- URLs not in the list still try iframe first; on failure, the same message is shown
+
+#### For timeline authors: embed-block pre-check
+
+After editing URLs in a timeline JSON:
+
+```bash
+node tools/check-embed-urls.mjs timeline_xxx.json timeline_xxx_embed.json --update-metadata
+```
+
+- Writes `timeline_xxx_embed.json` with `blockedUrls` / `blockedHostPatterns`
+- With `--update-metadata`, also updates `metadata.embedBlocklist` in the timeline JSON
+- Checks `X-Frame-Options` and CSP `frame-ancestors` via HEAD (Node only; browsers cannot read these headers cross-origin)
+- The app works without `_embed.json` (built-in domain hints + iframe failure detection as fallback)
+
+Place `_embed.json` next to the timeline JSON to load it automatically.
 
 **Search Result Operations (Edit)**:
 - Double-click a blue search result item to open the edit modal (edit mode only)
@@ -702,8 +933,8 @@ Example:
 
 **Temporary Data Addition**:
 - Load data from CSV file using "Load" function
-- Can edit, add, delete but saves locally only
-- Returns to original state when page is reloaded
+- Edit/add/delete are available (GitHub save in normal mode, CSV export when no token)
+- Set Data Source to "Local JSON (on your PC)" when you want to keep everything local only
 
 #### 2. People Who Want to Participate in Editing Existing Timeline (Collaborators)
 
@@ -723,23 +954,26 @@ Example:
 
 #### 3. People Who Want to Create Their Own Timeline (Local Administrators)
 
-**Target**: People who manage with local data using load and save
+**Target**: People who want to operate only with local JSON files (without GitHub)
 
 **Use Cases**: Suitable for using simple timelines for presentations and analysis
 
 **Basic Operations**:
 - All viewer and collaborator operations
-- Load data from CSV file with "Load"
-- Save current data as CSV file with "Save"
+- Set Data Source to "Local JSON (on your PC)" in Settings
+- Use "Clear all displayed labels and load from Local" to open `timeline_*.json`
+- Saving from edit modal or confirming reorder (close) writes to local JSON
+- Header "Save" button also writes to local JSON
+- First save chooses destination; later saves overwrite the same file (on supported browsers)
 - Complete data management locally
 
 **Recommended Workflow**:
-1. Prepare initial data in CSV file
-2. Load data using "Load"
-3. Edit, add, delete as needed
-4. Save current state with "Snapshot Save"
-5. Repeat steps 2-4 as needed
-6. When satisfied with state, save as CSV file using "Save"
+1. Set Data Source to "Local JSON (on your PC)" in Settings
+2. Load a local `timeline_*.json`
+3. Edit/add/delete/reorder as needed
+4. Save from edit flow or header "Save" to update JSON
+5. Optionally save work state with "Snapshot Save"
+6. Next session, open the same local JSON again
 
 #### 4. People Who Want to Publish Their Own Timeline (GitHub Administrators)
 
@@ -754,10 +988,12 @@ Example:
 The detailed, maintained procedures are in these docs:
 
 - GitHub workflow (fork → sync → PR, token, etc.): `timeline-sharing-github.md`
-- Google Sheets workflow (template copy, sharing settings, GAS config, etc.): `timeline-sharing-google-sheets.md`
+- Local creation to GitHub publish (beginner-friendly): `timeline-local-to-github-guide.md`
+- Local → GitHub quickstart (1-2 pages): `timeline-local-to-github-quickstart.md`
 
 #### Note: Migrating Google Sheets → GitHub JSON
-`sheet_to json_coverter.html` is provided to convert a timeline managed in Google Sheets into the JSON format to be managed on GitHub (Sheets → JSON conversion).
+`sheet_to_json_coverter.html` is provided to convert a timeline managed in Google Sheets into the JSON format to be managed on GitHub (Sheets → JSON conversion).
+Google Sheets (GAS) data source is currently unsupported. After migration, use Local JSON or GitHub JSON.
 
 ### Recommended Operation Policy
 
@@ -768,11 +1004,16 @@ The detailed, maintained procedures are in these docs:
    - Always execute "Snapshot Save" before important edits
   - Regularly reflect to GitHub with “Save/Delete/Close (reorder)”
 
-2. **Version Management**
+2. **Batch Reflect vs Daily Edit**
+   - Use **Load → Save (batch reflect)** when importing many CSV/TSV records and reflecting the merged main timeline at once
+   - Use item-level save/delete/reorder-close for normal day-to-day edits
+   - Batch Save is a strong operation that reflects the full main timeline
+
+3. **Version Management**
    - Record commit messages on GitHub before major changes
    - Use tags and branches as needed
 
-3. **Collaborative Editing Management**
+4. **Collaborative Editing Management**
    - Establish rules beforehand for multiple editors
   - Always get latest data with “Reload” before editing
   - Always reflect changes with “Save/Delete/Close (reorder)” after editing
