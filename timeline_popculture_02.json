@@ -1126,6 +1126,20 @@
         "url_en": "https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind",
         "note": "公民権運動の象徴的フォーク曲。",
         "note_en": "Anthemic folk song of civil rights era."
+      },
+      {
+        "label": "鉄腕アトム",
+        "startYear": "1963",
+        "genre": [
+          "ANI",
+          "TVP"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%89%84%E8%85%95%E3%82%A2%E3%83%88%E3%83%A0_(%E3%82%A2%E3%83%8B%E3%83%A1%E7%AC%AC1%E4%BD%9C)",
+        "note": "日本の初期の代表的SFテレビアニメ。テレビアニメの量産体制を確立した。",
+        "label_en": "Astro Boy",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy_(1963_TV_series)",
+        "_rev": "1783690331462-90uocoll"
       }
     ],
     "1964": [
