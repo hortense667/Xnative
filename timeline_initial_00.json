@@ -30,17 +30,6 @@
     "notes": "This is a tutorial sample. Replace title, genres, and events with your own topic when creating a new timeline."
   },
   "events": {
-    "1944": [
-      {
-        "label": "ごにょごにょ",
-        "startYear": "1944",
-        "genre": [
-          "PROD"
-        ],
-        "imp": 3,
-        "_rev": "1783699596417-ghap7115"
-      }
-    ],
     "1950": [
       {
         "label": "クレヨンの一般普及",
