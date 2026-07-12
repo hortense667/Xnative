@@ -1,20 +1,20 @@
 {
   "metadata": {
     "title": {
-      "ja": "長岡市年表 0.7",
-      "en": "Nagaoka City Timeline 0.7 — Fully Re-audited Edition"
+      "ja": "長岡市年表 0.8",
+      "en": "Nagaoka City Timeline 0.8"
     },
     "description": {
-      "ja": "長岡市の歴史・産業・災害復興・市民生活史を扱う年表。0.7では全項目を再点検し、長岡市・長岡市立図書館・長岡花火財団・日本スポーツ協会・施設公式・企業公式などの項目別資料に照らして、誤記、重複、過度な断定を訂正・削除した。",
-      "en": "A timeline of Nagaoka City combining political, industrial and disaster history with exact-year events in retail, cinemas, restaurants, leisure, tourism, film, television, music and sports. Broader period context is placed in notes rather than event labels."
+      "ja": "長岡市の歴史・産業・災害復興・市民生活史を扱う年表。",
+      "en": "A timeline covering the history, industry, disaster recovery, and daily life of Nagaoka City."
     },
-    "initialCreator": "Satoshi Endo / ChatGPT",
+    "initialCreator": "Satoshi Endo",
     "contributors": [
       "Satoshi Endo",
       "ChatGPT"
     ],
     "createdAt": "2026-06-16",
-    "version": "1.7",
+    "version": "1.8",
     "language": [
       "ja",
       "en"
@@ -22,8 +22,9 @@
     "copyright": "© 2026 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "0.7では0.6の305項目を全件再点検した。重大な事実誤認、重複、名称・動詞の誤り、根拠の弱い年代断定を訂正または削除し、確認可能な出来事を追加した結果、299項目となった。とくに第19回国民体育大会は、大会全体が中止されたのではなく、春季大会は開催され、新潟地震で中止されたのは夏季大会の水泳競技であることが分かるよう二項目に分けた。詳細な変更履歴は別添のreverification_audit JSONに収録した。",
-    "updatedAt": "2026-07-12"
+    "notes": "0.8では94種類のURLをブラウザで点検し、24項目のリンクを差し替えた。HTTP 404だけでなく、ページ自体は表示されても本文が「ページが見つかりません」となるソフト404、廃止された店舗・商品ページ、旧大学サイトのURLも対象とした。点検中に判明した東大新江用水路の完成年も1942年から1896年へ訂正した。",
+    "updatedAt": "2026-07-12",
+    "urlCheckedAt": "2026-07-12"
   },
   "schemaVersion": 1,
   "eraSettings": [
@@ -503,9 +504,9 @@
           "WAR_DISASTER"
         ],
         "imp": 5,
-        "url": "https://yamamoto-isoroku.com/",
+        "url": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/nagaoka/file/h2312.pdf",
         "note": "のちの連合艦隊司令長官。長岡出身の代表的人物。",
-        "url_en": "https://yamamoto-isoroku.com/"
+        "url_en": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/nagaoka/file/h2312.pdf"
       }
     ],
     "1888": [
@@ -559,6 +560,20 @@
         "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0",
         "note": "石油都市としての長岡を象徴するインフラ。",
         "url_en": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0"
+      }
+    ],
+    "1896": [
+      {
+        "label": "東大新江用水路が完成する",
+        "startYear": 1896,
+        "genre": [
+          "NATURE_SPORTS",
+          "INDUSTRY_COMMERCE"
+        ],
+        "imp": 3,
+        "url": "https://www.pref.niigata.lg.jp/uploaded/attachment/75878.pdf",
+        "note": "用水不足の解消を目的に整備が進められ、明治29年（1896年）に完成した。長岡地域の水田を潤す農業用水路として利用された。",
+        "url_en": "https://www.pref.niigata.lg.jp/uploaded/attachment/75878.pdf"
       }
     ],
     "1898": [
@@ -714,9 +729,9 @@
           "NATURE_SPORTS"
         ],
         "imp": 4,
-        "url": "https://nagaoka-navi.or.jp/spot/5907",
+        "url": "https://nagaoka-navi.or.jp/spot/5869",
         "note": "花見・動物園・郷土史料館などにつながる市民公園。",
-        "url_en": "https://nagaoka-navi.or.jp/spot/5907"
+        "url_en": "https://nagaoka-navi.or.jp/spot/5869"
       }
     ],
     "1920": [
@@ -820,9 +835,9 @@
           "INDUSTRY_COMMERCE"
         ],
         "imp": 5,
-        "url": "https://www.nagaokaut.ac.jp/annai/enkaku.html",
+        "url": "https://www.city.nagaoka.niigata.jp/elibrary/ayumi/nagaoka01/t13.html",
         "note": "現・新潟大学工学部につながる技術教育の拠点。",
-        "url_en": "https://www.nagaokaut.ac.jp/annai/enkaku.html"
+        "url_en": "https://www.city.nagaoka.niigata.jp/elibrary/ayumi/nagaoka01/t13.html"
       }
     ],
     "1925": [
@@ -871,9 +886,9 @@
           "HISTORY_SOCIETY"
         ],
         "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/youran/song.html",
+        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
         "note": "市制20周年の記念。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/shisei/cate02/youran/song.html"
+        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       }
     ],
     "1927": [
@@ -947,9 +962,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 5,
-        "url": "https://nagaoka-navi.or.jp/feature/katsudon/top",
+        "url": "https://na-nagaoka.jp/archives/8759",
         "note": "洋風カツ丼の発祥店とされる。1930年代の長岡では洋食が都市の新しい外食文化として受け入れられた。",
-        "url_en": "https://nagaoka-navi.or.jp/feature/katsudon/top"
+        "url_en": "https://na-nagaoka.jp/archives/8759"
       }
     ],
     "1934": [
@@ -986,9 +1001,9 @@
           "CULTURE_MEDIA"
         ],
         "imp": 4,
-        "url": "https://www.niigata-sd.nein.ed.jp/",
+        "url": "https://nagaokarou.nein.ed.jp/introduction.html",
         "note": "国際的な人物の来訪として記憶される出来事。",
-        "url_en": "https://www.niigata-sd.nein.ed.jp/"
+        "url_en": "https://nagaokarou.nein.ed.jp/introduction.html"
       },
       {
         "label": "三代目長生橋が完成",
@@ -1014,20 +1029,6 @@
         "url": "https://nagaokamatsuri.com/history/",
         "note": "1938年から終戦まで花火大会は開かれず、市民の夏の娯楽も戦時体制の影響を受けた。",
         "url_en": "https://nagaokamatsuri.com/history/"
-      }
-    ],
-    "1942": [
-      {
-        "label": "東大新江用水路が完成",
-        "startYear": 1942,
-        "genre": [
-          "NATURE_SPORTS",
-          "INDUSTRY_COMMERCE"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%A4%A7%E6%96%B0%E6%B1%9F%E7%94%A8%E6%B0%B4",
-        "note": "農業・治水・水利用の近代化。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%A4%A7%E6%96%B0%E6%B1%9F%E7%94%A8%E6%B0%B4"
       }
     ],
     "1945": [
@@ -1409,9 +1410,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 4,
-        "url": "https://gateausenka.jp/company/",
+        "url": "https://na-nagaoka.jp/archives/3134",
         "note": "洋菓子店として親しまれ、後年の「サンキューまつり」など行列を生む長岡独自の菓子文化につながった。",
-        "url_en": "https://gateausenka.jp/company/"
+        "url_en": "https://na-nagaoka.jp/archives/3134"
       },
       {
         "label": "越路橋が開通する",
@@ -1488,7 +1489,7 @@
         "url": "https://howtoniigata.jp/recommend/40061/",
         "note": "長岡生姜醤油ラーメンを代表する店として知られ、後に全国的な知名度を得た。",
         "label_en": "Aoshima Shokudo opens and develops ginger-shoyu ramen",
-        "url_en": "https://www.aoshima-ramen.co.jp/"
+        "url_en": "https://howtoniigata.jp/recommend/40061/"
       }
     ],
     "1962": [
@@ -1565,9 +1566,9 @@
           "NATURE_SPORTS"
         ],
         "imp": 4,
-        "url": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36",
+        "url": "https://www.japan-sports.or.jp/kokutai/tabid730.html",
         "note": "第19回国民体育大会そのものは冬季・春季大会が開催された。新潟地震のため中止されたのは、8月に長岡市と柏崎市で予定されていた夏季大会の水泳競技である。",
-        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36"
+        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid730.html"
       },
       {
         "label": "第19回国民体育大会春季大会のバスケットボール競技が長岡で開催される",
@@ -1578,9 +1579,9 @@
           "HISTORY_SOCIETY"
         ],
         "imp": 4,
-        "url": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36",
+        "url": "https://www.japan-sports.or.jp/kokutai/tabid730.html",
         "note": "第19回国民体育大会は1964年に新潟県を中心に開催され、春季大会のバスケットボール競技は長岡市厚生会館などで行われた。新潟地震で中止されたのは、8月に予定されていた夏季大会の水泳競技であり、大会全体ではない。",
-        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36"
+        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid730.html"
       },
       {
         "label": "長岡観光会館が開館する",
@@ -1791,9 +1792,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 4,
-        "url": "https://www.week.co.jp/gourmet/10425/",
+        "url": "https://na-nagaoka.jp/archives/8089",
         "note": "背脂を使ったラーメンで知られ、生姜醤油系と並ぶ長岡の多様なラーメン文化を形づくった。",
-        "url_en": "https://www.week.co.jp/gourmet/10425/"
+        "url_en": "https://na-nagaoka.jp/archives/8089"
       }
     ],
     "1973": [
@@ -1858,9 +1859,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 4,
-        "url": "https://www.nagaoka-navi.or.jp/gourmet/40980",
+        "url": "https://na-nagaoka.jp/archives/9297",
         "note": "洋風カツ丼やカレーで親しまれ、中心街で気軽に洋食を食べる長岡の外食文化を受け継いだ。",
-        "url_en": "https://www.nagaoka-navi.or.jp/gourmet/40980"
+        "url_en": "https://na-nagaoka.jp/archives/9297"
       },
       {
         "label": "北陸自動車道信濃川橋が完成する",
@@ -1973,9 +1974,9 @@
           "INDUSTRY_COMMERCE"
         ],
         "imp": 5,
-        "url": "https://www.nagaokaut.ac.jp/annai/enkaku.html",
+        "url": "https://www.nagaokaut.ac.jp/outline/info/history/index.html",
         "note": "実践的な技術者教育と産学連携を担い、長岡を技術都市として特徴づける大学となった。",
-        "url_en": "https://www.nagaokaut.ac.jp/annai/enkaku.html"
+        "url_en": "https://www.nagaokaut.ac.jp/outline/info/history/index.html"
       }
     ],
     "1977": [
@@ -2010,9 +2011,9 @@
           "CULTURE_MEDIA"
         ],
         "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/shisei/cate02/youran/symbol.html",
+        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
         "note": "不死鳥を想起させる都市イメージと結びつく。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/shisei/cate02/youran/symbol.html"
+        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
         "label": "長岡市役所が幸町へ移転する",
@@ -2103,9 +2104,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 4,
-        "url": "https://www.jrniigata.co.jp/company/history/",
+        "url": "https://www.loft.co.jp/newsrelease/2dc4401f9739991aaf83dfa64189d42cb2d1c64a.pdf",
         "note": "列車利用と買い物・飲食を一体化し、1980年代の駅前を代表する商業施設となった。",
-        "url_en": "https://www.jrniigata.co.jp/company/history/"
+        "url_en": "https://www.loft.co.jp/newsrelease/2dc4401f9739991aaf83dfa64189d42cb2d1c64a.pdf"
       }
     ],
     "1982": [
@@ -2146,6 +2147,19 @@
     ],
     "1983": [
       {
+        "label": "ラーメンあおきやが創業する",
+        "startYear": 1983,
+        "genre": [
+          "FOOD_CRAFT",
+          "INDUSTRY_COMMERCE",
+          "TRANSPORT_CITY"
+        ],
+        "imp": 3,
+        "url": "https://niigata-kankou.or.jp/blog/485",
+        "note": "長岡生姜醤油ラーメンの人気店の一つとなり、店ごとの味を食べ比べる文化を厚くした。",
+        "url_en": "https://niigata-kankou.or.jp/blog/485"
+      },
+      {
         "label": "寺泊水族博物館が開館する",
         "startYear": 1983,
         "genre": [
@@ -2179,19 +2193,6 @@
         "url": "https://nagaokamatsuri.com/history/",
         "note": "三尺五寸玉が打ち上げられ、その打ち上げ筒は郷土史料館に展示された。",
         "url_en": "https://nagaokamatsuri.com/history/"
-      },
-      {
-        "label": "青木屋が創業する",
-        "startYear": 1983,
-        "genre": [
-          "FOOD_CRAFT",
-          "INDUSTRY_COMMERCE",
-          "TRANSPORT_CITY"
-        ],
-        "imp": 3,
-        "url": "https://www.niigata-kankou.or.jp/spot/43664",
-        "note": "長岡生姜醤油ラーメンの人気店の一つとなり、店ごとの味を食べ比べる文化を厚くした。",
-        "url_en": "https://www.niigata-kankou.or.jp/spot/43664"
       }
     ],
     "1984": [
@@ -2379,9 +2380,9 @@
           "FOOD_CRAFT"
         ],
         "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/kankou/event/daruma.html",
+        "url": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/nagaoka/file/s6112.pdf",
         "note": "縁起物と市民イベントを組み合わせた長岡らしい催し。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kankou/event/daruma.html"
+        "url_en": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/nagaoka/file/s6112.pdf"
       },
       {
         "label": "越後与板打刃物が国の伝統的工芸品に指定される",
@@ -2803,9 +2804,9 @@
           "HISTORY_SOCIETY"
         ],
         "imp": 4,
-        "url": "https://nagaokafilmfes.jimdofree.com/",
+        "url": "https://n-story.jp/topic/77/",
         "note": "商業映画館だけでなく、市民が多様なアジア映画に触れ、制作者と交流する場が始まった。",
-        "url_en": "https://nagaokafilmfes.jimdofree.com/"
+        "url_en": "https://n-story.jp/topic/77/"
       },
       {
         "label": "長岡リリックホールが開館する",
@@ -2913,9 +2914,9 @@
           "CULTURE_MEDIA"
         ],
         "imp": 5,
-        "url": "https://yamamoto-isoroku.com/",
+        "url": "https://nagaoka-navi.or.jp/spot/5955",
         "note": "長岡出身の歴史的人物を伝える施設。",
-        "url_en": "https://yamamoto-isoroku.com/"
+        "url_en": "https://nagaoka-navi.or.jp/spot/5955"
       },
       {
         "label": "映画『まじめで悪いか！』が公開される",
@@ -2988,9 +2989,9 @@
           "HISTORY_SOCIETY"
         ],
         "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/shisetsu/bunka/shimin-center.html",
+        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate14/will/file/history.pdf",
         "note": "大手通の中心市街地再生の一要素。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/shisetsu/bunka/shimin-center.html"
+        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate14/will/file/history.pdf"
       },
       {
         "label": "テレビドラマ『ストロベリー・オンザ・ショートケーキ』が放送される",
@@ -3199,9 +3200,9 @@
           "WAR_DISASTER"
         ],
         "imp": 5,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/chuetsu_jishin/",
+        "url": "https://www.bousai.city.nagaoka.niigata.jp/plan-pamphlet/h161023.pdf",
         "note": "旧山古志村・川口地域などが大きな被害を受け、復興の物語が長岡の新たな柱になる。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/chuetsu_jishin/"
+        "url_en": "https://www.bousai.city.nagaoka.niigata.jp/plan-pamphlet/h161023.pdf"
       },
       {
         "label": "長岡市の下水道普及率がほぼ100％に達する",
@@ -3433,9 +3434,9 @@
           "FESTIVAL_LEISURE"
         ],
         "imp": 5,
-        "url": "https://www.nhk-ep.com/products/detail/h16154AA",
+        "url": "https://www.nhk-ondemand.jp/program/P200800020000000/",
         "note": "直江兼続を主人公とする大河ドラマ。与板など市内のゆかりの地への関心が高まった。",
-        "url_en": "https://www.nhk-ep.com/products/detail/h16154AA"
+        "url_en": "https://www.nhk-ondemand.jp/program/P200800020000000/"
       },
       {
         "label": "トキめき新潟国体が長岡で開催される",
@@ -3936,9 +3937,9 @@
           "WAR_DISASTER"
         ],
         "imp": 5,
-        "url": "https://movies.shochiku.co.jp/touge/",
+        "url": "https://www.shochiku.co.jp/cinema/database/05032/",
         "note": "河井継之助と北越戊辰戦争を描き、長岡の歴史人物と史跡が改めて注目された。",
-        "url_en": "https://movies.shochiku.co.jp/touge/"
+        "url_en": "https://www.shochiku.co.jp/cinema/database/05032/"
       },
       {
         "label": "長岡まつり大花火大会が3年ぶりに開催される",
@@ -3974,9 +3975,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 3,
-        "url": "https://www.loft.co.jp/shop_list/detail.php?shop_id=668",
+        "url": "https://www.loft.co.jp/newsrelease/2dc4401f9739991aaf83dfa64189d42cb2d1c64a.pdf",
         "note": "駅前商業が縮小してきた中で、文具・生活雑貨を扱う全国チェーンがリバーサイド千秋に出店した。",
-        "url_en": "https://www.loft.co.jp/shop_list/detail.php?shop_id=668"
+        "url_en": "https://www.loft.co.jp/newsrelease/2dc4401f9739991aaf83dfa64189d42cb2d1c64a.pdf"
       }
     ],
     "2024": [
