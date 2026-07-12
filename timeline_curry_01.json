@@ -1,0 +1,635 @@
+{
+  "events": {
+    "1860": [
+      {
+        "label": "イギリスからカレー粉が伝来",
+        "label_en": "Curry powder introduced from the UK",
+        "startYear": "1860",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/日本のカレーライス",
+        "url_en": "https://en.wikipedia.org/wiki/Curry",
+        "note": "1860年代にインドを統治していたイギリスからカレー粉が日本に伝わりました。",
+        "note_en": "Curry powder was introduced to Japan from the UK in the 1860s."
+      }
+    ],
+    "1871": [
+      {
+        "label": "山川健次郎が船上でカレーに遭遇",
+        "label_en": "Yamakawa met curry on a ship to the US",
+        "startYear": "1871",
+        "genre": [
+          "PERSON"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/山川健次郎",
+        "url_en": "https://en.wikipedia.org/wiki/Yamakawa_Kenjiro",
+        "note": "日本最初の物理学者となる山川健次郎が米国留学の船上でライスカレーと遭遇。",
+        "note_en": "Yamakawa Kenjiro encountered rice curry on a ship to the United States."
+      }
+    ],
+    "1872": [
+      {
+        "label": "『西洋料理指南』にレシピ掲載",
+        "label_en": "Recipe first published in Western Cooking Guide",
+        "startYear": "1872",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/日本のカレーライス",
+        "note": "日本で初めてカレーのレシピが紹介され、文明開化の象徴となりました。",
+        "note_en": "The first curry recipe in Japan was introduced in this cookbook."
+      }
+    ],
+    "1873": [
+      {
+        "label": "陸軍幼年学校の昼食に登場",
+        "label_en": "Rice curry served at Military Youth School",
+        "startYear": "1873",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日本のカレーライス",
+        "note": "陸軍幼年学校の土曜日の昼食メニューにライスカレーが登場し、軍隊へ普及。",
+        "note_en": "Rice curry was served for Saturday lunch at the Military Youth School."
+      }
+    ],
+    "1876": [
+      {
+        "label": "札幌農学校でライスカレー食開始",
+        "label_en": "Sapporo Agricultural College served rice curry",
+        "startYear": "1876",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウィリアム・スミス・クラーク",
+        "url_en": "https://en.wikipedia.org/wiki/William_S._Clark",
+        "note": "クラーク博士の発案とされ、寮で1日おきのライスカレー食が開始された。",
+        "note_en": "Rice curry was served every other day at the dorm, reportedly via Dr. Clark."
+      }
+    ],
+    "1900": [
+      {
+        "label": "夏目漱石がセイロンでカレーを食す",
+        "label_en": "Natsume Soseki ate curry in Ceylon",
+        "startYear": "1900",
+        "genre": [
+          "PERSON",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/夏目漱石",
+        "url_en": "https://en.wikipedia.org/wiki/Natsume_Soseki",
+        "note": "英国留学の途上、コロンボで名物のライスカレーを食べたと日記に記録。",
+        "note_en": "Soseki recorded in his diary that he ate famous rice curry in Colombo."
+      }
+    ],
+    "1903": [
+      {
+        "label": "国産初のカレー粉「蜂カレー」発売",
+        "label_en": "First domestic curry powder Hachi Curry released",
+        "startYear": "1903",
+        "genre": [
+          "COMPANY",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://www.hachi-shokuhin.co.jp/",
+        "note": "大阪の今村弥兵衛により、日本初の国産カレー粉が発売されました。",
+        "note_en": "The first domestic curry powder was released by Yahei Imamura in Osaka."
+      }
+    ],
+    "1909": [
+      {
+        "label": "「カレー南蛮」が誕生",
+        "label_en": "Curry Nanban was invented in Tokyo",
+        "startYear": "1909",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カレーうどん",
+        "note": "東京の「朝松庵」の店主が、洋食のカレーを蕎麦に合うようアレンジ。",
+        "note_en": "Curry Nanban (curry soba) was invented by a Soba restaurant in Tokyo."
+      }
+    ],
+    "1910": [
+      {
+        "label": "早稲田の三朝庵でカレーうどん誕生",
+        "label_en": "Curry Udon was invented at Sansho-an",
+        "startYear": "1910",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/カレーうどん",
+        "note": "東京、早稲田の蕎麦店「三朝庵」で和食と融合したカレーうどんが誕生。",
+        "note_en": "Curry Udon was invented at a Soba restaurant in Waseda, Tokyo."
+      },
+      {
+        "label": "大阪の難波「自由軒」が創業",
+        "label_en": "Namba Jiyuken opened in Osaka",
+        "startYear": "1910",
+        "genre": [
+          "RESTRANT"
+        ],
+        "imp": 4,
+        "url": "https://www.jiyuken.co.jp/",
+        "note": "織田作之助の小説にも登場する、ご飯と生玉子を混ぜる名物カレーを提供。",
+        "note_en": "Jiyuken opened, famous for its pre-mixed curry with a raw egg on top."
+      }
+    ],
+    "1918": [
+      {
+        "label": "「カツカレー」の原型が誕生",
+        "label_en": "The origin of Katsu-Curry was born",
+        "startYear": "1918",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/カツカレー",
+        "url_en": "https://en.wikipedia.org/wiki/Katsu_curry",
+        "note": "浅草の洋食店「河金」の河金丼が起源とされ、のちに銀座スイス等へ続く。",
+        "note_en": "Katsu-Curry (cutlet curry) was born in Tokyo, merging pork cutlet with curry."
+      }
+    ],
+    "1923": [
+      {
+        "label": "エスビー食品が本格カレー粉の製造に成功",
+        "label_en": "S&B Foods succeeded in manufacturing authentic curry powder",
+        "startYear": "1923",
+        "genre": [
+          "COMPANY"
+        ],
+        "imp": 4,
+        "url": "https://www.sbfoods.co.jp/",
+        "url_en": "https://en.wikipedia.org/wiki/S%26B_Foods",
+        "note": "現在のエスビー食品の創業者が、本格的な国産カレー粉の製造に成功しました。",
+        "note_en": "The predecessor of S&B Foods successfully manufactured authentic curry powder."
+      }
+    ],
+    "1924": [
+      {
+        "label": "神田神保町の「共栄堂」が創業",
+        "startYear": "1924",
+        "genre": [
+          "RESTRANT"
+        ],
+        "imp": 4,
+        "note": "神田神保町にて創業。独特のビターな「スマトラカレー」を提供し続けている。",
+        "label_en": "Kyoeido, the oldest active curry shop, opened",
+        "note_en": "Kyoeido opened in Jimbocho, serving its unique bitter Sumatra-style curry.",
+        "_rev": "1783824761436-1p1l2cz6"
+      }
+    ],
+    "1927": [
+      {
+        "label": "新宿中村屋で「純印度式カリー」発売",
+        "label_en": "Shinjuku Nakamuraya released authentic Indian Curry",
+        "startYear": "1927",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 5,
+        "url": "https://www.nakamuraya.co.jp/",
+        "note": "日本で最初の本格的なインドカレー。小麦粉を使わない本場の味を日本に紹介。",
+        "note_en": "The first authentic Indian curry in Japan, introduced by Shinjuku Nakamuraya."
+      },
+      {
+        "label": "東京のパン店でカレーパンが発明",
+        "label_en": "Curry Bread was invented in Tokyo",
+        "startYear": "1927",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カレーパン",
+        "url_en": "https://en.wikipedia.org/wiki/Curry_bread",
+        "note": "東京、江東区の名花堂（現カトレア）にて「洋食パン」として特許申請された。",
+        "note_en": "The origin of Curry Bread was invented and patented by Meika-do in Tokyo."
+      }
+    ],
+    "1931": [
+      {
+        "label": "C&Bカレー粉偽装事件が発生",
+        "label_en": "C&B Curry Powder Adulteration Incident",
+        "startYear": "1931",
+        "genre": [
+          "COMPANY",
+          "INCIDENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/C%26Bカレー粉偽装事件",
+        "note": "英国製高級カレー粉の偽装を機に、国産カレー粉の品質とシェアが急伸した。",
+        "note_en": "A fraud case for imported powder boosted the reputation of domestic brands."
+      }
+    ],
+    "1941": [
+      {
+        "label": "戦時下のカレー粉製造制限",
+        "label_en": "Restrictions on curry powder during WWII",
+        "startYear": "1941",
+        "endYear": "1945",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日本のカレーライス",
+        "note": "太平洋戦争により一般向けの販売は一時消滅するも軍用としては製造継続。",
+        "note_en": "General sales disappeared during WWII, but military production continued."
+      }
+    ],
+    "1945": [
+      {
+        "label": "「即席オリエンタルカレー」発売",
+        "label_en": "Instant Oriental Curry was released",
+        "startYear": "1945",
+        "genre": [
+          "COMPANY",
+          "HOME"
+        ],
+        "imp": 4,
+        "url": "https://www.oriental-curry.co.jp/",
+        "note": "終戦直後、日本初の本格的な個包装タイプ即席カレーとして大ヒット。",
+        "note_en": "Right after the war, Japan's first packaged instant curry became a big hit."
+      }
+    ],
+    "1949": [
+      {
+        "label": "銀座「ナイルレストラン」が創業",
+        "label_en": "Nile Restaurant opened in Ginza",
+        "startYear": "1949",
+        "genre": [
+          "RESTRANT"
+        ],
+        "imp": 4,
+        "url": "https://www.ginzanile.com/",
+        "note": "日本初の本格的インド料理専門店として創業。ムルギランチが名物。",
+        "note_en": "Opened as Japan's first authentic Indian restaurant, famous for Murghi Lunch."
+      }
+    ],
+    "1950": [
+      {
+        "label": "板状の固形カレールウが発売",
+        "label_en": "Solid curry roux blocks were released",
+        "startYear": "1950",
+        "genre": [
+          "HOME",
+          "COMPANY"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/カレールー",
+        "note": "固形ルウの登場で家庭で手軽にカレーが作れるようになり大衆化が進んだ。",
+        "note_en": "Solid curry roux made it easy to cook curry at home, promoting popularization."
+      }
+    ],
+    "1955": [
+      {
+        "label": "「カレーラーメン」が誕生",
+        "label_en": "Curry Ramen was invented",
+        "startYear": "1955",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/カレーラーメン",
+        "note": "北海道苫小牧の「味の清洋軒」などで、ラーメンとカレーの融合が始まる。",
+        "note_en": "Curry Ramen was invented, blending ramen broth with curry flavors."
+      }
+    ],
+    "1956": [
+      {
+        "label": "上野「デリー」が創業",
+        "label_en": "Delhi opened in Ueno",
+        "startYear": "1956",
+        "genre": [
+          "RESTRANT"
+        ],
+        "imp": 4,
+        "url": "https://www.delhi.co.jp/",
+        "note": "日本のカレー史に多大な影響を与えた「カシミールカレー」などを生む。",
+        "note_en": "Delhi opened in Ueno, inventing the famous hot Kashmir Curry."
+      }
+    ],
+    "1957": [
+      {
+        "label": "阿佐ヶ谷で「喫茶アジャンタ」創業",
+        "label_en": "Café Ajanta opened in Asagaya",
+        "startYear": "1957",
+        "genre": [
+          "RESTRANT"
+        ],
+        "imp": 4,
+        "url": "https://www.ajanta.com/",
+        "note": "紅茶やスナックの店として始動。のちに九段・麹町へ移り純インド料理店へ。",
+        "note_en": "Started as a café in Asagaya, later moving to become a top Indian restaurant."
+      }
+    ],
+    "1960": [
+      {
+        "label": "「グリコワンタッチカレー」が発売",
+        "label_en": "Glico One-Touch Curry was released",
+        "startYear": "1960",
+        "genre": [
+          "COMPANY",
+          "HOME"
+        ],
+        "imp": 4,
+        "url": "https://www.glico.com/",
+        "note": "あらかじめ割れ目の入ったワンタッチ構造の固形ルウとして人気を博す。",
+        "note_en": "Released as a solid roux block with pre-cut scores for easy breaking."
+      }
+    ],
+    "1963": [
+      {
+        "label": "「バーモントカレー」が発売・ヒット",
+        "label_en": "Vermont Curry was released and became a huge hit",
+        "startYear": "1963",
+        "genre": [
+          "HOME",
+          "COMPANY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バーモントカレー",
+        "note": "甘口のバーモントカレーがヒットし、子どもがいる家庭にも普及した。",
+        "note_en": "Mild Vermont Curry became a huge hit, spreading curry to households with kids."
+      }
+    ],
+    "1964": [
+      {
+        "label": "「インド人もビックリ」のCMが流行",
+        "label_en": "The catchphrase 'Even Indians are surprised' became a hit",
+        "startYear": "1964",
+        "genre": [
+          "COMPANY",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/エスビー食品",
+        "note": "エスビー食品の「特製エスビーカレー」のTVCM。国民的な流行語となった。",
+        "note_en": "S&B Foods' TV commercial catchphrase became a famous nationwide pop-culture idiom."
+      }
+    ],
+    "1966": [
+      {
+        "label": "寺山修司がエッセイでカレーを論じる",
+        "label_en": "Shuji Terayama discussed curry in his essay",
+        "startYear": "1966",
+        "genre": [
+          "PERSON",
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/寺山修司",
+        "note": "アサヒグラフ連載でカレーとラーメンを対立軸にサラリーマンの幸福を論じた。",
+        "note_en": "He discussed the happiness of workers using curry and ramen as a contrast."
+      }
+    ],
+    "1968": [
+      {
+        "label": "世界初の市販レトルトカレーが発売",
+        "label_en": "The world's first commercial retort curry was released",
+        "startYear": "1968",
+        "genre": [
+          "HOME",
+          "COMPANY"
+        ],
+        "imp": 5,
+        "url": "https://boncurry.jp/",
+        "note": "大塚食品がボンカレーを発売。温めるだけで食べられる手軽さが浸透。",
+        "note_en": "Otsuka Foods released Bon Curry, introducing instant pouch curry to homes."
+      }
+    ],
+    "1975": [
+      {
+        "label": "ゴレンジャーで「キレンジャー」が人気",
+        "label_en": "Kirenger's curry love became popular in Gorenger",
+        "startYear": "1975",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/秘密戦隊ゴレンジャー",
+        "note": "大のカレー好きという設定が子供達に大受けし、カレー人気を更に後押し。",
+        "note_en": "Kirenger's obsession with curry boosted curry's popularity among children."
+      },
+      {
+        "label": "包丁人味平で「カレー戦争」編が連載",
+        "label_en": "The Curry War arc in Hochonin Ajihei was serialized",
+        "startYear": "1975",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/包丁人味平",
+        "note": "作中に登場する「ブラックカレー」などの架空のカレーが社会的外題に。",
+        "note_en": "The fictional Black Curry in the manga became a well-known pop culture topic."
+      }
+    ],
+    "1982": [
+      {
+        "label": "1月22日が「カレーの日」に指定",
+        "label_en": "January 22 was designated as Curry Day",
+        "startYear": "1982",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/日本のカレーライス",
+        "note": "全国学校栄養士協議会が学校給食メニューとして一斉支給を呼びかけた。",
+        "note_en": "Dietitians called for curry to be served nationwide in school lunches."
+      }
+    ],
+    "1998": [
+      {
+        "label": "和歌山毒物混入カレー事件が発生",
+        "label_en": "Wakayama arsenic-laced curry incident",
+        "startYear": "1998",
+        "genre": [
+          "INCIDENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/和歌山毒物混入カレー事件",
+        "url_en": "https://en.wikipedia.org/wiki/Wakayama_arsenic_poison_case",
+        "note": "夏祭りのカレーにヒ素が混入され、地域社会や食の安全に大きな衝撃を与えた。",
+        "note_en": "Arsenic was mixed into festival curry, causing a massive social shock."
+      }
+    ],
+    "2001": [
+      {
+        "label": "イチローがメジャー移籍、ルーティンが話題",
+        "label_en": "Ichiro moved to MLB, home curry routine noticed",
+        "startYear": "2001",
+        "genre": [
+          "PERSON"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/イチロー",
+        "url_en": "https://en.wikipedia.org/wiki/Ichiro_Suzuki",
+        "note": "マリナーズ時代に毎朝（正確には弓子夫人の）カレーを食べる習慣が話題に。",
+        "note_en": "His routine of eating homemade curry before games became a hot topic."
+      }
+    ],
+    "2003": [
+      {
+        "label": "グルメ本『辛ミシュラン』が出版",
+        "startYear": "2003",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "note": "激辛カレーやエスニック料理の名店を紹介。",
+        "label_en": "The book Kara-Michelin was published",
+        "note_en": "A gourmet guidebook focusing on spicy and hot curry restaurants.",
+        "_rev": "1783824547119-uzke9mwd"
+      }
+    ],
+    "2005": [
+      {
+        "label": "タモリ倶楽部でアジャンタ社長がナンを否定",
+        "label_en": "Ajanta's president stated 'Indians don't eat Naan' on TV",
+        "startYear": "2005",
+        "genre": [
+          "PERSON",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/タモリ倶楽部",
+        "note": "「インド人は普段ナンを食べない」という発言が、日本のカレー認識に衝撃を与えた。",
+        "note_en": "The restaurant president revealed on TV that Naan is not an everyday food in India."
+      }
+    ],
+    "2010": [
+      {
+        "label": "ドラえもんで「恐怖のジャイ子カレー」放送",
+        "label_en": "Doraemon anime aired 'Scary Jaiko's Curry'",
+        "startYear": "2010",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ドラえもん",
+        "url_en": "https://en.wikipedia.org/wiki/Doraemon",
+        "note": "ジャイ子がカレー作りに凝るエピソードがTVアニメで放送され話題を呼ぶ。",
+        "note_en": "The episode where Jaiko gets obsessed with making curry was aired on TV."
+      }
+    ],
+    "2011": [
+      {
+        "label": "「神田カレーグランプリ」が初開催",
+        "label_en": "The first Kanda Curry Grand Prix was held",
+        "startYear": "2011",
+        "genre": [
+          "RESTRANT",
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://kanda-curry.com/",
+        "note": "カレーの聖地、神田神保町エリアで日本最大級のカレーイベントが始動。",
+        "note_en": "Japan's largest curry festival started in the sacred curry district of Kanda."
+      }
+    ],
+    "2012": [
+      {
+        "label": "カレー専用スプーンが燕三条等で話題に",
+        "label_en": "Curry-specific spoons became popular",
+        "startYear": "2012",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "note": "（要確認）カレーを美味しく食べるために形状や素材を極めた専用匙の開発。",
+        "note_en": "(To be confirmed) Highly specialized spoons designed for eating curry effectively."
+      },
+      {
+        "label": "アスキー総研が若者のカレー離れを発表",
+        "label_en": "ASCII Research reported youth turning away from curry",
+        "startYear": "2012",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 4,
+        "url": "https://www.facebook.com/tokyocurrynews",
+        "note": "調査でカレーがラーメンやうどんに負けていることや若者のカレー離れが判明。",
+        "note_en": "A lifestyle survey revealed that curry usage was below ramen and udon among youth."
+      }
+    ],
+    "2016": [
+      {
+        "label": "『カレー語辞典』が発売",
+        "label_en": "The book Curry Dictionary was published",
+        "startYear": "2016",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "note": "誠文堂新光社より発売。カレーの知識や歴史を辞典形式で紐解き話題となる。",
+        "note_en": "A dictionary-style book about curry culture was published by Seibundo Shinkosha."
+      }
+    ]
+  },
+  "eraSettings": [],
+  "genres": [
+    {
+      "code": "RESTRANT",
+      "label": "お店のカレー",
+      "label_en": "Restrant Curry",
+      "conjunction": false
+    },
+    {
+      "code": "HOME",
+      "label": "家カレー",
+      "label_en": "Home Curry",
+      "conjunction": false
+    },
+    {
+      "code": "COMPANY",
+      "label": "企業",
+      "label_en": "Companies",
+      "conjunction": false
+    },
+    {
+      "code": "CULTURE",
+      "label": "文化・コンテンツ",
+      "label_en": "Culture & Media",
+      "conjunction": false
+    },
+    {
+      "code": "INCIDENT",
+      "label": "事件・社会問題",
+      "label_en": "Incidents & Social Issues",
+      "conjunction": false
+    },
+    {
+      "code": "PERSON",
+      "label": "人物・エピソード",
+      "label_en": "People & Episodes",
+      "conjunction": false
+    }
+  ],
+  "metadata": {
+    "title": {
+      "ja": "日本のカレー年表",
+      "en": "History of Japanese Curry"
+    },
+    "description": {
+      "ja": "日本におけるカレーライスの歴史とイノベーションをたどる年表",
+      "en": "Timeline: The History and Innovations of Curry Rice in Japan"
+    },
+    "initialCreator": "Satoishi Endo",
+    "contributors": [
+      "Satoishi Endo"
+    ]
+  }
+}
