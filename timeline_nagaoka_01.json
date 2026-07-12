@@ -1,20 +1,20 @@
 {
   "metadata": {
     "title": {
-      "ja": "長岡市年表 0.6 8ジャンル統合版",
-      "en": "Nagaoka City Timeline 0.6 — Eight-Genre Edition"
+      "ja": "長岡市年表 0.5 ",
+      "en": "Nagaoka City Timeline 0.5 — Exact-Year Everyday History Edition"
     },
     "description": {
       "ja": "長岡市の歴史・産業・災害復興に、百貨店、商店、映画館、飲食店、遊び場、観光、映画・テレビ、音楽、スポーツなどの市民生活史を加えた年表。各ラベルは原則として正確な年に起きた具体的な出来事とし、年代全体の背景は注釈に記した。",
       "en": "A timeline of Nagaoka City combining political, industrial and disaster history with exact-year events in retail, cinemas, restaurants, leisure, tourism, film, television, music and sports. Broader period context is placed in notes rather than event labels."
     },
-    "initialCreator": "Satoshi Endo / ChatGPT",
+    "initialCreator": "Satoshi Endo",
     "contributors": [
       "Satoshi Endo",
       "ChatGPT"
     ],
     "createdAt": "2026-06-16",
-    "version": "1.6",
+    "version": "1.4",
     "language": [
       "ja",
       "en"
@@ -22,125 +22,9 @@
     "copyright": "© 2026 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "0.6では年表項目305件を一切削除・変更せず、25ジャンルを8ジャンルへ統合した。各イベントのgenre配列を新コードへ再割り当てし、複数分野にまたがる項目は複数の新ジャンルから表示できる。未登録コード、空のgenre配列、重複ラベル、年キーとstartYearの不一致がないことを検査済み。",
+    "notes": "0.5では、開店、閉店、開館、開通、初開催、公開、来訪、制度開始など、年を確認できる出来事へ置き換えた。年代の生活文化・街の様子は各項目のnoteに記載。URLは施設公式、長岡市公式年表、長岡花火公式史、商店街史、ロケ作品一覧など、項目に直接対応する資料を優先した。 さらに、食品企業、酒蔵、地域放送、バスケットボール、都市インフラなど、生活に直結する年次確定項目を追加した。公式情報のほかネット上の多岐にわたる情報から収集している。",
     "updatedAt": "2026-07-12"
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "長岡城下町と牧野家の時代",
-      "startYear": 1598,
-      "endYear": 1867,
-      "color": "#7B3F00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "戊辰戦争・米百俵と近代化",
-      "startYear": 1868,
-      "endYear": 1905,
-      "color": "#556B2F",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "市制・鉄道・石油と工業都市化",
-      "startYear": 1906,
-      "endYear": 1944,
-      "color": "#2E8B57",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "長岡空襲と復興の時代",
-      "startYear": 1945,
-      "endYear": 1969,
-      "color": "#B22222",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "高速交通・テクノポリス・郊外化",
-      "startYear": 1970,
-      "endYear": 1999,
-      "color": "#1E90FF",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "中越地震とフェニックスの復興",
-      "startYear": 2000,
-      "endYear": 2011,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "アオーレ以後の中心市街地再編",
-      "startYear": 2012,
-      "endYear": "ongoing",
-      "color": "#8A2BE2",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "HISTORY_SOCIETY",
-      "label": "歴史・人物・行政",
-      "label_en": "History / people / government",
-      "conjunction": false
-    },
-    {
-      "code": "WAR_DISASTER",
-      "label": "戦争・災害・復興",
-      "label_en": "War / disasters / recovery",
-      "conjunction": false
-    },
-    {
-      "code": "INDUSTRY_COMMERCE",
-      "label": "産業・商業・仕事",
-      "label_en": "Industry / commerce / work",
-      "conjunction": false
-    },
-    {
-      "code": "TRANSPORT_CITY",
-      "label": "交通・都市・暮らし",
-      "label_en": "Transport / city / everyday life",
-      "conjunction": false
-    },
-    {
-      "code": "CULTURE_MEDIA",
-      "label": "文化・教育・メディア",
-      "label_en": "Culture / education / media",
-      "conjunction": false
-    },
-    {
-      "code": "FOOD_CRAFT",
-      "label": "食・発酵・工芸",
-      "label_en": "Food / fermentation / crafts",
-      "conjunction": false
-    },
-    {
-      "code": "FESTIVAL_LEISURE",
-      "label": "花火・祭り・観光・娯楽",
-      "label_en": "Fireworks / festivals / tourism / leisure",
-      "conjunction": false
-    },
-    {
-      "code": "NATURE_SPORTS",
-      "label": "自然・雪・スポーツ",
-      "label_en": "Nature / snow / sports",
-      "conjunction": false
-    }
-  ],
   "events": {
     "702": [
       {
@@ -1487,18 +1371,6 @@
         "note": "地元専門店が集まる寄合百貨店。買い物、食事、催事、屋上ビアガーデンなどで親しまれた。",
         "label_en": "Marusen Department Store opens",
         "url_en": "https://ja.wikipedia.org/wiki/%E4%B8%B8%E5%B0%82%E3%83%87%E3%83%91%E3%83%BC%E3%83%88"
-      },
-      {
-        "label": "丸専デパートが開店する",
-        "startYear": 1960,
-        "genre": [
-          "INDUSTRY_COMMERCE",
-          "TRANSPORT_CITY"
-        ],
-        "imp": 5,
-        "url": "https://otedori.jp/contents/history3.html",
-        "note": "大和・丸大・イチムラなどと並び、1960年代の大手通を家族の買い物と娯楽の中心にした。",
-        "url_en": "https://otedori.jp/contents/history3.html"
       }
     ],
     "1961": [
@@ -4098,5 +3970,120 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "長岡城下町と牧野家の時代",
+      "startYear": 1598,
+      "endYear": 1867,
+      "color": "#7B3F00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "戊辰戦争・米百俵と近代化",
+      "startYear": 1868,
+      "endYear": 1905,
+      "color": "#556B2F",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "市制・鉄道・石油と工業都市化",
+      "startYear": 1906,
+      "endYear": 1944,
+      "color": "#2E8B57",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "長岡空襲と復興の時代",
+      "startYear": 1945,
+      "endYear": 1969,
+      "color": "#B22222",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "高速交通・テクノポリス・郊外化",
+      "startYear": 1970,
+      "endYear": 1999,
+      "color": "#1E90FF",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "中越地震とフェニックスの復興",
+      "startYear": 2000,
+      "endYear": 2011,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "アオーレ以後の中心市街地再編",
+      "startYear": 2012,
+      "endYear": "ongoing",
+      "color": "#8A2BE2",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "HISTORY_SOCIETY",
+      "label": "歴史・人物・行政",
+      "label_en": "History / people / government",
+      "conjunction": false
+    },
+    {
+      "code": "WAR_DISASTER",
+      "label": "戦争・災害・復興",
+      "label_en": "War / disasters / recovery",
+      "conjunction": false
+    },
+    {
+      "code": "INDUSTRY_COMMERCE",
+      "label": "産業・商業・仕事",
+      "label_en": "Industry / commerce / work",
+      "conjunction": false
+    },
+    {
+      "code": "TRANSPORT_CITY",
+      "label": "交通・都市・暮らし",
+      "label_en": "Transport / city / everyday life",
+      "conjunction": false
+    },
+    {
+      "code": "CULTURE_MEDIA",
+      "label": "文化・教育・メディア",
+      "label_en": "Culture / education / media",
+      "conjunction": false
+    },
+    {
+      "code": "FOOD_CRAFT",
+      "label": "食・発酵・工芸",
+      "label_en": "Food / fermentation / crafts",
+      "conjunction": false
+    },
+    {
+      "code": "FESTIVAL_LEISURE",
+      "label": "花火・祭り・観光・娯楽",
+      "label_en": "Fireworks / festivals / tourism / leisure",
+      "conjunction": false
+    },
+    {
+      "code": "NATURE_SPORTS",
+      "label": "自然・雪・スポーツ",
+      "label_en": "Nature / snow / sports",
+      "conjunction": false
+    }
+  ]
 }
