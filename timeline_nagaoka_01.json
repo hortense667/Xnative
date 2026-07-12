@@ -26,122 +26,6 @@
     "updatedAt": "2026-07-12",
     "urlCheckedAt": "2026-07-12"
   },
-  "schemaVersion": 1,
-  "eraSettings": [
-    {
-      "name": "長岡城下町と牧野家の時代",
-      "startYear": 1598,
-      "endYear": 1867,
-      "color": "#7B3F00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "戊辰戦争・米百俵と近代化",
-      "startYear": 1868,
-      "endYear": 1905,
-      "color": "#556B2F",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "市制・鉄道・石油と工業都市化",
-      "startYear": 1906,
-      "endYear": 1944,
-      "color": "#2E8B57",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "長岡空襲と復興の時代",
-      "startYear": 1945,
-      "endYear": 1969,
-      "color": "#B22222",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "高速交通・テクノポリス・郊外化",
-      "startYear": 1970,
-      "endYear": 1999,
-      "color": "#1E90FF",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "中越地震とフェニックスの復興",
-      "startYear": 2000,
-      "endYear": 2011,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "アオーレ以後の中心市街地再編",
-      "startYear": 2012,
-      "endYear": "ongoing",
-      "color": "#8A2BE2",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "HISTORY_SOCIETY",
-      "label": "歴史・人物・行政",
-      "label_en": "History / people / government",
-      "conjunction": false
-    },
-    {
-      "code": "WAR_DISASTER",
-      "label": "戦争・災害・復興",
-      "label_en": "War / disasters / recovery",
-      "conjunction": false
-    },
-    {
-      "code": "INDUSTRY_COMMERCE",
-      "label": "産業・商業・仕事",
-      "label_en": "Industry / commerce / work",
-      "conjunction": false
-    },
-    {
-      "code": "TRANSPORT_CITY",
-      "label": "交通・都市・暮らし",
-      "label_en": "Transport / city / everyday life",
-      "conjunction": false
-    },
-    {
-      "code": "CULTURE_MEDIA",
-      "label": "文化・教育・メディア",
-      "label_en": "Culture / education / media",
-      "conjunction": false
-    },
-    {
-      "code": "FOOD_CRAFT",
-      "label": "食・発酵・工芸",
-      "label_en": "Food / fermentation / crafts",
-      "conjunction": false
-    },
-    {
-      "code": "FESTIVAL_LEISURE",
-      "label": "花火・祭り・観光・娯楽",
-      "label_en": "Fireworks / festivals / tourism / leisure",
-      "conjunction": false
-    },
-    {
-      "code": "NATURE_SPORTS",
-      "label": "自然・雪・スポーツ",
-      "label_en": "Nature / snow / sports",
-      "conjunction": false
-    }
-  ],
   "events": {
     "702": [
       {
@@ -791,15 +675,16 @@
     "1923": [
       {
         "label": "浪花屋製菓が長岡市四郎丸で創業する",
-        "startYear": 1923,
+        "startYear": "1923",
         "genre": [
-          "FOOD_CRAFT",
-          "INDUSTRY_COMMERCE"
+          "INDUSTRY_COMMERCE",
+          "FOOD_CRAFT"
         ],
         "imp": 5,
-        "url": "https://nagaoka-navi.or.jp/spot/42651",
+        "url": "https://naniwayaseika.co.jp/",
         "note": "米菓店として創業し、翌年の柿の種誕生を通じて長岡発の菓子を全国の日常食へ育てた。",
-        "url_en": "https://nagaoka-navi.or.jp/spot/42651"
+        "url_en": "https://nagaoka-navi.or.jp/spot/42651",
+        "_rev": "1783856517630-0sr1ltfb"
       }
     ],
     "1924": [
@@ -4022,5 +3907,120 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ]
-  }
+  },
+  "eraSettings": [
+    {
+      "name": "長岡城下町と牧野家の時代",
+      "startYear": 1598,
+      "endYear": 1867,
+      "color": "#7B3F00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "戊辰戦争・米百俵と近代化",
+      "startYear": 1868,
+      "endYear": 1905,
+      "color": "#556B2F",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "市制・鉄道・石油と工業都市化",
+      "startYear": 1906,
+      "endYear": 1944,
+      "color": "#2E8B57",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "長岡空襲と復興の時代",
+      "startYear": 1945,
+      "endYear": 1969,
+      "color": "#B22222",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "高速交通・テクノポリス・郊外化",
+      "startYear": 1970,
+      "endYear": 1999,
+      "color": "#1E90FF",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "中越地震とフェニックスの復興",
+      "startYear": 2000,
+      "endYear": 2011,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "アオーレ以後の中心市街地再編",
+      "startYear": 2012,
+      "endYear": "ongoing",
+      "color": "#8A2BE2",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "HISTORY_SOCIETY",
+      "label": "歴史・人物・行政",
+      "label_en": "History / people / government",
+      "conjunction": false
+    },
+    {
+      "code": "WAR_DISASTER",
+      "label": "戦争・災害・復興",
+      "label_en": "War / disasters / recovery",
+      "conjunction": false
+    },
+    {
+      "code": "INDUSTRY_COMMERCE",
+      "label": "産業・商業・仕事",
+      "label_en": "Industry / commerce / work",
+      "conjunction": false
+    },
+    {
+      "code": "TRANSPORT_CITY",
+      "label": "交通・都市・暮らし",
+      "label_en": "Transport / city / everyday life",
+      "conjunction": false
+    },
+    {
+      "code": "CULTURE_MEDIA",
+      "label": "文化・教育・メディア",
+      "label_en": "Culture / education / media",
+      "conjunction": false
+    },
+    {
+      "code": "FOOD_CRAFT",
+      "label": "食・発酵・工芸",
+      "label_en": "Food / fermentation / crafts",
+      "conjunction": false
+    },
+    {
+      "code": "FESTIVAL_LEISURE",
+      "label": "花火・祭り・観光・娯楽",
+      "label_en": "Fireworks / festivals / tourism / leisure",
+      "conjunction": false
+    },
+    {
+      "code": "NATURE_SPORTS",
+      "label": "自然・雪・スポーツ",
+      "label_en": "Nature / snow / sports",
+      "conjunction": false
+    }
+  ]
 }
