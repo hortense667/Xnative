@@ -1,20 +1,20 @@
 {
   "metadata": {
     "title": {
-      "ja": "長岡市年表 0.5 ",
-      "en": "Nagaoka City Timeline 0.5 — Exact-Year Everyday History Edition"
+      "ja": "長岡市年表 0.7",
+      "en": "Nagaoka City Timeline 0.7 — Fully Re-audited Edition"
     },
     "description": {
-      "ja": "長岡市の歴史・産業・災害復興に、百貨店、商店、映画館、飲食店、遊び場、観光、映画・テレビ、音楽、スポーツなどの市民生活史を加えた年表。各ラベルは原則として正確な年に起きた具体的な出来事とし、年代全体の背景は注釈に記した。",
+      "ja": "長岡市の歴史・産業・災害復興・市民生活史を扱う年表。0.7では全項目を再点検し、長岡市・長岡市立図書館・長岡花火財団・日本スポーツ協会・施設公式・企業公式などの項目別資料に照らして、誤記、重複、過度な断定を訂正・削除した。",
       "en": "A timeline of Nagaoka City combining political, industrial and disaster history with exact-year events in retail, cinemas, restaurants, leisure, tourism, film, television, music and sports. Broader period context is placed in notes rather than event labels."
     },
-    "initialCreator": "Satoshi Endo",
+    "initialCreator": "Satoshi Endo / ChatGPT",
     "contributors": [
       "Satoshi Endo",
       "ChatGPT"
     ],
     "createdAt": "2026-06-16",
-    "version": "1.4",
+    "version": "1.7",
     "language": [
       "ja",
       "en"
@@ -22,35 +22,151 @@
     "copyright": "© 2026 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "0.5では、開店、閉店、開館、開通、初開催、公開、来訪、制度開始など、年を確認できる出来事へ置き換えた。年代の生活文化・街の様子は各項目のnoteに記載。URLは施設公式、長岡市公式年表、長岡花火公式史、商店街史、ロケ作品一覧など、項目に直接対応する資料を優先した。 さらに、食品企業、酒蔵、地域放送、バスケットボール、都市インフラなど、生活に直結する年次確定項目を追加した。公式情報のほかネット上の多岐にわたる情報から収集している。",
+    "notes": "0.7では0.6の305項目を全件再点検した。重大な事実誤認、重複、名称・動詞の誤り、根拠の弱い年代断定を訂正または削除し、確認可能な出来事を追加した結果、299項目となった。とくに第19回国民体育大会は、大会全体が中止されたのではなく、春季大会は開催され、新潟地震で中止されたのは夏季大会の水泳競技であることが分かるよう二項目に分けた。詳細な変更履歴は別添のreverification_audit JSONに収録した。",
     "updatedAt": "2026-07-12"
   },
+  "schemaVersion": 1,
+  "eraSettings": [
+    {
+      "name": "長岡城下町と牧野家の時代",
+      "startYear": 1598,
+      "endYear": 1867,
+      "color": "#7B3F00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "戊辰戦争・米百俵と近代化",
+      "startYear": 1868,
+      "endYear": 1905,
+      "color": "#556B2F",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "市制・鉄道・石油と工業都市化",
+      "startYear": 1906,
+      "endYear": 1944,
+      "color": "#2E8B57",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "長岡空襲と復興の時代",
+      "startYear": 1945,
+      "endYear": 1969,
+      "color": "#B22222",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "高速交通・テクノポリス・郊外化",
+      "startYear": 1970,
+      "endYear": 1999,
+      "color": "#1E90FF",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "中越地震とフェニックスの復興",
+      "startYear": 2000,
+      "endYear": 2011,
+      "color": "#FF8C00",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "アオーレ以後の中心市街地再編",
+      "startYear": 2012,
+      "endYear": "ongoing",
+      "color": "#8A2BE2",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "HISTORY_SOCIETY",
+      "label": "歴史・人物・行政",
+      "label_en": "History / people / government",
+      "conjunction": false
+    },
+    {
+      "code": "WAR_DISASTER",
+      "label": "戦争・災害・復興",
+      "label_en": "War / disasters / recovery",
+      "conjunction": false
+    },
+    {
+      "code": "INDUSTRY_COMMERCE",
+      "label": "産業・商業・仕事",
+      "label_en": "Industry / commerce / work",
+      "conjunction": false
+    },
+    {
+      "code": "TRANSPORT_CITY",
+      "label": "交通・都市・暮らし",
+      "label_en": "Transport / city / everyday life",
+      "conjunction": false
+    },
+    {
+      "code": "CULTURE_MEDIA",
+      "label": "文化・教育・メディア",
+      "label_en": "Culture / education / media",
+      "conjunction": false
+    },
+    {
+      "code": "FOOD_CRAFT",
+      "label": "食・発酵・工芸",
+      "label_en": "Food / fermentation / crafts",
+      "conjunction": false
+    },
+    {
+      "code": "FESTIVAL_LEISURE",
+      "label": "花火・祭り・観光・娯楽",
+      "label_en": "Fireworks / festivals / tourism / leisure",
+      "conjunction": false
+    },
+    {
+      "code": "NATURE_SPORTS",
+      "label": "自然・雪・スポーツ",
+      "label_en": "Nature / snow / sports",
+      "conjunction": false
+    }
+  ],
   "events": {
     "702": [
       {
-        "label": "『続日本紀』に越後国古志郡が記される",
+        "label": "越中国の頸城・古志・魚沼・蒲原4郡が越後国に編入される",
         "startYear": 702,
         "genre": [
           "HISTORY_SOCIETY"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8F%A4%E5%BF%97%E9%83%A1",
-        "note": "古代の長岡地域を含む行政区画が、文献上で確認できる代表的な年。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E5%8F%A4%E5%BF%97%E9%83%A1"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf1.html",
+        "note": "『続日本紀』に記された行政区画の変更。古志郡を含む4郡が越中国から越後国へ編入され、後の長岡地域の古代的な枠組みに関わる。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf1.html"
       }
     ],
     "927": [
       {
-        "label": "延喜式神名帳に地域の古社が記載される時代",
+        "label": "『延喜式』に古志郡の五つの神社が記載される",
         "startYear": 927,
         "genre": [
           "CULTURE_MEDIA",
           "FOOD_CRAFT"
         ],
         "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/%E5%BB%B6%E5%96%9C%E5%BC%8F%E7%A5%9E%E5%90%8D%E5%B8%B3",
-        "note": "金峯神社など、信濃川流域の信仰圏を考える背景項目。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E5%BB%B6%E5%96%9C%E5%BC%8F%E7%A5%9E%E5%90%8D%E5%B8%B3"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf1.html",
+        "note": "927年に完成した『延喜式』の神名帳に、古志郡の宇奈具志神社・三宅神社・桐原石部神社・都野神社・小丹生神社が記載された。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf1.html"
       }
     ],
     "1548": [
@@ -69,67 +185,55 @@
     ],
     "1598": [
       {
-        "label": "堀直寄が蔵王堂城主となる",
+        "label": "堀親良が蔵王堂城に入る",
         "startYear": 1598,
         "genre": [
           "HISTORY_SOCIETY"
         ],
         "imp": 3,
-        "url": "https://www.kinpu.jp/%E5%A2%83%E5%86%85%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/%E8%94%B5%E7%8E%8B%E5%A0%82%E5%9F%8E%E8%B7%A1",
-        "note": "近世長岡城下につながる地域支配の前史。",
-        "url_en": "https://www.kinpu.jp/%E5%A2%83%E5%86%85%E3%81%AE%E3%81%94%E6%A1%88%E5%86%85/%E8%94%B5%E7%8E%8B%E5%A0%82%E5%9F%8E%E8%B7%A1"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf2.html",
+        "note": "堀親良が4万石で蔵王堂城に入った。堀直寄はその後見役として城下形成に関わった。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf2.html"
+      }
+    ],
+    "1605": [
+      {
+        "label": "堀直寄が蔵王堂渡りを長岡町へ移し、長岡城・城下町の築造を進める",
+        "startYear": 1605,
+        "genre": [
+          "HISTORY_SOCIETY",
+          "TRANSPORT_CITY"
+        ],
+        "imp": 5,
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf2.html",
+        "note": "堀直寄は蔵王堂渡りを長岡町へ移し、この頃から新城と城下町の築造を本格化させた。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf2.html"
       }
     ],
     "1616": [
       {
-        "label": "堀直寄が長岡城築城に着手",
+        "label": "堀直寄が蔵王堂城8万石を領知する",
         "startYear": 1616,
         "genre": [
           "HISTORY_SOCIETY"
         ],
         "imp": 5,
         "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/furusatohito.html",
-        "note": "長岡城下町形成の出発点。",
+        "note": "堀直寄は1616年に蔵王堂城8万石を領知し、以前から進めていた長岡城・城下町の築造をさらに推進した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/furusatohito.html"
       }
     ],
     "1618": [
       {
-        "label": "牧野忠成が長岡に入り長岡藩牧野家の時代へ",
+        "label": "牧野忠成が長岡に入部し、長岡藩初代藩主となる",
         "startYear": 1618,
         "genre": [
           "HISTORY_SOCIETY"
         ],
         "imp": 5,
-        "url": "https://niigata-kankou.or.jp/spot/42838",
-        "note": "牧野家支配の城下町として長岡の骨格が固まる。",
-        "url_en": "https://niigata-kankou.or.jp/spot/42838"
-      },
-      {
-        "label": "長岡藩が立藩する",
-        "startYear": 1618,
-        "genre": [
-          "HISTORY_SOCIETY"
-        ],
-        "imp": 5,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "牧野忠成の入封により、以後約250年続く牧野家の城下町として長岡の都市的骨格が形成された。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
-      }
-    ],
-    "1810": [
-      {
-        "label": "越後与板打刃物の産地形成",
-        "startYear": 1810,
-        "genre": [
-          "FOOD_CRAFT",
-          "CULTURE_MEDIA",
-          "INDUSTRY_COMMERCE"
-        ],
-        "imp": 4,
-        "url": "https://yoita-uchihamono.com/",
-        "note": "現在の長岡市与板地域を代表する伝統工芸。",
-        "url_en": "https://yoita-uchihamono.com/"
+        "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/shiro/nagaokajyou.html",
+        "note": "堀直寄の村上移封後、牧野忠成が長岡に入部し、長岡城の築造を継承した。以後、牧野家による長岡藩政が続いた。",
+        "url_en": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/shiro/nagaokajyou.html"
       }
     ],
     "1827": [
@@ -202,20 +306,6 @@
         "url_en": "https://settaya-miyauchi.jp/touristguide/"
       }
     ],
-    "1867": [
-      {
-        "label": "大政奉還と長岡藩の進路選択",
-        "startYear": 1867,
-        "genre": [
-          "HISTORY_SOCIETY",
-          "WAR_DISASTER"
-        ],
-        "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html",
-        "note": "奥羽越列藩同盟へ向かう政治的緊張が高まる。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html"
-      }
-    ],
     "1868": [
       {
         "label": "北越戊辰戦争で長岡城下が焼失",
@@ -245,7 +335,7 @@
     ],
     "1869": [
       {
-        "label": "国漢学校の仮校舎が開校",
+        "label": "国漢学校が四郎丸村の昌福寺に開校する",
         "startYear": 1869,
         "genre": [
           "CULTURE_MEDIA",
@@ -253,9 +343,9 @@
           "WAR_DISASTER"
         ],
         "imp": 5,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html",
-        "note": "戦災後の長岡で教育による再建の核となる。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html",
+        "note": "北越戊辰戦争後の人材育成を目的として、四郎丸村の昌福寺を校舎に国漢学校が開校した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html"
       }
     ],
     "1870": [
@@ -352,15 +442,15 @@
         "url_en": "https://www.lib.city.nagaoka.niigata.jp/wysiwyg/file/download/23/906"
       },
       {
-        "label": "第六十九国立銀行が設立",
+        "label": "長岡第六十九国立銀行が開業する",
         "startYear": 1878,
         "genre": [
           "INDUSTRY_COMMERCE"
         ],
         "imp": 4,
-        "url": "https://www.dhbk.co.jp/company/library/pdf/120th_03_hajimeni.pdf",
-        "note": "戦災復興後の商工業・金融の基盤。",
-        "url_en": "https://www.dhbk.co.jp/company/library/pdf/120th_03_hajimeni.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html",
+        "note": "三島億二郎・岸宇吉らによって開業した。後の北越銀行につながる長岡の近代金融史上の重要な出来事。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html"
       }
     ],
     "1879": [
@@ -375,18 +465,6 @@
         "url": "https://nagaokamatsuri.com/history/",
         "note": "千手町八幡様の祭りで350発が打ち上げられ、のちの長岡花火につながる市民娯楽が始まった。",
         "url_en": "https://nagaokamatsuri.com/history/"
-      },
-      {
-        "label": "長岡城跡が整地され城跡公園に",
-        "startYear": 1879,
-        "genre": [
-          "HISTORY_SOCIETY",
-          "CULTURE_MEDIA"
-        ],
-        "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/furusatohito.html",
-        "note": "長岡城の記憶が都市公園として継承される。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kankou/rekishi/ijin/furusatohito.html"
       }
     ],
     "1881": [
@@ -402,6 +480,18 @@
         "note": "長岡での新聞事業が、後の博文館創業と近代出版・取次事業へつながった。",
         "label_en": "Sahei Ohashi launches newspapers in Nagaoka",
         "url_en": "https://www.ndl.go.jp/portrait/datas/6528"
+      },
+      {
+        "label": "長岡旧城跡保存公園設置会が設立される",
+        "startYear": 1881,
+        "genre": [
+          "HISTORY_SOCIETY",
+          "CULTURE_MEDIA"
+        ],
+        "imp": 3,
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html",
+        "note": "長岡士族らが旧城跡の保存と公園化を目的に設置会を組織した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html"
       }
     ],
     "1884": [
@@ -420,14 +510,14 @@
     ],
     "1888": [
       {
-        "label": "北越石油会社設立、東山油田の開発が始まる",
+        "label": "北越石油会社が設立される",
         "startYear": 1888,
         "genre": [
           "INDUSTRY_COMMERCE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0",
-        "note": "長岡を石油・天然ガス産地として位置づける重要項目。",
+        "note": "長岡の石油産業を支えた企業の一つ。東山油田の開発史と深く関わった。",
         "url_en": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0"
       }
     ],
@@ -446,14 +536,14 @@
     ],
     "1893": [
       {
-        "label": "宝田石油株式会社が設立",
+        "label": "宝田石油株式会社が創業する",
         "startYear": 1893,
         "genre": [
           "INDUSTRY_COMMERCE"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0",
-        "note": "日本石油と並ぶ石油会社として長岡の産業史に大きな位置を占める。",
+        "note": "長岡を拠点に発展し、日本石油と並ぶ主要石油会社となった。",
         "url_en": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0"
       }
     ],
@@ -473,15 +563,15 @@
     ],
     "1898": [
       {
-        "label": "北越鉄道が長岡へ到達",
+        "label": "北越鉄道の沼垂―直江津間が全通する",
         "startYear": 1898,
         "genre": [
           "TRANSPORT_CITY"
         ],
         "imp": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E8%B6%8A%E9%89%84%E9%81%93",
-        "note": "鉄道都市長岡の出発点。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E5%8C%97%E8%B6%8A%E9%89%84%E9%81%93"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html",
+        "note": "長岡駅を含む北越鉄道の主要区間が全通し、長岡は日本海側鉄道交通の重要な結節点となった。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html"
       }
     ],
     "1902": [
@@ -540,14 +630,14 @@
         "url_en": "https://www.pref.niigata.lg.jp/site/nagaoka-seibi/dobokuzukan-tyouseibasi.html"
       },
       {
-        "label": "栃尾鉄道が開通し地域交通が広がる",
+        "label": "栃尾鉄道の浦瀬―栃尾間と下長岡―浦瀬間が開業する",
         "startYear": 1915,
         "genre": [
           "TRANSPORT_CITY"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E6%A0%83%E5%B0%BE%E7%B7%9A",
-        "note": "長岡と栃尾方面を結ぶ軽便鉄道の時代。",
+        "note": "2月に浦瀬―栃尾間、6月に下長岡―浦瀬間が開業し、翌1916年に長岡―栃尾間が全通した。",
         "url_en": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E6%A0%83%E5%B0%BE%E7%B7%9A"
       }
     ],
@@ -560,19 +650,8 @@
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "栃尾の織物産業や通学・買い物を支え、沿線住民の生活圏を長岡中心部へ結んだ。",
+        "note": "長岡―下長岡間の開業によって、長岡―栃尾間が全通した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
-      },
-      {
-        "label": "長岡鉄道が与板方面へ延伸",
-        "startYear": 1916,
-        "genre": [
-          "TRANSPORT_CITY"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E9%95%B7%E5%B2%A1%E7%B7%9A",
-        "note": "信濃川左岸・西部地域との結びつきを強める。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E9%95%B7%E5%B2%A1%E7%B7%9A"
       },
       {
         "label": "長岡鉄道の西長岡―寺泊間が開通する",
@@ -656,16 +735,16 @@
     ],
     "1921": [
       {
-        "label": "宝田石油が日本石油と合併、本社跡地を宝田公園へ",
+        "label": "宝田石油が日本石油と合併する",
         "startYear": 1921,
         "genre": [
           "INDUSTRY_COMMERCE",
           "CULTURE_MEDIA"
         ],
         "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0",
-        "note": "石油産業の記憶が都市空間に残る。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%B1%B1%E6%B2%B9%E7%94%B0"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html",
+        "note": "長岡を代表した宝田石油が日本石油と合併した。跡地や関連施設は長岡の石油産業史を伝える記憶となった。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf4.html"
       },
       {
         "label": "長岡鉄道の西長岡―来迎寺間が開通する",
@@ -710,16 +789,16 @@
     ],
     "1924": [
       {
-        "label": "栃尾鉄道が悠久山まで全通",
+        "label": "栃尾鉄道の長岡―悠久山間が開通する",
         "startYear": 1924,
         "genre": [
           "TRANSPORT_CITY",
           "CULTURE_MEDIA"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E6%A0%83%E5%B0%BE%E7%B7%9A",
-        "note": "行楽地・悠久山と市街地の結びつきが強まる。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E4%BA%A4%E9%80%9A%E6%A0%83%E5%B0%BE%E7%B7%9A"
+        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
+        "note": "市街地と悠久山の行楽地を結ぶ路線が開通し、悠久山への市民の移動を支えた。",
+        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
         "label": "浪花屋製菓で「柿の種」が誕生する",
@@ -762,6 +841,18 @@
     ],
     "1926": [
       {
+        "label": "上下水道工事が完成し、長岡市内への給水が始まる",
+        "startYear": 1926,
+        "genre": [
+          "TRANSPORT_CITY",
+          "HISTORY_SOCIETY"
+        ],
+        "imp": 5,
+        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
+        "note": "近代的な上下水道整備が完成し、市内への給水が始まった。",
+        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
+      },
+      {
         "label": "長岡大花火大会で正三尺玉が初めて打ち上げられる",
         "startYear": 1926,
         "genre": [
@@ -771,18 +862,6 @@
         "url": "https://nagaokamatsuri.com/history/",
         "note": "長岡花火の代名詞となる大玉花火の歴史的節目。",
         "url_en": "https://nagaokamatsuri.com/history/"
-      },
-      {
-        "label": "長岡市の上水道が完成する",
-        "startYear": 1926,
-        "genre": [
-          "TRANSPORT_CITY",
-          "HISTORY_SOCIETY"
-        ],
-        "imp": 5,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "衛生的な水道の普及が、家庭生活・飲食店・市街地の近代化を支えた。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
         "label": "長岡市歌を制定",
@@ -1031,6 +1110,18 @@
     ],
     "1948": [
       {
+        "label": "8月1日を戦災殉難者慰霊の日、2・3日を花火大会の日とする",
+        "startYear": 1948,
+        "genre": [
+          "WAR_DISASTER",
+          "FESTIVAL_LEISURE"
+        ],
+        "imp": 5,
+        "url": "https://nagaokamatsuri.com/history/",
+        "note": "慰霊の日と花火の日を分ける現在につながる日程が定められた。",
+        "url_en": "https://nagaokamatsuri.com/history/"
+      },
+      {
         "label": "浪花屋産業株式会社が設立される",
         "startYear": 1948,
         "genre": [
@@ -1041,18 +1132,6 @@
         "url": "https://nagaoka-navi.or.jp/spot/42651",
         "note": "戦後の食料事情のなかでパン・菓子・製粉を扱う会社として再出発し、翌年から米菓専業へ向かった。",
         "url_en": "https://nagaoka-navi.or.jp/spot/42651"
-      },
-      {
-        "label": "長岡空襲殉難者慰霊祭が8月1日に行われるようになる",
-        "startYear": 1948,
-        "genre": [
-          "WAR_DISASTER",
-          "FESTIVAL_LEISURE"
-        ],
-        "imp": 5,
-        "url": "https://nagaokamatsuri.com/history/",
-        "note": "8月1日を慰霊、2・3日を花火とする現在の長岡まつりの基本構成が形づくられた。",
-        "url_en": "https://nagaokamatsuri.com/history/"
       }
     ],
     "1949": [
@@ -1082,7 +1161,7 @@
     ],
     "1950": [
       {
-        "label": "山下清が貼絵「長岡の花火」を制作する",
+        "label": "山下清が貼絵「長岡の花火」を発表する",
         "startYear": 1950,
         "genre": [
           "HISTORY_SOCIETY",
@@ -1091,7 +1170,7 @@
         ],
         "imp": 5,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "花火を見物した経験から生まれた代表作で、長岡花火の大衆的イメージを全国へ伝えた。",
+        "note": "長岡花火を題材にした山下清の代表作の一つが発表された。",
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
@@ -1148,14 +1227,14 @@
     ],
     "1952": [
       {
-        "label": "丸大衣料品店が創業し、戦後長岡の商業を担う",
+        "label": "丸大衣料品店が創業する",
         "startYear": 1952,
         "genre": [
           "INDUSTRY_COMMERCE"
         ],
         "imp": 4,
         "url": "https://www.niikei.jp/11904/",
-        "note": "のちの丸大長岡店、イトーヨーカドー丸大長岡店へつながる。市民にとって「デパート」として親しまれた。",
+        "note": "後の丸大長岡店、イトーヨーカドー丸大長岡駅前店につながる。戦後の中心市街地商業を担った。",
         "url_en": "https://www.niikei.jp/11904/"
       },
       {
@@ -1185,7 +1264,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "長生橋にナイアガラ花火が初めて架けられる",
+        "label": "長生橋にナイアガラ大瀑布が初登場する",
         "startYear": 1953,
         "genre": [
           "FESTIVAL_LEISURE",
@@ -1193,13 +1272,13 @@
         ],
         "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "橋と花火を一体化した演出が登場し、長生橋が夏の長岡を象徴する景観になった。",
+        "note": "長生橋を使った大規模な仕掛け花火が長岡花火の演目に加わった。",
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ],
     "1954": [
       {
-        "label": "「市政だより」試験版が発行される",
+        "label": "「市政だより」試版号が発行される",
         "startYear": 1954,
         "genre": [
           "CULTURE_MEDIA",
@@ -1208,7 +1287,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "行政情報が各家庭へ届く仕組みが整い、市民生活と市政を結ぶ地域メディアになった。",
+        "note": "長岡市の広報紙の試版号が発行され、市政情報を家庭へ届ける媒体となった。",
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
@@ -1226,7 +1305,7 @@
     ],
     "1955": [
       {
-        "label": "長岡エメラルド劇場が開館",
+        "label": "長岡エメラルド劇場が開館する",
         "startYear": 1955,
         "startMonth": 7,
         "genre": [
@@ -1266,7 +1345,7 @@
         "url_en": "https://www.e-friend.co.jp/"
       },
       {
-        "label": "大和長岡店が大手通に開店",
+        "label": "大和長岡店が大手通に開店する",
         "startYear": 1958,
         "startMonth": 10,
         "genre": [
@@ -1359,7 +1438,7 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
-        "label": "丸専デパートが大手通に開店",
+        "label": "丸専デパートが大手通に開店する",
         "startYear": 1960,
         "startMonth": 12,
         "startDay": 15,
@@ -1387,19 +1466,19 @@
         "url_en": "https://nagaoka-navi.or.jp/spot/42651"
       },
       {
-        "label": "道路消雪パイプが長岡で実用化される",
+        "label": "道路消雪パイプが長岡市内に試験的に敷設される",
         "startYear": 1961,
         "genre": [
           "NATURE_SPORTS",
           "TRANSPORT_CITY"
         ],
         "imp": 5,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "1960年代の豪雪を背景に、地下水で道路の雪を消す仕組みが雪国の通勤・通学・買い物を変えた。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "道路の雪を地下水で融かす消雪パイプが試験的に敷設された。後に雪国の都市交通を支える代表的な設備となった。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       },
       {
-        "label": "青島食堂が創業し、生姜醤油ラーメンの源流をつくる",
+        "label": "青島食堂が創業する",
         "startYear": 1961,
         "genre": [
           "FOOD_CRAFT",
@@ -1407,14 +1486,14 @@
         ],
         "imp": 5,
         "url": "https://howtoniigata.jp/recommend/40061/",
-        "note": "1960年代以降、雪国で体を温める濃い醤油味と生姜の香りが市民に支持され、長岡を代表するラーメンとして全国に知られるようになった。",
+        "note": "長岡生姜醤油ラーメンを代表する店として知られ、後に全国的な知名度を得た。",
         "label_en": "Aoshima Shokudo opens and develops ginger-shoyu ramen",
         "url_en": "https://www.aoshima-ramen.co.jp/"
       }
     ],
     "1962": [
       {
-        "label": "丸大長岡店の新店舗が大手通に竣工",
+        "label": "丸大長岡店の新店舗が大手通に竣工する",
         "startYear": 1962,
         "genre": [
           "INDUSTRY_COMMERCE"
@@ -1425,16 +1504,16 @@
         "url_en": "https://otedori.jp/contents/history3.html"
       },
       {
-        "label": "長岡工業高等専門学校が開校する",
+        "label": "長岡工業高等専門学校が開学する",
         "startYear": 1962,
         "genre": [
           "CULTURE_MEDIA",
           "INDUSTRY_COMMERCE"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "高度成長期の技術者育成を担い、機械・電気など長岡の工業基盤と結びついた。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "技術者教育を担う高等教育機関として開学した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       }
     ],
     "1963": [
@@ -1452,7 +1531,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "長岡市が「無雪都市」を宣言する",
+        "label": "長岡市議会が全国で初めて無雪都市宣言を決議する",
         "startYear": 1963,
         "genre": [
           "HISTORY_SOCIETY",
@@ -1460,9 +1539,9 @@
           "TRANSPORT_CITY"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "消雪設備や除雪体制を整え、豪雪下でも都市機能を維持する方針を明確にした。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "豪雪への対応を都市政策の重要課題として位置づけた宣言。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       }
     ],
     "1964": [
@@ -1479,7 +1558,19 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "第19回国民体育大会夏季大会が新潟地震で中止される",
+        "label": "新潟地震により第19回国民体育大会夏季大会の水泳競技が中止される",
+        "startYear": 1964,
+        "genre": [
+          "WAR_DISASTER",
+          "NATURE_SPORTS"
+        ],
+        "imp": 4,
+        "url": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36",
+        "note": "第19回国民体育大会そのものは冬季・春季大会が開催された。新潟地震のため中止されたのは、8月に長岡市と柏崎市で予定されていた夏季大会の水泳競技である。",
+        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36"
+      },
+      {
+        "label": "第19回国民体育大会春季大会のバスケットボール競技が長岡で開催される",
         "startYear": 1964,
         "genre": [
           "NATURE_SPORTS",
@@ -1487,12 +1578,12 @@
           "HISTORY_SOCIETY"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "長岡でも準備されていた大規模スポーツ行事が災害により中止となった。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "url": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36",
+        "note": "第19回国民体育大会は1964年に新潟県を中心に開催され、春季大会のバスケットボール競技は長岡市厚生会館などで行われた。新潟地震で中止されたのは、8月に予定されていた夏季大会の水泳競技であり、大会全体ではない。",
+        "url_en": "https://www.japan-sports.or.jp/kokutai/tabid709.html?idx=36"
       },
       {
-        "label": "長岡観光会館が開館し「娯楽の殿堂」となる",
+        "label": "長岡観光会館が開館する",
         "startYear": 1964,
         "startMonth": 12,
         "startDay": 24,
@@ -1502,7 +1593,7 @@
         ],
         "imp": 5,
         "url": "https://www.nomeshi.net/spots/81",
-        "note": "1960年代後半から1970年代にかけ、映画館、ボウリング場、飲食、公演などを一つの建物で楽しめる中心街の代表的な遊び場となった。",
+        "note": "映画館、ボウリング場、飲食施設などを備え、市民の娯楽拠点として親しまれた。",
         "label_en": "Nagaoka Kanko Kaikan entertainment complex opens",
         "url_en": "https://www.nomeshi.net/spots/81"
       }
@@ -1573,21 +1664,21 @@
         "url_en": "https://www.shinchosha.co.jp/book/115240/"
       },
       {
-        "label": "悠久山郷土史料館が開館する",
+        "label": "長岡市郷土史料館が悠久山に開館する",
         "startYear": 1968,
         "genre": [
           "CULTURE_MEDIA",
           "FESTIVAL_LEISURE"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "城を思わせる建物で長岡の歴史人物や郷土資料を展示し、遠足や花見と結びつく施設となった。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "長岡の歴史・人物資料を紹介する施設として悠久山に開館した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       }
     ],
     "1969": [
       {
-        "label": "映画『栄光の黒豹』が長岡で撮影される",
+        "label": "映画『栄光の黒豹』が公開される",
         "startYear": 1969,
         "genre": [
           "CULTURE_MEDIA",
@@ -1595,7 +1686,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "長岡ロケ作品の一つで、当時の市街地や地域の風景がスクリーンに記録された。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -1627,7 +1718,7 @@
     ],
     "1970": [
       {
-        "label": "北島三郎が「大花火音頭」を発表する",
+        "label": "北島三郎が歌う「大花火音頭」が発売される",
         "startYear": 1970,
         "genre": [
           "CULTURE_MEDIA",
@@ -1635,7 +1726,7 @@
         ],
         "imp": 3,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "長岡花火を題材にした歌が祭りのにぎわいを音楽で伝えた。",
+        "note": "長岡花火を題材にした楽曲として発売された。",
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
@@ -1652,7 +1743,7 @@
     ],
     "1971": [
       {
-        "label": "妙見浄水場が完成する",
+        "label": "妙見浄水場が完成し通水を始める",
         "startYear": 1971,
         "genre": [
           "TRANSPORT_CITY",
@@ -1660,12 +1751,12 @@
           "NATURE_SPORTS"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "人口増加と市街地拡大に対応して水道供給力を高め、1970年代の住宅・商業開発を生活基盤から支えた。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "長岡市の上水道供給を支える浄水場として完成し、通水を開始した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       },
       {
-        "label": "映画『鯉のいる村』が長岡地域で撮影される",
+        "label": "映画『鯉のいる村』が公開される",
         "startYear": 1971,
         "genre": [
           "CULTURE_MEDIA",
@@ -1674,7 +1765,7 @@
         ],
         "imp": 4,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "錦鯉と地域の暮らしを題材にし、山あいの生活文化を映像に残した。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -1772,7 +1863,7 @@
         "url_en": "https://www.nagaoka-navi.or.jp/gourmet/40980"
       },
       {
-        "label": "北陸信濃橋が開通する",
+        "label": "北陸自動車道信濃川橋が完成する",
         "startYear": 1975,
         "genre": [
           "TRANSPORT_CITY",
@@ -1780,7 +1871,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "信濃川を渡る道路網が拡充され、物流と自動車交通の増加に対応した。",
+        "note": "北陸自動車道が信濃川を渡る橋梁として完成した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -1823,14 +1914,14 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "越後交通長岡線が全線廃止される",
+        "label": "越後交通の電車線が全線廃止される",
         "startYear": 1975,
         "genre": [
           "TRANSPORT_CITY"
         ],
         "imp": 5,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "西長岡・寺泊方面を結んだ鉄道がなくなり、地域交通の主役がバスと自家用車へ移った。",
+        "note": "長岡線の旅客営業区間を含む越後交通の電車線が全線廃止され、地域交通はバスと自動車中心へ移った。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -1900,7 +1991,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "長岡ニュータウン基本計画が策定される",
+        "label": "長岡ニュータウン事業マスタープランが発表される",
         "startYear": 1977,
         "genre": [
           "HISTORY_SOCIETY",
@@ -1908,7 +1999,7 @@
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "大規模住宅地と公園・道路を一体的に整備する方針が確定し、1980年代の郊外生活の舞台が形づくられた。",
+        "note": "ニュータウン整備の全体像を示す事業マスタープランが発表された。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -2067,7 +2158,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "長岡ニュータウンで住宅分譲が始まる",
+        "label": "長岡ニュータウン第1次分譲が始まる",
         "startYear": 1983,
         "genre": [
           "TRANSPORT_CITY",
@@ -2075,18 +2166,18 @@
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "1980年代に住宅と生活機能が郊外へ広がり、買い物や通勤の自動車依存を強めた。",
+        "note": "ニュータウンの住宅地について第1次分譲が開始された。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "長岡花火で正三尺五寸玉が打ち上げられる",
+        "label": "長岡花火で三尺五寸玉が打ち上げられる",
         "startYear": 1983,
         "genre": [
           "FESTIVAL_LEISURE"
         ],
         "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "正三尺玉を超える大玉への挑戦で、長岡花火の技術力と話題性を示した。",
+        "note": "三尺五寸玉が打ち上げられ、その打ち上げ筒は郷土史料館に展示された。",
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
@@ -2131,7 +2222,7 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
-        "label": "長岡ニュータウン運動公園が開園する",
+        "label": "長岡ニュータウン公園が開園する",
         "startYear": 1984,
         "genre": [
           "NATURE_SPORTS",
@@ -2140,7 +2231,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "郊外住宅地にスポーツと遊びの場が整い、家族や地域住民の日常的な利用が始まった。",
+        "note": "長岡ニュータウンの公園施設が開園した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -2170,7 +2261,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/shisei/cate01/chukatsu/file/plan3rd-h3104-10.pdf"
       },
       {
-        "label": "大手大橋が開通",
+        "label": "大手大橋が開通する",
         "startYear": 1985,
         "genre": [
           "TRANSPORT_CITY"
@@ -2219,16 +2310,16 @@
     ],
     "1986": [
       {
-        "label": "国道8号長岡東バイパスが全線開通する",
+        "label": "国道8号長岡バイパスが全線開通する",
         "startYear": 1986,
         "genre": [
           "TRANSPORT_CITY",
           "INDUSTRY_COMMERCE"
         ],
         "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "市街地の通過交通を分散し、沿道の工業・商業施設や自動車中心の生活圏を広げた。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "長岡市街地を通過する交通を分散する幹線道路として全線開通した。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       },
       {
         "label": "市制80周年「光と音の祭典」が開催される",
@@ -2244,7 +2335,19 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "映画『母さんの樹』が長岡地域で撮影される",
+        "label": "市制80周年を記念して長岡花火で尺玉80連発が行われる",
+        "startYear": 1986,
+        "genre": [
+          "FESTIVAL_LEISURE",
+          "HISTORY_SOCIETY"
+        ],
+        "imp": 4,
+        "url": "https://nagaokamatsuri.com/history/",
+        "note": "市制80周年記念事業として、武者行列、尺玉80連発、神輿渡御が行われた。",
+        "url_en": "https://nagaokamatsuri.com/history/"
+      },
+      {
+        "label": "映画『母さんの樹』が公開される",
         "startYear": 1986,
         "genre": [
           "CULTURE_MEDIA",
@@ -2252,7 +2355,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "地域の風景が映画に記録され、ロケ地を通じて市民が作品制作に接した。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -2281,42 +2384,16 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kankou/event/daruma.html"
       },
       {
-        "label": "米百俵花火が初めて打ち上げられる",
-        "startYear": 1986,
-        "genre": [
-          "FESTIVAL_LEISURE",
-          "HISTORY_SOCIETY",
-          "WAR_DISASTER"
-        ],
-        "imp": 4,
-        "url": "https://nagaokamatsuri.com/history/",
-        "note": "市制80周年を記念し、教育による復興という長岡の物語を花火演出に結びつけた。",
-        "url_en": "https://nagaokamatsuri.com/history/"
-      },
-      {
-        "label": "米百俵花火が市制80周年を記念して誕生",
-        "startYear": 1986,
-        "genre": [
-          "FESTIVAL_LEISURE",
-          "HISTORY_SOCIETY",
-          "WAR_DISASTER"
-        ],
-        "imp": 4,
-        "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html",
-        "note": "長岡の教育精神と花火文化を結びつけた演目。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate12/kome100/kome100.html"
-      },
-      {
-        "label": "長岡ニュータウン産業団地の分譲が始まる",
+        "label": "越後与板打刃物が国の伝統的工芸品に指定される",
         "startYear": 1986,
         "genre": [
           "INDUSTRY_COMMERCE",
-          "TRANSPORT_CITY"
+          "FOOD_CRAFT"
         ],
-        "imp": 3,
-        "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "住宅だけでなく雇用の場も郊外へ配置し、職住を組み合わせたニュータウン形成が進んだ。",
-        "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+        "imp": 4,
+        "url": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/yoita/s61.html",
+        "note": "与板地域で受け継がれてきた打刃物が、国の伝統的工芸品に指定された。",
+        "url_en": "https://www.city.nagaoka.niigata.jp/elibrary/kouhou/yoita/s61.html"
       }
     ],
     "1987": [
@@ -2405,7 +2482,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "映画『つる―鶴―』が長岡地域で撮影される",
+        "label": "映画『つる―鶴―』が公開される",
         "startYear": 1988,
         "genre": [
           "CULTURE_MEDIA",
@@ -2413,7 +2490,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "市域の雪景色や地域風景が映像作品の舞台となった。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       }
     ],
@@ -2456,7 +2533,7 @@
     ],
     "1990": [
       {
-        "label": "千秋が原地区開発基本計画が策定される",
+        "label": "千秋が原整備計画が発表される",
         "startYear": 1990,
         "genre": [
           "HISTORY_SOCIETY",
@@ -2465,7 +2542,7 @@
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "美術館、ホール、展示場、商業施設が集まる後年の千秋地区形成につながった。",
+        "note": "千秋が原地区を文化・交流拠点として整備する計画が発表された。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -2507,7 +2584,7 @@
     ],
     "1991": [
       {
-        "label": "ハイブ長岡が開館",
+        "label": "ハイブ長岡が開館する",
         "startYear": 1991,
         "genre": [
           "INDUSTRY_COMMERCE",
@@ -2519,7 +2596,7 @@
         "url_en": "https://www.hive.or.jp/"
       },
       {
-        "label": "上越新幹線が東京駅まで乗り入れる",
+        "label": "上越新幹線が東京駅まで全線開通する",
         "startYear": 1991,
         "genre": [
           "TRANSPORT_CITY",
@@ -2527,7 +2604,7 @@
         ],
         "imp": 5,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "長岡から東京中心部へ直通し、出張、進学、買い物、観光の時間距離をさらに縮めた。",
+        "note": "上野―東京間の開業により、長岡から東京駅まで新幹線で直結した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -2557,7 +2634,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "第1回長岡雪しか祭り",
+        "label": "第1回長岡雪しか祭りが開催される",
         "startYear": 1992,
         "genre": [
           "NATURE_SPORTS",
@@ -2567,19 +2644,6 @@
         "url": "https://www.city.nagaoka.niigata.jp/kankou/event/yukishika.html",
         "note": "雪国文化を観光・市民イベントに転換。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kankou/event/yukishika.html"
-      },
-      {
-        "label": "第1回長岡雪しか祭りが開催される",
-        "startYear": 1992,
-        "genre": [
-          "NATURE_SPORTS",
-          "HISTORY_SOCIETY",
-          "FESTIVAL_LEISURE"
-        ],
-        "imp": 4,
-        "url": "https://nagaoka-navi.or.jp/event/41979",
-        "note": "雪像、雪遊び、花火などを通じ、雪を観光と市民娯楽へ転換する冬の祭りが始まった。",
-        "url_en": "https://nagaoka-navi.or.jp/event/41979"
       },
       {
         "label": "長岡市都市景観基本計画が策定される",
@@ -2597,7 +2661,7 @@
     ],
     "1993": [
       {
-        "label": "新潟県立近代美術館が開館",
+        "label": "新潟県立近代美術館が開館する",
         "startYear": 1993,
         "genre": [
           "CULTURE_MEDIA"
@@ -2633,7 +2697,7 @@
     ],
     "1994": [
       {
-        "label": "テレビドラマ『夏子の酒』が長岡地域で撮影される",
+        "label": "テレビドラマ『夏子の酒』が放送される",
         "startYear": 1994,
         "genre": [
           "CULTURE_MEDIA",
@@ -2642,11 +2706,11 @@
         ],
         "imp": 4,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "酒造りを描く作品のロケを通じ、米と日本酒の地域イメージが全国に紹介された。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
-        "label": "大手スカイデッキが都市景観大賞を受賞する",
+        "label": "千秋が原スカイウェーが都市景観大賞を受賞する",
         "startYear": 1994,
         "genre": [
           "CULTURE_MEDIA",
@@ -2654,7 +2718,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "駅と大手通を結ぶ歩行者空間が評価され、1990年代の駅前景観を象徴する施設となった。",
+        "note": "千秋が原地区の歩行者空間であるスカイウェーが都市景観大賞を受賞した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -2669,7 +2733,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "長岡造形大学が開学",
+        "label": "長岡造形大学が開学する",
         "startYear": 1994,
         "genre": [
           "CULTURE_MEDIA"
@@ -2682,7 +2746,7 @@
     ],
     "1995": [
       {
-        "label": "映画『午後の遺言状』が長岡地域で撮影される",
+        "label": "映画『午後の遺言状』が公開される",
         "startYear": 1995,
         "genre": [
           "CULTURE_MEDIA",
@@ -2690,11 +2754,11 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "新藤兼人監督作品のロケ地となり、地域と映画制作の接点を増やした。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
-        "label": "映画『藏』が長岡地域で撮影される",
+        "label": "映画『藏』が公開される",
         "startYear": 1995,
         "genre": [
           "CULTURE_MEDIA",
@@ -2703,7 +2767,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "酒蔵や雪国の暮らしを描く作品に地域景観が使われた。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -2744,7 +2808,7 @@
         "url_en": "https://nagaokafilmfes.jimdofree.com/"
       },
       {
-        "label": "長岡リリックホールが開館",
+        "label": "長岡リリックホールが開館する",
         "startYear": 1996,
         "genre": [
           "CULTURE_MEDIA"
@@ -2780,7 +2844,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "映画『しずかなあやしい午後に』が長岡地域で撮影される",
+        "label": "映画『しずかなあやしい午後に』が公開される",
         "startYear": 1997,
         "genre": [
           "CULTURE_MEDIA",
@@ -2788,13 +2852,13 @@
         ],
         "imp": 2,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "地域の風景がオムニバス映画の一部として記録された。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       }
     ],
     "1998": [
       {
-        "label": "FMながおか開局",
+        "label": "FMながおかが開局する",
         "startYear": 1998,
         "genre": [
           "CULTURE_MEDIA",
@@ -2817,16 +2881,16 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
-        "label": "国営越後丘陵公園がオープン",
+        "label": "国営越後丘陵公園が一部開園する",
         "startYear": 1998,
         "genre": [
           "NATURE_SPORTS",
           "CULTURE_MEDIA"
         ],
         "imp": 4,
-        "url": "https://echigo-park.jp/",
-        "note": "花・里山・雪国の自然体験を担う広域公園。",
-        "url_en": "https://echigo-park.jp/"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "国営公園として一部開園し、その後段階的に施設と区域が拡充された。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       },
       {
         "label": "越路橋の新橋が開通する",
@@ -2842,7 +2906,7 @@
     ],
     "1999": [
       {
-        "label": "山本五十六記念館が開館",
+        "label": "山本五十六記念館が開館する",
         "startYear": 1999,
         "genre": [
           "HISTORY_SOCIETY",
@@ -2854,7 +2918,7 @@
         "url_en": "https://yamamoto-isoroku.com/"
       },
       {
-        "label": "映画『まじめで悪いか！』が長岡地域で撮影される",
+        "label": "映画『まじめで悪いか！』が公開される",
         "startYear": 1999,
         "genre": [
           "CULTURE_MEDIA",
@@ -2862,11 +2926,11 @@
         ],
         "imp": 2,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "地域ロケ作品として当時の長岡の風景を映像に残した。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
-        "label": "映画『白痴』が長岡地域で撮影される",
+        "label": "映画『白痴』が公開される",
         "startYear": 1999,
         "genre": [
           "CULTURE_MEDIA",
@@ -2874,7 +2938,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "手塚眞監督作品のロケが行われ、長岡の景観が幻想的な映像表現に使われた。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       }
     ],
@@ -2929,7 +2993,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/shisetsu/bunka/shimin-center.html"
       },
       {
-        "label": "テレビドラマ『ストロベリー・オンザ・ショートケーキ』が長岡地域で撮影される",
+        "label": "テレビドラマ『ストロベリー・オンザ・ショートケーキ』が放送される",
         "startYear": 2001,
         "genre": [
           "CULTURE_MEDIA",
@@ -2937,7 +3001,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "テレビドラマのロケを通じ、地域の風景が全国放送で紹介された。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -2965,7 +3029,7 @@
         "url_en": "https://www.nagaokauniv.ac.jp/guide/history/"
       },
       {
-        "label": "長岡市景観条例が施行される",
+        "label": "長岡市都市景観条例が制定される",
         "startYear": 2001,
         "genre": [
           "HISTORY_SOCIETY",
@@ -2974,7 +3038,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "地域の建物・眺望・街路を守り育てるルールが整い、景観をまちづくりの対象として扱うようになった。",
+        "note": "良好な都市景観の形成を目的とする条例が制定された。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -3043,7 +3107,7 @@
     ],
     "2003": [
       {
-        "label": "NHK連続テレビ小説『こころ』が長岡地域で撮影される",
+        "label": "NHK連続テレビ小説『こころ』が放送される",
         "startYear": 2003,
         "genre": [
           "CULTURE_MEDIA",
@@ -3051,7 +3115,7 @@
         ],
         "imp": 5,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "山古志などの風景が全国放送され、放送後にロケ地を訪ねる観光にもつながった。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -3068,18 +3132,18 @@
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
-        "label": "和島バイパスが開通する",
+        "label": "和島バイパスが全線開通する",
         "startYear": 2003,
         "genre": [
           "TRANSPORT_CITY"
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "和島地域の集落内交通を改善し、寺泊・出雲崎方面を含む広域移動を円滑にした。",
+        "note": "和島地域の幹線道路となるバイパスが全線開通した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "栃尾東バイパスが開通する",
+        "label": "栃尾東バイパスが全線開通する",
         "startYear": 2003,
         "genre": [
           "TRANSPORT_CITY",
@@ -3087,7 +3151,7 @@
         ],
         "imp": 3,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "栃尾中心部の交通を分散し、地域内の物流・買い物・通勤を便利にした。",
+        "note": "栃尾地域の市街地交通を改善するバイパスが全線開通した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
@@ -3167,7 +3231,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/shisei/cate01/chukatsu/file/plan3rd-h3104-10.pdf"
       },
       {
-        "label": "ドキュメンタリー映画『漁師と妻』が長岡地域で撮影される",
+        "label": "ドキュメンタリー映画『漁師と妻』が公開される",
         "startYear": 2005,
         "genre": [
           "CULTURE_MEDIA",
@@ -3176,7 +3240,7 @@
         ],
         "imp": 3,
         "url": "https://locanavi.jp/works/nagaokaloca/",
-        "note": "寺泊など海側の暮らしを題材にし、漁業と家族の生活を映像に残した。",
+        "note": "長岡地域でロケが行われた作品。年表の年は撮影年ではなく、作品の公開・放送年を示す。",
         "url_en": "https://locanavi.jp/works/nagaokaloca/"
       },
       {
@@ -3205,7 +3269,7 @@
     ],
     "2006": [
       {
-        "label": "市制100周年記念で100発花火が打ち上げられる",
+        "label": "市制100周年を記念して尺玉100発が打ち上げられる",
         "startYear": 2006,
         "genre": [
           "FESTIVAL_LEISURE",
@@ -3213,7 +3277,7 @@
         ],
         "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "市制の節目を花火で祝う演出が行われ、都市史と夏祭りを結びつけた。",
+        "note": "長岡市制100周年の記念演目として尺玉100発が打ち上げられた。",
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
@@ -3267,7 +3331,7 @@
     ],
     "2007": [
       {
-        "label": "T・ジョイ長岡が開館",
+        "label": "T・ジョイ長岡が開館する",
         "startYear": 2007,
         "startMonth": 11,
         "startDay": 23,
@@ -3282,7 +3346,7 @@
         "url_en": "https://tjoy.jp/t-joy_nagaoka"
       },
       {
-        "label": "リバーサイド千秋が開業し、郊外商業の新拠点となる",
+        "label": "リバーサイド千秋が開業する",
         "startYear": 2007,
         "genre": [
           "INDUSTRY_COMMERCE",
@@ -3290,7 +3354,7 @@
         ],
         "imp": 5,
         "url": "https://walk-uny.com/riverside-senshu/",
-        "note": "大型専門店、飲食、映画館を備え、長岡の買い物と娯楽の重心が郊外へ移ったことを象徴する。",
+        "note": "千秋地区に大型商業施設として開業し、長岡の買い物動線に大きな影響を与えた。",
         "url_en": "https://walk-uny.com/riverside-senshu/"
       },
       {
@@ -3370,20 +3434,8 @@
         ],
         "imp": 5,
         "url": "https://www.nhk-ep.com/products/detail/h16154AA",
-        "note": "与板の直江兼続ゆかりの地が全国的に注目され、歴史観光や関連商品が盛り上がった。",
+        "note": "直江兼続を主人公とする大河ドラマ。与板など市内のゆかりの地への関心が高まった。",
         "url_en": "https://www.nhk-ep.com/products/detail/h16154AA"
-      },
-      {
-        "label": "NHK大河ドラマ『天地人』で与板・直江兼続ゆかりの地が注目",
-        "startYear": 2009,
-        "genre": [
-          "CULTURE_MEDIA",
-          "HISTORY_SOCIETY"
-        ],
-        "imp": 4,
-        "url": "https://www.nhk.jp/p/ts/6GLVG6Q9P4/",
-        "note": "現在の長岡市与板地域の歴史観光が可視化。",
-        "url_en": "https://www.nhk.jp/p/ts/6GLVG6Q9P4/"
       },
       {
         "label": "トキめき新潟国体が長岡で開催される",
@@ -3438,7 +3490,7 @@
     ],
     "2010": [
       {
-        "label": "大和長岡店が閉店",
+        "label": "大和長岡店が閉店する",
         "startYear": 2010,
         "startMonth": 4,
         "startDay": 25,
@@ -3452,15 +3504,15 @@
         "url_en": "https://nagaoka.rgr.jp/shop/daiwaheiten/index.html"
       },
       {
-        "label": "川口地域の編入で現在に近い市域へ",
+        "label": "長岡市と川口町が合併する",
         "startYear": 2010,
         "genre": [
           "HISTORY_SOCIETY"
         ],
         "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A3%E7%94%BA_(%E6%96%B0%E6%BD%9F%E7%9C%8C)",
-        "note": "合併項目は絞り込み、山古志・川口など文化的意味の大きい市域拡大として記録。",
-        "url_en": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A3%E7%94%BA_(%E6%96%B0%E6%BD%9F%E7%9C%8C)"
+        "url": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html",
+        "note": "川口町との合併によって現在の長岡市域が形成された。",
+        "url_en": "https://opac.lib.city.nagaoka.niigata.jp/rekisi/graf5.html"
       },
       {
         "label": "長岡市民防災公園が開園する",
@@ -3518,7 +3570,7 @@
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
-        "label": "アオーレ長岡がオープン",
+        "label": "アオーレ長岡が開館する",
         "startYear": 2012,
         "genre": [
           "CULTURE_MEDIA",
@@ -3530,18 +3582,18 @@
         "url_en": "https://ao-re.jp/"
       },
       {
-        "label": "大手スカイデッキがアオーレ長岡へ接続される",
+        "label": "大手スカイデッキが完成する",
         "startYear": 2012,
         "genre": [
           "TRANSPORT_CITY"
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf",
-        "note": "駅からアオーレまで歩行者動線がつながり、雪や雨を避けながら中心街を移動しやすくなった。",
+        "note": "長岡駅から大手通・アオーレ長岡方面への歩行者動線をつなぐ施設として完成した。",
         "url_en": "https://www.city.nagaoka.niigata.jp/kurashi/cate07/toshikeikaku/file/booklet-01-06.pdf"
       },
       {
-        "label": "大林宣彦監督『この空の花―長岡花火物語』が公開",
+        "label": "映画『この空の花―長岡花火物語』が公開される",
         "startYear": 2012,
         "startMonth": 4,
         "startDay": 7,
@@ -3610,7 +3662,7 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "復興祈願花火フェニックス10が全幅打ち上げされる",
+        "label": "復興祈願花火フェニックス10が5分10秒のフルバージョンで打ち上げられる",
         "startYear": 2014,
         "genre": [
           "FESTIVAL_LEISURE",
@@ -3618,7 +3670,7 @@
         ],
         "imp": 5,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "中越地震10年の節目に、平原綾香「Jupiter」に合わせた大規模演出で復興の歩みを示した。",
+        "note": "中越地震から10年の節目に、平原綾香「Jupiter」の全曲に合わせた5分10秒のフルバージョンが打ち上げられた。",
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ],
@@ -3663,7 +3715,19 @@
         "url_en": "https://www.city.nagaoka.niigata.jp/shisei/cate08/basketball/index.html"
       },
       {
-        "label": "越後カントリートレイルが初開催される",
+        "label": "花火師・嘉瀬誠次が長岡市民大賞を受賞する",
+        "startYear": 2016,
+        "genre": [
+          "FESTIVAL_LEISURE",
+          "HISTORY_SOCIETY"
+        ],
+        "imp": 4,
+        "url": "https://nagaokamatsuri.com/history/",
+        "note": "長岡花火の発展と継承に貢献した花火師・嘉瀬誠次に長岡市民大賞が贈られた。",
+        "url_en": "https://nagaokamatsuri.com/history/"
+      },
+      {
+        "label": "越後カントリートレイルが開催される",
         "startYear": 2016,
         "genre": [
           "NATURE_SPORTS",
@@ -3671,19 +3735,19 @@
         ],
         "imp": 4,
         "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "小国地域の山道と集落を走る大会が始まり、里山景観と住民の応援を生かした観光イベントとなった。",
+        "note": "小国地域を中心とするトレイルランニング大会が開催された。",
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       },
       {
-        "label": "長岡花火財団が加瀬清志地域活性化賞を受賞する",
+        "label": "長岡花火で「米百俵花火・尺玉100連発」が打ち上げられる",
         "startYear": 2016,
         "genre": [
           "FESTIVAL_LEISURE",
-          "CULTURE_MEDIA"
+          "HISTORY_SOCIETY"
         ],
-        "imp": 3,
+        "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "花火を核に慰霊、復興、観光、地域づくりを結びつけた活動が評価された。",
+        "note": "長岡の教育精神を象徴する「米百俵」を冠した尺玉100連発が打ち上げられた。",
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ],
@@ -3729,7 +3793,7 @@
         "url_en": "https://www.comefes.net/"
       },
       {
-        "label": "長岡開府400年記念式典が開催される",
+        "label": "長岡開府400年を迎える",
         "startYear": 2018,
         "genre": [
           "HISTORY_SOCIETY",
@@ -3737,7 +3801,7 @@
         ],
         "imp": 5,
         "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
-        "note": "牧野家入封から400年を祝い、歴史展示、催事、地域学習が市内で展開された。",
+        "note": "牧野忠成の入部から400年の節目を迎え、市内で各種記念事業が行われた。",
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
       }
     ],
@@ -3809,7 +3873,7 @@
     ],
     "2020": [
       {
-        "label": "新型コロナウイルスの影響で長岡まつり大花火大会が中止",
+        "label": "新型コロナウイルスの影響で長岡まつり大花火大会が中止される",
         "startYear": 2020,
         "genre": [
           "FESTIVAL_LEISURE",
@@ -3817,7 +3881,7 @@
         ],
         "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "戦後復興以来の大イベントも感染症の影響を受ける。",
+        "note": "感染拡大防止のため、戦後初めて長岡まつり大花火大会が中止された。",
         "url_en": "https://nagaokamatsuri.com/history/"
       },
       {
@@ -3845,19 +3909,6 @@
         "url": "https://nagaoka-hanabikan.niigata.jp/",
         "note": "花火ミュージアムを備え、長岡花火を通年で体験できる拠点。",
         "url_en": "https://nagaoka-hanabikan.niigata.jp/"
-      },
-      {
-        "label": "長岡まつり大花火大会が戦後初めて中止される",
-        "startYear": 2020,
-        "genre": [
-          "FESTIVAL_LEISURE",
-          "WAR_DISASTER",
-          "TRANSPORT_CITY"
-        ],
-        "imp": 5,
-        "url": "https://nagaokamatsuri.com/history/",
-        "note": "新型コロナウイルス感染症の影響で、1947年の復活以来初の中止となった。",
-        "url_en": "https://nagaokamatsuri.com/history/"
       }
     ],
     "2021": [
@@ -3904,7 +3955,7 @@
     ],
     "2023": [
       {
-        "label": "ミライエ長岡が開業",
+        "label": "米百俵プレイス ミライエ長岡が開館する",
         "startYear": 2023,
         "genre": [
           "CULTURE_MEDIA",
@@ -3957,7 +4008,7 @@
     ],
     "2025": [
       {
-        "label": "復興祈願花火フェニックスが打ち上げ開始20周年を迎える",
+        "label": "「20年目の復興祈願花火フェニックス2025特別版」が打ち上げられる",
         "startYear": 2025,
         "genre": [
           "FESTIVAL_LEISURE",
@@ -3966,124 +4017,9 @@
         ],
         "imp": 4,
         "url": "https://nagaokamatsuri.com/history/",
-        "note": "2005年の誕生から20年となり、長岡の復興と支援の象徴として継承された。",
+        "note": "2005年の初打ち上げから20年目の演目として、特別版が打ち上げられた。",
         "url_en": "https://nagaokamatsuri.com/history/"
       }
     ]
-  },
-  "eraSettings": [
-    {
-      "name": "長岡城下町と牧野家の時代",
-      "startYear": 1598,
-      "endYear": 1867,
-      "color": "#7B3F00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "戊辰戦争・米百俵と近代化",
-      "startYear": 1868,
-      "endYear": 1905,
-      "color": "#556B2F",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "市制・鉄道・石油と工業都市化",
-      "startYear": 1906,
-      "endYear": 1944,
-      "color": "#2E8B57",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "長岡空襲と復興の時代",
-      "startYear": 1945,
-      "endYear": 1969,
-      "color": "#B22222",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "高速交通・テクノポリス・郊外化",
-      "startYear": 1970,
-      "endYear": 1999,
-      "color": "#1E90FF",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "中越地震とフェニックスの復興",
-      "startYear": 2000,
-      "endYear": 2011,
-      "color": "#FF8C00",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    },
-    {
-      "name": "アオーレ以後の中心市街地再編",
-      "startYear": 2012,
-      "endYear": "ongoing",
-      "color": "#8A2BE2",
-      "opacity": "0.3",
-      "enabled": true,
-      "fillEnabled": false
-    }
-  ],
-  "genres": [
-    {
-      "code": "HISTORY_SOCIETY",
-      "label": "歴史・人物・行政",
-      "label_en": "History / people / government",
-      "conjunction": false
-    },
-    {
-      "code": "WAR_DISASTER",
-      "label": "戦争・災害・復興",
-      "label_en": "War / disasters / recovery",
-      "conjunction": false
-    },
-    {
-      "code": "INDUSTRY_COMMERCE",
-      "label": "産業・商業・仕事",
-      "label_en": "Industry / commerce / work",
-      "conjunction": false
-    },
-    {
-      "code": "TRANSPORT_CITY",
-      "label": "交通・都市・暮らし",
-      "label_en": "Transport / city / everyday life",
-      "conjunction": false
-    },
-    {
-      "code": "CULTURE_MEDIA",
-      "label": "文化・教育・メディア",
-      "label_en": "Culture / education / media",
-      "conjunction": false
-    },
-    {
-      "code": "FOOD_CRAFT",
-      "label": "食・発酵・工芸",
-      "label_en": "Food / fermentation / crafts",
-      "conjunction": false
-    },
-    {
-      "code": "FESTIVAL_LEISURE",
-      "label": "花火・祭り・観光・娯楽",
-      "label_en": "Fireworks / festivals / tourism / leisure",
-      "conjunction": false
-    },
-    {
-      "code": "NATURE_SPORTS",
-      "label": "自然・雪・スポーツ",
-      "label_en": "Nature / snow / sports",
-      "conjunction": false
-    }
-  ]
+  }
 }
