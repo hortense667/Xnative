@@ -135,7 +135,7 @@
 - ローカルだけで保持したい場合は、データソースを「ローカルJSON（PC上）」に設定
 
 **ウェブ画面の表示**:
-- 詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、その項目のURLが設定されている場合、ウェブプレビューパネルが開きます（詳細は下記「ウェブプレビュー（地球マーク）」参照）
+- `webLinkBehavior=hover`（既定）の場合、詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、URLが設定されていればウェブプレビューパネルが開きます（詳細は下記「ウェブプレビュー（地球マーク）」参照）。`open_tab` の場合はホバーせずクリックで新しいタブを開きます。
 - AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
 - 検索結果の青い項目は、ダブルクリックで編集画面（編集モードON時）を開けます
 
@@ -447,7 +447,7 @@ GitHub年表データのJSONは以下の構造です：
 - 注釈（日本語/英語）も検索対象に含めて検索可能
 
 **検索結果の操作**:
-- 検索結果として表示される青い項目にマウスオーバーすると、その項目のURLが設定されている場合、詳細一覧の「地球」マークと同じウェブプレビューが開きます
+- `webLinkBehavior=hover` では、検索結果として表示される青い項目にマウスオーバーすると、URLが設定されていれば詳細一覧の地球マークと同じウェブプレビューが開きます。`open_tab` ではクリックで新しいタブを開きます。
 - 検索結果の青い項目をクリックすると、その項目の注釈がポップアップ表示されます（英語モードのときは英語の注釈、日本語モードのときは日本語の注釈を表示）
 - 再度クリックするか、マウスが項目から外れると注釈ポップアップが閉じます
 
@@ -505,7 +505,7 @@ GitHub年表データのJSONは以下の構造です：
 **X（旧Twitter）コメント連動**（詳細一覧の各項目）:
 - **🔗** … **共有・検索パネル**を開く（リンクコピー、X投稿、X検索）
 - **ラベル（青字）をクリック** … **項目詳細パネル** を開く（注釈と URL の一覧）
-- **🌐** … 従来どおりウェブプレビュー（下記「ウェブプレビュー」参照）
+- **🌐 / ↗️** … ウェブ表示（下記「ウェブプレビュー」参照。`open_tab` 時は ↗️）
 - 手動で **Xコメントマーク** を付けた項目には、ラベル横に **𝕏** バッジが表示されます（編集画面のチェックボックス）
 
 **共有・検索パネル**（🔗 クリック）:
@@ -570,22 +570,24 @@ X 投稿などで URL を短くするため、**GitHub ID（`gh`）** と **短�
 | `xHashtag` | `"Jimbocho03"` | X 検索用の補助タグ（共有投稿本文の既定ハッシュタグは `#XnativeTimeline`） |
 | `xLinkId` | `"jimbocho03"` | 年表キー（`t` のベース。`xnative_link_map.json` のキーと揃える） |
 | `shareBaseUrl` | `"https://xnative.netlify.app/xnative051.html"` | X 投稿に載せる短縮リンクのベース URL（未設定時は現在開いているページの origin+pathname） |
+| `webLinkBehavior` | `"open_tab"` | ウェブ表示モード。`hover`（既定: 🌐/ホバーでプレビュー）または `open_tab`（↗️/クリックで新しいタブ） |
 
 投稿時の識別子例: コメント `#XnativeTimeline`、修正の提案 `#XnativeTimeline #EditReq`、追加の提案 `#XnativeTimeline #AddReq`（提案系タグは「Xにコメントを投稿」から開いた画面で手動追加）。項目は **ラベル** と共有 **URL**（年＋ラベルをエンコード）で特定します。同一年内でラベルが重複する場合は先頭の項目に一致します。
 
 **運用**: 作者は自分の **`xnative-timeline`** リポの `main` に `xnative_link_map.json` を push してください。アプリは raw.githubusercontent.com から取得します。
 
 **ウェブ画面の表示**:
-- 各項目の「地球」マークにマウスオーバー（スマホではタップ）すると、その項目のURLが設定されている場合、ウェブプレビューパネルが開きます
+- `webLinkBehavior=hover`（既定）では、各項目の地球マーク（🌐）にマウスオーバー（スマホではタップ）するとウェブプレビューパネルが開きます
+- `webLinkBehavior=open_tab` では、アイコンが ↗️ になり、ホバーは無効でクリック時に新しいタブで開きます
 - AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
   - 例：`https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
-- 検索結果の青い項目にマウスオーバーした場合も同様です
+- 検索結果の青い項目も同様に、`hover` ではホバープレビュー、`open_tab` ではクリックで新しいタブになります
 
 #### ウェブプレビュー（地球マーク）
 
 **開き方**:
-- 詳細一覧の地球マーク、または検索結果の青い項目にマウスオーバー（約1秒）でプレビューパネルを表示
-- 地球マークをクリックするとパネルを固定表示
+- `hover` モード: 詳細一覧の地球マーク（🌐）、または検索結果の青い項目にマウスオーバー（約1秒）でプレビューパネルを表示。地球マーククリックで固定
+- `open_tab` モード: 詳細一覧の ↗️ と検索結果クリックで新しいタブを開く（プレビューパネルは使わない）
 - パネル上部の「新しいタブとして開く」「他のURLに切り替える」「閉じる」が使えます（`| ` 区切りで複数URL、`url` / `url_en` の切替に対応）
 
 **埋め込み可のサイト**（Wikipedia など）:
@@ -841,7 +843,7 @@ Example:
 - Timeline utilization (aligning event years and birth years)
 
 **Search Result Operations**:
-- Hovering over the blue search result items opens a web preview panel (same behavior as the globe icon in the detail list) if the item has a URL
+- In `webLinkBehavior=hover` (default), hovering over blue search result items opens a web preview panel (same behavior as the globe icon in the detail list) if the item has a URL. In `open_tab`, click opens a new tab.
 - Clicking a blue search result item displays a popup with the item's note (English note in English mode, Japanese note in Japanese mode)
 - Click again or move the mouse away to close the note popup
 
@@ -850,7 +852,7 @@ Example:
 - Importance filter settings are also applied if configured
 
 **Web Preview Panel**:
-- Hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL (see **Web preview (globe icon)** below)
+- In `webLinkBehavior=hover`, hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL (see **Web preview (globe icon)** below). In `open_tab`, click opens a new tab.
 - For Amazon URLs, adding an image URL after "&" displays the cover image
   - Example: `https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
 
@@ -860,7 +862,7 @@ Example:
 - **Edit mode** (`?editmode=ON`): pencil, trash, and Add are available. **Without editmode**, pencil and trash are **hidden** (not grayed out).
 - **🔗** — Opens **Share & search panel** (copy link, X posts, X search)
 - **Label (blue, clickable)** — Opens **item detail panel** (note + URL list)
-- **🌐** — Web preview (globe icon; see below)
+- **🌐 / ↗️** — Web action (see below; `open_tab` uses ↗️)
 - Manual **X comment mark** shows an 𝕏 badge on the label (checkbox in edit modal)
 
 **Share & search panel** (🔗 click):
@@ -902,15 +904,15 @@ Prefer **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of a long que
 | Preferred | `?gh=alice&t=jimbocho03-y1910&lk=…` | Author map in `alice/xnative-timeline`; **`y` from `-y{year}`** |
 | Legacy (unsupported) | `?xid=jimbocho03-y1910&lk=…` | No longer supported |
 
-**Timeline metadata (optional)**: `xHashtag`, `xLinkId` (must match map key), `shareBaseUrl` (if omitted, current page origin+pathname is used) — see Japanese section above.
+**Timeline metadata (optional)**: `xHashtag`, `xLinkId` (must match map key), `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`hover` default / `open_tab`) — see Japanese section above.
 
 Push the map to your **`xnative-timeline` `main`** branch.
 
 #### Web preview (globe icon)
 
 **How to open**:
-- Hover (~1 s) over the globe icon in the detail list or a blue search result item
-- Click the globe icon to pin the panel
+- `hover` mode: hover (~1 s) over the globe icon (🌐) in the detail list or a blue search result item; click the globe icon to pin the panel
+- `open_tab` mode: click ↗️ in the detail list, or click a blue search result item, to open a new tab (no preview panel)
 - Use **Open in New Tab**, **Switch to other URL**, and **Close** in the header (`|` -separated URLs; `url` / `url_en` switching supported)
 
 **Embeddable sites** (e.g. Wikipedia):

@@ -101,7 +101,7 @@ This document includes both a Japanese and an English version. The English versi
 - 検索ボックスでラベルやジャンルを検索
 - ジャンル選択で表示項目を絞り込み
 - 重要度別のフィルター機能
-- 検索結果の青い項目にマウスオーバーでウェブプレビューを開く（URLが設定されている場合）
+- `webLinkBehavior=hover`（既定）では、検索結果の青い項目にマウスオーバーでウェブプレビューを開く（URLが設定されている場合）。`open_tab` ではクリックで新しいタブを開く
 - 検索結果の青い項目をクリックで注釈をポップアップ表示
 - 検索結果の青い項目をダブルクリックで編集モーダルを開く（editmode=ON の場合のみ）
 - 検索ボックスに「*」を入力すると、選択されている分野のすべての項目を表示
@@ -120,6 +120,9 @@ This document includes both a Japanese and an English version. The English versi
 
 #### ウェブプレビュー（地球マーク）
 - 詳細一覧の地球マーク、または検索結果の青い項目にマウスオーバー（約1秒）／地球マークをクリックで固定
+- 年表 metadata の `webLinkBehavior` で挙動を切替可能
+  - `hover`（既定）: **🌐**、ホバーでプレビュー
+  - `open_tab`: **↗️**、ホバーなし、クリックで新しいタブ
 - **埋め込み可**（Wikipedia 等）: パネル内 iframe で表示
 - **埋め込み不可**（nippon.com、note.com、多くの公式サイト等）: ぼかし背景＋「新しいタブで開きますか？」と **「はい」** ボタン。ヘッダーの「新しいタブとして開く」も利用可
 - **Amazon**: `URL&画像URL` 形式で表紙画像とリンク案内（iframe なし）
@@ -252,7 +255,7 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
 - `owner` 省略時は `gh`、`repo` 省略時は **`xnative-timeline`**
 - `t=jimbocho03-y1910` 形式なら `y` は **自動付与**
 
-**年表 metadata（任意）**: `xHashtag`, `xLinkId`（マップのキーと揃える）, `shareBaseUrl`。`shareBaseUrl` 未設定時は現在開いているページのURL（origin + pathname）が使われます。詳細は [ユーザーガイド](users_guide.md) を参照。
+**年表 metadata（任意）**: `xHashtag`, `xLinkId`（マップのキーと揃える）, `shareBaseUrl`, `webLinkBehavior`。`shareBaseUrl` 未設定時は現在開いているページのURL（origin + pathname）が使われます。`webLinkBehavior` は `hover`（既定）/`open_tab`。詳細は [ユーザーガイド](users_guide.md) を参照。
 
 #### 補足：Google Sheets → GitHub JSON への移行
 Google Sheetsで運用していた年表を、GitHub上で管理・共同編集できるJSON（アプリのGitHubデータ形式）へ変換するために、`sheet_to_json_coverter.html` を同梱しています。
@@ -374,13 +377,16 @@ https://youtu.be/Ymsez9vMJa4
 #### Search & filter
 - Search box for labels/genres; `*` shows all in selected fields.
 - Filter by genre and importance.
-- Hover blue search hits to open web preview (if URL set); click for note popup; double-click to open edit modal (edit mode only).
+- In `webLinkBehavior=hover` (default), hover blue search hits to open web preview (if URL set); click for note popup; double-click to open edit modal (edit mode only). In `open_tab`, click opens a new tab.
 - Detail list: **𝕏** (post to X), **🔍** (X search in new tab), clickable label (note + URLs panel), **🌐** preview. Pencil/trash **hidden** unless `?editmode=ON`.
 - Short links: `?gh=...&t=...` via author `xnative-timeline` map (`?xid=...` is not supported).
 - Mobile/touch: compact header (search + ≡), bottom sheets for panels, tap instead of hover for 🌐 preview; PC editing recommended.
 
 #### Web preview (globe icon)
 - Hover (~1 s) or click the globe icon in the detail list; same for blue search hits
+- Per-timeline behavior can be switched via metadata `webLinkBehavior`
+  - `hover` (default): **🌐**, hover preview
+  - `open_tab`: **↗️**, no hover preview, click opens a new tab
 - **Embeddable** (e.g. Wikipedia): shown in panel iframe
 - **Non-embeddable** (many official/commercial sites, note.com, etc.): blurred background + “Open in a new tab?” with **Yes** button; header **Open in New Tab** also works
 - **Amazon**: cover via `URL&imageURL`; no iframe
@@ -475,7 +481,7 @@ Use **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of long URLs.
 - Authors create a repo named **`xnative-timeline`** and place the map at the root; keep timeline keys short
 - Legacy **`?xid=...`** is no longer supported
 
-**`params` in the map**: `&`-joined query string (no leading `?`); omit `owner` to use `gh`, omit `repo` to use **`xnative-timeline`**. `t=jimbocho03-y1910` auto-appends `y`. Optional metadata: `xHashtag`, `xLinkId`, `shareBaseUrl` (if omitted, current page origin+pathname is used). See [users_guide.md](users_guide.md).
+**`params` in the map**: `&`-joined query string (no leading `?`); omit `owner` to use `gh`, omit `repo` to use **`xnative-timeline`**. `t=jimbocho03-y1910` auto-appends `y`. Optional metadata: `xHashtag`, `xLinkId`, `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`hover`/`open_tab`). See [users_guide.md](users_guide.md).
 
 ### About Google Sheets support
 Google Sheets (GAS) data source is currently unsupported.
