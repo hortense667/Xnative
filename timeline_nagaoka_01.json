@@ -3906,6 +3906,18 @@
         "note": "2005年の初打ち上げから20年目の演目として、特別版が打ち上げられた。",
         "url_en": "https://nagaokamatsuri.com/history/"
       }
+    ],
+    "2026": [
+      {
+        "label": "安福亭柏町本店閉店",
+        "startYear": "2026",
+        "genre": [
+          "FOOD_CRAFT"
+        ],
+        "imp": 3,
+        "url": "https://7gaoka.jp/archives/48672248.html",
+        "_rev": "1783918309775-wr4c5zqz"
+      }
     ]
   },
   "eraSettings": [
