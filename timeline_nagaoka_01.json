@@ -1718,6 +1718,17 @@
         "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
         "note": "演劇、音楽、学校行事、講演会などを受け入れ、1970年代以降の舞台文化を支えた。",
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+      },
+      {
+        "label": "雨扉（あまど）開店",
+        "startYear": "1973",
+        "genre": [
+          "CULTURE_MEDIA",
+          "FESTIVAL_LEISURE"
+        ],
+        "imp": 4,
+        "note": "ジャズ喫茶。午前4時まで営業。ライブもあり。オーナーの新井世都子氏はテクニクスの広告に出るほどの人物だった。",
+        "_rev": "1783930498423-fegftpgr"
       }
     ],
     "1974": [
