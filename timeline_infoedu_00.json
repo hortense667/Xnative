@@ -427,7 +427,6 @@
     "2025": [
       {
         "label": "大学入試：大学入学共通テストに「情報」が設置される",
-        "label_en": "Informatics is added to the Common Test for University Admissions",
         "startYear": "2025",
         "genre": [
           "EXAM",
@@ -437,8 +436,9 @@
         "imp": 5,
         "url": "https://www.dnc.ac.jp/kyotsu/kako_shiken_jouhou/r7/",
         "note": "令和7年度大学入学共通テストから「情報」が出題教科に加わり、高校「情報Ⅰ」の学習内容が大学入試に接続される。",
+        "label_en": "Informatics is added to the Common Test for University Admissions",
         "note_en": "From the 2025 Common Test for University Admissions, Informatics was added, connecting high school Informatics I to university entrance exams.",
-        "timeLabel": "2025年"
+        "_rev": "1783950774269-ha2fl76h"
       }
     ],
     "2026": [
