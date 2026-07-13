@@ -148,6 +148,7 @@
 **基本的な操作**:
 - 閲覧者の操作に加えて、項目の編集・追加・削除
 - アクセストークンがない状態で編集を保存するとCSVが出力される
+  - 出力名: `xnative_changes_{owner}_{repo}_{timeline}_{YYYYMMDD-HHMMSS}_{件数}items.csv`
 - エクスポートしたデータを管理者に提供
 
 **制限事項**:
@@ -248,13 +249,15 @@ Google Sheetsで管理していた年表を、GitHubで管理するJSON形式へ
 
 **基本形式**:
 ```
-開始年;終了年;ラベル;label_en;ジャンル;重要度;URL;url_en;注釈;note_en
+開始年;終了年;ラベル;label_en;ジャンル;重要度;URL;url_en;注釈;note_en;timeLabel
 ```
+
+`timeLabel` は任意です。指定すると、画面上で `［timeLabel］ラベル` として表示されます。
 
 **例**:
 ```
-1946;;ENIAC;ENIAC;HAR;5;https://ja.wikipedia.org/wiki/ENIAC;https://en.wikipedia.org/wiki/ENIAC;初の大規模電子計算機;First large-scale electronic computer
-1983;;任天堂ファミコン;Nintendo Famicom;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;https://en.wikipedia.org/wiki/Nintendo_Entertainment_System;家庭用ゲーム機の革命;Home console revolution
+1946;;ENIAC;ENIAC;HAR;5;https://ja.wikipedia.org/wiki/ENIAC;https://en.wikipedia.org/wiki/ENIAC;初の大規模電子計算機;First large-scale electronic computer;
+1983;;任天堂ファミコン;Nintendo Famicom;GAM;5;https://ja.wikipedia.org/wiki/ファミリーコンピュータ;https://en.wikipedia.org/wiki/Nintendo_Entertainment_System;家庭用ゲーム機の革命;Home console revolution;80年代前半
 ```
 
 **ジャンル定義**:
@@ -353,6 +356,26 @@ GitHub年表データのJSONは以下の構造です：
 2. サーバー側に `GEMINI_API_KEY` または `OPENAI_API_KEY` が設定されているか確認
 3. 「設定」のモデル名が有効か確認
 4. トークン上限や Safety Margin を見直す
+
+#### ローカルストレージ容量メンテナンス（Cloudflare/Netlify運用）
+
+長期間運用すると、ブラウザの `localStorage` に旧データや過去の名前空間データが残り、まれに `QuotaExceededError`（容量超過）で編集系操作に影響することがあります。
+
+- まずは DevTools Console で使用量を確認:
+  - `inspectXnativeStorageUsage()`
+  - `listXnativeNamespaces()`
+- 旧名前空間の削除候補を確認（削除はしない）:
+  - `cleanupOldXnativeNamespaces()`
+- 旧名前空間を実際に削除:
+  - `cleanupOldXnativeNamespaces({ dryRun: false, confirmToken: "DELETE" })`
+- 必要時のみ、巨大キーの候補を確認/削除:
+  - 確認: `cleanupLargestXnativeKeys({ topN: 10, minKiB: 256 })`
+  - 削除: `cleanupLargestXnativeKeys({ dryRun: false, confirmToken: "DELETE", topN: 10, minKiB: 256 })`
+
+運用目安:
+- 定期実行は必須ではありません（通常は不要）
+- 編集画面が開かない、保存が不安定、`QuotaExceededError` が出る場合に実施
+- 実施後は `inspectXnativeStorageUsage()` で容量が下がったことを確認
 
 #### ブラウザのリロードと「表示中の全ラベルをクリアしてGitHubから読み込み」の違い
 
@@ -486,7 +509,7 @@ GitHub年表データのJSONは以下の構造です：
 - 手動で **Xコメントマーク** を付けた項目には、ラベル横に **𝕏** バッジが表示されます（編集画面のチェックボックス）
 
 **共有・検索パネル**（🔗 クリック）:
-- **コメントを共有** … **Xにコメントを投稿** で X の投稿画面を開く（ラベル ＋ `#XnativeTimeline #Jimbocho03` ＋ URL）
+- **コメントを共有** … **Xにコメントを投稿** で X の投稿画面を開く（ラベル ＋ `#XnativeTimeline` ＋ URL）
 - 修正・追加の提案は、投稿時に `#EditReq` または `#AddReq` をハッシュタグに追加（専用ボタンはありません。パネル内の案内文を参照）
 - **この項目のX投稿を見る** … X の検索画面を新しいタブで開く（公開投稿の検索は **Xのみ**）
 - **X以外への共有** … **項目ラベル** ＋ 共有 URL をコピーして Facebook・LINE 等へ貼り付け
@@ -494,21 +517,23 @@ GitHub年表データのJSONは以下の構造です：
 
 **項目詳細パネル**（ラベルクリック、または X 投稿 URL から起動したとき）:
 - 詳細一覧の横に、**注釈**（`note` / `note_en`）と **URL リンク一覧** を表示
-- 共有 URL（`?xid=...`）からアクセスした場合: 年表を開き **該当年の詳細一覧** を表示。URL に含まれる **項目ラベル** でその年の中を検索し、一致があれば項目詳細パネルも開く。**一致がなければ項目詳細パネルは開かない**（X 検索の iframe 埋め込みは行いません）
+- 共有 URL（`?gh=...&t=...`）からアクセスした場合: 年表を開き **該当年の詳細一覧** を表示。URL に含まれる **項目ラベル**（`lk`）でその年の中を検索し、一致があれば項目詳細パネルも開く。**一致がなければ項目詳細パネルは開かない**（X 検索の iframe 埋め込みは行いません）
 
-#### 短縮共有リンク（xid）と xnative_link_map.json
+#### 短縮共有リンク（gh + t）と作者リポの xnative_link_map.json
 
-X 投稿などで URL を短くするため、専用パラメータ **`xid`**（別名 `xnativeId`）を使います。
+X 投稿などで URL を短くするため、**GitHub ID（`gh`）** と **短い年表キー（`t`）** を使います。
 
 **利用者向け（クリックしたとき）**:
-1. `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1910&lk=a1b2c3d4` のようにアクセス（**短い xid ＋ lk**）
-2. アプリ起動時に GitHub **`hortense667/xnative`** リポジトリの **`xnative_link_map.json`**（`main` ブランチ）を取得
-3. `xid`（例: `jimbocho03-y1910`）を **`y`（年）** などに展開し、**`lk` はそのまま引き継ぐ**（ラベル全文は URL に載せない）
-4. 読み込み後、**その年の中で `itemLabel` と一致する項目** を探し、見つかれば項目詳細パネルを開く
+1. `https://xnative.netlify.app/xnative051.html?gh=hortense667&t=jimbocho03-y1910&lk=a1b2c3d4` のようにアクセス
+2. アプリ起動時に GitHub **`{gh}/xnative-timeline`** リポジトリの **`xnative_link_map.json`**（`main`）を取得
+3. `t`（例: `jimbocho03-y1910`）を **`y`（年）** と `filePath` などに展開し、**`lk` はそのまま引き継ぐ**
+4. 読み込み後、**その年の中でラベル照合**し、見つかれば項目詳細パネルを開く
 
-**年表作者向け（リンクマップの登録）**:
-
-リポジトリ直下の `xnative_link_map.json` に、短い ID と `params` を対応付けます。
+**年表作者向け（推奨フロー）**:
+1. GitHub に **`xnative-timeline`** という名前のリポジトリを作る（名前は固定）
+2. リポジトリ直下に `xnative_link_map.json` を置く
+3. 年表 JSON は同リポでも、別リポでも可（`params` で `repo` / `filePath` を指定）
+4. 年表キーは **短く**（英小文字・数字・ハイフン推奨。例: `jimbocho03`, `ai02`）
 
 ```json
 {
@@ -518,37 +543,37 @@ X 投稿などで URL を短くするため、専用パラメータ **`xid`**（
       "params": "filePath=timeline_jimbocho_03.json",
       "label": "神田神保町年表 0.2"
     },
-    "jimbocho02": {
-      "params": "filePath=timeline_jimbocho_02.json&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=...",
-      "label": "神保町 0.2 + 背景年表"
+    "ai02": {
+      "params": "repo=my-data&filePath=timelines/ai.json",
+      "label": "AI史（別リポの例）"
     }
   }
 }
 ```
 
 **`params` の書き方**:
-- 通常のクエリ文字列と同じ。**`&` で複数パラメータを連結**できます（先頭の `?` は不要）
-- 例: `filePath=timeline_jimbocho_02.json&y=1949&i=1&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=%5B%7B%22sourceType%22%3A%22github%22...%7D%5D`
-- `refTimelines` など JSON を含む値は **1 回 URL エンコード**した文字列を `params` に書きます（JSON ファイル内では `"` を `\"` でエスケープ）
+- 通常のクエリ文字列と同じ。**`&` で複数パラメータを連結**（先頭の `?` は不要）
+- `owner` を省略すると URL の `gh` が使われます。`repo` を省略すると **`xnative-timeline`** が使われます
+- `refTimelines` など JSON を含む値は **1 回 URL エンコード**して書きます
 
-**2 つの登録パターン**:
+**共有 URL の形**:
 
-| パターン | マップのキー | 共有 URL の例 | 説明 |
-|----------|-------------|---------------|------|
-| 年表ベース | `jimbocho03` | `?xid=jimbocho03-y1910&lk=…` | `params` に年表共通設定のみ。`-y{年}` suffix で `y` を **自動付与**（項目は `lk` で照合） |
-| 完全指定 | 任意の ID | `?xid=my-custom-id` | `params` に `y` / `itemLabel` 含む **すべて** を書く（自動付与なし） |
+| パターン | 例 | 説明 |
+|----------|----|------|
+| 推奨 | `?gh=alice&t=jimbocho03-y1910&lk=…` | GitHub ID + 短い年表キー。`-y{年}` で `y` を自動付与 |
+| 旧形式（非対応） | `?xid=jimbocho03-y1910&lk=…` | 現在はサポートしていません |
 
 **年表 JSON の metadata（X 連動用・任意）**:
 
 | フィールド | 例 | 用途 |
 |-----------|-----|------|
-| `xHashtag` | `"Jimbocho03"` | X 投稿・検索用の年表固有タグ |
-| `xLinkId` | `"jimbocho03"` | `xid` のベース ID（`xnative_link_map.json` のキーと揃える） |
-| `shareBaseUrl` | `"https://xnative.netlify.app/xnative051.html"` | X 投稿に載せる短縮リンクのベース URL |
+| `xHashtag` | `"Jimbocho03"` | X 検索用の補助タグ（共有投稿本文の既定ハッシュタグは `#XnativeTimeline`） |
+| `xLinkId` | `"jimbocho03"` | 年表キー（`t` のベース。`xnative_link_map.json` のキーと揃える） |
+| `shareBaseUrl` | `"https://xnative.netlify.app/xnative051.html"` | X 投稿に載せる短縮リンクのベース URL（未設定時は現在開いているページの origin+pathname） |
 
-投稿時の識別子例: コメント `#XnativeTimeline #Jimbocho03`、修正の提案 `#XnativeTimeline #EditReq #Jimbocho03`、追加の提案 `#XnativeTimeline #AddReq #Jimbocho03`（いずれも「Xにコメントを投稿」から開いた画面で、ハッシュタグを手動で追加）。項目は **ラベル** と共有 **URL**（年＋ラベルをエンコード）で特定します。同一年内でラベルが重複する場合は先頭の項目に一致します。
+投稿時の識別子例: コメント `#XnativeTimeline`、修正の提案 `#XnativeTimeline #EditReq`、追加の提案 `#XnativeTimeline #AddReq`（提案系タグは「Xにコメントを投稿」から開いた画面で手動追加）。項目は **ラベル** と共有 **URL**（年＋ラベルをエンコード）で特定します。同一年内でラベルが重複する場合は先頭の項目に一致します。
 
-**運用**: `xnative_link_map.json` を変更したら **`hortense667/xnative` の `main` に push** してください。アプリは raw.githubusercontent.com から取得します（同梱の `xnative_link_map.json` は GitHub 取得失敗時のフォールバック）。
+**運用**: 作者は自分の **`xnative-timeline`** リポの `main` に `xnative_link_map.json` を push してください。アプリは raw.githubusercontent.com から取得します。
 
 **ウェブ画面の表示**:
 - 各項目の「地球」マークにマウスオーバー（スマホではタップ）すると、その項目のURLが設定されている場合、ウェブプレビューパネルが開きます
@@ -839,26 +864,26 @@ Example:
 - Manual **X comment mark** shows an 𝕏 badge on the label (checkbox in edit modal)
 
 **Share & search panel** (🔗 click):
-- **Share comments** — **Post comment on X** opens X compose (label + `#XnativeTimeline #Jimbocho03` + URL)
+- **Share comments** — **Post comment on X** opens X compose (label + `#XnativeTimeline` + URL)
 - For correction or addition suggestions, add `#EditReq` or `#AddReq` to the hashtags when posting (no dedicated buttons; see the note in the panel)
 - **View X posts for this item** — Opens X search in a new tab (**X only** for public post search)
 - **Share outside X** — Copy item label + share URL for Facebook, LINE, etc.
 - Hashtag rules are shown in the panel
 
-**Item detail panel** (label click, or opening via `?xid=...` from a share link):
+**Item detail panel** (label click, or opening via `?gh=...&t=...` from a share link):
 - Shows **note** and **URL links** beside the detail list
 - From a share URL: opens the **year detail list**, then finds the item **by label within that year**. Opens the item panel only on match; **no item panel if not found**
 
-#### Short share links (xid) and xnative_link_map.json
+#### Short share links (gh + t) and per-author xnative_link_map.json
 
-Use **`xid`** (alias `xnativeId`) instead of a long query string.
+Prefer **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of a long query string.
 
-1. Example: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1910&itemLabel=…`
-2. On startup the app loads **`xnative_link_map.json`** from GitHub repo **`hortense667/xnative`** (`main`)
-3. Short `xid` (e.g. `jimbocho03-y1910`) expands to **`y`**; **`itemLabel`** is kept from the URL
+1. Example: `https://xnative.netlify.app/xnative051.html?gh=hortense667&t=jimbocho03-y1910&lk=…`
+2. On startup the app loads **`xnative_link_map.json`** from **`{gh}/xnative-timeline`** (`main`)
+3. Short `t` (e.g. `jimbocho03-y1910`) expands to **`y`** and file settings; **`lk`** is kept from the URL
 4. After load, the app finds the item by label in that year; opens the item panel only if found
 
-**Maintainers** — register entries in repo-root `xnative_link_map.json`:
+**Authors** — create a GitHub repo named **`xnative-timeline`**, put `xnative_link_map.json` at the repo root, and use short keys (e.g. `jimbocho03`, `ai02`):
 
 ```json
 "jimbocho03": {
@@ -869,17 +894,17 @@ Use **`xid`** (alias `xnativeId`) instead of a long query string.
 
 **`params` format**:
 - Standard query string without leading `?`; **join multiple parameters with `&`**
-- Example: `filePath=timeline_jimbocho_02.json&owner=hortense667&repo=xnative&refFilePaths=timeline_background_02.json&refTimelines=%5B%7B...%7D%5D`
+- Omit `owner` to use `gh`; omit `repo` to use **`xnative-timeline`**
 - URL-encode JSON values once (e.g. `refTimelines`)
 
-| Pattern | Map key | Share URL | Behavior |
-|---------|---------|-----------|----------|
-| Timeline base | `jimbocho03` | `?xid=jimbocho03-y1910&itemLabel=…` | Common settings in `params`; **`y` appended** from `-y{year}` suffix; label in `itemLabel` |
-| Full entry | custom id | `?xid=my-custom-id` | Entire query including `y` / `itemLabel` in `params` |
+| Pattern | Share URL | Behavior |
+|---------|-----------|----------|
+| Preferred | `?gh=alice&t=jimbocho03-y1910&lk=…` | Author map in `alice/xnative-timeline`; **`y` from `-y{year}`** |
+| Legacy (unsupported) | `?xid=jimbocho03-y1910&lk=…` | No longer supported |
 
-**Timeline metadata (optional)**: `xHashtag`, `xLinkId`, `shareBaseUrl` — see Japanese section above in this guide.
+**Timeline metadata (optional)**: `xHashtag`, `xLinkId` (must match map key), `shareBaseUrl` (if omitted, current page origin+pathname is used) — see Japanese section above.
 
-Push changes to **`hortense667/xnative` `main`** after editing the map file.
+Push the map to your **`xnative-timeline` `main`** branch.
 
 #### Web preview (globe icon)
 
@@ -945,6 +970,7 @@ Place `_embed.json` next to the timeline JSON to load it automatically.
 **Basic Operations**:
 - Edit, add, delete items in addition to viewer operations
 - Export CSV when saving without an access token
+  - Filename: `xnative_changes_{owner}_{repo}_{timeline}_{YYYYMMDD-HHMMSS}_{count}items.csv`
 - Provide exported data to administrator
 
 **Limitations**:
@@ -1018,6 +1044,26 @@ Google Sheets (GAS) data source is currently unsupported. After migration, use L
   - Always get latest data with “Reload” before editing
   - Always reflect changes with “Save/Delete/Close (reorder)” after editing
    - Take backup with "Snapshot Save" before editing
+
+#### LocalStorage Capacity Maintenance (Cloudflare/Netlify)
+
+In long-running browser usage, old timeline namespaces may remain in `localStorage`. In rare cases this can trigger `QuotaExceededError` and impact editing operations.
+
+- Check usage in DevTools Console:
+  - `inspectXnativeStorageUsage()`
+  - `listXnativeNamespaces()`
+- Preview removable old namespaces (no deletion):
+  - `cleanupOldXnativeNamespaces()`
+- Remove old namespaces:
+  - `cleanupOldXnativeNamespaces({ dryRun: false, confirmToken: "DELETE" })`
+- If needed, preview/remove large keys:
+  - Preview: `cleanupLargestXnativeKeys({ topN: 10, minKiB: 256 })`
+  - Remove: `cleanupLargestXnativeKeys({ dryRun: false, confirmToken: "DELETE", topN: 10, minKiB: 256 })`
+
+Operational guideline:
+- This is not a mandatory periodic task in normal use.
+- Run it when editing fails to open, save becomes unstable, or `QuotaExceededError` appears.
+- After cleanup, verify with `inspectXnativeStorageUsage()`.
 
 #### Publication Policy
 

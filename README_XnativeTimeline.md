@@ -5,7 +5,7 @@ This document includes both a Japanese and an English version. The English versi
 
 ## 日本語版
 
-このリポジトリは **XnativeTimeline 用のデータ**（JSON）のみを収録しています。アプリ本体のコードは別管理です。関連ソフトウェアであるJSONのファイル変換ツールのJavaScriptは収録しています。X 投稿用の短縮リンク定義 **`xnative_link_map.json`** も本リポジトリ直下に含みます（`?xid=...` の解決先）。
+このリポジトリは **XnativeTimeline 用のデータ**（JSON）のみを収録しています。アプリ本体のコードは別管理です。関連ソフトウェアであるJSONのファイル変換ツールのJavaScriptは収録しています。短縮リンクは作者ごとの **`xnative-timeline`** リポジトリにある **`xnative_link_map.json`**（`?gh=...&t=...`）を使います（旧 `?xid=...` は廃止）。
 
 ### 最初に（おすすめの始め方）
 - まずは「既にある年表を体験したい」人は、メイン年表に GitHub JSON を使うのが簡単です（owner/repo/filePath をURLで指定）。
@@ -107,10 +107,10 @@ This document includes both a Japanese and an English version. The English versi
 - 検索ボックスに「*」を入力すると、選択されている分野のすべての項目を表示
 
 #### X コメント連動（詳細一覧）
-- **𝕏** … X 投稿画面（定型文＋ハッシュタグ＋`xid` 短縮 URL）
+- **𝕏** … X 投稿画面（定型文＋ハッシュタグ＋`gh`/`t` 短縮 URL）
 - **🔍** … X で当該項目のコメントを検索・一覧（新しいタブ）
 - **ラベルクリック** … 注釈と URL 一覧の項目詳細パネル
-- **`?xid=...`** … `xnative_link_map.json` で本パラメータに展開して起動（[ユーザーガイド](users_guide.md) 参照）
+- **`?gh=...&t=...`** … 作者の `xnative-timeline` 上のマップで展開して起動（`?xid=...` は非対応。[ユーザーガイド](users_guide.md)）
 
 #### スマホ・タッチ向け（閲覧中心）
 - 768px 以下またはタッチ端末でヘッダーをコンパクト化（検索＋≡メニュー）
@@ -158,6 +158,7 @@ This document includes both a Japanese and an English version. The English versi
 - **編集の反映（GitHub JSON）**:
   - アクセストークンあり: 「保存」「削除」「閉じる（並び替え）」でGitHubのJSONに反映
   - アクセストークンなし: 変更内容はCSVとして書き出し（GitHubには反映されません）
+    - 出力名: `xnative_changes_{owner}_{repo}_{timeline}_{YYYYMMDD-HHMMSS}_{件数}items.csv`
 - **参照年表**: 複数の年表データを同時に表示・比較（読み取り専用）
   - GitHub raw から取得（設定済みのアクセストークンがある場合、取得失敗時は GitHub API へフォールバック）
   - 参照年表のみ短時間キャッシュ（同一セッション内・最大約15分）。メイン年表の最新取得には影響しません
@@ -237,20 +238,21 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
 
 メイン年表の種別に応じて、不要なパラメーター（GitHub系/Local系/旧Sheets系）はURLから自動的に取り除かれます（設定→「設定を保存」時に付与/整理）。
 
-#### 短縮共有リンク（xid）
+#### 短縮共有リンク（gh + t）
 
-長い URL の代わりに **`xid`**（別名 `xnativeId`）1 パラメータで年表を開けます。
+長い URL の代わりに **`gh`（GitHub ID）** と **`t`（短い年表キー）** で年表を開けます。
 
-- 例: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1949i1`
-- 起動時に **`hortense667/xnative`** リポジトリの **`xnative_link_map.json`**（`main`）を参照し、`xid` を本来のクエリ文字列（`filePath=...&y=...&i=...` 等）に展開してから読み込みます
-- マップファイルは本リポジトリ直下に同梱。変更後は GitHub へ push が必要です
+- 例: `https://xnative.netlify.app/xnative051.html?gh=hortense667&t=jimbocho03-y1910&lk=…`
+- 起動時に **`{gh}/xnative-timeline`** の **`xnative_link_map.json`**（`main`）を参照し、展開してから読み込みます
+- 作者は GitHub に **`xnative-timeline`** リポを作り、直下にマップを置きます。年表キーは短く（例: `jimbocho03`）
+- 旧形式 **`?xid=...`** は現在サポートしていません
 
 **`xnative_link_map.json` の `params`**:
-- `&` で連結した通常のクエリ文字列（`?` 不要）。`owner` / `repo` / `filePath` / `refFilePaths` / `refTimelines` / `y` / `i` など **複数指定可**
-- 年表ベース ID（例: `jimbocho03`）＋ 共有 URL `?xid=jimbocho03-y1949i1` 形式なら、`y` / `i` は **自動付与**
-- 項目ごとに固定する場合は、`params` に `y` / `i` まで含めた **別 ID** として登録
+- `&` で連結した通常のクエリ文字列（`?` 不要）
+- `owner` 省略時は `gh`、`repo` 省略時は **`xnative-timeline`**
+- `t=jimbocho03-y1910` 形式なら `y` は **自動付与**
 
-**年表 metadata（任意）**: `xHashtag`, `xLinkId`, `shareBaseUrl` — 詳細は [ユーザーガイド](users_guide.md) の「短縮共有リンク（xid）」を参照。
+**年表 metadata（任意）**: `xHashtag`, `xLinkId`（マップのキーと揃える）, `shareBaseUrl`。`shareBaseUrl` 未設定時は現在開いているページのURL（origin + pathname）が使われます。詳細は [ユーザーガイド](users_guide.md) を参照。
 
 #### 補足：Google Sheets → GitHub JSON への移行
 Google Sheetsで運用していた年表を、GitHub上で管理・共同編集できるJSON（アプリのGitHubデータ形式）へ変換するために、`sheet_to_json_coverter.html` を同梱しています。
@@ -308,7 +310,7 @@ Use these labels:
 
 ## English Version
 
-This repository contains only **data (JSON) for XnativeTimeline**. The application code is managed separately. JavaScript utilities for converting JSON/TSV/Sheets data are included. Short-link definitions for X posts are in **`xnative_link_map.json`** at the repo root (resolves `?xid=...`).
+This repository contains only **data (JSON) for XnativeTimeline**. The application code is managed separately. JavaScript utilities for converting JSON/TSV/Sheets data are included. Short links use each author's `xnative-timeline` map (`xnative_link_map.json`) with `?gh=...&t=...` (legacy `?xid=...` is no longer supported).
 
 ### First Steps (recommended)
 - Want to try existing timelines? Use the main timeline from GitHub JSON (specify owner/repo/filePath via URL).
@@ -374,7 +376,7 @@ https://youtu.be/Ymsez9vMJa4
 - Filter by genre and importance.
 - Hover blue search hits to open web preview (if URL set); click for note popup; double-click to open edit modal (edit mode only).
 - Detail list: **𝕏** (post to X), **🔍** (X search in new tab), clickable label (note + URLs panel), **🌐** preview. Pencil/trash **hidden** unless `?editmode=ON`.
-- Short links: `?xid=...` resolved via `xnative_link_map.json` on `hortense667/xnative`.
+- Short links: `?gh=...&t=...` via author `xnative-timeline` map (`?xid=...` is not supported).
 - Mobile/touch: compact header (search + ≡), bottom sheets for panels, tap instead of hover for 🌐 preview; PC editing recommended.
 
 #### Web preview (globe icon)
@@ -414,6 +416,7 @@ https://youtu.be/Ymsez9vMJa4
 - **Apply edits (GitHub JSON)**:
   - With access token: “Save”, “Delete”, “Close (reorder)” update GitHub JSON.
   - Without token: changes are exported as CSV (not reflected to GitHub).
+    - Filename: `xnative_changes_{owner}_{repo}_{timeline}_{YYYYMMDD-HHMMSS}_{count}items.csv`
 - **Reference timelines**: multiple timelines shown/read-only.
 - **Snapshot**: Save/restore state (data, speech bubbles, settings, open web preview panels) for easy personal timeline creation.
 - **Amazon images**: Append an image URL after `&` on an Amazon URL to show a cover image in web preview.
@@ -463,15 +466,16 @@ Distributed system: manage your data in your own repo. See [User Guide](users_gu
   - `snapshotURL` / `snapshotUrl` / `data` are deprecated  
 Unneeded params for the chosen main data source are stripped automatically when saving settings.
 
-#### Short share links (xid)
+#### Short share links (gh + t)
 
-Use **`xid`** (or `xnativeId`) instead of long URLs.
+Use **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of long URLs.
 
-- Example: `https://xnative.netlify.app/xnative051.html?xid=jimbocho03-y1949i1`
-- Resolves via **`xnative_link_map.json`** in **`hortense667/xnative`** (`main`) into full query params before load
-- Map file lives in this repo root; push to GitHub after edits
+- Example: `https://xnative.netlify.app/xnative051.html?gh=hortense667&t=jimbocho03-y1910&lk=…`
+- Resolves via **`xnative_link_map.json`** in **`{gh}/xnative-timeline`** (`main`)
+- Authors create a repo named **`xnative-timeline`** and place the map at the root; keep timeline keys short
+- Legacy **`?xid=...`** is no longer supported
 
-**`params` in the map**: `&`-joined query string (no leading `?`); supports `filePath`, `owner`, `repo`, `refFilePaths`, `refTimelines`, `y`, `i`, etc. Timeline-base keys (e.g. `jimbocho03`) plus `?xid=jimbocho03-y1949i1` auto-append `y` / `i`. Optional timeline metadata: `xHashtag`, `xLinkId`, `shareBaseUrl`. See [users_guide.md](users_guide.md).
+**`params` in the map**: `&`-joined query string (no leading `?`); omit `owner` to use `gh`, omit `repo` to use **`xnative-timeline`**. `t=jimbocho03-y1910` auto-appends `y`. Optional metadata: `xHashtag`, `xLinkId`, `shareBaseUrl` (if omitted, current page origin+pathname is used). See [users_guide.md](users_guide.md).
 
 ### About Google Sheets support
 Google Sheets (GAS) data source is currently unsupported.
