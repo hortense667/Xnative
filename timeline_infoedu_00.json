@@ -1,4 +1,34 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "日本の情報教育年表",
+      "en": "Chronology of Information Education in Japan"
+    },
+    "description": {
+      "ja": "日本における大学、専門学校、高校、中学校、小学校の情報教育に関する年表",
+      "en": "Timeline of Information Education in Japanese Universities, Vocational Schools, High Schools, Junior High Schools, and Elementary Schools"
+    },
+    "initialCreator": "TAKAHASHI Naoko",
+    "contributors": [
+      "TAKAHASHI Naoko"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2026-06-09",
+    "version": "0.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2026 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "This is a tutorial sample. Replace title, genres, and events with your own topic when creating a new timeline."
+  },
   "events": {
     "1960": [
       {
@@ -157,7 +187,6 @@
     "1997": [
       {
         "label": "大学入試：センター試験に「情報関係基礎」が設置される",
-        "label_en": "Information-related Fundamentals is introduced in the National Center Test",
         "startYear": "1997",
         "genre": [
           "EXAM",
@@ -167,8 +196,9 @@
         "imp": 4,
         "url": "https://sites.google.com/a.ipsj.or.jp/ipsjjn/resources/JHK",
         "note": "大学入試センター試験に「情報関係基礎」が設置され、主に専門学科高校の履修内容を背景にした出題が行われる。",
+        "label_en": "Information-related Fundamentals is introduced in the National Center Test",
         "note_en": "Information-related Fundamentals was introduced in the National Center Test, mainly reflecting specialized high school curricula.",
-        "timeLabel": "1997年"
+        "_rev": "1783950719713-pfsld1iu"
       }
     ],
     "1998": [
@@ -497,35 +527,5 @@
       "label_en": "Japan",
       "conjunction": true
     }
-  ],
-  "metadata": {
-    "title": {
-      "ja": "日本の情報教育年表",
-      "en": "Chronology of Information Education in Japan"
-    },
-    "description": {
-      "ja": "日本における大学、専門学校、高校、中学校、小学校の情報教育に関する年表",
-      "en": "Timeline of Information Education in Japanese Universities, Vocational Schools, High Schools, Junior High Schools, and Elementary Schools"
-    },
-    "initialCreator": "TAKAHASHI Naoko",
-    "contributors": [
-      "TAKAHASHI Naoko"
-    ],
-    "contact": {
-      "administrator": {
-        "name": "Satoshi Endo",
-        "x": "https://x.com/hortense667"
-      }
-    },
-    "createdAt": "2026-06-09",
-    "version": "0.0",
-    "language": [
-      "ja",
-      "en"
-    ],
-    "copyright": "© 2026 Satoshi Endo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "This is a tutorial sample. Replace title, genres, and events with your own topic when creating a new timeline."
-  }
+  ]
 }
