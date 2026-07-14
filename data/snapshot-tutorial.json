@@ -29,7 +29,7 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
-    "timestamp": "2026-06-09T06:21:04.398Z",
+    "timestamp": "2026-07-14T16:51:11.509Z",
     "githubConfig": {
       "accessToken": "",
       "owner": "hortense667",
@@ -51,7 +51,8 @@
           "filePath": "timeline_background_02.json",
           "minImportance": 5
         }
-      ]
+      ],
+      "rememberAccessToken": true
     },
     "appTitle": "ポップカルチャー 0.1",
     "appTitleEn": "Pop culture Timeline 0.1",
@@ -14777,7 +14778,7 @@
     }
   },
   "viewportState": {
-    "scrollTop": 42500,
+    "scrollTop": 42688.890625,
     "scrollLeft": 0
   },
   "searchState": {
@@ -14845,12 +14846,12 @@
     },
     {
       "id": 4,
-      "x": 802,
-      "y": 43293,
+      "x": 805,
+      "y": 43257,
       "width": 509,
       "pointerX": 400,
       "pointerY": 43336,
-      "text": "●左側の年表の文字部分にマウスオーバーするとその年の一覧が表示、トピックをクリックすると詳細一覧になります。\n詳細一覧では、\n１）表示順の変更\n２）時代区分への登録（テレビ番組など期間のあるもの）\n３）登録されたURLを開く（マウスオーバーで開きます）\n４）内容を編集する\nといったことができます。\n※詳細一覧や編集画面はESCキーやほかのエリアをクリックすることで消えます。",
+      "text": "●左側の年表の文字部分にマウスオーバーするとその年の一覧が表示、トピックをクリックすると詳細一覧になります。\n詳細一覧では、\n１）表示順の変更\n２）時代区分への登録（テレビ番組など期間のあるもの）\n３）登録されたURLを開く（マウスオーバーまたはクリックで開きます）。Wikipdeia以外のページは通常クリックが必要ですが、先頭に#を付けたURLはマウスオーバーでWebプレビューされます。先頭に@を付けた画像URLも同じようにWebプレビューされます。\n４）内容を編集する\nといったことができます。\n※詳細一覧や編集画面はESCキーやほかのエリアをクリックすることで消えます。\n",
       "isEditing": false,
       "style": {
         "backgroundColor": "#ffebee",
