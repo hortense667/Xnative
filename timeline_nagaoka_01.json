@@ -1048,19 +1048,6 @@
     ],
     "1950": [
       {
-        "label": "山下清が貼絵「長岡の花火」を発表する",
-        "startYear": 1950,
-        "genre": [
-          "HISTORY_SOCIETY",
-          "CULTURE_MEDIA",
-          "FESTIVAL_LEISURE"
-        ],
-        "imp": 5,
-        "url": "https://nagaokamatsuri.com/history/",
-        "note": "長岡花火を題材にした山下清の代表作の一つが発表された。",
-        "url_en": "https://nagaokamatsuri.com/history/"
-      },
-      {
         "label": "新潟県産業博覧会が長岡で開催される",
         "startYear": 1950,
         "genre": [
@@ -1072,6 +1059,19 @@
         "url": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf",
         "note": "戦後復興期の産業・商品・技術を市民に示す大規模催事で、街に多くの見物客を集めた。",
         "url_en": "https://www.city.nagaoka.niigata.jp/dpage/nagaoka400/pdf/ayumi-full.pdf"
+      },
+      {
+        "label": "山下清が貼絵「長岡の花火」を発表する",
+        "startYear": "1950",
+        "genre": [
+          "HISTORY_SOCIETY",
+          "CULTURE_MEDIA",
+          "FESTIVAL_LEISURE"
+        ],
+        "imp": 5,
+        "url": "@https://gigaplus.makeshop.jp/nagaokachet/category/ct18/ct18_pic.png",
+        "note": "長岡花火を題材にした山下清の代表作の一つが発表された。その後、大和デパートで山下清展が開催されることがあり、この年表の作者は長岡花火のはがきにサインをいただきました。後で知ったのですが、そのとき山下さんは私が通っていた北中学校を訪問したらしく特殊学級にサインが飾られていました。",
+        "_rev": "1784008939787-lzaw813r"
       }
     ],
     "1951": [
