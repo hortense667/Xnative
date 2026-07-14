@@ -76,7 +76,7 @@ This document includes both a Japanese and an English version. The English versi
 
 - サンプル
 　https://xnative.pages.dev/?editmode=ON&snapshot=snapshot-tutorial.json
-  - ※ `snapshot` は GitHub の `owner/repo` の `main/data/` から読み込みます（Cloudflare/Netlify の配置先ではありません）。
+  - ※ GitHub JSONデータソースでは、`snapshot` は GitHub の `owner/repo` の `main/data/` から読み込みます（Cloudflare/Netlify の配置先ではありません）。ローカルJSONデータソースではURL指定のスナップショット復元はできません。
 
 
 #### 年表の表示と操作
@@ -101,7 +101,7 @@ This document includes both a Japanese and an English version. The English versi
 - 検索ボックスでラベルやジャンルを検索
 - ジャンル選択で表示項目を絞り込み
 - 重要度別のフィルター機能
-- `webLinkBehavior=hover`（既定）では、検索結果の青い項目にマウスオーバーでウェブプレビューを開く（URLが設定されている場合）。`open_tab` ではクリックで新しいタブを開く
+- `webLinkBehavior` 未指定時は、Wikipedia URL・`#https://...` はホバーでウェブプレビュー、`@https://...` は画像プレビュー、それ以外はクリックで新しいタブを開く。`open_tab` はすべてクリックで新しいタブを開く
 - 検索結果の青い項目をクリックで注釈をポップアップ表示
 - 検索結果の青い項目をダブルクリックで編集モーダルを開く（editmode=ON の場合のみ）
 - 検索ボックスに「*」を入力すると、選択されている分野のすべての項目を表示
@@ -120,12 +120,14 @@ This document includes both a Japanese and an English version. The English versi
 
 #### ウェブプレビュー（地球マーク）
 - 詳細一覧の地球マーク、または検索結果の青い項目にマウスオーバー（約1秒）／地球マークをクリックで固定
+- metadata 未指定時: Wikipedia URL・`#https://...` は **🌐** でプレビュー、`@https://...` は **🌐** で画像プレビュー、それ以外は **↗️** でクリック時に新しいタブ
 - 年表 metadata の `webLinkBehavior` で挙動を切替可能
-  - `hover`（既定）: **🌐**、ホバーでプレビュー
+  - `hover`: **🌐**、ホバーでプレビュー
   - `open_tab`: **↗️**、ホバーなし、クリックで新しいタブ
+- **↗️ の検査**: ↗️ のアイコンまたは検索結果を **Shift+クリック**すると、新しいタブを開かずに🌐クリックと同じ固定プレビューを表示。`#` 接頭辞を付けるべきか確認できます
 - **埋め込み可**（Wikipedia 等）: パネル内 iframe で表示
 - **埋め込み不可**（nippon.com、note.com、多くの公式サイト等）: ぼかし背景＋「新しいタブで開きますか？」と **「はい」** ボタン。ヘッダーの「新しいタブとして開く」も利用可
-- **Amazon**: `URL&画像URL` 形式で表紙画像とリンク案内（iframe なし）
+- **画像URL**: `@https://example.com/image.png` 形式で画像プレビュー（Amazon専用の `URL&画像URL` 形式は廃止）
 - 事前判定: 年表 JSON の `metadata.embedBlocklist` または `timeline_xxx_embed.json`（`tools/check-embed-urls.mjs` で生成）を読み込み、リスト載り URL は iframe を試さず案内表示
 - リストが無い URL は iframe 試行後、失敗時に同案内へフォールバック
 
@@ -166,7 +168,7 @@ This document includes both a Japanese and an English version. The English versi
   - GitHub raw から取得（設定済みのアクセストークンがある場合、取得失敗時は GitHub API へフォールバック）
   - 参照年表のみ短時間キャッシュ（同一セッション内・最大約15分）。メイン年表の最新取得には影響しません
 - **スナップショット**: 現在の状態（データ、フキダシ、設定、開いているウェブ画面パネル）を保存・復元。気軽に自分の年表を作り始めることができます
-- **Amazon画像表示**: AmazonのURLの後に「&」を付けて画像URLを追加することで、ウェブ画面に表紙画像が表示されます
+- **画像表示**: 画像URLの先頭に `@` を付けると、ウェブプレビュー内に画像が表示されます
 
 ### 埋め込み不可 URL の事前チェック（年表作者向け）
 
@@ -231,10 +233,10 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
   - 参照年表を多数まとめて読み込むと GitHub のレート制限（HTTP 429）に当たることがあります。設定にアクセストークンを入れると API フォールバックが有効になります。参照年表の本数を減らすことも有効です
 
 - スナップショット復元（GitHub data フォルダ）
-  - `snapshot` または `snapshotpath` に JSON ファイル名（`data/` 相対）を指定
+  - GitHub JSONデータソースで、`snapshot` または `snapshotpath` に JSON ファイル名（`data/` 相対）を指定
   - 既定の取得先: メイン年表と同じ `owner/repo`
   - 別リポジトリ指定: `snapshotowner`, `snapshotrepo`
-  - Cloudflare Pages / Netlify に同名ファイルを置いても参照されません（`main/data/` が参照先）
+  - Cloudflare Pages / Netlify に同名ファイルを置いても参照されません（GitHubの `main/data/` が参照先）
   - 例（同一リポジトリ）: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json&snapshot=snapshot-tutorial.json`
   - 例（別リポジトリ）: `?datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json&snapshotowner=foo&snapshotrepo=bar&snapshotpath=snapshots/demo.json`
   - `snapshotURL` / `snapshotUrl` / `data` は廃止
@@ -255,7 +257,7 @@ GitHubアカウントを持つユーザーが自分のリポジトリで年表�
 - `owner` 省略時は `gh`、`repo` 省略時は **`xnative-timeline`**
 - `t=jimbocho03-y1910` 形式なら `y` は **自動付与**
 
-**年表 metadata（任意）**: `xHashtag`, `xLinkId`（マップのキーと揃える）, `shareBaseUrl`, `webLinkBehavior`。`shareBaseUrl` 未設定時は現在開いているページのURL（origin + pathname）が使われます。`webLinkBehavior` は `hover`（既定）/`open_tab`。詳細は [ユーザーガイド](users_guide.md) を参照。
+**年表 metadata（任意）**: `xHashtag`, `xLinkId`（マップのキーと揃える）, `shareBaseUrl`, `webLinkBehavior`。`shareBaseUrl` 未設定時は現在開いているページのURL（origin + pathname）が使われます。`webLinkBehavior: open_tab` はすべてのURLを新しいタブで開きます。詳細は [ユーザーガイド](users_guide.md) を参照。
 
 #### 補足：Google Sheets → GitHub JSON への移行
 Google Sheetsで運用していた年表を、GitHub上で管理・共同編集できるJSON（アプリのGitHubデータ形式）へ変換するために、`sheet_to_json_coverter.html` を同梱しています。
@@ -377,19 +379,21 @@ https://youtu.be/Ymsez9vMJa4
 #### Search & filter
 - Search box for labels/genres; `*` shows all in selected fields.
 - Filter by genre and importance.
-- In `webLinkBehavior=hover` (default), hover blue search hits to open web preview (if URL set); click for note popup; double-click to open edit modal (edit mode only). In `open_tab`, click opens a new tab.
+- Without `webLinkBehavior`, Wikipedia and `#https://...` URLs preview on hover, `@https://...` URLs preview as images, and other URLs open in a new tab on click. `open_tab` makes every URL open in a new tab.
 - Detail list: **𝕏** (post to X), **🔍** (X search in new tab), clickable label (note + URLs panel), **🌐** preview. Pencil/trash **hidden** unless `?editmode=ON`.
-- Short links: `?gh=...&t=...` via author `xnative-timeline` map (`?xid=...` is not supported).
+- Short links: `?gh=...&t=...` via author `xnative-timeline` map (legacy `?xid=...` remains supported during transition).
 - Mobile/touch: compact header (search + ≡), bottom sheets for panels, tap instead of hover for 🌐 preview; PC editing recommended.
 
 #### Web preview (globe icon)
 - Hover (~1 s) or click the globe icon in the detail list; same for blue search hits
+- Without metadata: Wikipedia and `#https://...` use **🌐** preview, `@https://...` uses **🌐** image preview, and other URLs use **↗️** to open a new tab.
 - Per-timeline behavior can be switched via metadata `webLinkBehavior`
-  - `hover` (default): **🌐**, hover preview
+  - `hover`: **🌐**, hover preview
   - `open_tab`: **↗️**, no hover preview, click opens a new tab
+- **Inspecting ↗️ URLs**: Shift+click a ↗️ icon or search result to show the same pinned preview as 🌐 without opening a new tab. This helps decide whether to prefix the URL with `#`.
 - **Embeddable** (e.g. Wikipedia): shown in panel iframe
 - **Non-embeddable** (many official/commercial sites, note.com, etc.): blurred background + “Open in a new tab?” with **Yes** button; header **Open in New Tab** also works
-- **Amazon**: cover via `URL&imageURL`; no iframe
+- **Images**: preview with `@https://example.com/image.png`; the Amazon-specific `URL&imageURL` format is removed
 - Pre-check: loads `metadata.embedBlocklist` and optional `timeline_xxx_embed.json` (from `tools/check-embed-urls.mjs`); listed URLs skip iframe
 - Unlisted URLs try iframe first, then fall back to the same message
 
@@ -425,7 +429,7 @@ https://youtu.be/Ymsez9vMJa4
     - Filename: `xnative_changes_{owner}_{repo}_{timeline}_{YYYYMMDD-HHMMSS}_{count}items.csv`
 - **Reference timelines**: multiple timelines shown/read-only.
 - **Snapshot**: Save/restore state (data, speech bubbles, settings, open web preview panels) for easy personal timeline creation.
-- **Amazon images**: Append an image URL after `&` on an Amazon URL to show a cover image in web preview.
+- **Images**: Prefix an image URL with `@` to show it in web preview.
 
 ### Embed-block pre-check (for timeline authors)
 
@@ -481,7 +485,7 @@ Use **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of long URLs.
 - Authors create a repo named **`xnative-timeline`** and place the map at the root; keep timeline keys short
 - Legacy **`?xid=...`** is no longer supported
 
-**`params` in the map**: `&`-joined query string (no leading `?`); omit `owner` to use `gh`, omit `repo` to use **`xnative-timeline`**. `t=jimbocho03-y1910` auto-appends `y`. Optional metadata: `xHashtag`, `xLinkId`, `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`hover`/`open_tab`). See [users_guide.md](users_guide.md).
+**`params` in the map**: `&`-joined query string (no leading `?`); omit `owner` to use `gh`, omit `repo` to use **`xnative-timeline`**. `t=jimbocho03-y1910` auto-appends `y`. Optional metadata: `xHashtag`, `xLinkId`, `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`open_tab` opens every URL in a new tab). See [users_guide.md](users_guide.md).
 
 ### About Google Sheets support
 Google Sheets (GAS) data source is currently unsupported.

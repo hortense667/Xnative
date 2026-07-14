@@ -39,9 +39,10 @@
 - スナップショット保存/復元に対応（位置・テキスト・スタイル・先端座標）
 - 復元後、GitHubが新しければ反映をブロックする仕組みに準拠
 - 開いているウェブ画面パネルも保存・復元されます（位置、表示中のURL、言語設定など）
-- URLから復元する場合は `?snapshot=xxx.json` または `?snapshotpath=xxx.json` を使用
-- 取得先は `data/` フォルダ。既定はメイン年表と同じリポジトリ（`owner/repo`）
-- 別リポジトリから読む場合は `snapshotowner` / `snapshotrepo` を指定
+- **ローカルJSONデータソース**: 「スナップショット保存」はPCへJSONをダウンロードし、「スナップショット復元」はPCからJSONを選択します。`?snapshot=...` / `?snapshotpath=...` によるURL復元はできません。
+- **GitHub JSONデータソース**: 「スナップショット保存」は同じ `owner/repo` の `data/` フォルダへ保存し、「スナップショット復元」は同フォルダの一覧から選んで復元します。保存には対象リポジトリへの書き込み権限を持つアクセストークンが必要です。
+- GitHub JSONでURLから復元する場合は `?snapshot=xxx.json` または `?snapshotpath=xxx.json` を使用します。取得先は `data/` フォルダで、既定はメイン年表と同じリポジトリ（`owner/repo`）です。
+- 別リポジトリからURL復元する場合は `snapshotowner` / `snapshotrepo` を指定します。
 - `snapshotURL` / `snapshotUrl` / `data` パラメータは廃止
 
 #### 画像表示機能
@@ -135,8 +136,8 @@
 - ローカルだけで保持したい場合は、データソースを「ローカルJSON（PC上）」に設定
 
 **ウェブ画面の表示**:
-- `webLinkBehavior=hover`（既定）の場合、詳細一覧の「地球」マークや検索結果の青い項目にマウスオーバーすると、URLが設定されていればウェブプレビューパネルが開きます（詳細は下記「ウェブプレビュー（地球マーク）」参照）。`open_tab` の場合はホバーせずクリックで新しいタブを開きます。
-- AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
+- `webLinkBehavior` が未指定なら、Wikipedia URL・先頭が `#` のURL・先頭が `@` の画像URLは 🌐 でプレビューし、それ以外は ↗️ で新しいタブを開きます。
+- `webLinkBehavior=open_tab` を指定すると、すべてのURLが ↗️ になり、ホバーせずクリックで新しいタブを開きます。
 - 検索結果の青い項目は、ダブルクリックで編集画面（編集モードON時）を開けます
 
 #### 2. いまある年表の編集に参加する人（コラボレーター）
@@ -447,7 +448,7 @@ GitHub年表データのJSONは以下の構造です：
 - 注釈（日本語/英語）も検索対象に含めて検索可能
 
 **検索結果の操作**:
-- `webLinkBehavior=hover` では、検索結果として表示される青い項目にマウスオーバーすると、URLが設定されていれば詳細一覧の地球マークと同じウェブプレビューが開きます。`open_tab` ではクリックで新しいタブを開きます。
+- 詳細一覧と同じURL規則です。🌐 のURLはマウスオーバーでプレビュー、↗️ のURLはクリックで新しいタブを開きます。
 - 検索結果の青い項目をクリックすると、その項目の注釈がポップアップ表示されます（英語モードのときは英語の注釈、日本語モードのときは日本語の注釈を表示）
 - 再度クリックするか、マウスが項目から外れると注釈ポップアップが閉じます
 
@@ -570,24 +571,25 @@ X 投稿などで URL を短くするため、**GitHub ID（`gh`）** と **短�
 | `xHashtag` | `"Jimbocho03"` | X 検索用の補助タグ（共有投稿本文の既定ハッシュタグは `#XnativeTimeline`） |
 | `xLinkId` | `"jimbocho03"` | 年表キー（`t` のベース。`xnative_link_map.json` のキーと揃える） |
 | `shareBaseUrl` | `"https://xnative.netlify.app/xnative051.html"` | X 投稿に載せる短縮リンクのベース URL（未設定時は現在開いているページの origin+pathname） |
-| `webLinkBehavior` | `"open_tab"` | ウェブ表示モード。`hover`（既定: 🌐/ホバーでプレビュー）または `open_tab`（↗️/クリックで新しいタブ） |
+| `webLinkBehavior` | `"open_tab"` | ウェブ表示モード。`open_tab` はすべて ↗️/クリックで新しいタブ。`hover` を明示すると従来どおり 🌐/ホバープレビュー。未指定時は下記URL規則。 |
 
 投稿時の識別子例: コメント `#XnativeTimeline`、修正の提案 `#XnativeTimeline #EditReq`、追加の提案 `#XnativeTimeline #AddReq`（提案系タグは「Xにコメントを投稿」から開いた画面で手動追加）。項目は **ラベル** と共有 **URL**（年＋ラベルをエンコード）で特定します。同一年内でラベルが重複する場合は先頭の項目に一致します。
 
 **運用**: 作者は自分の **`xnative-timeline`** リポの `main` に `xnative_link_map.json` を push してください。アプリは raw.githubusercontent.com から取得します。
 
 **ウェブ画面の表示**:
-- `webLinkBehavior=hover`（既定）では、各項目の地球マーク（🌐）にマウスオーバー（スマホではタップ）するとウェブプレビューパネルが開きます
-- `webLinkBehavior=open_tab` では、アイコンが ↗️ になり、ホバーは無効でクリック時に新しいタブで開きます
-- AmazonのURLの場合、URLの後に「&」を付けて画像URLを追加することで、表紙画像が表示されます
-  - 例：`https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
-- 検索結果の青い項目も同様に、`hover` ではホバープレビュー、`open_tab` ではクリックで新しいタブになります
+- `webLinkBehavior=open_tab` では、すべてのアイコンが ↗️ になり、クリック時に新しいタブで開きます
+- `webLinkBehavior` 未指定時は、Wikipedia URL と先頭が `#` のURLは 🌐（ホバーでプレビュー）、先頭が `@` の画像URLは 🌐（画像表示）、それ以外は ↗️（クリックで新しいタブ）です
+- `hover` を明示すると、従来どおりすべて 🌐（ホバープレビュー）です
+- Amazon専用の `URL&画像URL` 形式は廃止しました。画像は `@https://example.com/image.png` のように先頭へ `@` を付けて指定します
+- 検索結果の青い項目も同じ規則です
+- **↗️ の検査用プレビュー**: ↗️ のアイコンまたは検索結果を **Shift+クリック**すると、新しいタブを開かず、🌐クリックと同じ固定プレビューを表示します。`#` を付けて常時プレビューにするか判断するために使えます。
 
 #### ウェブプレビュー（地球マーク）
 
 **開き方**:
 - `hover` モード: 詳細一覧の地球マーク（🌐）、または検索結果の青い項目にマウスオーバー（約1秒）でプレビューパネルを表示。地球マーククリックで固定
-- `open_tab` モード: 詳細一覧の ↗️ と検索結果クリックで新しいタブを開く（プレビューパネルは使わない）
+- `open_tab` モード: 詳細一覧の ↗️ と検索結果クリックで新しいタブを開く。例外として **Shift+クリック**は固定プレビューを表示します
 - パネル上部の「新しいタブとして開く」「他のURLに切り替える」「閉じる」が使えます（`| ` 区切りで複数URL、`url` / `url_en` の切替に対応）
 
 **埋め込み可のサイト**（Wikipedia など）:
@@ -600,8 +602,8 @@ X 投稿などで URL を短くするため、**GitHub ID（`gh`）** と **短�
   - **「はい」** ボタン（クリックで新しいタブを開く）
 - ヘッダーの「新しいタブとして開く」ボタンからも同じ URL を開けます
 
-**Amazon URL**:
-- iframe 埋め込みは行わず、表紙画像（`URL&画像URL` 形式）とリンク案内を表示します
+**画像URL**:
+- `@https://example.com/image.png` のように先頭へ `@` を付けると、iframeではなく画像をプレビューパネルに表示します
 
 **判定の仕組み（利用者向けの要点）**:
 - 年表 JSON に埋め込み不可リスト（`metadata.embedBlocklist` または同名の `timeline_xxx_embed.json`）がある場合、地球マークを押した時点で上記の案内を表示します（iframe を試しません）
@@ -843,7 +845,7 @@ Example:
 - Timeline utilization (aligning event years and birth years)
 
 **Search Result Operations**:
-- In `webLinkBehavior=hover` (default), hovering over blue search result items opens a web preview panel (same behavior as the globe icon in the detail list) if the item has a URL. In `open_tab`, click opens a new tab.
+- The same URL rules as the detail list apply: hover previews 🌐 URLs; click opens ↗️ URLs in a new tab.
 - Clicking a blue search result item displays a popup with the item's note (English note in English mode, Japanese note in Japanese mode)
 - Click again or move the mouse away to close the note popup
 
@@ -852,9 +854,10 @@ Example:
 - Importance filter settings are also applied if configured
 
 **Web Preview Panel**:
-- In `webLinkBehavior=hover`, hovering over the globe icon in the detail list or blue search result items opens a web preview panel if the item has a URL (see **Web preview (globe icon)** below). In `open_tab`, click opens a new tab.
-- For Amazon URLs, adding an image URL after "&" displays the cover image
-  - Example: `https://www.amazon.co.jp/dp/XXXXXXXXXX&https://example.com/image.jpg`
+- With no `webLinkBehavior`, Wikipedia URLs and `#https://...` use 🌐 preview, `@https://...` displays an image in 🌐 preview, and other URLs use ↗️ to open a new tab.
+- `webLinkBehavior=open_tab` makes every URL use ↗️ and open in a new tab on click.
+- The Amazon-specific `URL&imageURL` format is removed. Use `@https://example.com/image.png` for images.
+- **Preview an ↗️ URL**: Shift+click its detail-list icon or search result to open the same pinned preview as 🌐, without opening a new tab. Use this to decide whether the URL should be prefixed with `#`.
 
 #### Detail list and X comment integration
 
@@ -904,7 +907,7 @@ Prefer **`gh`** (GitHub ID) + **`t`** (short timeline key) instead of a long que
 | Preferred | `?gh=alice&t=jimbocho03-y1910&lk=…` | Author map in `alice/xnative-timeline`; **`y` from `-y{year}`** |
 | Legacy (unsupported) | `?xid=jimbocho03-y1910&lk=…` | No longer supported |
 
-**Timeline metadata (optional)**: `xHashtag`, `xLinkId` (must match map key), `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`hover` default / `open_tab`) — see Japanese section above.
+**Timeline metadata (optional)**: `xHashtag`, `xLinkId` (must match map key), `shareBaseUrl` (if omitted, current page origin+pathname is used), `webLinkBehavior` (`open_tab` opens every URL in a new tab; omitted uses the URL-prefix rules above) — see Japanese section above.
 
 Push the map to your **`xnative-timeline` `main`** branch.
 
@@ -925,8 +928,8 @@ Push the map to your **`xnative-timeline` `main`** branch.
   - **Yes** button (opens the URL in a new tab)
 - You can also use **Open in New Tab** in the header
 
-**Amazon URLs**:
-- No iframe; shows cover image (`URL&imageURL`) and link guidance
+**Image URLs**:
+- Prefix an image with `@`, such as `@https://example.com/image.png`, to show it directly in the preview panel.
 
 **How blocking is decided**:
 - If the timeline JSON includes `metadata.embedBlocklist` or a companion `timeline_xxx_embed.json`, those URLs skip iframe and show the message immediately
