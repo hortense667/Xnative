@@ -19,7 +19,7 @@
       }
     },
     "createdAt": "2026-06-09",
-    "version": "0.0",
+    "version": "1.0",
     "language": [
       "ja",
       "en"
@@ -28,13 +28,27 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": " ",
-    "webLinkBehavior": "open_tab"
+    "webLinkBehavior": "open_tab",
+    "timestamp": "2026-07-14T03:51:23.231Z",
+    "githubConfig": {
+      "accessToken": "",
+      "rememberAccessToken": true,
+      "owner": "hortense667",
+      "repo": "xnative",
+      "filePath": "timeline_infoedu_00.json",
+      "refFilePaths": "",
+      "localDataMode": false,
+      "localFileName": "",
+      "refTimelines": []
+    },
+    "appTitle": "日本の情報教育年表",
+    "appTitleEn": "Chronology of Information Education in Japan",
+    "currentLang": "ja"
   },
   "events": {
     "1960": [
       {
         "label": "大学：大学に計算機センターが設置され始める",
-        "label_en": "University computing centers begin to be established",
         "startYear": "1960",
         "genre": [
           "UNIV",
@@ -43,9 +57,11 @@
         ],
         "imp": 4,
         "url": "https://www.hpcwire.jp/archives/24461",
-        "note": "大学への電子計算機導入が進み、理工系学部で情報処理・プログラミング教育が導入され、情報工学系学科設置の準備が始まる。",
+        "note": "大学への電子計算機導入が進み、理工系学部で情報処理・プログラミング教育が導入され、情報工学系学科設置の準備が始まる",
+        "label_en": "University computing centers begin to be established",
+        "timeLabel": "1960年代～",
         "note_en": "Electronic computers were introduced into universities, and information processing and programming education began mainly in science and engineering faculties.",
-        "timeLabel": "1960年代～"
+        "_rev": "1784001282933-f3e5hu4s"
       }
     ],
     "1970": [
