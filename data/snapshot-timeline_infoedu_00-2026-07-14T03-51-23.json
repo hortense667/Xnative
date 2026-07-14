@@ -1,0 +1,662 @@
+{
+  "metadata": {
+    "title": {
+      "ja": "日本の情報教育年表",
+      "en": "Chronology of Information Education in Japan"
+    },
+    "description": {
+      "ja": "日本における大学、専門学校、高校、中学校、小学校の情報教育に関する年表",
+      "en": "Timeline of Information Education in Japanese Universities, Vocational Schools, High Schools, Junior High Schools, and Elementary Schools"
+    },
+    "initialCreator": "TAKAHASHI Naoko",
+    "contributors": [
+      "TAKAHASHI Naoko"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2026-06-09",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2026 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": " ",
+    "webLinkBehavior": "open_tab",
+    "timestamp": "2026-07-14T03:51:23.231Z",
+    "githubConfig": {
+      "accessToken": "",
+      "rememberAccessToken": true,
+      "owner": "hortense667",
+      "repo": "xnative",
+      "filePath": "timeline_infoedu_00.json",
+      "refFilePaths": "",
+      "localDataMode": false,
+      "localFileName": "",
+      "refTimelines": []
+    },
+    "appTitle": "日本の情報教育年表",
+    "appTitleEn": "Chronology of Information Education in Japan",
+    "currentLang": "ja"
+  },
+  "events": {
+    "1960": [
+      {
+        "label": "大学：大学に計算機センターが設置され始める",
+        "label_en": "University computing centers begin to be established",
+        "startYear": "1960",
+        "genre": [
+          "UNIV",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.hpcwire.jp/archives/24461",
+        "note": "大学への電子計算機導入が進み、理工系学部で情報処理・プログラミング教育が導入され、情報工学系学科設置の準備が始まる。",
+        "note_en": "Electronic computers were introduced into universities, and information processing and programming education began mainly in science and engineering faculties.",
+        "timeLabel": "1960年代～"
+      }
+    ],
+    "1970": [
+      {
+        "label": "大学：情報工学科が各大学に設置される",
+        "label_en": "Departments of information engineering are established at universities",
+        "startYear": "1970",
+        "genre": [
+          "UNIV",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.ipsj.or.jp/50anv/50nenshi/data/pdf/0101.pdf",
+        "note": "情報工学科の設置が進み、情報処理教育センターが整備され、一般教養として情報処理やコンピュータリテラシー教育が拡大する。",
+        "note_en": "Departments of information engineering and information processing education centers expanded, and computer literacy education spread as general education.",
+        "timeLabel": "1970年代～"
+      }
+    ],
+    "1977": [
+      {
+        "label": "専門学校：情報処理専門学校が登場する",
+        "label_en": "Information processing vocational schools appear",
+        "startYear": "1977",
+        "genre": [
+          "VOC",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.kcg.ac.jp/school_info/history.html",
+        "note": "情報処理専門学校が広がり、プログラマ養成を中心にCOBOL、FORTRANなどの教育が行われる。",
+        "note_en": "Information processing vocational schools expanded, focusing on programmer training with languages such as COBOL and FORTRAN.",
+        "timeLabel": "1970年代後半～"
+      }
+    ],
+    "1980": [
+      {
+        "label": "大学：パソコン利用教育が急速に普及する",
+        "label_en": "Personal computer education spreads rapidly at universities",
+        "startYear": "1980",
+        "genre": [
+          "UNIV",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://obirin.repo.nii.ac.jp/record/2424/files/24362719_01_185-192.pdf",
+        "note": "文系学部でも情報処理演習が導入され、情報学部・経営情報学部など情報系新学部の設置につながっていく。",
+        "note_en": "Information processing exercises were introduced even in humanities and social science faculties, leading to new information-related faculties.",
+        "timeLabel": "1980年代～"
+      },
+      {
+        "label": "専門学校：情報処理技術者試験対策とOA教育が普及する",
+        "label_en": "Vocational schools spread IT examination preparation and OA education",
+        "startYear": "1980",
+        "genre": [
+          "VOC",
+          "EXAM",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.ipa.go.jp/shiken/kubun/old.html",
+        "note": "情報処理技術者試験の第二種、後の基本情報技術者試験の取得を目指した教育や、ワープロ・表計算などのOA教育が広がる。",
+        "note_en": "Education for the Second-Class Information Technology Engineer Examination and office automation skills such as word processors and spreadsheets spread.",
+        "timeLabel": "1980年代～"
+      }
+    ],
+    "1987": [
+      {
+        "label": "小学校：コンピュータ活用の試行的実践が始まる",
+        "label_en": "Experimental computer use begins in elementary schools",
+        "startYear": "1987",
+        "genre": [
+          "ES",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.jikkyo.co.jp/sys/wp-content/uploads/2026/02/9992659810.pdf",
+        "note": "コンピュータ活用の試行的実践が始まり、情報教育は各教科の中で扱われる。",
+        "note_en": "Experimental use of computers began, with information education handled within existing subjects.",
+        "timeLabel": "1980年代後半～"
+      }
+    ],
+    "1989": [
+      {
+        "label": "中学校：技術・家庭科に選択領域「情報基礎」が新設される",
+        "label_en": "Basic Information is added as an elective area in junior high technology and home economics",
+        "startYear": "1989",
+        "genre": [
+          "JHS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.mext.go.jp/a_menu/shotou/youryou/main4_a2.htm",
+        "note": "平成元年改訂の学習指導要領で、技術・家庭科に選択領域「情報基礎」が新設される。",
+        "note_en": "The 1989 curriculum guidelines added Basic Information as an elective area in technology and home economics.",
+        "timeLabel": "1989年度改訂学習指導要領"
+      }
+    ],
+    "1990": [
+      {
+        "label": "専門学校：ネットワーク・Web・マルチメディア教育を導入する",
+        "label_en": "Vocational schools introduce network, Web, and multimedia education",
+        "startYear": "1990",
+        "genre": [
+          "VOC",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.jec.ac.jp/course/it/jy/",
+        "note": "ネットワーク、Web、マルチメディア関連の教育が導入され、ゲーム系プログラミング教育も始まる。",
+        "note_en": "Network, Web, and multimedia education was introduced, along with game programming courses.",
+        "timeLabel": "1990年代～"
+      }
+    ],
+    "1994": [
+      {
+        "label": "高校：職業学科で情報関係科目が整備される",
+        "label_en": "Information-related subjects are organized in vocational high school departments",
+        "startYear": "1994",
+        "genre": [
+          "HS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.jikkyo.co.jp/sys/wp-content/uploads/2026/02/9992659810.pdf",
+        "note": "工業の情報技術基礎、商業の情報処理、農業情報処理、家庭情報処理など、職業学科で情報関係科目が整備される。",
+        "note_en": "Information-related subjects were organized in vocational departments, including industrial, commercial, agricultural, and home economics fields.",
+        "timeLabel": "1994年度～"
+      }
+    ],
+    "1997": [
+      {
+        "label": "大学入試：センター試験に「情報関係基礎」が設置される",
+        "startYear": "1997",
+        "genre": [
+          "EXAM",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://sites.google.com/a.ipsj.or.jp/ipsjjn/resources/JHK",
+        "note": "大学入試センター試験に「情報関係基礎」が設置され、主に専門学科高校の履修内容を背景にした出題が行われる。",
+        "label_en": "Information-related Fundamentals is introduced in the National Center Test",
+        "note_en": "Information-related Fundamentals was introduced in the National Center Test, mainly reflecting specialized high school curricula.",
+        "_rev": "1783950719713-pfsld1iu"
+      }
+    ],
+    "1998": [
+      {
+        "label": "教員養成：教職課程に「情報機器の操作」が必修となる",
+        "label_en": "Operation of Information Devices becomes required in teacher training",
+        "startYear": "1998",
+        "genre": [
+          "TEACH",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://kyoumujissenn.com/menkyo/wp/wp-content/uploads/2022/04/PDF.pdf",
+        "note": "教職課程に「情報機器の操作」が位置付けられ、教員養成でもICT利用能力が制度的に求められるようになる。2022年に科目区分の見直しが行われる。",
+        "note_en": "Operation of Information Devices was positioned in teacher training, requiring ICT-related skills for future teachers. The category was revised in 2022.",
+        "timeLabel": "1998年ころから"
+      }
+    ],
+    "2000": [
+      {
+        "label": "大学：全学共通の情報リテラシー科目が標準化する",
+        "label_en": "University-wide information literacy courses become standardized",
+        "startYear": "2000",
+        "genre": [
+          "UNIV",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.ipsj.or.jp/60anv/60nenshi/1-3-3-2.html",
+        "note": "全学共通教育として情報リテラシー科目が標準化し、インターネット活用や情報倫理教育が重視されるようになる。",
+        "note_en": "Information literacy became a standard university-wide subject, with emphasis on Internet use and information ethics.",
+        "timeLabel": "2000年代～"
+      },
+      {
+        "label": "専門学校：ITエンジニア養成が本格化する",
+        "label_en": "IT engineer training becomes full-scale at vocational schools",
+        "startYear": "2000",
+        "genre": [
+          "VOC",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.jec.ac.jp/course/it/jy/",
+        "note": "ITエンジニア養成が本格化し、情報セキュリティやシステム開発教育が強化される。",
+        "note_en": "IT engineer training became more systematic, with stronger emphasis on information security and system development.",
+        "timeLabel": "2000年代～"
+      },
+      {
+        "label": "教員養成：情報科の教員養成課程が始まる",
+        "label_en": "Teacher training programs for high school Informatics begin",
+        "startYear": "2000",
+        "genre": [
+          "TEACH",
+          "HS",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.ipsj.or.jp/60anv/60nenshi/1-3-3-2.html",
+        "note": "高等学校教科「情報」の設置に対応して、大学で情報科教員養成課程が整備され始める。",
+        "note_en": "Universities began preparing teacher training programs for the new high school subject Informatics.",
+        "timeLabel": "2000年前後から"
+      }
+    ],
+    "2002": [
+      {
+        "label": "中学校：技術・家庭科「情報とコンピュータ」が必修化される",
+        "label_en": "Information and Computers becomes compulsory in junior high school",
+        "startYear": "2002",
+        "genre": [
+          "JHS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.jikkyo.co.jp/sys/wp-content/uploads/2026/02/9992659810.pdf",
+        "note": "技術・家庭科の「情報とコンピュータ」が必修化され、全生徒がコンピュータを学習するようになる。",
+        "note_en": "Information and Computers became compulsory in technology and home economics, so all students studied computers.",
+        "timeLabel": "2002年度～"
+      },
+      {
+        "label": "小学校：「総合的な学習の時間」で情報活用を推進する",
+        "label_en": "Information use is promoted through the Period for Integrated Studies",
+        "startYear": "2002",
+        "genre": [
+          "ES",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.mext.go.jp/a_menu/shotou/youryou/main4_a2.htm",
+        "note": "「総合的な学習の時間」を含む教育課程の中で情報活用能力の育成が明確化される。",
+        "note_en": "The development of information utilization skills was clarified within the curriculum, including the Period for Integrated Studies.",
+        "timeLabel": "2002年度～"
+      }
+    ],
+    "2003": [
+      {
+        "label": "高校：普通科に新教科「情報」が創設される",
+        "label_en": "The new subject Informatics is created in general high schools",
+        "startYear": "2003",
+        "genre": [
+          "HS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.mext.go.jp/a_menu/shotou/cs/1320224.htm",
+        "note": "普通科に新教科「情報」が創設され、「情報A」「情報B」「情報C」のうち1科目が必履修となる。",
+        "note_en": "The new subject Informatics was introduced in general high schools, requiring one of Informatics A, B, or C.",
+        "timeLabel": "2003年度～"
+      }
+    ],
+    "2011": [
+      {
+        "label": "小学校：ICT活用教育と情報モラル教育を強化する",
+        "label_en": "Elementary schools strengthen ICT use and information morals education",
+        "startYear": "2011",
+        "genre": [
+          "ES",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://www.mext.go.jp/a_menu/shotou/youryou/main4_a2.htm",
+        "note": "ICT活用教育が本格化し、情報モラル教育も強化される。",
+        "note_en": "ICT-based education became more substantial, and information morals education was strengthened.",
+        "timeLabel": "2011年度～"
+      }
+    ],
+    "2013": [
+      {
+        "label": "高校：共通教科情報が「社会と情報」「情報の科学」に再編される",
+        "label_en": "High school Informatics is reorganized into Society and Information and Information Science",
+        "startYear": "2013",
+        "genre": [
+          "HS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.ipsj.or.jp/60anv/60nenshi/1-3-3-2.html",
+        "note": "普通科の情報科目が「社会と情報」「情報の科学」の2科目に再編され、選択必履修へ移行する。",
+        "note_en": "High school Informatics was reorganized into Society and Information and Information Science as required electives.",
+        "timeLabel": "2013年度～"
+      }
+    ],
+    "2020": [
+      {
+        "label": "小学校：プログラミング教育が必修化される",
+        "label_en": "Programming education becomes compulsory in elementary schools",
+        "startYear": "2020",
+        "genre": [
+          "ES",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1375607.htm",
+        "note": "教科として独立させるのではなく、各教科等の中でプログラミング的思考や論理的思考力を育成する。",
+        "note_en": "Programming education became compulsory across subjects, aiming to develop computational and logical thinking rather than as a standalone subject.",
+        "timeLabel": "2020年度～"
+      }
+    ],
+    "2021": [
+      {
+        "label": "中学校：ネットワーク・プログラミング・情報セキュリティを強化する",
+        "label_en": "Junior high school strengthens networks, programming, and information security",
+        "startYear": "2021",
+        "genre": [
+          "JHS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_00617.html",
+        "note": "新学習指導要領により、ネットワーク、プログラミング、情報セキュリティを含む「D 情報の技術」の内容が強化される。",
+        "note_en": "The new curriculum guidelines strengthened D Information Technology, including networks, programming, and information security.",
+        "timeLabel": "2021年度～新学習指導要領"
+      }
+    ],
+    "2022": [
+      {
+        "label": "高校：「情報Ⅰ」が全員必履修となる",
+        "label_en": "Informatics I becomes compulsory for all high school students",
+        "startYear": "2022",
+        "genre": [
+          "HS",
+          "CUR",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/mext_01831.html",
+        "note": "「情報Ⅰ」が共通必履修科目となり、「情報Ⅱ」が選択科目として置かれ、プログラミング、ネットワーク、データ活用が強化される。",
+        "note_en": "Informatics I became a compulsory common subject, with Informatics II as an elective and stronger coverage of programming, networks, and data use.",
+        "timeLabel": "2022年度～"
+      },
+      {
+        "label": "公務員試験：国家公務員採用総合職試験に「デジタル」区分が新設される",
+        "label_en": "Digital category is added to the National Public Service Comprehensive Examination",
+        "startYear": "2022",
+        "genre": [
+          "GOV",
+          "EXAM",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.jinji.go.jp/saiyo/syokai/digital_gaiyou.html",
+        "note": "国家公務員採用総合職試験で「デジタル」区分が新設され、情報基礎、計算機科学、情報工学などを含む試験区分が整備される。",
+        "note_en": "The Digital category was added to the National Public Service Comprehensive Examination, covering information fundamentals, computer science, and information engineering.",
+        "timeLabel": "2022年度～"
+      }
+    ],
+    "2025": [
+      {
+        "label": "大学入試：大学入学共通テストに「情報」が設置される",
+        "startYear": "2025",
+        "genre": [
+          "EXAM",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 5,
+        "url": "https://www.dnc.ac.jp/kyotsu/kako_shiken_jouhou/r7/",
+        "note": "令和7年度大学入学共通テストから「情報」が出題教科に加わり、高校「情報Ⅰ」の学習内容が大学入試に接続される。",
+        "label_en": "Informatics is added to the Common Test for University Admissions",
+        "note_en": "From the 2025 Common Test for University Admissions, Informatics was added, connecting high school Informatics I to university entrance exams.",
+        "_rev": "1783950774269-ha2fl76h"
+      }
+    ],
+    "2026": [
+      {
+        "label": "高卒認定：高等学校卒業程度認定試験に新科目「情報」が追加される",
+        "label_en": "Informatics is added to the Upper Secondary School Equivalency Examination",
+        "startYear": "2026",
+        "genre": [
+          "EXAM",
+          "ITED",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://www.mext.go.jp/a_menu/koutou/shiken/",
+        "note": "令和8年度第1回試験から高卒認定試験科目「情報」が新設される。旧大検時代の情報関係科目との関係は別途確認が必要。",
+        "note_en": "Informatics will be added to the Upper Secondary School Equivalency Examination from the first 2026 examination. Its relation to the former Daiken system needs further confirmation.",
+        "timeLabel": "2026年度～"
+      }
+    ]
+  },
+  "eraSettings": [],
+  "mainGenres": {
+    "list": [
+      "UNIV",
+      "VOC",
+      "HS",
+      "JHS",
+      "ES",
+      "EXAM",
+      "TEACH",
+      "GOV",
+      "CUR",
+      "ITED",
+      "JAPAN"
+    ],
+    "labels": {
+      "UNIV": "大学",
+      "VOC": "専門学校",
+      "HS": "高等学校",
+      "JHS": "中学校",
+      "ES": "小学校",
+      "EXAM": "大学入試・資格試験",
+      "TEACH": "教員養成",
+      "GOV": "公務員試験",
+      "CUR": "学習指導要領",
+      "ITED": "情報教育",
+      "JAPAN": "日本"
+    },
+    "labelsEn": {
+      "UNIV": "University",
+      "VOC": "Vocational Schools",
+      "HS": "High School",
+      "JHS": "Junior High School",
+      "ES": "Elementary School",
+      "EXAM": "Entrance and Qualification Exams",
+      "TEACH": "Teacher Training",
+      "GOV": "Civil Service Exams",
+      "CUR": "Curriculum Guidelines",
+      "ITED": "Informatics Education",
+      "JAPAN": "Japan"
+    },
+    "conjunctions": {
+      "JAPAN": true
+    }
+  },
+  "selectedGenres": [
+    "UNIV",
+    "VOC",
+    "HS",
+    "JHS",
+    "ES",
+    "EXAM",
+    "TEACH",
+    "GOV",
+    "CUR",
+    "ITED"
+  ],
+  "refGroups": {},
+  "filterImp": "",
+  "probeStates": {
+    "blue": {
+      "eventYear": 1995,
+      "birthYear": 1980,
+      "visible": true
+    },
+    "red": {
+      "eventYear": 1995,
+      "birthYear": 1960,
+      "visible": true
+    }
+  },
+  "viewportState": {
+    "scrollTop": 42963.3359375,
+    "scrollLeft": 0
+  },
+  "searchState": {
+    "query": "",
+    "detail": false,
+    "mainTimelineOnly": false,
+    "showAll": false,
+    "currentIndex": -1
+  },
+  "editFlags": {},
+  "labelBackups": {},
+  "dataFreshnessTimestamp": 1783959679000,
+  "orderChanged": false,
+  "probeSyncData": {
+    "isActive": false,
+    "redBottomYear": null,
+    "blueBottomYear": null,
+    "redTopYear": null,
+    "blueTopYear": null,
+    "redAgeDiff": null,
+    "blueAgeDiff": null
+  },
+  "fukidashiList": [
+    {
+      "id": 1,
+      "x": 1004,
+      "y": 43065.054679870605,
+      "width": 200,
+      "pointerX": 744,
+      "pointerY": 43225.054679870605,
+      "text": "テスト",
+      "isEditing": false,
+      "style": {
+        "backgroundColor": "#f0f0f0",
+        "textColor": "#333",
+        "borderColor": "#333",
+        "lineColor": "#333",
+        "fontSize": 18,
+        "bold": true,
+        "reverse": true,
+        "showTail": true
+      },
+      "pointerAutoInit": false
+    }
+  ],
+  "konojiList": [],
+  "deletedKeys": [
+    "Les Mots et les Choses(Michel Foucault)|1974|THEORYMEDIA",
+    "Artificial Life Lab(Rudy Rucker)|1996|SCIENCE",
+    "Cyber thrillers(Serge Le Doran, Philippe Rosé)|1996|HACKER",
+    "Berkeley Hackers(Zachary Margulis, Carol Palecki)|1992|HACKER・OUTOFPRINT",
+    "Cyber thrillers(Serge Le Doran, Philippe Rosé)|1996|HACKER・OUTOFPRINT",
+    "The Hacker Crackdown: Law and Disorder on the Electronic Frontier(Bruce Sterling)|1993|HACKER",
+    "Programming and Metaprogramming in the Human Biocomputer: Theory and Experiments(John C. Lilly)|1993|POPCULTURE",
+    "Programming and Metaprogramming in the Human Biocomputer: Theory and Experiments(John C. Lilly)|1993|OUTOFPRINT・POPCULTURE",
+    "Atanasoff: Forgotten Father of the Computer(Clark R. Mollenhoff)|1994|COMPUTER",
+    "What Computers Can’t Do: The Limits of Artificial Intelligence(Hubert L. Dreyfus)|1992|COMPUTER",
+    "Virtual Reality: The Revolutionary Technology of Computer-Generated Artificial Worlds – and How It Promises to Transform Society(Howard Rheingold)|1992|COMPUTER",
+    "Berkeley Hackers(Zachary Margulis, Carol Palecki)|1992|HACKER",
+    "The Media Lab: Inventing the Future at MIT(Stewart Brand)|1988|COMPUTER",
+    "Computer Power and Human Reason: From Judgment to Calculation(Joseph Weizenbaum)|1979|COMPUTER・THEORYMEDIA",
+    "test|1975|SCIENCE",
+    "test4|1975|SCIENCE",
+    "Free Software, Free Society Selected Essays of Richard M. Stallman(Richard M. Stallman/Joshua Gay/Lawrence Lassig)|2003|HACKER・OUTOFPRINT・THEORYMEDIA・WORK",
+    "Hackers & Painters: Big Ideas from the Computer Age（Paul Graham）|2005|COMPUTER・HACKER",
+    "Just for Fun: The Story of An Accidental Revolutionary(Linus Torvalds/David Diamond)|2001|COMPUTER・HACKER・WORK",
+    "test5|1975|SCIENCE",
+    "Virtual Worlds: A Journey in Hype and Hyperreality(Benjamin Woolley)|1993|OUTOFPRINT・THEORYMEDIA・WORK",
+    "遠藤諭誕生|1956|EVENT・WORLD",
+    "Cybernetics|1948|RAT-ACC・SURV-ARCH・THEORY",
+    "Computing Machinery and Intelligence|1950|RAT-ACC・THEORY",
+    "iPad|2010|HAR",
+    "ニンテンドーDS|2004|HAR",
+    "Wii|2006|HAR",
+    "ChatGPT|2022|NET",
+    "Dragon Quest III|1988|GM・JAPAN",
+    "Nintendo DS|2004|GM・HAR・JAPAN",
+    "Run for Money: Tosōchū|2004|JAPAN・TV",
+    "Unity|2005|SW",
+    "Unity|2005|GM・SW",
+    "ItteQ!|2007|JAPAN・TV",
+    "Hatsune Miku (VOCALOID2)|2007|JAPAN・MUS・SW",
+    "Instagram|2010|SW",
+    "Raspberry Pi|2012|HAR・SW",
+    "Zoom|2011|SW",
+    "Wii U|2012|GM・HAR・JAPAN",
+    "Slack|2013|SW",
+    "Discord|2015|NET",
+    "Pokémon GO|2016|NET",
+    "Splatoon|2015|GM・JAPAN",
+    "TikTok|2016|SW",
+    "GitHub Copilot|2021|SW",
+    "The Legend of Zelda: Breath of the Wild|2017|GM・JAPAN",
+    "Umamusume Pretty Derby|2021|GM",
+    "Animal Crossing: New Horizons|2020|GM・JAPAN",
+    "ChatGPT|2022|SW",
+    "Stable Diffusion|2022|SW",
+    "Elden Ring|2022|GM・JAPAN",
+    "Launch of NTT mobile service|1987|HAR-MOB・JAPAN・NON-HIS",
+    "ThinkPad 700C|1992|HAR-MOB",
+    "Internet Initiative Japan (IIJ)|1992|JAPAN・ORG・SOF-SVC",
+    "ELDEN RING SHADOW OF THE ERDTREE|2022|GM",
+    "Umamusume Pretty Derby|2021|GM・NET",
+    "Pokémon GO|2016|GM",
+    "Splatoon|2015|GM",
+    "Raspberry Pi|2012|HAR",
+    "Wii U|2012|HAR",
+    "Nintendo DS|2004|HAR",
+    "Classic Mac OS|1984|SW"
+  ],
+  "urlPreviewPanels": []
+}
