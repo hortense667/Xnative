@@ -927,16 +927,17 @@
     "1884": [
       {
         "label": "三省堂、出版事業と辞書編纂に乗り出す",
-        "startYear": 1884,
+        "startYear": "1884",
         "genre": [
           "PUBLISHER",
           "PUBLISHING_JP"
         ],
         "imp": 4,
-        "url": "https://www.books-sanseido.co.jp/company/history/",
+        "url": "#https://www.books-sanseido.co.jp/company/history/",
         "note": "書店から出版・辞書編纂へ広がり、神保町の「売る・作る」両面を象徴する存在となる。",
         "label_en": "Sanseido begins publishing and dictionary compilation",
-        "note_en": "A symbol of the district’s combined retail and publishing functions."
+        "note_en": "A symbol of the district’s combined retail and publishing functions.",
+        "_rev": "1784004430875-3kv2u59x"
       }
     ],
     "1885": [
