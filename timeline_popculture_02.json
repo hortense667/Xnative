@@ -1,12 +1,12 @@
 {
   "metadata": {
     "title": {
-      "ja": "ポップカルチャー年表 0.2",
-      "en": "POP Culture Timeline 0.2"
+      "ja": "ポップカルチャー 0.1",
+      "en": "Pop culture Timeline 0.1"
     },
     "description": {
-      "ja": "この年表は日本におけるポップカルチャー分野の主な製品や出来事を示します。現状、試験公開中であり内容を精査している段階です。",
-      "en": "This timeline shows major products and events in the field of pop culture in Japan. Currently, it is in a trial release stage and the content is being reviewed."
+      "ja": "この年表は日本のポップカルチャーに関する項目を選んだものです。現状、試験公開中であり内容を精査している段階です。",
+      "en": "This timeline presents selected entries on Japanese pop culture. It is currently in a trial release, and its content is under careful review."
     },
     "initialCreator": "Satoshi Endo",
     "contributors": [
@@ -16,13 +16,11 @@
     "contact": {
       "administrator": {
         "name": "Satoshi Endo",
-        "email": "zzz@65536.net",
-        "x": "https://x.com/hortense667",
-        "organization": "ZEN University"
+        "x": "https://x.com/hortense667"
       }
     },
     "createdAt": "2025-10-01",
-    "version": "0.2",
+    "version": "1.0",
     "language": [
       "ja",
       "en"
@@ -30,7 +28,34 @@
     "copyright": "© 2025 Satoshi Endo",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "notes": "This work is licensed under CC BY 4.0. You may reuse, modify, and redistribute this data in any media or format. When doing so, please credit the original author (Satoshi Endo), provide a link to the license, and indicate if any changes were made. Please do not create separate versions; keep the original author credit intact."
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
+    "timestamp": "2026-06-09T06:21:04.398Z",
+    "githubConfig": {
+      "accessToken": "",
+      "owner": "hortense667",
+      "repo": "xnative",
+      "filePath": "timeline_popculture_02.json",
+      "refFilePaths": "timeline_background_02.json",
+      "localDataMode": false,
+      "localFileName": "",
+      "aiProvider": "gemini",
+      "aiModel": "gemini-2.5-flash-lite",
+      "aiMaxInputTokens": 24000,
+      "aiMaxOutputTokens": 1200,
+      "aiTokenSafetyMargin": 1200,
+      "refTimelines": [
+        {
+          "sourceType": "github",
+          "owner": "hortense667",
+          "repo": "xnative",
+          "filePath": "timeline_background_02.json",
+          "minImportance": 5
+        }
+      ]
+    },
+    "appTitle": "ポップカルチャー 0.1",
+    "appTitleEn": "Pop culture Timeline 0.1",
+    "currentLang": "ja"
   },
   "events": {
     "1945": [
@@ -1145,20 +1170,6 @@
     ],
     "1964": [
       {
-        "label": "題名のない音楽会",
-        "label_en": "Untitled Concert",
-        "startYear": 1964,
-        "genre": [
-          "JAPAN",
-          "MUS",
-          "TVP"
-        ],
-        "imp": 3,
-        "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
-        "note": "クラシック中心の音楽番組。",
-        "note_en": "Long-running Japanese classical music TV show."
-      },
-      {
         "label": "富士急ハイランド",
         "label_en": "Fuji-Q Highland",
         "startYear": 1964,
@@ -1270,6 +1281,21 @@
         "url_en": "https://en.wikipedia.org/wiki/IBM_System/360",
         "note": "互換性を重視した画期的ファミリー。",
         "note_en": "Revolutionary compatible mainframe family."
+      },
+      {
+        "label": "題名のない音楽会",
+        "startYear": "1964",
+        "genre": [
+          "TVP",
+          "MUS",
+          "JAPAN"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/題名のない音楽会",
+        "note": "クラシック中心の音楽番組",
+        "label_en": "Untitled Concert",
+        "note_en": "Long-running Japanese classical music TV show.",
+        "_rev": "1784045246988-nt2fj7fz"
       }
     ],
     "1965": [
