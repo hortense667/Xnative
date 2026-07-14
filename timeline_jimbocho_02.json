@@ -955,15 +955,17 @@
       },
       {
         "label": "大屋書房の纈纈房太郎が古本商仲買同盟の結成に関わる",
-        "startYear": 1885,
+        "startYear": "1885",
         "genre": [
-          "SECONDHAND_BOOK",
-          "BOOKSTORE"
+          "BOOKSTORE",
+          "SECONDHAND_BOOK"
         ],
         "imp": 3,
+        "url": "@https://www.ohya-shobo.com/i/main_logo.png",
         "note": "大屋書房の創業者・纈纈房太郎は、古物商取締条例後に古本商仲買同盟を作り、官許を得るための書類提出に加わった人物として紹介される。",
         "label_en": "Ōya Shobō founder participates in a used-book intermediaries' association",
-        "note_en": "An example of second-wave book scouts organizing under new regulations."
+        "note_en": "An example of second-wave book scouts organizing under new regulations.",
+        "_rev": "1784004528683-388u81zk"
       }
     ],
     "1886": [
