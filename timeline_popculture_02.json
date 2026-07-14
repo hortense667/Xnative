@@ -29,7 +29,7 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
     "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors.",
-    "timestamp": "2026-06-09T06:21:04.398Z",
+    "timestamp": "2026-07-14T16:51:11.509Z",
     "githubConfig": {
       "accessToken": "",
       "owner": "hortense667",
@@ -51,7 +51,8 @@
           "filePath": "timeline_background_02.json",
           "minImportance": 5
         }
-      ]
+      ],
+      "rememberAccessToken": true
     },
     "appTitle": "ポップカルチャー 0.1",
     "appTitleEn": "Pop culture Timeline 0.1",
@@ -8620,22 +8621,6 @@
     ],
     "1997": [
       {
-        "label": "SASUKE",
-        "label_en": "SASUKE (Ninja Warrior)",
-        "startYear": 1997,
-        "endYear": "ongoing",
-        "genre": [
-          "TVP",
-          "SPW",
-          "JAPAN"
-        ],
-        "imp": 4,
-        "url": "https://ja.wikipedia.org/wiki/SASUKE",
-        "url_en": "https://en.wikipedia.org/wiki/Sasuke_(TV_series)",
-        "note": "高難度アスレチックを競う人気番組。",
-        "note_en": "Hit obstacle-course competition show."
-      },
-      {
         "label": "学校へ行こう!",
         "label_en": "Gakkō e Ikō!",
         "startYear": 1997,
@@ -9035,6 +9020,23 @@
         "url_en": "https://en.wikipedia.org/wiki/Sony_Mavica",
         "note": "フロッピー保存のデジカメ。",
         "note_en": "Digital camera saving to floppy disks."
+      },
+      {
+        "label": "SASUKE",
+        "startYear": "1997",
+        "endYear": "ongoing",
+        "genre": [
+          "TVP",
+          "SPW",
+          "JAPAN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/SASUKE",
+        "note": "高難度アスレチックを競う人気番組",
+        "label_en": "SASUKE (Ninja Warrior)",
+        "url_en": "https://en.wikipedia.org/wiki/Sasuke_(TV_series)",
+        "note_en": "Hit obstacle-course competition show.",
+        "_rev": "1784048649779-4kdsslwy"
       }
     ],
     "1998": [
