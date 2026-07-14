@@ -51,8 +51,7 @@
         "label_en": "Origin of the name Akihabara (Akiba fire deity shrine)",
         "startYear": 1869,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/秋葉原",
@@ -93,8 +92,7 @@
         "label_en": "Relocation of Chinka-sha to Iriya",
         "startYear": 1888,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/秋葉神社_(台東区)",
@@ -108,8 +106,7 @@
         "label_en": "Akihabara Station opens as freight terminal",
         "startYear": 1890,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
@@ -124,8 +121,7 @@
         "label_en": "Shoheibashi Station opens",
         "startYear": 1908,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/昌平橋駅",
@@ -140,8 +136,7 @@
         "startYear": 1912,
         "endYear": 1943,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/万世橋駅",
@@ -154,8 +149,7 @@
         "label_en": "Shoheibashi Station closes",
         "startYear": 1912,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/昌平橋駅",
@@ -170,8 +164,7 @@
         "startYear": 1920,
         "endYear": 1930,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://www.japan-experience.com/all-about-japan/tokyo/attractions-and-excursions/akihabara-station",
@@ -186,8 +179,7 @@
         "label_en": "Akihabara Station opens to passengers",
         "startYear": 1925,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 5,
         "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
@@ -202,8 +194,7 @@
         "label_en": "Kanda Fruit Market relocates to Akihabara area",
         "startYear": 1928,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/神田市場",
@@ -243,7 +234,6 @@
         "endYear": 1939,
         "genre": [
           "EVENT",
-          "JAPAN",
           "ELECTRONICS"
         ],
         "imp": 2,
@@ -259,8 +249,7 @@
         "label_en": "Becomes transfer hub with Ochanomizu–Ryogoku link",
         "startYear": 1932,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/総武本線",
@@ -287,8 +276,7 @@
         "label_en": "Akihabara Station bustle in mid-1930s (photo)",
         "startYear": 1935,
         "genre": [
-          "CONTENT",
-          "JAPAN"
+          "CONTENT"
         ],
         "imp": 2,
         "url": "https://www.oldtokyo.com/akihabara-station-tokyo-c-1935/",
@@ -303,8 +291,7 @@
         "label_en": "Subway improvements boost foot traffic",
         "startYear": 1936,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 2,
         "url": "https://ja.wikipedia.org/wiki/東京メトロ銀座線",
@@ -331,8 +318,7 @@
         "label_en": "Rising demand for radio parts and school needs",
         "startYear": 1937,
         "genre": [
-          "ELECTRONICS",
-          "JAPAN"
+          "ELECTRONICS"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/ラジオ",
@@ -347,8 +333,7 @@
         "label_en": "Wartime controls and rationing effects",
         "startYear": 1938,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/国家総動員法",
@@ -364,8 +349,7 @@
         "startYear": 1939,
         "genre": [
           "ELECTRONICS",
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/配給制度",
@@ -379,8 +363,7 @@
         "label_en": "Wartime atmosphere intensifies in Akihabara area",
         "startYear": 1940,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/第二次世界大戦下の日本",
@@ -811,8 +794,7 @@
         "label_en": "Hibiya Line Akihabara Station opens",
         "startYear": 1962,
         "genre": [
-          "EVENT",
-          "JAPAN"
+          "EVENT"
         ],
         "imp": 4,
         "url": "https://ja.wikipedia.org/wiki/秋葉原駅",
@@ -4099,12 +4081,6 @@
       "label": "電気・電子系",
       "label_en": "Electrical and Electronic Systems",
       "conjunction": true
-    },
-    {
-      "code": "JAPAN",
-      "label": "日本社会・時代背景",
-      "label_en": "Japan / historical context",
-      "conjunction": false
     },
     {
       "code": "FOOD",
