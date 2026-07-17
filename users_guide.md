@@ -12,6 +12,12 @@
 
 **GitHubユーザーなら誰でも管理者になれる分散型システム**として設計されており、自分のリポジトリで独自の年表データを管理できます。
 
+### 関連リンク・チュートリアル
+- [自分だけの年表を15分で動かす――Xnative/Timelineクイックスタート](https://note.com/hortense667/n/ne9b254c76d0a)
+- [年表を作ったら公開しよう――Xnative/Timelineで時代を共有する](https://note.com/hortense667/n/naaf575bb2c39)
+- [年表ソフトXnative/Timeline 基本操作（YouTube動画）](https://www.youtube.com/watch?v=4qiu6hUd6S8)
+- [チュートリアル年表（日本語）](https://xnative.pages.dev/?editmode=ON&datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json&refTimelines=%255B%257B%2522sourceType%2522%253A%2522github%2522%252C%2522owner%2522%253A%2522hortense667%2522%252C%2522repo%2522%253A%2522xnative%2522%252C%2522filePath%2522%253A%2522timeline_background_02.json%2522%252C%2522minImportance%2522%253A5%257D%255D&year=1918&snapshot=snapshot-tutorial.json&refFilePaths=timeline_background_02.json)
+
 ### 参照年表機能について
 ### フキダシ（吹き出し）詳細ガイド
 
@@ -40,10 +46,16 @@
 - 復元後、GitHubが新しければ反映をブロックする仕組みに準拠
 - 開いているウェブ画面パネルも保存・復元されます（位置、表示中のURL、言語設定など）
 - **ローカルJSONデータソース**: 「スナップショット保存」はPCへJSONをダウンロードし、「スナップショット復元」はPCからJSONを選択します。`?snapshot=...` / `?snapshotpath=...` によるURL復元はできません。
-- **GitHub JSONデータソース**: 「スナップショット保存」は同じ `owner/repo` の `data/` フォルダへ保存し、「スナップショット復元」は同フォルダの一覧から選んで復元します。保存には対象リポジトリへの書き込み権限を持つアクセストークンが必要です。
+- **GitHub JSONデータソース**: 「スナップショット保存」は同じ `owner/repo` の `data/` フォルダへ保存し、「スナップショット復元」は同フォルダの一覧から選んで復元します。保存には対象リポジトリへの書き込み権限を持つアクセストークンが必要です。復元しても現在設定中のアクセストークンは保持され、復元したファイル名はURLの `snapshot=` パラメーターにも反映されます。
 - GitHub JSONでURLから復元する場合は `?snapshot=xxx.json` または `?snapshotpath=xxx.json` を使用します。取得先は `data/` フォルダで、既定はメイン年表と同じリポジトリ（`owner/repo`）です。
 - 別リポジトリからURL復元する場合は `snapshotowner` / `snapshotrepo` を指定します。
 - `snapshotURL` / `snapshotUrl` / `data` パラメータは廃止
+
+#### CSV出力
+- 設定画面の「CSV出力」は、編集モード・閲覧モードのどちらでも利用できます。Cloudflare Pages と Netlify のどちらで開いた場合も、出力はブラウザからPCへダウンロードされます。
+- 「絞り込み中の項目をCSV出力」では、現在の**ジャンル・重要度フィルタ**に一致する項目をCSVとしてPCへ保存できます。
+- 「検索結果一覧をCSV出力」は、現在実行している検索の結果をCSVとしてPCへ保存します。先に検索を実行してください。
+- 出力はUTF-8 CSVで、年表名・出力種別・日時・件数を含むファイル名になります。`timelineYear` 列に年表上の年を出力し、各年表項目が持つ全フィールド（独自に追加したフィールドを含む）も列として出力します。配列・オブジェクト値はJSON文字列です。年表データは変更されません。
 
 #### 画像表示機能
 - テキストに「#https://example.com/image.png」の形式で画像URLを記述すると画像を表示
@@ -767,6 +779,12 @@ A speech bubble feature that allows you to place annotations in the right graph 
 - Source is the `data/` folder. By default, it uses the same repository as the main timeline (`owner/repo`)
 - To load from another repository, specify `snapshotowner` and `snapshotrepo`
 - `snapshotURL` / `snapshotUrl` / `data` parameters are deprecated
+
+#### CSV Export
+- The **CSV Export** section in Settings is available in both edit and view modes. On either Cloudflare Pages or Netlify, the file is downloaded by the browser to the local PC.
+- **Export Filtered Items** downloads items matching the current genre and importance filters.
+- **Export Search Results** downloads the current search results; run a search first.
+- Exports are UTF-8 CSV files. `timelineYear` holds the timeline year, and every event field—including custom fields—is exported as a column. Array and object values are serialized as JSON; timeline data is not changed.
 
 #### Image Display Feature
 - Display images by writing image URL in text format "#https://example.com/image.png"

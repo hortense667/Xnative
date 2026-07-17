@@ -16,6 +16,12 @@ This document includes both a Japanese and an English version. The English versi
   - ローカル→GitHub公開の1〜2ページ版（最短手順）: `timeline-local-to-github-quickstart.md`
 - Google Sheetsで管理していた年表を、GitHubで管理する **JSON形式** に移行したい場合は、変換ツール `sheet_to_json_coverter.html`（Sheets→JSON変換）を用意しています。
 
+### 関連リンク・チュートリアル
+- [自分だけの年表を15分で動かす――Xnative/Timelineクイックスタート](https://note.com/hortense667/n/ne9b254c76d0a)
+- [年表を作ったら公開しよう――Xnative/Timelineで時代を共有する](https://note.com/hortense667/n/naaf575bb2c39)
+- [年表ソフトXnative/Timeline 基本操作（YouTube動画）](https://www.youtube.com/watch?v=4qiu6hUd6S8)
+- [チュートリアル年表（日本語）](https://xnative.pages.dev/?editmode=ON&datasrc=github&owner=hortense667&repo=xnative&filePath=timeline_popculture_02.json&refTimelines=%255B%257B%2522sourceType%2522%253A%2522github%2522%252C%2522owner%2522%253A%2522hortense667%2522%252C%2522repo%2522%253A%2522xnative%2522%252C%2522filePath%2522%253A%2522timeline_background_02.json%2522%252C%2522minImportance%2522%253A5%257D%255D&year=1918&snapshot=snapshot-tutorial.json&refFilePaths=timeline_background_02.json)
+
 ### 主な機能
 
 ネイティブマップは、年表データを視覚的に表示・編集できるWebアプリケーションです。さまざまな分野の歴史を、それぞれの年表形式で管理し、個人の体験と照らし合わせることができます。分野ごとの年表を組み合わせて見ることができることを特徴としています。
@@ -28,7 +34,7 @@ This document includes both a Japanese and an English version. The English versi
 - **データ連携/リロード**:
   - GitHub JSON との連携（読み込み・リロード）
   - ローカルJSON（PC上）の読み込み・保存に対応
-- **CSV対応**: データの一括インポート
+- **CSV対応**: CSV/TSVの一括インポート、および表示中の項目・検索結果のCSV出力
 - **参照年表機能**: 複数の年表データを同時に表示・比較可能
 - **フキダシ（吹き出し）**: 右側エリアをShift+クリックして注釈を配置。三角テールはクリック位置を先端にし、バブルの辺から自然に接続。スタイル（色・文字サイズ・太字）変更やドラッグ移動、スナップショット保存/復元に対応。テイルの表示/非表示切り替え、画像表示機能（#URL形式）、リンク（@URL形式＝末尾に空白1文字が必要）、改行対応。
 - **範囲ガイド（コの字形）**:右側エリアでCtrl+Shift+クリックで、範囲ガイド（コの字形）を設置（〇年～〇年の範囲の視覚ガイド用）。縦棒の中央をドラッグで移動。縦棒の右側ドラッグで太さ変更。上下ドラッグで高さ変更。上/下の三角足をドラッグして左右に伸縮（上下連動）。右クリックで色設定、Rで反転、△で足の表示/非表示。
@@ -168,6 +174,7 @@ This document includes both a Japanese and an English version. The English versi
   - GitHub raw から取得（設定済みのアクセストークンがある場合、取得失敗時は GitHub API へフォールバック）
   - 参照年表のみ短時間キャッシュ（同一セッション内・最大約15分）。メイン年表の最新取得には影響しません
 - **スナップショット**: 現在の状態（データ、フキダシ、設定、開いているウェブ画面パネル）を保存・復元。気軽に自分の年表を作り始めることができます
+- **CSV出力**: 設定画面の「CSV出力」から、現在のジャンル・重要度フィルタに一致する項目、または現在の検索結果をPCへ保存できます。閲覧モードでも使用でき、年表項目の全フィールド（独自フィールドを含む）をUTF-8 CSVで出力します。
 - **画像表示**: 画像URLの先頭に `@` を付けると、ウェブプレビュー内に画像が表示されます
 
 ### 埋め込み不可 URL の事前チェック（年表作者向け）
@@ -337,7 +344,7 @@ Detailed sharing/operation guides:
 - **Reload / integrations**:
   - GitHub JSON load & reload
   - Local JSON (on your PC) load & save
-- **CSV/TSV**: Bulk import
+- **CSV/TSV**: Bulk import plus CSV export of displayed items and search results
 - **Reference timelines**: Show and compare multiple timelines together
 - **Speech bubbles**: Shift+click in the right area to add. Tail connects naturally from edge to click point. Style (color/font size/bold) change, drag move, snapshot save/restore, tail toggle, image display (#URL), link (@URL + trailing space), line breaks.
 - **Range guide (bracket)**: Ctrl+Shift+click in right area to place a bracket for visualizing year ranges. Drag center to move, right side for thickness, top/bottom for height, triangle feet drag to stretch, right-click for colors, `R` to reverse, △ to show/hide feet.
