@@ -505,17 +505,18 @@
       },
       {
         "label": "肉の万世が秋葉原で創業",
-        "label_en": "Niku no Mansei is founded in Akihabara",
-        "startYear": 1949,
+        "startYear": "1949",
         "genre": [
           "STORE",
           "FOOD"
         ],
         "imp": 4,
-        "url": "https://www.niku-mansei.com/contents/02nazo/nazo_04rekisi01.html",
-        "url_en": "https://www.niku-mansei.com/contents/02nazo/nazo_04rekisi01.html",
+        "url": "#https://www.niku-mansei.com/contents/02nazo/nazo_04rekisi01.html",
         "note": "電気部品商から転じて1949年に創業。ハンバーグ、ステーキ、パーコー麺、万かつサンドなどを展開し、秋葉原の食の象徴となった。",
-        "note_en": "Founded in 1949 after its owners moved from electrical-parts trading into food service. Its meat dishes became Akihabara icons."
+        "label_en": "Niku no Mansei is founded in Akihabara",
+        "url_en": "https://www.niku-mansei.com/contents/02nazo/nazo_04rekisi01.html",
+        "note_en": "Founded in 1949 after its owners moved from electrical-parts trading into food service. Its meat dishes became Akihabara icons.",
+        "_rev": "1784281507089-n9xpkpk4"
       }
     ],
     "1950": [
