@@ -714,20 +714,6 @@
     ],
     "1958": [
       {
-        "label": "定食店「かんだ食堂」が開店",
-        "label_en": "Kanda Shokudo opens",
-        "startYear": 1958,
-        "genre": [
-          "STORE",
-          "FOOD"
-        ],
-        "imp": 5,
-        "url": "https://kaztsu.com/kanda-shokudo/",
-        "url_en": "https://kaztsu.com/kanda-shokudo/",
-        "note": "神田青果市場で働く人々や電気街の店員、買い物客に定食を提供。ショーケースからおかずを選べる昭和の食堂として長く親しまれた。",
-        "note_en": "The Showa-era diner served produce-market workers, shop staff and visitors."
-      },
-      {
         "label": "家電量販的形態の萌芽",
         "label_en": "Proto mass-appliance retail emerges",
         "startYear": 1958,
@@ -740,6 +726,21 @@
         "url_en": "https://en.wikipedia.org/wiki/Consumer_electronics",
         "note": "複数フロアの家電売り場が目立ち始める。",
         "note_en": "Multi-floor home-electronics retail formats began to appear."
+      },
+      {
+        "label": "定食店「かんだ食堂」が開店",
+        "startYear": "1958",
+        "genre": [
+          "STORE",
+          "FOOD"
+        ],
+        "imp": 5,
+        "url": "#https://kaztsu.com/kanda-shokudo/",
+        "note": "神田青果市場で働く人々や電気街の店員、買い物客に定食を提供。ショーケースからおかずを選べる昭和の食堂として長く親しまれた。",
+        "label_en": "Kanda Shokudo opens",
+        "url_en": "https://kaztsu.com/kanda-shokudo/",
+        "note_en": "The Showa-era diner served produce-market workers, shop staff and visitors.",
+        "_rev": "1784281476562-no8ttv6k"
       }
     ],
     "1960": [
