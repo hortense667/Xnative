@@ -2776,23 +2776,6 @@
         "note_en": "Opened with UDX on March 9 and added sit-down dining and evening options."
       },
       {
-        "label": "秋葉原UDX開業/クロスフィールド完成",
-        "label_en": "Akihabara UDX/Crossfield completed",
-        "startYear": 2006,
-        "genre": [
-          "EVENT",
-          "STORE",
-          "OTAKU",
-          "ELECTRONICS",
-          "FOOD"
-        ],
-        "imp": 5,
-        "url": "https://www.gk-design.co.jp/tech/en/projects/2006/02.html",
-        "url_en": "https://akiba.or.jp/wp_en/archives/history07/",
-        "note": "駅前再開発拠点が稼働、イベント拠点化。",
-        "note_en": "Redeveloped hub opens, anchoring events and IT firms."
-      },
-      {
         "label": "都内初の区営有料トイレを中央改札前に設置",
         "label_en": "First ward-run paid public toilet installed",
         "startYear": 2006,
@@ -2815,6 +2798,24 @@
         "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kotsu/kisei/toire.html",
         "url_en": "https://en.wikipedia.org/wiki/Chiyoda,_Tokyo",
         "note": "中央改札前ロータリーに設置。"
+      },
+      {
+        "label": "秋葉原UDX開業/クロスフィールド完成",
+        "startYear": "2006",
+        "genre": [
+          "EVENT",
+          "STORE",
+          "OTAKU",
+          "ELECTRONICS",
+          "FOOD"
+        ],
+        "imp": 5,
+        "url": "#https://www.gk-design.co.jp/tech/en/projects/2006/02.html",
+        "note": "駅前再開発拠点が稼働、イベント拠点化。",
+        "label_en": "Akihabara UDX/Crossfield completed",
+        "url_en": "https://akiba.or.jp/wp_en/archives/history07/",
+        "note_en": "Redeveloped hub opens, anchoring events and IT firms.",
+        "_rev": "1784281725143-7s3lsfwt"
       }
     ],
     "2007": [
