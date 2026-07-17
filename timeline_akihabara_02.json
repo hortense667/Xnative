@@ -1058,21 +1058,6 @@
     ],
     "1973": [
       {
-        "label": "カレー店「ベンガル」が秋葉原に開店",
-        "label_en": "Bengal curry restaurant opens in Akihabara",
-        "startYear": 1973,
-        "endYear": 2024,
-        "genre": [
-          "STORE",
-          "FOOD"
-        ],
-        "imp": 3,
-        "url": "https://www.gdm.or.jp/crew/2024/1226/569189",
-        "url_en": "https://aki-pass.tokyo/aki-pass_blog/2022/07/08/bengal-02/",
-        "note": "1973年創業。電気街の買い物客や店員に親しまれ、秋葉原にカレーの老舗が多いことを象徴する一店となった。",
-        "note_en": "Founded in 1973, Bengal became a long-running curry stop for shoppers and workers."
-      },
-      {
         "label": "中央通りで歩行者天国開始",
         "label_en": "Pedestrian Paradise begins on Chuo-dori",
         "startYear": 1973,
@@ -1086,6 +1071,22 @@
         "url_en": "https://www.fun-japan.jp/en/articles/11765",
         "note": "休日の無車化が定着し名物に。",
         "note_en": "Weekend car-free street becomes a hallmark."
+      },
+      {
+        "label": "カレー店「ベンガル」が秋葉原に開店",
+        "startYear": "1973",
+        "endYear": "2024",
+        "genre": [
+          "STORE",
+          "FOOD"
+        ],
+        "imp": 3,
+        "url": "#https://www.gdm.or.jp/crew/2024/1226/569189",
+        "note": "1973年創業。電気街の買い物客や店員に親しまれ、秋葉原にカレーの老舗が多いことを象徴する一店となった。",
+        "label_en": "Bengal curry restaurant opens in Akihabara",
+        "url_en": "https://aki-pass.tokyo/aki-pass_blog/2022/07/08/bengal-02/",
+        "note_en": "Founded in 1973, Bengal became a long-running curry stop for shoppers and workers.",
+        "_rev": "1784281417342-e34iz7v4"
       }
     ],
     "1975": [
