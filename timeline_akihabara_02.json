@@ -2570,20 +2570,6 @@
         "note_en": "New line linking Akihabara and Tsukuba opens."
       },
       {
-        "label": "ゴーゴーカレー秋葉原1号店が開店",
-        "label_en": "Go! Go! Curry Akihabara No. 1 opens",
-        "startYear": 2005,
-        "genre": [
-          "STORE",
-          "FOOD"
-        ],
-        "imp": 4,
-        "url": "https://akiba.keizai.biz/headline/1252/",
-        "url_en": "https://akiba.keizai.biz/headline/1252/",
-        "note": "5月に開店。濃厚なルー、カツ、千切りキャベツをステンレス皿に盛る金沢カレーを秋葉原へ定着させた。",
-        "note_en": "Opened in May and helped establish Kanazawa curry in Akihabara."
-      },
-      {
         "label": "サンコーレアモノショップ 秋葉原店オープン",
         "label_en": "Thanko Rare-mono Shop opens (Akihabara)",
         "startYear": 2005,
@@ -2664,6 +2650,21 @@
         "url_en": "https://ascii.jp/elem/000/000/347/347682/",
         "note": "OVERTOPの海外ゲーム部門を受け継ぎ、国内では見つけにくいPCゲームを集めた専門店として開店。輸入版の箱を眺めるだけでも楽しい店だった。",
         "note_en": "PC.CHAOS inherited OVERTOP's imported-game business and specialized in boxed PC titles."
+      },
+      {
+        "label": "ゴーゴーカレー秋葉原1号店が開店",
+        "startYear": "2005",
+        "genre": [
+          "STORE",
+          "FOOD"
+        ],
+        "imp": 4,
+        "url": "#https://akiba.keizai.biz/headline/1252/",
+        "note": "5月に開店。濃厚なルー、カツ、千切りキャベツをステンレス皿に盛る金沢カレーを秋葉原へ定着させた。",
+        "label_en": "Go! Go! Curry Akihabara No. 1 opens",
+        "url_en": "https://akiba.keizai.biz/headline/1252/",
+        "note_en": "Opened in May and helped establish Kanazawa curry in Akihabara.",
+        "_rev": "1784281698297-fj6q8aeg"
       }
     ],
     "2006": [
