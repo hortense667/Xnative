@@ -1437,17 +1437,18 @@
     "1988": [
       {
         "label": "同人ソフト&美少女ゲーム草創",
-        "label_en": "Early bishōjo/dōjin PC games",
-        "startYear": 1988,
+        "startYear": "1988",
         "genre": [
           "CONTENT",
           "OTAKU"
         ],
         "imp": 3,
         "url": "https://ja.wikipedia.org/wiki/アダルトゲーム",
-        "url_en": "https://en.wikipedia.org/wiki/Eroge",
         "note": "自主制作ソフトとPCゲームが文化を形成。",
-        "note_en": "Indie PC games began shaping local subculture."
+        "label_en": "Early bishōjo/dōjin PC games",
+        "url_en": "https://en.wikipedia.org/wiki/Eroge",
+        "note_en": "Indie PC games began shaping local subculture.",
+        "_rev": "1784281148274-7ykxbe5k"
       }
     ],
     "1989": [
