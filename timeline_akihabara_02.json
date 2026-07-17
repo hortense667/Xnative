@@ -2185,17 +2185,18 @@
       },
       {
         "label": "牛すじカレー店「ブラウニー」が開店",
-        "label_en": "Beef-tendon curry shop Brownie opens",
-        "startYear": 2000,
+        "startYear": "2000",
         "genre": [
           "STORE",
           "FOOD"
         ],
         "imp": 3,
-        "url": "https://akibaru.jp/gourmet/brownie-curry/",
-        "url_en": "https://akibaru.jp/gourmet/brownie-curry/",
+        "url": "#https://akibaru.jp/gourmet/brownie-curry/",
         "note": "牛すじ肉のカレーやオムカレーで知られる小さな店。店主の個性が前面に出る秋葉原カレー文化の一角を担った。",
-        "note_en": "The small shop became known for beef-tendon curry and omelet curry."
+        "label_en": "Beef-tendon curry shop Brownie opens",
+        "url_en": "https://akibaru.jp/gourmet/brownie-curry/",
+        "note_en": "The small shop became known for beef-tendon curry and omelet curry.",
+        "_rev": "1784281607148-ubikm5ou"
       }
     ],
     "2001": [
