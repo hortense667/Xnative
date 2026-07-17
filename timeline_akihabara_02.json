@@ -1265,20 +1265,6 @@
     ],
     "1980": [
       {
-        "label": "同人誌の頒布スポットが増える",
-        "label_en": "More spaces for dōjinshi",
-        "startYear": 1980,
-        "genre": [
-          "EVENT",
-          "OTAKU"
-        ],
-        "imp": 2,
-        "url": "https://ja.wikipedia.org/wiki/同人誌",
-        "url_en": "https://en.wikipedia.org/wiki/D%C5%8Djinshi",
-        "note": "同人誌・同人ソフトの扱いが一部店舗で始まる。",
-        "note_en": "Some shops began carrying dōjinshi and indie software."
-      },
-      {
         "label": "秋葉原電気まつり開始",
         "label_en": "Akihabara Electric Festival starts",
         "startYear": 1980,
