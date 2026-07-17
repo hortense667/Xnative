@@ -1362,17 +1362,18 @@
       },
       {
         "label": "九州じゃんがら秋葉原本店が開店",
-        "label_en": "Kyushu Jangara Akihabara main shop opens",
-        "startYear": 1984,
+        "startYear": "1984",
         "genre": [
           "STORE",
           "FOOD"
         ],
         "imp": 3,
-        "url": "https://kyushujangara.co.jp/archives/",
-        "url_en": "https://1goten.jp/archives/post-3296.html",
+        "url": "#https://kyushujangara.co.jp/archives/",
         "note": "1984年開業。行列のできる豚骨ラーメン店として、電気街で食べる定番の一つになった。",
-        "note_en": "Opened in 1984 and became one of the district’s best-known tonkotsu ramen shops."
+        "label_en": "Kyushu Jangara Akihabara main shop opens",
+        "url_en": "https://1goten.jp/archives/post-3296.html",
+        "note_en": "Opened in 1984 and became one of the district’s best-known tonkotsu ramen shops.",
+        "_rev": "1784281551918-2qfys93g"
       }
     ],
     "1985": [
