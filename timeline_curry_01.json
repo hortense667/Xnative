@@ -1,4 +1,18 @@
 {
+  "metadata": {
+    "title": {
+      "ja": "日本のカレー年表",
+      "en": "History of Japanese Curry"
+    },
+    "description": {
+      "ja": "日本におけるカレーライスの歴史とイノベーションをたどる年表",
+      "en": "Timeline: The History and Innovations of Curry Rice in Japan"
+    },
+    "initialCreator": "Satoishi Endo",
+    "contributors": [
+      "Satoishi Endo"
+    ]
+  },
   "events": {
     "1860": [
       {
@@ -451,6 +465,20 @@
         "note_en": "Dietitians called for curry to be served nationwide in school lunches."
       }
     ],
+    "1996": [
+      {
+        "label": "グルメ本『辛ミシュラン』が出版",
+        "startYear": "1996",
+        "genre": [
+          "CULTURE"
+        ],
+        "imp": 3,
+        "note": "激辛カレーやエスニック料理の名店を紹介。",
+        "label_en": "The book Kara-Michelin was published",
+        "note_en": "A gourmet guidebook focusing on spicy and hot curry restaurants.",
+        "_rev": "1784708560275-2olcath3"
+      }
+    ],
     "1998": [
       {
         "label": "和歌山毒物混入カレー事件が発生",
@@ -479,20 +507,6 @@
         "url_en": "https://en.wikipedia.org/wiki/Ichiro_Suzuki",
         "note": "マリナーズ時代に毎朝（正確には弓子夫人の）カレーを食べる習慣が話題に。",
         "note_en": "His routine of eating homemade curry before games became a hot topic."
-      }
-    ],
-    "2003": [
-      {
-        "label": "グルメ本『辛ミシュラン』が出版",
-        "startYear": "2003",
-        "genre": [
-          "CULTURE"
-        ],
-        "imp": 3,
-        "note": "激辛カレーやエスニック料理の名店を紹介。",
-        "label_en": "The book Kara-Michelin was published",
-        "note_en": "A gourmet guidebook focusing on spicy and hot curry restaurants.",
-        "_rev": "1783824547119-uzke9mwd"
       }
     ],
     "2005": [
@@ -617,19 +631,5 @@
       "label_en": "People & Episodes",
       "conjunction": false
     }
-  ],
-  "metadata": {
-    "title": {
-      "ja": "日本のカレー年表",
-      "en": "History of Japanese Curry"
-    },
-    "description": {
-      "ja": "日本におけるカレーライスの歴史とイノベーションをたどる年表",
-      "en": "Timeline: The History and Innovations of Curry Rice in Japan"
-    },
-    "initialCreator": "Satoishi Endo",
-    "contributors": [
-      "Satoishi Endo"
-    ]
-  }
+  ]
 }
