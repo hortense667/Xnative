@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "title": {
+      "ja": "怖い話年表・海外 1.0",
+      "en": "Global Horror & Scary Stories Timeline 1.0"
+    },
+    "description": {
+      "ja": "欧米を中心に、魔女・ゴシック・怪物・犯罪・映画・オカルト・ネット怪談へと恐怖の対象と媒体が変化してきた流れを、単年に特定できる出来事でたどる年表。",
+      "en": "A global timeline, centered on Europe and North America, tracing shifts from witchcraft and Gothic fiction to monsters, crime, cinema, occult culture and internet horror through datable events."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "OpenAI"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2026-08-12",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2026 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "updatedAt": "2026-08-12",
+    "notes": "年代や長期的ブームではなく、刊行・事件・公開・放送・投稿など単年に特定できる出来事を代表点として採用した。"
+  },
+  "events": {
+    "1487": [
+      {
+        "label": "『魔女に与える鉄槌』刊行",
+        "label_en": "Malleus Maleficarum is published",
+        "startYear": 1487,
+        "genre": [
+          "LITERATURE",
+          "SOCIAL",
+          "OCCULT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E5%A5%B3%E3%81%AB%E4%B8%8E%E3%81%88%E3%82%8B%E9%89%84%E6%A7%8C",
+        "url_en": "https://en.wikipedia.org/wiki/Malleus_Maleficarum",
+        "note": "魔女の存在と迫害を理論化した悪名高い書物。超自然的な恐怖が制度的な現実の暴力へ結びついた歴史を象徴する。",
+        "note_en": "An infamous treatise systematizing belief in witches and their persecution, symbolizing how supernatural fear could become institutionalized violence."
+      }
+    ],
+    "1692": [
+      {
+        "label": "セイラム魔女裁判",
+        "label_en": "Salem witch trials",
+        "startYear": 1692,
+        "genre": [
+          "SOCIAL",
+          "OCCULT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%A4%E3%83%A9%E3%83%A0%E9%AD%94%E5%A5%B3%E8%A3%81%E5%88%A4",
+        "url_en": "https://en.wikipedia.org/wiki/Salem_witch_trials",
+        "note": "マサチューセッツ湾植民地で魔女告発が連鎖し、多数が裁かれ処刑された。共同体の不安が超自然的な敵を作り出す典型例。",
+        "note_en": "Accusations of witchcraft cascaded through colonial Massachusetts, showing how communal anxiety can manufacture a supernatural enemy with deadly real-world consequences."
+      }
+    ],
+    "1764": [
+      {
+        "label": "ホレス・ウォルポール『オトラント城奇譚』刊行",
+        "label_en": "The Castle of Otranto is published",
+        "startYear": 1764,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%88%E3%83%A9%E3%83%B3%E3%83%88%E5%9F%8E%E5%A5%87%E8%AD%9A",
+        "url_en": "https://en.wikipedia.org/wiki/The_Castle_of_Otranto",
+        "note": "一般に最初のゴシック小説とされる作品。古城、血統、超自然現象という後世のホラーの基本装置を整えた。",
+        "note_en": "Often regarded as the first Gothic novel, establishing the castle, cursed lineage and supernatural event as durable machinery of horror."
+      }
+    ],
+    "1818": [
+      {
+        "label": "メアリー・シェリー『フランケンシュタイン』刊行",
+        "label_en": "Mary Shelley's Frankenstein is published",
+        "startYear": 1818,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B1%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Frankenstein",
+        "note": "科学によって生命を作る恐怖を物語化。怪異の原因を魔法ではなく人間の知識と技術そのものに置いた。",
+        "note_en": "A foundational story of terror produced by creating life through science, relocating horror from magic to human knowledge and technology."
+      }
+    ],
+    "1819": [
+      {
+        "label": "ジョン・ポリドリ『吸血鬼』刊行",
+        "label_en": "John Polidori's The Vampyre is published",
+        "startYear": 1819,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%B8%E8%A1%80%E9%AC%BC_(%E5%B0%8F%E8%AA%AC)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Vampyre",
+        "note": "貴族的で魅惑的な吸血鬼像を文学に定着させ、後のドラキュラ像へつながる近代吸血鬼文学の出発点となった。",
+        "note_en": "Polidori fixed the aristocratic, seductive vampire in literature and helped launch the modern vampire tradition that would lead to Dracula."
+      }
+    ],
+    "1820": [
+      {
+        "label": "ワシントン・アーヴィング『スリーピー・ホロウの伝説』刊行",
+        "label_en": "The Legend of Sleepy Hollow is published",
+        "startYear": 1820,
+        "genre": [
+          "LITERATURE",
+          "FOLKLORE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%94%E3%83%BC%E3%83%BB%E3%83%9B%E3%83%AD%E3%82%A6",
+        "url_en": "https://en.wikipedia.org/wiki/The_Legend_of_Sleepy_Hollow",
+        "note": "首なし騎士の怪談を米国文学の古典へ変えた作品。地域伝承と近代的な短編文学が結びついた。",
+        "note_en": "Irving turned the Headless Horseman into an American literary classic, joining regional folklore to modern short fiction."
+      }
+    ],
+    "1845": [
+      {
+        "label": "エドガー・アラン・ポー「大鴉」発表",
+        "label_en": "Edgar Allan Poe publishes The Raven",
+        "startYear": 1845,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%B4%89_(%E3%83%9D%E3%83%BC)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Raven",
+        "note": "死者への執着、喪失、狂気を反復する詩。超自然の実在よりも精神が壊れていく恐怖を強く印象づけた。",
+        "note_en": "A poem of grief, repetition and obsession that made psychological disintegration as frightening as any literal supernatural presence."
+      }
+    ],
+    "1886": [
+      {
+        "label": "『ジキル博士とハイド氏』刊行",
+        "label_en": "Strange Case of Dr Jekyll and Mr Hyde is published",
+        "startYear": 1886,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AD%E3%83%AB%E5%8D%9A%E5%A3%AB%E3%81%A8%E3%83%8F%E3%82%A4%E3%83%89%E6%B0%8F",
+        "url_en": "https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde",
+        "note": "善良な人格の内側に潜む別人格を怪物として描いた。恐怖の源が外部の怪異から「自分の中」に移る重要な作品。",
+        "note_en": "A landmark story in which the monster lives inside the respectable self, shifting horror from an external supernatural threat toward divided identity."
+      }
+    ],
+    "1888": [
+      {
+        "label": "切り裂きジャック事件",
+        "label_en": "Jack the Ripper murders",
+        "startYear": 1888,
+        "genre": [
+          "SOCIAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%87%E3%82%8A%E8%A3%82%E3%81%8D%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF",
+        "url_en": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+        "note": "ロンドンで連続殺人が発生し、新聞報道が正体不明の犯人を巨大な恐怖の物語へ変えた。実事件とメディア怪談が接近した例。",
+        "note_en": "A series of murders in London became a media-generated nightmare around an unknown killer, bringing real crime and horror storytelling unusually close."
+      }
+    ],
+    "1897": [
+      {
+        "label": "ブラム・ストーカー『ドラキュラ』刊行",
+        "label_en": "Bram Stoker's Dracula is published",
+        "startYear": 1897,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9",
+        "url_en": "https://en.wikipedia.org/wiki/Dracula",
+        "note": "吸血鬼を近代都市、通信、医学、異文化への不安と結びつけたゴシック小説。20世紀以降の怪物像に決定的な影響を与えた。",
+        "note_en": "A Gothic novel linking vampirism with the modern city, communication, medicine and fear of outsiders, decisively shaping twentieth-century monster culture."
+      }
+    ],
+    "1920": [
+      {
+        "label": "映画『カリガリ博士』公開",
+        "label_en": "The Cabinet of Dr. Caligari is released",
+        "startYear": 1920,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AA%E3%82%AC%E3%83%AA%E5%8D%9A%E5%A3%AB",
+        "url_en": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari",
+        "note": "歪んだ美術と不安定な語りで狂気そのものを空間化したドイツ表現主義映画。心理ホラーの映像文法に大きな影響を与えた。",
+        "note_en": "A German Expressionist film whose distorted sets and unstable narration turned madness into physical space and deeply influenced visual psychological horror."
+      }
+    ],
+    "1922": [
+      {
+        "label": "映画『吸血鬼ノスフェラトゥ』公開",
+        "label_en": "Nosferatu is released",
+        "startYear": 1922,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%90%B8%E8%A1%80%E9%AC%BC%E3%83%8E%E3%82%B9%E3%83%95%E3%82%A7%E3%83%A9%E3%83%88%E3%82%A5",
+        "url_en": "https://en.wikipedia.org/wiki/Nosferatu",
+        "note": "吸血鬼を疫病や影のイメージと結びつけた無声映画。映画そのものが怪物を作る媒体になった初期の代表作。",
+        "note_en": "A silent-film landmark that linked the vampire with plague and shadow, demonstrating cinema's unique ability to manufacture monsters."
+      }
+    ],
+    "1928": [
+      {
+        "label": "H・P・ラヴクラフト「クトゥルフの呼び声」掲載",
+        "label_en": "H. P. Lovecraft's The Call of Cthulhu is published",
+        "startYear": 1928,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%95%E3%81%AE%E5%91%BC%E3%81%B3%E5%A3%B0",
+        "url_en": "https://en.wikipedia.org/wiki/The_Call_of_Cthulhu",
+        "note": "人間には理解できない宇宙的存在を恐怖の中心に置いた。怪物よりも、人間の世界観が崩壊すること自体を怖がる宇宙的恐怖の代表。",
+        "note_en": "A defining work of cosmic horror in which the true terror is not merely a monster but the collapse of humanity's assumed place in the universe."
+      }
+    ],
+    "1938": [
+      {
+        "label": "ラジオドラマ『宇宙戦争』放送",
+        "label_en": "Orson Welles's War of the Worlds radio broadcast airs",
+        "startYear": 1938,
+        "genre": [
+          "TV",
+          "SOCIAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E6%88%A6%E4%BA%89_(%E3%83%A9%E3%82%B8%E3%82%AA)",
+        "url_en": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)",
+        "note": "ニュース速報風の演出で火星侵略を描いた放送。実際のパニックの規模は後世に誇張されたが、メディアを本物と信じる恐怖の象徴になった。",
+        "note_en": "A news-bulletin-style dramatization of Martian invasion; although later accounts exaggerated the panic, it became an enduring symbol of fear produced by trusting media as reality."
+      }
+    ],
+    "1947": [
+      {
+        "label": "ロズウェル事件",
+        "label_en": "Roswell incident",
+        "startYear": 1947,
+        "genre": [
+          "SOCIAL",
+          "OCCULT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%BA%E3%82%A6%E3%82%A7%E3%83%AB%E4%BA%8B%E4%BB%B6",
+        "url_en": "https://en.wikipedia.org/wiki/Roswell_incident",
+        "note": "米ニューメキシコ州で回収物をめぐる報道が起き、のちに宇宙人・政府隠蔽説の中心的物語へ発展した。",
+        "note_en": "Reports surrounding recovered debris in New Mexico later grew into one of the central stories of alien visitation and government-cover-up culture."
+      }
+    ],
+    "1956": [
+      {
+        "label": "映画『ボディ・スナッチャー／恐怖の街』公開",
+        "label_en": "Invasion of the Body Snatchers is released",
+        "startYear": 1956,
+        "genre": [
+          "FILM",
+          "SOCIAL"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%87%E3%82%A3%E3%83%BB%E3%82%B9%E3%83%8A%E3%83%83%E3%83%81%E3%83%A3%E3%83%BC/%E6%81%90%E6%80%96%E3%81%AE%E8%A1%97",
+        "url_en": "https://en.wikipedia.org/wiki/Invasion_of_the_Body_Snatchers",
+        "note": "身近な人が外見そのままに別物へ置き換わる恐怖を描き、冷戦期の同調圧力や潜入者への不安と重ねて読まれた。",
+        "note_en": "A story of familiar people being invisibly replaced, widely read alongside Cold War anxieties about conformity and hidden infiltration."
+      }
+    ],
+    "1960": [
+      {
+        "label": "映画『サイコ』公開",
+        "label_en": "Psycho is released",
+        "startYear": 1960,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%82%B3_(1960%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+        "note": "超自然的な怪物ではなく、普通に見える人間と日常空間を恐怖の源にした。現代的サイコホラーとスラッシャーの重要な先駆。",
+        "note_en": "A major shift toward fear of apparently ordinary people and spaces rather than supernatural monsters, anticipating psychological horror and the slasher tradition."
+      }
+    ],
+    "1968": [
+      {
+        "label": "映画『ナイト・オブ・ザ・リビングデッド』公開",
+        "label_en": "Night of the Living Dead is released",
+        "startYear": 1968,
+        "genre": [
+          "FILM",
+          "SOCIAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%83%87%E3%83%83%E3%83%89",
+        "url_en": "https://en.wikipedia.org/wiki/Night_of_the_Living_Dead",
+        "note": "死者が群れで襲う現代的ゾンビ像を確立。社会秩序の崩壊そのものを恐怖として描く以後の災厄ホラーの原型になった。",
+        "note_en": "The film established the modern flesh-eating zombie horde and made social collapse itself a core engine of horror."
+      }
+    ],
+    "1973": [
+      {
+        "label": "映画『エクソシスト』公開",
+        "label_en": "The Exorcist is released",
+        "startYear": 1973,
+        "genre": [
+          "FILM",
+          "OCCULT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%AF%E3%82%BD%E3%82%B7%E3%82%B9%E3%83%88_(%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Exorcist",
+        "note": "少女への悪魔憑きを写実的に描き、宗教的恐怖を現代家庭へ持ち込んだ。公開時には強い社会的反響を呼んだ。",
+        "note_en": "A realistic depiction of demonic possession that brought religious terror into the modern family home and provoked intense public reaction."
+      }
+    ],
+    "1974": [
+      {
+        "label": "映画『悪魔のいけにえ』公開",
+        "label_en": "The Texas Chain Saw Massacre is released",
+        "startYear": 1974,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%82%AA%E9%AD%94%E3%81%AE%E3%81%84%E3%81%91%E3%81%AB%E3%81%88",
+        "url_en": "https://en.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre",
+        "note": "荒涼とした現実感と疑似ドキュメンタリー的な触感で、怪異ではなく人間そのものを恐怖の中心に据えた。",
+        "note_en": "Its grim realism and pseudo-documentary texture placed human violence, rather than the supernatural, at the center of horror."
+      }
+    ],
+    "1976": [
+      {
+        "label": "映画『オーメン』公開",
+        "label_en": "The Omen is released",
+        "startYear": 1976,
+        "genre": [
+          "FILM",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%A1%E3%83%B3_(1976%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Omen",
+        "note": "反キリストの子どもが現代社会に入り込む物語。宗教的終末論と家庭の不安を結びつけた1970年代オカルト映画の代表。",
+        "note_en": "A defining 1970s occult film linking apocalyptic Christian imagery to anxiety inside the modern family."
+      }
+    ],
+    "1979": [
+      {
+        "label": "映画『エイリアン』公開",
+        "label_en": "Alien is released",
+        "startYear": 1979,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3_(%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Alien_(film)",
+        "note": "宇宙船という閉鎖空間に未知生物を持ち込み、SFとホラーを融合。身体侵入や企業による生命軽視も恐怖として描いた。",
+        "note_en": "A fusion of science fiction and horror in a sealed spacecraft, combining fear of bodily invasion with corporate disregard for human life."
+      }
+    ],
+    "1980": [
+      {
+        "label": "映画『シャイニング』公開",
+        "label_en": "The Shining is released",
+        "startYear": 1980,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0_(%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Shining_(film)",
+        "note": "巨大ホテルの空間、家族内暴力、狂気を重ねた作品。幽霊屋敷の恐怖を近代的な心理と映像表現へ更新した。",
+        "note_en": "A haunted-hotel story that fused architectural unease, family violence and madness, modernizing the haunted-house tradition through cinema."
+      }
+    ],
+    "1984": [
+      {
+        "label": "映画『エルム街の悪夢』公開",
+        "label_en": "A Nightmare on Elm Street is released",
+        "startYear": 1984,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%A0%E8%A1%97%E3%81%AE%E6%82%AA%E5%A4%A2",
+        "url_en": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street",
+        "note": "眠れば襲われるという設定で、安全な逃げ場そのものをなくした。夢と現実を行き来する怪物フレディがポップカルチャーの象徴になった。",
+        "note_en": "By making sleep itself dangerous, the film removed the possibility of safety; Freddy Krueger became a major pop-culture monster crossing dream and reality."
+      }
+    ],
+    "1999": [
+      {
+        "label": "映画『ブレア・ウィッチ・プロジェクト』公開",
+        "label_en": "The Blair Witch Project is released",
+        "startYear": 1999,
+        "genre": [
+          "FILM",
+          "INTERNET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%82%A2%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88",
+        "url_en": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project",
+        "note": "発見映像という形式と初期Webマーケティングを組み合わせ、作品外の情報まで含めて「本当にあったのか」を疑わせた。",
+        "note_en": "By combining found-footage form with early web marketing, the film extended uncertainty beyond the screen and encouraged audiences to ask whether the story might be real."
+      }
+    ],
+    "2007": [
+      {
+        "label": "SCP-173が4chanに投稿される",
+        "label_en": "SCP-173 is posted to 4chan",
+        "startYear": 2007,
+        "genre": [
+          "INTERNET",
+          "FOLKLORE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/SCP_Foundation",
+        "url_en": "https://en.wikipedia.org/wiki/SCP_Foundation",
+        "note": "異常存在を研究機関の報告書として記述する投稿から、共同創作世界SCP Foundationが発展。ネット怪談が巨大な共有世界を形成する転機。",
+        "note_en": "A post describing an anomalous entity in the style of a containment report grew into the collaborative SCP Foundation universe, a turning point for shared online horror worlds."
+      }
+    ],
+    "2009": [
+      {
+        "label": "Slender Man誕生",
+        "label_en": "Slender Man is created",
+        "startYear": 2009,
+        "genre": [
+          "INTERNET",
+          "URBAN_LEGEND"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Slender_Man",
+        "note": "Something Awfulの画像投稿企画から生まれた架空の怪人。参加者が写真、文章、動画を追加し、短期間で本物の都市伝説のように成長した。",
+        "note_en": "A fictional figure created in a Something Awful image thread that rapidly acquired photos, stories and videos from participants until it resembled an organically grown urban legend."
+      }
+    ],
+    "2014": [
+      {
+        "label": "ゲーム『Five Nights at Freddy's』発売",
+        "label_en": "Five Nights at Freddy's is released",
+        "startYear": 2014,
+        "genre": [
+          "GAME",
+          "INTERNET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Five_Nights_at_Freddy%27s",
+        "url_en": "https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s_(video_game)",
+        "note": "監視カメラ越しに店内を見張るゲーム。プレイヤー自身が映像を監視し、見落としを恐れるというインタラクティブな恐怖を大衆化した。",
+        "note_en": "A game built around watching security cameras, popularizing an interactive form of fear in which the player's own act of surveillance and possible oversight become the threat."
+      }
+    ],
+    "2019": [
+      {
+        "label": "ネット怪談「The Backrooms」誕生",
+        "label_en": "The Backrooms emerges online",
+        "startYear": 2019,
+        "genre": [
+          "INTERNET",
+          "URBAN_LEGEND"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%A0",
+        "url_en": "https://en.wikipedia.org/wiki/The_Backrooms",
+        "note": "無人の黄色い部屋の写真と短文から始まったネット怪談。リミナルスペースという、誰もいない日常空間そのものの不気味さを巨大な共同創作へ発展させた。",
+        "note_en": "An image and short text about endless yellow rooms grew into a vast collaborative mythos, making the eerie emptiness of liminal everyday spaces a major internet-horror aesthetic."
+      }
+    ],
+    "2021": [
+      {
+        "label": "Webシリーズ『The Mandela Catalogue』開始",
+        "label_en": "The Mandela Catalogue begins",
+        "startYear": 2021,
+        "genre": [
+          "INTERNET",
+          "FILM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0%E3%83%9B%E3%83%A9%E3%83%BC",
+        "url_en": "https://en.wikipedia.org/wiki/The_Mandela_Catalogue",
+        "note": "公共放送や監視映像を模した低解像度映像で、人間そっくりの存在への恐怖を描く。2020年代のアナログホラーを代表するWeb作品。",
+        "note_en": "A web series using degraded public-broadcast and surveillance aesthetics to depict human-like impostors, becoming a defining work of 2020s analog horror."
+      }
+    ]
+  },
+  "eraSettings": [
+    {
+      "name": "魔女と宗教的恐怖",
+      "startYear": 1487,
+      "endYear": 1763,
+      "color": "#6B4F3A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ゴシック文学と怪物",
+      "startYear": 1764,
+      "endYear": 1919,
+      "color": "#4F6D7A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "映画と大衆恐怖",
+      "startYear": 1920,
+      "endYear": 1959,
+      "color": "#8A5A83",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "現代ホラー映画の成立",
+      "startYear": 1960,
+      "endYear": 1989,
+      "color": "#7A3E48",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "リアリティとネットの接続",
+      "startYear": 1990,
+      "endYear": 2006,
+      "color": "#3E6B68",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "共同創作ネットホラー",
+      "startYear": 2007,
+      "endYear": "ongoing",
+      "color": "#5C5C8A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "FOLKLORE",
+      "label": "伝承・怪談",
+      "label_en": "Folklore / Ghost Tales",
+      "conjunction": false
+    },
+    {
+      "code": "LITERATURE",
+      "label": "文学・出版",
+      "label_en": "Literature / Publishing",
+      "conjunction": false
+    },
+    {
+      "code": "PERFORMANCE",
+      "label": "舞台・口演",
+      "label_en": "Performance / Storytelling",
+      "conjunction": false
+    },
+    {
+      "code": "FILM",
+      "label": "映画・映像",
+      "label_en": "Film / Video",
+      "conjunction": false
+    },
+    {
+      "code": "TV",
+      "label": "テレビ・放送",
+      "label_en": "Television / Broadcasting",
+      "conjunction": false
+    },
+    {
+      "code": "URBAN_LEGEND",
+      "label": "都市伝説",
+      "label_en": "Urban Legend",
+      "conjunction": false
+    },
+    {
+      "code": "OCCULT",
+      "label": "心霊・オカルト",
+      "label_en": "Occult / Paranormal",
+      "conjunction": false
+    },
+    {
+      "code": "INTERNET",
+      "label": "ネット怪談",
+      "label_en": "Internet Horror",
+      "conjunction": false
+    },
+    {
+      "code": "GAME",
+      "label": "ゲーム",
+      "label_en": "Game",
+      "conjunction": false
+    },
+    {
+      "code": "SOCIAL",
+      "label": "社会現象・事件",
+      "label_en": "Social Phenomenon / Event",
+      "conjunction": false
+    }
+  ]
+}

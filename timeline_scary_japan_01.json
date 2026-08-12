@@ -1,0 +1,631 @@
+{
+  "metadata": {
+    "title": {
+      "ja": "怖い話年表・日本 1.0",
+      "en": "Japanese Horror & Scary Stories Timeline 1.0"
+    },
+    "description": {
+      "ja": "日本で人々が何を怖がり、どのような媒体で怪談や恐怖が広がってきたかを、年を特定できる作品・出版・公開・ネット初出・社会現象でたどる年表。",
+      "en": "A timeline of how fear, ghost stories and horror spread in Japan, using datable publications, performances, films, online first appearances and social phenomena."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "OpenAI"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "x": "https://x.com/hortense667"
+      }
+    },
+    "createdAt": "2026-08-12",
+    "version": "1.0",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2026 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "updatedAt": "2026-08-12",
+    "notes": "年代やブームのような曖昧な期間表現を避け、原則として初演・刊行・公開・投稿・社会現象の発生など単年に置ける出来事を採用した。"
+  },
+  "events": {
+    "1666": [
+      {
+        "label": "浅井了意『伽婢子』刊行",
+        "label_en": "Asai Ryōi publishes Otogi Bōko",
+        "startYear": 1666,
+        "genre": [
+          "FOLKLORE",
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BC%BD%E5%A9%A2%E5%AD%90",
+        "url_en": "https://en.wikipedia.org/wiki/Otogi_B%C5%8Dko",
+        "note": "江戸初期を代表する怪異小説集。百物語の作法を記した早い例としても知られ、口承の怪談が出版文化へ移る節目になった。",
+        "note_en": "An early-Edo collection of supernatural tales and an early printed description of the Hyakumonogatari format, marking the move of ghost stories into print culture."
+      }
+    ],
+    "1677": [
+      {
+        "label": "『諸国百物語』刊行",
+        "label_en": "Shokoku Hyakumonogatari is published",
+        "startYear": 1677,
+        "genre": [
+          "FOLKLORE",
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E7%99%BE%E7%89%A9%E8%AA%9E",
+        "url_en": "https://en.wikipedia.org/wiki/Hyakumonogatari_Kaidankai",
+        "note": "諸国の怪談を集めた百物語形式の代表的な版本。江戸時代の怪談ブームを象徴する具体的な出版物。",
+        "note_en": "A representative printed collection in the Hyakumonogatari tradition, embodying the Edo-period boom in ghost-story culture."
+      }
+    ],
+    "1776": [
+      {
+        "label": "上田秋成『雨月物語』刊行",
+        "label_en": "Ueda Akinari publishes Ugetsu Monogatari",
+        "startYear": 1776,
+        "genre": [
+          "LITERATURE",
+          "FOLKLORE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E6%9C%88%E7%89%A9%E8%AA%9E",
+        "url_en": "https://en.wikipedia.org/wiki/Ugetsu_Monogatari",
+        "note": "怪異と人間の情念を結びつけた九編の読本。日本怪談文学の古典として後世の文学・映画に大きな影響を与えた。",
+        "note_en": "A nine-story classic joining the supernatural with human desire and obsession, highly influential on later Japanese horror literature and film."
+      }
+    ],
+    "1825": [
+      {
+        "label": "歌舞伎『東海道四谷怪談』初演",
+        "label_en": "Tōkaidō Yotsuya Kaidan premieres",
+        "startYear": 1825,
+        "genre": [
+          "PERFORMANCE",
+          "FOLKLORE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93%E5%9B%9B%E8%B0%B7%E6%80%AA%E8%AB%87",
+        "url_en": "https://en.wikipedia.org/wiki/Yotsuya_Kaidan",
+        "note": "四代目鶴屋南北による歌舞伎が江戸・中村座で初演。お岩の怨霊像を定着させ、日本でもっとも有名な怪談の一つとなった。",
+        "note_en": "Tsuruya Nanboku IV's kabuki play premiered at Edo's Nakamura-za, fixing Oiwa's vengeful ghost in popular culture."
+      }
+    ],
+    "1904": [
+      {
+        "label": "小泉八雲『怪談』刊行",
+        "label_en": "Lafcadio Hearn publishes Kwaidan",
+        "startYear": 1904,
+        "genre": [
+          "LITERATURE",
+          "FOLKLORE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E8%AB%87_(%E5%B0%8F%E6%B3%89%E5%85%AB%E9%9B%B2)",
+        "url_en": "https://en.wikipedia.org/wiki/Kwaidan:_Stories_and_Studies_of_Strange_Things",
+        "note": "雪女、耳なし芳一などを英語で紹介した怪談集。日本の怪談が近代文学として海外にも伝わる重要な媒介になった。",
+        "note_en": "Hearn's English-language collection, including Yuki-onna and Mimi-nashi Hōichi, became a major bridge carrying Japanese ghost tales abroad."
+      }
+    ],
+    "1953": [
+      {
+        "label": "映画『雨月物語』公開",
+        "label_en": "Kenji Mizoguchi's Ugetsu is released",
+        "startYear": 1953,
+        "genre": [
+          "FILM",
+          "FOLKLORE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E9%9B%A8%E6%9C%88%E7%89%A9%E8%AA%9E_(%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Ugetsu",
+        "note": "溝口健二監督が古典怪談を映画化。幽霊を直接的な怪物ではなく、美しさと哀しさを帯びた存在として世界映画に刻んだ。",
+        "note_en": "Kenji Mizoguchi transformed classical ghost tales into cinema, presenting the supernatural with beauty and melancholy rather than simple monstrosity."
+      }
+    ],
+    "1959": [
+      {
+        "label": "中川信夫監督『東海道四谷怪談』公開",
+        "label_en": "Nobuo Nakagawa's The Ghost of Yotsuya is released",
+        "startYear": 1959,
+        "genre": [
+          "FILM",
+          "FOLKLORE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93%E5%9B%9B%E8%B0%B7%E6%80%AA%E8%AB%87_(1959%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/The_Ghost_of_Yotsuya",
+        "note": "鮮烈な色彩と残酷描写で四谷怪談を映像化。戦後日本の怪談映画を代表する一本となった。",
+        "note_en": "A vivid, gruesome film version of Yotsuya Kaidan that became a landmark of postwar Japanese ghost cinema."
+      }
+    ],
+    "1964": [
+      {
+        "label": "小林正樹監督『怪談』公開",
+        "label_en": "Masaki Kobayashi's Kwaidan is released",
+        "startYear": 1964,
+        "genre": [
+          "FILM",
+          "FOLKLORE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E8%AB%87_(1964%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Kwaidan_(film)",
+        "note": "小泉八雲の怪談を大規模な美術と色彩で映画化。日本的な怪異表現が国際的な映画文脈で評価された。",
+        "note_en": "A lavish adaptation of Hearn's tales whose stylized sets and color helped establish Japanese supernatural aesthetics internationally."
+      }
+    ],
+    "1968": [
+      {
+        "label": "映画『妖怪百物語』公開",
+        "label_en": "Yokai Monsters: One Hundred Monsters is released",
+        "startYear": 1968,
+        "genre": [
+          "FILM",
+          "FOLKLORE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E7%99%BE%E7%89%A9%E8%AA%9E",
+        "url_en": "https://en.wikipedia.org/wiki/Yokai_Monsters:_One_Hundred_Monsters",
+        "note": "百物語と妖怪を娯楽映画として結びつけた大映作品。古典的な妖怪が戦後の大衆文化へ再編される一例。",
+        "note_en": "A Daiei film combining the Hyakumonogatari format with yōkai spectacle, recasting classical monsters for postwar mass entertainment."
+      }
+    ],
+    "1973": [
+      {
+        "label": "つのだじろう『恐怖新聞』連載開始",
+        "label_en": "Jirō Tsunoda begins serializing Kyōfu Shinbun",
+        "startYear": 1973,
+        "genre": [
+          "LITERATURE",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E6%81%90%E6%80%96%E6%96%B0%E8%81%9E",
+        "url_en": "https://en.wikipedia.org/wiki/Kyofu_Shimbun",
+        "note": "未来の死や災厄を告げる新聞を題材にした漫画。1970年代の心霊・超能力ブームと結びついたオカルトホラーの代表作。",
+        "note_en": "A manga about a newspaper predicting death and disaster, emblematic of Japan's 1970s fascination with psychic and occult phenomena."
+      },
+      {
+        "label": "五島勉『ノストラダムスの大予言』刊行",
+        "label_en": "Tsutomu Goto publishes The Prophecies of Nostradamus",
+        "startYear": 1973,
+        "genre": [
+          "LITERATURE",
+          "SOCIAL",
+          "OCCULT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%82%B9%E3%83%88%E3%83%A9%E3%83%80%E3%83%A0%E3%82%B9%E3%81%AE%E5%A4%A7%E4%BA%88%E8%A8%80",
+        "url_en": "https://en.wikipedia.org/wiki/Nostradamus_in_popular_culture",
+        "note": "1999年に人類が滅亡するという読みを日本社会に広めた大ベストセラー。怪談とは異なる「終末が本当に来るかもしれない」という恐怖を大衆化した。",
+        "note_en": "A huge bestseller that popularized the idea that humanity might perish in 1999, turning apocalyptic prediction into a widely shared everyday fear."
+      }
+    ],
+    "1979": [
+      {
+        "label": "口裂け女が全国的な社会現象になる",
+        "label_en": "Kuchisake-onna becomes a nationwide phenomenon",
+        "startYear": 1979,
+        "genre": [
+          "URBAN_LEGEND",
+          "SOCIAL"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%8F%A3%E8%A3%82%E3%81%91%E5%A5%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Kuchisake-onna",
+        "note": "学校の口コミと新聞・週刊誌報道が増幅し、短期間で全国へ拡散。戦後日本の都市伝説を代表する事例となった。",
+        "note_en": "Schoolyard rumor and mass-media coverage amplified one another, spreading the Slit-Mouthed Woman nationwide and defining a modern Japanese urban legend."
+      }
+    ],
+    "1985": [
+      {
+        "label": "荒俣宏『帝都物語』刊行開始",
+        "label_en": "Hiroshi Aramata begins publishing Teito Monogatari",
+        "startYear": 1985,
+        "genre": [
+          "LITERATURE",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%B8%9D%E9%83%BD%E7%89%A9%E8%AA%9E",
+        "url_en": "https://en.wikipedia.org/wiki/Teito_Monogatari",
+        "note": "東京の近代史を怨霊・陰陽道・風水と結びつけた大作。都市そのものを巨大なオカルト空間として読む感覚を広めた。",
+        "note_en": "A sprawling novel linking Tokyo's modern history with spirits, onmyōdō and geomancy, turning the metropolis itself into an occult landscape."
+      }
+    ],
+    "1987": [
+      {
+        "label": "雑誌『ほんとにあった怖い話』創刊",
+        "label_en": "Honto ni Atta Kowai Hanashi magazine begins",
+        "startYear": 1987,
+        "genre": [
+          "LITERATURE",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000077240",
+        "url_en": "https://en.wikipedia.org/wiki/Honto_ni_Atta_Kowai_Hanashi",
+        "note": "読者投稿を「実話」として扱う怪談雑誌がスタート。フィクションではなく体験談として怖さを消費する形式を定着させた。",
+        "note_en": "A reader-submission horror magazine began publication, helping establish the format of consuming frightening stories as claimed real experiences rather than fiction."
+      }
+    ],
+    "1990": [
+      {
+        "label": "常光徹『学校の怪談』第1巻刊行",
+        "label_en": "Tōru Tsunemitsu publishes the first Gakkō no Kaidan volume",
+        "startYear": 1990,
+        "genre": [
+          "LITERATURE",
+          "URBAN_LEGEND"
+        ],
+        "imp": 5,
+        "url": "https://www.kodansha.co.jp/book/products/0000169423",
+        "url_en": "https://en.wikipedia.org/wiki/Gakk%C5%8D_no_Kaidan",
+        "note": "トイレの花子さん、人面犬など学校で語られる怪異をまとめた児童書。1990年代の「学校の怪談」ブームの核になった。",
+        "note_en": "A children's collection of school legends such as Hanako-san and the human-faced dog, becoming a core text of Japan's 1990s school-horror boom."
+      }
+    ],
+    "1991": [
+      {
+        "label": "鈴木光司『リング』刊行",
+        "label_en": "Koji Suzuki publishes Ring",
+        "startYear": 1991,
+        "genre": [
+          "LITERATURE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B0_(%E9%88%B4%E6%9C%A8%E5%85%89%E5%8F%B8%E3%81%AE%E5%B0%8F%E8%AA%AC)",
+        "url_en": "https://en.wikipedia.org/wiki/Ring_(Suzuki_novel)",
+        "note": "呪いとビデオ、情報伝播を結びつけた小説。のちのJホラーを方向づけた基礎作品。",
+        "note_en": "A novel joining curse, videotape and information transmission, laying conceptual groundwork for the J-horror wave."
+      }
+    ],
+    "1995": [
+      {
+        "label": "映画『学校の怪談』公開",
+        "label_en": "School Ghost Stories is released",
+        "startYear": 1995,
+        "genre": [
+          "FILM",
+          "URBAN_LEGEND"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E3%81%AE%E6%80%AA%E8%AB%87_(%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/School_Ghost_Stories",
+        "note": "学校の七不思議や妖怪を子ども向け娯楽映画へ展開。怪談が夏休みの大型エンターテインメントとして定着した。",
+        "note_en": "School legends and yōkai became mainstream summer entertainment for children through a major theatrical film series."
+      }
+    ],
+    "1998": [
+      {
+        "label": "映画『リング』公開",
+        "label_en": "Hideo Nakata's Ring is released",
+        "startYear": 1998,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%B0_(1998%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Ring_(film)",
+        "note": "中田秀夫監督による映画版。テレビとビデオという日常的メディアそのものを恐怖装置に変え、Jホラーを世界的現象にした。",
+        "note_en": "Hideo Nakata's adaptation turned television and videotape themselves into instruments of fear and helped make J-horror a global phenomenon."
+      }
+    ],
+    "1999": [
+      {
+        "label": "『ほんとにあった！呪いのビデオ』シリーズ開始",
+        "label_en": "Honto ni Atta! Noroi no Video series begins",
+        "startYear": 1999,
+        "genre": [
+          "FILM",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%81%A8%E3%81%AB%E3%81%82%E3%81%A3%E3%81%9F!_%E5%91%AA%E3%81%84%E3%81%AE%E3%83%93%E3%83%87%E3%82%AA",
+        "url_en": "https://en.wikipedia.org/wiki/Honto_ni_Atta!_Noroi_no_Video",
+        "note": "投稿映像を検証する疑似ドキュメンタリー形式の長寿シリーズが開始。「映像に何かが映っている」という怖さを量産した。",
+        "note_en": "A long-running pseudo-documentary series based on submitted footage began, industrializing the fear that something inexplicable might be visible in ordinary video."
+      }
+    ],
+    "2000": [
+      {
+        "label": "Vシネマ『呪怨』発売",
+        "label_en": "Ju-On: The Curse is released on video",
+        "startYear": 2000,
+        "genre": [
+          "FILM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E5%91%AA%E6%80%A8",
+        "url_en": "https://en.wikipedia.org/wiki/Ju-On:_The_Curse",
+        "note": "清水崇監督のVシネマ版が登場。因果を断ち切れず、場所に触れただけで呪いが連鎖するという逃げ場のない恐怖を提示した。",
+        "note_en": "Takashi Shimizu's direct-to-video film presented an inescapable curse that spreads through contact with a place rather than through moral causality."
+      }
+    ],
+    "2001": [
+      {
+        "label": "ネット怪談「くねくね」が広まる",
+        "label_en": "The internet legend Kunekune spreads",
+        "startYear": 2001,
+        "genre": [
+          "INTERNET",
+          "URBAN_LEGEND"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8F%E3%81%AD%E3%81%8F%E3%81%AD",
+        "url_en": "https://en.wikipedia.org/wiki/Kunekune_(urban_legend)",
+        "note": "遠くの田畑に見える白い何かを認識すると正気を失う、というネット発の怪談。掲示板文化が独自の怪異を生み始めた象徴。",
+        "note_en": "An online legend about a distant white, writhing figure whose true nature drives viewers insane, emblematic of message boards generating new native folklore."
+      }
+    ],
+    "2004": [
+      {
+        "label": "2ちゃんねるに「きさらぎ駅」が投稿される",
+        "label_en": "Kisaragi Station is posted to 2channel",
+        "startYear": 2004,
+        "genre": [
+          "INTERNET",
+          "URBAN_LEGEND"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%95%E3%82%89%E3%81%8E%E9%A7%85",
+        "url_en": "https://en.wikipedia.org/wiki/Kisaragi_Station",
+        "note": "存在しない駅に着いた人物が掲示板で実況する形式の怪談。読者がリアルタイムで参加する「実況型ネット怪談」の代表例。",
+        "note_en": "A poster apparently stranded at a nonexistent station narrated events live on a message board, creating a classic participatory, real-time internet ghost story."
+      }
+    ],
+    "2005": [
+      {
+        "label": "白石晃士監督『ノロイ』公開",
+        "label_en": "Kōji Shiraishi's Noroi is released",
+        "startYear": 2005,
+        "genre": [
+          "FILM",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AD%E3%82%A4",
+        "url_en": "https://en.wikipedia.org/wiki/Noroi:_The_Curse",
+        "note": "テレビ取材、ホームビデオ、資料映像を組み合わせ、実在の事件記録のように見せるモキュメンタリー型ホラーを代表する作品。",
+        "note_en": "A landmark mock-documentary combining television reports, home video and archival material to resemble the record of a real occult investigation."
+      }
+    ],
+    "2008": [
+      {
+        "label": "ネット怪談「八尺様」が投稿される",
+        "label_en": "The internet legend Hachishaku-sama appears",
+        "startYear": 2008,
+        "genre": [
+          "INTERNET",
+          "URBAN_LEGEND"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%AB%E5%B0%BA%E6%A7%98",
+        "url_en": "https://yokai.com/hachishakusama/",
+        "note": "異様に背の高い女の怪異を描く掲示板発の物語。ネット上で生まれた怪異が画像・動画・海外ファンダムへ二次拡散する典型例。",
+        "note_en": "A message-board story about an unnaturally tall woman, illustrating how web-born Japanese monsters could spread onward through images, videos and international fandom."
+      }
+    ],
+    "2013": [
+      {
+        "label": "テレビアニメ『闇芝居』放送開始",
+        "label_en": "Yamishibai: Japanese Ghost Stories begins airing",
+        "startYear": 2013,
+        "genre": [
+          "TV",
+          "FOLKLORE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E9%97%87%E8%8A%9D%E5%B1%85",
+        "url_en": "https://en.wikipedia.org/wiki/Yamishibai:_Japanese_Ghost_Stories",
+        "note": "紙芝居風の短編アニメとして古典怪談と現代怪談を再構成。スマートフォン時代に合った数分単位の恐怖表現を定着させた。",
+        "note_en": "A short-form paper-theater-style anime that remixed old and new ghost tales for an era of bite-sized, mobile-friendly horror."
+      }
+    ],
+    "2016": [
+      {
+        "label": "映画『残穢―住んではいけない部屋―』公開",
+        "label_en": "The Inerasable is released",
+        "startYear": 2016,
+        "genre": [
+          "FILM",
+          "LITERATURE"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E6%AE%8B%E7%A9%A2",
+        "url_en": "https://en.wikipedia.org/wiki/The_Inerasable",
+        "note": "小野不由美の小説を映画化。怪異の原因を土地と過去へさかのぼって調査する構造が、都市生活と履歴の見えない怖さを結びつけた。",
+        "note_en": "An adaptation of Fuyumi Ono's novel in which investigation traces a haunting backward through a property's history, linking urban living with invisible layers of the past."
+      }
+    ],
+    "2018": [
+      {
+        "label": "松原タニシ『事故物件怪談 恐い間取り』刊行",
+        "label_en": "Tanishi Matsubara publishes Stigmatized Properties: Scary Floor Plans",
+        "startYear": 2018,
+        "genre": [
+          "LITERATURE",
+          "SOCIAL",
+          "OCCULT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BA%8B%E6%95%85%E7%89%A9%E4%BB%B6%E6%80%AA%E8%AB%87_%E6%81%90%E3%81%84%E9%96%93%E5%8F%96%E3%82%8A",
+        "url_en": "https://en.wikipedia.org/wiki/Stigmatized_Properties",
+        "note": "実際に事故物件に住んだ体験をもとにした怪談集。賃貸住宅という極めて日常的な場所に、過去の死の履歴が残るという恐怖を広めた。",
+        "note_en": "A collection based on the author's experiences living in stigmatized properties, popularizing fear of hidden death histories embedded in ordinary rental housing."
+      }
+    ],
+    "2020": [
+      {
+        "label": "映画『事故物件 恐い間取り』公開",
+        "label_en": "Stigmatized Properties is released",
+        "startYear": 2020,
+        "genre": [
+          "FILM",
+          "SOCIAL"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E4%BA%8B%E6%95%85%E7%89%A9%E4%BB%B6_%E6%81%90%E3%81%84%E9%96%93%E5%8F%96%E3%82%8A",
+        "url_en": "https://en.wikipedia.org/wiki/Stigmatized_Properties",
+        "note": "事故物件怪談を大規模な劇場映画へ展開。ネット検索や不動産情報と結びつく現代的な「場所の履歴」の怖さを大衆化した。",
+        "note_en": "A major theatrical adaptation that mainstreamed contemporary fear of a property's hidden history, now searchable through the internet and real-estate information."
+      }
+    ],
+    "2023": [
+      {
+        "label": "背筋『近畿地方のある場所について』刊行",
+        "label_en": "Sesujii publishes About a Place in the Kinki Region",
+        "startYear": 2023,
+        "genre": [
+          "LITERATURE",
+          "INTERNET"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%BF%91%E7%95%BF%E5%9C%B0%E6%96%B9%E3%81%AE%E3%81%82%E3%82%8B%E5%A0%B4%E6%89%80%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "url_en": "https://en.wikipedia.org/wiki/About_a_Place_in_the_Kinki_Region",
+        "note": "Web連載から書籍化されたモキュメンタリー・ホラー。断片的な記事や記録を読者自身がつなぎ合わせる構造がネット時代の怪談形式を更新した。",
+        "note_en": "A web-serialized mock-documentary horror novel whose fragmented articles and records must be assembled by the reader, updating the ghost-story form for network culture."
+      }
+    ],
+    "2024": [
+      {
+        "label": "映画『変な家』公開",
+        "label_en": "The Floor Plan is released",
+        "startYear": 2024,
+        "genre": [
+          "FILM",
+          "INTERNET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%89%E3%81%AA%E5%AE%B6",
+        "url_en": "https://en.wikipedia.org/wiki/The_Floor_Plan",
+        "note": "Web動画と書籍から発展した「間取りの謎」をめぐるホラー・ミステリーが映画化。日常的な図面から異常を読み取る参加型の怖さが広がった。",
+        "note_en": "A horror mystery that grew from web video and books into a film, turning the interpretation of an ordinary floor plan into participatory unease."
+      }
+    ]
+  },
+  "eraSettings": [
+    {
+      "name": "江戸怪談と古典形成",
+      "startYear": 1666,
+      "endYear": 1903,
+      "color": "#6B4F3A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "近代怪談と映画化",
+      "startYear": 1904,
+      "endYear": 1967,
+      "color": "#4F6D7A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "オカルト・都市伝説",
+      "startYear": 1968,
+      "endYear": 1989,
+      "color": "#8A5A83",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "学校怪談とJホラー",
+      "startYear": 1990,
+      "endYear": 2003,
+      "color": "#7A3E48",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ネット怪談の成立",
+      "startYear": 2004,
+      "endYear": 2012,
+      "color": "#3E6B68",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "SNS・モキュメンタリー時代",
+      "startYear": 2013,
+      "endYear": "ongoing",
+      "color": "#5C5C8A",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "FOLKLORE",
+      "label": "伝承・怪談",
+      "label_en": "Folklore / Ghost Tales",
+      "conjunction": false
+    },
+    {
+      "code": "LITERATURE",
+      "label": "文学・出版",
+      "label_en": "Literature / Publishing",
+      "conjunction": false
+    },
+    {
+      "code": "PERFORMANCE",
+      "label": "舞台・口演",
+      "label_en": "Performance / Storytelling",
+      "conjunction": false
+    },
+    {
+      "code": "FILM",
+      "label": "映画・映像",
+      "label_en": "Film / Video",
+      "conjunction": false
+    },
+    {
+      "code": "TV",
+      "label": "テレビ・放送",
+      "label_en": "Television / Broadcasting",
+      "conjunction": false
+    },
+    {
+      "code": "URBAN_LEGEND",
+      "label": "都市伝説",
+      "label_en": "Urban Legend",
+      "conjunction": false
+    },
+    {
+      "code": "OCCULT",
+      "label": "心霊・オカルト",
+      "label_en": "Occult / Paranormal",
+      "conjunction": false
+    },
+    {
+      "code": "INTERNET",
+      "label": "ネット怪談",
+      "label_en": "Internet Horror",
+      "conjunction": false
+    },
+    {
+      "code": "GAME",
+      "label": "ゲーム",
+      "label_en": "Game",
+      "conjunction": false
+    },
+    {
+      "code": "SOCIAL",
+      "label": "社会現象・事件",
+      "label_en": "Social Phenomenon / Event",
+      "conjunction": false
+    }
+  ]
+}
