@@ -1,0 +1,1704 @@
+{
+  "metadata": {
+    "title": {
+      "ja": "AIと表現＋メディアの年表 0.1",
+      "en": "Timeline of AI, Expression, and Media 0.1"
+    },
+    "description": {
+      "ja": "この年表はAIと表現＋メディア分野の主な製品や出来事を示します。",
+      "en": "This timeline shows the major products and events in the xx field."
+    },
+    "initialCreator": "Satoshi Endo",
+    "contributors": [
+      "Satoshi Endo",
+      "Hortense Endo"
+    ],
+    "contact": {
+      "administrator": {
+        "name": "Satoshi Endo",
+        "email": "",
+        "x": "https://x.com/hortense667",
+        "organization": ""
+      }
+    },
+    "createdAt": "2025-10-01",
+    "version": "1",
+    "language": [
+      "ja",
+      "en"
+    ],
+    "copyright": "© 2025 Satoshi Endo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Updates from contributors are welcome. Please do not create separate versions. When reusing data, credit the original authors."
+  },
+  "events": {
+    "1884": [
+      {
+        "label": "ライノタイプ（鋳植機の発明）",
+        "label_en": "Linotype machine (invention)",
+        "startYear": 1884,
+        "genre": [
+          "MEDIATEC",
+          "JOURNALISM"
+        ],
+        "imp": 5,
+        "url": [
+          "https://ja.wikipedia.org/wiki/印刷",
+          "https://n-flexo.co.jp/blog/linotype-mergenthaler/"
+        ],
+        "url_en": "https://en.wikipedia.org/wiki/Linotype_machine",
+        "note": "組版を機械化し、新聞制作を“工業”に押し上げた。記事量・締切・速報競争の条件を変え、近代ジャーナリズムの速度を底上げ。 #メディア技術 #ジャーナリズム",
+        "note_en": "Mechanized typesetting industrialized newspapers, changing deadlines, volume, and the economics of speed in modern journalism. #メディア技術 #ジャーナリズム",
+        "_sheetRow": 2,
+        "_sheetTab": "events"
+      }
+    ],
+    "1888": [
+      {
+        "label": "The KODACK",
+        "label_en": "The KODACK",
+        "startYear": 1888,
+        "genre": [
+          "MEDIATEC"
+        ],
+        "imp": 5,
+        "url_en": "https://www.kodak.com/ja/company/page/george-eastman-history/",
+        "note": "コダックがボタン押すだけのカメラを発売。",
+        "_sheetRow": 5,
+        "_sheetTab": "events"
+      }
+    ],
+    "1895": [
+      {
+        "label": "シネマトグラフ",
+        "label_en": "Cinematographe",
+        "startYear": 1895,
+        "genre": [
+          "MEDIATEC",
+          "IMAGING",
+          "MEDIA",
+          "STANDARD",
+          "VIDEO"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%8D%E3%83%9E%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95",
+        "note": "撮影・映写・現像を1台でこなせる初期の映画製作・上映装置で、現代映画の基礎",
+        "_sheetRow": 3,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "プレイヤーピアノ（ピアノラの普及期）",
+        "label_en": "Player piano (Pianola era)",
+        "startYear": 1895,
+        "genre": [
+          "MISICTEC",
+          "EXPRESSIONTEC"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/自動ピアノ",
+        "url_en": [
+          "https://en.wikipedia.org/wiki/Player_piano",
+          "https://en.wikipedia.org/wiki/Pianola"
+        ],
+        "note": "演奏を「記録・再生・編集」可能な対象へ近づけた。のちのMIDIやサンプラー、生成音楽まで続く“自動演奏”の美学と産業の出発点。 #音楽技術 #表現技術",
+        "note_en": "Brought performance closer to recordable and editable data, a lineage that runs through MIDI, sampling, and generative music. #音楽技術 #表現技術",
+        "_sheetRow": 4,
+        "_sheetTab": "events"
+      }
+    ],
+    "1919": [
+      {
+        "label": "バウハウス",
+        "label_en": "Bauhaus",
+        "startYear": 1919,
+        "endYear": 1933,
+        "genre": [
+          "EXPRESSIONTEC",
+          "DESIGN"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バウハウス",
+        "url_en": "https://en.wikipedia.org/wiki/Bauhaus",
+        "note": "工芸・デザイン・産業技術を統合した教育運動。AI時代の「ツールが表現を規定する」議論に直結し、生成AIを“新しい工房”として捉える視点を与える。 #expressiontec #design",
+        "note_en": "Integrated craft, design, and industrial technology, directly relevant to how tools shape expression, including today’s AI “workshop” framing. #表現技術 #デザイン",
+        "_sheetRow": 6,
+        "_sheetTab": "events"
+      }
+    ],
+    "1920": [
+      {
+        "label": "R.U.R.",
+        "label_en": "R.U.R.",
+        "startYear": 1920,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/R.U.R.",
+        "url_en": "https://en.wikipedia.org/wiki/R.U.R.",
+        "note": "カレル・チャペックの戯曲。「ロボット」という言葉が登場。命名したのは兄のヨゼフ・チャペックらしい。#ks",
+        "_sheetRow": 7,
+        "_sheetTab": "events"
+      }
+    ],
+    "1927": [
+      {
+        "label": "メトロポリス",
+        "label_en": "Metropolis",
+        "startYear": 1927,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%B9_(1927%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)",
+        "url_en": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+        "note": "100年後のディストピア的な未来都市が描かれておりアンドロイドのマリアが登場。",
+        "_sheetRow": 8,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "オプチカルプリンタ（光学合成の確立期）",
+        "label_en": "Optical printer (optical compositing)",
+        "startYear": 1927,
+        "genre": [
+          "IMAGING",
+          "EXPRESSIONTEC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/オプチカルプリンター",
+        "url_en": "https://en.wikipedia.org/wiki/Optical_printer",
+        "note": "映像の合成・多重露光・タイトル処理などを“後処理の工学”にした。VFXと編集の分業、そして「現実は作れる」という感覚を映画表現に導入。 #映像技術 #表現技術",
+        "note_en": "Turned compositing into engineering, enabling modern VFX pipelines and the idea that cinematic reality can be constructed. #映像技術 #表現技術",
+        "_sheetRow": 9,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Televox",
+        "label_en": "Televox",
+        "startYear": 1927,
+        "genre": [
+          "ROBOT"
+        ],
+        "imp": 3,
+        "url_en": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Televox_and_R._J._Wensley_1928.jpg",
+        "note": "ウェスティングハウス社が製作した初期のロボット。電話信号に応答してスイッチを操作することができた。",
+        "_sheetRow": 10,
+        "_sheetTab": "events"
+      }
+    ],
+    "1935": [
+      {
+        "label": "APワイヤーフォト開始",
+        "label_en": "AP Wirephoto service begins",
+        "startYear": 1935,
+        "genre": [
+          "JOURNALISM",
+          "MEDIATEC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/写真電送",
+        "url_en": "https://en.wikipedia.org/wiki/Wirephoto",
+        "note": "写真が速報の主役になり、テキスト中心の報道を視覚中心へ押し進めた。現代のSNS時代の「画像が先に走る」報道文化の原型。 #ジャーナリズム #メディア技術",
+        "note_en": "Accelerated the shift from text-first to image-first news, a precursor to today’s social-media visual news dynamics. #ジャーナリズム #メディア技術",
+        "_sheetRow": 11,
+        "_sheetTab": "events"
+      }
+    ],
+    "1936": [
+      {
+        "label": "Turing machine",
+        "label_en": "Turing machine",
+        "startYear": 1936,
+        "genre": [
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリングマシン",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_machine",
+        "note": "アラン・チューリングが提唱した計算モデル。アルゴリズムと計算可能性の定義を与え、現代コンピュータの理論的起源。",
+        "_sheetRow": 12,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "複製技術時代の芸術",
+        "label_en": "The Work of Art in the Age of Mechanical Reproduction",
+        "startYear": 1936,
+        "genre": [
+          "ART"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E8%A4%87%E8%A3%BD%E6%8A%80%E8%A1%93%E6%99%82%E4%BB%A3%E3%81%AE%E8%8A%B8%E8%A1%93",
+        "note": "ドイツの文化評論家ヴァルター・ベンヤミンが1936年に著した評論。世界史において初めて、機械的な複製は芸術作品を儀式への寄生的な依存から解き放った」とベンヤミンは書いた。",
+        "_sheetRow": 13,
+        "_sheetTab": "events"
+      }
+    ],
+    "1942": [
+      {
+        "label": "ロボット工学三原則",
+        "label_en": "Three Laws of Robotics",
+        "startYear": 1942,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%B7%A5%E5%AD%A6%E4%B8%89%E5%8E%9F%E5%89%87",
+        "url_en": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+        "note": "アシモフが提示したロボット行動の基本原則。作品「Runaround」に登場。",
+        "_sheetRow": 14,
+        "_sheetTab": "events"
+      }
+    ],
+    "1945": [
+      {
+        "label": "「As We May Think」（メメックス構想）",
+        "label_en": "“As We May Think” (Memex)",
+        "startYear": 1945,
+        "genre": [
+          "MEDIATEC",
+          "KNOWLEDGE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Memex",
+        "url_en": "https://en.wikipedia.org/wiki/As_We_May_Think",
+        "note": "知の参照をリンク的に扱う発想の源流。ハイパーテキスト、検索、個人アーカイブ、そしてAIによる知識支援の遠い祖型。 #メディア技術 #知識流通",
+        "note_en": "A root idea for associative linking, anticipating hypertext, search, personal archives, and AI-assisted knowledge work. #メディア技術 #知識流通",
+        "_sheetRow": 15,
+        "_sheetTab": "events"
+      }
+    ],
+    "1948": [
+      {
+        "label": "サイバネティックス",
+        "label_en": "Cybernetics",
+        "startYear": 1948,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/サイバネティックス",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetics",
+        "note": "制御・通信の一般理論。フィードバック概念でAIとロボに影響。#ks",
+        "_sheetRow": 16,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "情報理論",
+        "label_en": "Information theory",
+        "startYear": 1948,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/情報理論",
+        "url_en": "https://en.wikipedia.org/wiki/Information_theory",
+        "note": "シャノンが通信における情報量と符号化を定式化。",
+        "_sheetRow": 17,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Von Neumann Universal Constructor",
+        "label_en": "Von Neumann Universal Constructor",
+        "startYear": 1948,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/自己複製機械",
+        "url_en": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor",
+        "note": "フォン・ノイマンによる自己増殖オートマトンの理論。生命の自己複製プロセスを数学的・論理的にモデル化した。",
+        "note_en": "Von Neumann's theory of self-reproducing automata. Mathematically and logically modeled the biological self-replication process.",
+        "_sheetRow": 18,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "ミュージック・コンクレート（鉄道のエチュード）",
+        "label_en": "Musique concrète (“Étude aux chemins de fer”)",
+        "startYear": 1948,
+        "genre": [
+          "MISICTEC",
+          "EXPRESSIONTEC",
+          "AI"
+        ],
+        "imp": 4,
+        "url": [
+          "https://kotobank.jp/word/みゆじつくこんくれーと-3187713",
+          "https://www.audio-technica.co.jp/always-listening/articles/musique-concrete/"
+        ],
+        "url_en": "https://www.medienkunstnetz.de/works/etude-aux-chemins-de-fer/",
+        "note": "録音素材を切り貼りし、編集そのものを作曲にした。生成AIの音楽制作が問う「素材と作者性」を、すでに1940年代に先取りしている。 #音楽技術 #表現技術 #AI",
+        "note_en": "Made editing itself composition, anticipating today’s debates on authorship, material, and generative creation in music. #音楽技術 #表現技術 #AI",
+        "_sheetRow": 19,
+        "_sheetTab": "events"
+      }
+    ],
+    "1950": [
+      {
+        "label": "チューリング・テスト",
+        "label_en": "Turing test",
+        "startYear": 1950,
+        "genre": [
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/チューリング・テスト",
+        "url_en": "https://en.wikipedia.org/wiki/Turing_test",
+        "note": "機械の知能を人と区別できるかを問う思考実験。AI評価基準として広く知られる概念。#ks",
+        "_sheetRow": 20,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "アシモフ『われはロボット』",
+        "label_en": "Asimov “I, Robot”",
+        "startYear": 1950,
+        "genre": [
+          "EXPRESSION",
+          "AI",
+          "ETHICS"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/われはロボット",
+        "url_en": "https://en.wikipedia.org/wiki/I,_Robot",
+        "note": "ロボット三原則は、技術の未来像を大衆に定着させた“物語による規制論”。AIの社会実装における倫理語彙の源泉の一つ。 #表現 #AI #倫理",
+        "note_en": "The Three Laws popularized a narrative-driven ethics framework, shaping how society talks about AI governance. #表現 #AI #倫理",
+        "_sheetRow": 21,
+        "_sheetTab": "events"
+      }
+    ],
+    "1952": [
+      {
+        "label": "『鉄腕アトム』（連載開始）",
+        "label_en": "Astro Boy (manga begins)",
+        "startYear": 1952,
+        "genre": [
+          "EXPRESSION",
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy",
+        "note": "日本における「ロボット＝友達／市民」のイメージ形成に決定的。技術観は報道だけでなく物語によっても作られることを示す。 #表現 #AI #日本",
+        "note_en": "Crucial in shaping Japan’s “robot as friend/citizen” imagination, showing narratives build tech worldviews alongside journalism. #表現 #AI #日本",
+        "_sheetRow": 22,
+        "_sheetTab": "events"
+      }
+    ],
+    "1955": [
+      {
+        "label": "生成文法（チョムスキー）",
+        "label_en": "Generative grammar",
+        "startYear": 1955,
+        "genre": [
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/生成文法",
+        "url_en": "https://en.wikipedia.org/wiki/Generative_grammar",
+        "note": "自然言語の形式的記述の基礎を築いた理論。AI言語処理にも影響。#ks",
+        "note_en": "A foundational theory of formal language description influencing NLP.",
+        "_sheetRow": 23,
+        "_sheetTab": "events"
+      }
+    ],
+    "1956": [
+      {
+        "label": "ダートマス会議",
+        "label_en": "Dartmouth workshop",
+        "startYear": 1956,
+        "genre": [
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E4%BC%9A%E8%AD%B0",
+        "url_en": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+        "note": "「人工知能」という研究分野名が提案された創始的会議。以後のAI研究の起点とされる。#ks",
+        "_sheetRow": 24,
+        "_sheetTab": "events"
+      }
+    ],
+    "1957": [
+      {
+        "label": "パーセプトロン",
+        "label_en": "Perceptron",
+        "startYear": 1957,
+        "genre": [
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/パーセプトロン",
+        "url_en": "https://en.wikipedia.org/wiki/Perceptron",
+        "note": "単純な神経回路網モデル。初期の機械学習研究を牽引し、後のニューラルネット基盤となった。#ks",
+        "_sheetRow": 25,
+        "_sheetTab": "events"
+      }
+    ],
+    "1963": [
+      {
+        "label": "『鉄腕アトム』（TVアニメ放送開始）",
+        "label_en": "Astro Boy (TV anime starts)",
+        "startYear": 1963,
+        "genre": [
+          "EXPRESSION",
+          "MEDIA"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/鉄腕アトム",
+        "url_en": "https://en.wikipedia.org/wiki/Astro_Boy_(1963_TV_series)",
+        "note": "映像メディアが技術観を量産・反復し、世代の共通言語にする例。AIが“日常語”になるプロセスの比較材料。 #表現 #メディア",
+        "note_en": "An example of mass audiovisual media turning a tech imagination into shared generational language, useful for comparing how AI becomes everyday talk. #表現 #メディア",
+        "_sheetRow": 26,
+        "_sheetTab": "events"
+      }
+    ],
+    "1964": [
+      {
+        "label": "ELIZA",
+        "label_en": "ELIZA",
+        "startYear": 1964,
+        "genre": [
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ELIZA",
+        "url_en": "https://en.wikipedia.org/wiki/ELIZA",
+        "note": "初期の対話型プログラム。パターン照合で人間らしい応答を模倣した。#ks",
+        "_sheetRow": 27,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "セル・オートマトン（理論の普及）",
+        "label_en": "Cellular automaton",
+        "startYear": 1964,
+        "genre": [
+          "AI",
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/セル・オートマトン",
+        "url_en": "https://en.wikipedia.org/wiki/Cellular_automaton",
+        "note": "局所規則から複雑性が生まれる計算モデル。",
+        "_sheetRow": 28,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Understanding Media",
+        "label_en": "Understanding Media",
+        "startYear": 1964,
+        "genre": [
+          "MEDIATEC",
+          "KNOWLEDGE"
+        ],
+        "imp": 4,
+        "url_en": "https://en.wikipedia.org/wiki/Understanding_Media",
+        "note": "マクルーハンの著作。「メディアはメッセージである」と説き、電子メディアが人間の知覚に与える影響を論じた。",
+        "note_en": "McLuhan's book. Argued \"The medium is the message,\" discussing electronic media's impact on human perception.",
+        "_sheetRow": 29,
+        "_sheetTab": "events"
+      }
+    ],
+    "1965": [
+      {
+        "label": "ハイパーテキストという語（テッド・ネルソン）",
+        "label_en": "Term “hypertext” coined (Ted Nelson)",
+        "startYear": 1965,
+        "genre": [
+          "MEDIATEC",
+          "KNOWLEDGE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ハイパーテキスト",
+        "url_en": [
+          "https://en.wikipedia.org/wiki/Hypertext",
+          "https://info.cern.ch/hypertext/WWW/WhatIs.html"
+        ],
+        "note": "リンクが文章の一部になると、読み方も書き方も変わる。AI時代の「生成された文章が別の文章を指す」引用・出典問題にも直結。 #メディア技術 #知識流通",
+        "note_en": "When links become part of text, reading and writing change, foreshadowing today’s citation and provenance issues in AI-generated text. #メディア技術 #知識流通",
+        "_sheetRow": 30,
+        "_sheetTab": "events"
+      }
+    ],
+    "1968": [
+      {
+        "label": "2001年宇宙の旅",
+        "label_en": "2001: A Space Odyssey",
+        "startYear": 1968,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/2001年宇宙の旅",
+        "url_en": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey",
+        "note": "知的コンピュータHALが登場。#ks",
+        "_sheetRow": 31,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Dynabook",
+        "label_en": "Dynabook",
+        "startYear": 1968,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ダイナブック",
+        "url_en": "https://en.wikipedia.org/wiki/Dynabook",
+        "note": "アラン・ケイが提唱した理想の個人用コンピュータ。ノートPCやタブレットの原型となるビジョン。",
+        "note_en": "Ideal personal computer proposed by Alan Kay. The vision that became the prototype for laptops and tablets.",
+        "_sheetRow": 32,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "展覧会「Cybernetic Serendipity」",
+        "startYear": 1968,
+        "genre": [
+          "EXPRESSIONTEC",
+          "AI",
+          "ART"
+        ],
+        "imp": 4,
+        "note": "コンピューターを“創作の道具”として公的に提示した象徴的イベント。AIと表現の議論を、技術史と美術史の両方に接続できる。 #表現技術 #AI #アート",
+        "label_en": "Exhibition “Cybernetic Serendipity”",
+        "url_en": "https://en.wikipedia.org/wiki/Cybernetic_Serendipity",
+        "note_en": "A landmark public framing of computers as creative tools, bridging tech history and art history for today’s AI-expression debates. #表現技術 #AI #アート"
+      }
+    ],
+    "1969": [
+      {
+        "label": "ARPANET最初の通信（“LO”）",
+        "label_en": "ARPANET first message (“LO”)",
+        "startYear": 1969,
+        "genre": [
+          "NET",
+          "MEDIATEC"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ARPANET",
+        "url_en": [
+          "https://www.icann.org/en/blogs/details/the-first-message-transmission-29-10-2019-en",
+          "https://en.wikipedia.org/wiki/ARPANET"
+        ],
+        "note": "ネットワークはメディアの配送路であり、同時に“参加型の場”でもある。ここから電子メール、掲示板、SNS、そして生成AIの流通基盤が育つ。 #インターネット #メディア技術",
+        "note_en": "Networks became both distribution channels and participatory spaces, enabling email, forums, social media, and today’s AI content circulation. #インターネット #メディア技術",
+        "_sheetRow": 34,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "ドラえもん",
+        "label_en": "Doraemon",
+        "startYear": 1969,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ドラえもん",
+        "url_en": "https://en.wikipedia.org/wiki/Doraemon",
+        "note": "未来から来た猫型ロボットが日常を助ける国民的作品。",
+        "_sheetRow": 35,
+        "_sheetTab": "events"
+      }
+    ],
+    "1970": [
+      {
+        "label": "ライフゲーム",
+        "label_en": "Conway’s Game of Life",
+        "startYear": 1970,
+        "genre": [
+          "AI",
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ライフゲーム",
+        "url_en": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life",
+        "note": "セル・オートマトンの代表例。単純規則から多様な挙動。#ks",
+        "_sheetRow": 36,
+        "_sheetTab": "events"
+      }
+    ],
+    "1971": [
+      {
+        "label": "電子メールの発明（@の導入）",
+        "label_en": "Email invented (Ray Tomlinson, @)",
+        "startYear": 1971,
+        "genre": [
+          "MEDIATEC",
+          "JOURNALISM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/電子メール",
+        "url_en": "https://en.wikipedia.org/wiki/History_of_email",
+        "note": "メッセージが個人に直結し、ニュース配信や仕事の流れを変えた。同時に後のスパム問題も内包する“便利と濫用”の原型。 #メディア技術 #ジャーナリズム",
+        "note_en": "Made person-to-person messaging a default medium, reshaping workflows and later enabling spam as the shadow side of convenience. #メディア技術 #ジャーナリズム",
+        "_sheetRow": 37,
+        "_sheetTab": "events"
+      }
+    ],
+    "1973": [
+      {
+        "label": "映画『ウエストワールド』（デジタル画像処理の先駆）",
+        "label_en": "Film “Westworld” (early digital image processing)",
+        "startYear": 1973,
+        "genre": [
+          "IMAGING",
+          "AI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/ウエストワールド",
+        "url_en": "https://www.historyofinformation.com/detail.php?id=1935",
+        "note": "CGI以前に「計算機で映像を処理する」現実的ルートを示した。AI映像の“前史”として語れる。 #映像技術 #AI",
+        "note_en": "A practical early route to computational image processing in film, a useful “prehistory” for AI video. #映像技術 #AI",
+        "_sheetRow": 38,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "AARON（ハロルド・コーエンの生成的アート）",
+        "label_en": "AARON (Harold Cohen)",
+        "startYear": 1973,
+        "genre": [
+          "ART",
+          "AI",
+          "EXPRESSIONTEC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ハロルド・コーエン",
+        "url_en": [
+          "https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/",
+          "https://whitney.org/exhibitions/harold-cohen-aaron"
+        ],
+        "note": "生成ルールと作者性の関係を、長期プロジェクトとして可視化した。生成AI時代の「作者はどこにいるのか」議論の土台。 #アート #AI #表現技術",
+        "note_en": "A long-running exploration of rules, generation, and authorship, directly relevant to “where the author is” in generative AI. #アート #AI #表現技術",
+        "_sheetRow": 39,
+        "_sheetTab": "events"
+      }
+    ],
+    "1976": [
+      {
+        "label": "Dykstraflex（デジタル制御モーションコントロール）",
+        "label_en": "Dykstraflex motion-control camera",
+        "startYear": 1976,
+        "genre": [
+          "IMAGING",
+          "MEDIATEC"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/モーションコントロール撮影",
+        "url_en": "https://en.wikipedia.org/wiki/Dykstraflex",
+        "note": "カメラ運動を“再現可能なデータ”にしたことで、合成と撮影が設計図で結びつく。のちのバーチャルプロダクションにも接続。 #映像技術 #メディア技術",
+        "note_en": "Turned camera movement into reproducible data, linking shooting and compositing via “blueprints,” a precursor to virtual production. #映像技術 #メディア技術",
+        "_sheetRow": 40,
+        "_sheetTab": "events"
+      }
+    ],
+    "1977": [
+      {
+        "label": "スター・ウォーズ (映画)のドロイド",
+        "label_en": "Star Wars droids",
+        "startYear": 1977,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AD%E3%82%A4%E3%83%89",
+        "url_en": "https://en.wikipedia.org/wiki/Droid_(Star_Wars)",
+        "note": "C-3POやR2-D2など意思疎通するロボット群。",
+        "_sheetRow": 41,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Trinity (Apple II, PET, TRS-80)",
+        "label_en": "Trinity (Apple II, PET, TRS-80)",
+        "startYear": 1977,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Apple_II",
+        "url_en": "https://en.wikipedia.org/wiki/Home_computer#1977_trinity",
+        "note": "1977年のパーソナルコンピュータ御三家。完成品として販売され、PCが大衆化・産業化する起点となった。",
+        "note_en": "The 1977 trinity of PCs. Sold as finished goods, marking the start of PC mass adoption and industrialization.",
+        "_sheetRow": 42,
+        "_sheetTab": "events"
+      }
+    ],
+    "1978": [
+      {
+        "label": "最初期のメールスパム（ARPANET広告）",
+        "label_en": "First email spam (ARPANET, 1978)",
+        "startYear": 1978,
+        "genre": [
+          "TRUST",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/スパム_(メール)",
+        "url_en": "https://en.wikipedia.org/wiki/Email_spam",
+        "note": "「到達コストが下がると広告が押し寄せる」現象がネット黎明期から確認できる。生成AI時代の“コンテンツ洪水”の比喩にも使える。 #信頼 #インターネット",
+        "note_en": "Shows that as delivery cost drops, unsolicited promotion floods in, a helpful analogy for AI-era content deluges. #信頼 #インターネット",
+        "_sheetRow": 43,
+        "_sheetTab": "events"
+      }
+    ],
+    "1979": [
+      {
+        "label": "Usenet（分散掲示板文化の始まり）",
+        "label_en": "Usenet (distributed discussion system)",
+        "startYear": 1979,
+        "endYear": 1980,
+        "genre": [
+          "NET",
+          "COMMUNITY"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Usenet",
+        "url_en": "https://en.wikipedia.org/wiki/Usenet",
+        "note": "スレッド文化、モデレーション、炎上、専門コミュニティなどの原型。AI時代の議論空間（フォーラム＋生成支援）を考える材料。 #インターネット #コミュニティ",
+        "note_en": "A prototype for threads, moderation, and community dynamics, useful for thinking about AI-augmented discourse spaces. #インターネット #コミュニティ",
+        "_sheetRow": 44,
+        "_sheetTab": "events"
+      }
+    ],
+    "1980": [
+      {
+        "label": "Roland TR-808",
+        "label_en": "Roland TR-808",
+        "startYear": 1980,
+        "genre": [
+          "MUSIC",
+          "STANDARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Roland_TR-808",
+        "url_en": "https://en.wikipedia.org/wiki/Roland_TR-808",
+        "note": "電子音楽を変えた名ドラムマシン。",
+        "note_en": "Iconic drum machine that reshaped music.",
+        "_sheetRow": 45,
+        "_sheetTab": "events"
+      }
+    ],
+    "1983": [
+      {
+        "label": "MIDI 1.0（規格の合意）",
+        "label_en": "MIDI 1.0 specification",
+        "startYear": 1983,
+        "genre": [
+          "MISICTEC",
+          "STANDARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/MIDI",
+        "url_en": "https://en.wikipedia.org/wiki/MIDI",
+        "note": "演奏情報を機械間で交換可能にし、音楽制作をソフトウェア化した。生成AIの音楽も、実務的にはMIDIやイベント表現と相性が良い。 #音楽技術 #標準化",
+        "note_en": "Standardized musical events across devices, accelerating software-based production and aligning well with generative workflows. #音楽技術 #標準化",
+        "_sheetRow": 46,
+        "_sheetTab": "events"
+      }
+    ],
+    "1984": [
+      {
+        "label": "PostScript（ページ記述言語の登場）",
+        "label_en": "Adobe PostScript released",
+        "startYear": 1984,
+        "genre": [
+          "MEDIATEC",
+          "MAGAZINE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/PostScript",
+        "url_en": "https://www.adobe.com/products/postscript.html",
+        "note": "「紙面をプログラムで書く」発明。雑誌・出版のワークフローを根底から変え、表現が“コード化”する系譜を作った。 #メディア技術 #雑誌",
+        "note_en": "Made page layout programmable, transforming magazine and publishing workflows and pushing expression toward “code.” #メディア技術 #雑誌",
+        "_sheetRow": 47,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Macintosh発売（GUIの大衆化）",
+        "label_en": "Macintosh released (GUI mainstreaming)",
+        "startYear": 1984,
+        "genre": [
+          "MEDIATEC",
+          "EXPRESSION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Macintosh_128K",
+        "url_en": "https://en.wikipedia.org/wiki/Macintosh_128K",
+        "note": "表現ツールの“操作系”が変わると、作り手の裾野が広がる。生成AIのUI設計（誰が使えるか）を語る比較対象。 #メディア技術 #表現",
+        "note_en": "When interfaces change, creators multiply, a strong comparison point for generative AI UX and accessibility. #メディア技術 #表現",
+        "_sheetRow": 48,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Racter",
+        "label_en": "Racter",
+        "startYear": 1984,
+        "genre": [
+          "CONTENT",
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url_en": "https://en.wikipedia.org/wiki/Racter",
+        "note": "英文散文の自動生成で話題に。年表作者のハイドルのhortenseはこのRacterのセリフから。",
+        "note_en": "Generated quirky English prose",
+        "_sheetRow": 49,
+        "_sheetTab": "events"
+      }
+    ],
+    "1985": [
+      {
+        "label": "リトル・コンピューター・ピープル",
+        "label_en": "Little Computer People",
+        "startYear": 1985,
+        "genre": [
+          "INFORMATION",
+          "CONTENT"
+        ],
+        "imp": 4,
+        "url_en": "https://en.wikipedia.org/wiki/Little_Computer_People",
+        "note": "生活シミュレーションの先駆。",
+        "note_en": "Pioneering life-simulation game on home PCs.",
+        "_sheetRow": 50,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "デスクトップパブリッシング革命（LaserWriter＋PageMaker）",
+        "label_en": "Desktop publishing revolution (LaserWriter + PageMaker)",
+        "startYear": 1985,
+        "genre": [
+          "MAGAZINE",
+          "MEDIATEC"
+        ],
+        "imp": 5,
+        "url": [
+          "https://ja.wikipedia.org/wiki/デスクトップパブリッシング",
+          "https://ja.wikipedia.org/wiki/PageMaker"
+        ],
+        "url_en": [
+          "https://en.wikipedia.org/wiki/Desktop_publishing",
+          "https://en.wikipedia.org/wiki/Aldus_PageMaker"
+        ],
+        "note": "雑誌制作の工程が小規模化し、編集とデザインが同じ画面に載る。AIが編集・校正・レイアウト補助へ入る“現在”の前提条件。 #雑誌 #メディア技術",
+        "note_en": "Shrank and unified magazine production workflows, setting the stage for today’s AI-assisted editing, proofreading, and layout. #雑誌 #メディア技術",
+        "_sheetRow": 51,
+        "_sheetTab": "events"
+      }
+    ],
+    "1988": [
+      {
+        "label": "Morris worm",
+        "label_en": "Morris worm",
+        "startYear": 1988,
+        "genre": [
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Morris_worm",
+        "url_en": "https://en.wikipedia.org/wiki/Morris_worm",
+        "note": "インターネット上で広まった初のワーム。ネットセキュリティの重要性を世界に認識させた。",
+        "note_en": "First worm to spread on the Internet. Made the world recognize importance of net security.",
+        "_sheetRow": 52,
+        "_sheetTab": "events"
+      }
+    ],
+    "1990": [
+      {
+        "label": "Adobe Photoshop 1.0",
+        "label_en": "Adobe Photoshop 1.0",
+        "startYear": 1990,
+        "genre": [
+          "TRUST",
+          "IMAGING"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Adobe_Photoshop",
+        "url_en": "https://en.wikipedia.org/wiki/Adobe_Photoshop",
+        "note": "画像の改変が日常化し、「写真＝証拠」という感覚を徐々に変える。ディープフェイク以前から“編集可能な現実”が進行していた。 #信頼 #映像技術",
+        "note_en": "Normalized image manipulation, slowly eroding “photo as evidence,” setting up the preconditions for deepfakes. #信頼 #映像技術",
+        "_sheetRow": 53,
+        "_sheetTab": "events"
+      }
+    ],
+    "1991": [
+      {
+        "label": "World Wide Web公開（CERN）",
+        "label_en": "World Wide Web released (CERN)",
+        "startYear": 1991,
+        "genre": [
+          "NET",
+          "KNOWLEDGE",
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web",
+        "url_en": "https://home.cern/science/computing/birth-web/short-history-web",
+        "note": "リンクで結ばれた公開空間が、個人出版と集合知を加速した。AIはこの“公開コーパス”を学習資源として利用し、逆にWebの形も変えていく。 #インターネット #知識流通 #AI",
+        "note_en": "A linked public space accelerated self-publishing and collective knowledge, later becoming a key training substrate for AI that now reshapes the web itself. #インターネット #知識流通 #AI",
+        "_sheetRow": 54,
+        "_sheetTab": "events"
+      }
+    ],
+    "1993": [
+      {
+        "label": "CERNがWebをパブリックドメイン化",
+        "label_en": "CERN puts the Web in the public domain",
+        "startYear": 1993,
+        "genre": [
+          "STANDARD",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web",
+        "url_en": "https://home.cern/science/computing/birth-web",
+        "note": "オープンな基盤が爆発的普及を生む典型例。AIでも「公開」「標準」「相互運用」が普及を左右する。 #標準化 #インターネット",
+        "note_en": "A classic case where openness drives adoption, a useful lens for AI standards and interoperability. #標準化 #インターネット",
+        "_sheetRow": 55,
+        "_sheetTab": "events"
+      }
+    ],
+    "1995": [
+      {
+        "label": "攻殻機動隊",
+        "label_en": "Ghost in the Shell",
+        "startYear": 1995,
+        "genre": [
+          "CONTENT"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GHOST_IN_THE_SHELL_/_%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A",
+        "url_en": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+        "note": "電脳化社会で自我とネットワークを問うSFアニメ。",
+        "_sheetRow": 56,
+        "_sheetTab": "events"
+      }
+    ],
+    "1997": [
+      {
+        "label": "Deep Blue（チェス）",
+        "label_en": "Deep Blue (chess)",
+        "startYear": 1997,
+        "genre": [
+          "INFORMATION",
+          "AI"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%BB%E3%83%96%E3%83%AB%E3%83%BC_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)",
+        "url_en": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+        "note": "カスパロフに勝利し歴史的転換点。",
+        "note_en": "Defeated Kasparov",
+        "_sheetRow": 57,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "ポストペット",
+        "label_en": "PostPet",
+        "startYear": 1997,
+        "genre": [
+          "INFORMATION",
+          "MEDIA",
+          "AI"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/PostPet",
+        "url_en": "https://en.wikipedia.org/wiki/PostPet",
+        "note": "“郵便ペット”が行動学習風の表現で人気。",
+        "note_en": "Virtual pet mailer with behavior-like learning.",
+        "_sheetRow": 58,
+        "_sheetTab": "events"
+      }
+    ],
+    "1998": [
+      {
+        "label": "ACID MUSIC",
+        "label_en": "ACID MUSIC",
+        "startYear": 1998,
+        "genre": [
+          "MUSIC",
+          "STANDARD",
+          "AI"
+        ],
+        "imp": 5,
+        "url_en": "https://en.wikipedia.org/wiki/Acid_Pro",
+        "note": "ループ素材をドラッグ＆ドロップしてテンポやキーを自動調整しながら直感的に曲を作る「ループシーケンサ」という作曲手法を確立した元祖であり、現在のDAW（デジタル・オーディオ・ワークステーション）のループ機能の基礎を築いた。",
+        "note_en": "MUSIC|STANDARD|AI",
+        "_sheetRow": 59,
+        "_sheetTab": "events"
+      }
+    ],
+    "1999": [
+      {
+        "label": "AIBO",
+        "label_en": "AIBO",
+        "startYear": 1999,
+        "genre": [
+          "INFORMATION",
+          "ROBOT",
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/AIBO",
+        "url_en": "https://en.wikipedia.org/wiki/AIBO",
+        "note": "ソニーの自律型犬型ロボット。家庭用ロボットの先駆け。#ks",
+        "_sheetRow": 60,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "シーマン",
+        "label_en": "Seaman",
+        "startYear": 1999,
+        "genre": [
+          "AI",
+          "CONTENT",
+          "INFORMATION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%BC%E3%83%9E%E3%83%B3",
+        "url_en": "https://en.wikipedia.org/wiki/Seaman_(video_game)",
+        "note": "音声対話型育成ゲームのヒット作。",
+        "note_en": "Hit voice-interactive virtual pet game.",
+        "_sheetRow": 61,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "どこでもいっしょ",
+        "label_en": "Doko Demo Issyo",
+        "startYear": 1999,
+        "genre": [
+          "AI",
+          "CONTENT",
+          "INFORMATION"
+        ],
+        "imp": 3,
+        "url": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%81%84%E3%81%A3%E3%81%97%E3%82%87",
+        "url_en": "https://en.wikipedia.org/wiki/Doko_Demo_Issyo",
+        "note": "ことばを学ぶコミュニケーションゲーム。",
+        "note_en": "Communication game where characters learn words.",
+        "_sheetRow": 62,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "RSS 0.91（ニュース配信の機械可読化）",
+        "label_en": "RSS 0.91 (syndication)",
+        "startYear": 1999,
+        "genre": [
+          "JOURNALISM",
+          "NET"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/RSS",
+        "url_en": "https://www.rssboard.org/rss-0-9-1-netscape",
+        "note": "更新通知が自動化され、個人が“自分の新聞”を組めるようになった。AIによる要約・推薦・自動編集の手前の重要な段階。 #ジャーナリズム #インターネット",
+        "note_en": "Automated update distribution enabled “build your own newspaper,” a key step toward AI summarization, recommendation, and automated editing. #ジャーナリズム #インターネット",
+        "_sheetRow": 63,
+        "_sheetTab": "events"
+      }
+    ],
+    "2001": [
+      {
+        "label": "Wikipedia開始",
+        "label_en": "Wikipedia launched",
+        "startYear": 2001,
+        "genre": [
+          "KNOWLEDGE",
+          "TRUST",
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ウィキペディア",
+        "url_en": "https://en.wikipedia.org/wiki/History_of_Wikipedia",
+        "note": "集合知と編集合意の社会実験。AI時代には出典・改変・学習素材の供給源としても中心的で、信頼の作り方が再び問われる。 #知識流通 #信頼 #AI",
+        "note_en": "A social experiment in consensus editing that becomes central again as an AI training and reference substrate, raising renewed trust questions. #知識流通 #信頼 #AI",
+        "_sheetRow": 64,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "Creative Commons設立",
+        "label_en": "Creative Commons founded",
+        "startYear": 2001,
+        "genre": [
+          "RIGHTS",
+          "STANDARD"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/クリエイティブ・コモンズ",
+        "url_en": "https://creativecommons.org/timeline/",
+        "note": "デジタル複製時代に合わせて権利表現を標準化した。生成AIの学習・二次利用・表示義務など、権利設計の議論で参照され続ける。 #権利 #標準化",
+        "note_en": "Standardized licensing for the digital copy era, frequently referenced in debates over AI training, reuse, and attribution. #権利 #標準化",
+        "_sheetRow": 65,
+        "_sheetTab": "events"
+      }
+    ],
+    "2005": [
+      {
+        "label": "YouTube開始（動画共有の大衆化）",
+        "label_en": "YouTube launches",
+        "startYear": 2005,
+        "genre": [
+          "PLATFORM",
+          "VIDEO"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/YouTube",
+        "url_en": "https://en.wikipedia.org/wiki/YouTube",
+        "note": "放送局型からプラットフォーム型へ。AI生成動画が“投稿可能”になったとき、流通が一気に加速する構造を先に示した。 #プラットフォーム #映像",
+        "note_en": "Shifted video from broadcaster-centric to platform-centric, foreshadowing how AI video scales once it becomes postable. #プラットフォーム #映像",
+        "_sheetRow": 66,
+        "_sheetTab": "events"
+      }
+    ],
+    "2006": [
+      {
+        "label": "Twitter開始（短文と拡散）",
+        "label_en": "Twitter launches",
+        "startYear": 2006,
+        "genre": [
+          "JOURNALISM",
+          "TRUST"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Twitter",
+        "url_en": "https://en.wikipedia.org/wiki/Twitter",
+        "note": "速報・実況・炎上・政治宣伝まで、短文拡散のメカニズムを社会に実装した。生成AIの自動投稿やボット問題の温床にも。 #ジャーナリズム #信頼",
+        "note_en": "Implemented short-form virality at scale, shaping breaking news and propaganda dynamics and later bot and AI autopost issues. #ジャーナリズム #信頼",
+        "_sheetRow": 67,
+        "_sheetTab": "events"
+      }
+    ],
+    "2007": [
+      {
+        "label": "iPhone発売（モバイル表現と市民ジャーナリズム）",
+        "label_en": "iPhone released (mobile media)",
+        "startYear": 2007,
+        "genre": [
+          "MOBILE",
+          "JOURNALISM"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/IPhone_(初代)",
+        "url_en": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+        "note": "カメラとネットが常時携帯され、取材・表現・配信が一体化。AIも“ポケットの編集長”として常駐しうる時代の入口。 #モバイル #ジャーナリズム",
+        "note_en": "Unified capture, creation, and distribution in a pocket device, opening the door to AI as an always-on “pocket editor.” #モバイル #ジャーナリズム",
+        "_sheetRow": 68,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "初音ミク (VOCALOID2)",
+        "label_en": "Hatsune Miku (VOCALOID2)",
+        "startYear": 2007,
+        "genre": [
+          "MUSIC",
+          "STANDARD"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/初音ミク",
+        "url_en": "https://en.wikipedia.org/wiki/Hatsune_Miku",
+        "note": "歌声合成キャラクター文化を確立。",
+        "note_en": "Iconic singing voice-synthesis character.",
+        "_sheetRow": 69,
+        "_sheetTab": "events"
+      }
+    ],
+    "2012": [
+      {
+        "label": "AlexNet",
+        "label_en": "AlexNet",
+        "startYear": 2012,
+        "genre": [
+          "AI",
+          "GENERATIVE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/AlexNet",
+        "url_en": "https://en.wikipedia.org/wiki/AlexNet",
+        "note": "GPU×深層CNNで画像認識を飛躍。#ks",
+        "note_en": "Deep CNN on GPUs revolutionized vision.",
+        "_sheetRow": 70,
+        "_sheetTab": "events"
+      }
+    ],
+    "2013": [
+      {
+        "label": "word2vec",
+        "label_en": "word2vec",
+        "startYear": 2013,
+        "genre": [
+          "AI",
+          "KNOWLEDGE"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/Word2vec",
+        "url_en": "https://en.wikipedia.org/wiki/Word2vec",
+        "note": "単語を連続ベクトルに埋め込む手法。多くのNLPで基盤に。",
+        "_sheetRow": 71,
+        "_sheetTab": "events"
+      }
+    ],
+    "2014": [
+      {
+        "label": "GAN（敵対的生成ネットワーク）",
+        "label_en": "Generative Adversarial Networks (GANs)",
+        "startYear": 2014,
+        "genre": [
+          "AI",
+          "GENERATIVE",
+          "TRUST"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/敵対的生成ネットワーク",
+        "url_en": "https://arxiv.org/abs/1406.2661",
+        "note": "生成モデルが“それらしく作る”能力を飛躍させ、画像・音声・動画の偽造可能性を現実にした。表現の拡張と信頼の危機が同時に始まる。 #AI #生成 #信頼",
+        "note_en": "A leap in generative modeling that made convincing synthetic media practical, simultaneously expanding expression and stressing trust. #AI #生成 #信頼",
+        "_sheetRow": 72,
+        "_sheetTab": "events"
+      }
+    ],
+    "2017": [
+      {
+        "label": "Transformer（Attention Is All You Need）",
+        "label_en": "Transformer architecture",
+        "startYear": 2017,
+        "genre": [
+          "AI",
+          "JOURNALISM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Transformer_(機械学習モデル)",
+        "url_en": "https://arxiv.org/abs/1706.03762",
+        "note": "大規模言語モデルの基盤となり、文章生成・要約・翻訳の性能を決定づけた。編集、校正、取材補助など“言葉の産業”全体を組み替える中核技術。 #AI #ジャーナリズム",
+        "note_en": "The foundation of large language models, transforming generation, summarization, and translation, and reshaping industries built on words. #AI #ジャーナリズム",
+        "_sheetRow": 73,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "「ディープフェイク」語の成立",
+        "label_en": "Term “deepfake” coined",
+        "startYear": 2017,
+        "genre": [
+          "TRUST",
+          "VIDEO",
+          "AI"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/ディープフェイク",
+        "url_en": [
+          "https://mitsloan.mit.edu/ideas-made-to-matter/deepfakes-explained",
+          "https://en.wikipedia.org/wiki/Deepfake"
+        ],
+        "note": "生成技術が社会問題化すると、名前が付いて議論が始まる。映像証拠の揺らぎ、選挙、名誉毀損、報道の検証手順の再設計を促す。 #信頼 #映像 #AI",
+        "note_en": "When a name appears, society starts coordinating a response, forcing new verification norms for audiovisual evidence, elections, and reputation. #信頼 #映像 #AI",
+        "_sheetRow": 74,
+        "_sheetTab": "events"
+      }
+    ],
+    "2019": [
+      {
+        "label": "StageCraft（LEDボリューム型バーチャルプロダクション）",
+        "label_en": "StageCraft (LED volume virtual production)",
+        "startYear": 2019,
+        "genre": [
+          "IMAGING",
+          "PRODUCTION"
+        ],
+        "imp": 4,
+        "url": "https://ja.wikipedia.org/wiki/バーチャルプロダクション",
+        "url_en": "https://en.wikipedia.org/wiki/StageCraft",
+        "note": "背景がリアルタイムCGになり、撮影現場が“合成の現場”へ戻ってきた。生成AI映像が制作工程に入るときの受け皿になる。 #映像技術 #制作",
+        "note_en": "Brought real-time CG back onto the set, making production itself a compositing environment, a natural receptacle for AI-assisted video workflows. #映像技術 #制作",
+        "_sheetRow": 75,
+        "_sheetTab": "events"
+      }
+    ],
+    "2020": [
+      {
+        "label": "GPT-3論文",
+        "label_en": "GPT-3 paper",
+        "startYear": 2020,
+        "genre": [
+          "AI",
+          "LANGUAGE",
+          "MAGAZINE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/GPT-3",
+        "url_en": "https://arxiv.org/abs/2005.14165",
+        "note": "「文章がそれらしく続く」だけで、要約、企画、対話、プログラミング補助まで用途が拡張した。雑誌編集やジャーナリズムの“補助知能”の現実化。 #AI #言語 #雑誌",
+        "note_en": "Showed how fluent continuation can generalize into summarization, ideation, dialogue, and assistance, enabling practical AI co-editing in journalism and magazines. #AI #言語 #雑誌",
+        "_sheetRow": 76,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "SPOT（ボストンダイナミクス）一般販売開始",
+        "label_en": "SPOT (Boston Dynamics) is now generally available.",
+        "startYear": 2020,
+        "genre": [
+          "AI",
+          "ROBOT"
+        ],
+        "url": "https://ja.wikipedia.org/wiki/Spot_(%E5%9B%9B%E8%82%A2%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)",
+        "note": "ボストン・ダイナミクスが製造・販売した四肢ロボット、四足歩行ロボット。自動化されたセンシング機能を備えており、周囲を観察・偵察しデータを収集して動きまわることができる",
+        "note_en": "A quadrupedal robot manufactured and sold by Boston Dynamics. It is equipped with automated sensing capabilities, allowing it to observe and scout its surroundings, collect data, and move around.",
+        "_sheetRow": 77,
+        "_sheetTab": "events"
+      }
+    ],
+    "2021": [
+      {
+        "label": "CLIP（画像と言語の結合）",
+        "label_en": "CLIP (vision-language model)",
+        "startYear": 2021,
+        "genre": [
+          "AI",
+          "SAERCH",
+          "EXPRESSION"
+        ],
+        "imp": 4,
+        "url": "https://qiita.com/hiyoko1729/items/459fb2b2444fccf30273",
+        "url_en": "https://arxiv.org/abs/2103.00020",
+        "note": "検索や推薦が「カテゴリ」から「自然言語」へ寄る重要な転換。表現の探索（画像アーカイブ、資料探し）にAIが深く入り込む土台。 #AI #検索 #表現",
+        "note_en": "A key shift from fixed categories to natural-language grounding, enabling AI-powered search and creative exploration across image archives. #AI #検索 #表現",
+        "_sheetRow": 78,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "C2PA設立（来歴・改変の標準化）",
+        "label_en": "C2PA founded (content provenance)",
+        "startYear": 2021,
+        "genre": [
+          "TRUST",
+          "STANDARD",
+          "JOURNALISM"
+        ],
+        "imp": 5,
+        "url": "https://www.jiima.or.jp/im/im_bn/initiatives_related_to_c2pa/",
+        "url_en": "https://c2pa.org/c2pa-founding-press-release/",
+        "note": "生成AIで改変が容易になるほど、出自・編集履歴のメタデータが重要になる。報道・広告・アーカイブの“信頼インフラ”を標準化する動き。 #信頼 #標準化 #ジャーナリズム",
+        "note_en": "As manipulation becomes trivial, provenance metadata becomes critical, standardizing trust infrastructure for news, ads, and archives. #信頼 #標準化 #ジャーナリズム",
+        "_sheetRow": 79,
+        "_sheetTab": "events"
+      }
+    ],
+    "2022": [
+      {
+        "label": "Stable Diffusion公開",
+        "label_en": "Stable Diffusion released",
+        "startYear": 2022,
+        "genre": [
+          "GENERATIVE",
+          "AI",
+          "EXPRESSION"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Stable_Diffusion",
+        "url_en": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+        "note": "画像生成が一般利用レベルへ降り、個人の制作速度と試行回数が桁違いになった。雑誌のビジュアル制作、広告、資料作りの現場に直接影響。 #生成 #AI #表現",
+        "note_en": "Brought high-quality text-to-image generation to broad users, multiplying iteration speed and impacting editorial, advertising, and visual production. #生成 #AI #表現",
+        "_sheetRow": 80,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "ChatGPT公開",
+        "label_en": "ChatGPT released",
+        "startYear": 2022,
+        "genre": [
+          "AI",
+          "JOURNALISM",
+          "MAGAZINE"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/ChatGPT",
+        "url_en": "https://openai.com/index/chatgpt/",
+        "note": "大衆が「対話でAIを使う」入口。編集会議の壁打ち、原稿の叩き台、取材の事前調査など、言語作業の実務にAIが常駐し始めた。 #AI #ジャーナリズム #雑誌",
+        "note_en": "Mainstreamed conversational AI as a workflow tool, embedding itself into ideation, drafting, and research for editorial and journalism. #AI #ジャーナリズム #雑誌",
+        "_sheetRow": 81,
+        "_sheetTab": "events"
+      }
+    ],
+    "2023": [
+      {
+        "label": "Content Credentials（透明性アイコンの普及加速）",
+        "label_en": "Content Credentials adoption accelerates",
+        "startYear": 2023,
+        "genre": [
+          "TRUST",
+          "EXPRESSION",
+          "STANDARD"
+        ],
+        "imp": 4,
+        "url": "https://blog.adobe.com/jp/publish/2023/10/11/cc-new-content-credentials-icon-transparency",
+        "url_en": "https://blog.adobe.com/en/publish/2023/10/10/new-content-credentials-icon-transparency",
+        "note": "生成物や編集物に「来歴」を添付する実装が具体化。作品・報道・広告の境界で、表示義務や説明責任の設計が現実課題になる。 #信頼 #表現 #標準化",
+        "note_en": "Concrete implementations of provenance labeling, turning transparency and accountability into practical policy and product questions. #信頼 #表現 #標準化",
+        "_sheetRow": 82,
+        "_sheetTab": "events"
+      }
+    ],
+    "2024": [
+      {
+        "label": "EU AI Act（包括的AI規制の採択）",
+        "label_en": "EU AI Act adopted",
+        "startYear": 2024,
+        "genre": [
+          "AI",
+          "JOURNALISM"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/人工知能法",
+        "url_en": [
+          "https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law",
+          "https://artificialintelligenceact.eu/developments/"
+        ],
+        "note": "生成AIの透明性、リスク分類、責任分界が法制度として整備され始めた。メディア企業の運用ルールや開示の“型”にも波及する。 #制度 #AI #ジャーナリズム",
+        "note_en": "Codified transparency and risk frameworks for AI, influencing operational rules and disclosure norms that ripple into media practices. #制度 #AI #ジャーナリズム",
+        "_sheetRow": 83,
+        "_sheetTab": "events"
+      },
+      {
+        "label": "OpenAI「Sora」発表（テキストから動画）",
+        "label_en": "OpenAI “Sora” announced (text-to-video)",
+        "startYear": 2024,
+        "genre": [
+          "GENERATIVE",
+          "AI",
+          "VIDEO",
+          "TRUST"
+        ],
+        "imp": 5,
+        "url": "https://ja.wikipedia.org/wiki/Sora_(text-to-video_model)",
+        "url_en": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+        "note": "動画生成が現実味を帯び、映像表現と偽情報リスクが同時に増幅。雑誌や報道が「動画の真偽」を扱う比重も高まる。 #生成 #AI #映像 #信頼",
+        "note_en": "Made text-to-video feel practical, amplifying both creative possibilities and misinformation risks, raising the stakes for verification in media. #生成 #AI #映像 #信頼",
+        "_sheetRow": 84,
+        "_sheetTab": "events"
+      }
+    ],
+    "2025": [
+      {
+        "label": "Sora 2（動画生成の高精度化と音声統合）",
+        "label_en": "Sora 2 released (video and audio generation)",
+        "startYear": 2025,
+        "genre": [
+          "GENERATIVE",
+          "AI",
+          "PRODUCTION"
+        ],
+        "imp": 4,
+        "url_en": "https://openai.com/index/sora-2/",
+        "note": "動画生成が“より制御可能で制作向き”に近づく。映像制作現場での役割分担（撮影、編集、VFX、音）を再編する圧力になる。 #生成 #AI #制作",
+        "note_en": "Improves controllability and integrates audio, pushing toward production-grade workflows and reorganizing roles across video and sound pipelines. #生",
+        "_sheetRow": 85,
+        "_sheetTab": "events"
+      }
+    ]
+  },
+  "eraSettings": [
+    {
+      "name": "アプリ全盛～モバイル・ネット登場",
+      "startYear": 1986,
+      "endYear": 1999,
+      "color": "#FFD700",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "ブロードバンドの時代",
+      "startYear": 2000,
+      "endYear": 2006,
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "スマートフォンの時代",
+      "startYear": 2007,
+      "endYear": "2021",
+      "color": "#DC143C",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    },
+    {
+      "name": "AIの時代",
+      "startYear": 2022,
+      "endYear": "ongoing",
+      "color": "#4169E1",
+      "opacity": "0.3",
+      "enabled": true,
+      "fillEnabled": false
+    }
+  ],
+  "genres": [
+    {
+      "code": "MEDIATEC",
+      "label": "メディア技術",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "JOURNALISM",
+      "label": "ジャーナリズム",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "KNOWLEDGE",
+      "label": "知識流通",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "MUSIC",
+      "label": "音楽",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "EXPRESSIONTEC",
+      "label": "表現技術",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "DESIGN",
+      "label": "デザイン",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "IMAGING",
+      "label": "映像技術",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "AI",
+      "label": "AI",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "ETHICS",
+      "label": "倫理",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "MEDIA",
+      "label": "メディア",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "EXPRESSION",
+      "label": "表現",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "NET",
+      "label": "インターネット",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "ART",
+      "label": "アート",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "TRUST",
+      "label": "信頼",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "COMMUNITY",
+      "label": "コミュニティ",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "MISICTEC",
+      "label": "音楽技術",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "STANDARD",
+      "label": "標準化",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "MAGAZINE",
+      "label": "雑誌",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "RIGHTS",
+      "label": "権利",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "PLATFORM",
+      "label": "プラットフォーム",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "VIDEO",
+      "label": "映像",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "MOBILE",
+      "label": "モバイル",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "PRODUCTION",
+      "label": "制作",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "LANGUAGE",
+      "label": "言語",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "SAERCH",
+      "label": "検索",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "GENERATIVE",
+      "label": "生成",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "CONTENT",
+      "label": "コンテンツ",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "ROBOT",
+      "label": "ロボット",
+      "label_en": "FALSE",
+      "conjunction": false
+    },
+    {
+      "code": "INFORMATION",
+      "label": "情報",
+      "label_en": "FALSE",
+      "conjunction": false
+    }
+  ]
+}
